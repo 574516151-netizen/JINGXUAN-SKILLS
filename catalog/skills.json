@@ -1,0 +1,802 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-06T17:13:25.829Z",
+  "items": [
+    {
+      "id": "anthropics-skills-canvas-design",
+      "type": "skill",
+      "displayName": "海报与视觉画布",
+      "description": "以设计理念组织海报、视觉画布与静态作品",
+      "categories": [
+        "平面设计"
+      ],
+      "tags": [
+        "画布设计"
+      ],
+      "language": "en",
+      "publisher": "Anthropic",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/canvas-design",
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "path": "skills/canvas-design",
+        "licenseFiles": []
+      },
+      "license": "Complete terms in LICENSE.txt",
+      "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/canvas-design/LICENSE.txt",
+      "downloadAllowed": true,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 canvas-design 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:06.142Z"
+    },
+    {
+      "id": "anthropics-skills-algorithmic-art",
+      "type": "skill",
+      "displayName": "生成艺术",
+      "description": "用代码探索参数化图形、粒子与生成艺术",
+      "categories": [
+        "平面设计"
+      ],
+      "tags": [
+        "生成艺术"
+      ],
+      "language": "en",
+      "publisher": "Anthropic",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/algorithmic-art",
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "path": "skills/algorithmic-art",
+        "licenseFiles": []
+      },
+      "license": "Complete terms in LICENSE.txt",
+      "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/algorithmic-art/LICENSE.txt",
+      "downloadAllowed": true,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 algorithmic-art 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:07.199Z"
+    },
+    {
+      "id": "anthropics-skills-brand-guidelines",
+      "type": "skill",
+      "displayName": "品牌视觉规范",
+      "description": "为作品应用品牌颜色、字体和视觉规范",
+      "categories": [
+        "平面设计"
+      ],
+      "tags": [
+        "品牌规范"
+      ],
+      "language": "en",
+      "publisher": "Anthropic",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/brand-guidelines",
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "path": "skills/brand-guidelines",
+        "licenseFiles": []
+      },
+      "license": "Complete terms in LICENSE.txt",
+      "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/brand-guidelines/LICENSE.txt",
+      "downloadAllowed": true,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 brand-guidelines 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:07.727Z"
+    },
+    {
+      "id": "anthropics-skills-frontend-design",
+      "type": "skill",
+      "displayName": "前端界面设计",
+      "description": "把需求转成具有视觉特色的网页与组件",
+      "categories": [
+        "UI 设计"
+      ],
+      "tags": [
+        "界面设计"
+      ],
+      "language": "en",
+      "publisher": "Anthropic",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/frontend-design",
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "path": "skills/frontend-design",
+        "licenseFiles": []
+      },
+      "license": "Complete terms in LICENSE.txt",
+      "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/frontend-design/LICENSE.txt",
+      "downloadAllowed": true,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 frontend-design 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:08.417Z"
+    },
+    {
+      "id": "anthropics-skills-theme-factory",
+      "type": "skill",
+      "displayName": "设计主题与配色",
+      "description": "为文档、幻灯片和网页应用统一主题",
+      "categories": [
+        "UI 设计"
+      ],
+      "tags": [
+        "配色主题"
+      ],
+      "language": "en",
+      "publisher": "Anthropic",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/theme-factory",
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "path": "skills/theme-factory",
+        "licenseFiles": []
+      },
+      "license": "Complete terms in LICENSE.txt",
+      "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/theme-factory/LICENSE.txt",
+      "downloadAllowed": true,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 theme-factory 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:08.965Z"
+    },
+    {
+      "id": "vercel-labs-agent-skills-web-design-guidelines",
+      "type": "skill",
+      "displayName": "网页设计审查",
+      "description": "检查网页可访问性、交互和设计规范",
+      "categories": [
+        "UI 设计"
+      ],
+      "tags": [
+        "设计审查"
+      ],
+      "language": "en",
+      "publisher": "Vercel",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/web-design-guidelines",
+      "source": {
+        "repo": "vercel-labs/agent-skills",
+        "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+        "path": "skills/web-design-guidelines",
+        "licenseFiles": []
+      },
+      "license": "未发现明确许可证",
+      "licenseUrl": "",
+      "downloadAllowed": false,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 web-design-guidelines 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:10.791Z"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-modeling",
+      "type": "skill",
+      "displayName": "Blender 三维建模",
+      "description": "在 Blender 中进行网格建模与修改器工作",
+      "categories": [
+        "3D 设计"
+      ],
+      "tags": [
+        "建模"
+      ],
+      "language": "en",
+      "publisher": "RobLe3",
+      "sourceKind": "社区作者仓库",
+      "sourceUrl": "https://github.com/RobLe3/cc-blender-skill/tree/11016c9a5847897491dde935c346571bd7548e3d/plugin/skills/blender-modeling",
+      "source": {
+        "repo": "RobLe3/cc-blender-skill",
+        "ref": "11016c9a5847897491dde935c346571bd7548e3d",
+        "path": "plugin/skills/blender-modeling",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "license": "MIT",
+      "licenseUrl": "https://github.com/RobLe3/cc-blender-skill/blob/11016c9a5847897491dde935c346571bd7548e3d/LICENSE",
+      "downloadAllowed": true,
+      "requirements": [
+        "Blender",
+        "Blender MCP",
+        "按上游说明安装配套 Blender Skills"
+      ],
+      "usage": "下载后在支持 Skills 的工具中按上游步骤安装。需连接 Blender MCP，并准备该系列的配套 Skills。助手负责文件管理，不直接操作 Blender。",
+      "prompt": "请使用 blender-modeling 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:11.737Z"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-materials",
+      "type": "skill",
+      "displayName": "Blender 材质设计",
+      "description": "组织材质、纹理和节点工作流",
+      "categories": [
+        "3D 设计"
+      ],
+      "tags": [
+        "材质"
+      ],
+      "language": "en",
+      "publisher": "RobLe3",
+      "sourceKind": "社区作者仓库",
+      "sourceUrl": "https://github.com/RobLe3/cc-blender-skill/tree/11016c9a5847897491dde935c346571bd7548e3d/plugin/skills/blender-materials",
+      "source": {
+        "repo": "RobLe3/cc-blender-skill",
+        "ref": "11016c9a5847897491dde935c346571bd7548e3d",
+        "path": "plugin/skills/blender-materials",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "license": "MIT",
+      "licenseUrl": "https://github.com/RobLe3/cc-blender-skill/blob/11016c9a5847897491dde935c346571bd7548e3d/LICENSE",
+      "downloadAllowed": true,
+      "requirements": [
+        "Blender",
+        "Blender MCP",
+        "按上游说明安装配套 Blender Skills"
+      ],
+      "usage": "下载后在支持 Skills 的工具中按上游步骤安装。需连接 Blender MCP，并准备该系列的配套 Skills。助手负责文件管理，不直接操作 Blender。",
+      "prompt": "请使用 blender-materials 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:12.708Z"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-lighting",
+      "type": "skill",
+      "displayName": "Blender 布光",
+      "description": "设置场景灯光、环境与产品布光",
+      "categories": [
+        "3D 设计"
+      ],
+      "tags": [
+        "灯光"
+      ],
+      "language": "en",
+      "publisher": "RobLe3",
+      "sourceKind": "社区作者仓库",
+      "sourceUrl": "https://github.com/RobLe3/cc-blender-skill/tree/11016c9a5847897491dde935c346571bd7548e3d/plugin/skills/blender-lighting",
+      "source": {
+        "repo": "RobLe3/cc-blender-skill",
+        "ref": "11016c9a5847897491dde935c346571bd7548e3d",
+        "path": "plugin/skills/blender-lighting",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "license": "MIT",
+      "licenseUrl": "https://github.com/RobLe3/cc-blender-skill/blob/11016c9a5847897491dde935c346571bd7548e3d/LICENSE",
+      "downloadAllowed": true,
+      "requirements": [
+        "Blender",
+        "Blender MCP",
+        "按上游说明安装配套 Blender Skills"
+      ],
+      "usage": "下载后在支持 Skills 的工具中按上游步骤安装。需连接 Blender MCP，并准备该系列的配套 Skills。助手负责文件管理，不直接操作 Blender。",
+      "prompt": "请使用 blender-lighting 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:14.383Z"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-rendering",
+      "type": "skill",
+      "displayName": "Blender 渲染",
+      "description": "配置渲染质量并输出场景图像",
+      "categories": [
+        "3D 设计"
+      ],
+      "tags": [
+        "渲染"
+      ],
+      "language": "en",
+      "publisher": "RobLe3",
+      "sourceKind": "社区作者仓库",
+      "sourceUrl": "https://github.com/RobLe3/cc-blender-skill/tree/11016c9a5847897491dde935c346571bd7548e3d/plugin/skills/blender-rendering",
+      "source": {
+        "repo": "RobLe3/cc-blender-skill",
+        "ref": "11016c9a5847897491dde935c346571bd7548e3d",
+        "path": "plugin/skills/blender-rendering",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "license": "MIT",
+      "licenseUrl": "https://github.com/RobLe3/cc-blender-skill/blob/11016c9a5847897491dde935c346571bd7548e3d/LICENSE",
+      "downloadAllowed": true,
+      "requirements": [
+        "Blender",
+        "Blender MCP",
+        "按上游说明安装配套 Blender Skills"
+      ],
+      "usage": "下载后在支持 Skills 的工具中按上游步骤安装。需连接 Blender MCP，并准备该系列的配套 Skills。助手负责文件管理，不直接操作 Blender。",
+      "prompt": "请使用 blender-rendering 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:15.354Z"
+    },
+    {
+      "id": "qzfcoder-photo-retouch-pro-photo-retouch-pro",
+      "type": "skill",
+      "displayName": "照片精修与诊断",
+      "description": "诊断照片问题并生成局部修图方案和提示词",
+      "categories": [
+        "商业修图"
+      ],
+      "tags": [
+        "中文修图"
+      ],
+      "language": "zh",
+      "publisher": "qzfcoder",
+      "sourceKind": "社区作者仓库",
+      "sourceUrl": "https://github.com/qzfcoder/photo-retouch-pro",
+      "source": {
+        "repo": "qzfcoder/photo-retouch-pro",
+        "ref": "bd963066b15f9dda1f46b10e63427f1046b57acc",
+        "path": "",
+        "licenseFiles": []
+      },
+      "license": "未发现明确许可证",
+      "licenseUrl": "",
+      "downloadAllowed": false,
+      "requirements": [
+        "具备图像分析能力的 AI 工具",
+        "实际修图需要图像编辑工具"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 photo-retouch-pro 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:16.100Z"
+    },
+    {
+      "id": "commercial-retouch-brief",
+      "type": "template",
+      "displayName": "商业修图需求与验收清单",
+      "description": "整理商品、人像修图需求，明确保留内容、调整范围与交付标准",
+      "categories": [
+        "商业修图"
+      ],
+      "tags": [
+        "中文",
+        "需求清单"
+      ],
+      "language": "zh",
+      "publisher": "Cockpit",
+      "sourceKind": "项目自编模板",
+      "sourceUrl": "https://github.com/574516151-netizen/QDZS",
+      "license": "CC0-1.0",
+      "requirements": [
+        "支持文本对话的 AI 工具"
+      ],
+      "usage": "替换提示词中的占位符并附上参考图，将生成的修图需求交给实际修图工具或设计师。",
+      "prompt": "请为这组{{图片类型}}制定商业修图方案。\n用途：{{投放渠道}}\n目标风格：{{目标风格}}\n必须保留：{{保留内容}}\n允许修改：{{修改范围}}\n交付规格：{{交付规格}}\n请输出逐图问题诊断、局部调整步骤、可用于图像编辑工具的提示词和验收清单。不要凭空改变商品细节或人物身份；没有实际编辑工具时只提供方案并明确说明。",
+      "notes": "这是提示词模板，不包含修图程序，也不会在助手内直接编辑图片。",
+      "verifiedAt": "2026-10-06T17:13:25.828Z"
+    },
+    {
+      "id": "anthropics-skills-docx",
+      "type": "skill",
+      "displayName": "Word 文档",
+      "description": "创建、编辑和处理 Word 文档",
+      "categories": [
+        "日常办公"
+      ],
+      "tags": [
+        "文档"
+      ],
+      "language": "en",
+      "publisher": "Anthropic",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/docx",
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "path": "skills/docx",
+        "licenseFiles": []
+      },
+      "license": "Proprietary. LICENSE.txt has complete terms",
+      "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/docx/LICENSE.txt",
+      "downloadAllowed": true,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 docx 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:17.074Z"
+    },
+    {
+      "id": "anthropics-skills-pdf",
+      "type": "skill",
+      "displayName": "PDF 处理",
+      "description": "提取、合并、拆分及处理 PDF 文件",
+      "categories": [
+        "日常办公"
+      ],
+      "tags": [
+        "PDF"
+      ],
+      "language": "en",
+      "publisher": "Anthropic",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/pdf",
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "path": "skills/pdf",
+        "licenseFiles": []
+      },
+      "license": "Proprietary. LICENSE.txt has complete terms",
+      "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/pdf/LICENSE.txt",
+      "downloadAllowed": true,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 pdf 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:17.970Z"
+    },
+    {
+      "id": "anthropics-skills-pptx",
+      "type": "skill",
+      "displayName": "演示文稿",
+      "description": "制作、编辑及分析 PowerPoint 演示文稿",
+      "categories": [
+        "日常办公"
+      ],
+      "tags": [
+        "PPT"
+      ],
+      "language": "en",
+      "publisher": "Anthropic",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/pptx",
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "path": "skills/pptx",
+        "licenseFiles": []
+      },
+      "license": "Proprietary. LICENSE.txt has complete terms",
+      "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/pptx/LICENSE.txt",
+      "downloadAllowed": true,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 pptx 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:19.066Z"
+    },
+    {
+      "id": "anthropics-skills-xlsx",
+      "type": "skill",
+      "displayName": "电子表格",
+      "description": "创建、编辑和分析电子表格",
+      "categories": [
+        "日常办公"
+      ],
+      "tags": [
+        "表格"
+      ],
+      "language": "en",
+      "publisher": "Anthropic",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/xlsx",
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "path": "skills/xlsx",
+        "licenseFiles": []
+      },
+      "license": "Proprietary. LICENSE.txt has complete terms",
+      "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/xlsx/LICENSE.txt",
+      "downloadAllowed": true,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 xlsx 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:19.786Z"
+    },
+    {
+      "id": "anthropics-skills-doc-coauthoring",
+      "type": "skill",
+      "displayName": "文档协作写作",
+      "description": "通过结构化步骤协作撰写提案、说明和决策文档",
+      "categories": [
+        "日常办公"
+      ],
+      "tags": [
+        "写作"
+      ],
+      "language": "en",
+      "publisher": "Anthropic",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/doc-coauthoring",
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "path": "skills/doc-coauthoring",
+        "licenseFiles": []
+      },
+      "license": "未发现明确许可证",
+      "licenseUrl": "",
+      "downloadAllowed": false,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 doc-coauthoring 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:20.685Z"
+    },
+    {
+      "id": "anthropics-skills-internal-comms",
+      "type": "skill",
+      "displayName": "工作沟通写作",
+      "description": "组织内部工作报告、公告和常见沟通内容",
+      "categories": [
+        "日常办公"
+      ],
+      "tags": [
+        "沟通"
+      ],
+      "language": "en",
+      "publisher": "Anthropic",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/internal-comms",
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "path": "skills/internal-comms",
+        "licenseFiles": []
+      },
+      "license": "Complete terms in LICENSE.txt",
+      "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/internal-comms/LICENSE.txt",
+      "downloadAllowed": true,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 internal-comms 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:21.948Z"
+    },
+    {
+      "id": "anthropics-skills-mcp-builder",
+      "type": "skill",
+      "displayName": "MCP 服务开发",
+      "description": "构建工具接口清晰的 MCP 服务",
+      "categories": [
+        "软件开发"
+      ],
+      "tags": [
+        "MCP"
+      ],
+      "language": "en",
+      "publisher": "Anthropic",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/mcp-builder",
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "path": "skills/mcp-builder",
+        "licenseFiles": []
+      },
+      "license": "Complete terms in LICENSE.txt",
+      "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/mcp-builder/LICENSE.txt",
+      "downloadAllowed": true,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 mcp-builder 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:22.714Z"
+    },
+    {
+      "id": "anthropics-skills-webapp-testing",
+      "type": "skill",
+      "displayName": "网页应用测试",
+      "description": "使用浏览器测试本地网页行为与界面",
+      "categories": [
+        "软件开发"
+      ],
+      "tags": [
+        "测试"
+      ],
+      "language": "en",
+      "publisher": "Anthropic",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/webapp-testing",
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "path": "skills/webapp-testing",
+        "licenseFiles": []
+      },
+      "license": "Complete terms in LICENSE.txt",
+      "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/webapp-testing/LICENSE.txt",
+      "downloadAllowed": true,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 webapp-testing 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:23.249Z"
+    },
+    {
+      "id": "anthropics-skills-web-artifacts-builder",
+      "type": "skill",
+      "displayName": "网页组件与产物",
+      "description": "构建具有多个组件的网页交互产物",
+      "categories": [
+        "软件开发"
+      ],
+      "tags": [
+        "前端开发"
+      ],
+      "language": "en",
+      "publisher": "Anthropic",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/web-artifacts-builder",
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "path": "skills/web-artifacts-builder",
+        "licenseFiles": []
+      },
+      "license": "Complete terms in LICENSE.txt",
+      "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/web-artifacts-builder/LICENSE.txt",
+      "downloadAllowed": true,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 web-artifacts-builder 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:24.368Z"
+    },
+    {
+      "id": "vercel-labs-agent-skills-vercel-react-best-practices",
+      "type": "skill",
+      "displayName": "React 性能实践",
+      "description": "检查 React 与 Next.js 的性能实现",
+      "categories": [
+        "软件开发"
+      ],
+      "tags": [
+        "React"
+      ],
+      "language": "en",
+      "publisher": "Vercel",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-best-practices",
+      "source": {
+        "repo": "vercel-labs/agent-skills",
+        "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+        "path": "skills/react-best-practices",
+        "licenseFiles": []
+      },
+      "license": "MIT",
+      "licenseUrl": "",
+      "downloadAllowed": false,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 vercel-react-best-practices 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:24.928Z"
+    },
+    {
+      "id": "vercel-labs-agent-skills-vercel-composition-patterns",
+      "type": "skill",
+      "displayName": "React 组件组合",
+      "description": "改进组件组合方式和可复用接口",
+      "categories": [
+        "软件开发"
+      ],
+      "tags": [
+        "组件架构"
+      ],
+      "language": "en",
+      "publisher": "Vercel",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/composition-patterns",
+      "source": {
+        "repo": "vercel-labs/agent-skills",
+        "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+        "path": "skills/composition-patterns",
+        "licenseFiles": []
+      },
+      "license": "MIT",
+      "licenseUrl": "",
+      "downloadAllowed": false,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 vercel-composition-patterns 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:25.429Z"
+    },
+    {
+      "id": "vercel-labs-agent-skills-vercel-react-native-skills",
+      "type": "skill",
+      "displayName": "React Native 开发",
+      "description": "组织 React Native 与 Expo 应用实现",
+      "categories": [
+        "软件开发"
+      ],
+      "tags": [
+        "移动开发"
+      ],
+      "language": "en",
+      "publisher": "Vercel",
+      "sourceKind": "作者官方仓库",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills",
+      "source": {
+        "repo": "vercel-labs/agent-skills",
+        "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+        "path": "skills/react-native-skills",
+        "licenseFiles": []
+      },
+      "license": "MIT",
+      "licenseUrl": "",
+      "downloadAllowed": false,
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "按上游说明准备运行依赖"
+      ],
+      "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
+      "prompt": "请使用 vercel-react-native-skills 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
+      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
+      "verifiedAt": "2026-10-06T17:13:25.828Z"
+    }
+  ]
+}
