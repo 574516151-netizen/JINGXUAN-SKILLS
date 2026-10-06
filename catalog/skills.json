@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T17:13:25.829Z",
+  "updatedAt": "2026-10-06T19:06:02.037Z",
   "items": [
     {
       "id": "anthropics-skills-canvas-design",
@@ -23,7 +23,7 @@
         "path": "skills/canvas-design",
         "licenseFiles": []
       },
-      "license": "Complete terms in LICENSE.txt",
+      "license": "Apache-2.0",
       "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/canvas-design/LICENSE.txt",
       "downloadAllowed": true,
       "requirements": [
@@ -32,8 +32,28 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 canvas-design 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:06.142Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 179886,
+        "forks": 21269,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/anthropics/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T13:46:45Z",
+        "archived": false
+      }
     },
     {
       "id": "anthropics-skills-algorithmic-art",
@@ -56,7 +76,7 @@
         "path": "skills/algorithmic-art",
         "licenseFiles": []
       },
-      "license": "Complete terms in LICENSE.txt",
+      "license": "Apache-2.0",
       "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/algorithmic-art/LICENSE.txt",
       "downloadAllowed": true,
       "requirements": [
@@ -65,8 +85,28 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 algorithmic-art 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:07.199Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 179886,
+        "forks": 21269,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/anthropics/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T13:46:45Z",
+        "archived": false
+      }
     },
     {
       "id": "anthropics-skills-brand-guidelines",
@@ -89,7 +129,7 @@
         "path": "skills/brand-guidelines",
         "licenseFiles": []
       },
-      "license": "Complete terms in LICENSE.txt",
+      "license": "Apache-2.0",
       "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/brand-guidelines/LICENSE.txt",
       "downloadAllowed": true,
       "requirements": [
@@ -98,8 +138,28 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 brand-guidelines 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:07.727Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 179886,
+        "forks": 21269,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/anthropics/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T13:46:45Z",
+        "archived": false
+      }
     },
     {
       "id": "anthropics-skills-frontend-design",
@@ -122,7 +182,7 @@
         "path": "skills/frontend-design",
         "licenseFiles": []
       },
-      "license": "Complete terms in LICENSE.txt",
+      "license": "Apache-2.0",
       "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/frontend-design/LICENSE.txt",
       "downloadAllowed": true,
       "requirements": [
@@ -131,8 +191,28 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 frontend-design 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:08.417Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 179886,
+        "forks": 21269,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/anthropics/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T13:46:45Z",
+        "archived": false
+      }
     },
     {
       "id": "anthropics-skills-theme-factory",
@@ -155,7 +235,7 @@
         "path": "skills/theme-factory",
         "licenseFiles": []
       },
-      "license": "Complete terms in LICENSE.txt",
+      "license": "Apache-2.0",
       "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/theme-factory/LICENSE.txt",
       "downloadAllowed": true,
       "requirements": [
@@ -164,8 +244,28 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 theme-factory 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:08.965Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 179886,
+        "forks": 21269,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/anthropics/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T13:46:45Z",
+        "archived": false
+      }
     },
     {
       "id": "vercel-labs-agent-skills-web-design-guidelines",
@@ -188,8 +288,8 @@
         "path": "skills/web-design-guidelines",
         "licenseFiles": []
       },
-      "license": "未发现明确许可证",
-      "licenseUrl": "",
+      "license": "未发现明确复制许可文件",
+      "licenseUrl": "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/web-design-guidelines",
       "downloadAllowed": false,
       "requirements": [
         "支持 Agent Skills 的 AI 工具",
@@ -197,8 +297,28 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 web-design-guidelines 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:10.791Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 31999,
+        "forks": 2805,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/vercel-labs/agent-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-08-28T13:36:31Z",
+        "archived": false
+      }
     },
     {
       "id": "roble3-cc-blender-skill-blender-modeling",
@@ -233,8 +353,28 @@
       ],
       "usage": "下载后在支持 Skills 的工具中按上游步骤安装。需连接 Blender MCP，并准备该系列的配套 Skills。助手负责文件管理，不直接操作 Blender。",
       "prompt": "请使用 blender-modeling 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:11.737Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 84,
+        "forks": 10,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/RobLe3/cc-blender-skill"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-05-01T10:34:49Z",
+        "archived": false
+      }
     },
     {
       "id": "roble3-cc-blender-skill-blender-materials",
@@ -269,8 +409,28 @@
       ],
       "usage": "下载后在支持 Skills 的工具中按上游步骤安装。需连接 Blender MCP，并准备该系列的配套 Skills。助手负责文件管理，不直接操作 Blender。",
       "prompt": "请使用 blender-materials 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:12.708Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 84,
+        "forks": 10,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/RobLe3/cc-blender-skill"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-05-01T10:34:49Z",
+        "archived": false
+      }
     },
     {
       "id": "roble3-cc-blender-skill-blender-lighting",
@@ -305,8 +465,28 @@
       ],
       "usage": "下载后在支持 Skills 的工具中按上游步骤安装。需连接 Blender MCP，并准备该系列的配套 Skills。助手负责文件管理，不直接操作 Blender。",
       "prompt": "请使用 blender-lighting 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:14.383Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 84,
+        "forks": 10,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/RobLe3/cc-blender-skill"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-05-01T10:34:49Z",
+        "archived": false
+      }
     },
     {
       "id": "roble3-cc-blender-skill-blender-rendering",
@@ -341,8 +521,28 @@
       ],
       "usage": "下载后在支持 Skills 的工具中按上游步骤安装。需连接 Blender MCP，并准备该系列的配套 Skills。助手负责文件管理，不直接操作 Blender。",
       "prompt": "请使用 blender-rendering 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:15.354Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 84,
+        "forks": 10,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/RobLe3/cc-blender-skill"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-05-01T10:34:49Z",
+        "archived": false
+      }
     },
     {
       "id": "qzfcoder-photo-retouch-pro-photo-retouch-pro",
@@ -358,15 +558,15 @@
       "language": "zh",
       "publisher": "qzfcoder",
       "sourceKind": "社区作者仓库",
-      "sourceUrl": "https://github.com/qzfcoder/photo-retouch-pro",
+      "sourceUrl": "https://github.com/qzfcoder/photo-retouch-pro/tree/bd963066b15f9dda1f46b10e63427f1046b57acc",
       "source": {
         "repo": "qzfcoder/photo-retouch-pro",
         "ref": "bd963066b15f9dda1f46b10e63427f1046b57acc",
         "path": "",
         "licenseFiles": []
       },
-      "license": "未发现明确许可证",
-      "licenseUrl": "",
+      "license": "未发现明确复制许可文件",
+      "licenseUrl": "https://github.com/qzfcoder/photo-retouch-pro/tree/bd963066b15f9dda1f46b10e63427f1046b57acc",
       "downloadAllowed": false,
       "requirements": [
         "具备图像分析能力的 AI 工具",
@@ -374,8 +574,28 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 photo-retouch-pro 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:16.100Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 10,
+        "forks": 1,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/qzfcoder/photo-retouch-pro"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-08-10T02:58:14Z",
+        "archived": false
+      }
     },
     {
       "id": "commercial-retouch-brief",
@@ -392,7 +612,7 @@
       "language": "zh",
       "publisher": "Cockpit",
       "sourceKind": "项目自编模板",
-      "sourceUrl": "https://github.com/574516151-netizen/QDZS",
+      "sourceUrl": "https://github.com/574516151-netizen/JINGXUAN-SKILLS",
       "license": "CC0-1.0",
       "requirements": [
         "支持文本对话的 AI 工具"
@@ -400,7 +620,16 @@
       "usage": "替换提示词中的占位符并附上参考图，将生成的修图需求交给实际修图工具或设计师。",
       "prompt": "请为这组{{图片类型}}制定商业修图方案。\n用途：{{投放渠道}}\n目标风格：{{目标风格}}\n必须保留：{{保留内容}}\n允许修改：{{修改范围}}\n交付规格：{{交付规格}}\n请输出逐图问题诊断、局部调整步骤、可用于图像编辑工具的提示词和验收清单。不要凭空改变商品细节或人物身份；没有实际编辑工具时只提供方案并明确说明。",
       "notes": "这是提示词模板，不包含修图程序，也不会在助手内直接编辑图片。",
-      "verifiedAt": "2026-10-06T17:13:25.828Z"
+      "verifiedAt": "2026-10-06T17:13:25.828Z",
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "助手自制的需求说明模板；无公开使用量统计，不计入高热度资源。"
+      },
+      "popularity": null
     },
     {
       "id": "anthropics-skills-docx",
@@ -423,17 +652,37 @@
         "path": "skills/docx",
         "licenseFiles": []
       },
-      "license": "Proprietary. LICENSE.txt has complete terms",
+      "license": "Anthropic 服务使用条款（限制复制）",
       "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/docx/LICENSE.txt",
-      "downloadAllowed": true,
+      "downloadAllowed": false,
       "requirements": [
         "支持 Agent Skills 的 AI 工具",
         "按上游说明准备运行依赖"
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 docx 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:17.074Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 179886,
+        "forks": 21269,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/anthropics/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T13:46:45Z",
+        "archived": false
+      }
     },
     {
       "id": "anthropics-skills-pdf",
@@ -456,17 +705,37 @@
         "path": "skills/pdf",
         "licenseFiles": []
       },
-      "license": "Proprietary. LICENSE.txt has complete terms",
+      "license": "Anthropic 服务使用条款（限制复制）",
       "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/pdf/LICENSE.txt",
-      "downloadAllowed": true,
+      "downloadAllowed": false,
       "requirements": [
         "支持 Agent Skills 的 AI 工具",
         "按上游说明准备运行依赖"
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 pdf 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:17.970Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 179886,
+        "forks": 21269,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/anthropics/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T13:46:45Z",
+        "archived": false
+      }
     },
     {
       "id": "anthropics-skills-pptx",
@@ -489,17 +758,37 @@
         "path": "skills/pptx",
         "licenseFiles": []
       },
-      "license": "Proprietary. LICENSE.txt has complete terms",
+      "license": "Anthropic 服务使用条款（限制复制）",
       "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/pptx/LICENSE.txt",
-      "downloadAllowed": true,
+      "downloadAllowed": false,
       "requirements": [
         "支持 Agent Skills 的 AI 工具",
         "按上游说明准备运行依赖"
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 pptx 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:19.066Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 179886,
+        "forks": 21269,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/anthropics/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T13:46:45Z",
+        "archived": false
+      }
     },
     {
       "id": "anthropics-skills-xlsx",
@@ -507,7 +796,8 @@
       "displayName": "电子表格",
       "description": "创建、编辑和分析电子表格",
       "categories": [
-        "日常办公"
+        "日常办公",
+        "数据分析"
       ],
       "tags": [
         "表格"
@@ -522,17 +812,37 @@
         "path": "skills/xlsx",
         "licenseFiles": []
       },
-      "license": "Proprietary. LICENSE.txt has complete terms",
+      "license": "Anthropic 服务使用条款（限制复制）",
       "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/xlsx/LICENSE.txt",
-      "downloadAllowed": true,
+      "downloadAllowed": false,
       "requirements": [
         "支持 Agent Skills 的 AI 工具",
         "按上游说明准备运行依赖"
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 xlsx 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:19.786Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 179886,
+        "forks": 21269,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/anthropics/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T13:46:45Z",
+        "archived": false
+      }
     },
     {
       "id": "anthropics-skills-doc-coauthoring",
@@ -555,8 +865,8 @@
         "path": "skills/doc-coauthoring",
         "licenseFiles": []
       },
-      "license": "未发现明确许可证",
-      "licenseUrl": "",
+      "license": "未发现明确复制许可文件",
+      "licenseUrl": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/doc-coauthoring",
       "downloadAllowed": false,
       "requirements": [
         "支持 Agent Skills 的 AI 工具",
@@ -564,8 +874,28 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 doc-coauthoring 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:20.685Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 179886,
+        "forks": 21269,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/anthropics/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T13:46:45Z",
+        "archived": false
+      }
     },
     {
       "id": "anthropics-skills-internal-comms",
@@ -588,7 +918,7 @@
         "path": "skills/internal-comms",
         "licenseFiles": []
       },
-      "license": "Complete terms in LICENSE.txt",
+      "license": "Apache-2.0",
       "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/internal-comms/LICENSE.txt",
       "downloadAllowed": true,
       "requirements": [
@@ -597,8 +927,28 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 internal-comms 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:21.948Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 179886,
+        "forks": 21269,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/anthropics/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T13:46:45Z",
+        "archived": false
+      }
     },
     {
       "id": "anthropics-skills-mcp-builder",
@@ -621,7 +971,7 @@
         "path": "skills/mcp-builder",
         "licenseFiles": []
       },
-      "license": "Complete terms in LICENSE.txt",
+      "license": "Apache-2.0",
       "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/mcp-builder/LICENSE.txt",
       "downloadAllowed": true,
       "requirements": [
@@ -630,8 +980,28 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 mcp-builder 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:22.714Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 179886,
+        "forks": 21269,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/anthropics/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T13:46:45Z",
+        "archived": false
+      }
     },
     {
       "id": "anthropics-skills-webapp-testing",
@@ -654,7 +1024,7 @@
         "path": "skills/webapp-testing",
         "licenseFiles": []
       },
-      "license": "Complete terms in LICENSE.txt",
+      "license": "Apache-2.0",
       "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/webapp-testing/LICENSE.txt",
       "downloadAllowed": true,
       "requirements": [
@@ -663,8 +1033,28 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 webapp-testing 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:23.249Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 179886,
+        "forks": 21269,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/anthropics/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T13:46:45Z",
+        "archived": false
+      }
     },
     {
       "id": "anthropics-skills-web-artifacts-builder",
@@ -687,7 +1077,7 @@
         "path": "skills/web-artifacts-builder",
         "licenseFiles": []
       },
-      "license": "Complete terms in LICENSE.txt",
+      "license": "Apache-2.0",
       "licenseUrl": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/web-artifacts-builder/LICENSE.txt",
       "downloadAllowed": true,
       "requirements": [
@@ -696,8 +1086,28 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 web-artifacts-builder 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:24.368Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 179886,
+        "forks": 21269,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/anthropics/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T13:46:45Z",
+        "archived": false
+      }
     },
     {
       "id": "vercel-labs-agent-skills-vercel-react-best-practices",
@@ -720,8 +1130,8 @@
         "path": "skills/react-best-practices",
         "licenseFiles": []
       },
-      "license": "MIT",
-      "licenseUrl": "",
+      "license": "未发现明确复制许可文件",
+      "licenseUrl": "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-best-practices",
       "downloadAllowed": false,
       "requirements": [
         "支持 Agent Skills 的 AI 工具",
@@ -729,8 +1139,28 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 vercel-react-best-practices 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:24.928Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 31999,
+        "forks": 2805,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/vercel-labs/agent-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-08-28T13:36:31Z",
+        "archived": false
+      }
     },
     {
       "id": "vercel-labs-agent-skills-vercel-composition-patterns",
@@ -753,8 +1183,8 @@
         "path": "skills/composition-patterns",
         "licenseFiles": []
       },
-      "license": "MIT",
-      "licenseUrl": "",
+      "license": "未发现明确复制许可文件",
+      "licenseUrl": "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/composition-patterns",
       "downloadAllowed": false,
       "requirements": [
         "支持 Agent Skills 的 AI 工具",
@@ -762,8 +1192,28 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 vercel-composition-patterns 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:25.429Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 31999,
+        "forks": 2805,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/vercel-labs/agent-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-08-28T13:36:31Z",
+        "archived": false
+      }
     },
     {
       "id": "vercel-labs-agent-skills-vercel-react-native-skills",
@@ -786,8 +1236,8 @@
         "path": "skills/react-native-skills",
         "licenseFiles": []
       },
-      "license": "MIT",
-      "licenseUrl": "",
+      "license": "未发现明确复制许可文件",
+      "licenseUrl": "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills",
       "downloadAllowed": false,
       "requirements": [
         "支持 Agent Skills 的 AI 工具",
@@ -795,8 +1245,2850 @@
       ],
       "usage": "下载到个人库后查看 SKILL.md 与使用说明，在支持 Skills 的 AI 工具中安装完整文件夹。复制示例可帮助描述任务，不能代替所需脚本和资源。",
       "prompt": "请使用 vercel-react-native-skills 帮我完成：{{任务描述}}。请先确认输入资料和所需工具，再按该 Skill 的说明执行。",
-      "notes": "中文名称和用途为目录注释，原始 Skill 内容保留原文；尚未在本助手中执行功能验收。",
-      "verifiedAt": "2026-10-06T17:13:25.828Z"
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 31999,
+        "forks": 2805,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/vercel-labs/agent-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-08-28T13:36:31Z",
+        "archived": false
+      }
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-image-gen",
+      "type": "skill",
+      "displayName": "多模型图片生成",
+      "description": "按任务选择图像模型，支持文本生图及参考图生成",
+      "categories": [
+        "图片生成"
+      ],
+      "tags": [
+        "图片生成",
+        "多模型图片生成"
+      ],
+      "language": "mixed",
+      "publisher": "JimLiu",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Node.js 与 Bun / npx",
+        "图像生成能力；按上游选择模型 API 并配置本机密钥（可能收费）",
+        "封面、配图、漫画等需同时准备 baoyu-image-gen 或上游支持的图像后端"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "JimLiu/baoyu-skills",
+        "ref": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "path": "skills/baoyu-image-gen",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/JimLiu/baoyu-skills/tree/1567581c26ec29f4216c6e6835415bf30343b0e3/skills/baoyu-image-gen",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 26371,
+        "forks": 2910,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/JimLiu/baoyu-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-10T15:13:43Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 baoyu-image-gen 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-cover-image",
+      "type": "skill",
+      "displayName": "文章与视频封面设计",
+      "description": "生成文章封面与视觉标题，组合布局、配色及文字",
+      "categories": [
+        "图片生成",
+        "内容创作"
+      ],
+      "tags": [
+        "图片生成",
+        "内容创作",
+        "文章与视频封面设计"
+      ],
+      "language": "mixed",
+      "publisher": "JimLiu",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Node.js 与 Bun / npx",
+        "图像生成能力；按上游选择模型 API 并配置本机密钥（可能收费）",
+        "封面、配图、漫画等需同时准备 baoyu-image-gen 或上游支持的图像后端"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "JimLiu/baoyu-skills",
+        "ref": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "path": "skills/baoyu-cover-image",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/JimLiu/baoyu-skills/tree/1567581c26ec29f4216c6e6835415bf30343b0e3/skills/baoyu-cover-image",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 26371,
+        "forks": 2910,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/JimLiu/baoyu-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-10T15:13:43Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 baoyu-cover-image 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-article-illustrator",
+      "type": "skill",
+      "displayName": "文章自动配图",
+      "description": "分析文章结构，规划插图位置与风格并生成配图",
+      "categories": [
+        "图片生成",
+        "内容创作"
+      ],
+      "tags": [
+        "图片生成",
+        "内容创作",
+        "文章自动配图"
+      ],
+      "language": "mixed",
+      "publisher": "JimLiu",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Node.js 与 Bun / npx",
+        "图像生成能力；按上游选择模型 API 并配置本机密钥（可能收费）",
+        "封面、配图、漫画等需同时准备 baoyu-image-gen 或上游支持的图像后端"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "JimLiu/baoyu-skills",
+        "ref": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "path": "skills/baoyu-article-illustrator",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/JimLiu/baoyu-skills/tree/1567581c26ec29f4216c6e6835415bf30343b0e3/skills/baoyu-article-illustrator",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 26371,
+        "forks": 2910,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/JimLiu/baoyu-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-10T15:13:43Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 baoyu-article-illustrator 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-infographic",
+      "type": "skill",
+      "displayName": "信息图生成",
+      "description": "把复杂内容组织为信息图，选择视觉布局并生成图像",
+      "categories": [
+        "平面设计",
+        "图片生成"
+      ],
+      "tags": [
+        "平面设计",
+        "图片生成",
+        "信息图生成"
+      ],
+      "language": "mixed",
+      "publisher": "JimLiu",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Node.js 与 Bun / npx",
+        "图像生成能力；按上游选择模型 API 并配置本机密钥（可能收费）",
+        "封面、配图、漫画等需同时准备 baoyu-image-gen 或上游支持的图像后端"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "JimLiu/baoyu-skills",
+        "ref": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "path": "skills/baoyu-infographic",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/JimLiu/baoyu-skills/tree/1567581c26ec29f4216c6e6835415bf30343b0e3/skills/baoyu-infographic",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 26371,
+        "forks": 2910,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/JimLiu/baoyu-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-10T15:13:43Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 baoyu-infographic 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-comic",
+      "type": "skill",
+      "displayName": "知识漫画制作",
+      "description": "把知识或故事编成分镜，规划角色和画面并生成漫画",
+      "categories": [
+        "图片生成",
+        "内容创作"
+      ],
+      "tags": [
+        "图片生成",
+        "内容创作",
+        "知识漫画制作"
+      ],
+      "language": "mixed",
+      "publisher": "JimLiu",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Node.js 与 Bun / npx",
+        "图像生成能力；按上游选择模型 API 并配置本机密钥（可能收费）",
+        "封面、配图、漫画等需同时准备 baoyu-image-gen 或上游支持的图像后端"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "JimLiu/baoyu-skills",
+        "ref": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "path": "skills/baoyu-comic",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/JimLiu/baoyu-skills/tree/1567581c26ec29f4216c6e6835415bf30343b0e3/skills/baoyu-comic",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 26371,
+        "forks": 2910,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/JimLiu/baoyu-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-10T15:13:43Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 baoyu-comic 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-xhs-images",
+      "type": "skill",
+      "displayName": "小红书图文卡片",
+      "description": "将内容拆为图文卡片系列，选择版式与视觉风格",
+      "categories": [
+        "图片生成",
+        "营销运营"
+      ],
+      "tags": [
+        "图片生成",
+        "营销运营",
+        "小红书图文卡片"
+      ],
+      "language": "mixed",
+      "publisher": "JimLiu",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Node.js 与 Bun / npx",
+        "图像生成能力；按上游选择模型 API 并配置本机密钥（可能收费）",
+        "封面、配图、漫画等需同时准备 baoyu-image-gen 或上游支持的图像后端"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "JimLiu/baoyu-skills",
+        "ref": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "path": "skills/baoyu-xhs-images",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/JimLiu/baoyu-skills/tree/1567581c26ec29f4216c6e6835415bf30343b0e3/skills/baoyu-xhs-images",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 26371,
+        "forks": 2910,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/JimLiu/baoyu-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-10T15:13:43Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 baoyu-xhs-images 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-diagram",
+      "type": "skill",
+      "displayName": "流程与架构图",
+      "description": "把流程、架构或关系转为结构化图示",
+      "categories": [
+        "平面设计",
+        "知识管理"
+      ],
+      "tags": [
+        "平面设计",
+        "知识管理",
+        "流程与架构图"
+      ],
+      "language": "mixed",
+      "publisher": "JimLiu",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Node.js 与 Bun / npx"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "JimLiu/baoyu-skills",
+        "ref": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "path": "skills/baoyu-diagram",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/JimLiu/baoyu-skills/tree/1567581c26ec29f4216c6e6835415bf30343b0e3/skills/baoyu-diagram",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 26371,
+        "forks": 2910,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/JimLiu/baoyu-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-10T15:13:43Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 baoyu-diagram 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-compress-image",
+      "type": "skill",
+      "displayName": "图片批量压缩",
+      "description": "压缩图像及转换格式，减少发布素材体积",
+      "categories": [
+        "图像处理"
+      ],
+      "tags": [
+        "图像处理",
+        "图片批量压缩"
+      ],
+      "language": "mixed",
+      "publisher": "JimLiu",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Node.js 与 Bun / npx",
+        "按上游准备图像压缩依赖"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "JimLiu/baoyu-skills",
+        "ref": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "path": "skills/baoyu-compress-image",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/JimLiu/baoyu-skills/tree/1567581c26ec29f4216c6e6835415bf30343b0e3/skills/baoyu-compress-image",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 26371,
+        "forks": 2910,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/JimLiu/baoyu-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-10T15:13:43Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 baoyu-compress-image 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "remotion-dev-skills-remotion-create",
+      "type": "skill",
+      "displayName": "Remotion 自动制作视频",
+      "description": "用 React 创建视频项目和动画合成，适合讲解与产品演示",
+      "categories": [
+        "视频制作",
+        "自动化工作流"
+      ],
+      "tags": [
+        "视频制作",
+        "自动化工作流",
+        "Remotion 自动制作视频"
+      ],
+      "language": "en",
+      "publisher": "remotion-dev",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Node.js、Git 与 Remotion 项目",
+        "相关 Remotion 配套 Skills；字幕转录另需转录依赖",
+        "Remotion 软件许可与商业使用条件需另行核对"
+      ],
+      "usage": "从官方来源按安装说明准备 Remotion Skills 与项目。提供脚本、素材或字幕，先预览合成，再渲染导出；它生成项目视频，不是任意素材的一键剪辑器。",
+      "source": {
+        "repo": "remotion-dev/skills",
+        "ref": "473352613039e718e46655a26df224851e84c4aa",
+        "path": "skills/remotion-create",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/remotion-dev/skills/tree/473352613039e718e46655a26df224851e84c4aa/skills/remotion-create",
+      "license": "未发现明确复制许可文件",
+      "downloadAllowed": false,
+      "licenseUrl": "https://github.com/remotion-dev/skills/tree/473352613039e718e46655a26df224851e84c4aa/skills/remotion-create",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 4867,
+        "forks": 542,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/remotion-dev/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T07:54:55Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "prompt": "请按 remotion-create 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "remotion-dev-skills-remotion-render",
+      "type": "skill",
+      "displayName": "Remotion 视频渲染与导出",
+      "description": "把 Remotion 项目渲染为视频或静态帧",
+      "categories": [
+        "视频制作",
+        "自动化工作流"
+      ],
+      "tags": [
+        "视频制作",
+        "自动化工作流",
+        "Remotion 视频渲染与导出"
+      ],
+      "language": "en",
+      "publisher": "remotion-dev",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Node.js、Git 与 Remotion 项目",
+        "相关 Remotion 配套 Skills；字幕转录另需转录依赖",
+        "Remotion 软件许可与商业使用条件需另行核对"
+      ],
+      "usage": "从官方来源按安装说明准备 Remotion Skills 与项目。提供脚本、素材或字幕，先预览合成，再渲染导出；它生成项目视频，不是任意素材的一键剪辑器。",
+      "source": {
+        "repo": "remotion-dev/skills",
+        "ref": "473352613039e718e46655a26df224851e84c4aa",
+        "path": "skills/remotion-render",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/remotion-dev/skills/tree/473352613039e718e46655a26df224851e84c4aa/skills/remotion-render",
+      "license": "未发现明确复制许可文件",
+      "downloadAllowed": false,
+      "licenseUrl": "https://github.com/remotion-dev/skills/tree/473352613039e718e46655a26df224851e84c4aa/skills/remotion-render",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 4867,
+        "forks": 542,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/remotion-dev/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T07:54:55Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "prompt": "请按 remotion-render 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "remotion-dev-skills-remotion-captions",
+      "type": "skill",
+      "displayName": "视频字幕与动态字幕",
+      "description": "在 Remotion 视频中组织字幕、时间轴与字幕样式",
+      "categories": [
+        "音频字幕",
+        "视频制作"
+      ],
+      "tags": [
+        "音频字幕",
+        "视频制作",
+        "视频字幕与动态字幕"
+      ],
+      "language": "en",
+      "publisher": "remotion-dev",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Node.js、Git 与 Remotion 项目",
+        "相关 Remotion 配套 Skills；字幕转录另需转录依赖",
+        "Remotion 软件许可与商业使用条件需另行核对"
+      ],
+      "usage": "从官方来源按安装说明准备 Remotion Skills 与项目。提供脚本、素材或字幕，先预览合成，再渲染导出；它生成项目视频，不是任意素材的一键剪辑器。",
+      "source": {
+        "repo": "remotion-dev/skills",
+        "ref": "473352613039e718e46655a26df224851e84c4aa",
+        "path": "skills/remotion-captions",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/remotion-dev/skills/tree/473352613039e718e46655a26df224851e84c4aa/skills/remotion-captions",
+      "license": "未发现明确复制许可文件",
+      "downloadAllowed": false,
+      "licenseUrl": "https://github.com/remotion-dev/skills/tree/473352613039e718e46655a26df224851e84c4aa/skills/remotion-captions",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 4867,
+        "forks": 542,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/remotion-dev/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T07:54:55Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "prompt": "请按 remotion-captions 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "remotion-dev-skills-remotion-multimedia",
+      "type": "skill",
+      "displayName": "视频与音频素材处理",
+      "description": "使用 Mediabunny 处理浏览器端音视频素材与元数据",
+      "categories": [
+        "视频制作",
+        "视频剪辑"
+      ],
+      "tags": [
+        "视频制作",
+        "视频剪辑",
+        "视频与音频素材处理"
+      ],
+      "language": "en",
+      "publisher": "remotion-dev",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Node.js、Git 与 Remotion 项目",
+        "相关 Remotion 配套 Skills；字幕转录另需转录依赖",
+        "Remotion 软件许可与商业使用条件需另行核对"
+      ],
+      "usage": "从官方来源按安装说明准备 Remotion Skills 与项目。提供脚本、素材或字幕，先预览合成，再渲染导出；它生成项目视频，不是任意素材的一键剪辑器。",
+      "source": {
+        "repo": "remotion-dev/skills",
+        "ref": "473352613039e718e46655a26df224851e84c4aa",
+        "path": "skills/remotion-multimedia",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/remotion-dev/skills/tree/473352613039e718e46655a26df224851e84c4aa/skills/remotion-multimedia",
+      "license": "未发现明确复制许可文件",
+      "downloadAllowed": false,
+      "licenseUrl": "https://github.com/remotion-dev/skills/tree/473352613039e718e46655a26df224851e84c4aa/skills/remotion-multimedia",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 4867,
+        "forks": 542,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/remotion-dev/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T07:54:55Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "prompt": "请按 remotion-multimedia 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "fal-ai-community-skills-genmedia",
+      "type": "skill",
+      "displayName": "fal 多媒体生成",
+      "description": "通过 genmedia 工具生成或处理图像、视频及音频",
+      "categories": [
+        "图片生成",
+        "视频生成"
+      ],
+      "tags": [
+        "图片生成",
+        "视频生成",
+        "fal 多媒体生成"
+      ],
+      "language": "en",
+      "publisher": "fal-ai-community",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "genmedia CLI",
+        "fal.ai 账号和 FAL_KEY，实际模型调用可能收费",
+        "genmedia 基础 Skill 与工作流所需配套 Skills"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "fal-ai-community/skills",
+        "ref": "9ca850412943251fc9a466c4c29fdaf7a303a3d8",
+        "path": "skills/genmedia",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/fal-ai-community/skills/tree/9ca850412943251fc9a466c4c29fdaf7a303a3d8/skills/genmedia",
+      "license": "未发现明确复制许可文件",
+      "downloadAllowed": false,
+      "licenseUrl": "https://github.com/fal-ai-community/skills/tree/9ca850412943251fc9a466c4c29fdaf7a303a3d8/skills/genmedia",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 249,
+        "forks": 35,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/fal-ai-community/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-29T01:12:41Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "prompt": "请按 genmedia 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "fal-ai-community-skills-genmedia-workflow",
+      "type": "skill",
+      "displayName": "多媒体生成流水线",
+      "description": "编排图像、视频、音频等多步骤生成任务",
+      "categories": [
+        "自动化工作流",
+        "视频生成"
+      ],
+      "tags": [
+        "自动化工作流",
+        "视频生成",
+        "多媒体生成流水线"
+      ],
+      "language": "en",
+      "publisher": "fal-ai-community",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "genmedia CLI",
+        "fal.ai 账号和 FAL_KEY，实际模型调用可能收费",
+        "genmedia 基础 Skill 与工作流所需配套 Skills"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "fal-ai-community/skills",
+        "ref": "9ca850412943251fc9a466c4c29fdaf7a303a3d8",
+        "path": "skills/genmedia-workflow",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/fal-ai-community/skills/tree/9ca850412943251fc9a466c4c29fdaf7a303a3d8/skills/genmedia-workflow",
+      "license": "未发现明确复制许可文件",
+      "downloadAllowed": false,
+      "licenseUrl": "https://github.com/fal-ai-community/skills/tree/9ca850412943251fc9a466c4c29fdaf7a303a3d8/skills/genmedia-workflow",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 249,
+        "forks": 35,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/fal-ai-community/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-29T01:12:41Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "prompt": "请按 genmedia-workflow 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "czlonkowski-n8n-skills-n8n-workflow-patterns",
+      "type": "skill",
+      "displayName": "n8n 自动化工作流设计",
+      "description": "按 Webhook、API、数据库及定时任务等模式设计工作流",
+      "categories": [
+        "自动化工作流"
+      ],
+      "tags": [
+        "自动化工作流",
+        "n8n 自动化工作流设计"
+      ],
+      "language": "en",
+      "publisher": "czlonkowski",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "n8n 实例",
+        "兼容的 n8n-mcp 服务及本机鉴权",
+        "按上游说明准备配套 n8n Skills"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "czlonkowski/n8n-skills",
+        "ref": "19cd793f4789e3ef9c657ccf26e097f641a77df0",
+        "path": "skills/n8n-workflow-patterns",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/czlonkowski/n8n-skills/tree/19cd793f4789e3ef9c657ccf26e097f641a77df0/skills/n8n-workflow-patterns",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/czlonkowski/n8n-skills/blob/19cd793f4789e3ef9c657ccf26e097f641a77df0/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 6382,
+        "forks": 1054,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/czlonkowski/n8n-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-16T10:56:52Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 n8n-workflow-patterns 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "czlonkowski-n8n-skills-n8n-validation-expert",
+      "type": "skill",
+      "displayName": "n8n 工作流验证",
+      "description": "解释并修复工作流节点配置与连接验证问题",
+      "categories": [
+        "自动化工作流",
+        "软件开发"
+      ],
+      "tags": [
+        "自动化工作流",
+        "软件开发",
+        "n8n 工作流验证"
+      ],
+      "language": "en",
+      "publisher": "czlonkowski",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "n8n 实例",
+        "兼容的 n8n-mcp 服务及本机鉴权",
+        "按上游说明准备配套 n8n Skills"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "czlonkowski/n8n-skills",
+        "ref": "19cd793f4789e3ef9c657ccf26e097f641a77df0",
+        "path": "skills/n8n-validation-expert",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/czlonkowski/n8n-skills/tree/19cd793f4789e3ef9c657ccf26e097f641a77df0/skills/n8n-validation-expert",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/czlonkowski/n8n-skills/blob/19cd793f4789e3ef9c657ccf26e097f641a77df0/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 6382,
+        "forks": 1054,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/czlonkowski/n8n-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-16T10:56:52Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 n8n-validation-expert 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "czlonkowski-n8n-skills-n8n-mcp-tools-expert",
+      "type": "skill",
+      "displayName": "n8n MCP 工具协作",
+      "description": "帮助正确选择和调用 n8n MCP 工具",
+      "categories": [
+        "自动化工作流"
+      ],
+      "tags": [
+        "自动化工作流",
+        "n8n MCP 工具协作"
+      ],
+      "language": "en",
+      "publisher": "czlonkowski",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "n8n 实例",
+        "兼容的 n8n-mcp 服务及本机鉴权",
+        "按上游说明准备配套 n8n Skills"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "czlonkowski/n8n-skills",
+        "ref": "19cd793f4789e3ef9c657ccf26e097f641a77df0",
+        "path": "skills/n8n-mcp-tools-expert",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/czlonkowski/n8n-skills/tree/19cd793f4789e3ef9c657ccf26e097f641a77df0/skills/n8n-mcp-tools-expert",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/czlonkowski/n8n-skills/blob/19cd793f4789e3ef9c657ccf26e097f641a77df0/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 6382,
+        "forks": 1054,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/czlonkowski/n8n-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-16T10:56:52Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 n8n-mcp-tools-expert 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "czlonkowski-n8n-skills-n8n-error-handling",
+      "type": "skill",
+      "displayName": "n8n 重试与异常处理",
+      "description": "为工作流组织失败分支、错误通知和重试策略",
+      "categories": [
+        "自动化工作流"
+      ],
+      "tags": [
+        "自动化工作流",
+        "n8n 重试与异常处理"
+      ],
+      "language": "en",
+      "publisher": "czlonkowski",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "n8n 实例",
+        "兼容的 n8n-mcp 服务及本机鉴权",
+        "按上游说明准备配套 n8n Skills"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "czlonkowski/n8n-skills",
+        "ref": "19cd793f4789e3ef9c657ccf26e097f641a77df0",
+        "path": "skills/n8n-error-handling",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/czlonkowski/n8n-skills/tree/19cd793f4789e3ef9c657ccf26e097f641a77df0/skills/n8n-error-handling",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/czlonkowski/n8n-skills/blob/19cd793f4789e3ef9c657ccf26e097f641a77df0/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 6382,
+        "forks": 1054,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/czlonkowski/n8n-skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-16T10:56:52Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 n8n-error-handling 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "n8n-io-skills-n8n-workflow-lifecycle-official",
+      "type": "skill",
+      "displayName": "n8n 官方工作流全流程",
+      "description": "从设计、组织到校验和维护 n8n 工作流",
+      "categories": [
+        "自动化工作流"
+      ],
+      "tags": [
+        "自动化工作流",
+        "n8n 官方工作流全流程"
+      ],
+      "language": "en",
+      "publisher": "n8n-io",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "与官方 Skill 文档匹配的 n8n 版本",
+        "n8n 官方 MCP 连接与本机授权",
+        "using-n8n-skills-official 及相关配套 Skills"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "n8n-io/skills",
+        "ref": "180b8415e3b73f78828cfa01e908e67f89f2a139",
+        "path": "skills/n8n-workflow-lifecycle-official",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/n8n-io/skills/tree/180b8415e3b73f78828cfa01e908e67f89f2a139/skills/n8n-workflow-lifecycle-official",
+      "license": "Apache-2.0",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/n8n-io/skills/blob/180b8415e3b73f78828cfa01e908e67f89f2a139/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 521,
+        "forks": 70,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/n8n-io/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-23T04:04:46Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 n8n-workflow-lifecycle-official 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "n8n-io-skills-n8n-data-tables-official",
+      "type": "skill",
+      "displayName": "n8n 数据表自动化",
+      "description": "通过数据表存储、查询与管理工作流数据",
+      "categories": [
+        "数据分析",
+        "自动化工作流"
+      ],
+      "tags": [
+        "数据分析",
+        "自动化工作流",
+        "n8n 数据表自动化"
+      ],
+      "language": "en",
+      "publisher": "n8n-io",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "与官方 Skill 文档匹配的 n8n 版本",
+        "n8n 官方 MCP 连接与本机授权",
+        "using-n8n-skills-official 及相关配套 Skills"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "n8n-io/skills",
+        "ref": "180b8415e3b73f78828cfa01e908e67f89f2a139",
+        "path": "skills/n8n-data-tables-official",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/n8n-io/skills/tree/180b8415e3b73f78828cfa01e908e67f89f2a139/skills/n8n-data-tables-official",
+      "license": "Apache-2.0",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/n8n-io/skills/blob/180b8415e3b73f78828cfa01e908e67f89f2a139/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 521,
+        "forks": 70,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/n8n-io/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-23T04:04:46Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 n8n-data-tables-official 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "n8n-io-skills-n8n-binary-and-data-official",
+      "type": "skill",
+      "displayName": "n8n 文件与二进制流水线",
+      "description": "在自动化流程中处理文件、二进制数据及上传下载",
+      "categories": [
+        "自动化工作流",
+        "日常办公"
+      ],
+      "tags": [
+        "自动化工作流",
+        "日常办公",
+        "n8n 文件与二进制流水线"
+      ],
+      "language": "en",
+      "publisher": "n8n-io",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "与官方 Skill 文档匹配的 n8n 版本",
+        "n8n 官方 MCP 连接与本机授权",
+        "using-n8n-skills-official 及相关配套 Skills"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "n8n-io/skills",
+        "ref": "180b8415e3b73f78828cfa01e908e67f89f2a139",
+        "path": "skills/n8n-binary-and-data-official",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/n8n-io/skills/tree/180b8415e3b73f78828cfa01e908e67f89f2a139/skills/n8n-binary-and-data-official",
+      "license": "Apache-2.0",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/n8n-io/skills/blob/180b8415e3b73f78828cfa01e908e67f89f2a139/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 521,
+        "forks": 70,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/n8n-io/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-23T04:04:46Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 n8n-binary-and-data-official 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "obra-superpowers-brainstorming",
+      "type": "skill",
+      "displayName": "需求澄清与方案探索",
+      "description": "通过结构化讨论澄清需求、比较方案并形成设计",
+      "categories": [
+        "知识管理",
+        "软件开发"
+      ],
+      "tags": [
+        "知识管理",
+        "软件开发",
+        "需求澄清与方案探索"
+      ],
+      "language": "en",
+      "publisher": "obra",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Superpowers 配套插件或完整 Skill 集合",
+        "执行类任务需配套测试、验证及代码工具"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "obra/superpowers",
+        "ref": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+        "path": "skills/brainstorming",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/obra/superpowers/tree/8ca22dba9a94f28898bbce59f2537ff4d87c747d/skills/brainstorming",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/obra/superpowers/blob/8ca22dba9a94f28898bbce59f2537ff4d87c747d/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 295958,
+        "forks": 26424,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/obra/superpowers"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T15:47:19Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 brainstorming 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "obra-superpowers-writing-plans",
+      "type": "skill",
+      "displayName": "任务拆解与实施计划",
+      "description": "把需求拆为可执行、可验证的实施步骤",
+      "categories": [
+        "自动化工作流",
+        "软件开发"
+      ],
+      "tags": [
+        "自动化工作流",
+        "软件开发",
+        "任务拆解与实施计划"
+      ],
+      "language": "en",
+      "publisher": "obra",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Superpowers 配套插件或完整 Skill 集合",
+        "执行类任务需配套测试、验证及代码工具"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "obra/superpowers",
+        "ref": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+        "path": "skills/writing-plans",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/obra/superpowers/tree/8ca22dba9a94f28898bbce59f2537ff4d87c747d/skills/writing-plans",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/obra/superpowers/blob/8ca22dba9a94f28898bbce59f2537ff4d87c747d/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 295958,
+        "forks": 26424,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/obra/superpowers"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T15:47:19Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 writing-plans 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "obra-superpowers-executing-plans",
+      "type": "skill",
+      "displayName": "分步骤执行与验收",
+      "description": "按既定计划分阶段执行，并设置检查与反馈点",
+      "categories": [
+        "自动化工作流",
+        "软件开发"
+      ],
+      "tags": [
+        "自动化工作流",
+        "软件开发",
+        "分步骤执行与验收"
+      ],
+      "language": "en",
+      "publisher": "obra",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Superpowers 配套插件或完整 Skill 集合",
+        "执行类任务需配套测试、验证及代码工具"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "obra/superpowers",
+        "ref": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+        "path": "skills/executing-plans",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/obra/superpowers/tree/8ca22dba9a94f28898bbce59f2537ff4d87c747d/skills/executing-plans",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/obra/superpowers/blob/8ca22dba9a94f28898bbce59f2537ff4d87c747d/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 295958,
+        "forks": 26424,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/obra/superpowers"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T15:47:19Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 executing-plans 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "openai-skills-imagegen",
+      "type": "skill",
+      "displayName": "OpenAI 图片生成与编辑",
+      "description": "在支持相应图像能力的环境中生成、编辑图像与素材",
+      "categories": [
+        "图片生成",
+        "图像处理"
+      ],
+      "tags": [
+        "图片生成",
+        "图像处理",
+        "OpenAI 图片生成与编辑"
+      ],
+      "language": "en",
+      "publisher": "openai",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "具备 image_gen 能力的运行环境；仅下载文件不会新增该工具",
+        "显式使用 CLI 时另需 Python、OpenAI SDK 和 OPENAI_API_KEY，可能收费"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "openai/skills",
+        "ref": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.system/imagegen",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.system/imagegen",
+      "license": "Apache-2.0",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.system/imagegen/LICENSE.txt",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 27901,
+        "forks": 1901,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/openai/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-08T20:35:26Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 imagegen 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "openai-skills-speech",
+      "type": "skill",
+      "displayName": "文字转语音与配音",
+      "description": "通过语音接口把文本转为配音或旁白",
+      "categories": [
+        "音频字幕"
+      ],
+      "tags": [
+        "音频字幕",
+        "文字转语音与配音"
+      ],
+      "language": "en",
+      "publisher": "openai",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Python、OpenAI SDK 与 OPENAI_API_KEY",
+        "音频接口权限与额度，实际调用可能收费"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "openai/skills",
+        "ref": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/speech",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/speech",
+      "license": "Apache-2.0",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/speech/LICENSE.txt",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 27901,
+        "forks": 1901,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/openai/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-08T20:35:26Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 speech 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "openai-skills-transcribe",
+      "type": "skill",
+      "displayName": "录音转文字与说话人识别",
+      "description": "转录录音或视频音轨，可按能力配置说话人信息",
+      "categories": [
+        "音频字幕",
+        "资料研究"
+      ],
+      "tags": [
+        "音频字幕",
+        "资料研究",
+        "录音转文字与说话人识别"
+      ],
+      "language": "en",
+      "publisher": "openai",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Python、OpenAI SDK 与 OPENAI_API_KEY",
+        "音频接口权限与额度，实际调用可能收费"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "openai/skills",
+        "ref": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/transcribe",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/transcribe",
+      "license": "Apache-2.0",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/transcribe/LICENSE.txt",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 27901,
+        "forks": 1901,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/openai/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-08T20:35:26Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 transcribe 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "openai-skills-notion-research-documentation",
+      "type": "skill",
+      "displayName": "Notion 资料研究与报告",
+      "description": "汇总 Notion 中的资料并产出带来源的研究文档",
+      "categories": [
+        "资料研究",
+        "知识管理"
+      ],
+      "tags": [
+        "资料研究",
+        "知识管理",
+        "Notion 资料研究与报告"
+      ],
+      "language": "en",
+      "publisher": "openai",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Notion MCP 连接、Notion 授权及相关页面访问权限",
+        "用于补充外部资料的研究工具"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "openai/skills",
+        "ref": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/notion-research-documentation",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/notion-research-documentation",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/notion-research-documentation/LICENSE.txt",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 27901,
+        "forks": 1901,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/openai/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-08T20:35:26Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 notion-research-documentation 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "openai-skills-notion-knowledge-capture",
+      "type": "skill",
+      "displayName": "Notion 知识归档",
+      "description": "把讨论与笔记整理为结构化知识条目",
+      "categories": [
+        "知识管理"
+      ],
+      "tags": [
+        "知识管理",
+        "Notion 知识归档"
+      ],
+      "language": "en",
+      "publisher": "openai",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Notion MCP 连接、Notion 授权及相关页面访问权限",
+        "用于补充外部资料的研究工具"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "openai/skills",
+        "ref": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/notion-knowledge-capture",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/notion-knowledge-capture",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/notion-knowledge-capture/LICENSE.txt",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 27901,
+        "forks": 1901,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/openai/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-08T20:35:26Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 notion-knowledge-capture 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "openai-skills-notion-meeting-intelligence",
+      "type": "skill",
+      "displayName": "Notion 会议准备与整理",
+      "description": "结合知识库内容准备会议资料并整理行动项",
+      "categories": [
+        "知识管理",
+        "日常办公"
+      ],
+      "tags": [
+        "知识管理",
+        "日常办公",
+        "Notion 会议准备与整理"
+      ],
+      "language": "en",
+      "publisher": "openai",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Notion MCP 连接、Notion 授权及相关页面访问权限",
+        "用于补充外部资料的研究工具"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "openai/skills",
+        "ref": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/notion-meeting-intelligence",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/notion-meeting-intelligence",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/notion-meeting-intelligence/LICENSE.txt",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 27901,
+        "forks": 1901,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/openai/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-08T20:35:26Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 notion-meeting-intelligence 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "kajisho5-ffmpeg-skill-root",
+      "type": "skill",
+      "displayName": "FFmpeg 自动剪辑与批处理",
+      "description": "剪切拼接、去静音、字幕、转码和批处理，使用本地 FFmpeg",
+      "categories": [
+        "视频剪辑",
+        "音频字幕"
+      ],
+      "tags": [
+        "视频剪辑",
+        "音频字幕",
+        "FFmpeg 自动剪辑与批处理"
+      ],
+      "language": "en",
+      "publisher": "kajisho5",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "本机 FFmpeg / ffprobe",
+        "Python 与相应媒体编解码支持"
+      ],
+      "usage": "在本地准备 FFmpeg 和 Python 后，提供自有素材、剪辑规则和输出规格。先探测素材，再按计划剪切、去静音、拼接或加字幕，最后校验产物；不同编码器与硬件仍需实机验证。",
+      "source": {
+        "repo": "kajisho5/ffmpeg-skill",
+        "ref": "008333aaf6722083392eb6bd8bd67b59884a2a26",
+        "path": "",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/kajisho5/ffmpeg-skill/tree/008333aaf6722083392eb6bd8bd67b59884a2a26",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/kajisho5/ffmpeg-skill/blob/008333aaf6722083392eb6bd8bd67b59884a2a26/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 1874,
+        "forks": 151,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/kajisho5/ffmpeg-skill"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-05T03:21:15Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 ffmpeg-skill 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "tentenco-skills-codex-auto-clip-workflow",
+      "type": "skill",
+      "displayName": "参考视频驱动自动混剪",
+      "description": "分析参考视频镜头结构，匹配自有素材并组织剪映草稿",
+      "categories": [
+        "视频剪辑",
+        "自动化工作流"
+      ],
+      "tags": [
+        "视频剪辑",
+        "自动化工作流",
+        "参考视频驱动自动混剪"
+      ],
+      "language": "mixed",
+      "publisher": "tentenco",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "FFmpeg、视觉理解工具与素材库",
+        "配音 / 字幕工具及剪映草稿相关依赖",
+        "参考视频及自有素材；需按上游流程配置，不能保证直接生成可用草稿"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "tentenco/skills",
+        "ref": "3bfb497adcc129ceda5826270c5950faab8a90f5",
+        "path": "skills/content/codex-auto-clip-workflow",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/tentenco/skills/tree/3bfb497adcc129ceda5826270c5950faab8a90f5/skills/content/codex-auto-clip-workflow",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/tentenco/skills/blob/3bfb497adcc129ceda5826270c5950faab8a90f5/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 5,
+        "forks": 2,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/tentenco/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-09-10T22:27:43Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 codex-auto-clip-workflow 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-animation",
+      "type": "skill",
+      "displayName": "Blender 动画制作",
+      "description": "在 Blender 中制作关键帧与动画，配合 Blender MCP",
+      "categories": [
+        "3D 设计",
+        "视频制作"
+      ],
+      "tags": [
+        "3D 设计",
+        "视频制作",
+        "Blender 动画制作"
+      ],
+      "language": "en",
+      "publisher": "RobLe3",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Blender、Blender MCP 与相关配套 Skills"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "RobLe3/cc-blender-skill",
+        "ref": "11016c9a5847897491dde935c346571bd7548e3d",
+        "path": "plugin/skills/blender-animation",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/RobLe3/cc-blender-skill/tree/11016c9a5847897491dde935c346571bd7548e3d/plugin/skills/blender-animation",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/RobLe3/cc-blender-skill/blob/11016c9a5847897491dde935c346571bd7548e3d/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 84,
+        "forks": 10,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/RobLe3/cc-blender-skill"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-05-01T10:34:49Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 blender-animation 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-pro-workflow",
+      "type": "skill",
+      "displayName": "Blender 三维制作工作流",
+      "description": "按完整三维制作流程组织建模、材质、灯光与渲染",
+      "categories": [
+        "3D 设计",
+        "自动化工作流"
+      ],
+      "tags": [
+        "3D 设计",
+        "自动化工作流",
+        "Blender 三维制作工作流"
+      ],
+      "language": "en",
+      "publisher": "RobLe3",
+      "sourceKind": "社区作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Blender、Blender MCP 与相关配套 Skills"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "RobLe3/cc-blender-skill",
+        "ref": "11016c9a5847897491dde935c346571bd7548e3d",
+        "path": "plugin/skills/blender-pro-workflow",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/RobLe3/cc-blender-skill/tree/11016c9a5847897491dde935c346571bd7548e3d/plugin/skills/blender-pro-workflow",
+      "license": "MIT",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/RobLe3/cc-blender-skill/blob/11016c9a5847897491dde935c346571bd7548e3d/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 84,
+        "forks": 10,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/RobLe3/cc-blender-skill"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-05-01T10:34:49Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 blender-pro-workflow 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "inference-sh-skills-ai-image-generation",
+      "type": "skill",
+      "displayName": "多模型 AI 图片生成",
+      "description": "通过 inference.sh 平台调用不同图片生成模型",
+      "categories": [
+        "图片生成"
+      ],
+      "tags": [
+        "图片生成",
+        "多模型 AI 图片生成"
+      ],
+      "language": "en",
+      "publisher": "inference-sh",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "inference.sh belt CLI 与平台登录",
+        "对应模型或搜索服务权限和额度（可能收费）",
+        "素材会发送到所选平台；实际能力以当前上游服务为准"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "inference-sh/skills",
+        "ref": "0aabdc6f47f757b772515265e4710452834c8696",
+        "path": "tools/image/ai-image-generation",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/tools/image/ai-image-generation",
+      "license": "未发现明确复制许可文件",
+      "downloadAllowed": false,
+      "licenseUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/tools/image/ai-image-generation",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 762,
+        "forks": 103,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/inference-sh/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T02:14:53Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "prompt": "请按 ai-image-generation 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "inference-sh-skills-ai-video-generation",
+      "type": "skill",
+      "displayName": "AI 文生视频",
+      "description": "通过 inference.sh 平台选择视频模型并生成视频片段",
+      "categories": [
+        "视频生成"
+      ],
+      "tags": [
+        "视频生成",
+        "AI 文生视频"
+      ],
+      "language": "en",
+      "publisher": "inference-sh",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "inference.sh belt CLI 与平台登录",
+        "对应模型或搜索服务权限和额度（可能收费）",
+        "素材会发送到所选平台；实际能力以当前上游服务为准"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "inference-sh/skills",
+        "ref": "0aabdc6f47f757b772515265e4710452834c8696",
+        "path": "tools/video/ai-video-generation",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/tools/video/ai-video-generation",
+      "license": "未发现明确复制许可文件",
+      "downloadAllowed": false,
+      "licenseUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/tools/video/ai-video-generation",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 762,
+        "forks": 103,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/inference-sh/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T02:14:53Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "prompt": "请按 ai-video-generation 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "inference-sh-skills-image-to-video",
+      "type": "skill",
+      "displayName": "AI 图生视频",
+      "description": "使用参考图片生成动态视频片段",
+      "categories": [
+        "视频生成"
+      ],
+      "tags": [
+        "视频生成",
+        "AI 图生视频"
+      ],
+      "language": "en",
+      "publisher": "inference-sh",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "inference.sh belt CLI 与平台登录",
+        "对应模型或搜索服务权限和额度（可能收费）",
+        "素材会发送到所选平台；实际能力以当前上游服务为准"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "inference-sh/skills",
+        "ref": "0aabdc6f47f757b772515265e4710452834c8696",
+        "path": "tools/video/image-to-video",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/tools/video/image-to-video",
+      "license": "未发现明确复制许可文件",
+      "downloadAllowed": false,
+      "licenseUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/tools/video/image-to-video",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 762,
+        "forks": 103,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/inference-sh/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T02:14:53Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "prompt": "请按 image-to-video 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "inference-sh-skills-image-upscaling",
+      "type": "skill",
+      "displayName": "图像放大与增强",
+      "description": "调用图像增强模型提升分辨率与细节",
+      "categories": [
+        "图像处理"
+      ],
+      "tags": [
+        "图像处理",
+        "图像放大与增强"
+      ],
+      "language": "en",
+      "publisher": "inference-sh",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "inference.sh belt CLI 与平台登录",
+        "对应模型或搜索服务权限和额度（可能收费）",
+        "素材会发送到所选平台；实际能力以当前上游服务为准"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "inference-sh/skills",
+        "ref": "0aabdc6f47f757b772515265e4710452834c8696",
+        "path": "tools/image/image-upscaling",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/tools/image/image-upscaling",
+      "license": "未发现明确复制许可文件",
+      "downloadAllowed": false,
+      "licenseUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/tools/image/image-upscaling",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 762,
+        "forks": 103,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/inference-sh/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T02:14:53Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "prompt": "请按 image-upscaling 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "inference-sh-skills-background-removal",
+      "type": "skill",
+      "displayName": "图片背景移除",
+      "description": "使用平台工具移除图像背景并制作透明素材",
+      "categories": [
+        "图像处理",
+        "商业修图"
+      ],
+      "tags": [
+        "图像处理",
+        "商业修图",
+        "图片背景移除"
+      ],
+      "language": "en",
+      "publisher": "inference-sh",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "inference.sh belt CLI 与平台登录",
+        "对应模型或搜索服务权限和额度（可能收费）",
+        "素材会发送到所选平台；实际能力以当前上游服务为准"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "inference-sh/skills",
+        "ref": "0aabdc6f47f757b772515265e4710452834c8696",
+        "path": "tools/image/background-removal",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/tools/image/background-removal",
+      "license": "未发现明确复制许可文件",
+      "downloadAllowed": false,
+      "licenseUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/tools/image/background-removal",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 762,
+        "forks": 103,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/inference-sh/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T02:14:53Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "prompt": "请按 background-removal 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "inference-sh-skills-ai-content-pipeline",
+      "type": "skill",
+      "displayName": "图文音视频内容流水线",
+      "description": "编排文本、图片、视频和音频的内容生产流程",
+      "categories": [
+        "自动化工作流",
+        "内容创作"
+      ],
+      "tags": [
+        "自动化工作流",
+        "内容创作",
+        "图文音视频内容流水线"
+      ],
+      "language": "en",
+      "publisher": "inference-sh",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "inference.sh belt CLI 与平台登录",
+        "对应模型或搜索服务权限和额度（可能收费）",
+        "素材会发送到所选平台；实际能力以当前上游服务为准"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "inference-sh/skills",
+        "ref": "0aabdc6f47f757b772515265e4710452834c8696",
+        "path": "guides/content/ai-content-pipeline",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/guides/content/ai-content-pipeline",
+      "license": "未发现明确复制许可文件",
+      "downloadAllowed": false,
+      "licenseUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/guides/content/ai-content-pipeline",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 762,
+        "forks": 103,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/inference-sh/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T02:14:53Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "prompt": "请按 ai-content-pipeline 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "inference-sh-skills-web-search",
+      "type": "skill",
+      "displayName": "网络资料检索",
+      "description": "通过平台搜索工具检索网页、提取来源并整理资料",
+      "categories": [
+        "资料研究"
+      ],
+      "tags": [
+        "资料研究",
+        "网络资料检索"
+      ],
+      "language": "en",
+      "publisher": "inference-sh",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "inference.sh belt CLI 与平台登录",
+        "对应模型或搜索服务权限和额度（可能收费）",
+        "素材会发送到所选平台；实际能力以当前上游服务为准"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "inference-sh/skills",
+        "ref": "0aabdc6f47f757b772515265e4710452834c8696",
+        "path": "tools/llm/web-search",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/tools/llm/web-search",
+      "license": "未发现明确复制许可文件",
+      "downloadAllowed": false,
+      "licenseUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/tools/llm/web-search",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 762,
+        "forks": 103,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/inference-sh/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T02:14:53Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "prompt": "请按 web-search 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "inference-sh-skills-competitor-teardown",
+      "type": "skill",
+      "displayName": "竞品拆解与市场研究",
+      "description": "组织产品、用户、定位与竞争差异分析",
+      "categories": [
+        "营销运营",
+        "资料研究"
+      ],
+      "tags": [
+        "营销运营",
+        "资料研究",
+        "竞品拆解与市场研究"
+      ],
+      "language": "en",
+      "publisher": "inference-sh",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "inference.sh belt CLI 与平台登录",
+        "对应模型或搜索服务权限和额度（可能收费）",
+        "素材会发送到所选平台；实际能力以当前上游服务为准"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "inference-sh/skills",
+        "ref": "0aabdc6f47f757b772515265e4710452834c8696",
+        "path": "guides/product/competitor-teardown",
+        "licenseFiles": []
+      },
+      "sourceUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/guides/product/competitor-teardown",
+      "license": "未发现明确复制许可文件",
+      "downloadAllowed": false,
+      "licenseUrl": "https://github.com/inference-sh/skills/tree/0aabdc6f47f757b772515265e4710452834c8696/guides/product/competitor-teardown",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 762,
+        "forks": 103,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/inference-sh/skills"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "场景补充：填补专门用途，来源仓库关注度较低；用途与结构已核对。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T02:14:53Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "prompt": "请按 competitor-teardown 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "googleworkspace-cli-gws-workflow-meeting-prep",
+      "type": "skill",
+      "displayName": "跨应用会议准备",
+      "description": "使用 Workspace CLI 汇总日历和相关文件，准备会议资料",
+      "categories": [
+        "日常办公",
+        "自动化工作流"
+      ],
+      "tags": [
+        "日常办公",
+        "自动化工作流",
+        "跨应用会议准备"
+      ],
+      "language": "en",
+      "publisher": "googleworkspace",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Google Workspace CLI（gws）",
+        "Google OAuth 授权及所需 Workspace 服务权限",
+        "gws-shared 及该条目引用的配套 Skills；可按上游 gws generate-skills 准备"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "googleworkspace/cli",
+        "ref": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+        "path": "skills/gws-workflow-meeting-prep",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/googleworkspace/cli/tree/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/skills/gws-workflow-meeting-prep",
+      "license": "Apache-2.0",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/googleworkspace/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 31262,
+        "forks": 1856,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/googleworkspace/cli"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T18:23:25Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 gws-workflow-meeting-prep 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "googleworkspace-cli-gws-workflow-weekly-digest",
+      "type": "skill",
+      "displayName": "每周工作摘要",
+      "description": "把 Workspace 信息整理为每周工作摘要",
+      "categories": [
+        "日常办公",
+        "自动化工作流"
+      ],
+      "tags": [
+        "日常办公",
+        "自动化工作流",
+        "每周工作摘要"
+      ],
+      "language": "en",
+      "publisher": "googleworkspace",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Google Workspace CLI（gws）",
+        "Google OAuth 授权及所需 Workspace 服务权限",
+        "gws-shared 及该条目引用的配套 Skills；可按上游 gws generate-skills 准备"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "googleworkspace/cli",
+        "ref": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+        "path": "skills/gws-workflow-weekly-digest",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/googleworkspace/cli/tree/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/skills/gws-workflow-weekly-digest",
+      "license": "Apache-2.0",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/googleworkspace/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 31262,
+        "forks": 1856,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/googleworkspace/cli"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T18:23:25Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 gws-workflow-weekly-digest 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "googleworkspace-cli-gws-gmail-triage",
+      "type": "skill",
+      "displayName": "邮件分类与收件箱摘要",
+      "description": "查看邮件摘要并辅助安排处理顺序",
+      "categories": [
+        "日常办公",
+        "自动化工作流"
+      ],
+      "tags": [
+        "日常办公",
+        "自动化工作流",
+        "邮件分类与收件箱摘要"
+      ],
+      "language": "en",
+      "publisher": "googleworkspace",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Google Workspace CLI（gws）",
+        "Google OAuth 授权及所需 Workspace 服务权限",
+        "gws-shared 及该条目引用的配套 Skills；可按上游 gws generate-skills 准备"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "googleworkspace/cli",
+        "ref": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+        "path": "skills/gws-gmail-triage",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/googleworkspace/cli/tree/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/skills/gws-gmail-triage",
+      "license": "Apache-2.0",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/googleworkspace/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 31262,
+        "forks": 1856,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/googleworkspace/cli"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T18:23:25Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 gws-gmail-triage 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "googleworkspace-cli-gws-sheets",
+      "type": "skill",
+      "displayName": "在线表格处理",
+      "description": "使用 Workspace CLI 读取、更新及组织 Google Sheets",
+      "categories": [
+        "数据分析",
+        "日常办公"
+      ],
+      "tags": [
+        "数据分析",
+        "日常办公",
+        "在线表格处理"
+      ],
+      "language": "en",
+      "publisher": "googleworkspace",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Google Workspace CLI（gws）",
+        "Google OAuth 授权及所需 Workspace 服务权限",
+        "gws-shared 及该条目引用的配套 Skills；可按上游 gws generate-skills 准备"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "googleworkspace/cli",
+        "ref": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+        "path": "skills/gws-sheets",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/googleworkspace/cli/tree/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/skills/gws-sheets",
+      "license": "Apache-2.0",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/googleworkspace/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 31262,
+        "forks": 1856,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/googleworkspace/cli"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T18:23:25Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 gws-sheets 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "googleworkspace-cli-persona-project-manager",
+      "type": "skill",
+      "displayName": "项目推进与任务协作",
+      "description": "借助 Workspace 服务组织项目任务、会议与团队协作",
+      "categories": [
+        "自动化工作流",
+        "日常办公"
+      ],
+      "tags": [
+        "自动化工作流",
+        "日常办公",
+        "项目推进与任务协作"
+      ],
+      "language": "en",
+      "publisher": "googleworkspace",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Google Workspace CLI（gws）",
+        "Google OAuth 授权及所需 Workspace 服务权限",
+        "gws-shared 及该条目引用的配套 Skills；可按上游 gws generate-skills 准备"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "googleworkspace/cli",
+        "ref": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+        "path": "skills/persona-project-manager",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/googleworkspace/cli/tree/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/skills/persona-project-manager",
+      "license": "Apache-2.0",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/googleworkspace/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 31262,
+        "forks": 1856,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/googleworkspace/cli"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T18:23:25Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 persona-project-manager 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
+    },
+    {
+      "id": "googleworkspace-cli-recipe-generate-report-from-sheet",
+      "type": "skill",
+      "displayName": "表格自动生成报告",
+      "description": "读取表格数据并组织工作报告",
+      "categories": [
+        "数据分析",
+        "自动化工作流"
+      ],
+      "tags": [
+        "数据分析",
+        "自动化工作流",
+        "表格自动生成报告"
+      ],
+      "language": "en",
+      "publisher": "googleworkspace",
+      "sourceKind": "平台作者仓库",
+      "requirements": [
+        "支持 Agent Skills 的 AI 工具",
+        "Google Workspace CLI（gws）",
+        "Google OAuth 授权及所需 Workspace 服务权限",
+        "gws-shared 及该条目引用的配套 Skills；可按上游 gws generate-skills 准备"
+      ],
+      "usage": "下载完整文件夹后，在支持 Skills 的 AI 工具中按上游说明安装。先核对输入、依赖和输出要求，再执行任务；助手负责资源管理，不直接运行生成或自动化任务。",
+      "source": {
+        "repo": "googleworkspace/cli",
+        "ref": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+        "path": "skills/recipe-generate-report-from-sheet",
+        "licenseFiles": [
+          "LICENSE"
+        ]
+      },
+      "sourceUrl": "https://github.com/googleworkspace/cli/tree/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/skills/recipe-generate-report-from-sheet",
+      "license": "Apache-2.0",
+      "downloadAllowed": true,
+      "licenseUrl": "https://github.com/googleworkspace/cli/blob/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/LICENSE",
+      "popularity": {
+        "provider": "GitHub",
+        "scope": "repository",
+        "stars": 31262,
+        "forks": 1856,
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "repositoryUrl": "https://github.com/googleworkspace/cli"
+      },
+      "review": {
+        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "sourceChecked": true,
+        "structureChecked": true,
+        "licenseChecked": true,
+        "runtimeTested": false,
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+      },
+      "maintenance": {
+        "pushedAt": "2026-10-06T18:23:25Z",
+        "archived": false
+      },
+      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
+      "prompt": "请按 recipe-generate-report-from-sheet 的说明完成：{{任务描述}}。输入资料：{{输入资料}}。输出要求：{{输出要求}}。先检查前置条件和调用成本，执行前明确方案，并验证产物。"
     }
-  ]
+  ],
+  "categories": [
+    "平面设计",
+    "UI 设计",
+    "3D 设计",
+    "商业修图",
+    "图片生成",
+    "图像处理",
+    "视频制作",
+    "视频剪辑",
+    "视频生成",
+    "音频字幕",
+    "自动化工作流",
+    "内容创作",
+    "日常办公",
+    "资料研究",
+    "知识管理",
+    "数据分析",
+    "营销运营",
+    "软件开发"
+  ],
+  "selectionPolicy": {
+    "updatedAt": "2026-10-06T19:06:02.037Z",
+    "summary": "按用途、来源、维护、结构和许可整理的精选目录。公开热度采用 GitHub 来源仓库 Star / Fork，不代表单条 Skill 的使用量或效果；未公开浏览量与下载量不伪造。",
+    "runtimeValidation": "本次验证目录、结构及管理流程，未执行外部收费生成或所有工作流。"
+  }
 }
