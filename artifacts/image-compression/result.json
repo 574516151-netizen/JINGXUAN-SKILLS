@@ -1,0 +1,44 @@
+{
+  "skillId": "jimliu-baoyu-skills-baoyu-compress-image",
+  "sourceRef": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+  "testedAt": "2026-10-07T12:42:25.355Z",
+  "environment": "Windows, Node v20.17.0, esbuild TypeScript compilation without semantic edits, local Sharp",
+  "noPaidCalls": true,
+  "sourceScriptSha256": "cb56f4926b10184c9dd6bee10f9e819cbf47085ae3ba1b2c4db860229159b452",
+  "inputBytes": 2363954,
+  "outputBytes": 17760,
+  "width": 1024,
+  "height": 768,
+  "cases": [
+    {
+      "name": "single-keep",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "name": "recursive-batch",
+      "exitCode": 0,
+      "passed": true
+    },
+    {
+      "name": "invalid-quality",
+      "exitCode": 1,
+      "passed": true
+    },
+    {
+      "name": "corrupt-single",
+      "exitCode": 1,
+      "passed": true
+    },
+    {
+      "name": "mixed-batch-must-report-failure",
+      "exitCode": 0,
+      "passed": false
+    }
+  ],
+  "limits": [
+    "Synthetic gradient and recursive fixtures only; not a compression benchmark",
+    "Node/esbuild compilation of original TypeScript; official Bun launcher untested",
+    "Mixed-directory failure prevents featured admission"
+  ]
+}

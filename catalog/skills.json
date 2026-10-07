@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T09:13:59.839Z",
+  "updatedAt": "2026-10-07T12:42:25.355Z",
   "items": [
     {
       "id": "anthropics-skills-canvas-design",
@@ -72,6 +72,17 @@
           "完成画布并检查文字、留白和导出尺寸"
         ],
         "example": "请按 canvas-design 为一场咖啡展览设计竖版海报，保留我提供的日期和地点，先给出视觉方向再制作。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "tests": [],
+        "sourceDocumentSha256": "a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b"
       }
     },
     {
@@ -143,6 +154,17 @@
           "运行预览并调整构图和表现"
         ],
         "example": "请用 algorithmic-art 制作以风场和流动粒子为主题的生成艺术，提供可调密度、颜色和随机种子。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "tests": [],
+        "sourceDocumentSha256": "3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef"
       }
     },
     {
@@ -213,6 +235,17 @@
           "调整颜色、字体与层级并检查一致性"
         ],
         "example": "请按 brand-guidelines 检查这份提案的颜色和字体，说明默认规范是否适合我的品牌，再按我提供的品牌色修改。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "tests": [],
+        "sourceDocumentSha256": "1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe"
       }
     },
     {
@@ -284,6 +317,17 @@
           "实现界面并检查交互、窄屏和可访问性"
         ],
         "example": "请用 frontend-design 做一个摄影作品集首页，使用现有项目技术栈，包含作品筛选和联系入口，检查手机布局。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "tests": [],
+        "sourceDocumentSha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
       }
     },
     {
@@ -354,6 +398,17 @@
           "应用到作品并检查可读性和一致性"
         ],
         "example": "请用 theme-factory 为这份产品发布演示提供三套主题，选择适合科技品牌的一套并应用。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "tests": [],
+        "sourceDocumentSha256": "c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552"
       }
     },
     {
@@ -386,7 +441,7 @@
       ],
       "usage": "1. 提供待审查的页面或文件范围\n2. 按上游设计审查规则检查\n3. 按影响排序问题并验证修复",
       "prompt": "请按 web-design-guidelines 审查账号管理页面，重点检查表单、键盘操作、按钮反馈和窄屏布局。",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "verifiedAt": "2026-10-06T19:06:02.037Z",
       "popularity": {
         "provider": "GitHub",
@@ -423,7 +478,19 @@
           "按影响排序问题并验证修复"
         ],
         "example": "请按 web-design-guidelines 审查账号管理页面，重点检查表单、键盘操作、按钮反馈和窄屏布局。"
-      }
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "063bee94c3f4df8453406c830b0a7df0f2860278",
+        "tests": [],
+        "sourceDocumentSha256": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "roble3-cc-blender-skill-blender-modeling",
@@ -497,6 +564,17 @@
           "检查比例、拓扑和法线"
         ],
         "example": "请按 blender-modeling 在 Blender 中制作一个圆角音箱，参考我给出的尺寸，保持可编辑修改器并检查法线。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "11016c9a5847897491dde935c346571bd7548e3d",
+        "tests": [],
+        "sourceDocumentSha256": "787b50ca5ce131eb6cefec7e92985ddee522ea19e9f194e14b756322c902d232"
       }
     },
     {
@@ -571,6 +649,17 @@
           "在灯光下预览和调整"
         ],
         "example": "请按 blender-materials 给这个音箱设置磨砂塑料和金属网罩材质，保持节点可编辑并展示预览。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "11016c9a5847897491dde935c346571bd7548e3d",
+        "tests": [],
+        "sourceDocumentSha256": "031178153480c4b2f7fe7a7c7a595d324c238ed16e1a3d752d9301e67e2308b3"
       }
     },
     {
@@ -645,6 +734,17 @@
           "检查反光、阴影和曝光"
         ],
         "example": "请按 blender-lighting 为这款耳机设置干净的棚拍布光，主体轮廓清晰且不过曝。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "11016c9a5847897491dde935c346571bd7548e3d",
+        "tests": [],
+        "sourceDocumentSha256": "62e7c2ce61f97c0aa9e760e6b31492e4a9af542b99b26ddb8aef3064db3f3ef7"
       }
     },
     {
@@ -719,6 +819,17 @@
           "先低成本预览，再最终渲染并校验文件"
         ],
         "example": "请按 blender-rendering 输出这款产品的 2000 像素宣传图，先预览噪声和曝光，再确认最终设置。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "11016c9a5847897491dde935c346571bd7548e3d",
+        "tests": [],
+        "sourceDocumentSha256": "2c5fc68dd34f795149290cabb6dcb5735138dbd99023798cc41ba2b0e882d875"
       }
     },
     {
@@ -751,7 +862,7 @@
       ],
       "usage": "1. 提供照片和保留范围\n2. 区分需要修正的问题与应保留的真实细节\n3. 形成局部方案并在实际工具中检查结果",
       "prompt": "请按 photo-retouch-pro 诊断这张人像，保留皮肤纹理和五官，只改善肤色、曝光和杂乱背景。",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "verifiedAt": "2026-10-06T19:06:02.037Z",
       "popularity": {
         "provider": "GitHub",
@@ -791,7 +902,19 @@
           "形成局部方案并在实际工具中检查结果"
         ],
         "example": "请按 photo-retouch-pro 诊断这张人像，保留皮肤纹理和五官，只改善肤色、曝光和杂乱背景。"
-      }
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "bd963066b15f9dda1f46b10e63427f1046b57acc",
+        "tests": [],
+        "sourceDocumentSha256": "96a2b5f9decc4990462de893b8014427a799cdb7154823f11b86285a8b24d1b4"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "commercial-retouch-brief",
@@ -843,6 +966,16 @@
           "把清单交给执行者并按清单验收"
         ],
         "example": "请按这个模板整理一份商品修图需求，保留包装文字和比例，统一背景与光影，并列出验收标准。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "local-template-sha256:34d21bd7411d73666f67f7f5590e580bece5c975327cee10436cc962ade734d2",
+        "tests": []
       }
     },
     {
@@ -875,7 +1008,7 @@
       ],
       "usage": "1. 通过来源了解授权环境和工具\n2. 提供文档及具体改动范围\n3. 检查段落、表格、页眉页脚与导出文件",
       "prompt": "请按 docx 能力修改这份报告，统一标题层级和表格格式，保留所有数值并输出修改说明。",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "verifiedAt": "2026-10-06T19:06:02.037Z",
       "popularity": {
         "provider": "GitHub",
@@ -913,7 +1046,19 @@
           "检查段落、表格、页眉页脚与导出文件"
         ],
         "example": "请按 docx 能力修改这份报告，统一标题层级和表格格式，保留所有数值并输出修改说明。"
-      }
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "tests": [],
+        "sourceDocumentSha256": "8017469ea95fb7d28225c62daf8e2f3492a7b516fc64c18c28977cbf8980b7fe"
+      },
+      "accessReason": "上游条款明确限制服务外保留或复制，不能下载入库"
     },
     {
       "id": "anthropics-skills-pdf",
@@ -945,7 +1090,7 @@
       ],
       "usage": "1. 先判断文本型还是扫描型 PDF\n2. 选择提取、合并、拆分等具体操作\n3. 检查页序、内容完整性和输出文件",
       "prompt": "请按 pdf 能力把这三份资料按日期合并，保留原页内容，并检查合并后的页数和顺序。",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "verifiedAt": "2026-10-06T19:06:02.037Z",
       "popularity": {
         "provider": "GitHub",
@@ -984,7 +1129,19 @@
           "检查页序、内容完整性和输出文件"
         ],
         "example": "请按 pdf 能力把这三份资料按日期合并，保留原页内容，并检查合并后的页数和顺序。"
-      }
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "tests": [],
+        "sourceDocumentSha256": "9f78b8359fbd4943ad260a7a1e436e5a96503406d6c34e99f69223d647d85b9c"
+      },
+      "accessReason": "上游条款明确限制服务外保留或复制，不能下载入库"
     },
     {
       "id": "anthropics-skills-pptx",
@@ -1016,7 +1173,7 @@
       ],
       "usage": "1. 明确演示目标和故事结构\n2. 制作或修改页面、图表与排版\n3. 逐页预览并检查文字溢出和可读性",
       "prompt": "请按 pptx 能力把这份研究整理成八页汇报，先提出结构，再制作页面并检查文字溢出。",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "verifiedAt": "2026-10-06T19:06:02.037Z",
       "popularity": {
         "provider": "GitHub",
@@ -1055,7 +1212,19 @@
           "逐页预览并检查文字溢出和可读性"
         ],
         "example": "请按 pptx 能力把这份研究整理成八页汇报，先提出结构，再制作页面并检查文字溢出。"
-      }
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "tests": [],
+        "sourceDocumentSha256": "a7ff03e2c85b636f55232a6b1555f5dd90216b7a1a359ab289d8364e6acbc6a0"
+      },
+      "accessReason": "上游条款明确限制服务外保留或复制，不能下载入库"
     },
     {
       "id": "anthropics-skills-xlsx",
@@ -1088,7 +1257,7 @@
       ],
       "usage": "1. 确认数据范围和字段含义\n2. 编写公式、整理数据或生成汇总\n3. 核对计算结果、格式与异常值",
       "prompt": "请按 xlsx 能力整理这份销售表，生成月度汇总和毛利率公式，检查缺失值并保留原始数据。",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "verifiedAt": "2026-10-06T19:06:02.037Z",
       "popularity": {
         "provider": "GitHub",
@@ -1127,7 +1296,19 @@
           "核对计算结果、格式与异常值"
         ],
         "example": "请按 xlsx 能力整理这份销售表，生成月度汇总和毛利率公式，检查缺失值并保留原始数据。"
-      }
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "tests": [],
+        "sourceDocumentSha256": "6712b39718fe815054abca9c3ee72f989613e6f771c8a5c58f30a65a6c905622"
+      },
+      "accessReason": "上游条款明确限制服务外保留或复制，不能下载入库"
     },
     {
       "id": "anthropics-skills-doc-coauthoring",
@@ -1159,7 +1340,7 @@
       ],
       "usage": "1. 提供背景和目标读者\n2. 逐段完善结构与内容\n3. 从读者角度检查遗漏和歧义",
       "prompt": "请按 doc-coauthoring 与我一起写一份项目提案，先确认受众、目标、预算和风险，再逐段起草。",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "verifiedAt": "2026-10-06T19:06:02.037Z",
       "popularity": {
         "provider": "GitHub",
@@ -1198,7 +1379,19 @@
           "从读者角度检查遗漏和歧义"
         ],
         "example": "请按 doc-coauthoring 与我一起写一份项目提案，先确认受众、目标、预算和风险，再逐段起草。"
-      }
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "tests": [],
+        "sourceDocumentSha256": "2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "anthropics-skills-internal-comms",
@@ -1269,6 +1462,17 @@
           "检查语气、行动项及遗漏"
         ],
         "example": "请按 internal-comms 把这些项目进展整理成周报，区分已完成、风险与需要协助的事项。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "tests": [],
+        "sourceDocumentSha256": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475"
       }
     },
     {
@@ -1341,6 +1545,17 @@
           "验证工具调用与服务连接"
         ],
         "example": "请按 mcp-builder 为内部只读文档 API 设计 MCP 服务，先定义搜索和读取接口，再实现并验证。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "tests": [],
+        "sourceDocumentSha256": "0f4592dcb53cf2b5d6b7febee6b4152018b565551a1c29e3c612f57b218ab295"
       }
     },
     {
@@ -1412,6 +1627,17 @@
           "记录真实结果和可复现的问题"
         ],
         "example": "请按 webapp-testing 检查这个本地页面的登录表单、导航和弹窗，记录失败步骤并保存必要截图。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "tests": [],
+        "sourceDocumentSha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2"
       }
     },
     {
@@ -1482,6 +1708,17 @@
           "预览并验证关键任务与窄屏显示"
         ],
         "example": "请按 web-artifacts-builder 做一个报价计算器，包含项目选择、数量、折扣和结果汇总，并验证计算。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+        "tests": [],
+        "sourceDocumentSha256": "81c5002c6643b0de7b8710b00e7a9038daa6fb9b68d59870ee6adb12da8d10f8"
       }
     },
     {
@@ -1553,6 +1790,17 @@
           "按影响实施优化并重新测量"
         ],
         "example": "请按 react-best-practices 检查商品列表加载和筛选性能，先定位瓶颈，再验证改动的实际收益。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "063bee94c3f4df8453406c830b0a7df0f2860278",
+        "tests": [],
+        "sourceDocumentSha256": "71ed7794962fa6e803ee83030517b5b93a9f70fbfeb431ec4535c5480a8d8355"
       }
     },
     {
@@ -1623,6 +1871,17 @@
           "迁移调用并验证原有行为"
         ],
         "example": "请按 composition-patterns 重构这个复杂弹窗组件，减少布尔参数，保留现有调用行为。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "063bee94c3f4df8453406c830b0a7df0f2860278",
+        "tests": [],
+        "sourceDocumentSha256": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3"
       }
     },
     {
@@ -1694,6 +1953,17 @@
           "在目标设备或模拟器中验证"
         ],
         "example": "请按 react-native-skills 检查这个商品列表的滚动性能，优化图片与列表渲染并验证操作行为。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "063bee94c3f4df8453406c830b0a7df0f2860278",
+        "tests": [],
+        "sourceDocumentSha256": "4012750a5ccbe064ca04af3835d5d1b011979d2d09d9b6df1c8128fac58e0a66"
       }
     },
     {
@@ -1769,6 +2039,17 @@
           "生成并检查尺寸、细节与内容"
         ],
         "example": "请按 baoyu-image-gen 生成一张书店活动插画，横版 16:9，暖色调，预留标题区域；先说明所用后端和费用。"
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "tests": [],
+        "sourceDocumentSha256": "212ce2f9c4b49b165b09e8f8b47416f3cc716796ed1b79c4c3a08dc9db539ab9"
       }
     },
     {
@@ -1846,6 +2127,17 @@
           "生成封面并检查缩略图可读性"
         ],
         "example": "请按 baoyu-cover-image 为这篇人工智能入门文章制作 16:9 封面，画面清楚、标题简短并适合缩略图。"
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "tests": [],
+        "sourceDocumentSha256": "36804fce98bcb9ebe4a51c26f6f276a807805aab980ca4a0718daa40a5cc7fda"
       }
     },
     {
@@ -1924,6 +2216,17 @@
           "生成插图并核对与正文的对应关系"
         ],
         "example": "请按 baoyu-article-illustrator 为这篇文章规划三张配图，先说明插图位置和目的，再生成统一风格的图片。"
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "tests": [],
+        "sourceDocumentSha256": "ce1c7bfe9b93e5afac1dbeac95a03f8abf8c102aeecc34a33d8f13dc10e64acd"
       }
     },
     {
@@ -2001,6 +2304,17 @@
           "生成并检查信息准确性和文字清晰度"
         ],
         "example": "请按 baoyu-infographic 把这份远程办公调研做成信息图，保留原始数值，突出三项主要发现。"
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "tests": [],
+        "sourceDocumentSha256": "1572aaa294c5f7547889f520b6efeed979aeaaf58b4e7c4bcaaa26ace2ee3564"
       }
     },
     {
@@ -2080,6 +2394,17 @@
           "生成画面并检查角色一致性和知识准确性"
         ],
         "example": "请按 baoyu-comic 用六格漫画解释什么是机器学习，面向中学生，先给出分镜与对白。"
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "tests": [],
+        "sourceDocumentSha256": "98d5de8650a3401c1ee97b3f78ebacef72f3f570ef7fe7290b192ac7d24330bc"
       }
     },
     {
@@ -2158,6 +2483,17 @@
           "生成统一风格卡片并检查文字与顺序"
         ],
         "example": "请按 baoyu-xhs-images 把这份旅行攻略拆成五张卡片，突出预算和路线，先检查事实再生成。"
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "tests": [],
+        "sourceDocumentSha256": "17bf5498641cc60cb98f0cc15fbea27fd42777d119a39fb54fd6418840442bba"
       }
     },
     {
@@ -2233,6 +2569,17 @@
           "生成图示并核对分支和连线"
         ],
         "example": "请按 baoyu-diagram 把这份订单处理流程画成流程图，包含支付失败、退款和人工审核分支。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "tests": [],
+        "sourceDocumentSha256": "55a2d050c3a2faea8721d1cec31749dfafa7e7d346a586e99e757f77a3526860"
       }
     },
     {
@@ -2281,7 +2628,7 @@
         "sourceChecked": true,
         "structureChecked": true,
         "licenseChecked": true,
-        "runtimeTested": false,
+        "runtimeTested": true,
         "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
       },
       "maintenance": {
@@ -2308,6 +2655,83 @@
           "执行后核对尺寸、体积和画质"
         ],
         "example": "请按 baoyu-compress-image 压缩这个文件夹的图片，保留原文件，输出到新目录并列出压缩前后体积。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "已实测：正常任务通过，混合批量失败被静默忽略；未通过完整验收",
+        "cost": {
+          "status": "free",
+          "evidence": "本次核心任务仅使用本地Node、开源esbuild与Sharp，未调用模型、收费API或云服务；官方Bun路径仍待核验",
+          "verifiedAt": "2026-10-07T12:42:25.355Z"
+        },
+        "sourceRef": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+        "tests": [
+          {
+            "kind": "normal",
+            "task": "single-keep",
+            "result": "输出和退出状态符合预期",
+            "passed": true,
+            "artifacts": [
+              {
+                "path": "artifacts/image-compression/result.json",
+                "sha256": "8046dc02852bbe302003ba80aef52fde9c07f6a5ebd04afb15150bf9dce0a387"
+              }
+            ]
+          },
+          {
+            "kind": "normal",
+            "task": "recursive-batch",
+            "result": "输出和退出状态符合预期",
+            "passed": true,
+            "artifacts": [
+              {
+                "path": "artifacts/image-compression/result.json",
+                "sha256": "8046dc02852bbe302003ba80aef52fde9c07f6a5ebd04afb15150bf9dce0a387"
+              }
+            ]
+          },
+          {
+            "kind": "boundary",
+            "task": "invalid-quality",
+            "result": "输出和退出状态符合预期",
+            "passed": true,
+            "artifacts": [
+              {
+                "path": "artifacts/image-compression/result.json",
+                "sha256": "8046dc02852bbe302003ba80aef52fde9c07f6a5ebd04afb15150bf9dce0a387"
+              }
+            ]
+          },
+          {
+            "kind": "boundary",
+            "task": "corrupt-single",
+            "result": "输出和退出状态符合预期",
+            "passed": true,
+            "artifacts": [
+              {
+                "path": "artifacts/image-compression/result.json",
+                "sha256": "8046dc02852bbe302003ba80aef52fde9c07f6a5ebd04afb15150bf9dce0a387"
+              }
+            ]
+          },
+          {
+            "kind": "boundary",
+            "task": "mixed-batch-must-report-failure",
+            "result": "损坏文件未报告，退出码0",
+            "passed": false,
+            "artifacts": [
+              {
+                "path": "artifacts/image-compression/result.json",
+                "sha256": "8046dc02852bbe302003ba80aef52fde9c07f6a5ebd04afb15150bf9dce0a387"
+              }
+            ]
+          }
+        ],
+        "sourceDocumentSha256": "b14b2ac50b798aa7cdac1ba489a5963312b0faf538fdb3f88e69733045c3f9dc",
+        "environment": "Windows, Node v20.17.0, esbuild TypeScript compilation without semantic edits, local Sharp",
+        "testedAt": "2026-10-07T12:42:25.355Z",
+        "report": "reports/image-compression.md",
+        "limitations": "Synthetic gradient and recursive fixtures only; not a compression benchmark；Node/esbuild compilation of original TypeScript; official Bun launcher untested；Mixed-directory failure prevents featured admission"
       }
     },
     {
@@ -2365,7 +2789,7 @@
         "archived": false
       },
       "verifiedAt": "2026-10-06T19:06:02.037Z",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "prompt": "请按 remotion-create 制作一个 30 秒产品介绍项目，使用我提供的图片和文案，先列镜头及时间轴再实现。",
       "guide": {
         "purpose": "用 React 代码编排视频画面、时间轴和动画，适合解说、数据展示或产品演示；需要 Remotion 项目。",
@@ -2384,7 +2808,19 @@
           "预览节奏和音画关系，再交给渲染流程"
         ],
         "example": "请按 remotion-create 制作一个 30 秒产品介绍项目，使用我提供的图片和文案，先列镜头及时间轴再实现。"
-      }
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "473352613039e718e46655a26df224851e84c4aa",
+        "tests": [],
+        "sourceDocumentSha256": "0fe988023d9c790ed5df2a8ae66f9117c45e9ad9173e8d68f0984670c4956e0e"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "remotion-dev-skills-remotion-render",
@@ -2441,7 +2877,7 @@
         "archived": false
       },
       "verifiedAt": "2026-10-06T19:06:02.037Z",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "prompt": "请按 remotion-render 将这个已完成的合成导出为 1080p 视频，先确认合成名称和输出位置，再检查结果。",
       "guide": {
         "purpose": "把已经完成的 Remotion 合成渲染为视频或静态帧，重点是输出配置和渲染结果。",
@@ -2459,7 +2895,19 @@
           "渲染并检查时长、画面和音频"
         ],
         "example": "请按 remotion-render 将这个已完成的合成导出为 1080p 视频，先确认合成名称和输出位置，再检查结果。"
-      }
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "473352613039e718e46655a26df224851e84c4aa",
+        "tests": [],
+        "sourceDocumentSha256": "13804aaf44a27628f559a65a8a06f89d3e39408c1824275fb106762384a6cae7"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "remotion-dev-skills-remotion-captions",
@@ -2516,7 +2964,7 @@
         "archived": false
       },
       "verifiedAt": "2026-10-06T19:06:02.037Z",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "prompt": "请按 remotion-captions 给这个解说视频添加中文字幕，突出关键词，检查时间同步和底部安全区。",
       "guide": {
         "purpose": "为 Remotion 视频组织有时间信息的字幕，并设计字幕样式或动态展示。",
@@ -2535,7 +2983,19 @@
           "逐段预览文字、时间与画面遮挡"
         ],
         "example": "请按 remotion-captions 给这个解说视频添加中文字幕，突出关键词，检查时间同步和底部安全区。"
-      }
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "473352613039e718e46655a26df224851e84c4aa",
+        "tests": [],
+        "sourceDocumentSha256": "d748fe8136d4fc09b80f22fd0c23b56d12a45ea5e8ac8287ae52f3a769dc8411"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "remotion-dev-skills-remotion-multimedia",
@@ -2592,7 +3052,7 @@
         "archived": false
       },
       "verifiedAt": "2026-10-06T19:06:02.037Z",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "prompt": "请按 remotion-multimedia 检查这些素材的时长和编码，并按项目要求整理可用的视频与音频输入。",
       "guide": {
         "purpose": "用 Mediabunny 处理音视频文件、元数据和浏览器端媒体流程，适合素材读取、转换及输出准备。",
@@ -2610,7 +3070,19 @@
           "检查时长、编码及生成文件能否播放"
         ],
         "example": "请按 remotion-multimedia 检查这些素材的时长和编码，并按项目要求整理可用的视频与音频输入。"
-      }
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "473352613039e718e46655a26df224851e84c4aa",
+        "tests": [],
+        "sourceDocumentSha256": "d23d09f4ad9e813464811c4af21e5c087cf5c27ccbb763eb6631f81e93bc1a8f"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "fal-ai-community-skills-genmedia",
@@ -2667,7 +3139,7 @@
         "archived": false
       },
       "verifiedAt": "2026-10-06T19:06:02.037Z",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "prompt": "请按 genmedia 根据这张商品图制作一个短视频片段，先列可用模型、输入要求和费用，再等待确认。",
       "guide": {
         "purpose": "通过 genmedia 调用 fal 相关图像、视频或音频能力，适合按单个任务生成素材；实际模型和费用由平台决定。",
@@ -2686,7 +3158,19 @@
           "执行选定任务并检查输出"
         ],
         "example": "请按 genmedia 根据这张商品图制作一个短视频片段，先列可用模型、输入要求和费用，再等待确认。"
-      }
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "9ca850412943251fc9a466c4c29fdaf7a303a3d8",
+        "tests": [],
+        "sourceDocumentSha256": "2e982b5d6a169761a1b260aacce60cce2a47111591eab14d231fa6351f7d96a9"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "fal-ai-community-skills-genmedia-workflow",
@@ -2743,7 +3227,7 @@
         "archived": false
       },
       "verifiedAt": "2026-10-06T19:06:02.037Z",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "prompt": "请按 genmedia-workflow 设计从文案到图片再到短视频的流程，列出每步依赖和费用，并先测试一段样例。",
       "guide": {
         "purpose": "把图像、视频、音频等生成步骤组织为有输入输出关系的流程，适合多步骤内容制作。",
@@ -2763,7 +3247,19 @@
           "先验证小规模流程，再检查完整结果"
         ],
         "example": "请按 genmedia-workflow 设计从文案到图片再到短视频的流程，列出每步依赖和费用，并先测试一段样例。"
-      }
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "9ca850412943251fc9a466c4c29fdaf7a303a3d8",
+        "tests": [],
+        "sourceDocumentSha256": "450e1d49500917ee199d981b2e8e45cc9a8d7caf408f6c7eed5dfbd065e16195"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "czlonkowski-n8n-skills-n8n-workflow-patterns",
@@ -2839,6 +3335,17 @@
           "检查错误分支后用测试数据验证"
         ],
         "example": "请按 n8n-workflow-patterns 设计每天汇总销售数据的流程，包含定时触发、数据查询、汇总及失败通知。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "19cd793f4789e3ef9c657ccf26e097f641a77df0",
+        "tests": [],
+        "sourceDocumentSha256": "c644aa2b40547896bcd0dc967d07d69c14f6c2a0bbd0691d7fa439f8de05deee"
       }
     },
     {
@@ -2917,6 +3424,17 @@
           "逐项修复并重新验证，再做运行测试"
         ],
         "example": "请按 n8n-validation-expert 解释这些验证错误，按根因分组，修复后重新验证，不忽略仍存在的问题。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "19cd793f4789e3ef9c657ccf26e097f641a77df0",
+        "tests": [],
+        "sourceDocumentSha256": "cc0c674063878889004a849075553938052cd49d902e56ddb36b8036cd3adc72"
       }
     },
     {
@@ -2991,6 +3509,17 @@
           "读取返回结果并验证目标是否完成"
         ],
         "example": "请按 n8n-mcp-tools-expert 查找适合发送通知的节点，核对配置要求，再验证示例节点。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "19cd793f4789e3ef9c657ccf26e097f641a77df0",
+        "tests": [],
+        "sourceDocumentSha256": "14836b4d7a9b43c98eaf842aabf16b6da61e0e6c93f131d01cfa7108c0eda974"
       }
     },
     {
@@ -3067,6 +3596,17 @@
           "模拟失败，确认不会重复执行关键写入"
         ],
         "example": "请按 n8n-error-handling 给这个 API 流程补充限次重试和失败通知，验证超时及永久失败两种情况。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "19cd793f4789e3ef9c657ccf26e097f641a77df0",
+        "tests": [],
+        "sourceDocumentSha256": "f0caf177b3fcbc4bb3e7b3d08642cbb6091b5454833de4e50010f7c35d60e51c"
       }
     },
     {
@@ -3143,6 +3683,17 @@
           "用测试输入执行，再检查发布和维护要求"
         ],
         "example": "请按 n8n-workflow-lifecycle-official 设计客户反馈汇总流程，先用测试数据验证，再列出上线前需要确认的事项。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "180b8415e3b73f78828cfa01e908e67f89f2a139",
+        "tests": [],
+        "sourceDocumentSha256": "fb478e4c54655f6171e7bf699b720e7bdc993f4a76d94c5b562bb8a9cd358fcb"
       }
     },
     {
@@ -3220,6 +3771,17 @@
           "用测试记录验证，避免无条件覆盖数据"
         ],
         "example": "请按 n8n-data-tables-official 设计一张任务状态表，按任务编号查询和更新状态，先用测试记录验证。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "180b8415e3b73f78828cfa01e908e67f89f2a139",
+        "tests": [],
+        "sourceDocumentSha256": "80caaf14d9a210c7b2d5634fb60239a5f1530f58a06840740794effcb52b6d1c"
       }
     },
     {
@@ -3298,6 +3860,17 @@
           "用小文件测试并检查输出完整性"
         ],
         "example": "请按 n8n-binary-and-data-official 设计附件下载与归档流程，说明二进制字段，并用一个测试文件验证。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "180b8415e3b73f78828cfa01e908e67f89f2a139",
+        "tests": [],
+        "sourceDocumentSha256": "a2f7684204ef6d41ab3ac0c3c9a9cf567904b8b683e85f0e9b51cf1f88f9f493"
       }
     },
     {
@@ -3375,6 +3948,17 @@
           "形成可评审设计后再进入实施"
         ],
         "example": "请按 brainstorming 与我澄清一个个人知识库工具的需求，先问关键问题，再比较方案并形成设计。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+        "tests": [],
+        "sourceDocumentSha256": "a32d2255354775aa124855aa7100cf276bea096fff4ebb3a0edf57be216e6c72"
       }
     },
     {
@@ -3452,6 +4036,17 @@
           "明确每步产物、验证方法和依赖"
         ],
         "example": "请按 writing-plans 把这个已确认设计拆成实施计划，列出每步文件、预期行为和验证方式。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+        "tests": [],
+        "sourceDocumentSha256": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a"
       }
     },
     {
@@ -3529,6 +4124,17 @@
           "汇报实际结果，遇到阻塞先定位原因"
         ],
         "example": "请按 executing-plans 执行这份已确认计划，逐步验证并记录结果，未完成的步骤不要标为成功。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+        "tests": [],
+        "sourceDocumentSha256": "f38e8f2ddcf079f65493adc713c1fed78421dfaf5f4dbf6b3a6b2b1d95466e71"
       }
     },
     {
@@ -3603,6 +4209,17 @@
           "生成后检查细节、透明度或输出尺寸"
         ],
         "example": "请按 imagegen 编辑这张商品图，保留商品和包装文字，把背景改为浅灰摄影棚，输出横版图片。"
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "49f948faa9258a0c61caceaf225e179651397431",
+        "tests": [],
+        "sourceDocumentSha256": "826d05b806d51fa81cd650f1c0854b0a1f7fbccd1b152c588ded1797a2e7218f"
       }
     },
     {
@@ -3676,6 +4293,17 @@
           "生成后检查发音、停顿和文件格式"
         ],
         "example": "请按 speech 为这段产品介绍生成自然的中文旁白，先校对文字，再检查发音和停顿。"
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "49f948faa9258a0c61caceaf225e179651397431",
+        "tests": [],
+        "sourceDocumentSha256": "d6120efc03ea0e80204f687801cfaec8efc4519a3430b68e13e4ebd8e1c69b52"
       }
     },
     {
@@ -3750,6 +4378,17 @@
           "核对重要名称和数字，标记不确定内容"
         ],
         "example": "请按 transcribe 转录这段中文访谈，保留重要数字和专有名词，无法确认的内容请标记。"
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "49f948faa9258a0c61caceaf225e179651397431",
+        "tests": [],
+        "sourceDocumentSha256": "f530021da9f377362ee4214e0bc689cbb5404640d2eb88ee272d51d61f530a09"
       }
     },
     {
@@ -3824,6 +4463,17 @@
           "组织报告并保留出处及未解决问题"
         ],
         "example": "请按 notion-research-documentation 汇总这些页面里的用户反馈，按主题归纳并为每项结论附上来源。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "49f948faa9258a0c61caceaf225e179651397431",
+        "tests": [],
+        "sourceDocumentSha256": "e88a46da978cf6f088a788fa92ee736df699a355a72f41f14bdc258bf3ef57e7"
       }
     },
     {
@@ -3895,6 +4545,17 @@
           "整理页面与相关链接并确认保存范围"
         ],
         "example": "请按 notion-knowledge-capture 把这次项目复盘整理为知识条目，区分经验、决策和待办，并链接相关页面。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "49f948faa9258a0c61caceaf225e179651397431",
+        "tests": [],
+        "sourceDocumentSha256": "b49383b229bc766190ea22bb58502cfcf7e08449f5fce55a104eef1e54e27f00"
       }
     },
     {
@@ -3971,6 +4632,17 @@
           "生成适合参会者的议程与准备清单"
         ],
         "example": "请按 notion-meeting-intelligence 为明天的产品评审整理议程、背景摘要和待决问题，注明信息来源。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "49f948faa9258a0c61caceaf225e179651397431",
+        "tests": [],
+        "sourceDocumentSha256": "bad61faccbbe0f2cab53bcfbc4cb22f847ba8593ef14c2e37fea5b9b03346332"
       }
     },
     {
@@ -4048,6 +4720,17 @@
           "输出到新目录并检查音画同步及播放"
         ],
         "example": "请按 ffmpeg-skill 把这些素材按顺序拼成短片，删除指定静音段，保留原文件，并核对时长和音画同步。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "008333aaf6722083392eb6bd8bd67b59884a2a26",
+        "tests": [],
+        "sourceDocumentSha256": "ad414b10efcd39a17021cfad12d3a29513b4bc1f1a887a517183baf1039406b4"
       }
     },
     {
@@ -4127,6 +4810,17 @@
           "生成或整理草稿后在剪辑工具中预览校验"
         ],
         "example": "请按 codex-auto-clip-workflow 分析这段参考片的镜头节奏，再用我的素材组织草稿，缺少素材的位置请标记。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "3bfb497adcc129ceda5826270c5950faab8a90f5",
+        "tests": [],
+        "sourceDocumentSha256": "7d9e66fe2006e4eb9875efc030b7ca0105f36c40e77eac95783728cea3cb5ed6"
       }
     },
     {
@@ -4203,6 +4897,17 @@
           "播放预览并检查运动、穿模和时长"
         ],
         "example": "请按 blender-animation 给这个产品制作十秒旋转展示，运动平滑，检查关键帧和镜头构图。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "11016c9a5847897491dde935c346571bd7548e3d",
+        "tests": [],
+        "sourceDocumentSha256": "09f1207eef74df2db7956f55029e6f511e78f2592e9230adf2dcf2533cce9084"
       }
     },
     {
@@ -4279,6 +4984,17 @@
           "检查场景并预览渲染，确认后最终输出"
         ],
         "example": "请按 blender-pro-workflow 制作一个产品展示场景，先列阶段与验收点，每阶段预览后再继续。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "11016c9a5847897491dde935c346571bd7548e3d",
+        "tests": [],
+        "sourceDocumentSha256": "a532f46113872320cf645336d0777fe10332cc597214bb070fc50d7d560aabcb"
       }
     },
     {
@@ -4334,7 +5050,7 @@
         "archived": false
       },
       "verifiedAt": "2026-10-06T19:06:02.037Z",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "prompt": "请按 ai-image-generation 制作一张自然风景插画，先比较可用后端和费用，再说明生成参数。",
       "guide": {
         "purpose": "通过 inference.sh 平台选择图片生成模型完成任务，适合在该平台已有账号和额度时使用。",
@@ -4352,7 +5068,19 @@
           "确认费用后生成并检查内容与格式"
         ],
         "example": "请按 ai-image-generation 制作一张自然风景插画，先比较可用后端和费用，再说明生成参数。"
-      }
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "0aabdc6f47f757b772515265e4710452834c8696",
+        "tests": [],
+        "sourceDocumentSha256": "1598dc03aaeb135e2a25f25f589908b44e1d0480453c62eea6f53b6788a6a23f"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "inference-sh-skills-ai-video-generation",
@@ -4407,7 +5135,7 @@
         "archived": false
       },
       "verifiedAt": "2026-10-06T19:06:02.037Z",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "prompt": "请按 ai-video-generation 生成一个雨后街道的短镜头，固定机位，先说明模型、可用时长与费用。",
       "guide": {
         "purpose": "通过平台视频模型把文字描述变成视频片段，适合概念镜头或短场景；输出质量与时长受模型限制。",
@@ -4425,7 +5153,19 @@
           "确认费用后生成并检查动作和画面"
         ],
         "example": "请按 ai-video-generation 生成一个雨后街道的短镜头，固定机位，先说明模型、可用时长与费用。"
-      }
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "0aabdc6f47f757b772515265e4710452834c8696",
+        "tests": [],
+        "sourceDocumentSha256": "30521e6262ed22b6f548c9dd636b667fee916bc3ce9c747a208b8daa46aff427"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "inference-sh-skills-image-to-video",
@@ -4480,7 +5220,7 @@
         "archived": false
       },
       "verifiedAt": "2026-10-06T19:06:02.037Z",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "prompt": "请按 image-to-video 让这张咖啡照片出现缓慢升起的蒸汽，保持杯子和背景不变，先说明参数与费用。",
       "guide": {
         "purpose": "以已有图片为视觉参考生成运动视频，适合让静态画面产生有限动作或镜头变化。",
@@ -4498,7 +5238,19 @@
           "确认费用后生成，检查主体一致性和动作"
         ],
         "example": "请按 image-to-video 让这张咖啡照片出现缓慢升起的蒸汽，保持杯子和背景不变，先说明参数与费用。"
-      }
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "0aabdc6f47f757b772515265e4710452834c8696",
+        "tests": [],
+        "sourceDocumentSha256": "1daeeac733e503f6dec5601899bdb18ef6d21dfdd926a92a954438b4e5997e67"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "inference-sh-skills-image-upscaling",
@@ -4553,7 +5305,7 @@
         "archived": false
       },
       "verifiedAt": "2026-10-06T19:06:02.037Z",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "prompt": "请按 image-upscaling 放大这张产品图，保持包装文字和结构，输出前后对比并指出不确定细节。",
       "guide": {
         "purpose": "调用平台图像增强能力提升分辨率和细节，适合低分辨率图片；增强细节可能与原图不完全一致。",
@@ -4571,7 +5323,19 @@
           "生成后对比文字、边缘和真实细节"
         ],
         "example": "请按 image-upscaling 放大这张产品图，保持包装文字和结构，输出前后对比并指出不确定细节。"
-      }
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "0aabdc6f47f757b772515265e4710452834c8696",
+        "tests": [],
+        "sourceDocumentSha256": "b3e89d3cf85ecaa823175097cea522db6e2652ebc8040ffcbcc547cee7d05efe"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "inference-sh-skills-background-removal",
@@ -4628,7 +5392,7 @@
         "archived": false
       },
       "verifiedAt": "2026-10-06T19:06:02.037Z",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "prompt": "请按 background-removal 为这张商品图移除背景，保留透明或细小部分，并检查 PNG 透明通道。",
       "guide": {
         "purpose": "用平台工具移除主体背景，适合透明商品素材或后续合成，需要检查边缘和透明通道。",
@@ -4646,7 +5410,19 @@
           "检查透明通道、细小边缘和输出尺寸"
         ],
         "example": "请按 background-removal 为这张商品图移除背景，保留透明或细小部分，并检查 PNG 透明通道。"
-      }
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "0aabdc6f47f757b772515265e4710452834c8696",
+        "tests": [],
+        "sourceDocumentSha256": "1f36ac532b2f6de691b2e879ee2c5784c810b4c6fed5fd6b27b28e04c55d5fbe"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "inference-sh-skills-ai-content-pipeline",
@@ -4703,7 +5479,7 @@
         "archived": false
       },
       "verifiedAt": "2026-10-06T19:06:02.037Z",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "prompt": "请按 ai-content-pipeline 设计一个产品短视频生产流程，列出文案、画面、配音、合成及每步费用。",
       "guide": {
         "purpose": "组织文案、图像、视频和语音等生产步骤，适合先明确依赖和成本，再制作完整内容。",
@@ -4723,7 +5499,19 @@
           "先运行小样并确认，再完成完整流程"
         ],
         "example": "请按 ai-content-pipeline 设计一个产品短视频生产流程，列出文案、画面、配音、合成及每步费用。"
-      }
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "0aabdc6f47f757b772515265e4710452834c8696",
+        "tests": [],
+        "sourceDocumentSha256": "a7f7c51cb91db96518d2718b2419b48efa6f42ece92857e5a4e4351e0ce448b1"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "inference-sh-skills-web-search",
@@ -4778,7 +5566,7 @@
         "archived": false
       },
       "verifiedAt": "2026-10-06T19:06:02.037Z",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "prompt": "请按 web-search 搜集这个主题的近期官方资料，按问题整理摘要，并标注发布日期和来源。",
       "guide": {
         "purpose": "通过平台搜索工具检索网页并整理来源，适合收集资料；仍需核对资料时间、出处和可信度。",
@@ -4797,7 +5585,19 @@
           "交叉核对事实，保留来源和不确定内容"
         ],
         "example": "请按 web-search 搜集这个主题的近期官方资料，按问题整理摘要，并标注发布日期和来源。"
-      }
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "0aabdc6f47f757b772515265e4710452834c8696",
+        "tests": [],
+        "sourceDocumentSha256": "0ccbe437db4f0bb4ea93362787f7fc72cd13f36f0698c7b9cb3a583099046f71"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "inference-sh-skills-competitor-teardown",
@@ -4854,7 +5654,7 @@
         "archived": false
       },
       "verifiedAt": "2026-10-06T19:06:02.037Z",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。",
       "prompt": "请按 competitor-teardown 比较这三个产品的目标用户、功能和定价，附上来源，并把推断单独列出。",
       "guide": {
         "purpose": "从产品、用户、定位和差异等维度组织竞品分析，适合形成有依据的比较而非凭印象打分。",
@@ -4874,7 +5674,19 @@
           "整理差异、局限和需要继续验证的问题"
         ],
         "example": "请按 competitor-teardown 比较这三个产品的目标用户、功能和定价，附上来源，并把推断单独列出。"
-      }
+      },
+      "assessment": {
+        "status": "excluded",
+        "reason": "核心流程依赖计费服务，未证实长期免费；按仅免费要求排除",
+        "cost": {
+          "status": "unknown",
+          "evidence": "现有来源说明包含模型 API / 平台计费依赖"
+        },
+        "sourceRef": "0aabdc6f47f757b772515265e4710452834c8696",
+        "tests": [],
+        "sourceDocumentSha256": "45b77961af5111afc35081964649afe18a36cd4f8a82c58bf52546b02c9fafee"
+      },
+      "accessReason": "固定来源版本未确认复制许可，暂不能下载入库"
     },
     {
       "id": "googleworkspace-cli-gws-workflow-meeting-prep",
@@ -4951,6 +5763,17 @@
           "整理背景与待讨论问题，核对读取范围"
         ],
         "example": "请按 gws-workflow-meeting-prep 整理明天下午产品评审的背景文件、议程和待确认问题。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+        "tests": [],
+        "sourceDocumentSha256": "ba5e0ad9bfe1e04c053987b3bca7814fe7b7d5cf70e76a0e99a639a12219f940"
       }
     },
     {
@@ -5028,6 +5851,17 @@
           "按进展、风险和待办整理，核对事实"
         ],
         "example": "请按 gws-workflow-weekly-digest 整理本周指定项目的进展、风险和下周待办，不读取无关文件。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+        "tests": [],
+        "sourceDocumentSha256": "6ece4c91d1810bc42d98a2cb25dc939b136c4bd108a325dfd6b097fc801dc86f"
       }
     },
     {
@@ -5105,6 +5939,17 @@
           "先输出建议，修改或发送前确认具体动作"
         ],
         "example": "请按 gws-gmail-triage 整理今天的未读邮件，按紧急程度排序，只输出摘要和处理建议。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+        "tests": [],
+        "sourceDocumentSha256": "48b0512b3ffa718ab382c3d816d6945cbc9ec6139b50eff0427498a645580600"
       }
     },
     {
@@ -5184,6 +6029,17 @@
           "按明确规则更新，复读验证结果"
         ],
         "example": "请按 gws-sheets 检查这个工作表的重复订单，先列出问题行和拟修改范围，确认后再更新。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+        "tests": [],
+        "sourceDocumentSha256": "e0db8bb632b3425b6f10dac7b30c85a4ba6ed0fd8421bccd3d2242588cc02208"
       }
     },
     {
@@ -5262,6 +6118,17 @@
           "提出下一步安排，涉及写入或通知先确认"
         ],
         "example": "请按 persona-project-manager 整理这个项目的任务、负责人和依赖，列出阻塞项及下一周建议。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+        "tests": [],
+        "sourceDocumentSha256": "8e025ac6916c806e0b0575467130ef822b27f1cbe27b2bd7e6812e261b559688"
       }
     },
     {
@@ -5340,6 +6207,17 @@
           "生成带数据来源的报告并核对结论"
         ],
         "example": "请按 recipe-generate-report-from-sheet 从这张表生成月度报告，列出汇总口径、异常项和引用的数据范围。"
+      },
+      "assessment": {
+        "status": "candidate",
+        "reason": "尚未完成免费环境中的正常与边界任务验收",
+        "cost": {
+          "status": "unknown",
+          "evidence": "文件许可不代表运行费用，需逐项核实"
+        },
+        "sourceRef": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+        "tests": [],
+        "sourceDocumentSha256": "86de0f7e405fc97887120ae1224c2c4de10f1825713a50634c5b76ca692b9845"
       }
     }
   ],
@@ -5364,8 +6242,20 @@
     "软件开发"
   ],
   "selectionPolicy": {
-    "updatedAt": "2026-10-06T19:06:02.037Z",
-    "summary": "按用途、来源、维护、结构和许可整理的精选目录。公开热度采用 GitHub 来源仓库 Star / Fork，不代表单条 Skill 的使用量或效果；未公开浏览量与下载量不伪造。",
-    "runtimeValidation": "本次验证目录、结构及管理流程，未执行外部收费生成或所有工作流。"
+    "updatedAt": "2026-10-07T12:09:29.916Z",
+    "summary": "仅免费，固定版本真实任务验收通过、许可核验完成且评分至少80分才进入精选。未测试不冒充精选。",
+    "weights": {
+      "effect": 40,
+      "usability": 20,
+      "stability": 15,
+      "maintenance": 10,
+      "popularity": 10,
+      "chinese": 5
+    },
+    "minimumScore": 80,
+    "automaticCheckHours": 24,
+    "editorialReview": "weekly",
+    "personalLibrary": "never-overwrite-or-delete",
+    "runtimeValidation": "实测记录包含正常任务、边界任务、真实产物、环境与限制；来源仓库Star占10%，不代表单条使用量。"
   }
 }

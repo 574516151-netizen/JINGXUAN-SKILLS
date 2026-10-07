@@ -1,0 +1,5 @@
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),assert=require('node:assert/strict'),policy=require('./skill-policy.cjs');
+const root=path.resolve(__dirname,'..'),catalog=JSON.parse(fs.readFileSync(path.join(root,'catalog/skills.json'))),ids=new Set(),counts={featured:0,candidate:0,excluded:0,retired:0};
+assert(Array.isArray(catalog.items)&&catalog.items.length<=500);
+for(const item of catalog.items){assert(/^[a-z0-9-]+$/.test(item.id)&&!ids.has(item.id));ids.add(item.id);assert(item.assessment,'Missing assessment: '+item.id);policy.validateAssessment(item);counts[policy.qualify(item).status]++;if(item.assessment.report){assert(/^reports\/[a-z0-9-]+\.md$/.test(item.assessment.report));assert(fs.statSync(path.join(root,item.assessment.report)).isFile());}for(const t of item.assessment.tests||[]){for(const a of t.artifacts){const file=path.join(root,a.path);assert(!fs.lstatSync(file).isSymbolicLink());assert.equal(crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex'),a.sha256,'Artifact hash mismatch: '+item.id);}}}
+console.log(JSON.stringify({items:ids.size,counts,artifactsVerified:true}));
