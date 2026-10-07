@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T07:09:44.268Z",
+  "updatedAt": "2026-10-07T09:13:59.839Z",
   "items": [
     {
       "id": "anthropics-skills-canvas-design",
@@ -1505,17 +1505,17 @@
         "path": "skills/react-best-practices",
         "licenseFiles": []
       },
-      "license": "未发现明确复制许可文件",
-      "licenseUrl": "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-best-practices",
-      "downloadAllowed": false,
+      "license": "MIT",
+      "licenseUrl": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-best-practices/SKILL.md",
+      "downloadAllowed": true,
       "requirements": [
         "支持 Agent Skills 的 AI 工具",
         "按上游说明准备运行依赖"
       ],
       "usage": "1. 确定受影响页面和慢操作\n2. 检查加载、渲染及包体问题\n3. 按影响实施优化并重新测量",
       "prompt": "请按 react-best-practices 检查商品列表加载和筛选性能，先定位瓶颈，再验证改动的实际收益。",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
-      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 许可依据：SKILL.md 的 YAML 头部明确声明 license: MIT；下载保留原始声明和完整文件。",
+      "verifiedAt": "2026-10-07T09:13:59.839Z",
       "popularity": {
         "provider": "GitHub",
         "scope": "repository",
@@ -1525,12 +1525,12 @@
         "repositoryUrl": "https://github.com/vercel-labs/agent-skills"
       },
       "review": {
-        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "checkedAt": "2026-10-07T09:13:59.839Z",
         "sourceChecked": true,
         "structureChecked": true,
         "licenseChecked": true,
         "runtimeTested": false,
-        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。 已复核固定提交 SKILL.md 中的 MIT 声明。"
       },
       "maintenance": {
         "pushedAt": "2026-08-28T13:36:31Z",
@@ -1576,17 +1576,17 @@
         "path": "skills/composition-patterns",
         "licenseFiles": []
       },
-      "license": "未发现明确复制许可文件",
-      "licenseUrl": "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/composition-patterns",
-      "downloadAllowed": false,
+      "license": "MIT",
+      "licenseUrl": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/composition-patterns/SKILL.md",
+      "downloadAllowed": true,
       "requirements": [
         "支持 Agent Skills 的 AI 工具",
         "按上游说明准备运行依赖"
       ],
       "usage": "1. 找出参数膨胀和职责混合点\n2. 设计合适的组合方式与状态边界\n3. 迁移调用并验证原有行为",
       "prompt": "请按 composition-patterns 重构这个复杂弹窗组件，减少布尔参数，保留现有调用行为。",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
-      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 许可依据：SKILL.md 的 YAML 头部明确声明 license: MIT；下载保留原始声明和完整文件。",
+      "verifiedAt": "2026-10-07T09:13:59.839Z",
       "popularity": {
         "provider": "GitHub",
         "scope": "repository",
@@ -1596,12 +1596,12 @@
         "repositoryUrl": "https://github.com/vercel-labs/agent-skills"
       },
       "review": {
-        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "checkedAt": "2026-10-07T09:13:59.839Z",
         "sourceChecked": true,
         "structureChecked": true,
         "licenseChecked": true,
         "runtimeTested": false,
-        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。 已复核固定提交 SKILL.md 中的 MIT 声明。"
       },
       "maintenance": {
         "pushedAt": "2026-08-28T13:36:31Z",
@@ -1646,17 +1646,17 @@
         "path": "skills/react-native-skills",
         "licenseFiles": []
       },
-      "license": "未发现明确复制许可文件",
-      "licenseUrl": "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills",
-      "downloadAllowed": false,
+      "license": "MIT",
+      "licenseUrl": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/SKILL.md",
+      "downloadAllowed": true,
       "requirements": [
         "支持 Agent Skills 的 AI 工具",
         "按上游说明准备运行依赖"
       ],
       "usage": "1. 确认运行环境和平台限制\n2. 检查组件、列表、动画等相关实现\n3. 在目标设备或模拟器中验证",
       "prompt": "请按 react-native-skills 检查这个商品列表的滚动性能，优化图片与列表渲染并验证操作行为。",
-      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 当前仅提供来源入口，请按上游许可与安装说明使用。",
-      "verifiedAt": "2026-10-06T19:06:02.037Z",
+      "notes": "中文展示信息由目录整理，原始文件保持上游内容。Star 与 Fork 为来源仓库统计，不是单条 Skill 的使用量、浏览量或下载量。执行效果尚未实测。 许可依据：SKILL.md 的 YAML 头部明确声明 license: MIT；下载保留原始声明和完整文件。",
+      "verifiedAt": "2026-10-07T09:13:59.839Z",
       "popularity": {
         "provider": "GitHub",
         "scope": "repository",
@@ -1666,12 +1666,12 @@
         "repositoryUrl": "https://github.com/vercel-labs/agent-skills"
       },
       "review": {
-        "checkedAt": "2026-10-06T19:06:02.037Z",
+        "checkedAt": "2026-10-07T09:13:59.839Z",
         "sourceChecked": true,
         "structureChecked": true,
         "licenseChecked": true,
         "runtimeTested": false,
-        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。"
+        "reason": "优先来源：持续维护、用途明确且公开仓库关注度较高；不以 Star 代替效果验收。 已复核固定提交 SKILL.md 中的 MIT 声明。"
       },
       "maintenance": {
         "pushedAt": "2026-08-28T13:36:31Z",
