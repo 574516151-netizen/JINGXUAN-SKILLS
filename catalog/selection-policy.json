@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 1,
+  "effectiveAt": "2026-10-11",
+  "minRepositoryStars": 5000,
+  "existingEntries": [
+    {
+      "id": "anthropics-skills-canvas-design",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/canvas-design"
+    },
+    {
+      "id": "anthropics-skills-algorithmic-art",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/algorithmic-art"
+    },
+    {
+      "id": "anthropics-skills-brand-guidelines",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/brand-guidelines"
+    },
+    {
+      "id": "anthropics-skills-frontend-design",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/frontend-design"
+    },
+    {
+      "id": "anthropics-skills-theme-factory",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/theme-factory"
+    },
+    {
+      "id": "vercel-labs-agent-skills-web-design-guidelines",
+      "type": "skill",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/web-design-guidelines"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-modeling",
+      "type": "skill",
+      "repo": "RobLe3/cc-blender-skill",
+      "path": "plugin/skills/blender-modeling"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-materials",
+      "type": "skill",
+      "repo": "RobLe3/cc-blender-skill",
+      "path": "plugin/skills/blender-materials"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-lighting",
+      "type": "skill",
+      "repo": "RobLe3/cc-blender-skill",
+      "path": "plugin/skills/blender-lighting"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-rendering",
+      "type": "skill",
+      "repo": "RobLe3/cc-blender-skill",
+      "path": "plugin/skills/blender-rendering"
+    },
+    {
+      "id": "qzfcoder-photo-retouch-pro-photo-retouch-pro",
+      "type": "skill",
+      "repo": "qzfcoder/photo-retouch-pro",
+      "path": ""
+    },
+    {
+      "id": "commercial-retouch-brief",
+      "type": "template",
+      "sourceUrl": "https://github.com/574516151-netizen/JINGXUAN-SKILLS"
+    },
+    {
+      "id": "anthropics-skills-docx",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/docx"
+    },
+    {
+      "id": "anthropics-skills-pdf",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/pdf"
+    },
+    {
+      "id": "anthropics-skills-pptx",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/pptx"
+    },
+    {
+      "id": "anthropics-skills-xlsx",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/xlsx"
+    },
+    {
+      "id": "anthropics-skills-doc-coauthoring",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/doc-coauthoring"
+    },
+    {
+      "id": "anthropics-skills-internal-comms",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/internal-comms"
+    },
+    {
+      "id": "anthropics-skills-mcp-builder",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/mcp-builder"
+    },
+    {
+      "id": "anthropics-skills-webapp-testing",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/webapp-testing"
+    },
+    {
+      "id": "anthropics-skills-web-artifacts-builder",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/web-artifacts-builder"
+    },
+    {
+      "id": "vercel-labs-agent-skills-vercel-react-best-practices",
+      "type": "skill",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/react-best-practices"
+    },
+    {
+      "id": "vercel-labs-agent-skills-vercel-composition-patterns",
+      "type": "skill",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/composition-patterns"
+    },
+    {
+      "id": "vercel-labs-agent-skills-vercel-react-native-skills",
+      "type": "skill",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/react-native-skills"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-image-gen",
+      "type": "skill",
+      "repo": "JimLiu/baoyu-skills",
+      "path": "skills/baoyu-image-gen"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-cover-image",
+      "type": "skill",
+      "repo": "JimLiu/baoyu-skills",
+      "path": "skills/baoyu-cover-image"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-article-illustrator",
+      "type": "skill",
+      "repo": "JimLiu/baoyu-skills",
+      "path": "skills/baoyu-article-illustrator"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-infographic",
+      "type": "skill",
+      "repo": "JimLiu/baoyu-skills",
+      "path": "skills/baoyu-infographic"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-comic",
+      "type": "skill",
+      "repo": "JimLiu/baoyu-skills",
+      "path": "skills/baoyu-comic"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-xhs-images",
+      "type": "skill",
+      "repo": "JimLiu/baoyu-skills",
+      "path": "skills/baoyu-xhs-images"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-diagram",
+      "type": "skill",
+      "repo": "JimLiu/baoyu-skills",
+      "path": "skills/baoyu-diagram"
+    },
+    {
+      "id": "jimliu-baoyu-skills-baoyu-compress-image",
+      "type": "skill",
+      "repo": "JimLiu/baoyu-skills",
+      "path": "skills/baoyu-compress-image"
+    },
+    {
+      "id": "remotion-dev-skills-remotion-create",
+      "type": "skill",
+      "repo": "remotion-dev/skills",
+      "path": "skills/remotion-create"
+    },
+    {
+      "id": "remotion-dev-skills-remotion-render",
+      "type": "skill",
+      "repo": "remotion-dev/skills",
+      "path": "skills/remotion-render"
+    },
+    {
+      "id": "remotion-dev-skills-remotion-captions",
+      "type": "skill",
+      "repo": "remotion-dev/skills",
+      "path": "skills/remotion-captions"
+    },
+    {
+      "id": "remotion-dev-skills-remotion-multimedia",
+      "type": "skill",
+      "repo": "remotion-dev/skills",
+      "path": "skills/remotion-multimedia"
+    },
+    {
+      "id": "fal-ai-community-skills-genmedia",
+      "type": "skill",
+      "repo": "fal-ai-community/skills",
+      "path": "skills/genmedia"
+    },
+    {
+      "id": "fal-ai-community-skills-genmedia-workflow",
+      "type": "skill",
+      "repo": "fal-ai-community/skills",
+      "path": "skills/genmedia-workflow"
+    },
+    {
+      "id": "czlonkowski-n8n-skills-n8n-workflow-patterns",
+      "type": "skill",
+      "repo": "czlonkowski/n8n-skills",
+      "path": "skills/n8n-workflow-patterns"
+    },
+    {
+      "id": "czlonkowski-n8n-skills-n8n-validation-expert",
+      "type": "skill",
+      "repo": "czlonkowski/n8n-skills",
+      "path": "skills/n8n-validation-expert"
+    },
+    {
+      "id": "czlonkowski-n8n-skills-n8n-mcp-tools-expert",
+      "type": "skill",
+      "repo": "czlonkowski/n8n-skills",
+      "path": "skills/n8n-mcp-tools-expert"
+    },
+    {
+      "id": "czlonkowski-n8n-skills-n8n-error-handling",
+      "type": "skill",
+      "repo": "czlonkowski/n8n-skills",
+      "path": "skills/n8n-error-handling"
+    },
+    {
+      "id": "n8n-io-skills-n8n-workflow-lifecycle-official",
+      "type": "skill",
+      "repo": "n8n-io/skills",
+      "path": "skills/n8n-workflow-lifecycle-official"
+    },
+    {
+      "id": "n8n-io-skills-n8n-data-tables-official",
+      "type": "skill",
+      "repo": "n8n-io/skills",
+      "path": "skills/n8n-data-tables-official"
+    },
+    {
+      "id": "n8n-io-skills-n8n-binary-and-data-official",
+      "type": "skill",
+      "repo": "n8n-io/skills",
+      "path": "skills/n8n-binary-and-data-official"
+    },
+    {
+      "id": "obra-superpowers-brainstorming",
+      "type": "skill",
+      "repo": "obra/superpowers",
+      "path": "skills/brainstorming"
+    },
+    {
+      "id": "obra-superpowers-writing-plans",
+      "type": "skill",
+      "repo": "obra/superpowers",
+      "path": "skills/writing-plans"
+    },
+    {
+      "id": "obra-superpowers-executing-plans",
+      "type": "skill",
+      "repo": "obra/superpowers",
+      "path": "skills/executing-plans"
+    },
+    {
+      "id": "openai-skills-imagegen",
+      "type": "skill",
+      "repo": "openai/skills",
+      "path": "skills/.system/imagegen"
+    },
+    {
+      "id": "openai-skills-speech",
+      "type": "skill",
+      "repo": "openai/skills",
+      "path": "skills/.curated/speech"
+    },
+    {
+      "id": "openai-skills-transcribe",
+      "type": "skill",
+      "repo": "openai/skills",
+      "path": "skills/.curated/transcribe"
+    },
+    {
+      "id": "openai-skills-notion-research-documentation",
+      "type": "skill",
+      "repo": "openai/skills",
+      "path": "skills/.curated/notion-research-documentation"
+    },
+    {
+      "id": "openai-skills-notion-knowledge-capture",
+      "type": "skill",
+      "repo": "openai/skills",
+      "path": "skills/.curated/notion-knowledge-capture"
+    },
+    {
+      "id": "openai-skills-notion-meeting-intelligence",
+      "type": "skill",
+      "repo": "openai/skills",
+      "path": "skills/.curated/notion-meeting-intelligence"
+    },
+    {
+      "id": "kajisho5-ffmpeg-skill-root",
+      "type": "skill",
+      "repo": "kajisho5/ffmpeg-skill",
+      "path": ""
+    },
+    {
+      "id": "tentenco-skills-codex-auto-clip-workflow",
+      "type": "skill",
+      "repo": "tentenco/skills",
+      "path": "skills/content/codex-auto-clip-workflow"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-animation",
+      "type": "skill",
+      "repo": "RobLe3/cc-blender-skill",
+      "path": "plugin/skills/blender-animation"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-pro-workflow",
+      "type": "skill",
+      "repo": "RobLe3/cc-blender-skill",
+      "path": "plugin/skills/blender-pro-workflow"
+    },
+    {
+      "id": "inference-sh-skills-ai-image-generation",
+      "type": "skill",
+      "repo": "inference-sh/skills",
+      "path": "tools/image/ai-image-generation"
+    },
+    {
+      "id": "inference-sh-skills-ai-video-generation",
+      "type": "skill",
+      "repo": "inference-sh/skills",
+      "path": "tools/video/ai-video-generation"
+    },
+    {
+      "id": "inference-sh-skills-image-to-video",
+      "type": "skill",
+      "repo": "inference-sh/skills",
+      "path": "tools/video/image-to-video"
+    },
+    {
+      "id": "inference-sh-skills-image-upscaling",
+      "type": "skill",
+      "repo": "inference-sh/skills",
+      "path": "tools/image/image-upscaling"
+    },
+    {
+      "id": "inference-sh-skills-background-removal",
+      "type": "skill",
+      "repo": "inference-sh/skills",
+      "path": "tools/image/background-removal"
+    },
+    {
+      "id": "inference-sh-skills-ai-content-pipeline",
+      "type": "skill",
+      "repo": "inference-sh/skills",
+      "path": "guides/content/ai-content-pipeline"
+    },
+    {
+      "id": "inference-sh-skills-web-search",
+      "type": "skill",
+      "repo": "inference-sh/skills",
+      "path": "tools/llm/web-search"
+    },
+    {
+      "id": "inference-sh-skills-competitor-teardown",
+      "type": "skill",
+      "repo": "inference-sh/skills",
+      "path": "guides/product/competitor-teardown"
+    },
+    {
+      "id": "googleworkspace-cli-gws-workflow-meeting-prep",
+      "type": "skill",
+      "repo": "googleworkspace/cli",
+      "path": "skills/gws-workflow-meeting-prep"
+    },
+    {
+      "id": "googleworkspace-cli-gws-workflow-weekly-digest",
+      "type": "skill",
+      "repo": "googleworkspace/cli",
+      "path": "skills/gws-workflow-weekly-digest"
+    },
+    {
+      "id": "googleworkspace-cli-gws-gmail-triage",
+      "type": "skill",
+      "repo": "googleworkspace/cli",
+      "path": "skills/gws-gmail-triage"
+    },
+    {
+      "id": "googleworkspace-cli-gws-sheets",
+      "type": "skill",
+      "repo": "googleworkspace/cli",
+      "path": "skills/gws-sheets"
+    },
+    {
+      "id": "googleworkspace-cli-persona-project-manager",
+      "type": "skill",
+      "repo": "googleworkspace/cli",
+      "path": "skills/persona-project-manager"
+    },
+    {
+      "id": "googleworkspace-cli-recipe-generate-report-from-sheet",
+      "type": "skill",
+      "repo": "googleworkspace/cli",
+      "path": "skills/recipe-generate-report-from-sheet"
+    },
+    {
+      "id": "weaiw-design-to-psd",
+      "type": "skill",
+      "repo": "weaiw/design-to-psd",
+      "path": ""
+    }
+  ]
+}
