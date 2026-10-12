@@ -1,0 +1,305 @@
+{
+  "checkedAt": "2026-10-12T13:41:22.130Z",
+  "minRepositoryStars": 5000,
+  "before": 73,
+  "retained": 49,
+  "removedCount": 24,
+  "repositories": [
+    {
+      "repo": "anthropics/skills",
+      "canonicalRepo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "stars": 180658,
+      "forks": 21411,
+      "checkedAt": "2026-10-12T13:38:22.178Z"
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "canonicalRepo": "vercel-labs/agent-skills",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "stars": 32273,
+      "forks": 2821,
+      "checkedAt": "2026-10-12T13:38:23.883Z"
+    },
+    {
+      "repo": "RobLe3/cc-blender-skill",
+      "canonicalRepo": "RobLe3/cc-blender-skill",
+      "url": "https://github.com/RobLe3/cc-blender-skill",
+      "stars": 89,
+      "forks": 10,
+      "checkedAt": "2026-10-12T13:38:25.530Z"
+    },
+    {
+      "repo": "qzfcoder/photo-retouch-pro",
+      "canonicalRepo": "qzfcoder/photo-retouch-pro",
+      "url": "https://github.com/qzfcoder/photo-retouch-pro",
+      "stars": 10,
+      "forks": 2,
+      "checkedAt": "2026-10-12T13:38:26.205Z"
+    },
+    {
+      "repo": "JimLiu/baoyu-skills",
+      "canonicalRepo": "JimLiu/baoyu-skills",
+      "url": "https://github.com/JimLiu/baoyu-skills",
+      "stars": 26582,
+      "forks": 2922,
+      "checkedAt": "2026-10-12T13:38:26.778Z"
+    },
+    {
+      "repo": "remotion-dev/skills",
+      "canonicalRepo": "remotion-dev/skills",
+      "url": "https://github.com/remotion-dev/skills",
+      "stars": 5052,
+      "forks": 557,
+      "checkedAt": "2026-10-12T13:38:27.366Z"
+    },
+    {
+      "repo": "fal-ai-community/skills",
+      "canonicalRepo": "fal-ai-community/skills",
+      "url": "https://github.com/fal-ai-community/skills",
+      "stars": 251,
+      "forks": 35,
+      "checkedAt": "2026-10-12T13:38:28.130Z"
+    },
+    {
+      "repo": "czlonkowski/n8n-skills",
+      "canonicalRepo": "czlonkowski/n8n-skills",
+      "url": "https://github.com/czlonkowski/n8n-skills",
+      "stars": 6406,
+      "forks": 1055,
+      "checkedAt": "2026-10-12T13:38:28.935Z"
+    },
+    {
+      "repo": "n8n-io/skills",
+      "canonicalRepo": "n8n-io/skills",
+      "url": "https://github.com/n8n-io/skills",
+      "stars": 529,
+      "forks": 72,
+      "checkedAt": "2026-10-12T13:38:29.841Z"
+    },
+    {
+      "repo": "obra/superpowers",
+      "canonicalRepo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "stars": 298008,
+      "forks": 26624,
+      "checkedAt": "2026-10-12T13:38:30.490Z"
+    },
+    {
+      "repo": "openai/skills",
+      "canonicalRepo": "openai/skills",
+      "url": "https://github.com/openai/skills",
+      "stars": 28016,
+      "forks": 1921,
+      "checkedAt": "2026-10-12T13:38:31.180Z"
+    },
+    {
+      "repo": "kajisho5/ffmpeg-skill",
+      "canonicalRepo": "kajisho5/ffmpeg-skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "stars": 1927,
+      "forks": 157,
+      "checkedAt": "2026-10-12T13:38:31.870Z"
+    },
+    {
+      "repo": "tentenco/skills",
+      "canonicalRepo": "tentenco/skills",
+      "url": "https://github.com/tentenco/skills",
+      "stars": 5,
+      "forks": 2,
+      "checkedAt": "2026-10-12T13:38:32.538Z"
+    },
+    {
+      "repo": "inference-sh/skills",
+      "canonicalRepo": "inference-sh/skills",
+      "url": "https://github.com/inference-sh/skills",
+      "stars": 765,
+      "forks": 104,
+      "checkedAt": "2026-10-12T13:38:33.248Z"
+    },
+    {
+      "repo": "googleworkspace/cli",
+      "canonicalRepo": "googleworkspace/cli",
+      "url": "https://github.com/googleworkspace/cli",
+      "stars": 31393,
+      "forks": 1875,
+      "checkedAt": "2026-10-12T13:38:34.162Z"
+    },
+    {
+      "repo": "weaiw/design-to-psd",
+      "canonicalRepo": "weaiw/design-to-psd",
+      "url": "https://github.com/weaiw/design-to-psd",
+      "stars": 24,
+      "forks": 6,
+      "checkedAt": "2026-10-12T13:38:34.804Z"
+    }
+  ],
+  "removed": [
+    {
+      "id": "roble3-cc-blender-skill-blender-modeling",
+      "name": "Blender 三维建模",
+      "repo": "RobLe3/cc-blender-skill",
+      "stars": 89,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-materials",
+      "name": "Blender 材质设计",
+      "repo": "RobLe3/cc-blender-skill",
+      "stars": 89,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-lighting",
+      "name": "Blender 布光",
+      "repo": "RobLe3/cc-blender-skill",
+      "stars": 89,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-rendering",
+      "name": "Blender 渲染",
+      "repo": "RobLe3/cc-blender-skill",
+      "stars": 89,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "qzfcoder-photo-retouch-pro-photo-retouch-pro",
+      "name": "照片精修与诊断",
+      "repo": "qzfcoder/photo-retouch-pro",
+      "stars": 10,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "commercial-retouch-brief",
+      "name": "商业修图需求与验收清单",
+      "reason": "缺少可核对的实际来源仓库"
+    },
+    {
+      "id": "fal-ai-community-skills-genmedia",
+      "name": "fal 多媒体生成",
+      "repo": "fal-ai-community/skills",
+      "stars": 251,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "fal-ai-community-skills-genmedia-workflow",
+      "name": "多媒体生成流水线",
+      "repo": "fal-ai-community/skills",
+      "stars": 251,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "n8n-io-skills-n8n-workflow-lifecycle-official",
+      "name": "n8n 官方工作流全流程",
+      "repo": "n8n-io/skills",
+      "stars": 529,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "n8n-io-skills-n8n-data-tables-official",
+      "name": "n8n 数据表自动化",
+      "repo": "n8n-io/skills",
+      "stars": 529,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "n8n-io-skills-n8n-binary-and-data-official",
+      "name": "n8n 文件与二进制流水线",
+      "repo": "n8n-io/skills",
+      "stars": 529,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "kajisho5-ffmpeg-skill-root",
+      "name": "FFmpeg 自动剪辑与批处理",
+      "repo": "kajisho5/ffmpeg-skill",
+      "stars": 1927,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "tentenco-skills-codex-auto-clip-workflow",
+      "name": "参考视频驱动自动混剪",
+      "repo": "tentenco/skills",
+      "stars": 5,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-animation",
+      "name": "Blender 动画制作",
+      "repo": "RobLe3/cc-blender-skill",
+      "stars": 89,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "roble3-cc-blender-skill-blender-pro-workflow",
+      "name": "Blender 三维制作工作流",
+      "repo": "RobLe3/cc-blender-skill",
+      "stars": 89,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "inference-sh-skills-ai-image-generation",
+      "name": "多模型 AI 图片生成",
+      "repo": "inference-sh/skills",
+      "stars": 765,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "inference-sh-skills-ai-video-generation",
+      "name": "AI 文生视频",
+      "repo": "inference-sh/skills",
+      "stars": 765,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "inference-sh-skills-image-to-video",
+      "name": "AI 图生视频",
+      "repo": "inference-sh/skills",
+      "stars": 765,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "inference-sh-skills-image-upscaling",
+      "name": "图像放大与增强",
+      "repo": "inference-sh/skills",
+      "stars": 765,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "inference-sh-skills-background-removal",
+      "name": "图片背景移除",
+      "repo": "inference-sh/skills",
+      "stars": 765,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "inference-sh-skills-ai-content-pipeline",
+      "name": "图文音视频内容流水线",
+      "repo": "inference-sh/skills",
+      "stars": 765,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "inference-sh-skills-web-search",
+      "name": "网络资料检索",
+      "repo": "inference-sh/skills",
+      "stars": 765,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "inference-sh-skills-competitor-teardown",
+      "name": "竞品拆解与市场研究",
+      "repo": "inference-sh/skills",
+      "stars": 765,
+      "reason": "来源仓库 Star 低于 5000"
+    },
+    {
+      "id": "weaiw-design-to-psd",
+      "name": "图片转可编辑分层 PSD",
+      "repo": "weaiw/design-to-psd",
+      "stars": 24,
+      "reason": "来源仓库 Star 低于 5000"
+    }
+  ]
+}
