@@ -1,5 +1,8 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),policy=require('./skill-catalog.cjs'),admission=require('./skill-admission.cjs');
-const root=path.resolve(__dirname,'..'),catalog=JSON.parse(fs.readFileSync(path.join(root,'catalog/skills.json'))),ids=new Set(),counts={available:0,excluded:0,retired:0};
-assert.equal(catalog.schemaVersion,1);policy.validateSelection(catalog.selection);assert(Array.isArray(catalog.items)&&catalog.items.length<=500);
+const root=path.resolve(__dirname,'..');
+for(const file of ['skills.json','skills-v2.json']){
+const catalog=JSON.parse(fs.readFileSync(path.join(root,'catalog',file))),ids=new Set(),counts={available:0,excluded:0,retired:0};
+assert.equal(catalog.schemaVersion,file==='skills.json'?1:2);policy.validateSelection(catalog.selection);assert(Array.isArray(catalog.items)&&catalog.items.length<=500);
 for(const x of catalog.items){assert(/^[a-z0-9-]{1,100}$/.test(x.id)&&!ids.has(x.id));ids.add(x.id);assert(x.displayName&&x.description&&x.guide?.purpose&&x.guide.steps?.length);policy.validateAvailability(x);assert(policy.meetsSelection(x,catalog.selection));assert(!Object.hasOwn(x,'assessment'));assert(!Object.hasOwn(x.review||{},'runtimeTested'));if(x.type==='skill'){assert(/^[a-f0-9]{40}$/.test(x.source?.ref));assert(/^[\w.-]+\/[\w.-]+$/.test(x.source?.repo));assert(typeof x.source.path==='string'&&!x.source.path.split('/').includes('..')&&!x.source.path.startsWith('/')); }else assert.equal(x.type,'template');for(const key of ['sourceUrl','licenseUrl'])if(x[key]){const url=new URL(x[key]);assert(url.protocol==='https:'&&!url.username&&!url.password);}counts[x.availability.status]++;}
-console.log(JSON.stringify({items:ids.size,counts,...admission.validate(catalog)}));
+console.log(JSON.stringify({file,items:ids.size,counts,...admission.validate(catalog)}));
+}

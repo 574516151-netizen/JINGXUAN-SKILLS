@@ -1,0 +1,1119 @@
+{
+  "checkedAt": "2026-10-12T17:46:14.513Z",
+  "date": "2026-10-13",
+  "minRepositoryStars": 5000,
+  "previous": 49,
+  "added": 41,
+  "total": 90,
+  "repositories": [
+    {
+      "repo": "MengTo/Skills",
+      "url": "https://github.com/MengTo/Skills",
+      "ref": "83a47fee32f0b6349bff1fede99257a5ef03dc93",
+      "stars": 6722,
+      "forks": 789,
+      "checkedAt": "2026-10-12T16:46:40.001Z",
+      "license": "MIT"
+    },
+    {
+      "repo": "greensock/gsap-skills",
+      "url": "https://github.com/greensock/gsap-skills",
+      "ref": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "stars": 16254,
+      "forks": 957,
+      "checkedAt": "2026-10-12T16:47:21.839Z",
+      "license": "MIT"
+    },
+    {
+      "repo": "openai/skills",
+      "url": "https://github.com/openai/skills",
+      "ref": "49f948faa9258a0c61caceaf225e179651397431",
+      "stars": 28019,
+      "forks": 1921,
+      "checkedAt": "2026-10-12T16:46:44.667Z",
+      "license": "5 项独立工作流适用 Apache-2.0；停更信息见原文说明。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "ref": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "stars": 298073,
+      "forks": 26637,
+      "checkedAt": "2026-10-12T16:46:47.071Z",
+      "license": "MIT"
+    },
+    {
+      "repo": "openai/plugins",
+      "url": "https://github.com/openai/plugins",
+      "ref": "0722921d5542fc593105c27bd52630babd8b8c2a",
+      "stars": 7413,
+      "forks": 962,
+      "checkedAt": "2026-10-12T17:23:40.605Z",
+      "license": "Notion MIT；Figma Developer Terms（仅来源入口）"
+    }
+  ],
+  "items": [
+    {
+      "id": "mengto-skills-3d-cloth-material",
+      "name": "Three.js 织物与布料材质",
+      "categories": [
+        "3D 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-cloth-material",
+      "skills": [
+        "agent-skills/3d/3d-cloth-material/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/3d/3d-cloth-material/SKILL.md",
+        "agent-skills/3d/3d-cloth-material/demo.html"
+      ],
+      "entrySha256": "c5a4a06037b65ae9958438462ef696cd15a7434b3a170d36a5e90e482edbbf3c",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-3d-falling-leaves",
+      "name": "Three.js 三维落叶动效",
+      "categories": [
+        "3D 设计",
+        "UI 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-falling-leaves",
+      "skills": [
+        "agent-skills/3d/3d-falling-leaves/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/3d/3d-falling-leaves/REFERENCES.md",
+        "agent-skills/3d/3d-falling-leaves/SKILL.md"
+      ],
+      "entrySha256": "63adf8b5ec0d96d397f56ff09facd9f68248f6ed881a2e05427f1c4e3ccf1d11",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-3d-four-seasons",
+      "name": "Three.js 四季场景切换",
+      "categories": [
+        "3D 设计",
+        "UI 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-four-seasons",
+      "skills": [
+        "agent-skills/3d/3d-four-seasons/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/3d/3d-four-seasons/REFERENCES.md",
+        "agent-skills/3d/3d-four-seasons/SKILL.md"
+      ],
+      "entrySha256": "2696252a795b1c234d4b06a1091418e68ae305f4d773e9b69e941392fa7286c7",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-3d-high-poly-models",
+      "name": "三维精细模型与 LOD 优化",
+      "categories": [
+        "3D 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-high-poly-models",
+      "skills": [
+        "agent-skills/3d/3d-high-poly-models/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/3d/3d-high-poly-models/REFERENCES.md",
+        "agent-skills/3d/3d-high-poly-models/SKILL.md"
+      ],
+      "entrySha256": "a95cdb4d72e98aaeb4ed04a36b07bb26eab9d19496e4c2be590145f4d519cc4d",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-3d-high-resolution-textures",
+      "name": "三维高清 PBR 纹理与预算",
+      "categories": [
+        "3D 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-high-resolution-textures",
+      "skills": [
+        "agent-skills/3d/3d-high-resolution-textures/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/3d/3d-high-resolution-textures/REFERENCES.md",
+        "agent-skills/3d/3d-high-resolution-textures/SKILL.md"
+      ],
+      "entrySha256": "6bda76f3420184bde18cf5f0d543727543cf8d9a96f3b5393cd7044e09bfe5aa",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-3d-orbit-inspect-demo",
+      "name": "三维商品悬停与放大查看",
+      "categories": [
+        "3D 设计",
+        "UI 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-orbit-inspect-demo",
+      "skills": [
+        "agent-skills/3d/3d-orbit-inspect-demo/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/3d/3d-orbit-inspect-demo/SKILL.md",
+        "agent-skills/3d/3d-orbit-inspect-demo/demo.html"
+      ],
+      "entrySha256": "70011ca8c3c67185088f3171f94fb55dbbcd6a79e46fe4e0fc90b2d0b7317240",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-3d-paper-material",
+      "name": "Three.js 纸张纤维与厚度",
+      "categories": [
+        "3D 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-paper-material",
+      "skills": [
+        "agent-skills/3d/3d-paper-material/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/3d/3d-paper-material/SKILL.md",
+        "agent-skills/3d/3d-paper-material/demo.html"
+      ],
+      "entrySha256": "546863de8cdb5ee6c50a0dc423ffd4356f93542ed8642521d514ce7b5243dbe0",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-3d-retina-resolution",
+      "name": "三维 Retina 清晰度优化",
+      "categories": [
+        "3D 设计",
+        "UI 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-retina-resolution",
+      "skills": [
+        "agent-skills/3d/3d-retina-resolution/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/3d/3d-retina-resolution/REFERENCES.md",
+        "agent-skills/3d/3d-retina-resolution/SKILL.md"
+      ],
+      "entrySha256": "632232040749513e129f58b55ed3361378af9c6803dfd29f8ca596e273d55174",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-3d-sky-background",
+      "name": "三维天空与环境光",
+      "categories": [
+        "3D 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-sky-background",
+      "skills": [
+        "agent-skills/3d/3d-sky-background/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/3d/3d-sky-background/REFERENCES.md",
+        "agent-skills/3d/3d-sky-background/SKILL.md"
+      ],
+      "entrySha256": "74a4a1bf52e0f3c0075cf8aca7c80e6d6a46014796a4047dba4150ddf9c31f81",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-3d-sky-rays",
+      "name": "三维太阳光束与遮挡",
+      "categories": [
+        "3D 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-sky-rays",
+      "skills": [
+        "agent-skills/3d/3d-sky-rays/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/3d/3d-sky-rays/REFERENCES.md",
+        "agent-skills/3d/3d-sky-rays/SKILL.md"
+      ],
+      "entrySha256": "1b70c0cf1cdb44769f56f429016904e39cef5f85d3832412dd3eb8dbfda94c97",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-3d-ultra-realistic-water",
+      "name": "Three.js 海面与船舶水体",
+      "categories": [
+        "3D 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-ultra-realistic-water",
+      "skills": [
+        "agent-skills/3d/3d-ultra-realistic-water/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/3d/3d-ultra-realistic-water/SKILL.md",
+        "agent-skills/3d/3d-ultra-realistic-water/assets/ocean.mjs",
+        "agent-skills/3d/3d-ultra-realistic-water/demo/build.mjs",
+        "agent-skills/3d/3d-ultra-realistic-water/demo/index.html",
+        "agent-skills/3d/3d-ultra-realistic-water/demo/src/ui.css",
+        "agent-skills/3d/3d-ultra-realistic-water/demo/src/ui.html",
+        "agent-skills/3d/3d-ultra-realistic-water/demo/src/ui.js",
+        "agent-skills/3d/3d-ultra-realistic-water/references/ocean.md"
+      ],
+      "entrySha256": "54e31ca705a4fbac10a93f1a4b9297be35e8eec798bb64eedb6f38ef65246a30",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-3d-underwater-god-rays",
+      "name": "Three.js 水下体积光与焦散",
+      "categories": [
+        "3D 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-underwater-god-rays",
+      "skills": [
+        "agent-skills/3d/3d-underwater-god-rays/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/3d/3d-underwater-god-rays/SKILL.md",
+        "agent-skills/3d/3d-underwater-god-rays/assets/underwater-light.mjs",
+        "agent-skills/3d/3d-underwater-god-rays/demo/build.mjs",
+        "agent-skills/3d/3d-underwater-god-rays/demo/index.html",
+        "agent-skills/3d/3d-underwater-god-rays/demo/src/ui.css",
+        "agent-skills/3d/3d-underwater-god-rays/demo/src/ui.html",
+        "agent-skills/3d/3d-underwater-god-rays/demo/src/ui.js",
+        "agent-skills/3d/3d-underwater-god-rays/demo/src/water.js"
+      ],
+      "entrySha256": "1ddd8ac574ddf6545a16008d7531f95cd4c707e0ffa977e987715b3b456c4f21",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-3d-virtual-tour",
+      "name": "三维空间漫游与镜头路径",
+      "categories": [
+        "3D 设计",
+        "UI 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-virtual-tour",
+      "skills": [
+        "agent-skills/3d/3d-virtual-tour/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/3d/3d-virtual-tour/REFERENCES.md",
+        "agent-skills/3d/3d-virtual-tour/SKILL.md"
+      ],
+      "entrySha256": "e1626474c570185db9a41baba57baac8c551620e98203a90a56e03fcc5a44e86",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-3d-wood-lighting-scorecard",
+      "name": "木作场景灯光与对比验收",
+      "categories": [
+        "3D 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-wood-lighting-scorecard",
+      "skills": [
+        "agent-skills/3d/3d-high-resolution-textures/SKILL.md",
+        "agent-skills/3d/3d-sky-rays/SKILL.md",
+        "agent-skills/3d/3d-wood-lighting-scorecard/SKILL.md",
+        "agent-skills/workflow/workflow-progress-screenshots/SKILL.md",
+        "agent-skills/workflow/workflow-score-to-target/SKILL.md"
+      ],
+      "files": [
+        "LICENSE",
+        "README.md",
+        "agent-skills/3d/3d-high-resolution-textures/REFERENCES.md",
+        "agent-skills/3d/3d-high-resolution-textures/SKILL.md",
+        "agent-skills/3d/3d-sky-rays/REFERENCES.md",
+        "agent-skills/3d/3d-sky-rays/SKILL.md",
+        "agent-skills/3d/3d-wood-lighting-scorecard/SKILL.md",
+        "agent-skills/3d/3d-wood-lighting-scorecard/demo.html",
+        "agent-skills/3d/3d-wood-lighting-scorecard/references/last-scorecard.json",
+        "agent-skills/3d/3d-wood-lighting-scorecard/references/metrics.js",
+        "agent-skills/3d/3d-wood-lighting-scorecard/references/rubric.md",
+        "agent-skills/3d/3d-wood-lighting-scorecard/references/scorecard.mjs",
+        "agent-skills/workflow/workflow-progress-screenshots/SKILL.md",
+        "agent-skills/workflow/workflow-progress-screenshots/scripts/capture.mjs",
+        "agent-skills/workflow/workflow-progress-screenshots/scripts/compare.py",
+        "agent-skills/workflow/workflow-score-to-target/SKILL.md",
+        "agent-skills/workflow/workflow-score-to-target/templates/scorecard.md"
+      ],
+      "entrySha256": "9c2594010aab8cf2bde1ab862fa336187e8220fd1b9c27a005a4ef83fd2d8809",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-3d-wood-material",
+      "name": "Three.js 程序木纹与端面",
+      "categories": [
+        "3D 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/3d/3d-wood-material",
+      "skills": [
+        "agent-skills/3d/3d-wood-material/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/3d/3d-wood-material/PROMPT.md",
+        "agent-skills/3d/3d-wood-material/SKILL.md",
+        "agent-skills/3d/3d-wood-material/demo.html"
+      ],
+      "entrySha256": "0f7748f4e947c1d3c4a286ab83cd6b8afcfa9bc6cd4a069f0a1d7f2a3c1d872a",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-design-first-ui-prompting",
+      "name": "UI 需求与设计规范提示词",
+      "categories": [
+        "UI 设计",
+        "平面设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/ui/design-first-ui-prompting",
+      "skills": [
+        "agent-skills/ui/design-first-ui-prompting/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/ui/design-first-ui-prompting/SKILL.md"
+      ],
+      "entrySha256": "5e3d4db0eb0ea983f2bedb90f28f358901c292388a7889e2f66ac133ceff743c",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-audit-ai-design-slop",
+      "name": "UI 层级与冗余装饰审查",
+      "categories": [
+        "UI 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/ui/audit-ai-design-slop",
+      "skills": [
+        "agent-skills/ui/audit-ai-design-slop/SKILL.md",
+        "agent-skills/ui/no-ai-design-slop/SKILL.md"
+      ],
+      "files": [
+        "LICENSE",
+        "README.md",
+        "agent-skills/ui/audit-ai-design-slop/SKILL.md",
+        "agent-skills/ui/no-ai-design-slop/ARTICLE.md",
+        "agent-skills/ui/no-ai-design-slop/SKILL.md"
+      ],
+      "entrySha256": "91e1e68e624d911fd66f672db5930484c6d024ba1834bb837acc3af4e14601ca",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-fire-paper-loader",
+      "name": "页面燃纸加载与启动动画",
+      "categories": [
+        "UI 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/web-design/fire-paper-loader",
+      "skills": [
+        "agent-skills/web-design/fire-paper-loader/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/web-design/fire-paper-loader/SKILL.md"
+      ],
+      "entrySha256": "d8ff1f0e60ea73f1a98e3c4991e1a3ffa9484e989fb175c2410058dfdc93d30b",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-pricing-page",
+      "name": "产品定价页与营销转化布局",
+      "categories": [
+        "UI 设计",
+        "营销运营"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/web-design/pricing-page",
+      "skills": [
+        "agent-skills/web-design/pricing-page/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/web-design/pricing-page/SKILL.md"
+      ],
+      "entrySha256": "9b3af6174e379042ea1579f5d62b6fb0030fe6298d35b417488ac1e5ef8159db",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-animation-systems",
+      "name": "网页交互与统一动效系统",
+      "categories": [
+        "UI 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/web-design/animation-systems",
+      "skills": [
+        "agent-skills/web-design/animation-systems/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/web-design/animation-systems/SKILL.md"
+      ],
+      "entrySha256": "ae1e51b8eede6f4d05fda5388f61bbc1d29ea88b7a5d7a488c3ecfed5f18e262",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-illustration-one-line",
+      "name": "连续线 SVG 插画",
+      "categories": [
+        "平面设计",
+        "UI 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/illustration/illustration-one-line",
+      "skills": [
+        "agent-skills/illustration/illustration-one-line/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/illustration/illustration-one-line/SKILL.md",
+        "agent-skills/illustration/illustration-one-line/examples/flow-state.svg",
+        "agent-skills/illustration/illustration-one-line/examples/hackathon-sprint.svg",
+        "agent-skills/illustration/illustration-one-line/examples/juggling-tasks.svg",
+        "agent-skills/illustration/illustration-one-line/references/craft.md",
+        "agent-skills/illustration/illustration-one-line/scripts/lint.mjs",
+        "agent-skills/illustration/illustration-one-line/scripts/oneline.mjs",
+        "agent-skills/illustration/illustration-one-line/scripts/render.mjs",
+        "agent-skills/illustration/illustration-one-line/style.json"
+      ],
+      "entrySha256": "7e18cbbb8969d533dd4c00534b26bb59ca12800fe70e518fc02987a2cdf87b4a",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-video-to-superprompt",
+      "name": "从视频整理 UI 与动效提示词",
+      "categories": [
+        "UI 设计",
+        "资料研究",
+        "内容创作"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/video-to-superprompt",
+      "skills": [
+        "agent-skills/codex/video-to-superprompt/SKILL.md",
+        "agent-skills/web-design/landing-page/SKILL.md"
+      ],
+      "files": [
+        "LICENSE",
+        "README.md",
+        "agent-skills/codex/video-to-superprompt/SKILL.md",
+        "agent-skills/codex/video-to-superprompt/references/superprompt-template.md",
+        "agent-skills/web-design/landing-page/SKILL.md"
+      ],
+      "entrySha256": "2b0db0096fb715f9e5c6be419f2be5caf0df5e1991ac019308185e2d72c2f950",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-html-to-interaction-prompts",
+      "name": "从 HTML 提取交互提示词",
+      "categories": [
+        "UI 设计",
+        "知识管理"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/html-to-interaction-prompts",
+      "skills": [
+        "agent-skills/codex/html-to-interaction-prompts/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/codex/html-to-interaction-prompts/SKILL.md"
+      ],
+      "entrySha256": "59b800616a70b89b2d5b3d85b8b138c3d22afc83a23fe7e565e08bd1610a8999",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-optimize-web-animations",
+      "name": "网页动效性能与内存优化",
+      "categories": [
+        "UI 设计",
+        "软件开发"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/optimize-web-animations",
+      "skills": [
+        "agent-skills/codex/optimize-web-animations/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/codex/optimize-web-animations/SKILL.md",
+        "agent-skills/codex/optimize-web-animations/references/browser-profiling.md"
+      ],
+      "entrySha256": "37a8f512bb22a4f2112e4ed388068c0cd184d312d64ee00a993da5bf04ded947",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "mengto-skills-performance-profiling",
+      "name": "Apple App 性能诊断工作流",
+      "categories": [
+        "软件开发",
+        "UI 设计"
+      ],
+      "source": "https://github.com/MengTo/Skills/tree/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/performance-profiling",
+      "skills": [
+        "agent-skills/codex/performance-profiling/SKILL.md"
+      ],
+      "files": [
+        "agent-skills/codex/performance-profiling/SKILL.md",
+        "agent-skills/codex/performance-profiling/references/energy-diagnostics.md",
+        "agent-skills/codex/performance-profiling/references/launch-optimization.md",
+        "agent-skills/codex/performance-profiling/references/memory-profiling.md",
+        "agent-skills/codex/performance-profiling/references/time-profiler.md"
+      ],
+      "entrySha256": "e2301598090cf01a0d3b726a039ef4c5c9b05f64d20fb17f52a2271994945c5a",
+      "license": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "greensock-gsap-skills-gsap-core",
+      "name": "GSAP 官方基础交互动效",
+      "categories": [
+        "UI 设计",
+        "软件开发"
+      ],
+      "source": "https://github.com/greensock/gsap-skills/tree/aed9cfd3277740755f6bfc1155c7aa645403b760/skills/gsap-core",
+      "skills": [
+        "skills/gsap-core/SKILL.md"
+      ],
+      "files": [
+        "skills/gsap-core/SKILL.md"
+      ],
+      "entrySha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3",
+      "license": "https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "greensock-gsap-skills-gsap-timeline",
+      "name": "GSAP 官方时间线编排",
+      "categories": [
+        "UI 设计",
+        "软件开发"
+      ],
+      "source": "https://github.com/greensock/gsap-skills/tree/aed9cfd3277740755f6bfc1155c7aa645403b760/skills/gsap-timeline",
+      "skills": [
+        "skills/gsap-timeline/SKILL.md"
+      ],
+      "files": [
+        "skills/gsap-timeline/SKILL.md"
+      ],
+      "entrySha256": "1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02",
+      "license": "https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "greensock-gsap-skills-gsap-scrolltrigger",
+      "name": "GSAP 官方滚动交互",
+      "categories": [
+        "UI 设计",
+        "软件开发"
+      ],
+      "source": "https://github.com/greensock/gsap-skills/tree/aed9cfd3277740755f6bfc1155c7aa645403b760/skills/gsap-scrolltrigger",
+      "skills": [
+        "skills/gsap-scrolltrigger/SKILL.md"
+      ],
+      "files": [
+        "skills/gsap-scrolltrigger/SKILL.md"
+      ],
+      "entrySha256": "9351b6666a4749c0740406ea363aaccb99a087ff45cc5e8b99a0f367facf3ef4",
+      "license": "https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "greensock-gsap-skills-gsap-plugins",
+      "name": "GSAP 官方 SVG 与交互插件",
+      "categories": [
+        "UI 设计",
+        "软件开发"
+      ],
+      "source": "https://github.com/greensock/gsap-skills/tree/aed9cfd3277740755f6bfc1155c7aa645403b760/skills/gsap-plugins",
+      "skills": [
+        "skills/gsap-plugins/SKILL.md"
+      ],
+      "files": [
+        "skills/gsap-plugins/SKILL.md"
+      ],
+      "entrySha256": "5838b856c74c07fbc9fa99b6dfd1eee34ea554c3e530c30e0d58014b707d70a4",
+      "license": "https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "greensock-gsap-skills-gsap-react",
+      "name": "GSAP 官方 React 动效集成",
+      "categories": [
+        "UI 设计",
+        "软件开发"
+      ],
+      "source": "https://github.com/greensock/gsap-skills/tree/aed9cfd3277740755f6bfc1155c7aa645403b760/skills/gsap-react",
+      "skills": [
+        "skills/gsap-react/SKILL.md"
+      ],
+      "files": [
+        "skills/gsap-react/SKILL.md"
+      ],
+      "entrySha256": "88e2a5312b45e8cc7b3c496637ff5bc9af2ae9c925b555c8b235b34cbc989d74",
+      "license": "https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "greensock-gsap-skills-gsap-frameworks",
+      "name": "GSAP 官方 Vue 与 Svelte 动效",
+      "categories": [
+        "UI 设计",
+        "软件开发"
+      ],
+      "source": "https://github.com/greensock/gsap-skills/tree/aed9cfd3277740755f6bfc1155c7aa645403b760/skills/gsap-frameworks",
+      "skills": [
+        "skills/gsap-frameworks/SKILL.md",
+        "skills/gsap-react/SKILL.md"
+      ],
+      "files": [
+        "LICENSE",
+        "README.md",
+        "skills/gsap-frameworks/SKILL.md",
+        "skills/gsap-react/SKILL.md"
+      ],
+      "entrySha256": "842d9d3659ec3ddc8abbdc524708f8facf81f468ac25d0577f48c759c4fa31e6",
+      "license": "https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "openai-skills-jupyter-notebook",
+      "name": "Jupyter 分析与教程工作流",
+      "categories": [
+        "数据分析",
+        "资料研究"
+      ],
+      "source": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook",
+      "skills": [
+        "skills/.curated/jupyter-notebook/SKILL.md"
+      ],
+      "files": [
+        "skills/.curated/jupyter-notebook/SKILL.md",
+        "skills/.curated/jupyter-notebook/assets/experiment-template.ipynb",
+        "skills/.curated/jupyter-notebook/assets/tutorial-template.ipynb",
+        "skills/.curated/jupyter-notebook/references/experiment-patterns.md",
+        "skills/.curated/jupyter-notebook/references/notebook-structure.md",
+        "skills/.curated/jupyter-notebook/references/quality-checklist.md",
+        "skills/.curated/jupyter-notebook/references/tutorial-patterns.md"
+      ],
+      "entrySha256": "62f102e8554b25716dccef0ffab4572d4e3eaf05ccc76562d33a065bc9c521fb",
+      "license": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook/LICENSE.txt",
+      "downloadAllowed": true
+    },
+    {
+      "id": "openai-skills-gh-fix-ci",
+      "name": "GitHub Actions 失败排查",
+      "categories": [
+        "软件开发",
+        "自动化工作流"
+      ],
+      "source": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/gh-fix-ci",
+      "skills": [
+        "skills/.curated/gh-fix-ci/SKILL.md"
+      ],
+      "files": [
+        "skills/.curated/gh-fix-ci/SKILL.md",
+        "skills/.curated/gh-fix-ci/scripts/inspect_pr_checks.py"
+      ],
+      "entrySha256": "7b326b4a2f0f5f85122144628ec02077e48841e0e0e82efce88b3415bcfb7c26",
+      "license": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/gh-fix-ci/LICENSE.txt",
+      "downloadAllowed": true
+    },
+    {
+      "id": "openai-skills-playwright",
+      "name": "浏览器操作与页面验收",
+      "categories": [
+        "自动化工作流",
+        "UI 设计",
+        "软件开发"
+      ],
+      "source": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright",
+      "skills": [
+        "skills/.curated/playwright/SKILL.md"
+      ],
+      "files": [
+        "skills/.curated/playwright/SKILL.md",
+        "skills/.curated/playwright/references/cli.md",
+        "skills/.curated/playwright/references/workflows.md"
+      ],
+      "entrySha256": "0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8",
+      "license": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright/LICENSE.txt",
+      "downloadAllowed": true
+    },
+    {
+      "id": "openai-skills-security-best-practices",
+      "name": "Python JS Go 安全审查",
+      "categories": [
+        "软件开发"
+      ],
+      "source": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/security-best-practices",
+      "skills": [
+        "skills/.curated/security-best-practices/SKILL.md"
+      ],
+      "files": [
+        "skills/.curated/security-best-practices/SKILL.md",
+        "skills/.curated/security-best-practices/references/golang-general-backend-security.md",
+        "skills/.curated/security-best-practices/references/javascript-express-web-server-security.md",
+        "skills/.curated/security-best-practices/references/javascript-general-web-frontend-security.md",
+        "skills/.curated/security-best-practices/references/javascript-jquery-web-frontend-security.md",
+        "skills/.curated/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+        "skills/.curated/security-best-practices/references/javascript-typescript-react-web-frontend-security.md",
+        "skills/.curated/security-best-practices/references/javascript-typescript-vue-web-frontend-security.md",
+        "skills/.curated/security-best-practices/references/python-django-web-server-security.md",
+        "skills/.curated/security-best-practices/references/python-fastapi-web-server-security.md",
+        "skills/.curated/security-best-practices/references/python-flask-web-server-security.md"
+      ],
+      "entrySha256": "7b3dae1ffc5434d890f3c65c8f552af52d0307fab3b35dec13013c9ca3844c4f",
+      "license": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/security-best-practices/LICENSE.txt",
+      "downloadAllowed": true
+    },
+    {
+      "id": "openai-skills-security-threat-model",
+      "name": "代码库威胁建模",
+      "categories": [
+        "软件开发",
+        "资料研究"
+      ],
+      "source": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/security-threat-model",
+      "skills": [
+        "skills/.curated/security-threat-model/SKILL.md"
+      ],
+      "files": [
+        "skills/.curated/security-threat-model/SKILL.md",
+        "skills/.curated/security-threat-model/references/prompt-template.md",
+        "skills/.curated/security-threat-model/references/security-controls-and-assets.md"
+      ],
+      "entrySha256": "1283c0dd62a8104d9edda4583569b5d8510b4ddaa45120687c999250fd96bad2",
+      "license": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/security-threat-model/LICENSE.txt",
+      "downloadAllowed": true
+    },
+    {
+      "id": "openai-plugins-notion-spec-to-implementation",
+      "name": "Notion 需求到任务计划",
+      "categories": [
+        "日常办公",
+        "知识管理",
+        "自动化工作流"
+      ],
+      "source": "https://github.com/openai/plugins/tree/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/notion/skills/notion-spec-to-implementation",
+      "skills": [
+        "plugins/notion/skills/notion-spec-to-implementation/SKILL.md"
+      ],
+      "files": [
+        "plugins/notion/skills/notion-spec-to-implementation/SKILL.md",
+        "plugins/notion/skills/notion-spec-to-implementation/reference/milestone-summary-template.md",
+        "plugins/notion/skills/notion-spec-to-implementation/reference/progress-tracking.md",
+        "plugins/notion/skills/notion-spec-to-implementation/reference/progress-update-template.md",
+        "plugins/notion/skills/notion-spec-to-implementation/reference/quick-implementation-plan.md",
+        "plugins/notion/skills/notion-spec-to-implementation/reference/spec-parsing.md",
+        "plugins/notion/skills/notion-spec-to-implementation/reference/standard-implementation-plan.md",
+        "plugins/notion/skills/notion-spec-to-implementation/reference/task-creation-template.md",
+        "plugins/notion/skills/notion-spec-to-implementation/reference/task-creation.md"
+      ],
+      "entrySha256": "43b304aaff38fbd4fd5d81efcefb2fd92f5450649eba8b02a2371edb4599cf3f",
+      "license": "https://github.com/openai/plugins/blob/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/notion/skills/notion-spec-to-implementation/LICENSE.txt",
+      "downloadAllowed": true
+    },
+    {
+      "id": "openai-plugins-figma-generate-library",
+      "name": "Figma 官方设计系统与组件库",
+      "categories": [
+        "UI 设计",
+        "软件开发"
+      ],
+      "source": "https://github.com/openai/plugins/tree/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/figma/skills/figma-generate-library",
+      "skills": [
+        "plugins/figma/skills/figma-code-connect/SKILL.md",
+        "plugins/figma/skills/figma-create-new-file/SKILL.md",
+        "plugins/figma/skills/figma-generate-design/SKILL.md",
+        "plugins/figma/skills/figma-generate-library/SKILL.md",
+        "plugins/figma/skills/figma-use-slides/SKILL.md",
+        "plugins/figma/skills/figma-use/SKILL.md"
+      ],
+      "files": [
+        "README.md",
+        "plugins/figma/LICENSE.txt",
+        "plugins/figma/skills/figma-code-connect/SKILL.md",
+        "plugins/figma/skills/figma-code-connect/references/advanced-patterns.md",
+        "plugins/figma/skills/figma-code-connect/references/api.md",
+        "plugins/figma/skills/figma-create-new-file/SKILL.md",
+        "plugins/figma/skills/figma-generate-design/SKILL.md",
+        "plugins/figma/skills/figma-generate-design/references/componentization.md",
+        "plugins/figma/skills/figma-generate-design/references/discover-product-font.md",
+        "plugins/figma/skills/figma-generate-library/SKILL.md",
+        "plugins/figma/skills/figma-generate-library/references/code-connect-setup.md",
+        "plugins/figma/skills/figma-generate-library/references/component-creation.md",
+        "plugins/figma/skills/figma-generate-library/references/discovery-phase.md",
+        "plugins/figma/skills/figma-generate-library/references/documentation-creation.md",
+        "plugins/figma/skills/figma-generate-library/references/error-recovery.md",
+        "plugins/figma/skills/figma-generate-library/references/naming-conventions.md",
+        "plugins/figma/skills/figma-generate-library/references/token-creation.md",
+        "plugins/figma/skills/figma-generate-library/scripts/bindVariablesToComponent.js",
+        "plugins/figma/skills/figma-generate-library/scripts/cleanupOrphans.js",
+        "plugins/figma/skills/figma-generate-library/scripts/createComponentWithVariants.js",
+        "plugins/figma/skills/figma-generate-library/scripts/createDocumentationPage.js",
+        "plugins/figma/skills/figma-generate-library/scripts/createSemanticTokens.js",
+        "plugins/figma/skills/figma-generate-library/scripts/createVariableCollection.js",
+        "plugins/figma/skills/figma-generate-library/scripts/inspectFileStructure.js",
+        "plugins/figma/skills/figma-generate-library/scripts/validateCreation.js",
+        "plugins/figma/skills/figma-use-slides/SKILL.md",
+        "plugins/figma/skills/figma-use-slides/references/slide-content.md",
+        "plugins/figma/skills/figma-use-slides/references/slide-design.md",
+        "plugins/figma/skills/figma-use-slides/references/slide-gotchas.md",
+        "plugins/figma/skills/figma-use-slides/references/slide-grid.md",
+        "plugins/figma/skills/figma-use-slides/references/slide-lifecycle.md",
+        "plugins/figma/skills/figma-use-slides/references/slide-properties.md",
+        "plugins/figma/skills/figma-use/SKILL.md",
+        "plugins/figma/skills/figma-use/references/api-reference.md",
+        "plugins/figma/skills/figma-use/references/common-patterns.md",
+        "plugins/figma/skills/figma-use/references/component-patterns.md",
+        "plugins/figma/skills/figma-use/references/effect-style-patterns.md",
+        "plugins/figma/skills/figma-use/references/gotchas.md",
+        "plugins/figma/skills/figma-use/references/plugin-api-patterns.md",
+        "plugins/figma/skills/figma-use/references/plugin-api-standalone.d.ts",
+        "plugins/figma/skills/figma-use/references/plugin-api-standalone.index.md",
+        "plugins/figma/skills/figma-use/references/text-style-patterns.md",
+        "plugins/figma/skills/figma-use/references/validation-and-recovery.md",
+        "plugins/figma/skills/figma-use/references/variable-patterns.md",
+        "plugins/figma/skills/figma-use/references/working-with-design-systems/wwds-components--creating.md",
+        "plugins/figma/skills/figma-use/references/working-with-design-systems/wwds-components--using.md",
+        "plugins/figma/skills/figma-use/references/working-with-design-systems/wwds-components.md",
+        "plugins/figma/skills/figma-use/references/working-with-design-systems/wwds-effect-styles.md",
+        "plugins/figma/skills/figma-use/references/working-with-design-systems/wwds-text-styles.md",
+        "plugins/figma/skills/figma-use/references/working-with-design-systems/wwds-variables--creating.md",
+        "plugins/figma/skills/figma-use/references/working-with-design-systems/wwds-variables--using.md",
+        "plugins/figma/skills/figma-use/references/working-with-design-systems/wwds-variables.md",
+        "plugins/figma/skills/figma-use/references/working-with-design-systems/wwds.md"
+      ],
+      "entrySha256": "3c995d483bbf4761392ba0c2e00df2b1b1c632cc05c6e7df57a2e89c311f53b7",
+      "license": "https://github.com/openai/plugins/blob/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/figma/LICENSE.txt",
+      "downloadAllowed": false
+    },
+    {
+      "id": "obra-superpowers-systematic-debugging",
+      "name": "系统化问题定位与修复",
+      "categories": [
+        "软件开发"
+      ],
+      "source": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/systematic-debugging",
+      "skills": [
+        "skills/brainstorming/SKILL.md",
+        "skills/dispatching-parallel-agents/SKILL.md",
+        "skills/executing-plans/SKILL.md",
+        "skills/finishing-a-development-branch/SKILL.md",
+        "skills/requesting-code-review/SKILL.md",
+        "skills/subagent-driven-development/SKILL.md",
+        "skills/systematic-debugging/SKILL.md",
+        "skills/test-driven-development/SKILL.md",
+        "skills/using-git-worktrees/SKILL.md",
+        "skills/using-superpowers/SKILL.md",
+        "skills/verification-before-completion/SKILL.md",
+        "skills/writing-plans/SKILL.md",
+        "skills/writing-skills/SKILL.md"
+      ],
+      "files": [
+        "GEMINI.md",
+        "LICENSE",
+        "README.md",
+        "skills/brainstorming/SKILL.md",
+        "skills/brainstorming/builder-check-prompt.md",
+        "skills/brainstorming/scripts/frame-template.html",
+        "skills/brainstorming/scripts/helper.js",
+        "skills/brainstorming/scripts/start-server.sh",
+        "skills/brainstorming/scripts/stop-server.sh",
+        "skills/brainstorming/visual-companion.md",
+        "skills/dispatching-parallel-agents/SKILL.md",
+        "skills/executing-plans/SKILL.md",
+        "skills/executing-plans/scripts/task-done",
+        "skills/executing-plans/scripts/task-start",
+        "skills/finishing-a-development-branch/SKILL.md",
+        "skills/requesting-code-review/SKILL.md",
+        "skills/requesting-code-review/code-reviewer.md",
+        "skills/subagent-driven-development/SKILL.md",
+        "skills/subagent-driven-development/implementer-prompt.md",
+        "skills/subagent-driven-development/re-review-prompt.md",
+        "skills/subagent-driven-development/scripts/review-package",
+        "skills/subagent-driven-development/scripts/sdd-workspace",
+        "skills/subagent-driven-development/scripts/task-brief",
+        "skills/subagent-driven-development/task-reviewer-prompt.md",
+        "skills/systematic-debugging/SKILL.md",
+        "skills/systematic-debugging/condition-based-waiting-example.ts",
+        "skills/systematic-debugging/condition-based-waiting.md",
+        "skills/systematic-debugging/defense-in-depth.md",
+        "skills/systematic-debugging/find-polluter.sh",
+        "skills/systematic-debugging/root-cause-tracing.md",
+        "skills/test-driven-development/SKILL.md",
+        "skills/test-driven-development/writing-good-tests.md",
+        "skills/using-git-worktrees/SKILL.md",
+        "skills/using-superpowers/SKILL.md",
+        "skills/using-superpowers/references/antigravity-tools.md",
+        "skills/using-superpowers/references/claude-code-tools.md",
+        "skills/using-superpowers/references/codex-tools.md",
+        "skills/using-superpowers/references/gemini-tools.md",
+        "skills/using-superpowers/references/hermes-tools.md",
+        "skills/using-superpowers/references/muse-tools.md",
+        "skills/using-superpowers/references/pi-tools.md",
+        "skills/verification-before-completion/SKILL.md",
+        "skills/writing-plans/SKILL.md",
+        "skills/writing-skills/SKILL.md",
+        "skills/writing-skills/examples/CLAUDE_MD_TESTING.md",
+        "skills/writing-skills/graphviz-conventions.dot",
+        "skills/writing-skills/render-graphs.js",
+        "skills/writing-skills/testing-skills-with-subagents.md"
+      ],
+      "entrySha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+      "license": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "obra-superpowers-test-driven-development",
+      "name": "测试驱动开发工作流",
+      "categories": [
+        "软件开发"
+      ],
+      "source": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/test-driven-development",
+      "skills": [
+        "skills/brainstorming/SKILL.md",
+        "skills/dispatching-parallel-agents/SKILL.md",
+        "skills/executing-plans/SKILL.md",
+        "skills/finishing-a-development-branch/SKILL.md",
+        "skills/requesting-code-review/SKILL.md",
+        "skills/subagent-driven-development/SKILL.md",
+        "skills/systematic-debugging/SKILL.md",
+        "skills/test-driven-development/SKILL.md",
+        "skills/using-git-worktrees/SKILL.md",
+        "skills/using-superpowers/SKILL.md",
+        "skills/verification-before-completion/SKILL.md",
+        "skills/writing-plans/SKILL.md",
+        "skills/writing-skills/SKILL.md"
+      ],
+      "files": [
+        "GEMINI.md",
+        "LICENSE",
+        "README.md",
+        "skills/brainstorming/SKILL.md",
+        "skills/brainstorming/builder-check-prompt.md",
+        "skills/brainstorming/scripts/frame-template.html",
+        "skills/brainstorming/scripts/helper.js",
+        "skills/brainstorming/scripts/start-server.sh",
+        "skills/brainstorming/scripts/stop-server.sh",
+        "skills/brainstorming/visual-companion.md",
+        "skills/dispatching-parallel-agents/SKILL.md",
+        "skills/executing-plans/SKILL.md",
+        "skills/executing-plans/scripts/task-done",
+        "skills/executing-plans/scripts/task-start",
+        "skills/finishing-a-development-branch/SKILL.md",
+        "skills/requesting-code-review/SKILL.md",
+        "skills/requesting-code-review/code-reviewer.md",
+        "skills/subagent-driven-development/SKILL.md",
+        "skills/subagent-driven-development/implementer-prompt.md",
+        "skills/subagent-driven-development/re-review-prompt.md",
+        "skills/subagent-driven-development/scripts/review-package",
+        "skills/subagent-driven-development/scripts/sdd-workspace",
+        "skills/subagent-driven-development/scripts/task-brief",
+        "skills/subagent-driven-development/task-reviewer-prompt.md",
+        "skills/systematic-debugging/SKILL.md",
+        "skills/systematic-debugging/condition-based-waiting-example.ts",
+        "skills/systematic-debugging/condition-based-waiting.md",
+        "skills/systematic-debugging/defense-in-depth.md",
+        "skills/systematic-debugging/find-polluter.sh",
+        "skills/systematic-debugging/root-cause-tracing.md",
+        "skills/test-driven-development/SKILL.md",
+        "skills/test-driven-development/writing-good-tests.md",
+        "skills/using-git-worktrees/SKILL.md",
+        "skills/using-superpowers/SKILL.md",
+        "skills/using-superpowers/references/antigravity-tools.md",
+        "skills/using-superpowers/references/claude-code-tools.md",
+        "skills/using-superpowers/references/codex-tools.md",
+        "skills/using-superpowers/references/gemini-tools.md",
+        "skills/using-superpowers/references/hermes-tools.md",
+        "skills/using-superpowers/references/muse-tools.md",
+        "skills/using-superpowers/references/pi-tools.md",
+        "skills/verification-before-completion/SKILL.md",
+        "skills/writing-plans/SKILL.md",
+        "skills/writing-skills/SKILL.md",
+        "skills/writing-skills/examples/CLAUDE_MD_TESTING.md",
+        "skills/writing-skills/graphviz-conventions.dot",
+        "skills/writing-skills/render-graphs.js",
+        "skills/writing-skills/testing-skills-with-subagents.md"
+      ],
+      "entrySha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d",
+      "license": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE",
+      "downloadAllowed": true
+    },
+    {
+      "id": "obra-superpowers-verification-before-completion",
+      "name": "交付前证据与验收检查",
+      "categories": [
+        "软件开发",
+        "自动化工作流"
+      ],
+      "source": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/verification-before-completion",
+      "skills": [
+        "skills/verification-before-completion/SKILL.md"
+      ],
+      "files": [
+        "skills/verification-before-completion/SKILL.md"
+      ],
+      "entrySha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "license": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE",
+      "downloadAllowed": true
+    }
+  ],
+  "exclusions": [
+    {
+      "repo": "MengTo/Skills",
+      "names": [
+        "3d-metal-material",
+        "illustration-flat",
+        "illustration-vintage-emblem",
+        "illustration-isometric-mono"
+      ],
+      "reason": "固定来源 SKILL.md 的 YAML description 含未转义的冒号，当前标准解析失败；不改写原文后冒充可直接安装入口。"
+    },
+    {
+      "repo": "expo/skills",
+      "stars": 2784,
+      "reason": "实际 Skill 来源不足 5000 Star。"
+    },
+    {
+      "repo": "zstvns/design-skills",
+      "stars": 16,
+      "reason": "实际 Skill 来源不足 5000 Star。"
+    }
+  ],
+  "checks": [
+    "全部入口与递归 Skill 可按当前标准解析",
+    "全部选中文件按 Git blob 哈希核对原始字节",
+    "按引用范围包含必需脚本、模板、素材和配置，排除其他风格和仓库工程",
+    "中文用途、输入输出、步骤、提示词与结果检查齐全",
+    "原有个人数据未访问，旧公开来源说明继续保留"
+  ],
+  "runtime": "未在每个外部宿主和真实任务中实测，不以 Star 或文件核对代替运行效果验证",
+  "catalogSchemaVersion": 2,
+  "compatibility": {
+    "newFeed": "catalog/skills-v2.json",
+    "legacyFeed": "catalog/skills.json",
+    "legacyEntries": 49,
+    "reason": "新增交付范围依赖更新后的关联识别和配置文件解析；旧客户端继续读取兼容目录，更新应用后获取新版目录及完整双语原文。"
+  },
+  "validation": {
+    "checkedAt": "2026-10-12T17:46:14.513Z",
+    "status": "passed",
+    "addedPackages": 40,
+    "passed": 40,
+    "sourceOnly": 1,
+    "operations": [
+      "isolated personal install",
+      "export named ZIP",
+      "unzip and compare every original file",
+      "check bilingual source instructions",
+      "check prompt and verification text",
+      "reject restricted resources without data changes",
+      "preserve pre-existing fixture and favorite"
+    ],
+    "existingDownloadScopes": 39,
+    "existingMissingFiles": 0
+  },
+  "updatedExisting": [
+    "obra-superpowers-writing-plans",
+    "obra-superpowers-executing-plans"
+  ]
+}

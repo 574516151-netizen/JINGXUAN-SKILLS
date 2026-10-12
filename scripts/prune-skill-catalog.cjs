@@ -46,13 +46,14 @@ function supportingFiles(catalog,guides,audit) {
     singleSkill:items.filter(item=>item.skillPaths.length===1).length,multiSkill:items.filter(item=>item.skillPaths.length>1).length,items};
   return {guides:nextGuides,audit:nextAudit};
 }
-async function writeResult(root,result) {
+async function writeResult(root,result,catalogName='skills.json') {
+  if(!['skills.json','skills-v2.json'].includes(catalogName))throw Error('目录文件名无效');
   const dir=path.join(root,'catalog');
   require('./skill-admission.cjs').validate(result.catalog);
   // The app validator is available in this repository; the standalone public
   // catalog uses its own pre-publication validator instead.
   if(root===path.resolve(__dirname,'..') && require('node:fs').existsSync(path.join(root,'electron/engine/skills.js')))require('../electron/engine/skills').validateCatalog(result.catalog);
-  const outputs=[['skills.json',result.catalog],['selection-audit.json',result.report]];
+  const outputs=[[catalogName,result.catalog],[catalogName==='skills-v2.json'?'selection-audit-v2.json':'selection-audit.json',result.report]];
   const exists=async file=>fs.stat(file).then(()=>true,error=>{if(error.code==='ENOENT')return false;throw error;});
   const hasGuides=await exists(path.join(dir,'source-guides.json')),hasAudit=await exists(path.join(dir,'source-audit.json'));
   if(hasGuides!==hasAudit)throw Error('来源配套核对文件缺失，未修改目录');
@@ -64,9 +65,10 @@ async function writeResult(root,result) {
 }
 module.exports={prune,fetchMetadata,supportingFiles,writeResult};
 if(require.main===module)(async()=>{
-  const args=process.argv.slice(2);if(args.some(arg=>arg!=='--apply'))throw Error('仅支持 --apply；默认只核对和预览');
-  const root=path.resolve(__dirname,'..'),catalog=JSON.parse(await fs.readFile(path.join(root,'catalog/skills.json')));
+  const args=process.argv.slice(2);if(args.some(arg=>!['--apply','--legacy'].includes(arg)))throw Error('仅支持 --apply、--legacy；默认核对新版目录并预览');
+  const root=path.resolve(__dirname,'..'),catalogName=args.includes('--legacy')?'skills.json':'skills-v2.json';
+  const catalog=JSON.parse(await fs.readFile(path.join(root,'catalog',catalogName)));
   const result=prune(catalog,await fetchMetadata(catalog));
-  if(args.includes('--apply'))await writeResult(root,result);
-  console.log(JSON.stringify(result.report,null,2));
+  if(args.includes('--apply'))await writeResult(root,result,catalogName);
+  console.log(JSON.stringify({catalog:catalogName,...result.report},null,2));
 })().catch(error=>{console.error(error.message);process.exitCode=1;});
