@@ -12,3 +12,5 @@ jobs:
           node-version: '22'
       - run: node scripts/validate-catalog.cjs
       - run: node tests/catalog-feeds.cjs
+      - run: node scripts/validate-specialist-catalog.cjs
+      - run: node tests/specialist-catalog.cjs

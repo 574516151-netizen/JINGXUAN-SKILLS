@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-12T17:29:43.208Z",
+  "updatedAt": "2026-10-14T09:12:34.640Z",
   "items": [
     {
       "id": "anthropics-skills-canvas-design",
@@ -7171,7 +7171,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-cloth-material；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-3d-falling-leaves",
@@ -7291,7 +7292,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-falling-leaves；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-3d-four-seasons",
@@ -7411,7 +7413,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-four-seasons；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-3d-high-poly-models",
@@ -7531,7 +7534,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-high-poly-models；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-3d-high-resolution-textures",
@@ -7650,7 +7654,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-high-resolution-textures；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-3d-orbit-inspect-demo",
@@ -7770,7 +7775,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-orbit-inspect-demo；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-3d-paper-material",
@@ -7889,7 +7895,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-paper-material；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-3d-retina-resolution",
@@ -8009,7 +8016,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-retina-resolution；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-3d-sky-background",
@@ -8128,7 +8136,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-sky-background；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-3d-sky-rays",
@@ -8247,7 +8256,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-sky-rays；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-3d-ultra-realistic-water",
@@ -8372,7 +8382,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-ultra-realistic-water；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-3d-underwater-god-rays",
@@ -8498,7 +8509,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-underwater-god-rays；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-3d-virtual-tour",
@@ -8618,7 +8630,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-virtual-tour；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-3d-wood-lighting-scorecard",
@@ -8762,7 +8775,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-wood-lighting-scorecard；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-3d-wood-material",
@@ -8882,7 +8896,8 @@
           "新开对话或重新加载 Skills，确认工具能读取 3d-wood-material；随后填写并发送下面的调用提示词。"
         ],
         "host": "可读写项目文件的 Agent Skills 宿主；按条目准备浏览器、Node.js 或 Python"
-      }
+      },
+      "usageContext": "threejs"
     },
     {
       "id": "mengto-skills-design-first-ui-prompting",

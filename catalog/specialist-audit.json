@@ -1,0 +1,1463 @@
+{
+  "checkedAt": "2026-10-14T09:12:37.087Z",
+  "items": [
+    {
+      "id": "specialist-blender-complete-workflow",
+      "ref": "a2634b588e80265e796aa53f8ab178d75105c2af",
+      "skillCount": 30,
+      "fileCount": 120,
+      "files": [
+        "LICENSE",
+        "README.md",
+        "plugin/README.md",
+        "plugin/manifest.json",
+        "plugin/skills/animation-quality-gate/SKILL.md",
+        "plugin/skills/animation-quality-gate/scripts/animation_contact_sheet.py",
+        "plugin/skills/atlas-uv-fitting/SKILL.md",
+        "plugin/skills/atlas-uv-fitting/scripts/atlas_region_detector.py",
+        "plugin/skills/atlas-uv-fitting/scripts/atlas_region_mapper.py",
+        "plugin/skills/blender-animation/SKILL.md",
+        "plugin/skills/blender-animation/references/overview.md",
+        "plugin/skills/blender-cameras/SKILL.md",
+        "plugin/skills/blender-cameras/references/overview.md",
+        "plugin/skills/blender-export/SKILL.md",
+        "plugin/skills/blender-export/references/overview.md",
+        "plugin/skills/blender-export/references/unreal-export.md",
+        "plugin/skills/blender-export/scripts/collision_preflight.py",
+        "plugin/skills/blender-export/scripts/multires_bake_export.py",
+        "plugin/skills/blender-lighting/SKILL.md",
+        "plugin/skills/blender-lighting/references/overview.md",
+        "plugin/skills/blender-materials/SKILL.md",
+        "plugin/skills/blender-materials/references/overview.md",
+        "plugin/skills/blender-modeling/SKILL.md",
+        "plugin/skills/blender-modeling/references/overview.md",
+        "plugin/skills/blender-pro-workflow/SKILL.md",
+        "plugin/skills/blender-pro-workflow/references/overview.md",
+        "plugin/skills/blender-rendering/SKILL.md",
+        "plugin/skills/blender-rendering/references/overview.md",
+        "plugin/skills/blender-skill-harmonizer/SKILL.md",
+        "plugin/skills/blender-skill-harmonizer/references/handoff-contracts.md",
+        "plugin/skills/blender-skill-harmonizer/scripts/skill_graph_audit.py",
+        "plugin/skills/blender-uv-texturing/SKILL.md",
+        "plugin/skills/closed-surface-uv-coverage/SKILL.md",
+        "plugin/skills/closed-surface-uv-coverage/scripts/surface_texture_coverage_audit.py",
+        "plugin/skills/contour-to-mesh/SKILL.md",
+        "plugin/skills/contour-to-mesh/scripts/mask_to_mesh_recipe.py",
+        "plugin/skills/contour-to-mesh/scripts/source_locked_skin_recipe.py",
+        "plugin/skills/fit-repair-optimizer/SKILL.md",
+        "plugin/skills/landmark-fit-repair/SKILL.md",
+        "plugin/skills/landmark-fit-repair/scripts/landmark_fit_report.py",
+        "plugin/skills/mascot-logo-reconstruction/SKILL.md",
+        "plugin/skills/multiview-constraint-solver/SKILL.md",
+        "plugin/skills/multiview-constraint-solver/scripts/view_constraint_report.py",
+        "plugin/skills/multiview-fit-loop/SKILL.md",
+        "plugin/skills/multiview-fit-loop/scripts/multiview_fit_report.py",
+        "plugin/skills/orbital-hud-motion/SKILL.md",
+        "plugin/skills/orbital-hud-motion/scripts/orbit_layout_manifest.py",
+        "plugin/skills/orthographic-registration/SKILL.md",
+        "plugin/skills/orthographic-registration/scripts/register_views.py",
+        "plugin/skills/quality-refinement-autoloop/SKILL.md",
+        "plugin/skills/quality-refinement-autoloop/scripts/ralph_autoloop_plan.py",
+        "plugin/skills/quality-refinement-autoloop/scripts/release_readiness_check.py",
+        "plugin/skills/quality-refinement-autoloop/scripts/sanitize_skill_contributions.py",
+        "plugin/skills/reference-analysis-validator/SKILL.md",
+        "plugin/skills/reference-analysis-validator/references/metrics-and-thresholds.md",
+        "plugin/skills/reference-analysis-validator/scripts/reference_manifest_compiler.py",
+        "plugin/skills/reference-analysis-validator/scripts/render_overlay_validator.py",
+        "plugin/skills/reference-look-calibration/SKILL.md",
+        "plugin/skills/reference-look-calibration/scripts/look_fit_report.py",
+        "plugin/skills/reference-to-3d/SKILL.md",
+        "plugin/skills/reference-to-3d/scripts/silhouette_validator.py",
+        "plugin/skills/reference-to-3d/scripts/template_analyzer.py",
+        "plugin/skills/source-part-segmentation/SKILL.md",
+        "plugin/skills/source-part-segmentation/scripts/seeded_part_masks.py",
+        "plugin/skills/source-part-segmentation/scripts/segment_source_parts.py",
+        "plugin/skills/text-to-blender/SKILL.md",
+        "plugin/skills/text-to-blender/assets/v0.4.0-validation/README.md",
+        "plugin/skills/text-to-blender/assets/v0.4.0-validation/test1-modeling-materials-lighting-render.webp",
+        "plugin/skills/text-to-blender/assets/v0.4.0-validation/test2-glass-cycles.webp",
+        "plugin/skills/text-to-blender/assets/v0.4.0-validation/test3-anim-frame001.webp",
+        "plugin/skills/text-to-blender/assets/v0.4.0-validation/test3-anim-frame048.webp",
+        "plugin/skills/text-to-blender/assets/v0.4.0-validation/test3-anim-frame096.webp",
+        "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_FINAL_v0.6.0.webp",
+        "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt1_broken_world.webp",
+        "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt2_clean_world.webp",
+        "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt3_aimed_lights.webp",
+        "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt4_correct_dimensions_wrong_orientation.webp",
+        "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt5_rotated_no_taper.webp",
+        "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt6_with_pointed_tip.webp",
+        "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/README.md",
+        "plugin/skills/text-to-blender/assets/v0.7.0-bottle-validation/README.md",
+        "plugin/skills/text-to-blender/assets/v0.7.0-bottle-validation/bottle_FINAL_v0.7.0.webp",
+        "plugin/skills/text-to-blender/assets/v0.7.0-bottle-validation/bottle_first_try.webp",
+        "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/README.md",
+        "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_FINAL_v0.8.0.webp",
+        "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_attempt1_simple_rectangles.webp",
+        "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_attempt2_overcooked_wood.webp",
+        "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_attempt3_balanced_wood.webp",
+        "plugin/skills/text-to-blender/assets/v0.9.0-validation/01_bottle_glass_class_lighting.webp",
+        "plugin/skills/text-to-blender/assets/v0.9.0-validation/02_bottle_proper_wine_density.webp",
+        "plugin/skills/text-to-blender/assets/v0.9.0-validation/03_aviator_wireframe_to_3d.webp",
+        "plugin/skills/text-to-blender/assets/v0.9.0-validation/04_aviator_chained_upgrade.webp",
+        "plugin/skills/text-to-blender/assets/v0.9.0-validation/05_aviator_proper_rayban_dimensions.webp",
+        "plugin/skills/text-to-blender/assets/v1.1.0-validation/desk_lamp_emission.webp",
+        "plugin/skills/text-to-blender/assets/v1.2.0-validation/01_broadcaster_too_bright.webp",
+        "plugin/skills/text-to-blender/assets/v1.2.0-validation/02_broadcaster_neutral_dominates.webp",
+        "plugin/skills/text-to-blender/assets/v1.2.0-validation/03_broadcaster_synthwave_FINAL.webp",
+        "plugin/skills/text-to-blender/assets/v1.2.0-validation/04_broadcaster_with_features_still_not_human.webp",
+        "plugin/skills/text-to-blender/assets/v1.4.0-validation/README.md",
+        "plugin/skills/text-to-blender/assets/v1.4.0-validation/aviator.png",
+        "plugin/skills/text-to-blender/assets/v1.4.0-validation/bottle.png",
+        "plugin/skills/text-to-blender/assets/v1.4.0-validation/broadcaster_avatar.png",
+        "plugin/skills/text-to-blender/assets/v1.4.0-validation/chair.png",
+        "plugin/skills/text-to-blender/assets/v1.4.0-validation/desk_lamp.png",
+        "plugin/skills/text-to-blender/assets/v1.4.0-validation/sword.png",
+        "plugin/skills/text-to-blender/references/agent-hosts.md",
+        "plugin/skills/text-to-blender/references/assembly-order.md",
+        "plugin/skills/text-to-blender/references/blender-version-compat.md",
+        "plugin/skills/text-to-blender/references/common-object-dimensions.md",
+        "plugin/skills/text-to-blender/references/mcp-backends.md",
+        "plugin/skills/texture-driven-mesh-fitting/SKILL.md",
+        "plugin/skills/texture-driven-mesh-fitting/scripts/contour_correspondence_report.py",
+        "plugin/skills/texture-state-animation/SKILL.md",
+        "plugin/skills/texture-state-animation/scripts/texture_transition_plan.py",
+        "plugin/skills/wireframe-to-3d/SKILL.md",
+        "plugin/skills/wireframe-to-3d/references/algorithms.md",
+        "plugin/skills/wireframe-to-3d/references/best-practices.md",
+        "plugin/skills/wireframe-to-3d/references/blender-patterns.md",
+        "plugin/skills/wireframe-to-3d/scripts/wireframe_analyzer.py",
+        "requirements.txt"
+      ],
+      "links": [
+        {
+          "from": "plugin/skills/text-to-blender/SKILL.md",
+          "to": "plugin/skills/blender-animation/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/SKILL.md",
+          "to": "plugin/skills/blender-cameras/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/SKILL.md",
+          "to": "plugin/skills/blender-export/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/SKILL.md",
+          "to": "plugin/skills/blender-lighting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/SKILL.md",
+          "to": "plugin/skills/blender-materials/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/SKILL.md",
+          "to": "plugin/skills/blender-modeling/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/SKILL.md",
+          "to": "plugin/skills/blender-pro-workflow/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/SKILL.md",
+          "to": "plugin/skills/blender-rendering/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/SKILL.md",
+          "to": "plugin/skills/blender-skill-harmonizer/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/SKILL.md",
+          "to": "plugin/skills/quality-refinement-autoloop/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/assembly-order.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/common-object-dimensions.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/SKILL.md",
+          "to": "plugin/skills/wireframe-to-3d/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-animation/SKILL.md",
+          "to": "plugin/skills/blender-animation/references/overview.md"
+        },
+        {
+          "from": "plugin/skills/blender-animation/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-animation/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/blender-cameras/SKILL.md",
+          "to": "plugin/skills/blender-cameras/references/overview.md"
+        },
+        {
+          "from": "plugin/skills/blender-cameras/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-cameras/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/blender-export/SKILL.md",
+          "to": "plugin/skills/blender-export/references/overview.md"
+        },
+        {
+          "from": "plugin/skills/blender-export/SKILL.md",
+          "to": "plugin/skills/blender-export/references/unreal-export.md"
+        },
+        {
+          "from": "plugin/skills/blender-export/SKILL.md",
+          "to": "plugin/skills/blender-export/scripts/collision_preflight.py"
+        },
+        {
+          "from": "plugin/skills/blender-export/SKILL.md",
+          "to": "plugin/skills/blender-export/scripts/multires_bake_export.py"
+        },
+        {
+          "from": "plugin/skills/blender-export/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-export/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/blender-lighting/SKILL.md",
+          "to": "plugin/skills/blender-lighting/references/overview.md"
+        },
+        {
+          "from": "plugin/skills/blender-lighting/SKILL.md",
+          "to": "plugin/skills/blender-materials/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-lighting/SKILL.md",
+          "to": "plugin/skills/reference-look-calibration/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-lighting/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-lighting/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/blender-materials/SKILL.md",
+          "to": "plugin/skills/blender-lighting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-materials/SKILL.md",
+          "to": "plugin/skills/blender-materials/references/overview.md"
+        },
+        {
+          "from": "plugin/skills/blender-materials/SKILL.md",
+          "to": "plugin/skills/reference-look-calibration/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-materials/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-materials/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/blender-modeling/SKILL.md",
+          "to": "plugin/skills/blender-modeling/references/overview.md"
+        },
+        {
+          "from": "plugin/skills/blender-modeling/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-modeling/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/blender-modeling/SKILL.md",
+          "to": "plugin/skills/wireframe-to-3d/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-pro-workflow/SKILL.md",
+          "to": "plugin/skills/blender-pro-workflow/references/overview.md"
+        },
+        {
+          "from": "plugin/skills/blender-pro-workflow/SKILL.md",
+          "to": "plugin/skills/blender-skill-harmonizer/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-pro-workflow/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-pro-workflow/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/blender-rendering/SKILL.md",
+          "to": "plugin/skills/blender-rendering/references/overview.md"
+        },
+        {
+          "from": "plugin/skills/blender-rendering/SKILL.md",
+          "to": "plugin/skills/reference-look-calibration/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-rendering/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-rendering/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/animation-quality-gate/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/atlas-uv-fitting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/blender-animation/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/blender-cameras/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/blender-export/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/blender-lighting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/blender-materials/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/blender-modeling/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/blender-pro-workflow/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/blender-rendering/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/blender-skill-harmonizer/references/handoff-contracts.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/blender-skill-harmonizer/scripts/skill_graph_audit.py"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/blender-uv-texturing/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/closed-surface-uv-coverage/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/contour-to-mesh/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/fit-repair-optimizer/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/landmark-fit-repair/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/mascot-logo-reconstruction/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/multiview-constraint-solver/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/multiview-fit-loop/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/orbital-hud-motion/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/orthographic-registration/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/quality-refinement-autoloop/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/reference-analysis-validator/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/reference-look-calibration/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/reference-to-3d/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/source-part-segmentation/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/texture-driven-mesh-fitting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/texture-state-animation/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-skill-harmonizer/SKILL.md",
+          "to": "plugin/skills/wireframe-to-3d/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/quality-refinement-autoloop/SKILL.md",
+          "to": "plugin/skills/quality-refinement-autoloop/scripts/ralph_autoloop_plan.py"
+        },
+        {
+          "from": "plugin/skills/quality-refinement-autoloop/SKILL.md",
+          "to": "plugin/skills/quality-refinement-autoloop/scripts/release_readiness_check.py"
+        },
+        {
+          "from": "plugin/skills/quality-refinement-autoloop/SKILL.md",
+          "to": "plugin/skills/quality-refinement-autoloop/scripts/sanitize_skill_contributions.py"
+        },
+        {
+          "from": "plugin/skills/quality-refinement-autoloop/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/quality-refinement-autoloop/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/references/common-object-dimensions.md",
+          "to": "plugin/skills/text-to-blender/assets/v1.2.0-validation/04_broadcaster_with_features_still_not_human.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/references/mcp-backends.md",
+          "to": "plugin/skills/blender-cameras/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/references/mcp-backends.md",
+          "to": "plugin/skills/text-to-blender/references/agent-hosts.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/references/mcp-backends.md",
+          "to": "plugin/skills/text-to-blender/references/blender-version-compat.md"
+        },
+        {
+          "from": "plugin/skills/wireframe-to-3d/SKILL.md",
+          "to": "plugin/skills/blender-cameras/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/wireframe-to-3d/SKILL.md",
+          "to": "plugin/skills/blender-lighting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/wireframe-to-3d/SKILL.md",
+          "to": "plugin/skills/blender-materials/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/wireframe-to-3d/SKILL.md",
+          "to": "plugin/skills/blender-modeling/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/wireframe-to-3d/SKILL.md",
+          "to": "plugin/skills/blender-rendering/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/wireframe-to-3d/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/wireframe-to-3d/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/wireframe-to-3d/SKILL.md",
+          "to": "plugin/skills/wireframe-to-3d/references/algorithms.md"
+        },
+        {
+          "from": "plugin/skills/wireframe-to-3d/SKILL.md",
+          "to": "plugin/skills/wireframe-to-3d/references/best-practices.md"
+        },
+        {
+          "from": "plugin/skills/wireframe-to-3d/SKILL.md",
+          "to": "plugin/skills/wireframe-to-3d/references/blender-patterns.md"
+        },
+        {
+          "from": "plugin/skills/wireframe-to-3d/SKILL.md",
+          "to": "plugin/skills/wireframe-to-3d/scripts/wireframe_analyzer.py"
+        },
+        {
+          "from": "plugin/skills/reference-look-calibration/SKILL.md",
+          "to": "plugin/skills/reference-look-calibration/scripts/look_fit_report.py"
+        },
+        {
+          "from": "plugin/skills/reference-look-calibration/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/reference-look-calibration/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/animation-quality-gate/SKILL.md",
+          "to": "plugin/skills/animation-quality-gate/scripts/animation_contact_sheet.py"
+        },
+        {
+          "from": "plugin/skills/animation-quality-gate/SKILL.md",
+          "to": "plugin/skills/quality-refinement-autoloop/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/animation-quality-gate/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/animation-quality-gate/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/atlas-uv-fitting/SKILL.md",
+          "to": "plugin/skills/atlas-uv-fitting/scripts/atlas_region_detector.py"
+        },
+        {
+          "from": "plugin/skills/atlas-uv-fitting/SKILL.md",
+          "to": "plugin/skills/atlas-uv-fitting/scripts/atlas_region_mapper.py"
+        },
+        {
+          "from": "plugin/skills/atlas-uv-fitting/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/atlas-uv-fitting/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/blender-uv-texturing/SKILL.md",
+          "to": "plugin/skills/closed-surface-uv-coverage/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-uv-texturing/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/blender-uv-texturing/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/closed-surface-uv-coverage/SKILL.md",
+          "to": "plugin/skills/atlas-uv-fitting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/closed-surface-uv-coverage/SKILL.md",
+          "to": "plugin/skills/blender-uv-texturing/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/closed-surface-uv-coverage/SKILL.md",
+          "to": "plugin/skills/closed-surface-uv-coverage/scripts/surface_texture_coverage_audit.py"
+        },
+        {
+          "from": "plugin/skills/closed-surface-uv-coverage/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/closed-surface-uv-coverage/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/contour-to-mesh/SKILL.md",
+          "to": "plugin/skills/contour-to-mesh/scripts/mask_to_mesh_recipe.py"
+        },
+        {
+          "from": "plugin/skills/contour-to-mesh/SKILL.md",
+          "to": "plugin/skills/contour-to-mesh/scripts/source_locked_skin_recipe.py"
+        },
+        {
+          "from": "plugin/skills/contour-to-mesh/SKILL.md",
+          "to": "plugin/skills/source-part-segmentation/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/contour-to-mesh/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/contour-to-mesh/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/fit-repair-optimizer/SKILL.md",
+          "to": "plugin/skills/atlas-uv-fitting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/fit-repair-optimizer/SKILL.md",
+          "to": "plugin/skills/blender-lighting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/fit-repair-optimizer/SKILL.md",
+          "to": "plugin/skills/contour-to-mesh/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/fit-repair-optimizer/SKILL.md",
+          "to": "plugin/skills/multiview-constraint-solver/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/fit-repair-optimizer/SKILL.md",
+          "to": "plugin/skills/multiview-fit-loop/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/fit-repair-optimizer/SKILL.md",
+          "to": "plugin/skills/orthographic-registration/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/fit-repair-optimizer/SKILL.md",
+          "to": "plugin/skills/quality-refinement-autoloop/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/fit-repair-optimizer/SKILL.md",
+          "to": "plugin/skills/reference-analysis-validator/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/fit-repair-optimizer/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/fit-repair-optimizer/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/landmark-fit-repair/SKILL.md",
+          "to": "plugin/skills/landmark-fit-repair/scripts/landmark_fit_report.py"
+        },
+        {
+          "from": "plugin/skills/landmark-fit-repair/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/landmark-fit-repair/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/mascot-logo-reconstruction/SKILL.md",
+          "to": "plugin/skills/atlas-uv-fitting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/mascot-logo-reconstruction/SKILL.md",
+          "to": "plugin/skills/blender-animation/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/mascot-logo-reconstruction/SKILL.md",
+          "to": "plugin/skills/blender-export/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/mascot-logo-reconstruction/SKILL.md",
+          "to": "plugin/skills/blender-lighting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/mascot-logo-reconstruction/SKILL.md",
+          "to": "plugin/skills/blender-materials/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/mascot-logo-reconstruction/SKILL.md",
+          "to": "plugin/skills/blender-skill-harmonizer/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/mascot-logo-reconstruction/SKILL.md",
+          "to": "plugin/skills/contour-to-mesh/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/mascot-logo-reconstruction/SKILL.md",
+          "to": "plugin/skills/orthographic-registration/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/mascot-logo-reconstruction/SKILL.md",
+          "to": "plugin/skills/reference-analysis-validator/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/mascot-logo-reconstruction/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/mascot-logo-reconstruction/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/multiview-constraint-solver/SKILL.md",
+          "to": "plugin/skills/fit-repair-optimizer/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/multiview-constraint-solver/SKILL.md",
+          "to": "plugin/skills/multiview-constraint-solver/scripts/view_constraint_report.py"
+        },
+        {
+          "from": "plugin/skills/multiview-constraint-solver/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/multiview-constraint-solver/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/multiview-fit-loop/SKILL.md",
+          "to": "plugin/skills/multiview-fit-loop/scripts/multiview_fit_report.py"
+        },
+        {
+          "from": "plugin/skills/multiview-fit-loop/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/multiview-fit-loop/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/orbital-hud-motion/SKILL.md",
+          "to": "plugin/skills/orbital-hud-motion/scripts/orbit_layout_manifest.py"
+        },
+        {
+          "from": "plugin/skills/orbital-hud-motion/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/orbital-hud-motion/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/orthographic-registration/SKILL.md",
+          "to": "plugin/skills/orthographic-registration/scripts/register_views.py"
+        },
+        {
+          "from": "plugin/skills/orthographic-registration/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/orthographic-registration/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/reference-analysis-validator/SKILL.md",
+          "to": "plugin/skills/atlas-uv-fitting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/reference-analysis-validator/SKILL.md",
+          "to": "plugin/skills/contour-to-mesh/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/reference-analysis-validator/SKILL.md",
+          "to": "plugin/skills/mascot-logo-reconstruction/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/reference-analysis-validator/SKILL.md",
+          "to": "plugin/skills/orthographic-registration/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/reference-analysis-validator/SKILL.md",
+          "to": "plugin/skills/reference-analysis-validator/references/metrics-and-thresholds.md"
+        },
+        {
+          "from": "plugin/skills/reference-analysis-validator/SKILL.md",
+          "to": "plugin/skills/reference-analysis-validator/scripts/reference_manifest_compiler.py"
+        },
+        {
+          "from": "plugin/skills/reference-analysis-validator/SKILL.md",
+          "to": "plugin/skills/reference-analysis-validator/scripts/render_overlay_validator.py"
+        },
+        {
+          "from": "plugin/skills/reference-analysis-validator/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/reference-analysis-validator/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/reference-to-3d/SKILL.md",
+          "to": "plugin/skills/atlas-uv-fitting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/reference-to-3d/SKILL.md",
+          "to": "plugin/skills/blender-uv-texturing/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/reference-to-3d/SKILL.md",
+          "to": "plugin/skills/contour-to-mesh/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/reference-to-3d/SKILL.md",
+          "to": "plugin/skills/mascot-logo-reconstruction/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/reference-to-3d/SKILL.md",
+          "to": "plugin/skills/orthographic-registration/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/reference-to-3d/SKILL.md",
+          "to": "plugin/skills/reference-analysis-validator/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/reference-to-3d/SKILL.md",
+          "to": "plugin/skills/reference-to-3d/scripts/silhouette_validator.py"
+        },
+        {
+          "from": "plugin/skills/reference-to-3d/SKILL.md",
+          "to": "plugin/skills/reference-to-3d/scripts/template_analyzer.py"
+        },
+        {
+          "from": "plugin/skills/reference-to-3d/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/reference-to-3d/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/source-part-segmentation/SKILL.md",
+          "to": "plugin/skills/atlas-uv-fitting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/source-part-segmentation/SKILL.md",
+          "to": "plugin/skills/contour-to-mesh/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/source-part-segmentation/SKILL.md",
+          "to": "plugin/skills/landmark-fit-repair/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/source-part-segmentation/SKILL.md",
+          "to": "plugin/skills/source-part-segmentation/scripts/seeded_part_masks.py"
+        },
+        {
+          "from": "plugin/skills/source-part-segmentation/SKILL.md",
+          "to": "plugin/skills/source-part-segmentation/scripts/segment_source_parts.py"
+        },
+        {
+          "from": "plugin/skills/source-part-segmentation/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/source-part-segmentation/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/texture-driven-mesh-fitting/SKILL.md",
+          "to": "plugin/skills/atlas-uv-fitting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/texture-driven-mesh-fitting/SKILL.md",
+          "to": "plugin/skills/landmark-fit-repair/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/texture-driven-mesh-fitting/SKILL.md",
+          "to": "plugin/skills/multiview-constraint-solver/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/texture-driven-mesh-fitting/SKILL.md",
+          "to": "plugin/skills/source-part-segmentation/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/texture-driven-mesh-fitting/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/texture-driven-mesh-fitting/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/texture-driven-mesh-fitting/SKILL.md",
+          "to": "plugin/skills/texture-driven-mesh-fitting/scripts/contour_correspondence_report.py"
+        },
+        {
+          "from": "plugin/skills/texture-state-animation/SKILL.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/texture-state-animation/SKILL.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/texture-state-animation/SKILL.md",
+          "to": "plugin/skills/texture-state-animation/scripts/texture_transition_plan.py"
+        },
+        {
+          "from": "plugin/skills/quality-refinement-autoloop/scripts/release_readiness_check.py",
+          "to": "README.md"
+        },
+        {
+          "from": "plugin/skills/quality-refinement-autoloop/scripts/release_readiness_check.py",
+          "to": "plugin/README.md"
+        },
+        {
+          "from": "plugin/skills/quality-refinement-autoloop/scripts/release_readiness_check.py",
+          "to": "plugin/manifest.json"
+        },
+        {
+          "from": "plugin/skills/quality-refinement-autoloop/scripts/sanitize_skill_contributions.py",
+          "to": "plugin/skills/quality-refinement-autoloop/scripts/ralph_autoloop_plan.py"
+        },
+        {
+          "from": "plugin/skills/quality-refinement-autoloop/scripts/sanitize_skill_contributions.py",
+          "to": "plugin/skills/quality-refinement-autoloop/scripts/release_readiness_check.py"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/references/agent-hosts.md",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/references/agent-hosts.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/references/blender-version-compat.md",
+          "to": "plugin/skills/blender-animation/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/references/blender-version-compat.md",
+          "to": "plugin/skills/blender-materials/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/references/blender-version-compat.md",
+          "to": "plugin/skills/blender-rendering/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/reference-analysis-validator/scripts/reference_manifest_compiler.py",
+          "to": "plugin/skills/reference-analysis-validator/scripts/render_overlay_validator.py"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/animation-quality-gate/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/atlas-uv-fitting/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/blender-animation/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/blender-cameras/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/blender-export/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/blender-lighting/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/blender-materials/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/blender-modeling/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/blender-pro-workflow/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/blender-rendering/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/blender-skill-harmonizer/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/blender-uv-texturing/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/closed-surface-uv-coverage/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/contour-to-mesh/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/fit-repair-optimizer/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/landmark-fit-repair/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/mascot-logo-reconstruction/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/multiview-constraint-solver/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/multiview-fit-loop/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/orbital-hud-motion/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/orthographic-registration/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/quality-refinement-autoloop/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/reference-analysis-validator/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/reference-look-calibration/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/reference-to-3d/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/source-part-segmentation/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.4.0-validation/README.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.4.0-validation/test1-modeling-materials-lighting-render.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.4.0-validation/test2-glass-cycles.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.4.0-validation/test3-anim-frame001.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.4.0-validation/test3-anim-frame048.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.4.0-validation/test3-anim-frame096.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_FINAL_v0.6.0.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt1_broken_world.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt2_clean_world.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt3_aimed_lights.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt4_correct_dimensions_wrong_orientation.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt5_rotated_no_taper.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt6_with_pointed_tip.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/README.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.7.0-bottle-validation/README.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.7.0-bottle-validation/bottle_FINAL_v0.7.0.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.7.0-bottle-validation/bottle_first_try.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/README.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_FINAL_v0.8.0.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_attempt1_simple_rectangles.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_attempt2_overcooked_wood.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_attempt3_balanced_wood.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.9.0-validation/01_bottle_glass_class_lighting.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.9.0-validation/02_bottle_proper_wine_density.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.9.0-validation/03_aviator_wireframe_to_3d.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.9.0-validation/04_aviator_chained_upgrade.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.9.0-validation/05_aviator_proper_rayban_dimensions.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v1.1.0-validation/desk_lamp_emission.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v1.2.0-validation/01_broadcaster_too_bright.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v1.2.0-validation/02_broadcaster_neutral_dominates.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v1.2.0-validation/03_broadcaster_synthwave_FINAL.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v1.2.0-validation/04_broadcaster_with_features_still_not_human.webp"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v1.4.0-validation/README.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v1.4.0-validation/aviator.png"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v1.4.0-validation/bottle.png"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v1.4.0-validation/broadcaster_avatar.png"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v1.4.0-validation/chair.png"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v1.4.0-validation/desk_lamp.png"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v1.4.0-validation/sword.png"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/references/agent-hosts.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/text-to-blender/references/mcp-backends.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/texture-driven-mesh-fitting/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/texture-state-animation/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "plugin/skills/wireframe-to-3d/SKILL.md"
+        },
+        {
+          "from": "plugin/README.md",
+          "to": "requirements.txt"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/animation-quality-gate/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/atlas-uv-fitting/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/blender-animation/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/blender-cameras/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/blender-export/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/blender-lighting/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/blender-materials/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/blender-modeling/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/blender-pro-workflow/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/blender-rendering/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/blender-skill-harmonizer/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/blender-uv-texturing/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/closed-surface-uv-coverage/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/contour-to-mesh/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/fit-repair-optimizer/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/landmark-fit-repair/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/mascot-logo-reconstruction/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/multiview-constraint-solver/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/multiview-fit-loop/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/orbital-hud-motion/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/orthographic-registration/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/quality-refinement-autoloop/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/reference-analysis-validator/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/reference-look-calibration/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/reference-to-3d/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/source-part-segmentation/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/text-to-blender/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/texture-driven-mesh-fitting/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/texture-state-animation/SKILL.md"
+        },
+        {
+          "from": "plugin/manifest.json",
+          "to": "plugin/skills/wireframe-to-3d/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.4.0-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.4.0-validation/test1-modeling-materials-lighting-render.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.4.0-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.4.0-validation/test2-glass-cycles.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.4.0-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.4.0-validation/test3-anim-frame001.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.4.0-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.4.0-validation/test3-anim-frame048.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.4.0-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.4.0-validation/test3-anim-frame096.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/README.md",
+          "to": "plugin/skills/blender-cameras/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/README.md",
+          "to": "plugin/skills/blender-lighting/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/README.md",
+          "to": "plugin/skills/blender-modeling/SKILL.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_FINAL_v0.6.0.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt1_broken_world.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt2_clean_world.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt3_aimed_lights.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt4_correct_dimensions_wrong_orientation.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt5_rotated_no_taper.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt6_with_pointed_tip.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/README.md",
+          "to": "plugin/skills/text-to-blender/references/common-object-dimensions.md"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.7.0-bottle-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.7.0-bottle-validation/bottle_FINAL_v0.7.0.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.7.0-bottle-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.7.0-bottle-validation/bottle_first_try.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_FINAL_v0.8.0.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_attempt1_simple_rectangles.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_attempt2_overcooked_wood.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/README.md",
+          "to": "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_attempt3_balanced_wood.webp"
+        },
+        {
+          "from": "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/README.md",
+          "to": "plugin/skills/text-to-blender/references/common-object-dimensions.md"
+        }
+      ]
+    }
+  ]
+}

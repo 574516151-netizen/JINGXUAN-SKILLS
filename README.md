@@ -17,3 +17,8 @@ Cockpit 助手的在线资源目录，提供中文用途、完整安装使用说
 客户端每天检查一次，也可在 Skill 管理中手动检查更新。新版客户端会清除不符合门槛的旧目录记录，不影响个人资源。旧安装包不含此次缓存合并优化，更新应用后才完整应用该逻辑。
 
 发布前运行 node scripts/validate-catalog.cjs，同时验证新版和旧版目录。重新核对来源及预览清理用 node scripts/prune-skill-catalog.cjs，默认处理新版 skills-v2.json；追加 --legacy 处理旧版，追加 --apply 才写入对应目录及核对记录。新增配套或解析规则改变时，先在应用项目完成下载导出检查，再同步新版；两份目录都执行 5000 Star 门槛。维护仅处理公开目录，不访问用户个人数据。
+
+
+2026-10-14 新增独立[专项推荐目录](catalog/specialist-skills.json)，与两份严格精选源分开。首套 Blender 完整建模与渲染工作流提供 30 个配套 Skills、120 个必需文件及五类场景提示词，来源 Star 90。商品样例通过 Blender 5.2 MCP 分阶段执行、两视角渲染及工程/模型回读；自动发现、其他场景和版本未验证。参见[专项规则](SPECIALIST-POLICY.md)及[样例记录](https://github.com/574516151-netizen/QDZS/blob/main/docs/verification/blender-workflow/README.md)。既有 90 项严格精选仍全部 ≥5000 Star，49 项旧版兼容源保持；新客户端才显示专项入口。
+
+发布前另运行 `node scripts/validate-specialist-catalog.cjs` 和 `node tests/specialist-catalog.cjs`。专项文件、校验和缓存独立，主目录维护与清理不处理它；来源提交或入口哈希变化后不得沿用旧样例记录。
