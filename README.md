@@ -22,3 +22,11 @@ Cockpit 助手的在线资源目录，提供中文用途、完整安装使用说
 2026-10-14 新增独立[专项推荐目录](catalog/specialist-skills.json)，与两份严格精选源分开。首套 Blender 完整建模与渲染工作流提供 30 个配套 Skills、120 个必需文件及五类场景提示词，来源 Star 90。商品样例通过 Blender 5.2 MCP 分阶段执行、两视角渲染及工程/模型回读；自动发现、其他场景和版本未验证。参见[专项规则](SPECIALIST-POLICY.md)及[样例记录](https://github.com/574516151-netizen/QDZS/blob/main/docs/verification/blender-workflow/README.md)。既有 90 项严格精选仍全部 ≥5000 Star，49 项旧版兼容源保持；新客户端才显示专项入口。
 
 发布前另运行 `node scripts/validate-specialist-catalog.cjs` 和 `node tests/specialist-catalog.cjs`。专项文件、校验和缓存独立，主目录维护与清理不处理它；来源提交或入口哈希变化后不得沿用旧样例记录。
+
+## GitHub 热榜（独立于 Skill 精选）
+
+[每周榜单](catalog/github-hot.json)要求累计 Star **严格超过 100000**，排除归档和 Fork，每榜最多 100 项，不足展示实际数量。提供高星榜和七天增长榜。首次发布于 2026-10-16，高星榜 100 项，周榜 2 项；首期周增长来自 GitHub Trending 明示的 stars this week，不用总星数冒充周增长。
+
+后台每天北京时间 09:17 采集官方仓库快照，每周一发布新一期（GitHub 调度和网络可能延迟），保留最近 12 期。没有约七天前基线且未出现在官方周榜的项目暂不加入周榜。候选检索范围和增长来源写入数据，属于 Cockpit 整理榜，不声称是 GitHub 官方全球 Top100。
+
+公开快照和 README 摘录仅用于项目发现；客户端不需要个人 GitHub Token，不会自动安装或执行仓库内容。本模块不改动既有 Skill 精选目录或用户个人资源。数据采集脚本使用 GitHub Actions 仓库内置 Token，凭据不写入数据。可在 Actions 中手动运行采集；当天已有一期时不会重写榜单。发布前运行 `node scripts/validate-github-hot.cjs` 和 `node tests/github-hot-feed.cjs`。

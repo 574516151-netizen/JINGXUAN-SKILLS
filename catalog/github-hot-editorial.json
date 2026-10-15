@@ -1,0 +1,384 @@
+{
+  "codecrafters-io/build-your-own-x": {
+    "summary": "通过从零实现数据库、操作系统等技术，学习其工作原理。"
+  },
+  "sindresorhus/awesome": {
+    "summary": "按主题整理各领域的 Awesome 资源目录，适合查找工具与学习资料。"
+  },
+  "public-apis/public-apis": {
+    "summary": "按类别整理公开 API，便于为应用寻找可接入的数据和服务。"
+  },
+  "freecodecamp/freecodecamp": {
+    "summary": "提供编程、数学与计算机科学的免费课程和实践项目。"
+  },
+  "ebookfoundation/free-programming-books": {
+    "summary": "汇集多种语言的免费编程书籍和学习资料。"
+  },
+  "openclaw/openclaw": {
+    "summary": "可执行任务的个人 AI 助手项目，具体连接方式和能力以官方配置为准。"
+  },
+  "donnemartin/system-design-primer": {
+    "summary": "通过案例学习大规模系统设计，并准备系统设计面试。"
+  },
+  "nilbuild/developer-roadmap": {
+    "summary": "提供交互式开发者学习路线、指南和职业成长资料。"
+  },
+  "jwasham/coding-interview-university": {
+    "summary": "面向软件工程求职的计算机科学学习计划与练习清单。"
+  },
+  "vinta/awesome-python": {
+    "summary": "按用途查找 Python 框架、工具、库与开发资源。"
+  },
+  "awesome-selfhosted/awesome-selfhosted": {
+    "summary": "整理可以部署在自己服务器上的网络服务和网页应用。"
+  },
+  "obra/superpowers": {
+    "summary": "围绕智能体 Skills 组织软件开发流程与工程方法。",
+    "categories": [
+      "AI 与智能体",
+      "开发与编程"
+    ]
+  },
+  "mattpocock/skills": {
+    "summary": "面向软件工程实践的智能体 Skills 集合。",
+    "categories": [
+      "AI 与智能体",
+      "开发与编程"
+    ]
+  },
+  "practical-tutorials/project-based-learning": {
+    "summary": "通过实际项目学习编程，按语言和主题查找教程。"
+  },
+  "affaan-m/ecc": {
+    "summary": "面向编码智能体的 Skills、记忆、研究和工程流程配置集合。",
+    "categories": [
+      "AI 与智能体",
+      "开发与编程"
+    ]
+  },
+  "996icu/996.icu": {
+    "summary": "围绕开发者工作制度与权益讨论的社区资料项目。"
+  },
+  "morluto/rea": {
+    "summary": "借助智能体分析应用行为与原生二进制，辅助逆向理解软件。"
+  },
+  "nousresearch/hermes-agent": {
+    "summary": "可持续积累经验的 AI 智能体项目。"
+  },
+  "torvalds/linux": {
+    "summary": "Linux 内核源代码，面向系统开发、研究与贡献。"
+  },
+  "react/react": {
+    "summary": "用于构建网页和原生用户界面的组件库。"
+  },
+  "deepseek-ai/deepseek-harness": {
+    "summary": "以插件组织能力的智能体运行框架。"
+  },
+  "trimstray/the-book-of-secret-knowledge": {
+    "summary": "汇集命令速查、手册、技术文章和命令行及网页工具。"
+  },
+  "thealgorithms/python": {
+    "summary": "使用 Python 实现多种算法，便于阅读、学习和对照练习。"
+  },
+  "multica-ai/andrej-karpathy-skills": {
+    "summary": "围绕 AI 编程常见问题编写的 CLAUDE.md 行为指导文件。"
+  },
+  "anomalyco/opencode": {
+    "summary": "开源编码智能体，用自然语言辅助软件开发任务。"
+  },
+  "vuejs/vue": {
+    "summary": "Vue 2 框架源码；新项目选型需同时查看官方 Vue 3 仓库。"
+  },
+  "ossu/computer-science": {
+    "summary": "按课程组织的计算机科学自学路径。"
+  },
+  "n8n-io/n8n": {
+    "summary": "将可视化节点与代码结合，构建自动化及 AI 工作流。"
+  },
+  "digitalplatdev/freedomain": {
+    "summary": "提供域名注册相关服务信息与 DNS 学习资源。"
+  },
+  "tensorflow/tensorflow": {
+    "summary": "用于机器学习模型开发、训练与部署的框架。"
+  },
+  "yt-dlp/yt-dlp": {
+    "summary": "功能丰富的命令行音视频下载工具。"
+  },
+  "trekhleb/javascript-algorithms": {
+    "summary": "用 JavaScript 展示算法与数据结构，并附解释和延伸阅读。"
+  },
+  "ultraworkers/claw-code": {
+    "summary": "由智能体开发维护的 Rust 项目及相关实践展示。"
+  },
+  "massgravel/microsoft-activation-scripts": {
+    "summary": "Windows 与 Office 激活及故障排查脚本项目。"
+  },
+  "microsoft/vscode": {
+    "summary": "Visual Studio Code 编辑器源码及扩展开发相关资源。"
+  },
+  "firecrawl/firecrawl": {
+    "summary": "将网页内容转换为便于 AI 应用和智能体使用的数据。"
+  },
+  "microsoft/markitdown": {
+    "summary": "将办公文档等文件转换为 Markdown 的 Python 工具。"
+  },
+  "ohmyzsh/ohmyzsh": {
+    "summary": "管理 Zsh 配置的框架，提供插件、主题与更新机制。"
+  },
+  "avelino/awesome-go": {
+    "summary": "按用途整理 Go 框架、库与软件工具。"
+  },
+  "significant-gravitas/autogpt": {
+    "summary": "用于构建和运行自动化 AI 任务的开源项目。"
+  },
+  "jackfrued/python-100-days": {
+    "summary": "按学习阶段组织的中文 Python 入门与进阶教程。"
+  },
+  "cyc2018/cs-notes": {
+    "summary": "涵盖算法、系统、网络与数据库的技术面试笔记。"
+  },
+  "getify/you-dont-know-js": {
+    "summary": "深入讲解 JavaScript 语言机制的系列书籍。"
+  },
+  "ollama/ollama": {
+    "summary": "在本地运行和管理多种大语言模型，并通过接口接入应用。"
+  },
+  "521xueweihan/hellogithub": {
+    "summary": "以中文介绍 GitHub 上有趣且适合入门的开源项目。"
+  },
+  "anthropics/skills": {
+    "summary": "公开的 Agent Skills 示例与相关规范资料。",
+    "categories": [
+      "AI 与智能体",
+      "开发与编程"
+    ]
+  },
+  "flutter/flutter": {
+    "summary": "用于开发移动端及其他平台应用的 UI 工具包。"
+  },
+  "github/gitignore": {
+    "summary": "不同语言、框架和开发环境的 .gitignore 模板集合。"
+  },
+  "twbs/bootstrap": {
+    "summary": "用于构建响应式网页界面的 HTML、CSS 与 JavaScript 框架。"
+  },
+  "f/prompts.chat": {
+    "summary": "发现、分享和收藏社区提示词，也提供自托管方式。"
+  },
+  "huggingface/transformers": {
+    "summary": "面向文本、视觉、音频及多模态模型的推理与训练框架。"
+  },
+  "automatic1111/stable-diffusion-webui": {
+    "summary": "通过网页界面使用 Stable Diffusion 图像生成能力。"
+  },
+  "dietrichgebert/ponytail": {
+    "summary": "通过指导配置改进编码智能体的任务判断与实现方式。"
+  },
+  "jlevy/the-art-of-command-line": {
+    "summary": "集中介绍命令行技巧、常用工具和操作方法。"
+  },
+  "msitarzewski/agency-agents": {
+    "summary": "按专业角色组织的 AI 智能体说明与工作流程集合。"
+  },
+  "snailclimb/javaguide": {
+    "summary": "覆盖 Java、计算机基础及后端开发的中文面试与学习指南。"
+  },
+  "langgenius/dify": {
+    "summary": "通过协作工作区构建 AI 智能体、RAG 与应用工作流。"
+  },
+  "open-webui/open-webui": {
+    "summary": "可连接 Ollama 或兼容接口的 AI 对话网页界面。"
+  },
+  "langflow-ai/langflow": {
+    "summary": "用于构建与部署 AI 智能体及工作流的可视化工具。"
+  },
+  "genymobile/scrcpy": {
+    "summary": "在电脑上显示并控制 Android 设备。",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ]
+  },
+  "clash-verge-rev/clash-verge-rev": {
+    "summary": "基于 Tauri 的跨平台代理配置与连接管理客户端。"
+  },
+  "anthropics/claude-code": {
+    "summary": "在终端中辅助理解代码、实现任务和处理 Git 工作流的编码智能体。"
+  },
+  "airbnb/javascript": {
+    "summary": "JavaScript 编码风格指南及相关工程约定。"
+  },
+  "langchain-ai/langchain": {
+    "summary": "构建模型应用与智能体的开发框架及配套工具。"
+  },
+  "farion1231/cc-switch": {
+    "summary": "为多种 AI 编程客户端集中管理配置的桌面工具。",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ]
+  },
+  "x1xhlol/system-prompts-and-models-of-ai-tools": {
+    "summary": "收集多种 AI 工具的系统提示词与相关研究资料。"
+  },
+  "vercel/next.js": {
+    "summary": "基于 React 构建网页应用的框架。"
+  },
+  "yangshun/tech-interview-handbook": {
+    "summary": "为软件工程师整理编程面试准备材料。"
+  },
+  "shubhamsaboo/awesome-llm-apps": {
+    "summary": "按示例整理 AI 智能体、Skills、RAG 和大模型应用。"
+  },
+  "github/spec-kit": {
+    "summary": "通过规格说明组织软件开发任务的工具包。"
+  },
+  "ytdl-org/youtube-dl": {
+    "summary": "支持多个站点的命令行视频下载工具。"
+  },
+  "iptv-org/iptv": {
+    "summary": "按地区和语言整理公开可用的 IPTV 频道资源。"
+  },
+  "ripienaar/free-for-dev": {
+    "summary": "整理面向开发者的云服务、基础设施及免费额度信息。"
+  },
+  "microsoft/powertoys": {
+    "summary": "增强 Windows 操作效率和个性化体验的实用工具集合。",
+    "platforms": [
+      "Windows"
+    ]
+  },
+  "golang/go": {
+    "summary": "Go 编程语言、编译器及标准库的源代码。"
+  },
+  "comfy-org/comfyui": {
+    "summary": "通过节点工作流组织图像生成和相关模型推理任务。"
+  },
+  "garrytan/gstack": {
+    "summary": "围绕设计、工程、发布与 QA 组织的 Claude Code 工具与流程集合。",
+    "categories": [
+      "AI 与智能体",
+      "开发与编程"
+    ]
+  },
+  "nextlevelbuilder/ui-ux-pro-max-skill": {
+    "summary": "面向多平台界面设计与实现的 UI/UX 智能体 Skill。",
+    "categories": [
+      "设计与创意",
+      "AI 与智能体"
+    ],
+    "scenarios": [
+      "为 AI 生成界面提供设计指导",
+      "统一项目的组件与视觉风格"
+    ]
+  },
+  "labuladong/fucking-algorithm": {
+    "summary": "侧重解题思路与原理的中文算法学习资料。"
+  },
+  "excalidraw/excalidraw": {
+    "summary": "用手绘风格绘制流程图、架构图和视觉草图的白板工具。",
+    "categories": [
+      "设计与创意",
+      "效率与办公"
+    ],
+    "platforms": [
+      "网页"
+    ],
+    "scenarios": [
+      "绘制流程图和架构草图",
+      "协作整理界面或业务想法"
+    ],
+    "usage": "优先打开官方在线白板，直接绘制、输入文字并导出；需要定制时再参考源码开发说明。",
+    "quickStart": "1. 从项目官网进入白板。\n2. 放置图形、箭头和文字，完成一张小型流程图。\n3. 导出图片或保存源文件，重新打开检查内容。"
+  },
+  "harry0703/moneyprinterturbo": {
+    "summary": "根据主题或关键词，结合 AI 与自动化流程生成短视频。"
+  },
+  "ggml-org/llama.cpp": {
+    "summary": "用 C/C++ 实现大语言模型推理，并支持多种硬件后端。"
+  },
+  "krahets/hello-algo": {
+    "summary": "通过动画图解和多语言代码学习数据结构与算法。"
+  },
+  "openai/codex": {
+    "summary": "在终端中协助理解与修改项目代码的编码智能体。"
+  },
+  "chalarangelo/30-seconds-of-code": {
+    "summary": "以短篇文章和示例学习开发技巧。"
+  },
+  "kubernetes/kubernetes": {
+    "summary": "用于部署、调度与管理容器化应用的系统。"
+  },
+  "graphify-labs/graphify": {
+    "summary": "将代码、文档与相关文件组织为可查询的知识图谱。"
+  },
+  "react/react-native": {
+    "summary": "使用 React 构建原生应用的开发框架。"
+  },
+  "rustdesk/rustdesk": {
+    "summary": "支持自托管的开源远程桌面应用。",
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ]
+  },
+  "shadcn-ui/ui": {
+    "summary": "可复制、定制和组合的界面组件集合。"
+  },
+  "electron/electron": {
+    "summary": "使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用。"
+  },
+  "hack-with-github/awesome-hacking": {
+    "summary": "汇总安全研究、渗透测试与相关学习资源目录。"
+  },
+  "nodejs/node": {
+    "summary": "用于运行 JavaScript 程序和构建服务的运行时。"
+  },
+  "voltagent/awesome-design-md": {
+    "summary": "汇集基于品牌设计系统分析的 DESIGN.md，供编码智能体参考界面风格。",
+    "categories": [
+      "设计与创意",
+      "AI 与智能体"
+    ],
+    "scenarios": [
+      "为 AI 生成界面提供设计指导",
+      "统一项目的组件与视觉风格"
+    ]
+  },
+  "microsoft/generative-ai-for-beginners": {
+    "summary": "通过系列课程入门生成式 AI 应用开发。"
+  },
+  "rust-lang/rust": {
+    "summary": "Rust 编程语言及其编译器与工具链源码。"
+  },
+  "justjavac/free-programming-books-zh_cn": {
+    "summary": "整理免费的中文计算机与编程书籍。"
+  },
+  "godotengine/godot": {
+    "summary": "用于制作跨平台 2D 与 3D 游戏的开源引擎。",
+    "categories": [
+      "3D 与游戏",
+      "开发与编程"
+    ],
+    "platforms": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "scenarios": [
+      "制作 2D 或 3D 游戏",
+      "搭建可交互的三维场景"
+    ],
+    "usage": "按官方说明安装 Godot 编辑器，通过入门教程创建场景，再运行预览。",
+    "quickStart": "1. 从官方项目链接下载适合系统的编辑器。\n2. 按官方入门教程创建新项目和最小场景。\n3. 运行项目验证画面与交互，再按导出指南生成目标平台程序。"
+  },
+  "2dust/v2rayn": {
+    "summary": "支持多种内核的跨平台网络代理客户端。"
+  },
+  "browser-use/browser-use": {
+    "summary": "用 Python 构建 AI 浏览器智能体，也提供托管服务。"
+  }
+}

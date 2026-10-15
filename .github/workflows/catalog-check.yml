@@ -14,3 +14,6 @@ jobs:
       - run: node tests/catalog-feeds.cjs
       - run: node scripts/validate-specialist-catalog.cjs
       - run: node tests/specialist-catalog.cjs
+
+      - run: node scripts/validate-github-hot.cjs
+      - run: node tests/github-hot-feed.cjs

@@ -1,0 +1,57 @@
+const fs=require('node:fs/promises'),path=require('node:path'),https=require('node:https');
+const policy=require('../electron/engine/github-hot-policy');
+const DAY=86400000;
+function request(url,{token='',accept='application/vnd.github+json',maxBytes=4*1024*1024,redirects=3}={}){
+  const u=new URL(url);if(u.protocol!=='https:'||!['github.com','api.github.com','raw.githubusercontent.com'].includes(u.hostname)||u.username||u.password)throw Error('不支持的数据源地址');
+  return new Promise((resolve,reject)=>{const headers={'User-Agent':'Cockpit-GitHub-Hot','Accept':accept};if(token&&u.hostname==='api.github.com')headers.Authorization='Bearer '+token;
+    const req=https.get(u,{headers,timeout:20000},res=>{
+      if(res.statusCode>=300&&res.statusCode<400&&res.headers.location){res.resume();if(!redirects)return reject(Error('重定向过多'));return request(new URL(res.headers.location,u).href,{token,accept,maxBytes,redirects:redirects-1}).then(resolve,reject);}
+      if(res.statusCode!==200){res.resume();return reject(Error('GitHub 接口 HTTP '+res.statusCode));}
+      const chunks=[];let size=0;res.on('data',x=>{size+=x.length;if(size>maxBytes){req.destroy(Error('数据超出大小限制'));return;}chunks.push(x);});res.on('error',reject);res.on('end',()=>resolve(Buffer.concat(chunks)));
+    });req.on('error',reject);req.on('timeout',()=>req.destroy(Error('GitHub 请求超时')));
+  });
+}
+const decode=s=>s.replace(/&#x([a-f0-9]+);|&#(\d+);|&(amp|quot|lt|gt|apos);/gi,(_m,hex,num,named)=>hex||num?String.fromCodePoint(parseInt(hex||num,hex?16:10)):({amp:'&',quot:'"',lt:'<',gt:'>',apos:"'"}[named.toLowerCase()]));
+function parseTrending(html,now){
+  const articles=html.match(/<article\b[^>]*class="[^"]*Box-row[^"]*"[\s\S]*?<\/article>/g)||[];if(!articles.length)throw Error('GitHub Trending 页面结构变化');
+  const rows=[];for(const article of articles){const heading=article.match(/<h2\b[\s\S]*?<\/h2>/)?.[0]||'',id=heading.match(/href="\/([^"?#]+\/[^"?#]+)"/)?.[1],label=decode(article.replace(/<[^>]*>/g,' ')).replace(/\s+/g,' '),count=label.match(/([\d,]+)\s+stars this week/i)?.[1];if(id&&policy.repoPattern.test(id)&&count)rows.push({id:id.toLowerCase(),delta:Number(count.replace(/,/g,'')),metric:'github-trending',observedAt:now,periodStart:new Date(Date.parse(now)-7*DAY).toISOString(),periodEnd:now});}
+  if(!rows.length)throw Error('GitHub Trending 未提供可识别的周增长');return rows;
+}
+function plainReadme(value){return value.replace(/<script\b[\s\S]*?<\/script>/gi,'').replace(/<style\b[\s\S]*?<\/style>/gi,'').replace(/!\[[^\]]*\]\([^)]*\)/g,'').replace(/<[^>]+>/g,'').replace(/\r\n/g,'\n').slice(0,6000);}
+function categoryFor(repo){const s=(repo.full_name+' '+(repo.description||'')+' '+(repo.topics||[]).join(' ')).toLowerCase();const cats=[];
+ for(const [name,re]of [['3D 与游戏',/\b(blender|3d|game|godot|threejs|three\.js)\b/],['设计与创意',/design|drawing|canvas|ui-ux|illustration|figma|shadcn|bootstrap/],['图像、视频与音频',/video|audio|image|diffusion|comfyui|youtube|yt-dlp|iptv/],['学习与教程',/awesome|tutorial|learn|course|interview|roadmap|book|algorithm|beginners|cs-notes/],['AI 与智能体',/\b(ai|llm|agent|gpt|claude|codex|model|skills|ollama|transformers|tensorflow)\b/],['数据与知识管理',/database|knowledge|note-taking|rag|vector|search|markitdown|graphify/],['效率与办公',/productivity|automation|workflow|office|self-hosted|selfhosted|n8n/],['系统与实用工具',/linux|system|terminal|proxy|vpn|scrcpy|rustdesk|powertoys|zsh|activation|v2ray|free-for-dev|freedomain/]])if(re.test(s))cats.push(name);
+ return cats.length?cats.slice(0,3):['开发与编程'];}
+const guidance={
+ 'AI 与智能体':['AI 工具、智能体或相关资源项目','构建 AI 应用或智能体工作流','先查看官方 README 的安装与配置章节，再以最小示例验证输入和输出。','模型、API Key、运行资源及费用以官方文档为准。'],
+ '开发与编程':['编程开发工具、框架或工程项目','开发应用、搭建工程或学习实现方式','先确认项目支持的语言和运行环境，按官方快速开始创建最小示例。','需要的语言环境、依赖和版本以官方说明为准。'],
+ '设计与创意':['界面设计、组件或创意资源项目','制作界面、设计组件或整理视觉参考','先查看在线演示或 README 的使用示例，再选择需要的组件或设计资料。','浏览器、开发环境及资源授权以官方文档为准。'],
+ '图像、视频与音频':['图像、音视频工具或资源项目','处理图像、音频或视频内容','先查看官方安装方式，使用一个小样本验证支持的输入格式与输出效果。','模型、算力、文件格式和外部服务要求以官方说明为准。'],
+ '3D 与游戏':['三维制作、游戏引擎或相关开发项目','制作三维内容或交互游戏','先打开官方入门指南，完成最小场景并验证预览或构建输出。','图形硬件、编辑器和运行平台以官方说明为准。'],
+ '效率与办公':['效率应用、自动化或自托管资源项目','改进日常工作或组织自动化流程','先确认是在线服务还是本地部署，按 README 建立最小工作流再验证结果。','部署方式、账号与付费服务要求以官方说明为准。'],
+ '数据与知识管理':['数据处理、检索或知识组织项目','整理资料、构建检索或处理数据','先查看官方数据格式与使用示例，用小规模数据验证导入、查询和输出。','存储、服务及索引依赖以官方文档为准。'],
+ '系统与实用工具':['系统工具、实用软件或资源项目','管理系统环境或完成日常实用任务','先核对支持的操作系统和安装说明，使用官方示例确认功能。','系统版本、权限与依赖以官方文档为准。'],
+ '学习与教程':['学习教程、示例或资源目录','查找学习路径、教程和实践项目','先阅读 README 的目录和学习路径，再从适合当前基础的章节或示例开始。','部分关联资料可能需要外部网站或开发环境；逐项查看原始说明。']};
+function normalize(repo,editorial,readme,now){const custom=editorial[repo.full_name.toLowerCase()]||{},cats=custom.categories||categoryFor(repo),g=guidance[cats[0]],home=repo.homepage||'';let homepage='';try{homepage=policy.httpsUrl(home);}catch(_){}
+ return {id:repo.full_name.toLowerCase(),fullName:repo.full_name,url:'https://github.com/'+repo.full_name,homepage,stars:repo.stargazers_count,forks:repo.forks_count||0,archived:false,fork:false,description:(repo.description||'').slice(0,3000),summary:custom.summary||g[0]+'；具体能力见下方来源说明。',categories:cats,platforms:custom.platforms||['按官方说明'],scenarios:custom.scenarios||[g[1]],usage:custom.usage||g[2],requirements:custom.requirements||g[3],quickStart:custom.quickStart||'1. 打开官方 README，查看安装、快速开始或目录。\n2. 按项目说明准备环境或打开官方演示。\n3. 运行最小示例，对照官方示例检查输出。',readmeUrl:readme?.url||'https://github.com/'+repo.full_name+'#readme',readmeExcerpt:readme?.text||'',readmeFetchedAt:readme?.fetchedAt||null,language:repo.language||'未标注',license:repo.license?.spdx_id||'未标注',pushedAt:repo.pushed_at||now,checkedAt:now,topics:(repo.topics||[]).slice(0,50),editorialStatus:custom.summary?'中文导读':'分类导读'};}
+function metricFor(repo,snapshots,now,trending){const target=Date.parse(now)-7*DAY,candidates=snapshots.filter(s=>Math.abs(Date.parse(s.at)-target)<=3600000&&Number.isSafeInteger(s.stars[repo.id]));candidates.sort((a,b)=>Math.abs(Date.parse(a.at)-target)-Math.abs(Date.parse(b.at)-target));if(candidates.length)return {delta:Math.max(0,repo.stars-candidates[0].stars[repo.id]),metric:'snapshot',observedAt:now,periodStart:candidates[0].at,periodEnd:now};return trending.find(x=>x.id===repo.id)||null;}
+async function collect({directory,editorialFile,token='',publish=false,now=new Date().toISOString(),fetch=request}){
+ await fs.mkdir(directory,{recursive:true});const read=async(name,fallback)=>{try{return JSON.parse(await fs.readFile(path.join(directory,name),'utf8'));}catch(e){if(e.code==='ENOENT')return fallback;throw e;}};
+ const old=await read('github-hot.json',null),state=await read('github-hot-state.json',{snapshots:[],readmes:{}}),editorial=JSON.parse(await fs.readFile(editorialFile,'utf8'));if(old)policy.validateFeed(old);
+ const repos=[];let total=0;for(let page=1;page<=10;page++){const data=JSON.parse((await fetch('https://api.github.com/search/repositories?q='+encodeURIComponent('stars:>100000 archived:false fork:false')+'&sort=stars&order=desc&per_page=100&page='+page,{token})).toString());if(data.incomplete_results||!Array.isArray(data.items)||!Number.isInteger(data.total_count))throw Error('GitHub 搜索结果不完整，保留原榜单');total=data.total_count;if(total>1000)throw Error('候选超过搜索上限，需要拆分查询后才能发布');repos.push(...data.items);if(repos.length>=total)break;}
+ const eligible=[...new Map(repos.filter(r=>r.stargazers_count>policy.THRESHOLD&&!r.archived&&!r.fork&&!r.disabled).map(r=>[r.full_name.toLowerCase(),r])).values()];if(repos.length<total)throw Error('候选采集不完整');
+ let trending=[],trendingError='';try{trending=parseTrending((await fetch('https://github.com/trending?since=weekly',{accept:'text/html'})).toString(),now);}catch(_){trendingError='GitHub 周榜暂不可用；只使用已积累的七天快照';}
+ const snapshots=state.snapshots.filter(s=>Date.parse(now)-Date.parse(s.at)<45*DAY&&Date.parse(s.at)<Date.parse(now)-12*3600000);snapshots.push({at:now,stars:Object.fromEntries(eligible.map(r=>[r.full_name.toLowerCase(),r.stargazers_count]))});
+ const beijing=new Date(Date.parse(now)+8*3600000),editionId=beijing.toISOString().slice(0,10),monday=beijing.getUTCDay()===1;
+ if(!publish&&old&&!monday){await atomic(path.join(directory,'github-hot-state.json'),{snapshots,readmes:state.readmes});return {published:false,candidates:eligible.length};}
+ // Do not publish a different ranking into an already published edition.
+ if(old?.editions[0]?.id===editionId){await atomic(path.join(directory,'github-hot-state.json'),{snapshots,readmes:state.readmes});return {published:false,candidates:eligible.length};}
+ let index=0,readmeFailures=0;const readmes={};await Promise.all(Array.from({length:4},async()=>{for(;;){const r=eligible[index++];if(!r)break;const id=r.full_name.toLowerCase(),cached=state.readmes[id];if(cached&&Date.parse(now)-Date.parse(cached.fetchedAt)<7*DAY){readmes[id]=cached;continue;}try{const data=JSON.parse((await fetch('https://api.github.com/repos/'+r.full_name+'/readme',{token,maxBytes:1024*1024})).toString());if(data.encoding!=='base64'||typeof data.content!=='string')throw Error();readmes[id]={text:plainReadme(Buffer.from(data.content,'base64').toString('utf8')),url:data.html_url||'https://github.com/'+r.full_name+'#readme',fetchedAt:now};}catch(_){readmeFailures++;if(cached)readmes[id]=cached;}}}));
+ const items=eligible.map(r=>normalize(r,editorial,readmes[r.full_name.toLowerCase()],now)),metrics=new Map(items.map(r=>[r.id,metricFor(r,snapshots,now,trending)])),previous=old?.editions[0];
+ const stars=policy.boardRows([...items].sort((a,b)=>b.stars-a.stars||a.id.localeCompare(b.id)),previous?.boards.stars),weeklyItems=items.filter(r=>metrics.get(r.id)).sort((a,b)=>metrics.get(b.id).delta-metrics.get(a.id).delta||b.stars-a.stars||a.id.localeCompare(b.id)),weekly=policy.boardRows(weeklyItems,previous?.boards.weekly,r=>metrics.get(r.id));
+ const used=new Set([...stars,...weekly].map(r=>r.id)),edition={id:editionId,publishedAt:now,windowStart:new Date(Date.parse(now)-7*DAY).toISOString(),windowEnd:now,candidateCount:items.length,coverage:'GitHub 搜索中 Star > 100000、非 Fork、未归档的公开仓库。每榜最多 100 项；周热榜只包含可验证七天增长的项目，不代表 GitHub 官方全球 Top100。',weeklyNote:'周增长优先使用两次 Star 快照净变化；尚无七天快照时采用 GitHub 周榜页面的 stars this week。'+(trendingError?' '+trendingError:'')+(readmeFailures?' 部分 README 暂不可用，保留原文入口。':''),items:items.filter(r=>used.has(r.id)),boards:{stars,weekly}};
+ const feed={schemaVersion:1,thresholdExclusive:policy.THRESHOLD,maxItems:policy.MAX,generatedAt:now,editions:[edition,...(old?.editions||[])].slice(0,12)};policy.validateFeed(feed);
+ await atomic(path.join(directory,'github-hot-state.json'),{snapshots,readmes});await atomic(path.join(directory,'github-hot.json'),feed);return {published:true,candidates:items.length,stars:stars.length,weekly:weekly.length,readmeFailures};
+}
+async function atomic(file,value){const pending=file+'.tmp';await fs.writeFile(pending,JSON.stringify(value,null,2)+'\n');await fs.rename(pending,file);}
+module.exports={collect,parseTrending,metricFor,normalize,categoryFor,request,plainReadme};
+if(require.main===module){const args=process.argv.slice(2),value=key=>args[args.indexOf(key)+1];collect({directory:path.resolve(args.includes('--directory')?value('--directory'):'catalog/github-hot-data'),editorialFile:path.resolve(args.includes('--editorial')?value('--editorial'):'catalog/github-hot-editorial.json'),token:process.env.GITHUB_TOKEN||'',publish:args.includes('--publish')}).then(result=>console.log(JSON.stringify(result))).catch(error=>{console.error(error.message);process.exitCode=1;});}
