@@ -1,13 +1,13 @@
-const THRESHOLD=100000,MAX=300;
+const THRESHOLD=50000,MAX=300;
 const categories=['AI 与智能体','开发与编程','设计与创意','图像、视频与音频','3D 与游戏','效率与办公','数据与知识管理','系统与实用工具','学习与教程'];
 const repoPattern=/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/;
 function check(value,message){if(!value)throw Error('GitHub 热榜数据无效：'+message);}
 function text(value,max=1000){check(typeof value==='string'&&value.length<=max,'文本');return value;}
 function date(value){check(typeof value==='string'&&Number.isFinite(Date.parse(value)),'时间');return value;}
 function httpsUrl(value){if(value==='')return '';let url;try{url=new URL(value);}catch(_){throw Error('GitHub 热榜地址无效');}check(url.protocol==='https:'&&!url.username&&!url.password,'仅允许 HTTPS 链接');return url.href;}
-function validateRepo(r){
+function validateRepo(r,threshold=THRESHOLD){
   check(r&&typeof r.fullName==='string'&&repoPattern.test(r.id)&&r.id===r.fullName.toLowerCase(),'项目标识');
-  check(Number.isSafeInteger(r.stars)&&r.stars>THRESHOLD,'Star 必须严格超过 100000');
+  check(Number.isSafeInteger(r.stars)&&r.stars>threshold,'Star 必须严格超过 '+threshold);
   check(Number.isSafeInteger(r.forks)&&r.forks>=0,'Fork 数量');
   check(r.archived===false&&r.fork===false,'归档或派生仓库');
   check(r.url==='https://github.com/'+r.fullName,'仓库地址');httpsUrl(r.homepage);httpsUrl(r.readmeUrl);
@@ -20,10 +20,11 @@ function validateRepo(r){
   check(Array.isArray(r.topics)&&r.topics.length<=50&&r.topics.every(x=>typeof x==='string'&&x.length<=100),'主题');
   return r;
 }
-function validateEdition(e,maxItems=MAX){
-  check(e&&/^\d{4}-\d{2}-\d{2}$/.test(e.id),'期号');date(e.publishedAt);date(e.windowStart);date(e.windowEnd);
+function validateEdition(e,maxItems=MAX,threshold=THRESHOLD){
+  check(e&&/^\d{4}-\d{2}-\d{2}(?:-r(?:[2-9]|[1-9]\d+))?$/.test(e.id),'期号');date(e.publishedAt);date(e.windowStart);date(e.windowEnd);
+  const editionThreshold=e.thresholdExclusive??threshold;check([50000,100000].includes(editionThreshold),'历史门槛');
   check(Date.parse(e.windowEnd)>Date.parse(e.windowStart)&&Date.parse(e.windowEnd)-Date.parse(e.windowStart)===7*86400000,'统计窗口');
-  check(Array.isArray(e.items)&&e.items.length<=1000,'项目数量');const ids=new Set();for(const r of e.items){validateRepo(r);check(!ids.has(r.id),'项目重复');ids.add(r.id);}
+  check(Array.isArray(e.items)&&e.items.length<=1000,'项目数量');const ids=new Set();for(const r of e.items){validateRepo(r,Math.max(threshold,editionThreshold));check(!ids.has(r.id),'项目重复');ids.add(r.id);}
   check(e.boards&&Array.isArray(e.boards.stars)&&Array.isArray(e.boards.weekly),'榜单');
   const map=new Map(e.items.map(r=>[r.id,r]));
   for(const kind of ['stars','weekly']){
@@ -41,6 +42,6 @@ function validateEdition(e,maxItems=MAX){
   }
   check(Number.isInteger(e.candidateCount)&&e.candidateCount>=e.items.length,'候选数量');text(e.coverage,2000);text(e.weeklyNote,1200);return e;
 }
-function validateFeed(feed){check(feed?.schemaVersion===1&&feed.thresholdExclusive===THRESHOLD&&[100,MAX].includes(feed.maxItems),'规则版本');date(feed.generatedAt);check(Array.isArray(feed.editions)&&feed.editions.length>0&&feed.editions.length<=12,'最近 12 期');let previous=Infinity;const seen=new Set();for(const e of feed.editions){validateEdition(e,feed.maxItems);check(!seen.has(e.id)&&Date.parse(e.publishedAt)<=previous,'期号重复或顺序');previous=Date.parse(e.publishedAt);seen.add(e.id);}return feed;}
+function validateFeed(feed){check(feed?.schemaVersion===1&&[THRESHOLD,100000].includes(feed.thresholdExclusive)&&[100,MAX].includes(feed.maxItems),'规则版本');date(feed.generatedAt);check(Array.isArray(feed.editions)&&feed.editions.length>0&&feed.editions.length<=12,'最近 12 期');let previous=Infinity;const seen=new Set();for(const e of feed.editions){validateEdition(e,feed.maxItems,feed.thresholdExclusive);check(!seen.has(e.id)&&Date.parse(e.publishedAt)<=previous,'期号重复或顺序');previous=Date.parse(e.publishedAt);seen.add(e.id);}return feed;}
 function boardRows(items,previous=[],metric=null){const prior=new Map(previous.map(x=>[x.id,x]));return items.slice(0,MAX).map((r,i)=>{const old=prior.get(r.id);return {id:r.id,rank:i+1,change:old?old.rank-(i+1):null,streak:old?(old.streak||1)+1:1,...(metric?metric(r):{})};});}
 module.exports={THRESHOLD,MAX,categories,repoPattern,validateRepo,validateEdition,validateFeed,boardRows,httpsUrl};
