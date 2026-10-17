@@ -1,4 +1,4 @@
-const THRESHOLD=100000,MAX=100;
+const THRESHOLD=100000,MAX=300;
 const categories=['AI 与智能体','开发与编程','设计与创意','图像、视频与音频','3D 与游戏','效率与办公','数据与知识管理','系统与实用工具','学习与教程'];
 const repoPattern=/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/;
 function check(value,message){if(!value)throw Error('GitHub 热榜数据无效：'+message);}
@@ -20,14 +20,14 @@ function validateRepo(r){
   check(Array.isArray(r.topics)&&r.topics.length<=50&&r.topics.every(x=>typeof x==='string'&&x.length<=100),'主题');
   return r;
 }
-function validateEdition(e){
+function validateEdition(e,maxItems=MAX){
   check(e&&/^\d{4}-\d{2}-\d{2}$/.test(e.id),'期号');date(e.publishedAt);date(e.windowStart);date(e.windowEnd);
   check(Date.parse(e.windowEnd)>Date.parse(e.windowStart)&&Date.parse(e.windowEnd)-Date.parse(e.windowStart)===7*86400000,'统计窗口');
   check(Array.isArray(e.items)&&e.items.length<=1000,'项目数量');const ids=new Set();for(const r of e.items){validateRepo(r);check(!ids.has(r.id),'项目重复');ids.add(r.id);}
   check(e.boards&&Array.isArray(e.boards.stars)&&Array.isArray(e.boards.weekly),'榜单');
   const map=new Map(e.items.map(r=>[r.id,r]));
   for(const kind of ['stars','weekly']){
-    const rows=e.boards[kind];check(rows.length<=MAX,'每榜最多 100 项');const seen=new Set();let previous=Infinity;
+    const rows=e.boards[kind];check(rows.length<=maxItems,'每榜最多 '+maxItems+' 项');const seen=new Set();let previous=Infinity;
     for(const [i,row] of rows.entries()){
       check(map.has(row.id)&&!seen.has(row.id)&&row.rank===i+1,'排名或引用');seen.add(row.id);
       check(Number.isInteger(row.streak)&&row.streak>=1&&row.streak<=10000,'连续入榜');check(row.change===null||Number.isInteger(row.change),'排名变化');
@@ -41,6 +41,6 @@ function validateEdition(e){
   }
   check(Number.isInteger(e.candidateCount)&&e.candidateCount>=e.items.length,'候选数量');text(e.coverage,2000);text(e.weeklyNote,1200);return e;
 }
-function validateFeed(feed){check(feed?.schemaVersion===1&&feed.thresholdExclusive===THRESHOLD&&feed.maxItems===MAX,'规则版本');date(feed.generatedAt);check(Array.isArray(feed.editions)&&feed.editions.length>0&&feed.editions.length<=12,'最近 12 期');let previous=Infinity;const seen=new Set();for(const e of feed.editions){validateEdition(e);check(!seen.has(e.id)&&Date.parse(e.publishedAt)<=previous,'期号重复或顺序');previous=Date.parse(e.publishedAt);seen.add(e.id);}return feed;}
+function validateFeed(feed){check(feed?.schemaVersion===1&&feed.thresholdExclusive===THRESHOLD&&[100,MAX].includes(feed.maxItems),'规则版本');date(feed.generatedAt);check(Array.isArray(feed.editions)&&feed.editions.length>0&&feed.editions.length<=12,'最近 12 期');let previous=Infinity;const seen=new Set();for(const e of feed.editions){validateEdition(e,feed.maxItems);check(!seen.has(e.id)&&Date.parse(e.publishedAt)<=previous,'期号重复或顺序');previous=Date.parse(e.publishedAt);seen.add(e.id);}return feed;}
 function boardRows(items,previous=[],metric=null){const prior=new Map(previous.map(x=>[x.id,x]));return items.slice(0,MAX).map((r,i)=>{const old=prior.get(r.id);return {id:r.id,rank:i+1,change:old?old.rank-(i+1):null,streak:old?(old.streak||1)+1:1,...(metric?metric(r):{})};});}
 module.exports={THRESHOLD,MAX,categories,repoPattern,validateRepo,validateEdition,validateFeed,boardRows,httpsUrl};
