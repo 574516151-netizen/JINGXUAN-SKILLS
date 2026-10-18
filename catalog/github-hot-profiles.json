@@ -1,0 +1,1512 @@
+{
+  "codecrafters-io/build-your-own-x": {
+    "kind": "learn",
+    "summary": "把数据库、操作系统、搜索引擎等技术拆成从零实现的教程，通过自己动手编写简化版本理解原理。它是学习目录，不是一款直接安装的开发工具。",
+    "example": "想弄懂数据库怎样存储与查询数据，可选择一个数据库实现教程逐步实践。"
+  },
+  "sindresorhus/awesome": {
+    "kind": "list",
+    "summary": "各类优质资源清单的总入口，按开发、设计、科学等主题链接到细分目录，用来发现工具、教程与资料。",
+    "example": "准备学习一个新领域时，先找到该领域的目录，再比较其中的工具和入门资料。"
+  },
+  "public-apis/public-apis": {
+    "kind": "list",
+    "summary": "按用途整理公开API，帮助开发者寻找天气、地图、内容等应用所需的数据服务；目录中的每个服务有独立的接入条件。",
+    "example": "做天气小应用时，查找天气API，再核对认证、额度和返回数据格式。"
+  },
+  "freecodecamp/freecodecamp": {
+    "kind": "learn",
+    "summary": "freeCodeCamp的课程与平台代码仓库，提供编程、数学和计算机科学的课程及练习项目。学习者可使用课程，开发者可研究教学平台实现。",
+    "example": "从网页基础课程开始，完成一个页面练习并对照课程要求检查结果。"
+  },
+  "ebookfoundation/free-programming-books": {
+    "kind": "list",
+    "summary": "按语言和主题收集编程书籍、课程及学习资料的索引，适合系统学习或查找某项技术的参考书。",
+    "example": "按Python和中文等条件选择资料，再到对应原始页面阅读。"
+  },
+  "openclaw/openclaw": {
+    "kind": "agent",
+    "summary": "可部署在自己设备上的AI助手，通过已配置的聊天渠道接收任务，连接模型、工具和记忆。需要配置运行环境、模型及渠道，不能只收藏仓库就直接执行任务。",
+    "example": "在自己常用聊天渠道提出资料整理任务，让已配置的助手调用相应工具处理。"
+  },
+  "donnemartin/system-design-primer": {
+    "kind": "learn",
+    "summary": "以案例、知识点和练习讲解大规模系统设计，涵盖容量、缓存、数据库与服务架构等问题，主要面向系统设计学习和面试准备。",
+    "example": "练习设计短链接服务，比较缓存、存储和扩展方案的取舍。"
+  },
+  "nilbuild/developer-roadmap": {
+    "kind": "learn",
+    "summary": "提供开发者学习路线、指南和相关知识组织，帮助确定某个技术方向需要掌握什么以及学习顺序。",
+    "example": "想转向前端开发，按路线梳理HTML、JavaScript、框架和工程化的学习顺序。"
+  },
+  "jwasham/coding-interview-university": {
+    "kind": "learn",
+    "summary": "面向软件工程岗位准备的计算机科学学习计划，整理数据结构、算法、系统基础及面试练习资料。",
+    "example": "按计划复习数据结构，并通过对应练习检查知识掌握情况。"
+  },
+  "vinta/awesome-python": {
+    "kind": "list",
+    "summary": "按任务整理Python框架、库和软件，帮助回答某种Python工作应该选择什么工具。",
+    "example": "需要解析PDF或搭建网页服务时，在相应分类中比较候选库。"
+  },
+  "awesome-selfhosted/awesome-selfhosted": {
+    "kind": "list",
+    "summary": "收集可在自有服务器部署的网络服务和网页应用，覆盖笔记、文件管理、协作等场景；每项软件需要单独部署与维护。",
+    "example": "寻找自托管照片管理或团队笔记工具，比较项目的部署方法和维护成本。"
+  },
+  "obra/superpowers": {
+    "kind": "skill",
+    "summary": "给AI编程助手使用的一组技能与开发方法，将需求讨论、规划、实现和验证组织为较有步骤的工作方式。它是助手配套资源，不是独立IDE。",
+    "example": "让支持该技能的编程助手先澄清需求和写计划，再逐项实现并验证。"
+  },
+  "mattpocock/skills": {
+    "kind": "skill",
+    "summary": "收集工程开发场景的Agent Skills，将作者常用的工程做法提供给支持技能的AI助手复用。",
+    "example": "选择与当前代码任务相关的技能，安装到对应助手后用小任务检查是否按预期执行。"
+  },
+  "morluto/rea": {
+    "kind": "agent",
+    "summary": "面向逆向分析的智能体工具，将应用行为、二进制文件和运行时观察连接起来，帮助研究程序的实际工作机制。",
+    "example": "在有权分析的测试程序中，追踪某个功能从界面到内部逻辑的实现。"
+  },
+  "practical-tutorials/project-based-learning": {
+    "kind": "learn",
+    "summary": "通过完整项目学习编程的教程目录，按语言和项目类型组织，适合不想只学零散语法的学习者。",
+    "example": "选一个聊天或网页应用教程，从搭建到完成可运行项目逐步练习。"
+  },
+  "affaan-m/ecc": {
+    "kind": "skill",
+    "summary": "面向AI编程助手的技能、记忆、研究和安全等配套配置，侧重改进工程任务中的上下文与执行方式。",
+    "example": "为已有编程助手选择适用配置，用一次小型代码修改检查研究和验证流程。"
+  },
+  "996icu/996.icu": {
+    "kind": "community",
+    "summary": "围绕996工作制与开发者劳动议题形成的社区讨论和资料仓库，适合了解相关讨论背景，不是用于开发或自动化的工具。",
+    "example": "阅读仓库资料和讨论，了解开发者对工作制度的关注点。"
+  },
+  "nousresearch/hermes-agent": {
+    "kind": "agent",
+    "summary": "可持续使用并积累任务经验的AI智能体项目，通过模型与工具执行工作，需要先配置其运行与访问条件。",
+    "example": "把重复出现的资料处理任务交给已配置的助手，检查它保存和复用上下文的方式。"
+  },
+  "torvalds/linux": {
+    "kind": "source",
+    "summary": "Linux操作系统内核的源代码，涉及进程、内存、驱动和文件系统等基础机制，主要用于系统开发和研究。",
+    "example": "学习驱动或进程调度实现时，阅读相应子系统代码并在隔离环境中构建实验。"
+  },
+  "deepseek-ai/deepseek-harness": {
+    "kind": "agent",
+    "summary": "采用插件架构的Agent运行框架，可通过本地Web界面组织模型和工具。来源标注为开发者预览，接口可能有不兼容变化。",
+    "example": "先启动官方最小示例，理解插件和工具怎样接入，再尝试一个有限范围的任务。"
+  },
+  "react/react": {
+    "kind": "lib",
+    "summary": "用于构建网页和原生界面的JavaScript库，以可复用组件组织交互UI。需要编写代码，不能替代设计工具直接产出设计稿。",
+    "example": "把后台中的搜索框、资源卡片和详情面板拆成React组件并管理交互状态。"
+  },
+  "trimstray/the-book-of-secret-knowledge": {
+    "kind": "list",
+    "summary": "汇集命令行、系统管理、网络与开发相关的清单、手册、速查表和工具，便于解决问题时查参考。",
+    "example": "排查服务器或命令行问题时，按主题找到速查资料和对应工具。"
+  },
+  "thealgorithms/python": {
+    "kind": "learn",
+    "summary": "使用Python实现常见算法的代码集合，适合对照代码学习算法步骤和数据结构。",
+    "example": "阅读一种排序算法的实现，运行测试数据比较执行过程和结果。"
+  },
+  "multica-ai/andrej-karpathy-skills": {
+    "kind": "skill",
+    "summary": "用一份CLAUDE.md规则总结对AI编程常见问题的改进建议，让助手更注重思考、简化和验证。",
+    "example": "在测试项目中加入规则，再让助手完成一个边界清晰的小修改并对比行为。"
+  },
+  "anomalyco/opencode": {
+    "kind": "agent",
+    "summary": "开源AI编程助手，用于在代码仓库中理解需求、修改代码和执行开发相关任务，需要配置可用模型与环境。",
+    "example": "在现有项目中定位一个小缺陷，查看修改差异后运行相关检查。"
+  },
+  "vuejs/vue": {
+    "kind": "lib",
+    "summary": "Vue 2的源代码仓库，用组件和响应式数据构建网页界面；来源明确指向Vue 3的独立仓库，新项目要先核对所用版本。",
+    "example": "维护已有Vue 2后台页面时，查阅对应版本的组件和响应式机制。"
+  },
+  "ossu/computer-science": {
+    "kind": "learn",
+    "summary": "按计算机科学课程体系组织的自学路径，覆盖编程、数学、系统和理论等内容，帮助建立长期学习计划。",
+    "example": "根据自己的基础选择课程，安排学习与项目练习，而不是只看零散教程。"
+  },
+  "n8n-io/n8n": {
+    "kind": "self",
+    "summary": "用可视化节点连接应用、数据和AI能力的自动化平台，可把多个有接口的处理步骤组成可重复运行的流程。",
+    "example": "把表单提交连接到数据整理和通知动作，先用测试数据验证各节点。"
+  },
+  "digitalplatdev/freedomain": {
+    "kind": "self",
+    "summary": "围绕域名注册与DNS实践的项目和资源，帮助了解域名申请及解析配置；实际域名资格和使用规则以服务说明为准。",
+    "example": "给个人测试站点了解域名申请流程，再按教程配置DNS解析。"
+  },
+  "tensorflow/tensorflow": {
+    "kind": "framework",
+    "summary": "用于训练和运行机器学习模型的开源框架，提供张量计算、自动求导与模型构建等能力，主要面向机器学习开发。",
+    "example": "按官方例子训练一个小型分类模型，观察输入、训练过程与预测输出。"
+  },
+  "yt-dlp/yt-dlp": {
+    "kind": "cli",
+    "summary": "在命令行中下载音视频及处理相关媒体信息的工具，支持能力取决于来源站点和当前版本，适合批量或脚本化处理。",
+    "example": "对有权下载的媒体链接查看格式信息，选择需要的音视频输出。"
+  },
+  "trekhleb/javascript-algorithms": {
+    "kind": "learn",
+    "summary": "用JavaScript实现并解释算法与数据结构的学习仓库，配有说明和延伸阅读。",
+    "example": "对照二叉树或图算法的代码与解释，运行例子理解数据处理过程。"
+  },
+  "ultraworkers/claw-code": {
+    "kind": "research",
+    "summary": "由智能体维护的Rust实验性代码展品；README明确强调它更接近展示与研究案例，而不是严肃生产产品。",
+    "example": "研究智能体自动维护仓库的方式，阅读代码和相关真实项目入口。"
+  },
+  "massgravel/microsoft-activation-scripts": {
+    "kind": "cli",
+    "summary": "围绕Windows和Office激活及相关故障排查的脚本项目，不是通用系统优化器；运行前需要理解授权与系统变更影响。",
+    "example": "研究来源文档中的激活故障说明，核对自身许可与适用环境。"
+  },
+  "microsoft/vscode": {
+    "kind": "app",
+    "summary": "Visual Studio Code编辑器的源代码仓库。软件用于编写、调试和管理代码，扩展可增加不同语言及工具支持。",
+    "example": "安装官方编辑器后打开一个工程，配置语言扩展并调试最小示例。"
+  },
+  "firecrawl/firecrawl": {
+    "kind": "self",
+    "summary": "把网页内容提取为适合程序和AI使用的数据，可用于网页采集、检索资料和为智能体提供外部信息。",
+    "example": "将有权采集的文档网页转换为结构化内容，再用于资料整理或检索。"
+  },
+  "microsoft/markitdown": {
+    "kind": "cli",
+    "summary": "把办公文档等多种文件转换为Markdown的Python工具，便于交给检索系统或AI做后续文本处理。",
+    "example": "将一份测试文档转换为Markdown，检查标题、正文和表格保留情况。"
+  },
+  "ohmyzsh/ohmyzsh": {
+    "kind": "cli",
+    "summary": "管理Zsh配置的社区框架，提供主题与插件，改善终端中的提示、补全和日常命令体验。",
+    "example": "在测试配置中启用所需插件，检查Git状态提示或命令补全。"
+  },
+  "avelino/awesome-go": {
+    "kind": "list",
+    "summary": "按功能整理Go框架、库与软件的资源目录，帮助Go开发者为实际项目选择依赖。",
+    "example": "需要日志、网络或数据库组件时，在对应分类比较候选项目。"
+  },
+  "significant-gravitas/autogpt": {
+    "kind": "agent",
+    "summary": "围绕AI自动执行任务与工作流构建的项目，提供智能体相关组件和应用入口，需要按所选部分准备模型与运行环境。",
+    "example": "先选官方最小工作流，验证输入、工具调用和任务结果，而非直接交付复杂生产任务。"
+  },
+  "jackfrued/python-100-days": {
+    "kind": "learn",
+    "summary": "面向中文学习者的Python分阶段教程，从语言基础逐步进入常用开发与实际应用。",
+    "example": "按当前基础从相应阶段开始，完成教程练习并运行示例。"
+  },
+  "cyc2018/cs-notes": {
+    "kind": "learn",
+    "summary": "整理算法、操作系统、网络、数据库和系统设计等计算机基础知识，常用于技术复习与面试准备。",
+    "example": "面试前按知识薄弱项复习，并结合题目检查理解。"
+  },
+  "getify/you-dont-know-js": {
+    "kind": "learn",
+    "summary": "深入解释JavaScript语言机制的系列书籍，适合补足作用域、类型和异步等语言知识。",
+    "example": "遇到闭包或类型转换问题时，阅读对应章节并运行例子。"
+  },
+  "ollama/ollama": {
+    "kind": "app",
+    "summary": "用于获取和运行多种大模型的工具，方便在本机或自有环境中提供模型推理；所需内存和硬件取决于模型。",
+    "example": "先运行一个设备可承受的小模型，测试问答或供本地应用调用。"
+  },
+  "521xueweihan/hellogithub": {
+    "kind": "list",
+    "summary": "用中文介绍有趣和适合入门的开源项目，帮助了解项目用途并发现可学习或使用的软件。",
+    "example": "按每期介绍筛选感兴趣的项目，再前往原仓库核对安装与使用。"
+  },
+  "anthropics/skills": {
+    "kind": "skill",
+    "summary": "公开的Agent Skills示例集合，用结构化说明及相关文件扩展支持技能的AI助手，涵盖多种任务场景。",
+    "example": "选择文档处理等对应技能，保留其关联文件并在支持的宿主中测试。"
+  },
+  "flutter/flutter": {
+    "kind": "framework",
+    "summary": "用一套Dart代码构建多端应用界面的开发框架，适合移动应用以及其支持的其他平台。需要开发与构建环境。",
+    "example": "先运行官方示例，再制作包含列表、详情和导航的应用页面。"
+  },
+  "github/gitignore": {
+    "kind": "list",
+    "summary": "为常见语言、框架和工具提供.gitignore模板，帮助避免把构建产物、缓存等文件加入Git仓库。",
+    "example": "新建Python项目时选择对应模板，再补充项目自己的忽略项。"
+  },
+  "twbs/bootstrap": {
+    "kind": "lib",
+    "summary": "提供响应式布局、样式和常用网页组件的前端工具库，帮助快速搭建网页界面。需要集成到HTML或前端工程。",
+    "example": "使用栅格、导航和表单组件制作一个可适配的管理页面。"
+  },
+  "f/prompts.chat": {
+    "kind": "list",
+    "summary": "收集和分享AI提示词的社区项目，同时提供提示词管理相关代码；提示词需要按任务背景调整。",
+    "example": "找一个需求分析类提示词，替换项目资料后比较回答质量。"
+  },
+  "huggingface/transformers": {
+    "kind": "framework",
+    "summary": "为文本、视觉、音频及多模态模型提供统一的模型定义与使用方式，可做推理和训练，主要面向AI开发。",
+    "example": "加载一个适合设备的现成模型，用小样本测试分类或生成任务。"
+  },
+  "dietrichgebert/ponytail": {
+    "kind": "skill",
+    "summary": "给AI编程助手使用的开发规则，强调先找简单做法、减少不必要代码，而不是把任务越做越复杂。",
+    "example": "让助手修改一个小功能前先提出简化方案，再核对实现范围。"
+  },
+  "automatic1111/stable-diffusion-webui": {
+    "kind": "app",
+    "summary": "为Stable Diffusion提供网页操作界面，用于模型驱动的图片生成与相关处理；需要另外准备模型和合适运行环境。",
+    "example": "用测试模型生成一张图片，调整提示词和参数并保存结果。"
+  },
+  "jlevy/the-art-of-command-line": {
+    "kind": "learn",
+    "summary": "集中讲解命令行基础、常用技巧和进阶用法的速查指南，适合提升终端操作能力。",
+    "example": "查找文件搜索或文本处理的写法，用无害测试目录练习。"
+  },
+  "msitarzewski/agency-agents": {
+    "kind": "skill",
+    "summary": "一组具有角色分工、工作方法和任务说明的AI代理配置，用于让助手按不同专业视角协作。",
+    "example": "选设计或测试角色处理同一份需求，检查输出是否符合角色职责。"
+  },
+  "snailclimb/javaguide": {
+    "kind": "learn",
+    "summary": "中文Java及后端面试与进阶指南，覆盖基础、数据库、分布式、并发和系统设计等知识。",
+    "example": "按后端岗位要求复习一个专题，再用问题清单检查遗漏。"
+  },
+  "langgenius/dify": {
+    "kind": "self",
+    "summary": "用于构建AI应用、智能体工作流和知识检索流程的平台，在界面中连接模型、知识与工具，需配置模型及服务条件。",
+    "example": "导入一份测试资料，搭建简单知识问答流程并核对引用来源。"
+  },
+  "open-webui/open-webui": {
+    "kind": "self",
+    "summary": "为本地或远程模型提供统一聊天操作界面，可连接Ollama等模型服务；本身不等于已经包含模型算力。",
+    "example": "连接一个已运行的模型服务，在网页中对话并检查服务是否正常。"
+  },
+  "langflow-ai/langflow": {
+    "kind": "self",
+    "summary": "通过可视化方式组织模型、工具和数据处理步骤，构建和部署AI智能体或工作流。",
+    "example": "先把输入、模型与输出连成最小流程，再加入文档或工具节点。"
+  },
+  "genymobile/scrcpy": {
+    "kind": "app",
+    "summary": "将Android设备画面显示到电脑并进行控制的工具，适合演示、测试或在电脑上操作手机。",
+    "example": "按官方连接方法接入自己的测试手机，检查画面与鼠标操作。"
+  },
+  "clash-verge-rev/clash-verge-rev": {
+    "kind": "app",
+    "summary": "用于管理代理配置与连接的桌面图形客户端，项目使用Tauri构建；需要自行提供适用的配置和网络服务。",
+    "example": "导入自己可用的配置，查看连接状态并核对规则是否生效。"
+  },
+  "anthropics/claude-code": {
+    "kind": "agent",
+    "summary": "在终端中理解代码仓库、协助修改代码和处理开发任务的AI编程助手，需要有效模型服务及相应权限。",
+    "example": "让助手解释一个模块，再做小范围修改并人工检查差异与测试结果。"
+  },
+  "airbnb/javascript": {
+    "kind": "standard",
+    "summary": "一套JavaScript代码风格与工程约定，帮助团队保持命名、语法和代码组织一致；它不是运行代码的框架。",
+    "example": "为团队选择适用规则，并和现有格式化、静态检查配置协调。"
+  },
+  "langchain-ai/langchain": {
+    "kind": "framework",
+    "summary": "为AI应用和智能体开发组织模型、工具、上下文等组件的框架，主要面向需要编写代码集成能力的开发者。",
+    "example": "把模型与一个测试工具连接起来，验证工具调用及返回结果。"
+  },
+  "farion1231/cc-switch": {
+    "kind": "app",
+    "summary": "为多种AI编程助手提供配置管理入口的跨平台桌面工具，减少在不同客户端配置之间手工切换的工作。",
+    "example": "先备份配置，再用它管理一个测试客户端的服务配置并验证连接。"
+  },
+  "x1xhlol/system-prompts-and-models-of-ai-tools": {
+    "kind": "list",
+    "summary": "整理不同AI工具的系统提示词与相关资料，适合研究工具如何约束行为及组织工作，不代表这些工具可直接免费使用。",
+    "example": "比较几种工具的任务规划指令，提取适合自己助手的提示词思路。"
+  },
+  "yangshun/tech-interview-handbook": {
+    "kind": "learn",
+    "summary": "面向时间有限的软件工程师整理面试准备方法、知识点与练习建议，帮助安排复习重点。",
+    "example": "按面试时间制定计划，针对算法和行为问题分别练习。"
+  },
+  "vercel/next.js": {
+    "kind": "framework",
+    "summary": "基于React构建网页应用的框架，提供路由、渲染和工程集成能力，适合网站与Web产品开发。",
+    "example": "用官方入门工程建立列表和详情路由，再测试页面数据加载。"
+  },
+  "shubhamsaboo/awesome-llm-apps": {
+    "kind": "list",
+    "summary": "收集AI智能体、RAG和大模型应用示例，帮助学习不同模型与工具如何组合为实际应用。",
+    "example": "选一个与资料问答相近的示例，核对依赖后使用小数据集运行。"
+  },
+  "github/spec-kit": {
+    "kind": "cli",
+    "summary": "围绕规范驱动开发组织需求、计划和实现任务的工具集，帮助AI辅助开发先明确要做什么再写代码。",
+    "example": "为一个小功能建立规范和任务清单，再按清单实现与核对。"
+  },
+  "ytdl-org/youtube-dl": {
+    "kind": "cli",
+    "summary": "通过命令行下载来源站点音视频的工具，可放入脚本流程中使用；站点支持和可用性要核对当前版本。",
+    "example": "对有权下载的测试链接选择格式，检查输出文件。"
+  },
+  "iptv-org/iptv": {
+    "kind": "list",
+    "summary": "按地区等条件整理公开IPTV频道和播放列表的资源项目，需要兼容播放器及可访问的频道源。",
+    "example": "选择一个公开频道列表，用播放器验证频道是否可用。"
+  },
+  "ripienaar/free-for-dev": {
+    "kind": "list",
+    "summary": "汇集面向开发者的云服务免费额度与方案信息，适合寻找测试和个人项目可用的服务；额度与条款需逐项核对。",
+    "example": "为个人网站比较托管或数据库的入门方案，再查原服务最新限制。"
+  },
+  "microsoft/powertoys": {
+    "kind": "app",
+    "summary": "微软为Windows提供的一组效率工具，用于窗口管理、文件处理和系统操作等日常场景，可按需启用。",
+    "example": "选用窗口布局或文件处理工具，先在测试窗口和文件上尝试。"
+  },
+  "golang/go": {
+    "kind": "source",
+    "summary": "Go语言编译器、运行时和标准库的代码仓库，是使用和开发Go工具链的基础，不是普通办公应用。",
+    "example": "安装Go工具链后编写一个小程序，再研究标准库实现。"
+  },
+  "comfy-org/comfyui": {
+    "kind": "app",
+    "summary": "用节点图组织扩散模型等生成流程的图形界面和后端，适合把模型、输入、采样和输出步骤连成可复用工作流。",
+    "example": "加载一个适用的最小图片工作流，检查缺失模型后生成测试图。"
+  },
+  "garrytan/gstack": {
+    "kind": "skill",
+    "summary": "给Claude Code等工作环境配套的一组专业任务工具与角色方法，覆盖设计、工程、发布和检查等流程。",
+    "example": "为一个网页功能选用设计和QA环节，检查工具的输入与实际验证结果。"
+  },
+  "nextlevelbuilder/ui-ux-pro-max-skill": {
+    "kind": "skill",
+    "summary": "为AI助手提供UI/UX设计知识和决策支持的技能，帮助在生成界面时考虑风格、组件与平台要求。",
+    "example": "给出后台产品需求，让已加载技能的助手提出规范和页面方案，再人工核对。"
+  },
+  "labuladong/fucking-algorithm": {
+    "kind": "learn",
+    "summary": "围绕算法题背后的解题模式和推导方法展开的教程，帮助理解题目为什么这样解而不只记答案。",
+    "example": "学习一个动态规划模式，再用相似题目验证是否掌握。"
+  },
+  "excalidraw/excalidraw": {
+    "kind": "app",
+    "summary": "制作手绘风格图形与示意图的白板工具，适合画流程、结构和讨论草图，也提供可集成代码。",
+    "example": "把需求分析中的用户路径画成草图，和协作者讨论页面关系。"
+  },
+  "harry0703/moneyprinterturbo": {
+    "kind": "app",
+    "summary": "根据主题或关键词组合文案、素材与音视频处理步骤的短视频生成项目，需要配置所用模型与服务。",
+    "example": "先用短小主题生成测试视频，逐项核对文案、素材、配音与输出。"
+  },
+  "ggml-org/llama.cpp": {
+    "kind": "model",
+    "summary": "以C/C++实现的大模型推理项目，帮助在不同硬件环境运行支持的模型；需要准备兼容模型文件。",
+    "example": "在符合资源要求的设备上运行一个小模型，观察推理速度与回答。"
+  },
+  "krahets/hello-algo": {
+    "kind": "learn",
+    "summary": "用图解、动画和可运行代码讲解数据结构与算法的教程，支持多种编程语言，适合入门理解。",
+    "example": "看完链表图解后运行对应语言示例，检查节点操作过程。"
+  },
+  "openai/codex": {
+    "kind": "agent",
+    "summary": "运行在终端中的AI编程助手，用于理解仓库、修改代码和执行开发检查；需配置可用账号或模型访问方式。",
+    "example": "在测试项目中让助手修复一个缺陷，查看差异并运行相关测试。"
+  },
+  "chalarangelo/30-seconds-of-code": {
+    "kind": "learn",
+    "summary": "整理代码知识文章和简短实践示例，帮助理解常用开发问题和改善编程习惯。",
+    "example": "针对数组处理或网页知识查找示例，在自己的测试代码中验证。"
+  },
+  "kubernetes/kubernetes": {
+    "kind": "self",
+    "summary": "管理容器化应用部署、调度和运行状态的基础设施平台，适合多服务系统的运维与编排。",
+    "example": "在测试集群部署一个容器应用，学习副本、服务访问和更新操作。"
+  },
+  "graphify-labs/graphify": {
+    "kind": "agent",
+    "summary": "将代码库及文档等内容组织成可查询知识图谱的工具与技能，帮助AI或开发者理解项目结构和关联。",
+    "example": "对测试仓库建立图谱，查询某个模块与配置、数据表的关系。"
+  },
+  "react/react-native": {
+    "kind": "framework",
+    "summary": "用React开发原生应用界面的框架，帮助复用组件思路构建移动端等支持平台的应用。",
+    "example": "建立一个包含列表、详情和导航的小应用，再在目标设备验证。"
+  },
+  "rustdesk/rustdesk": {
+    "kind": "app",
+    "summary": "用于远程查看和控制电脑的开源桌面应用，支持按自身需求部署相关服务，适合远程协助或设备访问。",
+    "example": "连接自己授权管理的两台设备，验证画面、输入和访问设置。"
+  },
+  "shadcn-ui/ui": {
+    "kind": "lib",
+    "summary": "提供可复制到工程并自行修改的React组件代码，帮助搭建自己的组件库，适合需要掌控样式和实现的界面开发。",
+    "example": "将按钮、对话框和表单加入项目，按设计规范修改并检查状态。"
+  },
+  "electron/electron": {
+    "kind": "framework",
+    "summary": "用HTML、CSS和JavaScript构建桌面应用的框架，将网页界面与桌面能力连接起来。需要编写代码和打包。",
+    "example": "把一个已有网页界面封装为桌面窗口，再实现受限的文件操作。"
+  },
+  "hack-with-github/awesome-hacking": {
+    "kind": "list",
+    "summary": "汇集安全研究、渗透测试和相关学习资源的目录，帮助按主题查找工具与资料。",
+    "example": "在授权实验环境中寻找网络安全学习资料，按来源文档搭建练习。"
+  },
+  "nodejs/node": {
+    "kind": "source",
+    "summary": "在浏览器之外执行JavaScript的运行时及其源码，用于服务器、命令行和各类开发工具。",
+    "example": "运行一个简单HTTP服务或命令行脚本，学习事件与异步处理。"
+  },
+  "voltagent/awesome-design-md": {
+    "kind": "list",
+    "summary": "收集不同品牌设计系统的DESIGN.md说明，供AI编程助手参考视觉规则生成更一致的界面。",
+    "example": "选择合适参考并替换品牌条件，让助手据此制作一页界面后人工检查。"
+  },
+  "microsoft/generative-ai-for-beginners": {
+    "kind": "learn",
+    "summary": "面向生成式AI应用入门的课程，结合概念与示例介绍模型使用及应用搭建。",
+    "example": "按课程完成一个小型生成式AI示例，核对所需模型与服务。"
+  },
+  "rust-lang/rust": {
+    "kind": "source",
+    "summary": "Rust语言编译器及工具链的代码仓库，面向系统与应用开发，重点关注可靠性、性能和内存安全。",
+    "example": "安装工具链完成入门程序，再学习所有权和错误处理方式。"
+  },
+  "justjavac/free-programming-books-zh_cn": {
+    "kind": "list",
+    "summary": "收集中文计算机与编程书籍链接，便于按技术方向查找学习材料。",
+    "example": "围绕前端或数据库主题选择一本书，核对原始阅读入口。"
+  },
+  "godotengine/godot": {
+    "kind": "app",
+    "summary": "支持2D和3D游戏制作的开源游戏引擎，提供编辑器、场景和脚本工作方式，适合搭建可交互游戏。",
+    "example": "从官方入门场景开始，加入角色和控制逻辑后运行预览。"
+  },
+  "2dust/v2rayn": {
+    "kind": "app",
+    "summary": "管理多种代理核心和连接配置的图形客户端，帮助查看配置与连接状态，需要自备适用服务。",
+    "example": "在自己的网络环境导入有效配置，核对核心要求和连接是否正常。"
+  },
+  "browser-use/browser-use": {
+    "kind": "agent",
+    "summary": "让AI通过浏览器理解页面并执行网页任务的Python工具及相关服务，需配置浏览器、模型与任务权限。",
+    "example": "在测试网页上完成搜索和表单练习，检查操作记录而非直接执行真实重要操作。"
+  },
+  "mrdoob/three.js": {
+    "kind": "lib",
+    "summary": "在浏览器中创建和展示三维场景的JavaScript库，可组织模型、材质、灯光、相机与动画。需要编写代码，不是完整建模软件。",
+    "example": "制作可旋转的商品三维预览，加载模型并设置灯光与相机。"
+  },
+  "immich-app/immich": {
+    "kind": "self",
+    "summary": "可部署到自有环境的照片和视频管理应用，帮助集中整理和浏览媒体资料，需要维护存储与备份。",
+    "example": "在测试环境导入少量照片，检查浏览、信息管理和备份流程。"
+  },
+  "jaywcjlove/awesome-mac": {
+    "kind": "list",
+    "summary": "按用途整理macOS软件的中文友好资源目录，帮助发现设计、开发、效率等不同场景的应用。",
+    "example": "寻找Mac上的设计或文件工具，逐项核对来源、许可和适配版本。"
+  },
+  "earendil-works/pi": {
+    "kind": "agent",
+    "summary": "包含模型接口、智能体循环、终端界面和编程助手等组成部分的AI工具包，供开发者搭建自己的Agent工作方式。",
+    "example": "先运行官方编程助手示例，再研究模型接口和工具调用的连接。"
+  },
+  "d3/d3": {
+    "kind": "lib",
+    "summary": "通过数据驱动SVG、Canvas或HTML绘制图形的JavaScript库，适合需要高度定制的交互数据可视化。",
+    "example": "把一组数据画成可交互图表，按业务需求调整坐标、标记和交互。"
+  },
+  "juliusbrussee/caveman": {
+    "kind": "skill",
+    "summary": "通过缩短Agent输出等方式尝试减少模型Token消耗的技能与代理项目，具体节省效果需要在自己的任务中测量。",
+    "example": "对同一小型任务比较开启前后的文本长度与结果完整性。"
+  },
+  "tauri-apps/tauri": {
+    "kind": "framework",
+    "summary": "将Web前端与本机能力结合的桌面及移动应用框架，适合需要跨平台界面且愿意配置原生构建环境的开发者。",
+    "example": "用已有前端页面建立桌面应用，再添加一个权限明确的本地能力。"
+  },
+  "supabase/supabase": {
+    "kind": "self",
+    "summary": "以Postgres为基础的应用后端平台，帮助开发者组织数据库及相关后端能力，可使用服务或自行部署。",
+    "example": "为测试应用建立数据表并连接前端，验证数据读写与访问规则。"
+  },
+  "tauricresearch/tradingagents": {
+    "kind": "research",
+    "summary": "研究多智能体大模型如何参与金融分析与交易决策的框架，适合实验与方法比较，不能保证收益或替代风险判断。",
+    "example": "使用历史或模拟资料观察各Agent的分析过程，不直接据此执行真实交易。"
+  },
+  "microsoft/typescript": {
+    "kind": "source",
+    "summary": "为JavaScript增加静态类型检查的语言及编译器，有助于开发阶段发现数据结构和接口使用错误。",
+    "example": "给前端项目的资源对象定义类型，检查字段不匹配问题。"
+  },
+  "openai/whisper": {
+    "kind": "model",
+    "summary": "将音频转换为文字的语音识别模型及代码，适合转写和相关音频文本任务，需要匹配的运行环境。",
+    "example": "用一段自己有权处理的录音测试转写，人工核对人名与关键内容。"
+  },
+  "papers-we-love/papers-we-love": {
+    "kind": "list",
+    "summary": "汇集计算机科学论文及阅读讨论资料，帮助按主题找到经典研究与实现思路。",
+    "example": "为数据库或分布式系统学习选择论文，结合讨论理解关键设计。"
+  },
+  "fatedier/frp": {
+    "kind": "cli",
+    "summary": "帮助访问处于NAT或防火墙后的本地服务的反向代理工具，通常需要配置客户端、服务器和访问规则。",
+    "example": "在自己的测试服务器与本地服务间建立受控访问并检查连接。"
+  },
+  "axios/axios": {
+    "kind": "lib",
+    "summary": "面向浏览器和Node.js的HTTP请求库，用Promise等方式组织接口调用，适合前后端应用接入服务。",
+    "example": "为资源列表调用测试API，处理加载、响应与错误状态。"
+  },
+  "denoland/deno": {
+    "kind": "source",
+    "summary": "用于执行JavaScript和TypeScript的现代运行时，提供相关开发工具和权限控制方式。",
+    "example": "运行一个小脚本或HTTP例子，核对所需文件与网络权限。"
+  },
+  "addyosmani/agent-skills": {
+    "kind": "skill",
+    "summary": "为AI编程助手整理工程开发技能，帮助将较成熟的工程做法应用到日常代码任务。",
+    "example": "选择匹配的工程技能，让助手处理小功能并检查验证步骤是否完整。"
+  },
+  "google-gemini/gemini-cli": {
+    "kind": "agent",
+    "summary": "把Gemini能力带到终端的开源AI助手，用于在命令行环境处理开发与工具相关任务。",
+    "example": "在测试目录中让助手说明工程结构，再执行一个可检查的小任务。"
+  },
+  "rasbt/llms-from-scratch": {
+    "kind": "learn",
+    "summary": "通过PyTorch逐步实现类似GPT的大语言模型的教材与代码，帮助理解模型组成和训练过程。",
+    "example": "按章节实现注意力模块并运行小例子，观察张量和输出。"
+  },
+  "ruanyf/weekly": {
+    "kind": "list",
+    "summary": "定期发布科技见闻、工具和文章的中文周刊，适合获取技术线索和扩展阅读，而非直接安装使用。",
+    "example": "从一期周刊中筛选感兴趣的工具，再到原始项目查用途与条件。"
+  },
+  "goldbergyoni/nodebestpractices": {
+    "kind": "learn",
+    "summary": "整理Node.js项目组织、代码质量与运行相关的工程实践，帮助检查现有后端或服务项目。",
+    "example": "对照清单检查错误处理和项目结构，先选择适合自己的改进项。"
+  },
+  "microsoft/terminal": {
+    "kind": "app",
+    "summary": "Windows Terminal及原始控制台宿主相关代码仓库，软件提供标签页、配置与命令行会话管理体验。",
+    "example": "安装终端后配置不同Shell的启动项与外观，分别运行日常命令。"
+  },
+  "pytorch/pytorch": {
+    "kind": "framework",
+    "summary": "用于张量计算和深度学习开发的框架，支持动态神经网络与相应硬件加速，主要面向模型开发者。",
+    "example": "使用小型网络与测试数据完成一次训练和预测，检查设备资源需求。"
+  },
+  "deepseek-ai/deepseek-v3": {
+    "kind": "model",
+    "summary": "DeepSeek-V3模型相关的官方代码与资料入口，供了解模型、获取资源及研究推理部署；它不是普通聊天客户端。",
+    "example": "先阅读模型与部署说明，再选择符合硬件条件的推理方式做小样本测试。"
+  },
+  "react/create-react-app": {
+    "kind": "cli",
+    "summary": "用于创建React项目脚手架的工具仓库，帮助理解或维护使用该方式搭建的项目；选型前需核对官方当前维护建议。",
+    "example": "维护已有CRA工程时按其版本说明启动开发环境与构建。"
+  },
+  "paperclipai/paperclip": {
+    "kind": "self",
+    "summary": "用于组织工作中的多个Agent的开源管理应用，关注任务、角色和执行协调，而不只是单个聊天窗口。",
+    "example": "为一个小项目配置Agent与任务分工，观察结果和管理流程。"
+  },
+  "fastapi/fastapi": {
+    "kind": "framework",
+    "summary": "用Python开发Web API的框架，适合构建有明确请求与返回数据的后端服务，需要编写与部署代码。",
+    "example": "为资源管理页面建立一个测试查询接口，并核对参数与响应。"
+  },
+  "neovim/neovim": {
+    "kind": "app",
+    "summary": "在Vim基础上重视扩展性与使用体验的代码编辑器，适合偏好键盘操作和自行配置开发环境的用户。",
+    "example": "在独立配置中启用需要的编辑功能，再打开测试工程练习。"
+  },
+  "anduin2017/howtocook": {
+    "kind": "learn",
+    "summary": "面向日常做饭的中文菜谱和方法集合，用较清晰的步骤描述食材与操作，是生活资料而非编程工具。",
+    "example": "按现有食材选择一道菜，阅读准备和制作步骤。"
+  },
+  "nexu-io/open-design": {
+    "kind": "self",
+    "summary": "本地优先的AI设计协作工作区，将原型、网页、演示及媒体创作与Agent协作放在同一环境，具体功能依所配工具而定。",
+    "example": "先用小型原型任务了解工作区的输入、协作和导出方式。"
+  },
+  "thedotmack/claude-mem": {
+    "kind": "agent",
+    "summary": "为AI助手保存并在后续会话注入相关上下文的记忆项目，减少每次新会话都重复说明背景的工作。",
+    "example": "在测试项目中记录任务上下文，再启动新会话检查召回内容是否相关。"
+  },
+  "angular/angular": {
+    "kind": "framework",
+    "summary": "用于构建结构化Web应用的前端框架，提供组件、路由等应用开发能力，适合有工程规范的团队。",
+    "example": "用官方入门项目构建列表与编辑表单，验证路由和数据绑定。"
+  },
+  "mtdvio/every-programmer-should-know": {
+    "kind": "list",
+    "summary": "整理程序员应了解的技术知识、文章和资源，帮助发现知识盲区与制定补充学习计划。",
+    "example": "围绕编码、性能或系统主题选择资料，并结合实际项目验证理解。"
+  },
+  "ant-design/ant-design": {
+    "kind": "lib",
+    "summary": "面向企业级网页应用的设计语言和React组件库，提供表格、表单、导航等常用后台界面组件。",
+    "example": "使用表格、筛选和抽屉组件搭建资源管理后台，再按品牌规范调整。"
+  },
+  "mui/material-ui": {
+    "kind": "lib",
+    "summary": "实现Material Design思路的React组件库，提供常见控件、布局和主题能力，便于在工程中组织一致界面。",
+    "example": "通过主题配置统一按钮和输入框，再制作一个表单页面。"
+  },
+  "ruvnet/ruview": {
+    "kind": "research",
+    "summary": "研究使用WiFi信号进行空间、存在感知与相关监测的项目，依赖具体硬件和实验条件，不是安装后即可通用感知的普通软件。",
+    "example": "先核对所需设备和示例数据，在匹配环境中复现一个最小实验。"
+  },
+  "panniantong/agent-reach": {
+    "kind": "agent",
+    "summary": "为AI助手提供读取、搜索不同网络平台内容的工具入口，帮助Agent获取外部信息；可用性受平台与配置条件影响。",
+    "example": "让测试Agent读取一条公开内容并核对来源，而非假设所有站点都可直接访问。"
+  },
+  "florinpop17/app-ideas": {
+    "kind": "list",
+    "summary": "按难度整理应用开发创意与功能要求，用于选练手项目和练习完整功能实现。",
+    "example": "选择一个待办或资源管理创意，按需求完成最小可运行版本。"
+  },
+  "leonxlnx/taste-skill": {
+    "kind": "skill",
+    "summary": "给AI编程助手增加视觉方向、参考图和浏览器检查等设计方法，目的是减少千篇一律的生成页面。",
+    "example": "给出界面目标与参考，让助手先明确视觉方向再实现并截图检查。"
+  },
+  "karpathy/autoresearch": {
+    "kind": "research",
+    "summary": "围绕单GPU模型训练实验的自动研究项目，让Agent提出并运行实验，比较训练相关指标。",
+    "example": "在官方要求的隔离环境观察一次小实验，检查改动和测量依据。"
+  },
+  "nvbn/thefuck": {
+    "kind": "cli",
+    "summary": "针对上一条失败命令提出修正建议的命令行工具，帮助减少常见输入错误；执行前仍要检查建议内容。",
+    "example": "在测试目录中输入错误命令，查看工具建议的修正是否符合意图。"
+  },
+  "tailwindlabs/tailwindcss": {
+    "kind": "lib",
+    "summary": "用原子化CSS类组织页面样式的前端框架，适合按设计规范快速实现布局、颜色和状态。",
+    "example": "将设计令牌映射到配置，制作可适配的卡片和表单布局。"
+  },
+  "microsoft/playwright": {
+    "kind": "lib",
+    "summary": "用统一接口控制多种浏览器进行网页测试与自动化的框架，适合验证页面路径、状态和交互。",
+    "example": "给资源后台编写搜索、打开详情和提交表单的浏览器回归测试。"
+  },
+  "hacksider/deep-live-cam": {
+    "kind": "app",
+    "summary": "基于图像进行实时或视频人脸替换的项目，涉及模型、媒体输入及算力条件；使用时应具备素材与人物授权。",
+    "example": "在明确获授权的测试素材上检查面部替换的画质和限制。"
+  },
+  "microsoft/web-dev-for-beginners": {
+    "kind": "learn",
+    "summary": "以课程和项目讲解Web开发基础，涵盖网页结构、样式与交互，适合系统入门。",
+    "example": "按课程制作一个小网页，检查HTML、CSS和JavaScript如何协作。"
+  },
+  "punkpeye/awesome-mcp-servers": {
+    "kind": "list",
+    "summary": "按用途收集MCP服务器的目录，帮助为支持MCP的AI工具寻找文件、数据和外部服务连接器。",
+    "example": "找一个适用连接器后阅读其原仓库，核对认证、权限及宿主配置。"
+  },
+  "oven-sh/bun": {
+    "kind": "cli",
+    "summary": "整合JavaScript运行、包管理、测试和打包能力的工具链，帮助减少前端或服务工程中分散的工具配置。",
+    "example": "用测试项目安装依赖并运行脚本，检查和现有工程的兼容性。"
+  },
+  "puppeteer/puppeteer": {
+    "kind": "lib",
+    "summary": "通过JavaScript控制浏览器的工具库，适合网页自动化、截图与浏览器任务开发。",
+    "example": "打开一个自己的测试页面，生成截图并验证页面元素。"
+  },
+  "nvm-sh/nvm": {
+    "kind": "cli",
+    "summary": "在兼容Shell环境中安装和切换Node.js版本的版本管理脚本，适合同时维护不同版本的工程。",
+    "example": "按项目要求切换到对应Node版本，再安装依赖并运行工程。"
+  },
+  "3b1b/manim": {
+    "kind": "lib",
+    "summary": "通过代码制作数学解释动画的引擎，用程序组织公式、图形和运动，主要面向需要编写动画脚本的人。",
+    "example": "写一个几何变化或公式推导的小场景，渲染后检查动画过程。"
+  },
+  "opencut-app/opencut": {
+    "kind": "app",
+    "summary": "面向视频编辑的开源应用项目，可用于了解和尝试剪辑流程；具体可用编辑能力以其版本与说明为准。",
+    "example": "导入测试素材，尝试一段简单剪辑并检查导出。"
+  },
+  "iluwatar/java-design-patterns": {
+    "kind": "learn",
+    "summary": "用Java示例讲解常用设计模式，帮助理解不同代码组织方式解决的问题。",
+    "example": "阅读策略或观察者模式示例，对比它与自己代码场景的差别。"
+  },
+  "ryanmcdermott/clean-code-javascript": {
+    "kind": "learn",
+    "summary": "把整洁代码原则应用到JavaScript的指南，讨论命名、函数和可维护性等开发习惯。",
+    "example": "对照一段实际代码逐项检查可读性，做小范围重构后运行验证。"
+  },
+  "localsend/localsend": {
+    "kind": "app",
+    "summary": "用于不同设备间局域网文件传输的开源应用，适合在自己的电脑和手机之间共享文件。",
+    "example": "在同一可用网络中连接两台设备，发送一个测试文件并核对完整性。"
+  },
+  "stablyai/orca": {
+    "kind": "app",
+    "summary": "用于集中管理多个编程Agent及其工作环境的工具，便于查看任务和协调并行工作，需已有可用助手配置。",
+    "example": "为两个独立测试任务分配Agent，再检查运行和结果记录。"
+  },
+  "stirling-tools/stirling-pdf": {
+    "kind": "self",
+    "summary": "集中提供多种PDF处理功能的应用，帮助完成合并、拆分、转换和文档处理等日常工作。",
+    "example": "对非敏感样本文档完成拆分与合并，核对页序和输出效果。"
+  },
+  "sherlock-project/sherlock": {
+    "kind": "cli",
+    "summary": "按用户名在多个网站查找对应公开账号的工具，适合授权范围内的公开信息调查，匹配结果仍需人工核实。",
+    "example": "查询自己的公开用户名，检查返回链接是否确为对应账号。"
+  },
+  "vllm-project/vllm": {
+    "kind": "model",
+    "summary": "用于高吞吐模型推理和服务部署的引擎，主要面向需要向应用提供大模型接口的开发或运维人员。",
+    "example": "部署设备支持的测试模型，观察并发请求与资源占用。"
+  },
+  "odysseus-dev/odysseus": {
+    "kind": "self",
+    "summary": "可自行部署的AI工作区，提供统一的AI操作环境；部署、模型接入及平台细节需按官方设置指南准备。",
+    "example": "先在隔离环境部署并配置一个模型，验证基础问答和工作区功能。"
+  },
+  "louislam/uptime-kuma": {
+    "kind": "self",
+    "summary": "监控网站和服务可用性的自托管工具，用可视化界面查看检查结果并配置通知。",
+    "example": "添加自己的测试站点，模拟短暂不可用并观察状态变化。"
+  },
+  "infiniflow/ragflow": {
+    "kind": "self",
+    "summary": "把文档处理、检索增强生成和Agent能力结合的平台，帮助构建基于自身资料的AI问答与工作流。",
+    "example": "导入少量测试文档，提问并核对回答是否有可靠资料依据。"
+  },
+  "deepseek-ai/deepseek-r1": {
+    "kind": "model",
+    "summary": "DeepSeek-R1推理模型相关官方资料和资源入口，适合研究模型能力及接入部署，不等于现成桌面应用。",
+    "example": "根据官方模型说明选择可用服务或部署方式，用任务样例核对回答。"
+  },
+  "zed-industries/zed": {
+    "kind": "app",
+    "summary": "注重性能与协作体验的代码编辑器，提供项目编辑及相关开发能力，适合尝试新的编程工作环境。",
+    "example": "打开测试仓库，检查所需语言支持、编辑和协作功能是否适合工作。"
+  },
+  "home-assistant/core": {
+    "kind": "self",
+    "summary": "把智能家居设备和自动化组织到本地控制平台中的核心项目，适合希望集中管理家中设备的用户。",
+    "example": "接入一台兼容测试设备，再设置简单触发与动作并验证。"
+  },
+  "microsoft/ml-for-beginners": {
+    "kind": "learn",
+    "summary": "通过课程、练习和测验讲解传统机器学习，适合从数据与基本模型开始学习。",
+    "example": "用课程示例数据训练一个简单模型，理解评估结果。"
+  },
+  "django/django": {
+    "kind": "framework",
+    "summary": "用于开发完整Web应用的Python框架，提供常见服务端工程能力，适合需要结构化后端的项目。",
+    "example": "为小型资源管理应用建立数据模型和页面，再测试基本操作。"
+  },
+  "storybookjs/storybook": {
+    "kind": "lib",
+    "summary": "在独立环境中开发、展示和测试UI组件的工具，帮助团队检查组件状态而不用进入完整应用。",
+    "example": "为按钮、表单和资源卡片建立故事，逐个查看状态与边界内容。"
+  },
+  "modelcontextprotocol/servers": {
+    "kind": "agent",
+    "summary": "MCP服务器示例与参考实现集合，展示AI宿主如何通过协议连接外部工具和数据。",
+    "example": "选官方参考服务在测试宿主中连接，核对权限与返回数据。"
+  },
+  "paddlepaddle/paddleocr": {
+    "kind": "framework",
+    "summary": "识别图片或文档中的文字并转为可处理数据的OCR工具体系，可用于文档解析与AI资料准备。",
+    "example": "将一张测试扫描页转换为文字，人工检查表格和特殊字词。"
+  },
+  "opencv/opencv": {
+    "kind": "lib",
+    "summary": "计算机视觉库，提供图像、视频处理及视觉分析相关算法，适合需要编程实现视觉任务的开发者。",
+    "example": "用样例图片测试裁剪、特征或检测流程，检查输入与输出。"
+  },
+  "openhands/openhands": {
+    "kind": "agent",
+    "summary": "以AI协助软件开发的智能体项目，组织代码理解、工具操作和开发任务，需要相应模型与执行环境。",
+    "example": "在隔离测试工程中解决一个小问题，审查代码和执行记录。"
+  },
+  "astral-sh/uv": {
+    "kind": "cli",
+    "summary": "用于Python包与项目环境管理的工具，帮助安装依赖、管理虚拟环境并运行项目。",
+    "example": "为一个测试项目建立环境并安装依赖，确认脚本使用正确解释器。"
+  },
+  "mermaid-js/mermaid": {
+    "kind": "lib",
+    "summary": "用接近Markdown的文本描述流程图、时序图等图表，适合把结构说明与文档一起维护。",
+    "example": "用文字描述登录或资源处理路径，再生成图表并核对关系。"
+  },
+  "bytebytegohq/system-design-101": {
+    "kind": "learn",
+    "summary": "通过图示和简明解释介绍系统设计概念，适合建立架构知识和准备相关面试。",
+    "example": "阅读缓存或消息队列的图解，再尝试解释自己项目中的对应位置。"
+  },
+  "bitcoin/bitcoin": {
+    "kind": "source",
+    "summary": "Bitcoin Core的节点与相关功能源码，面向网络节点运行、协议实现和研究，不是收益承诺或投资建议。",
+    "example": "在隔离测试网络研究节点与交易处理机制，先了解同步与存储要求。"
+  },
+  "mungell/awesome-for-beginners": {
+    "kind": "list",
+    "summary": "收集适合新手参与的开源项目，帮助找到可入门贡献的代码库与任务方向。",
+    "example": "根据自己语言基础找项目，再阅读贡献指南和适合入门的问题。"
+  },
+  "panjiachen/vue-element-admin": {
+    "kind": "source",
+    "summary": "基于Vue与Element相关技术搭建的后台管理前端样板，提供常见管理界面结构，需核对版本和后端接入。",
+    "example": "研究其导航、权限和表单组织，再按真实业务调整页面。"
+  },
+  "gohugoio/hugo": {
+    "kind": "cli",
+    "summary": "把内容与模板构建为静态网站的生成器，适合博客、文档和不需要动态服务的内容站点。",
+    "example": "选择主题并加入几篇测试内容，构建后本地检查页面。"
+  },
+  "nationalsecurityagency/ghidra": {
+    "kind": "app",
+    "summary": "用于软件逆向工程的分析工具体系，帮助查看二进制程序的结构与逻辑，需要相关技术知识。",
+    "example": "对自有测试程序进行静态分析，比较源代码与反编译结果。"
+  },
+  "syncthing/syncthing": {
+    "kind": "app",
+    "summary": "在设备之间持续同步文件的开源工具，帮助把指定目录内容保持一致，需要理解同步与删除传播规则。",
+    "example": "用两台自有设备的测试目录验证新增、修改和冲突处理。"
+  },
+  "gin-gonic/gin": {
+    "kind": "framework",
+    "summary": "用于Go HTTP服务开发的Web框架，适合组织路由、请求处理和中间件。",
+    "example": "编写资源查询接口并测试参数、状态码和响应格式。"
+  },
+  "chatgptnextweb/nextchat": {
+    "kind": "app",
+    "summary": "提供多模型AI聊天体验的应用项目，可通过对应产品或部署方式使用；模型服务、账号与费用需核对当前说明。",
+    "example": "先配置一个可用服务，测试基础对话和会话管理。"
+  },
+  "koala73/worldmonitor": {
+    "kind": "self",
+    "summary": "把新闻、地缘与基础设施等外部信息集中到可视化看板的项目，适合浏览和组织多源信息。",
+    "example": "用公开样例源查看一个区域的信息，交叉核对原始来源与时间。"
+  },
+  "sveltejs/svelte": {
+    "kind": "framework",
+    "summary": "用组件描述界面并编译为网页代码的前端框架，适合构建有交互的Web应用。",
+    "example": "建立资源卡片和筛选组件，检查数据更新如何反映到页面。"
+  },
+  "d4vinci/scrapling": {
+    "kind": "framework",
+    "summary": "从单页请求到批量爬取组织网页数据提取的框架，适合需要编程收集和解析网页内容的任务。",
+    "example": "在允许采集的测试站点提取指定字段，核对页面变化后的表现。"
+  },
+  "egonex-ai/understand-anything": {
+    "kind": "agent",
+    "summary": "将代码组织成可探索、搜索和问答的知识图谱，帮助开发者与AI助手理解代码结构。",
+    "example": "导入测试仓库后，追踪一个功能涉及的文件与模块关系。"
+  },
+  "unclecode/crawl4ai": {
+    "kind": "framework",
+    "summary": "把网页转换为适合大模型和智能体使用的Markdown等内容的采集框架，可自行运行并接入处理流程。",
+    "example": "采集自己允许访问的文档页面，检查正文提取和结构是否完整。"
+  },
+  "laravel/laravel": {
+    "kind": "framework",
+    "summary": "PHP Web应用框架的应用骨架项目，帮助组织路由、业务逻辑和常见服务端开发流程。",
+    "example": "建立一个简单资源管理站点，验证表单、数据库与页面路径。"
+  },
+  "macrozheng/mall": {
+    "kind": "source",
+    "summary": "基于Java技术的电商系统示例，包含前台商城和后台管理等模块，适合学习业务系统与工程组织。",
+    "example": "部署测试环境研究商品、订单和后台管理流程，不直接视为可上线商店。"
+  },
+  "bregman-arie/devops-exercises": {
+    "kind": "learn",
+    "summary": "覆盖Linux、容器、云平台和运维工具的练习与面试题集合，帮助查漏补缺。",
+    "example": "围绕Docker或网络专题完成练习，再在测试环境验证答案。"
+  },
+  "tt-a1i/archify": {
+    "kind": "skill",
+    "summary": "将想法、计划或代码库关系转为可交互图示的Agent技能，适合结构讲解与方案讨论。",
+    "example": "给支持的助手一段系统关系说明，生成图示后检查节点和连线。"
+  },
+  "realworld-apps/realworld": {
+    "kind": "source",
+    "summary": "用不同前后端技术实现相近完整应用的示例集合，方便学习和比较真实工程如何连接各层。",
+    "example": "选择熟悉技术的实现，研究登录、文章和数据接口如何组织。"
+  },
+  "fighting41love/funnlp": {
+    "kind": "list",
+    "summary": "收集自然语言处理相关词库、数据、模型与工具的中文资源目录，便于按处理任务查找资料。",
+    "example": "为文本清洗或词语处理寻找候选资源，再核对格式、许可与质量。"
+  },
+  "bytedance/deer-flow": {
+    "kind": "agent",
+    "summary": "用于长任务研究、编程和创作的Agent运行体系，通过工具、记忆和任务协作组织执行。",
+    "example": "先运行小型资料研究任务，检查计划、来源和中间产物。"
+  },
+  "developer-y/cs-video-courses": {
+    "kind": "list",
+    "summary": "按计算机科学主题收集公开视频课程，便于寻找成体系的大学课程和讲解。",
+    "example": "为操作系统或数据库学习选择课程，核对先修要求与练习。"
+  },
+  "mlabonne/llm-course": {
+    "kind": "learn",
+    "summary": "围绕大语言模型学习组织路线与可运行笔记，帮助理解模型使用、训练和相关工程知识。",
+    "example": "从自己的基础对应章节开始，在笔记环境运行小例子。"
+  },
+  "rtk-ai/rtk": {
+    "kind": "cli",
+    "summary": "在命令行与AI助手之间压缩常见开发命令输出的代理工具，尝试减少上下文中的冗余Token。",
+    "example": "对测试命令输出比较压缩前后内容，确认关键信息没有遗漏。"
+  },
+  "junegunn/fzf": {
+    "kind": "cli",
+    "summary": "交互式模糊查找命令行工具，可用于从文件、历史命令等候选列表中快速选择目标。",
+    "example": "把测试文件列表交给fzf，输入片段快速定位一个路径。"
+  },
+  "datawhalechina/hello-agents": {
+    "kind": "learn",
+    "summary": "中文智能体原理与实践教程，从基础概念逐步进入Agent构建，适合系统学习而非直接下载一个万能助手。",
+    "example": "按教程完成一个最小Agent，核对模型、工具和执行循环。"
+  },
+  "vitejs/vite": {
+    "kind": "cli",
+    "summary": "面向前端工程的开发服务器与构建工具，帮助更快启动开发并生成部署文件。",
+    "example": "用对应模板创建前端工程，运行开发模式后进行一次生产构建。"
+  },
+  "lobehub/lobehub": {
+    "kind": "self",
+    "summary": "将多个AI Agent的角色、调度和工作记录组织到统一工作区的项目，适合需要管理一组助手任务的用户。",
+    "example": "配置少量测试Agent与任务，观察调度、汇报和结果组织方式。"
+  },
+  "jesseduffield/lazygit": {
+    "kind": "cli",
+    "summary": "在终端中提供可视化Git操作界面的工具，便于查看状态、差异和处理日常版本管理。",
+    "example": "在测试仓库查看修改并暂存提交，核对每一步产生的差异。"
+  },
+  "tapxworld/chinatextbook": {
+    "kind": "list",
+    "summary": "整理不同学段与主题教材PDF的资料仓库，用于查找学习材料；文件可用性与使用权需按来源核对。",
+    "example": "按学科与年级定位教材，检查版本是否符合学习需求。"
+  },
+  "animate-css/animate.css": {
+    "kind": "lib",
+    "summary": "可复用的CSS动画样式库，给网页元素添加常见进入、退出和强调动效，需要接入页面样式。",
+    "example": "给活动提示添加一次进入动画，并检查减弱动效设置与可读性。"
+  },
+  "tonsky/firacode": {
+    "kind": "font",
+    "summary": "面向编程阅读的等宽字体，支持连字等显示特性，用于编辑器与终端外观配置，不是代码执行工具。",
+    "example": "在编辑器中启用字体，比较符号连字与字号的阅读体验。"
+  },
+  "pbakaus/impeccable": {
+    "kind": "skill",
+    "summary": "给AI助手提供设计语言和界面改进方法的项目，帮助生成或审查界面时关注设计质量与一致性。",
+    "example": "让已配置助手分析一个页面的信息层级，提出改动后实际截图验证。"
+  },
+  "opendatalab/mineru": {
+    "kind": "framework",
+    "summary": "将PDF、办公文档等复杂文件解析为Markdown或JSON等结构化内容的工具，适合文档入库和AI资料准备。",
+    "example": "解析一份包含图表的样本文档，检查阅读顺序、表格与公式结果。"
+  },
+  "d2l-ai/d2l-zh": {
+    "kind": "learn",
+    "summary": "中文深度学习教材与可运行代码，结合数学、模型原理与实践，帮助从基础学习深度学习。",
+    "example": "跟随一章搭建简单网络，运行训练并解释曲线变化。"
+  },
+  "swisskyrepo/payloadsallthethings": {
+    "kind": "list",
+    "summary": "收集Web安全测试相关方法和测试数据的资料库，适合授权测试、实验与学习，不是自动修复软件。",
+    "example": "在受控实验靶场对照资料理解一种输入校验问题。"
+  },
+  "spring-projects/spring-boot": {
+    "kind": "framework",
+    "summary": "简化基于Spring的Java应用与服务开发的框架，帮助建立结构化后端工程。",
+    "example": "创建一个最小服务，配置数据访问并测试API行为。"
+  },
+  "netdata/netdata": {
+    "kind": "self",
+    "summary": "收集并展示系统与应用运行指标的可观测性工具，帮助发现资源使用和服务状态变化。",
+    "example": "在测试主机查看CPU、内存和服务图表，定位异常时段。"
+  },
+  "hoppscotch/hoppscotch": {
+    "kind": "app",
+    "summary": "用于构建、调试和组织API请求的工具，提供网页、桌面等使用方式，适合接口开发与联调。",
+    "example": "向测试接口发起请求，检查参数、响应和错误返回。"
+  },
+  "abi/screenshot-to-code": {
+    "kind": "self",
+    "summary": "把界面截图作为输入，借助模型生成HTML或前端框架代码的项目，结果需要人工检查和调整。",
+    "example": "用自有页面截图生成初始代码，在浏览器中比较布局差异。"
+  },
+  "ventoy/ventoy": {
+    "kind": "app",
+    "summary": "帮助把启动镜像组织到USB设备上的工具，方便选择不同镜像启动；配置会涉及磁盘与启动环境。",
+    "example": "按官方指南在专用测试U盘准备镜像，核对设备与启动兼容性。"
+  },
+  "anuraghazra/github-readme-stats": {
+    "kind": "self",
+    "summary": "为GitHub README生成可展示的统计卡片，适合个人主页或项目介绍中的数据展示。",
+    "example": "按文档设置自己的公开用户名，预览卡片并检查数据含义。"
+  },
+  "666ghj/mirofish": {
+    "kind": "research",
+    "summary": "基于群体智能进行情景模拟与预测探索的项目，适合研究多主体交互，不应把模拟结果当确定事实。",
+    "example": "用虚构场景观察不同参与者假设对模拟结果的影响。"
+  },
+  "coder/code-server": {
+    "kind": "self",
+    "summary": "让VS Code风格的开发环境通过浏览器访问的项目，适合在远程机器上集中运行开发环境。",
+    "example": "在自己的测试服务器部署，配置访问控制后用浏览器打开工程。"
+  },
+  "awesomedata/awesome-public-datasets": {
+    "kind": "list",
+    "summary": "按主题整理公开数据集的索引，帮助为分析、实验或模型学习寻找数据来源。",
+    "example": "选择一个与研究问题匹配的数据集，先检查许可、字段与质量。"
+  },
+  "dair-ai/prompt-engineering-guide": {
+    "kind": "learn",
+    "summary": "整理提示词、上下文工程、RAG和Agent等主题的指南与资料，帮助学习如何组织模型输入与应用。",
+    "example": "针对一个问答任务比较提示词结构，记录输出差异与限制。"
+  },
+  "doocs/advanced-java": {
+    "kind": "learn",
+    "summary": "面向Java后端进阶的知识与面试问答整理，覆盖分布式、并发、微服务和系统设计等内容。",
+    "example": "根据岗位需求选择专题，结合实际代码或实验检查理解。"
+  },
+  "shareai-lab/learn-claude-code": {
+    "kind": "learn",
+    "summary": "通过从小型Agent执行框架开始的实现教程，帮助理解编程助手怎样通过Shell与工具执行任务。",
+    "example": "按章节构建一个最小执行循环，在隔离目录测试工具调用。"
+  },
+  "elastic/elasticsearch": {
+    "kind": "self",
+    "summary": "提供分布式搜索和数据查询能力的服务项目，适合为应用建立文本检索或相关分析。",
+    "example": "索引少量测试文档，验证关键词查询和返回结果。"
+  },
+  "unslothai/unsloth": {
+    "kind": "model",
+    "summary": "提供模型运行与训练相关工具及界面，帮助使用或微调支持的大模型与生成模型；需核对具体版本和硬件条件。",
+    "example": "选官方支持的小模型与样本数据，验证一次运行或训练流程。"
+  },
+  "caddyserver/caddy": {
+    "kind": "cli",
+    "summary": "带自动HTTPS能力的Web服务器，常用于托管站点或反向代理，需配置域名、网络与服务访问条件。",
+    "example": "在测试域名上配置一个站点，检查请求转发与证书行为。"
+  },
+  "obsproject/obs-studio": {
+    "kind": "app",
+    "summary": "用于屏幕录制与直播的软件，通过场景和来源组织画面、音频与输出，适合演示、课程和直播制作。",
+    "example": "建立屏幕与麦克风来源，录制一分钟测试并核对音画。"
+  },
+  "tensorflow/models": {
+    "kind": "source",
+    "summary": "基于TensorFlow的模型与示例代码集合，适合学习和复用特定任务的模型实现。",
+    "example": "选择图像分类等对应示例，核对依赖后用小样本运行。"
+  },
+  "python/cpython": {
+    "kind": "source",
+    "summary": "Python语言主要实现的代码仓库，包含解释器与标准库，主要用于语言使用、开发和实现研究。",
+    "example": "安装Python运行小脚本，再按兴趣研究解释器或标准库代码。"
+  },
+  "appflowy-io/appflowy": {
+    "kind": "app",
+    "summary": "把文档、知识和项目协作组织在一起的工作区应用，关注用户对数据和工作环境的控制。",
+    "example": "用测试工作区建立项目页和知识文档，检查组织与导出方式。"
+  },
+  "diegosouzapw/omniroute": {
+    "kind": "self",
+    "summary": "把不同模型服务组织成统一接入端点的AI网关，方便为多个客户端配置路由和服务入口。",
+    "example": "连接两个合法可用的测试服务，检查模型路由、错误和凭据隔离。"
+  },
+  "nomic-ai/gpt4all": {
+    "kind": "app",
+    "summary": "在本地设备运行支持的大模型的应用与相关项目，方便尝试不依赖单一远程聊天界面的模型使用方式。",
+    "example": "下载适配设备的模型，在本地对话并观察资源占用。"
+  },
+  "grafana/grafana": {
+    "kind": "self",
+    "summary": "把多种数据源的指标、日志等内容组织成可视化看板的工具，适合监控与数据观察。",
+    "example": "连接一个测试数据源，建立显示趋势和异常的看板。"
+  },
+  "microsoft/ai-agents-for-beginners": {
+    "kind": "learn",
+    "summary": "面向AI Agent开发入门的课程，介绍工具、模型与任务组织等概念及实践。",
+    "example": "按一个入门单元创建小型Agent，并检查它的执行步骤。"
+  },
+  "composiohq/awesome-claude-skills": {
+    "kind": "list",
+    "summary": "收集Claude相关Skills、工具与工作流资源的目录，帮助寻找适配任务的助手扩展。",
+    "example": "筛选文档处理或开发类技能，回到原仓库核对完整文件及宿主要求。"
+  },
+  "tesseract-ocr/tesseract": {
+    "kind": "cli",
+    "summary": "从图片中识别文字的OCR引擎，常用于扫描文档和图像文本提取，需要选择合适语言数据与输入质量。",
+    "example": "对清晰扫描页运行识别，人工核对版面与关键字词。"
+  },
+  "fortawesome/font-awesome": {
+    "kind": "lib",
+    "summary": "提供图标及SVG、字体、CSS等使用方式的图标工具集，适合界面开发中的常用视觉符号。",
+    "example": "为导航选择合适图标，核对尺寸、样式与所用资源许可。"
+  },
+  "redis/redis": {
+    "kind": "self",
+    "summary": "面向快速数据访问的服务，提供缓存、数据结构及相关查询能力，常用于应用后端的实时数据处理。",
+    "example": "在测试环境缓存一组查询结果，检查过期与更新逻辑。"
+  },
+  "nestjs/nest": {
+    "kind": "framework",
+    "summary": "使用TypeScript或JavaScript构建结构化Node.js服务端应用的框架，适合模块化后端工程。",
+    "example": "创建资源管理API模块，测试请求校验与业务组织。"
+  },
+  "misterbooo/leetcodeanimation": {
+    "kind": "learn",
+    "summary": "通过动画展示算法题解题思路的学习项目，帮助理解步骤、状态和数据变化。",
+    "example": "选择一道不熟悉的题，跟随动画再独立写代码验证。"
+  },
+  "ocornut/imgui": {
+    "kind": "lib",
+    "summary": "以较轻量方式为C++程序添加即时模式图形界面的库，常用于编辑器、调试面板和内部工具。",
+    "example": "给测试程序增加参数调节面板，观察界面与运行状态的关联。"
+  },
+  "openai/openai-cookbook": {
+    "kind": "learn",
+    "summary": "提供OpenAI API使用示例与指南的官方资料仓库，帮助开发者把模型能力接入自己的应用。",
+    "example": "根据任务找到对应示例，配置自己的测试访问方式并检查结果。"
+  },
+  "asabeneh/30-days-of-python": {
+    "kind": "learn",
+    "summary": "按主题逐步学习Python的课程和编程挑战，包含解释与练习，可按自己的节奏推进。",
+    "example": "完成一个基础章节的练习，再写小脚本验证概念。"
+  },
+  "pkuflyingpig/cs-self-learning": {
+    "kind": "learn",
+    "summary": "中文计算机自学指南，帮助选择课程、安排学习路径并找到相关教材和实践资源。",
+    "example": "结合自己的基础选择编程与数学课程，安排练习计划。"
+  },
+  "typicode/json-server": {
+    "kind": "cli",
+    "summary": "用JSON数据快速提供模拟REST API的工具，适合前端原型和接口联调；不应默认当成生产后端。",
+    "example": "为资源列表准备虚构JSON数据，让页面测试查询和编辑交互。"
+  },
+  "ruvnet/ruflo": {
+    "kind": "agent",
+    "summary": "用于组织多Agent协作、任务运行和记忆等能力的执行框架，适合研究或构建复杂助手流程。",
+    "example": "先搭一个小型多角色任务，检查任务分配与实际输出。"
+  },
+  "headroomlabs-ai/headroom": {
+    "kind": "agent",
+    "summary": "在内容进入大模型上下文前压缩工具输出、日志、文件或检索片段的工具，需检查压缩后的信息完整性。",
+    "example": "比较长日志压缩前后的关键错误和结论是否保留。"
+  },
+  "hiyouga/llamafactory": {
+    "kind": "model",
+    "summary": "为多种大模型和多模态模型提供统一微调相关流程的工具，适合有训练数据和硬件条件的开发者。",
+    "example": "用小型测试数据按官方示例运行训练，核对格式与评估输出。"
+  },
+  "chrislgarry/apollo-11": {
+    "kind": "source",
+    "summary": "阿波罗11号制导计算机相关原始代码的历史资料，适合研究早期航天软件与计算机工程。",
+    "example": "按说明阅读一个模块，结合背景资料理解其任务与约束。"
+  },
+  "career-ops-hq/career-ops": {
+    "kind": "agent",
+    "summary": "围绕职位检索、简历匹配、申请材料和面试准备的AI求职助手项目，模型判断和推荐需要人工复核。",
+    "example": "用去除隐私的样例简历比较职位条件，检查匹配理由和材料草稿。"
+  },
+  "apache/superset": {
+    "kind": "self",
+    "summary": "用于数据探索和可视化的分析平台，可连接数据源制作图表与看板，适合分析人员和数据团队。",
+    "example": "连接测试数据集，建立一组业务图表并检查筛选结果。"
+  },
+  "eugeny/tabby": {
+    "kind": "app",
+    "summary": "提供现代终端操作体验的应用，用于管理命令行或远程会话，适合希望集中组织终端工作的用户。",
+    "example": "配置测试终端或自有远程连接，核对会话与外观设置。"
+  },
+  "enaqx/awesome-react": {
+    "kind": "list",
+    "summary": "按主题收集React生态的库、工具与学习资源，帮助开发者选择配套技术。",
+    "example": "为React项目比较表单、路由或测试工具，再到原文检查兼容性。"
+  },
+  "pallets/flask": {
+    "kind": "framework",
+    "summary": "轻量的Python Web框架，适合从简单路由开始搭建服务，再按需选择配套组件。",
+    "example": "写一个小型网页或API示例，验证路由和请求处理。"
+  },
+  "binhnguyennus/awesome-scalability": {
+    "kind": "list",
+    "summary": "汇集大规模系统在扩展性、可靠性和性能方面的架构资料与案例，适合系统设计学习。",
+    "example": "围绕数据库扩展查找案例，比较不同系统的约束和取舍。"
+  },
+  "josephmisiti/awesome-machine-learning": {
+    "kind": "list",
+    "summary": "按语言与用途整理机器学习框架、库和软件的目录，帮助寻找适合特定任务的工具。",
+    "example": "为分类或推荐实验寻找候选库，再核对数据与运行条件。"
+  },
+  "thedaviddias/front-end-checklist": {
+    "kind": "standard",
+    "summary": "用于现代前端交付检查的清单，覆盖页面实现和工程中的常见遗漏，适合开发者或AI助手逐项核对。",
+    "example": "在页面交付前对照清单检查资源、兼容性和交互等相关项。"
+  },
+  "openbq-org/openbb": {
+    "kind": "self",
+    "summary": "面向分析人员、量化研究和AI Agent的数据平台，帮助获取与组织分析数据，数据源有各自的访问条件。",
+    "example": "用可用测试数据源完成一份分析，不将输出当作投资收益保证。"
+  },
+  "colbymchenry/codegraph": {
+    "kind": "agent",
+    "summary": "为代码建立可持续更新的知识图谱索引，帮助AI编程助手查询结构和关系，减少重复读文件。",
+    "example": "索引一个测试项目，再查某个功能的调用与文件关联。"
+  },
+  "danielmiessler/seclists": {
+    "kind": "list",
+    "summary": "集中整理安全评估中使用的字典与测试清单，供授权测试和实验研究选择合适数据。",
+    "example": "在自有测试环境核对输入或路径处理，先阅读字典用途与范围。"
+  },
+  "twitter/the-algorithm": {
+    "kind": "source",
+    "summary": "公开的X推荐算法相关代码，适合研究推荐系统的组织方式，不等于可直接部署的完整社交平台。",
+    "example": "阅读某类推荐流程的代码，结合文档理解信号和处理环节。"
+  },
+  "fffaraz/awesome-cpp": {
+    "kind": "list",
+    "summary": "按用途整理C与C++框架、库和学习资源，帮助为项目寻找网络、图形、工具等配套。",
+    "example": "为C++工具选择图形或数据处理库，再核对平台和许可。"
+  },
+  "unionlabs/union": {
+    "kind": "standard",
+    "summary": "围绕零知识与跨链连接的协议项目，主要面向区块链基础设施开发和研究，需要理解网络与资产风险。",
+    "example": "在官方测试环境研究跨链消息或验证机制，不直接接入真实资产。"
+  },
+  "juliangarnier/anime": {
+    "kind": "lib",
+    "summary": "用JavaScript组织网页动画的引擎，适合控制元素运动、时间和复杂交互动效。",
+    "example": "为页面制作分阶段进入动画，检查节奏与减弱动效设置。"
+  },
+  "toeverything/affine": {
+    "kind": "app",
+    "summary": "把文档、知识整理与白板式规划结合的工作区应用，适合在写作与可视化思考之间切换。",
+    "example": "为一个项目建立需求文档与结构草图，检查组织和导出方式。"
+  },
+  "compvis/stable-diffusion": {
+    "kind": "model",
+    "summary": "潜空间文本生成图像模型的官方研究代码与资源，适合理解和运行相关模型，不是现成的完整设计软件。",
+    "example": "按模型说明准备环境，用小型生成任务检查输入与输出。"
+  },
+  "vuejs/awesome-vue": {
+    "kind": "list",
+    "summary": "收集Vue生态的组件、工具与学习资源，便于为Vue应用选择配套技术。",
+    "example": "为后台项目寻找图表或表单组件，确认支持的Vue版本。"
+  },
+  "strapi/strapi": {
+    "kind": "self",
+    "summary": "可自定义的无头CMS，通过后台管理内容并为前端提供数据接口，适合内容驱动的网站和应用。",
+    "example": "建立一个文章内容类型，再用测试前端读取数据。"
+  },
+  "hakimel/reveal.js": {
+    "kind": "lib",
+    "summary": "用HTML等网页技术制作可交互演示文稿的框架，适合愿意编写内容和样式的演示作者。",
+    "example": "创建一份带章节和代码片段的演示，在浏览器中预览播放。"
+  },
+  "nektos/act": {
+    "kind": "cli",
+    "summary": "在本地运行GitHub Actions相关任务的工具，帮助在推送前调试工作流；本地与托管环境仍可能不同。",
+    "example": "在测试仓库运行一条CI任务，检查依赖和环境差异。"
+  },
+  "moby/moby": {
+    "kind": "source",
+    "summary": "容器生态中用于组装容器系统的开源工程组件项目，主要面向容器基础设施开发与研究。",
+    "example": "阅读容器运行相关模块，在隔离环境学习其组合方式。"
+  },
+  "fission-ai/openspec": {
+    "kind": "cli",
+    "summary": "帮助AI编程助手按规范驱动方式组织需求与变更的工具，减少只靠临时对话执行复杂修改。",
+    "example": "为一个小功能建立规范和任务，再检查实现是否覆盖要求。"
+  },
+  "protocolbuffers/protobuf": {
+    "kind": "standard",
+    "summary": "用于定义结构化数据及生成序列化代码的数据交换格式与工具，适合跨语言服务通信。",
+    "example": "为一个测试消息定义字段，在两端生成代码并检查兼容性。"
+  },
+  "prakhar1989/awesome-courses": {
+    "kind": "list",
+    "summary": "按计算机主题收集大学课程的目录，帮助学习者选择系统课程和对应材料。",
+    "example": "围绕算法或系统选择课程，核对先修知识和练习安排。"
+  },
+  "binary-husky/gpt_academic": {
+    "kind": "self",
+    "summary": "面向论文阅读、翻译、润色和学术资料处理的大模型交互工具，提供针对文档任务的扩展流程。",
+    "example": "用有权处理的样例论文测试摘要或翻译，人工核对术语与引用。"
+  },
+  "debpalash/voicestudio": {
+    "kind": "app",
+    "summary": "面向语音克隆、配音、转写和有声内容制作的本地音频工作区项目，具体语言与模型能力需核对配置。",
+    "example": "使用自己授权的录音做短配音测试，检查音色、发音与授权条件。"
+  },
+  "ansible/ansible": {
+    "kind": "cli",
+    "summary": "通过配置和任务描述自动部署、配置及维护服务器与设备的工具，适合重复运维工作。",
+    "example": "在测试主机上运行一个配置任务，检查变更与重复执行结果。"
+  },
+  "foundationagents/metagpt": {
+    "kind": "agent",
+    "summary": "用不同角色与协作步骤组织软件任务的多Agent框架，帮助从需求向规划、代码等产物推进。",
+    "example": "用一个很小的需求观察角色协作，并逐项核对生成产物。"
+  },
+  "tw93/mole": {
+    "kind": "cli",
+    "summary": "用于系统清理和设备维护相关任务的工具项目，执行前需要理解具体操作会处理哪些文件或设置。",
+    "example": "先查看只读分析或预览能力，核对拟处理内容后再决定是否执行。"
+  },
+  "swiftlang/swift": {
+    "kind": "source",
+    "summary": "Swift语言及工具链的代码仓库，面向应用和系统开发，使用时需准备目标平台的开发环境。",
+    "example": "安装适用工具链后运行基础例子，再学习类型与并发等语言特性。"
+  },
+  "cline/cline": {
+    "kind": "agent",
+    "summary": "以SDK、编辑器扩展或命令行等方式提供的AI编程助手，帮助在工程中理解和执行开发任务。",
+    "example": "用测试项目完成一次小修改，核对文件操作、模型费用与测试结果。"
+  },
+  "rohitg00/ai-engineering-from-scratch": {
+    "kind": "learn",
+    "summary": "面向AI工程从基础到实现与交付的学习项目，帮助把概念转化为可运行应用。",
+    "example": "按课程构建最小AI功能，再记录部署和评估过程。"
+  },
+  "code-yeongyu/oh-my-openagent": {
+    "kind": "agent",
+    "summary": "给AI编程工作环境提供任务编排与Agent协作能力的配套项目，需按来源配置相应宿主与模型。",
+    "example": "在隔离工程试运行一个有限任务，检查分工、工具调用和输出。"
+  },
+  "microsoft/ai-for-beginners": {
+    "kind": "learn",
+    "summary": "涵盖人工智能基础主题的课程体系，帮助理解相关算法与应用方向，不是直接可用的万能AI产品。",
+    "example": "按基础课程完成一节实验，说明模型输入与评价方法。"
+  },
+  "asgeirtj/system_prompts_leaks": {
+    "kind": "list",
+    "summary": "记录不同AI工具系统提示词的研究资料集合，可用于比较产品如何描述角色、工具和行为边界。",
+    "example": "比较两份任务执行提示词，提炼适合自己场景的写法并实际验证。"
+  },
+  "expressjs/express": {
+    "kind": "framework",
+    "summary": "用于Node.js的轻量Web框架，适合构建路由、中间件与API服务，需要自行组织应用结构。",
+    "example": "为测试前端提供资源查询和保存接口，检查错误处理。"
+  },
+  "dani-garcia/vaultwarden": {
+    "kind": "self",
+    "summary": "兼容Bitwarden相关客户端的非官方密码管理服务实现，适合自行部署者；需认真配置访问、存储与备份。",
+    "example": "在隔离环境验证客户端连接和备份恢复，再评估维护要求。"
+  },
+  "burntsushi/ripgrep": {
+    "kind": "cli",
+    "summary": "在目录中高速搜索文本与正则表达式的命令行工具，会按规则处理忽略文件，适合代码定位和资料查找。",
+    "example": "在仓库搜索一个函数名或配置项，缩小需要阅读的文件范围。"
+  },
+  "usestrix/strix": {
+    "kind": "agent",
+    "summary": "面向应用漏洞发现与修复辅助的AI安全测试工具，需要明确授权范围与测试环境。",
+    "example": "在自有实验应用上运行有限测试，人工复核报告与修复建议。"
+  },
+  "docling-project/docling": {
+    "kind": "framework",
+    "summary": "将文档内容解析并转换成适合AI与数据处理使用的结构化形式，帮助处理版面、文本和相关内容。",
+    "example": "转换一份测试PDF，核对标题顺序、表格及正文是否完整。"
+  },
+  "calesthio/openmontage": {
+    "kind": "skill",
+    "summary": "为AI编程助手提供视频制作管线、工具与生产知识的一整套资源，帮助按阶段组织视频创作。",
+    "example": "按一个短视频场景核对所需工具与完整配套，再逐步生成并保存产物。"
+  },
+  "byoungd/up": {
+    "kind": "learn",
+    "summary": "围绕终身学习、英语、AI和个人成长整理的中文指南与经验资料，适合规划学习和获取方法参考。",
+    "example": "选择与自己目标相关的章节，把建议转成可执行学习计划。"
+  },
+  "gorhill/ublock": {
+    "kind": "app",
+    "summary": "用于浏览器内容拦截的uBlock Origin项目，通过过滤规则处理网页请求与内容，需要核对浏览器及扩展版本支持。",
+    "example": "在支持的浏览器中检查默认过滤效果，按需调整站点规则。"
+  },
+  "openinterpreter/openinterpreter": {
+    "kind": "agent",
+    "summary": "围绕开放模型与代码工具执行任务的编程助手项目，连接模型和执行环境后处理开发或计算任务。",
+    "example": "在隔离目录中让助手完成一个小型数据脚本，检查执行内容与输出。"
+  },
+  "chartjs/chart.js": {
+    "kind": "lib",
+    "summary": "基于Canvas绘制常用网页图表的JavaScript库，适合快速加入折线、柱状等标准数据展示。",
+    "example": "为后台统计区加入一张测试趋势图，检查标签、提示和窗口适配。"
+  },
+  "scikit-learn/scikit-learn": {
+    "kind": "framework",
+    "summary": "Python机器学习库，提供常见分类、回归、聚类和评估工具，适合结构化数据实验。",
+    "example": "用小型表格数据建立基线模型，比较训练与测试集指标。"
+  },
+  "shanraisshan/claude-code-best-practice": {
+    "kind": "learn",
+    "summary": "围绕Claude Code等AI辅助开发的实践资料，帮助从临时提示转向更有工程纪律的任务执行。",
+    "example": "选一条与项目相关的实践，用小任务观察计划与验证是否改善。"
+  },
+  "labmlai/annotated_deep_learning_paper_implementations": {
+    "kind": "learn",
+    "summary": "将深度学习论文实现与逐段解释并列展示，帮助把论文公式与实际代码对应起来。",
+    "example": "阅读一个注意力或优化器实现，运行例子核对数学与张量操作。"
+  },
+  "apache/echarts": {
+    "kind": "lib",
+    "summary": "面向浏览器的交互数据可视化库，提供常用及较丰富图表配置，适合业务看板与数据展示开发。",
+    "example": "使用测试数据制作可筛选的业务图表，检查图例、提示和布局。"
+  },
+  "mem0ai/mem0": {
+    "kind": "agent",
+    "summary": "为AI应用和智能体提供跨任务保留上下文的记忆层，帮助按需要保存与检索相关信息。",
+    "example": "在测试助手中记录非敏感偏好，再检查后续会话的召回是否准确。"
+  },
+  "mintplex-labs/anything-llm": {
+    "kind": "self",
+    "summary": "把模型、资料与Agent体验组织在一起的本地优先AI应用，适合构建面向自身文档的问答工作区。",
+    "example": "导入少量测试资料，配置模型后检查回答与文档依据。"
+  },
+  "bradtraversy/design-resources-for-developers": {
+    "kind": "list",
+    "summary": "为开发者整理图片、模板、CSS框架、UI组件和设计工具等资源，帮助补齐界面制作所需素材。",
+    "example": "为一个网页寻找图标和配色工具，逐项核对许可与使用方式。"
+  },
+  "sindresorhus/awesome-nodejs": {
+    "kind": "list",
+    "summary": "按用途整理Node.js包与开发资源，帮助为服务端或命令行项目寻找合适依赖。",
+    "example": "查找日志或HTTP相关工具，再比较原仓库的维护与兼容条件。"
+  },
+  "heygen-com/hyperframes": {
+    "kind": "framework",
+    "summary": "通过HTML等网页内容渲染视频的项目，适合把可编程页面内容转为媒体输出，需要按来源搭建渲染环境。",
+    "example": "用一个简短HTML动画生成测试片段，核对时长、字体和输出画面。"
+  },
+  "cathrynlavery/diagram-design": {
+    "kind": "skill",
+    "summary": "让AI编程助手生成独立HTML加SVG图表的技能，关注图表结构与品牌视觉，可用于架构和业务说明。",
+    "example": "向已加载技能的助手描述系统关系，打开生成HTML检查内容后导出所需图形。"
+  }
+}

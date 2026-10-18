@@ -1,5 +1,6 @@
 const fs=require('node:fs/promises'),path=require('node:path'),https=require('node:https');
 const policy=require('../electron/engine/github-hot-policy');
+const {enrich}=require('../electron/engine/github-hot-guides');
 const DAY=86400000;
 function request(url,{token='',accept='application/vnd.github+json',maxBytes=4*1024*1024,redirects=3}={}){
   const u=new URL(url);if(u.protocol!=='https:'||!['github.com','api.github.com','raw.githubusercontent.com'].includes(u.hostname)||u.username||u.password)throw Error('不支持的数据源地址');
@@ -21,18 +22,11 @@ function plainReadme(value){return value.replace(/<script\b[\s\S]*?<\/script>/gi
 function categoryFor(repo){const s=(repo.full_name+' '+(repo.description||'')+' '+(repo.topics||[]).join(' ')).toLowerCase();const cats=[];
  for(const [name,re]of [['3D 与游戏',/\b(blender|3d|game|godot|threejs|three\.js)\b/],['设计与创意',/design|drawing|canvas|ui-ux|illustration|figma|shadcn|bootstrap/],['图像、视频与音频',/video|audio|image|diffusion|comfyui|youtube|yt-dlp|iptv/],['学习与教程',/awesome|tutorial|learn|course|interview|roadmap|book|algorithm|beginners|cs-notes/],['AI 与智能体',/\b(ai|llm|agent|gpt|claude|codex|model|skills|ollama|transformers|tensorflow)\b/],['数据与知识管理',/database|knowledge|note-taking|rag|vector|search|markitdown|graphify/],['效率与办公',/productivity|automation|workflow|office|self-hosted|selfhosted|n8n/],['系统与实用工具',/linux|system|terminal|proxy|vpn|scrcpy|rustdesk|powertoys|zsh|activation|v2ray|free-for-dev|freedomain/]])if(re.test(s))cats.push(name);
  return cats.length?cats.slice(0,3):['开发与编程'];}
-const guidance={
- 'AI 与智能体':['AI 工具、智能体或相关资源项目','构建 AI 应用或智能体工作流','先查看官方 README 的安装与配置章节，再以最小示例验证输入和输出。','模型、API Key、运行资源及费用以官方文档为准。'],
- '开发与编程':['编程开发工具、框架或工程项目','开发应用、搭建工程或学习实现方式','先确认项目支持的语言和运行环境，按官方快速开始创建最小示例。','需要的语言环境、依赖和版本以官方说明为准。'],
- '设计与创意':['界面设计、组件或创意资源项目','制作界面、设计组件或整理视觉参考','先查看在线演示或 README 的使用示例，再选择需要的组件或设计资料。','浏览器、开发环境及资源授权以官方文档为准。'],
- '图像、视频与音频':['图像、音视频工具或资源项目','处理图像、音频或视频内容','先查看官方安装方式，使用一个小样本验证支持的输入格式与输出效果。','模型、算力、文件格式和外部服务要求以官方说明为准。'],
- '3D 与游戏':['三维制作、游戏引擎或相关开发项目','制作三维内容或交互游戏','先打开官方入门指南，完成最小场景并验证预览或构建输出。','图形硬件、编辑器和运行平台以官方说明为准。'],
- '效率与办公':['效率应用、自动化或自托管资源项目','改进日常工作或组织自动化流程','先确认是在线服务还是本地部署，按 README 建立最小工作流再验证结果。','部署方式、账号与付费服务要求以官方说明为准。'],
- '数据与知识管理':['数据处理、检索或知识组织项目','整理资料、构建检索或处理数据','先查看官方数据格式与使用示例，用小规模数据验证导入、查询和输出。','存储、服务及索引依赖以官方文档为准。'],
- '系统与实用工具':['系统工具、实用软件或资源项目','管理系统环境或完成日常实用任务','先核对支持的操作系统和安装说明，使用官方示例确认功能。','系统版本、权限与依赖以官方文档为准。'],
- '学习与教程':['学习教程、示例或资源目录','查找学习路径、教程和实践项目','先阅读 README 的目录和学习路径，再从适合当前基础的章节或示例开始。','部分关联资料可能需要外部网站或开发环境；逐项查看原始说明。']};
-function normalize(repo,editorial,readme,now){const custom=editorial[repo.full_name.toLowerCase()]||{},cats=custom.categories||categoryFor(repo),g=guidance[cats[0]],home=repo.homepage||'';let homepage='';try{homepage=policy.httpsUrl(home);}catch(_){}
- return {id:repo.full_name.toLowerCase(),fullName:repo.full_name,url:'https://github.com/'+repo.full_name,homepage,stars:repo.stargazers_count,forks:repo.forks_count||0,archived:false,fork:false,description:(repo.description||'').slice(0,3000),summary:custom.summary||g[0]+'；具体能力见下方来源说明。',categories:cats,platforms:custom.platforms||['按官方说明'],scenarios:custom.scenarios||[g[1]],usage:custom.usage||g[2],requirements:custom.requirements||g[3],quickStart:custom.quickStart||'1. 打开官方 README，查看安装、快速开始或目录。\n2. 按项目说明准备环境或打开官方演示。\n3. 运行最小示例，对照官方示例检查输出。',readmeUrl:readme?.url||'https://github.com/'+repo.full_name+'#readme',readmeExcerpt:readme?.text||'',readmeFetchedAt:readme?.fetchedAt||null,language:repo.language||'未标注',license:repo.license?.spdx_id||'未标注',pushedAt:repo.pushed_at||now,checkedAt:now,topics:(repo.topics||[]).slice(0,50),editorialStatus:custom.summary?'中文导读':'分类导读'};}
+function normalize(repo,editorial,readme,now){const custom=editorial[repo.full_name.toLowerCase()]||{},cats=custom.categories||categoryFor(repo),home=repo.homepage||'';let homepage='';try{homepage=policy.httpsUrl(home);}catch(_){}
+ const item=enrich({id:repo.full_name.toLowerCase(),fullName:repo.full_name,url:'https://github.com/'+repo.full_name,homepage,stars:repo.stargazers_count,forks:repo.forks_count||0,archived:false,fork:false,description:(repo.description||'').slice(0,3000),summary:'',categories:cats,platforms:custom.platforms||['按官方说明'],readmeUrl:readme?.url||'https://github.com/'+repo.full_name+'#readme',readmeExcerpt:readme?.text||'',readmeFetchedAt:readme?.fetchedAt||null,language:repo.language||'未标注',license:repo.license?.spdx_id||'未标注',pushedAt:repo.pushed_at||now,checkedAt:now,topics:(repo.topics||[]).slice(0,50)});
+ // Keep project-specific overrides when maintained, rather than replacing them with category boilerplate.
+ for(const key of ['scenarios','usage','requirements','quickStart'])if(custom[key])item[key]=custom[key];
+ return item;}
 function metricFor(repo,snapshots,now,trending){const target=Date.parse(now)-7*DAY,candidates=snapshots.filter(s=>Math.abs(Date.parse(s.at)-target)<=3600000&&Number.isSafeInteger(s.stars[repo.id]));candidates.sort((a,b)=>Math.abs(Date.parse(a.at)-target)-Math.abs(Date.parse(b.at)-target));if(candidates.length)return {delta:Math.max(0,repo.stars-candidates[0].stars[repo.id]),metric:'snapshot',observedAt:now,periodStart:candidates[0].at,periodEnd:now};return trending.find(x=>x.id===repo.id)||null;}
 async function collect({directory,editorialFile,token='',publish=false,now=new Date().toISOString(),fetch=request}){
  await fs.mkdir(directory,{recursive:true});const read=async(name,fallback)=>{try{return JSON.parse(await fs.readFile(path.join(directory,name),'utf8'));}catch(e){if(e.code==='ENOENT')return fallback;throw e;}};

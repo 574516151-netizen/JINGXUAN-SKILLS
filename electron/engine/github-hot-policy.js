@@ -16,6 +16,7 @@ function validateRepo(r,threshold=THRESHOLD){
   check(Array.isArray(r.platforms)&&r.platforms.length<=8&&r.platforms.every(x=>typeof x==='string'&&x.length<=40),'使用平台');
   check(Array.isArray(r.scenarios)&&r.scenarios.length<=6&&r.scenarios.every(x=>typeof x==='string'&&x.length<=600),'场景');
   text(r.usage,1800);text(r.requirements,1800);text(r.quickStart,4000);text(r.readmeExcerpt,24000);date(r.checkedAt);date(r.pushedAt);
+  if(r.guide!==undefined){const g=r.guide;check(g&&Number.isInteger(g.version)&&g.version>=1&&typeof g.curated==='boolean','项目导读');text(g.kind,80);text(g.audience,600);text(g.example,600);text(g.basis,600);check(Array.isArray(g.steps)&&g.steps.length>0&&g.steps.length<=6,'入门步骤');g.steps.forEach(s=>text(s,1000));}
   if(r.readmeFetchedAt)date(r.readmeFetchedAt);
   check(Array.isArray(r.topics)&&r.topics.length<=50&&r.topics.every(x=>typeof x==='string'&&x.length<=100),'主题');
   return r;
