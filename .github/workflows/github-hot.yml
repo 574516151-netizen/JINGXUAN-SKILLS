@@ -27,17 +27,20 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FORCE_PUBLISH: ${{ inputs.publish }}
+          COCKPIT_HOT_GUIDE_KEYS: ${{ secrets.COCKPIT_HOT_GUIDE_KEYS }}
         run: |
           args=()
           if [ "$FORCE_PUBLISH" = "true" ]; then args+=(--publish); fi
           node scripts/github-hot-collect.cjs --directory catalog --editorial catalog/github-hot-editorial.json "${args[@]}"
       - name: Validate published feed
         run: node scripts/validate-github-hot.cjs
+      - name: Verify Chinese publication gate
+        run: node tests/github-hot-admission-core.cjs
       - name: Save public snapshots and editions
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add catalog/github-hot.json catalog/github-hot-state.json
+          git add catalog/github-hot.json catalog/github-hot-state.json catalog/github-hot-guide-state.json
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Update GitHub hot snapshots and weekly edition'
+          git commit -m 'Update GitHub snapshots, Chinese guide queue and weekly edition'
           git push origin HEAD:main

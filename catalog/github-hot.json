@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "thresholdExclusive": 50000,
   "maxItems": 300,
-  "generatedAt": "2026-10-18T08:48:34.227Z",
+  "generatedAt": "2026-10-18T09:20:35.251Z",
   "editions": [
     {
       "id": "2026-10-17-r2",
@@ -33269,5 +33269,6 @@
       },
       "thresholdExclusive": 100000
     }
-  ]
+  ],
+  "guidePolicyVersion": 1
 }

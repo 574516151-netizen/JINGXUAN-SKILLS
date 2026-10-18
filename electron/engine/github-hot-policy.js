@@ -1,4 +1,5 @@
 const THRESHOLD=50000,MAX=300;
+const {assertPublished}=require('./github-hot-admission');
 const categories=['AI 与智能体','开发与编程','设计与创意','图像、视频与音频','3D 与游戏','效率与办公','数据与知识管理','系统与实用工具','学习与教程'];
 const repoPattern=/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/;
 function check(value,message){if(!value)throw Error('GitHub 热榜数据无效：'+message);}
@@ -43,6 +44,6 @@ function validateEdition(e,maxItems=MAX,threshold=THRESHOLD){
   }
   check(Number.isInteger(e.candidateCount)&&e.candidateCount>=e.items.length,'候选数量');text(e.coverage,2000);text(e.weeklyNote,1200);return e;
 }
-function validateFeed(feed){check(feed?.schemaVersion===1&&[THRESHOLD,100000].includes(feed.thresholdExclusive)&&[100,MAX].includes(feed.maxItems),'规则版本');date(feed.generatedAt);check(Array.isArray(feed.editions)&&feed.editions.length>0&&feed.editions.length<=12,'最近 12 期');let previous=Infinity;const seen=new Set();for(const e of feed.editions){validateEdition(e,feed.maxItems,feed.thresholdExclusive);check(!seen.has(e.id)&&Date.parse(e.publishedAt)<=previous,'期号重复或顺序');previous=Date.parse(e.publishedAt);seen.add(e.id);}return feed;}
+function validateFeed(feed){check(feed?.schemaVersion===1&&[THRESHOLD,100000].includes(feed.thresholdExclusive)&&[100,MAX].includes(feed.maxItems),'规则版本');date(feed.generatedAt);check(Array.isArray(feed.editions)&&feed.editions.length>0&&feed.editions.length<=12,'最近 12 期');let previous=Infinity;const seen=new Set();for(const e of feed.editions){validateEdition(e,feed.maxItems,feed.thresholdExclusive);check(!seen.has(e.id)&&Date.parse(e.publishedAt)<=previous,'期号重复或顺序');previous=Date.parse(e.publishedAt);seen.add(e.id);}if(feed.guidePolicyVersion!==undefined){check(feed.guidePolicyVersion===1,'中文导读规则版本');assertPublished(feed);}return feed;}
 function boardRows(items,previous=[],metric=null){const prior=new Map(previous.map(x=>[x.id,x]));return items.slice(0,MAX).map((r,i)=>{const old=prior.get(r.id);return {id:r.id,rank:i+1,change:old?old.rank-(i+1):null,streak:old?(old.streak||1)+1:1,...(metric?metric(r):{})};});}
 module.exports={THRESHOLD,MAX,categories,repoPattern,validateRepo,validateEdition,validateFeed,boardRows,httpsUrl};

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "guides": {},
+  "pending": {
+    "prometheus/prometheus": {
+      "id": "prometheus/prometheus",
+      "sourceHash": "1629239fb7ee3cb5b69911368296f1d92b1e518037f0d272ccdb2eef7b30525d",
+      "firstSeenAt": "2026-10-18T09:16:24.239Z",
+      "attempts": 3,
+      "lastSeenAt": "2026-10-18T09:17:49.625Z",
+      "readmeUrl": "https://github.com/prometheus/prometheus/blob/main/README.md",
+      "reason": "http-429",
+      "lastAttemptAt": "2026-10-18T09:17:49.625Z",
+      "nextAttemptAt": "2026-10-19T09:17:49.625Z"
+    }
+  },
+  "budget": {
+    "day": "2026-10-18",
+    "counts": {
+      "openrouter": 1
+    }
+  }
+}

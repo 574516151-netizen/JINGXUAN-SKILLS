@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "providers": [
+    {
+      "name": "openrouter",
+      "model": "google/gemma-4-31b-it:free"
+    }
+  ]
+}

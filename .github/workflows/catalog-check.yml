@@ -17,3 +17,5 @@ jobs:
 
       - run: node scripts/validate-github-hot.cjs
       - run: node tests/github-hot-feed.cjs
+
+      - run: node tests/github-hot-admission-core.cjs
