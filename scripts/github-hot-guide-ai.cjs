@@ -24,7 +24,7 @@ function createCompleter({providers=[],keys={},fetcher=fetch,budget={day:'',coun
   budget.counts[p.name]=(budget.counts[p.name]||0)+1;
   let response;try{response=await fetcher(url,{method:'POST',headers,body:JSON.stringify(body),redirect:'error',signal:AbortSignal.timeout(45000)});}catch(_){throw Error('network-unavailable');}
   const data=await responseJson(response),text=p.name==='gemini'?data.candidates?.[0]?.content?.parts?.filter(v=>!v.thought).map(v=>v.text||'').join(''):data.choices?.[0]?.message?.content;
-  if(p.name==='openrouter'&&data.choices?.[0]?.finish_reason==='length')throw Error('invalid-response');return decode(text);
+  if((p.name==='openrouter'&&data.choices?.[0]?.finish_reason==='length')||(p.name==='gemini'&&data.candidates?.[0]?.finishReason!=='STOP'))throw Error('invalid-response');return decode(text);
  }
  return async function complete(item,now){let reason=Error('missing-api-key');
   for(const p of providers.slice(0,2)){if(!keys[p.name])continue;try{

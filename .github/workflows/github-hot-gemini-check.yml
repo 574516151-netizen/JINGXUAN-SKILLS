@@ -1,0 +1,30 @@
+name: Check Gemini backup key
+run-name: Gemini backup check ${{ inputs.setup_id }}
+on:
+  workflow_dispatch:
+    inputs:
+      setup_id:
+        description: Configuration session identifier
+        required: true
+        type: string
+      confirmed_free_project:
+        description: User confirmed the key belongs to a project without linked billing
+        required: true
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check official model and Chinese response
+        env:
+          COCKPIT_GEMINI_CANDIDATE_KEY: ${{ secrets[format('COCKPIT_GEMINI_CANDIDATE_{0}', inputs.setup_id)] }}
+          CONFIRMED_FREE_PROJECT: ${{ inputs.confirmed_free_project }}
+        run: node scripts/github-hot-gemini-check.cjs
