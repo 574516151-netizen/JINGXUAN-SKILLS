@@ -7,15 +7,37 @@
       "sourceHash": "1629239fb7ee3cb5b69911368296f1d92b1e518037f0d272ccdb2eef7b30525d",
       "firstSeenAt": "2026-10-18T09:16:24.239Z",
       "attempts": 4,
-      "lastSeenAt": "2026-10-18T10:13:34.686Z",
+      "lastSeenAt": "2026-10-19T06:10:18.286Z",
       "readmeUrl": "https://github.com/prometheus/prometheus/blob/main/README.md",
       "reason": "http-429",
       "lastAttemptAt": "2026-10-18T10:13:34.686Z",
       "nextAttemptAt": "2026-10-19T10:13:34.686Z"
+    },
+    "storytold/photocraft": {
+      "id": "storytold/photocraft",
+      "sourceHash": "73ff302031c134d69dab60c54aedcf34dcd78212949a8019dfa1324a2e2cdba3",
+      "firstSeenAt": "2026-10-19T06:10:18.286Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-10-19T06:10:18.286Z",
+      "readmeUrl": "https://github.com/storytold/photocraft/blob/main/README.md",
+      "reason": "http-429",
+      "lastAttemptAt": "2026-10-19T06:10:18.286Z",
+      "nextAttemptAt": "2026-10-20T06:10:18.286Z"
+    },
+    "madslorentzen/ai-job-search": {
+      "id": "madslorentzen/ai-job-search",
+      "sourceHash": "2f7636632b585fcf4123e19a957c7f26678022b9f7ff20fb28382c3ae6154eac",
+      "firstSeenAt": "2026-10-19T06:10:18.286Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-10-19T06:10:18.286Z",
+      "readmeUrl": "https://github.com/MadsLorentzen/ai-job-search/blob/master/README.md",
+      "reason": "http-429",
+      "lastAttemptAt": "2026-10-19T06:10:18.286Z",
+      "nextAttemptAt": "2026-10-20T06:10:18.286Z"
     }
   },
   "budget": {
-    "day": "2026-10-18",
+    "day": "2026-10-19",
     "counts": {
       "openrouter": 2
     }
