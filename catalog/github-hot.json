@@ -3,7 +3,7 @@
   "guidePolicyVersion": 1,
   "thresholdExclusive": 50000,
   "maxItems": 300,
-  "generatedAt": "2026-10-19T06:10:18.286Z",
+  "generatedAt": "2026-10-19T22:17:44.626Z",
   "editions": [
     {
       "id": "2026-10-19",
@@ -52077,5 +52077,19 @@
       },
       "thresholdExclusive": 100000
     }
-  ]
+  ],
+  "updateStatus": {
+    "lastCollectedAt": "2026-10-19T22:17:44.626Z",
+    "pendingCount": 5,
+    "readyCount": 0,
+    "reasons": [
+      {
+        "code": "daily-budget-exhausted",
+        "label": "今日补全请求预算已用尽",
+        "action": "下个UTC日恢复预算后继续处理",
+        "count": 5,
+        "nextAttemptAt": "2026-10-20T00:00:00.000Z"
+      }
+    ]
+  }
 }

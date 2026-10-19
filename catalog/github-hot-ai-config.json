@@ -3,7 +3,11 @@
   "providers": [
     {
       "name": "openrouter",
-      "model": "google/gemma-4-31b-it:free"
+      "model": "google/gemma-4-31b-it:free",
+      "models": [
+        "minimax/minimax-m3.1-flash:free",
+        "nvidia/nemotron-3.5-lightning:free"
+      ]
     }
   ]
 }
