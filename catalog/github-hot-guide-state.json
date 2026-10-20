@@ -1,77 +1,178 @@
 {
   "schemaVersion": 1,
-  "guides": {},
-  "pending": {
+  "guides": {
     "prometheus/prometheus": {
-      "id": "prometheus/prometheus",
       "sourceHash": "1629239fb7ee3cb5b69911368296f1d92b1e518037f0d272ccdb2eef7b30525d",
-      "firstSeenAt": "2026-10-18T09:16:24.239Z",
-      "attempts": 11,
-      "lastSeenAt": "2026-10-19T22:17:44.626Z",
-      "readmeUrl": "https://github.com/prometheus/prometheus/blob/main/README.md",
-      "reason": "daily-budget-exhausted",
-      "lastAttemptAt": "2026-10-19T22:17:44.626Z",
-      "nextAttemptAt": "2026-10-20T00:00:00.000Z"
-    },
+      "completedAt": "2026-10-20T05:59:29.609Z",
+      "content": {
+        "summary": "Prometheus 是一个云原生监控与时间序列数据库项目，可定时采集目标指标、评估规则、展示结果，并在满足条件时触发告警。",
+        "scenarios": [
+          "运维人员通过 HTTP 拉取模式定时采集已配置目标的指标，并使用 PromQL 查询多维时间序列数据。",
+          "监控系统发现特定状态后评估规则表达式，并在观察到处方条件时触发告警。",
+          "团队通过服务发现或静态配置管理监控目标，并使用图形和仪表板支持查看分析结果。",
+          "批处理作业经由中间网关推送时间序列数据，以补充常规采集方式。"
+        ],
+        "usage": "用于监控系统和服务，按间隔采集指标、计算规则表达式、呈现监控结果以及触发告警。",
+        "requirements": "需要可用的 Docker 环境并能够获取 `prom/prometheus` 镜像；其他安装条件和环境要求以原文为准。",
+        "quickStart": "1. 使用 `docker run --name prometheus -d -p 127.0.0.1:9090:9090 prom/prometheus` 启动 Prometheus 容器。\n2. 按照原文说明检查容器启动后的 Prometheus 是否已经可以访问。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "用于监控系统和服务，按间隔采集指标、计算规则表达式、呈现监控结果以及触发告警。",
+          "audience": "云原生系统运维人员、监控平台开发者和可靠性工程师",
+          "example": "运维人员通过 HTTP 拉取模式定时采集已配置目标的指标，并使用 PromQL 查询多维时间序列数据。",
+          "steps": [
+            "使用 `docker run --name prometheus -d -p 127.0.0.1:9090:9090 prom/prometheus` 启动 Prometheus 容器。",
+            "按照原文说明检查容器启动后的 Prometheus 是否已经可以访问。"
+          ],
+          "verification": "建议对照原文的容器启动说明检查结果，确认 Prometheus 容器启动后已处于可访问状态；原文未提供验收脚本。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The Prometheus monitoring system and time series database."
+            },
+            {
+              "field": "purpose",
+              "quote": "It collects metrics\nfrom configured targets at given intervals, evaluates rule expressions,\ndisplays the results, and can trigger alerts when specified conditions are observed."
+            },
+            {
+              "field": "scenarios",
+              "quote": "An HTTP **pull model** for time series collection"
+            },
+            {
+              "field": "steps",
+              "quote": "docker run --name prometheus -d -p 127.0.0.1:9090:9090 prom/prometheus"
+            },
+            {
+              "field": "verification",
+              "quote": "Prometheus will now be reachable at ."
+            }
+          ],
+          "sourceHash": "1629239fb7ee3cb5b69911368296f1d92b1e518037f0d272ccdb2eef7b30525d",
+          "sourceUrl": "https://github.com/prometheus/prometheus/blob/main/README.md",
+          "basis": "依据官方简介和 README 自动整理，并检查中文完整性及原文依据；场景示例不代表实际运行测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "1629239fb7ee3cb5b69911368296f1d92b1e518037f0d272ccdb2eef7b30525d",
+            "checkedAt": "2026-10-20T05:59:29.609Z"
+          }
+        },
+        "editorialStatus": "中文导读 · 原文依据已检查"
+      }
+    }
+  },
+  "pending": {
     "storytold/photocraft": {
       "id": "storytold/photocraft",
       "sourceHash": "73ff302031c134d69dab60c54aedcf34dcd78212949a8019dfa1324a2e2cdba3",
       "firstSeenAt": "2026-10-19T06:10:18.286Z",
-      "attempts": 2,
-      "lastSeenAt": "2026-10-19T22:17:44.626Z",
+      "attempts": 3,
+      "lastSeenAt": "2026-10-20T05:59:29.609Z",
       "readmeUrl": "https://github.com/storytold/photocraft/blob/main/README.md",
-      "reason": "daily-budget-exhausted",
-      "lastAttemptAt": "2026-10-19T22:17:44.626Z",
-      "nextAttemptAt": "2026-10-20T00:00:00.000Z"
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-10-20T05:59:29.609Z",
+      "nextAttemptAt": "2026-10-20T06:59:29.609Z"
     },
     "madslorentzen/ai-job-search": {
       "id": "madslorentzen/ai-job-search",
       "sourceHash": "2f7636632b585fcf4123e19a957c7f26678022b9f7ff20fb28382c3ae6154eac",
       "firstSeenAt": "2026-10-19T06:10:18.286Z",
-      "attempts": 2,
-      "lastSeenAt": "2026-10-19T22:17:44.626Z",
+      "attempts": 3,
+      "lastSeenAt": "2026-10-20T05:59:29.609Z",
       "readmeUrl": "https://github.com/MadsLorentzen/ai-job-search/blob/master/README.md",
-      "reason": "daily-budget-exhausted",
-      "lastAttemptAt": "2026-10-19T22:17:44.626Z",
-      "nextAttemptAt": "2026-10-20T00:00:00.000Z"
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-10-20T05:59:29.609Z",
+      "nextAttemptAt": "2026-10-20T06:59:29.609Z"
     },
     "z4nzu/hackingtool": {
       "id": "z4nzu/hackingtool",
       "sourceHash": "f2acf4532eeb4f8ed4f18db40b4e7169928ce4cbbac12cff9b70eae7b1c410f4",
       "firstSeenAt": "2026-10-19T22:17:44.626Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-10-19T22:17:44.626Z",
+      "attempts": 2,
+      "lastSeenAt": "2026-10-20T05:59:29.609Z",
       "readmeUrl": "https://github.com/Z4nzu/hackingtool/blob/master/README.md",
-      "reason": "daily-budget-exhausted",
-      "lastAttemptAt": "2026-10-19T22:17:44.626Z",
-      "nextAttemptAt": "2026-10-20T00:00:00.000Z"
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-10-20T05:59:29.609Z",
+      "nextAttemptAt": "2026-10-20T06:59:29.609Z"
     },
     "k-dense-ai/scientific-agent-skills": {
       "id": "k-dense-ai/scientific-agent-skills",
       "sourceHash": "c623a663261aeefd9b40c8bc15a6873e0a5b5a65c4cec29094a8d3792d661e4b",
       "firstSeenAt": "2026-10-19T22:17:44.626Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-10-19T22:17:44.626Z",
+      "attempts": 2,
+      "lastSeenAt": "2026-10-20T05:59:29.609Z",
       "readmeUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/README.md",
-      "reason": "daily-budget-exhausted",
-      "lastAttemptAt": "2026-10-19T22:17:44.626Z",
-      "nextAttemptAt": "2026-10-20T00:00:00.000Z"
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-10-20T05:59:29.609Z",
+      "nextAttemptAt": "2026-10-20T06:59:29.609Z"
     }
   },
   "budget": {
-    "day": "2026-10-19",
+    "day": "2026-10-20",
     "counts": {
-      "openrouter": 20
+      "openrouter": 12
     },
     "lastValidation": {
-      "id": "prometheus/prometheus",
+      "id": "madslorentzen/ai-job-search",
       "model": "nvidia/nemotron-3.5-lightning:free",
       "issues": [
         "missing-chinese-scenarios",
         "missing-source-evidence"
       ],
-      "checkedAt": "2026-10-19T22:14:30.563Z"
+      "checkedAt": "2026-10-20T05:59:29.609Z"
     }
   },
-  "drafts": {}
+  "drafts": {
+    "storytold/photocraft|openrouter/minimax/minimax-m3.1-flash:free": {
+      "sourceHash": "73ff302031c134d69dab60c54aedcf34dcd78212949a8019dfa1324a2e2cdba3",
+      "draft": {
+        "kind": "app",
+        "summary": "PhotoCraft是一款用纯Rust编写的开源离线照片编辑器，支持图层、蒙版、调整图层、文字、矢量、画笔和真实PSD文件。",
+        "purpose": "用于在本地编辑图像与分层PSD文档，并处理选区、文字、矢量、特效和滤镜。",
+        "audience": "图像设计师、插画师及需要编辑PSD文件的用户",
+        "scenarios": [
+          "使用调整图层和蒙版非破坏性地调整图片颜色与明暗。",
+          "在画布上编辑文字和段落，并为其应用投影等图层样式。",
+          "创建渐变填充的矢量形状，并将其作为矢量蒙版使用。",
+          "打开、编辑并保存包含图层的Photoshop PSD文档。"
+        ],
+        "steps": [
+          "打开PhotoCraft应用，并载入需要编辑的PSD文件或图像。",
+          "使用选择工具确定区域，将选区转换为图层蒙版后应用调整图层。",
+          "在画布上添加文字或矢量形状，并按需设置图层样式、填充和描边。",
+          "通过文件保存操作保留分层PSD文档，然后重新打开检查编辑结果。"
+        ],
+        "requirements": "应用支持macOS、Metal、Vulkan、DX12和WebGPU图形后端；具体系统要求、下载方式及可用平台以原文为准。",
+        "verification": "建议重新打开保存的PSD文件，检查图层、蒙版、文字、矢量及样式是否仍可编辑并正确保留；README未提供验收脚本。",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "Image editing; an open-source, clean-room reimplementation of Adobe Photoshop, rebuilt in pure Rust."
+          },
+          {
+            "field": "purpose",
+            "quote": "Open, edit and save layered Photoshop documents."
+          },
+          {
+            "field": "scenarios",
+            "quote": "Turn any selection into a layer mask, a vector path or a shape."
+          },
+          {
+            "field": "steps",
+            "quote": "Type layers stay editable, take layer styles, and round-trip through PSD."
+          },
+          {
+            "field": "verification",
+            "quote": "Re-saving keeps the render of 307 of the 309 psd-tools test files."
+          }
+        ]
+      },
+      "savedAt": "2026-10-20T05:59:29.609Z",
+      "reviewIssues": [
+        "requirements将Metal、Vulkan、DX12和WebGPU图形后端误写成平台支持，并额外声称支持macOS；原文仅列出这些图形后端，未明确支持macOS。"
+      ]
+    }
+  }
 }
