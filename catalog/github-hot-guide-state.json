@@ -122,6 +122,80 @@
         },
         "editorialStatus": "中文导读 · 原文依据已检查"
       }
+    },
+    "leonardomso/33-js-concepts": {
+      "sourceHash": "f023917cdf1cb47977128e4b4c71d6a7a671b5377b72a58da452098c77a3df61",
+      "completedAt": "2026-10-21T06:00:52.593Z",
+      "content": {
+        "summary": "这是一份帮助开发者系统掌握三十三个JavaScript核心概念的学习教程资源库，内容覆盖基础原理、异步编程、函数式编程与Web平台知识。",
+        "scenarios": [
+          "开发者从基础类型、作用域和调用栈开始，系统补齐JavaScript语言核心知识。",
+          "前端开发者通过事件循环、Promise、async/await等内容理解异步执行机制。",
+          "学习者借助DOM、Fetch API和Web Workers章节理解浏览器Web平台能力。",
+          "开发者参考原型、继承与多态等章节梳理对象导向JavaScript的运行原理。"
+        ],
+        "usage": "用于系统学习JavaScript核心概念，并通过清晰讲解、实用代码示例和精选资源加深理解。",
+        "requirements": "访问指南及各概念页面需要可用的网络连接；具体前置知识、浏览器要求和运行环境以原文为准。",
+        "quickStart": "1. 从README中的“Start learning at 33jsconcepts.com”进入完整指南。\n2. 按Fundamentals、Functions & Execution、Web Platform等目录选择概念主题。\n3. 阅读所选概念的清晰解释、实际代码示例和精选资源，并对照示例理解相关行为。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "用于系统学习JavaScript核心概念，并通过清晰讲解、实用代码示例和精选资源加深理解。",
+          "audience": "希望提升JavaScript基础与进阶能力的开发者",
+          "example": "开发者从基础类型、作用域和调用栈开始，系统补齐JavaScript语言核心知识。",
+          "steps": [
+            "从README中的“Start learning at 33jsconcepts.com”进入完整指南。",
+            "按Fundamentals、Functions & Execution、Web Platform等目录选择概念主题。",
+            "阅读所选概念的清晰解释、实际代码示例和精选资源，并对照示例理解相关行为。"
+          ],
+          "verification": "建议完成某一概念后，对照该章节说明检查自己能否解释并复现其列出的行为，例如类型转换、Promise执行顺序或DOM节点操作；原文未提供验收脚本。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "This repository helps developers master core JavaScript concepts. Each concept includes clear explanations, practical code examples, and curated resources."
+            },
+            {
+              "field": "purpose",
+              "quote": "Learn JavaScript Promises for handling async operations. Understand how to create, chain, and combine Promises, handle errors properly, and avoid common pitfalls."
+            },
+            {
+              "field": "scenarios",
+              "quote": "Learn how the JavaScript event loop handles async code. Understand the call stack, task queue, microtasks, and why Promises always run before setTimeout()."
+            },
+            {
+              "field": "scenarios",
+              "quote": "Learn how the DOM works in JavaScript. Understand how browsers represent HTML as a tree, select and manipulate elements, traverse nodes, and optimize rendering performance."
+            },
+            {
+              "field": "scenarios",
+              "quote": "Learn JavaScript's prototype chain and object creation. Understand how inheritance works, the new operator's 4 steps, Object.create(), Object.assign(), and prototype methods."
+            },
+            {
+              "field": "steps",
+              "quote": "**[Start learning at 33jsconcepts.com →](https://33jsconcepts.com)**"
+            },
+            {
+              "field": "steps",
+              "quote": "Each concept includes clear explanations, practical code examples, and curated resources."
+            },
+            {
+              "field": "verification",
+              "quote": "Learn JavaScript type coercion and implicit conversion. Understand how values convert to strings, numbers, and booleans, the 8 falsy values, and how to avoid common coercion bugs."
+            }
+          ],
+          "sourceHash": "f023917cdf1cb47977128e4b4c71d6a7a671b5377b72a58da452098c77a3df61",
+          "sourceUrl": "https://github.com/leonardomso/33-js-concepts/blob/master/README.md",
+          "basis": "依据官方简介和 README 自动整理，并检查中文完整性及原文依据；场景示例不代表实际运行测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "f023917cdf1cb47977128e4b4c71d6a7a671b5377b72a58da452098c77a3df61",
+            "checkedAt": "2026-10-21T06:00:52.593Z"
+          }
+        },
+        "editorialStatus": "中文导读 · 原文依据已检查"
+      }
     }
   },
   "pending": {
@@ -130,7 +204,7 @@
       "sourceHash": "73ff302031c134d69dab60c54aedcf34dcd78212949a8019dfa1324a2e2cdba3",
       "firstSeenAt": "2026-10-19T06:10:18.286Z",
       "attempts": 3,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/storytold/photocraft/blob/main/README.md",
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-20T05:59:29.609Z",
@@ -141,7 +215,7 @@
       "sourceHash": "2f7636632b585fcf4123e19a957c7f26678022b9f7ff20fb28382c3ae6154eac",
       "firstSeenAt": "2026-10-19T06:10:18.286Z",
       "attempts": 3,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/MadsLorentzen/ai-job-search/blob/master/README.md",
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-20T05:59:29.609Z",
@@ -152,7 +226,7 @@
       "sourceHash": "f2acf4532eeb4f8ed4f18db40b4e7169928ce4cbbac12cff9b70eae7b1c410f4",
       "firstSeenAt": "2026-10-19T22:17:44.626Z",
       "attempts": 2,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/Z4nzu/hackingtool/blob/master/README.md",
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-20T05:59:29.609Z",
@@ -163,7 +237,7 @@
       "sourceHash": "c623a663261aeefd9b40c8bc15a6873e0a5b5a65c4cec29094a8d3792d661e4b",
       "firstSeenAt": "2026-10-19T22:17:44.626Z",
       "attempts": 2,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/README.md",
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-20T05:59:29.609Z",
@@ -174,7 +248,7 @@
       "sourceHash": "a56e541724b01b9d0ae365cb9e08a80377be795466378cfdc3be2303526dfe43",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 1,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/NanmiCoder/MediaCrawler/blob/main/README.md",
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-20T16:16:27.465Z",
@@ -185,7 +259,7 @@
       "sourceHash": "61f27582ca3e5b755ff9e3051fba4ab8bbb98853fe24ed66762f09a4985588af",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 1,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/xtekky/gpt4free/blob/main/README.md",
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-20T16:16:27.465Z",
@@ -196,7 +270,7 @@
       "sourceHash": "7db04ed4afdefdeb39f1ac1fd9169a2411b705a5e5d465a12e6bdc35a454a813",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 1,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ZhuLinsen/daily_stock_analysis/blob/main/README.md",
       "reason": "daily-budget-exhausted",
       "lastAttemptAt": "2026-10-20T16:16:27.465Z",
@@ -207,7 +281,7 @@
       "sourceHash": "73d101c312a4f95c6c9273f010c78cf292e9e8099a5709451ffd5edaae7b3da0",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 1,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/LadybirdBrowser/ladybird/blob/master/README.md",
       "reason": "daily-budget-exhausted",
       "lastAttemptAt": "2026-10-20T16:16:27.465Z",
@@ -218,63 +292,62 @@
       "sourceHash": "f2cc51bd2ad024445f0e75b090d318134147ae4d58e61de9c08ad0e7ee564180",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 1,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/facebook/docusaurus/blob/main/README.md",
       "reason": "daily-budget-exhausted",
       "lastAttemptAt": "2026-10-20T16:16:27.465Z",
       "nextAttemptAt": "2026-10-21T00:00:00.000Z"
     },
-    "leonardomso/33-js-concepts": {
-      "id": "leonardomso/33-js-concepts",
-      "sourceHash": "f023917cdf1cb47977128e4b4c71d6a7a671b5377b72a58da452098c77a3df61",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
-      "readmeUrl": "https://github.com/leonardomso/33-js-concepts/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "thealgorithms/java": {
       "id": "thealgorithms/java",
       "sourceHash": "fbeb179b4ecd1181473ef68ef63c1d3d87c98627635f3b282718d34374454024",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/TheAlgorithms/Java/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-10-21T06:00:52.593Z",
+      "nextAttemptAt": "2026-10-21T07:00:52.593Z"
     },
     "alacritty/alacritty": {
       "id": "alacritty/alacritty",
       "sourceHash": "093a2c684dd24a3b0a1fb37c846203f70dab4236c43a235a137b6394ca77e35f",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/alacritty/alacritty/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-10-21T06:00:52.593Z",
+      "nextAttemptAt": "2026-10-21T07:00:52.593Z"
     },
     "webpack/webpack": {
       "id": "webpack/webpack",
       "sourceHash": "e056f19b6de0b8d1b35dc1b94608b530e128f9fb7d4509655b1ccbb46eb75e4f",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/webpack/webpack/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-10-21T06:00:52.593Z",
+      "nextAttemptAt": "2026-10-21T07:00:52.593Z"
     },
     "kelseyhightower/nocode": {
       "id": "kelseyhightower/nocode",
       "sourceHash": "a131492c7f5cd034dd92d461bbb44aa4f33bbab5c1d67f2a2d9947d796e75f35",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/kelseyhightower/nocode/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-10-21T06:00:52.593Z",
+      "nextAttemptAt": "2026-10-21T07:00:52.593Z"
     },
     "warpdotdev/warp": {
       "id": "warpdotdev/warp",
       "sourceHash": "3487485872d002e94d1d743383d83700fa0ba9b21ace5936b41ce151d3889da7",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/warpdotdev/warp/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -282,17 +355,19 @@
       "id": "remotion-dev/remotion",
       "sourceHash": "c91db82f0d028d35c7d394cbd29f667e29bf4841740306a127752f38ea266d75",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/remotion-dev/remotion/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-10-21T06:00:52.593Z",
+      "nextAttemptAt": "2026-10-21T07:00:52.593Z"
     },
     "ffmpeg/ffmpeg": {
       "id": "ffmpeg/ffmpeg",
       "sourceHash": "937c5256c902b81703f74ed7f79e0f94e302dde3dc4942c903f7ec1534e416ba",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/FFmpeg/FFmpeg/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -301,7 +376,7 @@
       "sourceHash": "4be64a6a65fad140026cd20a2696260a0596414f9db429b52dc867b78f7aad15",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/nocodb/nocodb/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -310,7 +385,7 @@
       "sourceHash": "1fe354025025fc037845263ccd4931bfce9363a374abea5c75cf0d9f13e64910",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/kdn251/interviews/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -319,7 +394,7 @@
       "sourceHash": "c323c83b3dd3a16571e9fd4f5e042ab38cbfe9f596ea8a006d1f5eaebdabd202",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/traefik/traefik/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -328,7 +403,7 @@
       "sourceHash": "2a0287f0083150247f65874f21441eabd24119c2d0337ce650df35662339e7e7",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/lydiahallie/javascript-questions/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -337,7 +412,7 @@
       "sourceHash": "165469ff845306493b85d23a93688b676c52d6c6382e042d5398f14dd0f0643c",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ryanoasis/nerd-fonts/blob/master/readme.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -346,7 +421,7 @@
       "sourceHash": "1ed9ecb6210be6a9c913c77eb7c37371010719e0ece793af1088c632de03a1f5",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/scrapy/scrapy/blob/master/README.rst",
       "reason": "awaiting-chinese-guide"
     },
@@ -355,7 +430,7 @@
       "sourceHash": "bc5412cbda521c69e433550f3ab88443cbcd2e850b01963fd98cec20383e38dd",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/mvanhorn/last30days-skill/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -364,7 +439,7 @@
       "sourceHash": "333064589886f189ece4b1500f2741a7b08279f219f8755d9d088ddaee310d84",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ChrisTitusTech/winutil/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -373,7 +448,7 @@
       "sourceHash": "812f6e5a8fafdd3915b73d980d234ddacabc432c2fba89401abab496d1948a84",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/hugohe3/ppt-master/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -382,7 +457,7 @@
       "sourceHash": "b8be9c50fb6c31e21b6499fb4e5cdd784d5f039486eb1ff0de49b4ea1945b2b1",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/rust-lang/rustlings/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -391,7 +466,7 @@
       "sourceHash": "4535e5acb6a71861bf1762c854c1ba378eb60d460f0bcb6996562c7ab358bed1",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/keras-team/keras/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -400,7 +475,7 @@
       "sourceHash": "9bea286f7cbb42ff9a77288f962676dfa8d50adc42de96461996700fa8b38939",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/2dust/v2rayNG/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -409,7 +484,7 @@
       "sourceHash": "da12944d941a8eeedf0016d59a7900e6ab30bf8685cfc54f42735bb3f390b302",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/virattt/ai-hedge-fund/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -418,7 +493,7 @@
       "sourceHash": "fb7272f371ec6beafe4ba4a12f2f2db2cefe549f4a77f6d1110d3004b07ea411",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/jingyaogong/minimind/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -427,7 +502,7 @@
       "sourceHash": "769442253e714ae0a2b0ccccf373c4f8d2ac92efb9b42069b589837f7483bd34",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/tldr-pages/tldr/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -436,7 +511,7 @@
       "sourceHash": "37702c7bb5949523cca76685afbaced5fb95723b0a12a7324106cf9298ca10df",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/commaai/openpilot/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -445,7 +520,7 @@
       "sourceHash": "3eaf359ff89e6e01e5903d7743203082114a95353d2f563441b19d810386e6ae",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/karpathy/nanoGPT/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -454,7 +529,7 @@
       "sourceHash": "1757c4e37864ee74f71321cc137e832dce94b62ab747e631b08c6b705150c375",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/usememos/memos/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -463,7 +538,7 @@
       "sourceHash": "adfc7542e4c839de146aeb9caa490c3cdf7a1ded6c6c0830018ac74978b382f0",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/git/git/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -472,7 +547,7 @@
       "sourceHash": "497e54b25a433c16d1bda8ec061904fbbbe4f848c5e5b33e6b0870307b937619",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -481,7 +556,7 @@
       "sourceHash": "6da1584a8ca75be00fdea852d22cdd4eab97f24ba7c6953e1837f5372231e5dc",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/jgraph/drawio-desktop/blob/dev/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -490,7 +565,7 @@
       "sourceHash": "c69e63c0759dedc47e1c9a568d41f53cae94874f5f663470c886e00d931b5f8e",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/topjohnwu/Magisk/blob/master/README.MD",
       "reason": "awaiting-chinese-guide"
     },
@@ -499,7 +574,7 @@
       "sourceHash": "65760720b2735ff8779caa019ef4cd65d609f0b259daf49443705f498c63a552",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/upstash/context7/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -508,7 +583,7 @@
       "sourceHash": "407ac44e0d70303f72cc9a461a100027a8e17e7c3fee700d0b4b685b32eb85db",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/withastro/astro/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -517,7 +592,7 @@
       "sourceHash": "cbba73a1c05646f9f21f79caf985df37cdf9a5d50fc78a15f5817fd212354f8b",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/coollabsio/coolify/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -526,7 +601,7 @@
       "sourceHash": "b3e5712c7d4e13e998b0cf9bbb341beb006b8927e8abee56dba7d6d516c74e78",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/RVC-Boss/GPT-SoVITS/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -535,7 +610,7 @@
       "sourceHash": "a57f48cc64f6cc54e4eaaf0e7fc6764e544e85d97575d91ca6363c67cc96b19a",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/socketio/socket.io/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -544,7 +619,7 @@
       "sourceHash": "5e2abd56017d71e9c055cafc1e372867a1e2c9eb926ad3247f55c3a61fdc1483",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/termux/termux-app/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -553,7 +628,7 @@
       "sourceHash": "57c1af82155b8460dd785bc7dfcbb6cfcad31b6de99f9dbab44c8ac77524bf81",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/sansan0/TrendRadar/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -562,7 +637,7 @@
       "sourceHash": "a774036b7b544e3c73f7743e04d8ced976826d9fd747b7cb2127b3fc2dc70278",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/resume/resume.github.com/blob/master/README.markdown",
       "reason": "awaiting-chinese-guide"
     },
@@ -571,7 +646,7 @@
       "sourceHash": "025ff497cd6fc380e11e0eea06fe296e2f1bfee7e938e33c25c780c4fdc18060",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/marktext/marktext/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -580,7 +655,7 @@
       "sourceHash": "7ded4f945514e472741dbd8656d45f9e7e0e02015396274484b650dc95f09ddb",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/youngyangyang04/leetcode-master/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -589,7 +664,7 @@
       "sourceHash": "5c5458f7747893e5c3f4057a50a8c8ea35adce06e3762803431f757b09cf6294",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ultralytics/ultralytics/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -598,7 +673,7 @@
       "sourceHash": "9133dfea18e6a49b7e1eabe7854ff40abc40332a34998a675e9032709293d211",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ghostty-org/ghostty/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -607,7 +682,7 @@
       "sourceHash": "9705bda33dae4afa0c3038e49639296ee94dca28f864039a2bf9b0f653399052",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/tw93/Pake/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -616,7 +691,7 @@
       "sourceHash": "5a92c999bdc27663abbd9ae0b9c6c6689299fa811331868cb7fb23ebb0826dae",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/Alishahryar1/free-claude-code/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -625,7 +700,7 @@
       "sourceHash": "cd75214306da7606035f49f7d2459b509ec915d70e0b6c9f593a1c4ea93acd23",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/pathwaycom/pathway/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -634,7 +709,7 @@
       "sourceHash": "bb8d67aec4633c33728f8dcaabe816b6430b1458531b71b5064298f0293aa173",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/1c7/chinese-independent-developer/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -643,7 +718,7 @@
       "sourceHash": "8df4e2d4cfd2a95843815f31d134fa38bdb4d589931326c50e69f1815aaeeaef",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/BerriAI/litellm/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -652,7 +727,7 @@
       "sourceHash": "47df2584df9fbb04b35fbc66bd89c064eb201bfb64a04de0806a9fcdbe82fc73",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/Solido/awesome-flutter/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -661,7 +736,7 @@
       "sourceHash": "b9eb9daf0f870583cf0451e4135c661dfdd6912bb950c8cf66e0779dfc6475bb",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/pocketbase/pocketbase/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -670,7 +745,7 @@
       "sourceHash": "be7999731c22d236c9de221d9d524e65bc60a02c4630d1d7c54ed5cb68e43005",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/microsoft/autogen/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -679,7 +754,7 @@
       "sourceHash": "bf23b3b3bfc2cbf7da6ea6afea9e3aa22c5bbe6205fc8edc971663313e5a8a65",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/reduxjs/redux/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -688,7 +763,7 @@
       "sourceHash": "d6b2ed65ee135feaa1e8d07a2e509851ab1b90417e7d4b51c93b508502fa9ec4",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/penpot/penpot/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -697,7 +772,7 @@
       "sourceHash": "46b5809ca1242a9a73f4d23c5f1eb9ff7eff1a74aa7fcfa19b27bb8d28813c62",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/FuelLabs/sway/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -706,7 +781,7 @@
       "sourceHash": "b16dce0cd51e0bc8edb8d50a184aac1bd5369f69842c619c0c86089b62c7b381",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/pi-hole/pi-hole/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -715,7 +790,7 @@
       "sourceHash": "eef8da64682845c97ea51a985235a55a8bd934e774126f743fb0934d3bf2c8e1",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/lodash/lodash/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -724,7 +799,7 @@
       "sourceHash": "fa429af29b97fe0d2b6792935f6d18b9b621fafd0f26963dc5c3984dc2dc81ef",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/makeplane/plane/blob/preview/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -733,7 +808,7 @@
       "sourceHash": "419c5904bca0c4c8f07e111c8a0cf777f894341a1df969ebecf85b421dacfe4e",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/nuxt/nuxt/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -742,7 +817,7 @@
       "sourceHash": "717eb16a99d5c705ab4dd3cd2d7b0a4451c36685ad06b60f45012d73a341fee9",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -751,7 +826,7 @@
       "sourceHash": "3f7efd0ee1108b2e526cbd2fb72931f25b3dfcae382e011b5107a56c82c155b5",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/sharkdp/bat/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -760,7 +835,7 @@
       "sourceHash": "66033014ac2a6e8f084a19ddf0b704b0a7e16f5d7e4a3e47b85aad443765e62f",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/xingshaocheng/architect-awesome/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -769,7 +844,7 @@
       "sourceHash": "0b9dd0e7aaf2dce6bf02df2a4aeabae17dc13d4b7be7965febe38a1713fe69a8",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/rclone/rclone/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -778,7 +853,7 @@
       "sourceHash": "3d6e220825d7576a7a0b99f637fd77c780767999464ece281be8899413c8fea6",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/starship/starship/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -787,7 +862,7 @@
       "sourceHash": "aada63ade842cf3571d589868adb13dadbeb4610a25f05e7c17c317f6af13936",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/spring-projects/spring-framework/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -796,7 +871,7 @@
       "sourceHash": "296660513e3f88e2b8b2645fea511eba0f63a6a79013bd858ff5829ed60ecd80",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/adam-p/markdown-here/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -805,7 +880,7 @@
       "sourceHash": "4e0d8b23989180f812b3fd28927d6f06ec99aed6d66b57a454530d3446fa52e7",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/CorentinJ/Real-Time-Voice-Cloning/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -814,7 +889,7 @@
       "sourceHash": "f7337f55a8f602afbb00707336e43cded6236eb73af1519267cf5556ae30de7f",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/Raphire/Win11Debloat/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -823,7 +898,7 @@
       "sourceHash": "69a3217f1bd717fa50367f18abd335d62203bf78596e981faa503c8871c55d5e",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/rust-unofficial/awesome-rust/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -832,7 +907,7 @@
       "sourceHash": "05584821d675e2f6cd225f51f1012ce541fa257944e51ae63a8d446869d4ed03",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/jquery/jquery/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -841,7 +916,7 @@
       "sourceHash": "0556db34b23073448ba71bc3450f1d3275dce81f5e7b587a6ffc17dd44e2c589",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/crewAIInc/crewAI/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -850,7 +925,7 @@
       "sourceHash": "be0891dfab4ba4404cd4c56cecba7ed4bc6fa5dac4ce579dfb1c33b245edc050",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -859,7 +934,7 @@
       "sourceHash": "0f1fee343e33deeb826c347cc5f971d90f73f386e5c219e3b3a61cb4514792d2",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/FiloSottile/mkcert/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -868,7 +943,7 @@
       "sourceHash": "8f885ce87e5160c5aa0c7783bd7c01bd8fd49bc6903ef6012c02d386aaed2f05",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/MemPalace/mempalace/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -877,7 +952,7 @@
       "sourceHash": "6c40f68f53189ac72670dd6489676dcb6176bfd0779d46c54b9cb4aa3d3e22a9",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/meta-llama/llama/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -886,7 +961,7 @@
       "sourceHash": "f130a4b12e294c4b94b1672bb09d0698c1f8cd716cb6b144a06a2e63b8c2da49",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/meilisearch/meilisearch/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -895,7 +970,7 @@
       "sourceHash": "1593560d49939a59d4ba5d3a195549eb022362ee0590e8688e44db3b73209068",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/shadowsocks/shadowsocks-windows/blob/v4/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -904,7 +979,7 @@
       "sourceHash": "72caccde4f89eae8dd122a216ffdf31479eda594d36a872d62bb26b7a826de98",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/rails/rails/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -913,7 +988,7 @@
       "sourceHash": "457525502e9782715fb4fe6b8c2203bed51f082109e8df9b7c85bb64955db340",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/pmndrs/zustand/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -922,7 +997,7 @@
       "sourceHash": "19ff092807cb920ffae8c5864d76dab768b57bd6a9ed76bc67d7ee68d2f79437",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/karpathy/nanochat/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -931,7 +1006,7 @@
       "sourceHash": "559e1240a64a803d5b34e9d392686d08634d6a60959bde9633392623ac5c0030",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/blader/humanizer/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -940,7 +1015,7 @@
       "sourceHash": "4367a6e032d43e5f386f6d546b26a2ce219492e3acf8f6a88f0a4005ab8bd1cc",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/pathwaycom/serviette/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -949,7 +1024,7 @@
       "sourceHash": "b314ed9d0cca78f86b4b5a9c497a93cb15c42fc61b6f1e2c8fa87f16c8987d32",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/FoundationAgents/OpenManus/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -958,7 +1033,7 @@
       "sourceHash": "43b69fb8085d3ca9f4d7fee1888d230111d867c50b862d3531f9b6506ea587e3",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/twentyhq/twenty/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -967,7 +1042,7 @@
       "sourceHash": "2be9687c0c07c61f432f35a550f591fd314d12cda6cc991f64ce1a2f736d4a53",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/go-gitea/gitea/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -976,7 +1051,7 @@
       "sourceHash": "8ef613b096b4f720bb9e0a2202c5a02f9b54445b33bcc9080f05bc06a13c4640",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/bilawalsidhu/gods-eye-view/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -985,7 +1060,7 @@
       "sourceHash": "2a27127acea81ff4e1c65d620085d1c42f9950599fa2859cd3fad1d4220156fc",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/jellyfin/jellyfin/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -994,7 +1069,7 @@
       "sourceHash": "c8cc8ef9560ebd36232f351616a90e7c411626dd64822cd1af08cecc0c837f95",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ultralytics/yolov5/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1003,7 +1078,7 @@
       "sourceHash": "f4a9e22d2f52bec8c291fce8cc034408969b6f8056915c4e5f98434955bd5632",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/jamiepine/voicebox/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1012,7 +1087,7 @@
       "sourceHash": "bba54523dcb6056f13cb120538c23461f14e027dbac1f850142e1de16b802e9d",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/wasabeef/awesome-android-ui/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1021,7 +1096,7 @@
       "sourceHash": "ffb19196e0abfd22c37d34397c52794c71f52b532492097d3106d0156065bbac",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ayghri/i-have-adhd/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1030,7 +1105,7 @@
       "sourceHash": "7cb2248c8c2ed4645d40b0debfeedf8a29d757f4452063c36df2646b858d5ce7",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/appwrite/appwrite/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1039,7 +1114,7 @@
       "sourceHash": "230300c607a67623a4079e1297c446faaf3f337b5c288fb4430009dd0120c007",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/scutan90/DeepLearning-500-questions/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1048,7 +1123,7 @@
       "sourceHash": "6ac9628c4369aa96be084234a47c6ecbfd657f69ac9c430ac06e591004035ed9",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/h5bp/html5-boilerplate/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1057,7 +1132,7 @@
       "sourceHash": "279db0df8d00e9f658422a628f314a01282e01dc80c0c55b235a2657c2fd1fca",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/zylon-ai/private-gpt/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1066,7 +1141,7 @@
       "sourceHash": "05d825dd650f815361d2b15c669ed585c1cb92f224469ac6379f952add2aa92e",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/deepfakes/faceswap/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1075,7 +1150,7 @@
       "sourceHash": "749e159a7acce9c233e48eb2292d6d53bf90d34841e7a4e647845da11df3fd63",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/Textualize/rich/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1084,7 +1159,7 @@
       "sourceHash": "b4eb2aabd696500cc8307b4f6b931350a392bd5ce7ae5c73147e5e6309d7fe3b",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/agalwood/Motrix/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1093,7 +1168,7 @@
       "sourceHash": "63dae3b9bd3cb3ed2f0936414723c1503e5c3cf7d28f62a7d39252f8ad9264c5",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/chen08209/FlClash/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1102,7 +1177,7 @@
       "sourceHash": "f97a7a8bf04730def8fa948e8f21582883470fc0f00b6f3a162835925f8722cf",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/Zie619/n8n-workflows/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1111,7 +1186,7 @@
       "sourceHash": "114f90c094037ad67e4efd7989785571fa0a2b4bec5ca670e14e78665d90076b",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/Lordog/dive-into-llms/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1120,7 +1195,7 @@
       "sourceHash": "2b35f9f630acc67e123646398356720992dab837bfad06ec097c64743ed18eee",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/soimort/you-get/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1129,7 +1204,7 @@
       "sourceHash": "d5c911df85178352f5b54a76902737d1a8429f3b1f0b932a19f113f3a400cff6",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ageitgey/face_recognition/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1138,7 +1213,7 @@
       "sourceHash": "79c3a6b379802c2af72f6f3f70f8c4794801b192c66a89d8b1b5494928397eab",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/laurent22/joplin/blob/dev/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1147,7 +1222,7 @@
       "sourceHash": "e633de5362c2bde072ea1a7bc8b55102a7d5b4c7b1a75441a41f41265b2835cd",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/FuelLabs/fuel-core/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1156,7 +1231,7 @@
       "sourceHash": "c7d28c73496a15abaaecc80b1a09c831d324237c9e9a0da4bf0103dfd2729d14",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/typst/typst/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1165,7 +1240,7 @@
       "sourceHash": "7b3e1609d2ad4f63559885443bff630c7a4b931ad5b66206e8d1df444873600f",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/golang-standards/project-layout/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1174,7 +1249,7 @@
       "sourceHash": "492404c205be55290fab766d28354a61f25bd93056f7f0db59458998a1dac85a",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/remix-run/react-router/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1183,7 +1258,7 @@
       "sourceHash": "ea7b2b0dff4baaabb4ac306170e7dd72ba503a399e1298c4387ac228339bf519",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/firstcontributions/first-contributions/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1192,7 +1267,7 @@
       "sourceHash": "bc356ad0adfc4a0e2a3811c07d8b5013dc03e89f98b747a0e80d0c8937cf6705",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/hesreallyhim/awesome-claude-code/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1201,7 +1276,7 @@
       "sourceHash": "b49942933db7f269ab08422ee07e21af293fa46bfccf3345f60d6b5ad2debaf5",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/gatsbyjs/gatsby/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1210,7 +1285,7 @@
       "sourceHash": "11d147f477d2714829793abbde5ee522b88e5e3d22a66cd221e8f0a2d185eec1",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/PowerShell/PowerShell/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1219,7 +1294,7 @@
       "sourceHash": "1d3978ec1792a01c478ba89b46061d4d2b4e1bcaab947ad58c38d9341766466a",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/router-for-me/CLIProxyAPI/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1228,7 +1303,7 @@
       "sourceHash": "e62105b440949461815ebacd117b1f1412125c4d7418f8ef49878d5dcc89a373",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/azl397985856/leetcode/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1237,7 +1312,7 @@
       "sourceHash": "4d374f2482c9591c90a36e139dba6f34a49e880db207625a59c9f131742cfea7",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/freqtrade/freqtrade/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1246,7 +1321,7 @@
       "sourceHash": "880ece7d3a3bf9d8d591f87caaade449e8f0b2bbe7be1524913bec3f5ad37a0f",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/bannedbook/fanqiang/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1255,7 +1330,7 @@
       "sourceHash": "8039617d0c75955c933fd4fa561e917aa71f4bcca9523215d83eec0e11d4b9bf",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/coreyhaines31/marketingskills/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1264,7 +1339,7 @@
       "sourceHash": "a0641db2c255da80acf105a3729e1f755269912e86d68ba89debe6536453f34e",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/HKUDS/CLI-Anything/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1273,7 +1348,7 @@
       "sourceHash": "d9611164524d2953c8ff0cde8135ab7d6c5b7e770f7bdd50fb29f3e455997a68",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/TryGhost/Ghost/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1282,7 +1357,7 @@
       "sourceHash": "7a6c56d67538a25073e5d59907f703a3dbd8f9be52f423a3852fbd14550a208a",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/WerWolv/ImHex/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1291,7 +1366,7 @@
       "sourceHash": "63207033842bdea6f6bfd9327e48fef40ee82cfb256c40e35e1878f78ca494fc",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/aaif-goose/goose/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1300,7 +1375,7 @@
       "sourceHash": "fb9999f78b9ce758e0487881dd0a765301b2ebacb3bc13fb462f89f5c2077b66",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ngosang/trackerslist/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1309,7 +1384,7 @@
       "sourceHash": "172aa2ca3c4e4c1f85b2a3bce2a437a705f54d7a74feca96faec1d9bcaeb1c15",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/romkatv/powerlevel10k/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1318,7 +1393,7 @@
       "sourceHash": "a4dd96701e7c62c2eec457ab0253d88a435db27531970f77a9334e68f58266ba",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/odoo/odoo/blob/20.0/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1327,7 +1402,7 @@
       "sourceHash": "155ca10c7159c3c31c50c8d8a121178199cf470c6584acd9a2164ede1c2fc208",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/bojieli/ai-agent-book/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1336,7 +1411,7 @@
       "sourceHash": "6f2226afeab32a9df93840f12dc7d5aef472ba6087205ecff5f629f960707e8a",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/facebookresearch/segment-anything/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1345,7 +1420,7 @@
       "sourceHash": "5c72f3d4a7555978c2a7c9772735c69bd463bd69a7aee57d31341dc929d9b5f8",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/microsoft/VibeVoice/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1354,7 +1429,7 @@
       "sourceHash": "f5a1ca8f2676dd5f728acd375d9a2bc3c0f46dc8d06c79ca35aad55374b11e9d",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/vuejs/core/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1363,7 +1438,7 @@
       "sourceHash": "2063a0e21841e0b9560a309cda6b962df382d1ded4e7968cccf8c53ceb3e332a",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/wagoodman/dive/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1372,7 +1447,7 @@
       "sourceHash": "3313e16dcd5ee456ce73fe7969343f88c51bc9091c4aeb8dfa0856d612cc3cfb",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/lencx/ChatGPT/blob/v2-dev/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1381,7 +1456,7 @@
       "sourceHash": "049ab75486b526ab4ec5430a99153e826a81105b03bedcd63c25ad8285ce3738",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/lyswhut/lx-music-desktop/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1390,7 +1465,7 @@
       "sourceHash": "6964e6ef8610654cef2a32c65b5b1d18fbdd13f87f4efcd06a38e13d51a912c1",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/psf/requests/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1399,7 +1474,7 @@
       "sourceHash": "407d796b5f89af27834b12ee2efae1bdd9530d9485a1755503527855f6cfc07d",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ggml-org/whisper.cpp/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1408,7 +1483,7 @@
       "sourceHash": "048f5f67e8ec815d020e9420b5821cbd7564a2435a808b9cc506b4eeb9159e41",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/bmad-code-org/BMAD-METHOD/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1417,7 +1492,7 @@
       "sourceHash": "31587fdb5bfbf5370efc778a3ace7aacdddd65c60e5fa7cffdfa3b0a57415277",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/google/material-design-icons/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1426,7 +1501,7 @@
       "sourceHash": "3e2c6755e265e32ef308704c47c4c43471013d885c3c415f17e3ffb577092be7",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/mozilla/pdf.js/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1435,7 +1510,7 @@
       "sourceHash": "1214f12a6abc92cb26b1dfc40fa25c87171e866b42e5e48e2f8526298e7ae321",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ElemeFE/element/blob/dev/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1444,7 +1519,7 @@
       "sourceHash": "408c7555414e24e8a3e1dd6abae3b128925c5ee51e7cc05c1e9f245d8b8663e8",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1453,7 +1528,7 @@
       "sourceHash": "bc35ad259c2984b07582014d2072926005c79b583ccd532b485b03be25425076",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/chinese-poetry/chinese-poetry/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1462,7 +1537,7 @@
       "sourceHash": "9212eac640e7afa50d5f09eb242b24b9021ddc691770b88046adca04e17b6979",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/vsouza/awesome-ios/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1471,7 +1546,7 @@
       "sourceHash": "0f2695a9c9e488137e899aac3f5d360674bb85269cc81512e0e415d95de02298",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/dockur/windows/blob/master/readme.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1480,7 +1555,7 @@
       "sourceHash": "71eb46831684578be54e680b37f4042869b41e86158b30999558a6ad17b803f7",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/lllyasviel/Fooocus/blob/main/readme.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1489,7 +1564,7 @@
       "sourceHash": "7f1cccc1c65b3d1be911a422581a555f23a878997cd5eb9e894be9cf04054768",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/anthropics/claude-cookbooks/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1498,7 +1573,7 @@
       "sourceHash": "9b8e1ed5095da98e6556d55b14b8833035c7330bd70128b2979ca27193e2138f",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/necolas/normalize.css/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1507,7 +1582,7 @@
       "sourceHash": "8dcecb271227fb02ba50557a5bf9e5bf25fe895c51ac7ba384668340f0d8e242",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/JetBrains/kotlin/blob/master/ReadMe.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1516,7 +1591,7 @@
       "sourceHash": "b5e93893744ecf8963ae20f3d3b0d0e2d8be04cafaf393cf2b4f75459d74ea3a",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/multica-ai/multica/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1525,7 +1600,7 @@
       "sourceHash": "be3d94260ac92284612b038d16b6940b346a17cf71fc767a86c0f7cd6c6c5c6a",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/VoltAgent/awesome-openclaw-skills/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1534,7 +1609,7 @@
       "sourceHash": "6b6d8aff207b74c6360838ff19e998dccb158caef38f7f490b06e395981d2148",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/jesseduffield/lazydocker/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1543,7 +1618,7 @@
       "sourceHash": "a9bc9862045b4aa6d4417899686e530c7d6f9fb1576e90cc24449e4e1cc7884e",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/Imbad0202/academic-research-skills/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1552,7 +1627,7 @@
       "sourceHash": "30d26f710ce5bf961cf9e21a2ab0c4287b1bc8215733fdffce5455b204345194",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/sickcodes/Docker-OSX/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1561,7 +1636,7 @@
       "sourceHash": "96d9349884f827926ed618cba262ad75d8bb1f0bf18c065b6846f703eb7f999a",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/expo/expo/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1570,7 +1645,7 @@
       "sourceHash": "c7430086e237d6e9a938000f5c07044ed037d7ab5e2738f4b157b03320bf069e",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/poteto/hiring-without-whiteboards/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1579,7 +1654,7 @@
       "sourceHash": "f9406b6af63b9982b8dfe914af0c0c677b3a546bebf0764f7b08cfe3ad2c3336",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/CherryHQ/cherry-studio/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1588,7 +1663,7 @@
       "sourceHash": "3abc73f3580bfa2ee0462df8ca795e885a08716d34d30b80567c050de0e95f42",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ionic-team/ionic-framework/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1597,7 +1672,7 @@
       "sourceHash": "4b89cb55d764198d0a3712f338d7e4ee77901d8da31980433dda7944a116bef7",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/dkhamsing/open-source-ios-apps/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1606,7 +1681,7 @@
       "sourceHash": "4a026ae76a9bd7d8219ee83e3cbf7e983d59f119bc2dd7505661a3dc67ab656e",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/run-llama/llama_index/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1615,7 +1690,7 @@
       "sourceHash": "d9bb1d9558cd1adddd282db2d2e4775f1d717de7ff318e719ac2e5e4d1566f39",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/etcd-io/etcd/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1624,7 +1699,7 @@
       "sourceHash": "b3e17c69babe3f15b12308499c1f99626aeedbb4c2118801563a0a4e5d556cd1",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/prettier/prettier/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1633,7 +1708,7 @@
       "sourceHash": "e140036f021ef872459601df8f6b896a5ab4fbc57c9f0ac9e8c6dc2603bc2e3a",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/xai-org/grok-1/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1642,7 +1717,7 @@
       "sourceHash": "d7a4c5179ee95e74b63f5e4443ced5a808a9599b76e2046e5fd6c7f4bacaaec3",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/dbeaver/dbeaver/blob/devel/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1651,7 +1726,7 @@
       "sourceHash": "ae532a596727da7f43a46ad329cbce3f20693161f3c5164069337470e189e77d",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/Avik-Jain/100-Days-Of-ML-Code/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1660,7 +1735,7 @@
       "sourceHash": "1385af8fac541e23dd14133afbd01423d62e4a331e69f966ea7a3f07c630d4d5",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/vectorize-io/hindsight/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1669,7 +1744,7 @@
       "sourceHash": "71d7c7ca97f9955a62440867fee9672a50c902934904e9aa56023827a8fe33db",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/google/guava/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1678,7 +1753,7 @@
       "sourceHash": "cde9f20336070aaeaf116b9c3134d7a82c4a5bde9ac7def1310f8b5643041215",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/jekyll/jekyll/blob/master/README.markdown",
       "reason": "awaiting-chinese-guide"
     },
@@ -1687,7 +1762,7 @@
       "sourceHash": "f8769073ab31aa07a21dc7191ee8252fba5d3f00c9860fa5869a3bd638bc7196",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/charlax/professional-programming/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1696,7 +1771,7 @@
       "sourceHash": "927a942a97eb8a919a9449f3c457cc2e24f28c712b414ed6725666a099991a6c",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1705,7 +1780,7 @@
       "sourceHash": "96a19e122ecc382357ad89f7d02323b1455d14cb4451a7628bcf9726cace6852",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ethereum/go-ethereum/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1714,7 +1789,7 @@
       "sourceHash": "dc84b5976e2b9da250ce6b75575bf8ef02dd7b7f8c4a721c8ae84fb480c81abe",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/elder-plinius/CL4R1T4S/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1723,7 +1798,7 @@
       "sourceHash": "d6fea53f96dd8e430582d2ea42f555fbade1a1a82893673025c935dd96b07b26",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/roboflow/supervision/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1732,7 +1807,7 @@
       "sourceHash": "18127523833c95b059c1e9f83d398b6166a3885b906e7f82081cc6a3e2fc4a81",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/justjavac/wechat-miniapp-radar/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1741,7 +1816,7 @@
       "sourceHash": "b6a14bc1a5f21ce24c354b8b5c316f0f9167e9dfa9d14352968d27a5f815e55d",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/skylot/jadx/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1750,7 +1825,7 @@
       "sourceHash": "d39db428653c4a8cda1a30c9479f3bd48ed05dc740ea5df69c6bb0adbebd2e92",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/cypress-io/cypress/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1759,7 +1834,7 @@
       "sourceHash": "033e1c688dedfd6ecc217cacb81c90b0824f8cccf18a412423d25812ba8a6541",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/tldraw/tldraw/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1768,7 +1843,7 @@
       "sourceHash": "d1838da0511effbbe1f74ae26427e41a611a92424989a3c63bc2afd042f4e88f",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/Semantic-Org/Semantic-UI/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1777,7 +1852,7 @@
       "sourceHash": "1a6145f895345903e00b1ef63950d7ca3ac458988a034665e296576cdef6adb7",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/serhii-londar/open-source-mac-os-apps/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1786,7 +1861,7 @@
       "sourceHash": "1bdac78a17eb43ace0a3565ed6c663a1190a2d1ff28a5e5b089d7135461c4b53",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/chenglou/pretext/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1795,7 +1870,7 @@
       "sourceHash": "d107bfcb7a30ea7558b5730197be3acf764ded97c3e915cdc52b0f2e4a61e636",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/apple/container/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1804,7 +1879,7 @@
       "sourceHash": "3a7dc396c5fe773b81ca00d32a7a490ee75eb6fdc79ed90e6070f5b7ec5ba10c",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/upscayl/upscayl/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1813,7 +1888,7 @@
       "sourceHash": "8fab7054700ec7e193209585a29af359efab5a2ccdd9cd8848b4f246c6032f50",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/nlohmann/json/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1822,7 +1897,7 @@
       "sourceHash": "8fe15be775d24504a09a24442b19b5876e4924f021dc0afcdf22680861365522",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/moeru-ai/airi/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1831,7 +1906,7 @@
       "sourceHash": "1b8b7f7239bc5fbf99ab0eea2a5c57f328bbd8b197c1bce6ce2a5d427c5a2f73",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/ClickHouse/ClickHouse/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1840,7 +1915,7 @@
       "sourceHash": "eb4a4b899584bab2ca41e6db5f98cba0d93aae133f559cff5bcc02b5012f5716",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/TanStack/query/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1849,7 +1924,7 @@
       "sourceHash": "a1f06a9783a1612b7a54927647682ed93030c3d9a04deff0125fcc788b3190d4",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1858,7 +1933,7 @@
       "sourceHash": "d86dd7146bd85dc767fd6c1ec3738376c1993487d322de9c01d219722a7897c8",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/mastodon/mastodon/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1867,7 +1942,7 @@
       "sourceHash": "22badb8bbcbf166cff47ee16cb1b46340b06ee3068db5ce7a16ae7a9d6b46ba0",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/QuantumNous/new-api/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1876,7 +1951,7 @@
       "sourceHash": "587eaa2bd81f9e0e3fd8e0dd4afb31546ee866b76df40bcb85377e02fe37eae5",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/AlistGo/alist/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1885,7 +1960,7 @@
       "sourceHash": "1e587cdffdab7e116e586c91d27c9f6069957d3bb0617a1e541c4262864c18cd",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/pandas-dev/pandas/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1894,7 +1969,7 @@
       "sourceHash": "fc145c164c80c0419f613a3b30d1f0a23b7206457c940e96a320216898597269",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -1903,24 +1978,24 @@
       "sourceHash": "a598da0e37f9b14acd404f36452e950360ba69e006cf4f13a9691f708cf2d3ab",
       "firstSeenAt": "2026-10-20T16:16:27.465Z",
       "attempts": 0,
-      "lastSeenAt": "2026-10-20T16:16:27.465Z",
+      "lastSeenAt": "2026-10-21T06:00:52.593Z",
       "readmeUrl": "https://github.com/astral-sh/ruff/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     }
   },
   "budget": {
-    "day": "2026-10-20",
+    "day": "2026-10-21",
     "counts": {
-      "openrouter": 20
+      "openrouter": 16
     },
     "lastValidation": {
-      "id": "xtekky/gpt4free",
+      "id": "remotion-dev/remotion",
       "model": "nvidia/nemotron-3.5-lightning:free",
       "issues": [
         "missing-chinese-scenarios",
         "missing-source-evidence"
       ],
-      "checkedAt": "2026-10-20T16:16:27.465Z"
+      "checkedAt": "2026-10-21T06:00:52.593Z"
     }
   },
   "drafts": {
@@ -2019,6 +2094,152 @@
       "savedAt": "2026-10-20T16:16:27.465Z",
       "reviewIssues": [
         "场景“团队通过 Python 或浏览器 JavaScript 客户端，以同步或异步方式集成模型调用”不够准确：README 仅明确说明 Python 客户端支持同步和异步示例，并将浏览器 JavaScript 客户端作为独立客户端介绍，未说明浏览器 JavaScript 客户端支持同步或异步调用。建议将表述拆分为“Python 客户端提供同步和异步调用，浏览器 JavaScript 客户端用于浏览器端调用”。"
+      ]
+    },
+    "thealgorithms/java|openrouter/minimax/minimax-m3.1-flash:free": {
+      "sourceHash": "fbeb179b4ecd1181473ef68ef63c1d3d87c98627635f3b282718d34374454024",
+      "draft": {
+        "kind": "learn",
+        "summary": "这是一个使用 Java 实现算法的教育型项目，适合通过阅读、运行和修改算法代码来学习相关实现思路。",
+        "purpose": "用于学习、运行、编辑 Java 算法实现，并为算法项目贡献代码。",
+        "audience": "Java 编程学习者与算法入门者",
+        "scenarios": [
+          "学习者阅读并运行 Java 语言编写的算法实现，以理解基础算法的代码表达方式。",
+          "学习者在 Gitpod 在线开发环境中编辑算法代码，观察修改后的实现效果。",
+          "贡献者在提交代码前阅读贡献指南，并参考目录了解项目包含的算法应用。"
+        ],
+        "steps": [
+          "阅读贡献指南，确认参与项目时需要遵循的贡献要求。",
+          "通过 Gitpod 一键进入在线开发环境，运行并编辑仓库中的 Java 算法。",
+          "查看算法目录，依据完整应用列表定位希望学习和实践的算法。"
+        ],
+        "requirements": "README 明确说明可使用 Gitpod 在线开发环境运行和编辑算法；Java 版本、依赖配置及具体构建条件未在所给简介中说明，均以项目原文为准。",
+        "verification": "建议运行所选算法实现，并将输出与该算法对应的功能描述进行对照；README 未提供验收脚本或统一验收命令。",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "All algorithms are implemented in Java (for educational purposes)"
+          },
+          {
+            "field": "purpose",
+            "quote": "You can run and edit the algorithms, or contribute to them using Gitpod.io (a free online development environment) with a single click."
+          },
+          {
+            "field": "scenarios",
+            "quote": "These implementations are intended for learning purposes."
+          },
+          {
+            "field": "steps",
+            "quote": "You can run and edit the algorithms, or contribute to them using Gitpod.io (a free online development environment) with a single click."
+          },
+          {
+            "field": "verification",
+            "quote": "All Algorithms implemented in Java"
+          }
+        ]
+      },
+      "savedAt": "2026-10-21T06:00:52.593Z",
+      "reviewIssues": [
+        "验证方法要求将输出与“该算法对应的功能描述”进行对照，但所给 README 未提供各算法的功能描述、样例输入输出或预期结果，无法据此形成可执行且有依据的验证步骤；应改为仅说明可运行所选实现并自行核对输出，且明确 README 未提供统一验收方式。",
+        "场景中的“基础算法”属于原文未限定的范围概括；README 仅称项目包含用 Java 实现的算法，并链接完整目录，不应缩窄为基础算法。",
+        "步骤将“阅读贡献指南”列为通用入门第一步并不准确：该指南明确面向项目贡献者，普通学习者应先查看算法目录并通过 Gitpod 运行、编辑所选实现，贡献者再阅读贡献指南。"
+      ]
+    },
+    "webpack/webpack|openrouter/minimax/minimax-m3.1-flash:free": {
+      "sourceHash": "e056f19b6de0b8d1b35dc1b94608b530e128f9fb7d4509655b1ccbb46eb75e4f",
+      "draft": {
+        "kind": "framework",
+        "summary": "webpack 是一个模块打包器，可将 JavaScript 及多种静态资源转换为适合浏览器使用的构建产物。",
+        "purpose": "用于打包模块、拆分按需加载代码，并预处理 JavaScript、CSS、图片等资源。",
+        "audience": "前端开发者",
+        "scenarios": [
+          "将 ES Modules、CommonJS 和 AMD 模块打包成浏览器可用的单个资源包。",
+          "把应用拆分为多个运行时异步加载的代码块，以减少初始加载时间。",
+          "通过 loaders 在编译期间处理 TypeScript、CSS、图片、JSON 和自定义资源。",
+          "使用插件系统扩展应用构建流程，并生成 HTML 页面或提取 CSS 文件。"
+        ],
+        "steps": [
+          "使用 npm 将 webpack 作为开发依赖安装：npm install --save-dev webpack",
+          "阅读 webpack 官方 Get Started 快速入门指南及其他指南，配置并使用模块打包能力。"
+        ],
+        "requirements": "README 仅说明可使用 npm 或 yarn 安装；选定 npm 路线时应具备 npm 环境。若使用 import() 或 require.ensure()，还需 Promise；旧版浏览器环境应按原文说明先加载 polyfill，其他条件以原文为准。",
+        "verification": "建议对照功能描述检查编译结果：确认模块已被打包为资源，并检查是否按需生成可异步加载的代码块；该检查方式为建议，原文未提供验收脚本。",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."
+          },
+          {
+            "field": "purpose",
+            "quote": "Code Splitting allows for loading parts of the application on demand."
+          },
+          {
+            "field": "scenarios",
+            "quote": "Can create a single bundle or multiple chunks that are asynchronously loaded at runtime (to reduce initial loading time)."
+          },
+          {
+            "field": "steps",
+            "quote": "Install with npm:\n\n```bash\nnpm install --save-dev webpack\n```"
+          },
+          {
+            "field": "verification",
+            "quote": "Bundles [ES Modules](https://www.2ality.com/2014/09/es6-modules-final.html), [CommonJS](https://wiki.commonjs.org/), and [AMD](https://github.com/amdjs/amdjs-api/wiki/AMD) modules (even combined)."
+          }
+        ]
+      },
+      "savedAt": "2026-10-21T06:00:52.593Z",
+      "reviewIssues": [
+        "场景中“生成 HTML 页面或提取 CSS 文件”未注明 README 所述的“实验性”状态，容易让读者误认为这些能力已稳定提供。",
+        "前置条件遗漏了明确的浏览器兼容要求：Webpack 支持符合 ES5 的浏览器，不支持 IE8 及更低版本；使用 import() 或 require.ensure() 时还需要 Promise，旧浏览器需先加载 polyfill。"
+      ]
+    },
+    "kelseyhightower/nocode|openrouter/minimax/minimax-m3.1-flash:free": {
+      "sourceHash": "a131492c7f5cd034dd92d461bbb44aa4f33bbab5c1d67f2a2d9947d796e75f35",
+      "draft": {
+        "kind": "learn",
+        "summary": "这是一个以“不编写代码、不部署到任何地方”为核心的反讽式学习示例，通过空白代码块演示极简构建与部署理念。",
+        "purpose": "用于展示无需编写实际代码也能演示应用构建、部署和扩展流程的幽默教程。",
+        "audience": "开发者与希望理解无代码理念的初学者",
+        "scenarios": [
+          "读者从空白示例开始，体验不编写任何代码的应用入门流程。",
+          "团队借用该项目讨论安全可靠应用、极简构建与无处部署之间的反差。",
+          "学习者按照构建和部署章节，依次体验反讽式的应用操作步骤。"
+        ],
+        "steps": [
+          "先不编写任何代码，按照 README 的 Getting Started 空白示例开始。",
+          "进入 Building the Application 部分，按照原文继续构建该空白示例应用。",
+          "进入 Deploying 部分执行原文展示的部署步骤，使应用仍被部署到无处。"
+        ],
+        "requirements": "原文未列出依赖、运行环境或配置要求，相关条件以 README 原文为准。",
+        "verification": "建议对照功能描述检查结果：构建部分应出现原文所称的后续输出，而部署结果仍应是“absolutely nowhere”。",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "No code is the best way to write secure and reliable applications. Write nothing; deploy nowhere."
+          },
+          {
+            "field": "purpose",
+            "quote": "Start by not writing any code.\n\n```\n\n```\n\nThis is just an example application, but imagine it doing anything you want."
+          },
+          {
+            "field": "scenarios",
+            "quote": "The possibilities are endless."
+          },
+          {
+            "field": "steps",
+            "quote": "Now that you have not done anything it's time to build your application:\n\n```\n\n```\n\nYep. That's it. You should see the following output:"
+          },
+          {
+            "field": "verification",
+            "quote": "While you still have not done anything it's time to deploy your application. By running the following command you can deploy your application absolutely nowhere."
+          }
+        ]
+      },
+      "savedAt": "2026-10-21T06:00:52.593Z",
+      "reviewIssues": [
+        "验证方法中的“构建部分应出现原文所称的后续输出”无法成立：README 虽写有“should see the following output”，但其后的代码块为空，source 没有提供任何具体输出可供对照。",
+        "步骤将空白代码块表述为可执行的“构建该空白示例应用”和“部署步骤”，但 README 仅展示空代码块，没有实际命令、操作内容或可执行步骤；应说明这些部分本身没有可照做的具体操作。",
+        "“开发者与希望理解无代码理念的初学者”属于原文未明确说明的适用对象范围，不能仅根据该 README 作为事实性受众介绍。"
       ]
     }
   }
