@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "guidePolicyVersion": 1,
   "updateStatus": {
-    "lastCollectedAt": "2026-10-22T06:06:20.228Z",
+    "lastCollectedAt": "2026-10-23T06:01:15.471Z",
     "pendingCount": 196,
     "readyCount": 5,
     "reasons": [
@@ -10,7 +10,7 @@
         "code": "guide-validation-failed",
         "label": "中文完整性检查未通过",
         "action": "重新整理缺失字段",
-        "count": 15,
+        "count": 21,
         "nextAttemptAt": "2026-10-20T06:59:29.609Z"
       },
       {
@@ -24,14 +24,14 @@
         "code": "guide-completion-failed",
         "label": "中文补全暂未完成",
         "action": "等待后台重试",
-        "count": 178,
+        "count": 172,
         "nextAttemptAt": null
       }
     ]
   },
   "thresholdExclusive": 50000,
   "maxItems": 500,
-  "generatedAt": "2026-10-22T06:06:20.228Z",
+  "generatedAt": "2026-10-23T06:01:15.471Z",
   "editions": [
     {
       "id": "2026-10-21",
