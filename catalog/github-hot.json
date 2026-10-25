@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "guidePolicyVersion": 1,
+  "guidePolicyVersion": 3,
   "updateStatus": {
-    "lastCollectedAt": "2026-10-24T19:29:55.769Z",
+    "lastCollectedAt": "2026-10-25T06:04:34.666Z",
     "pendingCount": 201,
     "readyCount": 5,
     "reasons": [
@@ -10,21 +10,21 @@
         "code": "guide-validation-failed",
         "label": "中文完整性检查未通过",
         "action": "重新整理缺失字段",
-        "count": 21,
+        "count": 24,
         "nextAttemptAt": "2026-10-20T06:59:29.609Z"
       },
       {
-        "code": "guide-completion-failed",
-        "label": "中文补全暂未完成",
-        "action": "等待后台重试",
-        "count": 175,
+        "code": "awaiting-chinese-guide",
+        "label": "排队中，尚未开始整理",
+        "action": "项目已可浏览和收藏，后台按批次补齐中文介绍",
+        "count": 169,
         "nextAttemptAt": null
       },
       {
         "code": "source-review-rejected",
         "label": "原文依据检查未通过",
         "action": "重新整理，不发布未经核对的内容",
-        "count": 2,
+        "count": 4,
         "nextAttemptAt": "2026-10-24T20:29:55.769Z"
       },
       {
@@ -38,14 +38,14 @@
         "code": "invalid-response",
         "label": "模型输出格式异常",
         "action": "稍后重试，当前输出不发布",
-        "count": 2,
+        "count": 3,
         "nextAttemptAt": "2026-10-24T20:29:55.769Z"
       }
     ]
   },
   "thresholdExclusive": 50000,
   "maxItems": 500,
-  "generatedAt": "2026-10-24T19:29:55.769Z",
+  "generatedAt": "2026-10-25T06:04:34.666Z",
   "editions": [
     {
       "id": "2026-10-21",
