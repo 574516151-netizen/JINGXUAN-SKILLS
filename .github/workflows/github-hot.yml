@@ -13,6 +13,10 @@ on:
         description: Publish a new edition today (never rewrite an existing edition)
         type: boolean
         default: false
+      collect_only:
+        description: Publish official source data without calling models this run
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -32,12 +36,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FORCE_PUBLISH: ${{ inputs.publish }}
           RETRY_GUIDES: ${{ inputs.retry_guides }}
+          COLLECT_ONLY: ${{ inputs.collect_only }}
           COCKPIT_GEMINI_API_KEY: ${{ secrets.COCKPIT_GEMINI_API_KEY }}
           COCKPIT_HOT_GUIDE_KEYS: ${{ secrets.COCKPIT_HOT_GUIDE_KEYS }}
         run: |
           args=()
           if [ "$FORCE_PUBLISH" = "true" ]; then args+=(--publish); fi
           if [ "$RETRY_GUIDES" = "true" ]; then args+=(--retry-guides); fi
+          if [ "$COLLECT_ONLY" = "true" ]; then args+=(--collect-only); fi
           node scripts/github-hot-collect.cjs --directory catalog --editorial catalog/github-hot-editorial.json "${args[@]}"
       - name: Validate published feed
         run: node scripts/validate-github-hot.cjs

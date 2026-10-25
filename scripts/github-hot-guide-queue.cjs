@@ -23,7 +23,7 @@ async function prepare({items,targets,state=newState(),complete,now,maxPerRun=6,
   }catch(e){pending.reason=safeReason(e);const wait=/http-(401|402|403|404|429)|free-model/.test(pending.reason)?24*3600000:3600000;pending.nextAttemptAt=pending.reason==='daily-budget-exhausted'?new Date(Date.parse(now.slice(0,10)+'T00:00:00Z')+86400000).toISOString():new Date(Date.parse(now)+wait).toISOString();}
   await checkpoint(state);
  }
- // Keep unfinished IDs out of the published feed, but retain their state for later retries.
+ // Return only approved Chinese guides; the collector publishes separate official-text pending items.
  for(const [id,p]of Object.entries(state.pending))if(!ids.has(id)&&Date.parse(now)-Date.parse(p.lastSeenAt)>45*86400000)delete state.pending[id];
  return {items:[...map.values()].filter(isReady),state,attempted,completed,pendingCount:targets.filter(id=>!isReady(map.get(id)||{})).length};
 }

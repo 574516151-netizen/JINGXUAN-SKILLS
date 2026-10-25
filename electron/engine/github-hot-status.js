@@ -1,5 +1,6 @@
 // Public, credential-free status shared by collector and desktop.
 const reasons={
+ 'awaiting-chinese-guide':['排队中，尚未开始整理','项目已可浏览和收藏，后台按批次补齐中文介绍'],
  'daily-budget-exhausted':['今日补全请求预算已用尽','下个UTC日恢复预算后继续处理'],
  'http-429':['限流 / 当日额度不足','等待额度恢复后自动重试'],
  'network-unavailable':['模型网络连接失败','检查网络，稍后自动重试'],
