@@ -2,29 +2,29 @@
   "schemaVersion": 1,
   "guidePolicyVersion": 3,
   "updateStatus": {
-    "lastCollectedAt": "2026-10-28T06:50:28.519Z",
-    "pendingCount": 205,
+    "lastCollectedAt": "2026-10-29T07:01:48.386Z",
+    "pendingCount": 207,
     "readyCount": 5,
     "reasons": [
       {
         "code": "guide-validation-failed",
         "label": "中文完整性检查未通过",
         "action": "重新整理缺失字段",
-        "count": 35,
+        "count": 36,
         "nextAttemptAt": "2026-10-20T06:59:29.609Z"
       },
       {
         "code": "awaiting-chinese-guide",
         "label": "排队中，尚未开始整理",
         "action": "项目已可浏览和收藏，后台按批次补齐中文介绍",
-        "count": 155,
+        "count": 153,
         "nextAttemptAt": null
       },
       {
         "code": "source-review-rejected",
         "label": "原文依据检查未通过",
         "action": "重新整理，不发布未经核对的内容",
-        "count": 10,
+        "count": 13,
         "nextAttemptAt": "2026-10-24T20:29:55.769Z"
       },
       {
@@ -45,7 +45,7 @@
   },
   "thresholdExclusive": 50000,
   "maxItems": 500,
-  "generatedAt": "2026-10-28T06:50:28.519Z",
+  "generatedAt": "2026-10-29T07:01:48.386Z",
   "editions": [
     {
       "id": "2026-10-26",
