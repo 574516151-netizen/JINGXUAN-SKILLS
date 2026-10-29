@@ -38,6 +38,16 @@ function normalize(repo,editorial,readme,now){const custom=editorial[repo.full_n
  return item;}
 function metricFor(repo,snapshots,now,trending){const target=Date.parse(now)-7*DAY,candidates=snapshots.filter(s=>Math.abs(Date.parse(s.at)-target)<=3600000&&Number.isSafeInteger(s.stars[repo.id]));candidates.sort((a,b)=>Math.abs(Date.parse(a.at)-target)-Math.abs(Date.parse(b.at)-target));if(candidates.length)return {delta:Math.max(0,repo.stars-candidates[0].stars[repo.id]),metric:'snapshot',observedAt:now,periodStart:candidates[0].at,periodEnd:now};return trending.find(x=>x.id===repo.id)||null;}
 function guideTargets(items,metrics,pending={}){const eligible=new Set(items.map(i=>i.id));return [...new Set([...items].sort((a,b)=>b.stars-a.stars||a.id.localeCompare(b.id)).slice(0,policy.MAX).map(r=>r.id).concat(items.filter(r=>metrics.get(r.id)).sort((a,b)=>metrics.get(b.id).delta-metrics.get(a.id).delta||b.stars-a.stars||a.id.localeCompare(b.id)).slice(0,policy.MAX).map(r=>r.id),Object.keys(pending).filter(id=>eligible.has(id))))];}
+function guidePriorities(items,metrics,previous){
+ const stars=[...items].sort((a,b)=>b.stars-a.stars||a.id.localeCompare(b.id)).slice(0,policy.MAX);
+ const weekly=items.filter(r=>metrics.get(r.id)).sort((a,b)=>metrics.get(b.id).delta-metrics.get(a.id).delta||b.stars-a.stars||a.id.localeCompare(b.id)).slice(0,policy.MAX);
+ const prior={stars:new Map(previous?.boards?.stars?.map(x=>[x.id,x])||[]),weekly:new Map(previous?.boards?.weekly?.map(x=>[x.id,x])||[])};
+ // Keep the current edition's new entries prioritized during later daily runs,
+ // rather than losing their priority immediately after publishing the edition.
+ const priorities={};if(previous)for(const [kind,rows]of [['stars',stars],['weekly',weekly]])for(const item of rows)if(!prior[kind].has(item.id)||prior[kind].get(item.id).change===null)priorities[item.id]=1;
+ for(const item of weekly.slice(0,30))priorities[item.id]=0;
+ return priorities;
+}
 async function collect({directory,editorialFile,token='',publish=false,now=new Date().toISOString(),fetch=request,complete,aiConfig,aiKeys,maxGuideCompletions=6,retryPending=false}){
  if(!Number.isInteger(maxGuideCompletions)||maxGuideCompletions<0||maxGuideCompletions>1000)throw Error('单轮补全数量无效');
  await fs.mkdir(directory,{recursive:true});const read=async(name,fallback)=>{try{return JSON.parse(await fs.readFile(path.join(directory,name),'utf8'));}catch(e){if(e.code==='ENOENT')return fallback;throw e;}};
@@ -52,13 +62,13 @@ async function collect({directory,editorialFile,token='',publish=false,now=new D
  const shouldPublish=(!old||publish||monday)&&(!sameDay.length||policyChanged);
  let index=0,readmeFailures=0;const readmes={};await Promise.all(Array.from({length:4},async()=>{for(;;){const r=eligible[index++];if(!r)break;const id=r.full_name.toLowerCase(),cached=state.readmes[id];if(cached&&Date.parse(now)-Date.parse(cached.fetchedAt)<7*DAY){readmes[id]=cached;continue;}try{const data=JSON.parse((await fetch('https://api.github.com/repos/'+r.full_name+'/readme',{token,maxBytes:1024*1024})).toString());if(data.encoding!=='base64'||typeof data.content!=='string')throw Error();readmes[id]={text:plainReadme(Buffer.from(data.content,'base64').toString('utf8')),url:data.html_url||'https://github.com/'+r.full_name+'#readme',fetchedAt:now};}catch(_){readmeFailures++;if(cached)readmes[id]=cached;}}}));
  const allItems=eligible.map(r=>normalize(r,editorial,readmes[r.full_name.toLowerCase()],now)),metrics=new Map(allItems.map(r=>[r.id,metricFor(r,snapshots,now,trending)])),previous=old?.editions[0];
- const targets=guideTargets(allItems,metrics,guideState.pending);
+ const targets=guideTargets(allItems,metrics,guideState.pending),priorities=guidePriorities(allItems,metrics,previous);
  if(retryPending)for(const id of targets)if(guideState.pending[id])delete guideState.pending[id].nextAttemptAt;
  if(aiConfig===undefined){try{aiConfig=JSON.parse(await fs.readFile(path.join(directory,'github-hot-ai-config.json'),'utf8'));}catch(e){if(e.code!=='ENOENT')throw Error('中文补全服务配置异常');}}
  if(aiKeys===undefined){try{aiKeys=JSON.parse(process.env.COCKPIT_HOT_GUIDE_KEYS||'{}');}catch(_){throw Error('中文补全凭据配置异常');}}
  if(process.env.COCKPIT_GEMINI_API_KEY)aiKeys={...aiKeys,gemini:process.env.COCKPIT_GEMINI_API_KEY};
  const completer=complete||(aiConfig?.enabled&&Object.keys(aiKeys).length?createCompleter({providers:aiConfig.providers,keys:aiKeys,budget:guideState.budget,drafts:guideState.drafts}):undefined);
- const prepared=await prepareGuides({items:allItems,targets,state:guideState,complete:completer,now,maxPerRun:maxGuideCompletions,checkpoint:value=>atomic(path.join(directory,'github-hot-guide-state.json'),value)}),items=allItems.map(item=>prepared.items.find(r=>r.id===item.id)||pendingItem(item,guideState.pending[item.id],now)).filter(Boolean);
+ const prepared=await prepareGuides({items:allItems,targets,priorities,state:guideState,complete:completer,now,maxPerRun:maxGuideCompletions,checkpoint:value=>atomic(path.join(directory,'github-hot-guide-state.json'),value)}),items=allItems.map(item=>prepared.items.find(r=>r.id===item.id)||pendingItem(item,guideState.pending[item.id],now)).filter(Boolean);
  const updateStatus=summarize(guideState,now);
  if(old){old.guidePolicyVersion=3;old.updateStatus=updateStatus;old.generatedAt=now;for(const e of old.editions)for(let n=0;n<e.items.length;n++){const item=e.items[n];if(!isUnfinished(item))continue;const current=allItems.find(r=>r.id===item.id)||item,ready=cachedGuide(current,guideState);if(isReady(ready)){const replacement={...item,...Object.fromEntries(['description','readmeExcerpt','readmeUrl','readmeFetchedAt',...CONTENT].map(k=>[k,ready[k]]))};delete replacement.publication;e.items[n]=replacement;}}old.guidePolicyVersion=3;await atomic(path.join(directory,'github-hot.json'),policy.validateFeed(old));}
  await atomic(path.join(directory,'github-hot-guide-state.json'),guideState);
@@ -71,5 +81,5 @@ async function collect({directory,editorialFile,token='',publish=false,now=new D
  await atomic(path.join(directory,'github-hot.json'),feed);return {published:true,candidates:allItems.length,stars:stars.length,weekly:weekly.length,ready:prepared.items.length,pending:prepared.pendingCount,completed:prepared.completed,readmeFailures};
 }
 async function atomic(file,value){const pending=file+'.tmp';await fs.writeFile(pending,JSON.stringify(value,null,2)+'\n');await fs.rename(pending,file);}
-module.exports={collect,parseTrending,metricFor,normalize,categoryFor,request,plainReadme,guideTargets};
+module.exports={collect,parseTrending,metricFor,normalize,categoryFor,request,plainReadme,guideTargets,guidePriorities};
 if(require.main===module){const args=process.argv.slice(2),value=key=>args[args.indexOf(key)+1];collect({directory:path.resolve(args.includes('--directory')?value('--directory'):'catalog/github-hot-data'),editorialFile:path.resolve(args.includes('--editorial')?value('--editorial'):'catalog/github-hot-editorial.json'),token:process.env.GITHUB_TOKEN||'',publish:args.includes('--publish'),retryPending:args.includes('--retry-guides'),maxGuideCompletions:args.includes('--collect-only')?0:6}).then(result=>console.log(JSON.stringify(result))).catch(error=>{console.error(error.message);process.exitCode=1;});}

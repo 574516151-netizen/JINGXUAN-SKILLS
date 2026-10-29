@@ -3,10 +3,10 @@ const {safeReason}=require('./github-hot-guide-ai.cjs');
 const CONTENT=['summary','scenarios','usage','requirements','quickStart','guide','editorialStatus'];
 function newState(){return {schemaVersion:1,guides:{},pending:{},drafts:{},budget:{day:'',counts:{}}};}
 function cached(item,state){const value=state.guides[item.id];if(value?.sourceHash!==sourceHash(item)||!value.content)return item;const content=Object.fromEntries(CONTENT.map(k=>[k,value.content[k]]));const result={...item,...content};return isReady(result)?result:item;}
-async function prepare({items,targets,state=newState(),complete,now,maxPerRun=6,checkpoint=async()=>{}}){
+async function prepare({items,targets,priorities={},state=newState(),complete,now,maxPerRun=6,checkpoint=async()=>{}}){
  if(state.schemaVersion!==1||!state.guides||!state.pending||!state.budget)throw Error('中文导读队列格式异常，已停止发布');
  const ids=new Set(targets),map=new Map(items.map(item=>[item.id,cached(enrich(item),state)]));let attempted=0,completed=0;
- const ordered=[...targets].sort((a,b)=>(state.pending[a]?.attempts||0)-(state.pending[b]?.attempts||0));
+ const ordered=[...targets].sort((a,b)=>(priorities[a]??2)-(priorities[b]??2)||(state.pending[a]?.attempts||0)-(state.pending[b]?.attempts||0));
  for(const id of ordered){let item=map.get(id);if(!item)continue;
   if(isReady(item)){delete state.pending[id];continue;}
   const hash=sourceHash(item),prior=state.pending[id],pending=prior?.sourceHash===hash?prior:{id,sourceHash:hash,firstSeenAt:prior?.firstSeenAt||now,attempts:0};
