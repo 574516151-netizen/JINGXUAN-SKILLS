@@ -378,6 +378,113 @@
           "editionCopies": 3
         }
       ]
+    },
+    {
+      "batch": "backlog-005",
+      "reviewedAt": "2026-11-04T10:07:26.796Z",
+      "method": "source-reading-and-structure-check",
+      "projects": [
+        {
+          "id": "google/guava",
+          "sourceHash": "67981320f8f7f19174466f32dddfffaeea045a74e469139c90ea56feca7695a0",
+          "editionCopies": 3
+        },
+        {
+          "id": "google/material-design-icons",
+          "sourceHash": "3393ccebdc815958b2adda7dfeb7878a2dce73f0db2de830f3518fc2034b3a92",
+          "editionCopies": 3
+        },
+        {
+          "id": "h5bp/front-end-developer-interview-questions",
+          "sourceHash": "717eb16a99d5c705ab4dd3cd2d7b0a4451c36685ad06b60f45012d73a341fee9",
+          "editionCopies": 3
+        },
+        {
+          "id": "h5bp/html5-boilerplate",
+          "sourceHash": "6ac9628c4369aa96be084234a47c6ecbfd657f69ac9c430ac06e591004035ed9",
+          "editionCopies": 3
+        },
+        {
+          "id": "hesreallyhim/awesome-claude-code",
+          "sourceHash": "09903c8a61d5e479e38b97d273ceed1b10b08bee841494d76a30b386f48565be",
+          "editionCopies": 3
+        },
+        {
+          "id": "hkuds/cli-anything",
+          "sourceHash": "0dae3200911dbb5ddd020c49086bf576a5630ee5bb0bcdf0de953b9303a6f394",
+          "editionCopies": 3
+        },
+        {
+          "id": "hkuds/deeptutor",
+          "sourceHash": "a9b7556ce0937952b887840a91824dbb1351feb1f53781790d9d89840ce550c9",
+          "editionCopies": 1
+        },
+        {
+          "id": "homebrew/brew",
+          "sourceHash": "8947d9dbee773885aeeb5dec1b9296866e67092a25f7d950a5bf07055048ef0f",
+          "editionCopies": 1
+        },
+        {
+          "id": "huginn/huginn",
+          "sourceHash": "fae1f5ce61074de33c07b64845844bcd6458e70a1d18045013f61983443f444e",
+          "editionCopies": 1
+        },
+        {
+          "id": "imbad0202/academic-research-skills",
+          "sourceHash": "3231b30995216f3446b43531d0f7b4444b26ba9fb4b90169fa125197316f39f9",
+          "editionCopies": 3
+        },
+        {
+          "id": "ionic-team/ionic-framework",
+          "sourceHash": "094a578a2d15d06be77d233878d3ad7eb8a6181f9093696d75bc795d9dc6074b",
+          "editionCopies": 3
+        },
+        {
+          "id": "jakevdp/pythondatasciencehandbook",
+          "sourceHash": "fc145c164c80c0419f613a3b30d1f0a23b7206457c940e96a320216898597269",
+          "editionCopies": 1
+        },
+        {
+          "id": "jamiepine/voicebox",
+          "sourceHash": "6d34d6254c2f220f2633108fae04ac7d4fe7cfb6618d2197a5b83952818ea3b3",
+          "editionCopies": 3
+        },
+        {
+          "id": "jekyll/jekyll",
+          "sourceHash": "cde9f20336070aaeaf116b9c3134d7a82c4a5bde9ac7def1310f8b5643041215",
+          "editionCopies": 3
+        },
+        {
+          "id": "jellyfin/jellyfin",
+          "sourceHash": "712ebce11aa633264ac54131093bc67d46467a4e11431c822d2ec976db8350a5",
+          "editionCopies": 3
+        },
+        {
+          "id": "jesseduffield/lazydocker",
+          "sourceHash": "d3269ad377cf6e5cbeb839ee6868dea9af13d4fc5f5a0e55fd671634a7ebba84",
+          "editionCopies": 3
+        },
+        {
+          "id": "jetbrains/kotlin",
+          "sourceHash": "f3c725ba3adfe2c03ddb699c1682dea3c1c3413d8d659b90881cfc652719aba3",
+          "editionCopies": 3
+        },
+        {
+          "id": "jgraph/drawio-desktop",
+          "sourceHash": "6da1584a8ca75be00fdea852d22cdd4eab97f24ba7c6953e1837f5372231e5dc",
+          "editionCopies": 3
+        },
+        {
+          "id": "jingyaogong/minimind",
+          "sourceHash": "7bfbf8279502ffe2ddf47e8663940cff638d6eba80e72260dc6df446b11101ca",
+          "editionCopies": 3
+        },
+        {
+          "id": "jquery/jquery",
+          "sourceHash": "0d80f364ff02cef4f7f72658a8585577cb4ab04df294879008f903d694c61cb6",
+          "editionCopies": 3
+        }
+      ]
     }
   ]
 }
