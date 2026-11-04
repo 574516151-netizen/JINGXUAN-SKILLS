@@ -5612,6 +5612,1186 @@
         },
         "editorialStatus": "中文导读 · 官方原文已核对"
       }
+    },
+    "justjavac/wechat-miniapp-radar": {
+      "sourceHash": "8a0dddf59838b45c010d02036a0f069c6c2ff70e3df11e5e32b8c489d9e45161",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "将小程序生态资源整理为可筛选、对比和评估的技术雷达，包含方案对比、选型建议、迁移诊断与周报。",
+        "scenarios": [
+          "比较 Taro、uni-app 和原生小程序的适用性。"
+        ],
+        "usage": "将小程序生态资源整理为可筛选、对比和评估的技术雷达，包含方案对比、选型建议、迁移诊断与周报。",
+        "requirements": "网页浏览即可开始，诊断时先去除项目配置中的密钥和个人信息。",
+        "quickStart": "1. 从线上入口进入 Radar，按类型和适用场景筛选。\n2. 用 Compare 比较方案，给 Advisor 提供约束，再核对其证据来源。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "将小程序生态资源整理为可筛选、对比和评估的技术雷达，包含方案对比、选型建议、迁移诊断与周报。",
+          "audience": "进行小程序技术选型的团队",
+          "example": "比较 Taro、uni-app 和原生小程序的适用性。",
+          "steps": [
+            "从线上入口进入 Radar，按类型和适用场景筛选。",
+            "用 Compare 比较方案，给 Advisor 提供约束，再核对其证据来源。"
+          ],
+          "verification": "推荐能对应项目约束，迁移成本和风险有来源；建议仍需实际原型验证。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": ":traffic_light:小程序雷达：AI 驱动的小程序技术选型、趋势追踪和迁移诊断工具\n\n# 小程序雷达\n\n\nAI 驱动的小程序生态选型与风险评估工具，把微信小程序开发资源转化为可筛选、可评估、可对比的技术雷达。\n\n## 线上地址\n\n- 主站：\n- Vercel：\n\n## 适合谁\n\n- 正在做微信小程序技术选型的产品、研发和架构团队。\n- 需要判断 Taro、uni-app、原生小程序、组件库、云开发和 SDK 风险的团队。\n- 需要把历史 awesome 列表转成可筛选、可对比、可验证技术雷达的维护者。\n\n## 可以做什么\n\n- Radar：按推荐状态、风险等级、资源类型、分类和适用场景浏览小程序"
+            },
+            {
+              "field": "purpose",
+              "quote": ":traffic_light:小程序雷达：AI 驱动的小程序技术选型、趋势追踪和迁移诊断工具\n\n# 小程序雷达\n\n\nAI 驱动的小程序生态选型与风险评估工具，把微信小程序开发资源转化为可筛选、可评估、可对比的技术雷达。\n\n## 线上地址\n\n- 主站：\n- Vercel：\n\n## 适合谁\n\n- 正在做微信小程序技术选型的产品、研发和架构团队。\n- 需要判断 Taro、uni-app、原生小程序、组件库、云开发和 SDK 风险的团队。\n- 需要把历史 awesome 列表转成可筛选、可对比、可验证技术雷达的维护者。\n\n## 可以做什么\n\n- Radar：按推荐状态、风险等级、资源类型、分类和适用场景浏览小程序"
+            },
+            {
+              "field": "scenarios",
+              "quote": ":traffic_light:小程序雷达：AI 驱动的小程序技术选型、趋势追踪和迁移诊断工具\n\n# 小程序雷达\n\n\nAI 驱动的小程序生态选型与风险评估工具，把微信小程序开发资源转化为可筛选、可评估、可对比的技术雷达。\n\n## 线上地址\n\n- 主站：\n- Vercel：\n\n## 适合谁\n\n- 正在做微信小程序技术选型的产品、研发和架构团队。\n- 需要判断 Taro、uni-app、原生小程序、组件库、云开发和 SDK 风险的团队。\n- 需要把历史 awesome 列表转成可筛选、可对比、可验证技术雷达的维护者。\n\n## 可以做什么\n\n- Radar：按推荐状态、风险等级、资源类型、分类和适用场景浏览小程序"
+            },
+            {
+              "field": "steps",
+              "quote": "ps://developers.weixin.qq.com/miniprogram/dev/framework/) - 微信小程序官方开发教程与基础框架说明\n\n## 使用入口\n\n- Radar 页面：`/radar`\n- Compare 页面：`/compare`\n- Advisor 页面：`/advisor`\n- Doctor 页面：`/doctor`\n- Weekly 页面：`/weekly`\n\n## QQ交流群\n\n- [微信小程序1号群](https://jq.qq.com/?_wv=1027&k=5vqgNd0)：593495800 （已满）\n- [微信小程序2号群](https://jq.qq.com/?_wv=1027&k=51d5Ckf)：578063690\n- [微信小"
+            },
+            {
+              "field": "verification",
+              "quote": "ps://developers.weixin.qq.com/miniprogram/dev/framework/) - 微信小程序官方开发教程与基础框架说明\n\n## 使用入口\n\n- Radar 页面：`/radar`\n- Compare 页面：`/compare`\n- Advisor 页面：`/advisor`\n- Doctor 页面：`/doctor`\n- Weekly 页面：`/weekly`\n\n## QQ交流群\n\n- [微信小程序1号群](https://jq.qq.com/?_wv=1027&k=5vqgNd0)：593495800 （已满）\n- [微信小程序2号群](https://jq.qq.com/?_wv=1027&k=51d5Ckf)：578063690\n- [微信小"
+            }
+          ],
+          "sourceHash": "8a0dddf59838b45c010d02036a0f069c6c2ff70e3df11e5e32b8c489d9e45161",
+          "sourceUrl": "https://github.com/justjavac/wechat-miniapp-radar/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "8a0dddf59838b45c010d02036a0f069c6c2ff70e3df11e5e32b8c489d9e45161",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "k-dense-ai/scientific-agent-skills": {
+      "sourceHash": "4932469e59c6a11b6d55a5daee663bd904908add774a6d81045c7dff61f7e96e",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "面向科研任务的 Agent Skills 集合，连接科学数据库与分析工具，覆盖多种学科工作流；具体依赖和证据需要按技能逐项检查。",
+        "scenarios": [
+          "选择一个文献或数据分析技能完成可复核的小任务。"
+        ],
+        "usage": "面向科研任务的 Agent Skills 集合，连接科学数据库与分析工具，覆盖多种学科工作流；具体依赖和证据需要按技能逐项检查。",
+        "requirements": "需要兼容 Agent Skills 的助手，所选数据库、软件和凭据按技能说明准备。",
+        "quickStart": "1. 从技能目录挑选一个任务，先阅读完整 SKILL.md 和附带脚本。\n2. 按安装说明固定版本并配置依赖，输入小样本，核对来源与分析结果。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "AI 指令 / Skill 资源",
+          "purpose": "面向科研任务的 Agent Skills 集合，连接科学数据库与分析工具，覆盖多种学科工作流；具体依赖和证据需要按技能逐项检查。",
+          "audience": "使用 AI 辅助科研的研究人员",
+          "example": "选择一个文献或数据分析技能完成可复核的小任务。",
+          "steps": [
+            "从技能目录挑选一个任务，先阅读完整 SKILL.md 和附带脚本。",
+            "按安装说明固定版本并配置依赖，输入小样本，核对来源与分析结果。"
+          ],
+          "verification": "数据出处、分析步骤和结论可复查；科研技能不代替专业验证或临床判断。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.\n\n# Scientific Agent Skills\n\n[](LICENSE.md)\n[](https://arxiv.org/abs/2609.00065)"
+            },
+            {
+              "field": "purpose",
+              "quote": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.\n\n# Scientific Agent Skills\n\n[](LICENSE.md)\n[](https://arxiv.org/abs/2609.00065)"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.\n\n# Scientific Agent Skills\n\n[](LICENSE.md)\n[](https://arxiv.org/abs/2609.00065)"
+            },
+            {
+              "field": "steps",
+              "quote": " visit the [official uv documentation](https://docs.astral.sh/uv/).\n\n---\n\n\n\n### Security and safe deployment\n\n- **[Security in the Science Agent Era: What Every Lab Needs to Know Before Installing Skills](https://www.k-dense.ai/blog/skill-security-before-you-install)** — The practical review checklist behind this repo's [Security Disclaimer](#%EF%B8%8F-security-disc"
+            },
+            {
+              "field": "verification",
+              "quote": " visit the [official uv documentation](https://docs.astral.sh/uv/).\n\n---\n\n\n\n### Security and safe deployment\n\n- **[Security in the Science Agent Era: What Every Lab Needs to Know Before Installing Skills](https://www.k-dense.ai/blog/skill-security-before-you-install)** — The practical review checklist behind this repo's [Security Disclaimer](#%EF%B8%8F-security-disc"
+            }
+          ],
+          "sourceHash": "4932469e59c6a11b6d55a5daee663bd904908add774a6d81045c7dff61f7e96e",
+          "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "4932469e59c6a11b6d55a5daee663bd904908add774a6d81045c7dff61f7e96e",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "karpathy/nanochat": {
+      "sourceHash": "65abc2bd2f3e6d3feb5bc788207833cd3e105edfb0cdbf17ae03363ca47806f6",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "覆盖分词、预训练、微调、评估和推理的小型语言模型训练实验框架，代码便于研究和修改，适合单节点实验。",
+        "scenarios": [
+          "从小配置理解训练到对话推理的完整路径。"
+        ],
+        "usage": "覆盖分词、预训练、微调、评估和推理的小型语言模型训练实验框架，代码便于研究和修改，适合单节点实验。",
+        "requirements": "按 Setup 选择 GPU 或 CPU/MPS 依赖；README 的成本和训练速度是特定硬件实验。",
+        "quickStart": "1. 按 Setup 使用 uv 同步对应硬件依赖并激活环境。\n2. 阅读 runs/speedrun.sh 的参考路径，先缩小实验配置，保存并评估模型再尝试对话。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "模型 / 推理项目",
+          "purpose": "覆盖分词、预训练、微调、评估和推理的小型语言模型训练实验框架，代码便于研究和修改，适合单节点实验。",
+          "audience": "研究语言模型训练的开发者",
+          "example": "从小配置理解训练到对话推理的完整路径。",
+          "steps": [
+            "按 Setup 使用 uv 同步对应硬件依赖并激活环境。",
+            "阅读 runs/speedrun.sh 的参考路径，先缩小实验配置，保存并评估模型再尝试对话。"
+          ],
+          "verification": "训练日志、评估分数和模型权重对应同一配置；不把实验预算当作任意机器的保证。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The best ChatGPT that $100 can buy.\n\n# nanochat\n\n\n\n\nnanochat is the simplest experimental harness for training LLMs. It is designed to run on a single GPU node, the code is minimal/hackable, and it covers all major LLM stages including tokenization, pretraining, finetuning, evaluation, and infe"
+            },
+            {
+              "field": "purpose",
+              "quote": "The best ChatGPT that $100 can buy.\n\n# nanochat\n\n\n\n\nnanochat is the simplest experimental harness for training LLMs. It is designed to run on a single GPU node, the code is minimal/hackable, and it covers all major LLM stages including tokenization, pretraining, finetuning, evaluation, and infe"
+            },
+            {
+              "field": "scenarios",
+              "quote": "The best ChatGPT that $100 can buy.\n\n# nanochat\n\n\n\n\nnanochat is the simplest experimental harness for training LLMs. It is designed to run on a single GPU node, the code is minimal/hackable, and it covers all major LLM stages including tokenization, pretraining, finetuning, evaluation, and infe"
+            },
+            {
+              "field": "steps",
+              "quote": "point | 2019 | - | OpenAI |\n| 1 | 3.04 | 0.74833 | 0.2585 | d24 baseline, slig\n\n### Setup\n\nnanochat uses [uv](https://docs.astral.sh/uv/) for dependency management. To install:\n\n```bash\nuv sync --extra gpu    # Use for CUDA (A100/H100/etc.)\nuv sync --extra cpu    # (or) Use for CPU-only / MPS\nsource .venv/bin/activate\n```\n\nFor development (adds py"
+            },
+            {
+              "field": "verification",
+              "quote": "point | 2019 | - | OpenAI |\n| 1 | 3.04 | 0.74833 | 0.2585 | d24 baseline, slig\n\n### Setup\n\nnanochat uses [uv](https://docs.astral.sh/uv/) for dependency management. To install:\n\n```bash\nuv sync --extra gpu    # Use for CUDA (A100/H100/etc.)\nuv sync --extra cpu    # (or) Use for CPU-only / MPS\nsource .venv/bin/activate\n```\n\nFor development (adds py"
+            }
+          ],
+          "sourceHash": "65abc2bd2f3e6d3feb5bc788207833cd3e105edfb0cdbf17ae03363ca47806f6",
+          "sourceUrl": "https://github.com/karpathy/nanochat/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "65abc2bd2f3e6d3feb5bc788207833cd3e105edfb0cdbf17ae03363ca47806f6",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "karpathy/nanogpt": {
+      "sourceHash": "3eaf359ff89e6e01e5903d7743203082114a95353d2f563441b19d810386e6ae",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "用于学习 GPT 训练和微调的简洁实现，包含小数据训练与采样示例；README 已标为旧项目并推荐后续 nanochat。",
+        "scenarios": [
+          "在小规模文本上训练模型并查看生成样本。"
+        ],
+        "usage": "用于学习 GPT 训练和微调的简洁实现，包含小数据训练与采样示例；README 已标为旧项目并推荐后续 nanochat。",
+        "requirements": "需要 Python 与 PyTorch 等依赖，CPU、MPS 或 GPU 配置按示例选择。",
+        "quickStart": "1. 先阅读弃用说明，按学习目标决定用 nanoGPT 还是 nanochat。\n2. 按小模型示例准备数据并训练，再用 sample.py 加载对应输出目录采样。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "模型 / 推理项目",
+          "purpose": "用于学习 GPT 训练和微调的简洁实现，包含小数据训练与采样示例；README 已标为旧项目并推荐后续 nanochat。",
+          "audience": "学习 Transformer 训练的开发者",
+          "example": "在小规模文本上训练模型并查看生成样本。",
+          "steps": [
+            "先阅读弃用说明，按学习目标决定用 nanoGPT 还是 nanochat。",
+            "按小模型示例准备数据并训练，再用 sample.py 加载对应输出目录采样。"
+          ],
+          "verification": "能保存并重新加载权重，损失与生成样本可追溯；不把小样本生成当作通用模型能力。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The simplest, fastest repository for training/finetuning medium-sized GPTs.\n\n# nanoGPT\n\n\n\n\n---\n\n**Update Nov 2025** nanoGPT has a new and improved cousin called [nanochat](https://github.com/karpathy/nanochat). It is very likely you meant to use/find nanochat instead. nanoGPT (this repo) is now very old and deprecated but I will leav"
+            },
+            {
+              "field": "purpose",
+              "quote": "The simplest, fastest repository for training/finetuning medium-sized GPTs.\n\n# nanoGPT\n\n\n\n\n---\n\n**Update Nov 2025** nanoGPT has a new and improved cousin called [nanochat](https://github.com/karpathy/nanochat). It is very likely you meant to use/find nanochat instead. nanoGPT (this repo) is now very old and deprecated but I will leav"
+            },
+            {
+              "field": "scenarios",
+              "quote": "The simplest, fastest repository for training/finetuning medium-sized GPTs.\n\n# nanoGPT\n\n\n\n\n---\n\n**Update Nov 2025** nanoGPT has a new and improved cousin called [nanochat](https://github.com/karpathy/nanochat). It is very likely you meant to use/find nanochat instead. nanoGPT (this repo) is now very old and deprecated but I will leav"
+            },
+            {
+              "field": "steps",
+              "quote": "e from the best model by pointing the sampling script at this directory:\n\n```sh\npython sample.py --out_dir=out-shakespeare-char\n```\n\nThis generates a few samples, for example:\n\n```\nANGELO:\nAnd cowards it be strawn to my bed,\nAnd thrust the gates of my threats,\nBecause he that ale away, and hang'd\nAn one with him.\n\nDUKE VINCENTIO:\nI thank your eyes agains"
+            },
+            {
+              "field": "verification",
+              "quote": "e from the best model by pointing the sampling script at this directory:\n\n```sh\npython sample.py --out_dir=out-shakespeare-char\n```\n\nThis generates a few samples, for example:\n\n```\nANGELO:\nAnd cowards it be strawn to my bed,\nAnd thrust the gates of my threats,\nBecause he that ale away, and hang'd\nAn one with him.\n\nDUKE VINCENTIO:\nI thank your eyes agains"
+            }
+          ],
+          "sourceHash": "3eaf359ff89e6e01e5903d7743203082114a95353d2f563441b19d810386e6ae",
+          "sourceUrl": "https://github.com/karpathy/nanoGPT/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "3eaf359ff89e6e01e5903d7743203082114a95353d2f563441b19d810386e6ae",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "kelseyhightower/kubernetes-the-hard-way": {
+      "sourceHash": "a1f06a9783a1612b7a54927647682ed93030c3d9a04deff0125fcc788b3190d4",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "通过手工搭建 Kubernetes 理解证书、etcd、控制平面、工作节点与网络的教程，重在学习，不是自动化生产部署工具。",
+        "scenarios": [
+          "在隔离机器上逐步完成集群学习实验。"
+        ],
+        "usage": "通过手工搭建 Kubernetes 理解证书、etcd、控制平面、工作节点与网络的教程，重在学习，不是自动化生产部署工具。",
+        "requirements": "README 要求同网络的四台 ARM64 或 AMD64 机器，资源和组件版本按 Prerequisites 确认。",
+        "quickStart": "1. 从 Labs 的 Prerequisites 开始，按顺序完成跳板机、证书和组件配置。\n2. 完成控制平面与工作节点后执行 Smoke Test，最后按 Cleaning Up 回收资源。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "通过手工搭建 Kubernetes 理解证书、etcd、控制平面、工作节点与网络的教程，重在学习，不是自动化生产部署工具。",
+          "audience": "希望理解集群底层的工程师",
+          "example": "在隔离机器上逐步完成集群学习实验。",
+          "steps": [
+            "从 Labs 的 Prerequisites 开始，按顺序完成跳板机、证书和组件配置。",
+            "完成控制平面与工作节点后执行 Smoke Test，最后按 Cleaning Up 回收资源。"
+          ],
+          "verification": "冒烟检查结果符合教程，能解释各组件关系；教程结果不直接视为生产集群。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Bootstrap Kubernetes the hard way. No scripts.\n\n# Kubernetes The Hard Way\n\nThis tutorial walks you through setting up Kubernetes the hard way. This guide is not for someone looking for a fully automated tool to bring up a Kubernetes cluster. Kubernetes The Hard Way is optimized for learning, which means t"
+            },
+            {
+              "field": "purpose",
+              "quote": "Bootstrap Kubernetes the hard way. No scripts.\n\n# Kubernetes The Hard Way\n\nThis tutorial walks you through setting up Kubernetes the hard way. This guide is not for someone looking for a fully automated tool to bring up a Kubernetes cluster. Kubernetes The Hard Way is optimized for learning, which means t"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Bootstrap Kubernetes the hard way. No scripts.\n\n# Kubernetes The Hard Way\n\nThis tutorial walks you through setting up Kubernetes the hard way. This guide is not for someone looking for a fully automated tool to bring up a Kubernetes cluster. Kubernetes The Hard Way is optimized for learning, which means t"
+            },
+            {
+              "field": "steps",
+              "quote": "ntainernetworking/cni) v1.6.x\n* [etcd](https://github.com/etcd-io/etcd) v3.6.x\n\n## Labs\n\nThis tutorial requires four (4) ARM64 or AMD64 based virtual or physical machines connected to the same network.\n\n* [Prerequisites](docs/01-prerequisites.md)\n* [Setting up the Jumpbox](docs/02-jumpbox.md)\n* [Provisioning Compute Resources](docs/03-compute-re"
+            },
+            {
+              "field": "verification",
+              "quote": "ntainernetworking/cni) v1.6.x\n* [etcd](https://github.com/etcd-io/etcd) v3.6.x\n\n## Labs\n\nThis tutorial requires four (4) ARM64 or AMD64 based virtual or physical machines connected to the same network.\n\n* [Prerequisites](docs/01-prerequisites.md)\n* [Setting up the Jumpbox](docs/02-jumpbox.md)\n* [Provisioning Compute Resources](docs/03-compute-re"
+            }
+          ],
+          "sourceHash": "a1f06a9783a1612b7a54927647682ed93030c3d9a04deff0125fcc788b3190d4",
+          "sourceUrl": "https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "a1f06a9783a1612b7a54927647682ed93030c3d9a04deff0125fcc788b3190d4",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "kelseyhightower/nocode": {
+      "sourceHash": "a131492c7f5cd034dd92d461bbb44aa4f33bbab5c1d67f2a2d9947d796e75f35",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "以空代码和空部署示例讽刺软件复杂性的幽默仓库，并非真正的可视化低代码平台，也没有可运行应用。",
+        "scenarios": [
+          "理解不增加代码就不增加维护面的幽默表达。"
+        ],
+        "usage": "以空代码和空部署示例讽刺软件复杂性的幽默仓库，并非真正的可视化低代码平台，也没有可运行应用。",
+        "requirements": "浏览器即可阅读，无需安装、账号或模型服务。",
+        "quickStart": "1. 阅读 Getting Started 与 Building the Application，注意示例代码块为空。\n2. 对照 Deploying 理解其讽刺语境，需要真实低代码工具时另行选择。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "以空代码和空部署示例讽刺软件复杂性的幽默仓库，并非真正的可视化低代码平台，也没有可运行应用。",
+          "audience": "了解开发文化的读者",
+          "example": "理解不增加代码就不增加维护面的幽默表达。",
+          "steps": [
+            "阅读 Getting Started 与 Building the Application，注意示例代码块为空。",
+            "对照 Deploying 理解其讽刺语境，需要真实低代码工具时另行选择。"
+          ],
+          "verification": "能辨认它是幽默示例，不会寻找不存在的安装包或实际应用结果。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The best way to write secure and reliable applications. Write nothing; deploy nowhere.\n\n# No Code\n\nNo code is the best way to write secure and reliable applications. Write nothing; deploy nowhere.\n\n## Getting Started\n\nStart by not writing any code.\n\n```\n\n```\n\nThis is just an example application, but imagine it doing anything you want. Adding ne"
+            },
+            {
+              "field": "purpose",
+              "quote": "The best way to write secure and reliable applications. Write nothing; deploy nowhere.\n\n# No Code\n\nNo code is the best way to write secure and reliable applications. Write nothing; deploy nowhere.\n\n## Getting Started\n\nStart by not writing any code.\n\n```\n\n```\n\nThis is just an example application, but imagine it doing anything you want. Adding ne"
+            },
+            {
+              "field": "scenarios",
+              "quote": "The best way to write secure and reliable applications. Write nothing; deploy nowhere.\n\n# No Code\n\nNo code is the best way to write secure and reliable applications. Write nothing; deploy nowhere.\n\n## Getting Started\n\nStart by not writing any code.\n\n```\n\n```\n\nThis is just an example application, but imagine it doing anything you want. Adding ne"
+            },
+            {
+              "field": "steps",
+              "quote": " way to write secure and reliable applications. Write nothing; deploy nowhere.\n\n## Getting Started\n\nStart by not writing any code.\n\n```\n\n```\n\nThis is just an example application, but imagine it doing anything you want. Adding new features is easy too:\n\n```\n\n```\n\nThe possibilities are endless.\n\n### Building the Application\n\nNow that you have not done anythi"
+            },
+            {
+              "field": "verification",
+              "quote": " way to write secure and reliable applications. Write nothing; deploy nowhere.\n\n## Getting Started\n\nStart by not writing any code.\n\n```\n\n```\n\nThis is just an example application, but imagine it doing anything you want. Adding new features is easy too:\n\n```\n\n```\n\nThe possibilities are endless.\n\n### Building the Application\n\nNow that you have not done anythi"
+            }
+          ],
+          "sourceHash": "a131492c7f5cd034dd92d461bbb44aa4f33bbab5c1d67f2a2d9947d796e75f35",
+          "sourceUrl": "https://github.com/kelseyhightower/nocode/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "a131492c7f5cd034dd92d461bbb44aa4f33bbab5c1d67f2a2d9947d796e75f35",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "kepano/obsidian-skills": {
+      "sourceHash": "78bf68189995482c73d1afb8fc62eb9aab38b9b4a1b8198434121214941970f8",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "为 AI 助手提供 Obsidian Markdown、Bases、JSON Canvas、CLI 等格式和工具知识，也包含网页清理与模板相关技能。",
+        "scenarios": [
+          "让助手生成一份 Obsidian 笔记和关联画布。"
+        ],
+        "usage": "为 AI 助手提供 Obsidian Markdown、Bases、JSON Canvas、CLI 等格式和工具知识，也包含网页清理与模板相关技能。",
+        "requirements": "需要支持 Skill 的助手；实际 Vault 操作、CLI 与模板工具各有依赖。",
+        "quickStart": "1. 从 Installation 按插件市场或 npx skills 路线安装所需技能。\n2. 提供 Vault 副本和目标，调用对应格式技能生成笔记或 Canvas 后在 Obsidian 打开。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "AI 指令 / Skill 资源",
+          "purpose": "为 AI 助手提供 Obsidian Markdown、Bases、JSON Canvas、CLI 等格式和工具知识，也包含网页清理与模板相关技能。",
+          "audience": "使用 Obsidian 与编码助手的用户",
+          "example": "让助手生成一份 Obsidian 笔记和关联画布。",
+          "steps": [
+            "从 Installation 按插件市场或 npx skills 路线安装所需技能。",
+            "提供 Vault 副本和目标，调用对应格式技能生成笔记或 Canvas 后在 Obsidian 打开。"
+          ],
+          "verification": "链接、属性和画布节点能正确显示；格式生成与客户端实际操作分别验证。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.\n\nAgent Skills for use with Obsidian.\n\nThese skills follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code, Codex, and Open Code.\n\n## Installation\n\n### Marketplace"
+            },
+            {
+              "field": "purpose",
+              "quote": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.\n\nAgent Skills for use with Obsidian.\n\nThese skills follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code, Codex, and Open Code.\n\n## Installation\n\n### Marketplace"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.\n\nAgent Skills for use with Obsidian.\n\nThese skills follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code, Codex, and Open Code.\n\n## Installation\n\n### Marketplace"
+            },
+            {
+              "field": "steps",
+              "quote": "d by any skills-compatible agent, including Claude Code, Codex, and Open Code.\n\n## Installation\n\n### Marketplace\n\n```\n/plugin marketplace add kepano/obsidian-skills\n/plugin install obsidian@obsidian-skills\n```\n\n### npx skills\n\n```\nnpx skills add git@github.com:kepano/obsidian-skills.git\n```\n\nInstead of ssh, if you prefer to use https:\n\n```\nnpx skills ad"
+            },
+            {
+              "field": "verification",
+              "quote": "d by any skills-compatible agent, including Claude Code, Codex, and Open Code.\n\n## Installation\n\n### Marketplace\n\n```\n/plugin marketplace add kepano/obsidian-skills\n/plugin install obsidian@obsidian-skills\n```\n\n### npx skills\n\n```\nnpx skills add git@github.com:kepano/obsidian-skills.git\n```\n\nInstead of ssh, if you prefer to use https:\n\n```\nnpx skills ad"
+            }
+          ],
+          "sourceHash": "78bf68189995482c73d1afb8fc62eb9aab38b9b4a1b8198434121214941970f8",
+          "sourceUrl": "https://github.com/kepano/obsidian-skills/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "78bf68189995482c73d1afb8fc62eb9aab38b9b4a1b8198434121214941970f8",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "keygraphhq/shannon": {
+      "sourceHash": "9322173a06c1095be5e4dd2e29cbf68657bb4e3526f88ddeec182b56f7dfcedd",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "面向网页与 API 的 AI 安全测试工具，结合源码分析与验证步骤生成漏洞报告，需要模型服务和隔离执行环境。",
+        "scenarios": [
+          "对自己控制的测试应用检查安全问题。"
+        ],
+        "usage": "面向网页与 API 的 AI 安全测试工具，结合源码分析与验证步骤生成漏洞报告，需要模型服务和隔离执行环境。",
+        "requirements": "需要 Docker、Node 和模型凭据，明确测试范围与环境；运行会产生真实请求。",
+        "quickStart": "1. 先阅读 Safety, Scope, and Limitations，限定到获授权的测试应用。\n2. 按 Prerequisites 配置服务和模型，使用官方快速指南运行小范围检查并审阅证据。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "AI 助手 / 智能体",
+          "purpose": "面向网页与 API 的 AI 安全测试工具，结合源码分析与验证步骤生成漏洞报告，需要模型服务和隔离执行环境。",
+          "audience": "有授权的应用安全团队",
+          "example": "对自己控制的测试应用检查安全问题。",
+          "steps": [
+            "先阅读 Safety, Scope, and Limitations，限定到获授权的测试应用。",
+            "按 Prerequisites 配置服务和模型，使用官方快速指南运行小范围检查并审阅证据。"
+          ],
+          "verification": "报告的发现可在授权范围内复核，区分已验证问题与推测；不要直接把报告当作无漏洞证明。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.\n\n> [!NOTE]\n> **[php2shell upgrade verification](docs/exp-php2shell.md):** confirm your PHP apps are patched against the php2shell RCE chain with the experimental `--exp-php2shell` probe. See the [test results](docs/exp-php2"
+            },
+            {
+              "field": "purpose",
+              "quote": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.\n\n> [!NOTE]\n> **[php2shell upgrade verification](docs/exp-php2shell.md):** confirm your PHP apps are patched against the php2shell RCE chain with the experimental `--exp-php2shell` probe. See the [test results](docs/exp-php2"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.\n\n> [!NOTE]\n> **[php2shell upgrade verification](docs/exp-php2shell.md):** confirm your PHP apps are patched against the php2shell RCE chain with the experimental `--exp-php2shell` probe. See the [test results](docs/exp-php2"
+            },
+            {
+              "field": "steps",
+              "quote": "roviders-does-shannon-support)\n  - [Can I run Shannon on a local or self-hoste\n\n### Prerequisites\n\n- **Docker**: required for the worker container.\n- **Node.js 18+**: required for the recommended `npx` workflow.\n- **AI provider credentials**: Shannon runs on Anthropic, OpenAI, xAI, AWS Bedrock, and [any other provider](docs/ai-providers.md#any-other-provi"
+            },
+            {
+              "field": "verification",
+              "quote": "roviders-does-shannon-support)\n  - [Can I run Shannon on a local or self-hoste\n\n### Prerequisites\n\n- **Docker**: required for the worker container.\n- **Node.js 18+**: required for the recommended `npx` workflow.\n- **AI provider credentials**: Shannon runs on Anthropic, OpenAI, xAI, AWS Bedrock, and [any other provider](docs/ai-providers.md#any-other-provi"
+            }
+          ],
+          "sourceHash": "9322173a06c1095be5e4dd2e29cbf68657bb4e3526f88ddeec182b56f7dfcedd",
+          "sourceUrl": "https://github.com/KeygraphHQ/shannon/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "9322173a06c1095be5e4dd2e29cbf68657bb4e3526f88ddeec182b56f7dfcedd",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "ladybirdbrowser/ladybird": {
+      "sourceHash": "73d101c312a4f95c6c9273f010c78cf292e9e8099a5709451ffd5edaae7b3da0",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "使用独立引擎实现网页标准的浏览器项目，包含渲染、脚本与媒体等组件；README 明确处于开发者使用的预览阶段。",
+        "scenarios": [
+          "构建浏览器并查看测试页面的渲染。"
+        ],
+        "usage": "使用独立引擎实现网页标准的浏览器项目，包含渲染、脚本与媒体等组件；README 明确处于开发者使用的预览阶段。",
+        "requirements": "按 BuildInstructions 准备依赖；支持路线包含 Linux、macOS 与 Windows WSL2。",
+        "quickStart": "1. 阅读预览阶段说明，按 BuildInstructionsLadybird.md 构建。\n2. 打开简单测试页面，观察渲染和错误，再按项目规则记录可复现问题。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "源码 / 系统实现",
+          "purpose": "使用独立引擎实现网页标准的浏览器项目，包含渲染、脚本与媒体等组件；README 明确处于开发者使用的预览阶段。",
+          "audience": "研究浏览器实现的开发者",
+          "example": "构建浏览器并查看测试页面的渲染。",
+          "steps": [
+            "阅读预览阶段说明，按 BuildInstructionsLadybird.md 构建。",
+            "打开简单测试页面，观察渲染和错误，再按项目规则记录可复现问题。"
+          ],
+          "verification": "能启动并定位渲染差异，不能将预览构建当作成熟日常浏览器。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Truly independent web browser\n\n# Ladybird\n\n[Ladybird](https://ladybird.org) is a truly independent web browser, using a novel engine based on web standards.\n\n> [!IMPORTANT]\n> Ladybird is in a pre-alpha state, and only suitable for use by developers\n>\n\n## Features\n\nWe aim to build a comple"
+            },
+            {
+              "field": "purpose",
+              "quote": "Truly independent web browser\n\n# Ladybird\n\n[Ladybird](https://ladybird.org) is a truly independent web browser, using a novel engine based on web standards.\n\n> [!IMPORTANT]\n> Ladybird is in a pre-alpha state, and only suitable for use by developers\n>\n\n## Features\n\nWe aim to build a comple"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Truly independent web browser\n\n# Ladybird\n\n[Ladybird](https://ladybird.org) is a truly independent web browser, using a novel engine based on web standards.\n\n> [!IMPORTANT]\n> Ladybird is in a pre-alpha state, and only suitable for use by developers\n>\n\n## Features\n\nWe aim to build a comple"
+            },
+            {
+              "field": "steps",
+              "quote": "ore: Event loop, OS abstraction layer\n- LibIPC: Inter-process communication\n\n## How do I build and run this?\n\nSee [build instructions](Documentation/BuildInstructionsLadybird.md) for information on how to build Ladybird.\n\nLadybird runs on Linux, macOS, Windows (with WSL2), and many other \\*Nixes.\n\n## How do I read the documentation?\n\nCode-related documentation can b"
+            },
+            {
+              "field": "verification",
+              "quote": "ore: Event loop, OS abstraction layer\n- LibIPC: Inter-process communication\n\n## How do I build and run this?\n\nSee [build instructions](Documentation/BuildInstructionsLadybird.md) for information on how to build Ladybird.\n\nLadybird runs on Linux, macOS, Windows (with WSL2), and many other \\*Nixes.\n\n## How do I read the documentation?\n\nCode-related documentation can b"
+            }
+          ],
+          "sourceHash": "73d101c312a4f95c6c9273f010c78cf292e9e8099a5709451ffd5edaae7b3da0",
+          "sourceUrl": "https://github.com/LadybirdBrowser/ladybird/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "73d101c312a4f95c6c9273f010c78cf292e9e8099a5709451ffd5edaae7b3da0",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "laurent22/joplin": {
+      "sourceHash": "79c3a6b379802c2af72f6f3f70f8c4794801b192c66a89d8b1b5494928397eab",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "支持笔记本、待办、标签、搜索与同步的开源笔记应用，可跨桌面和移动设备组织个人资料。",
+        "scenarios": [
+          "建立项目笔记并用标签检索。"
+        ],
+        "usage": "支持笔记本、待办、标签、搜索与同步的开源笔记应用，可跨桌面和移动设备组织个人资料。",
+        "requirements": "安装对应系统应用；跨设备同步需选择并配置受支持服务。",
+        "quickStart": "1. 从官方入口安装 Joplin，创建笔记本和一条含附件的测试笔记。\n2. 添加标签并搜索，按同步文档配置服务，再在另一设备核对。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "支持笔记本、待办、标签、搜索与同步的开源笔记应用，可跨桌面和移动设备组织个人资料。",
+          "audience": "希望管理本地与同步笔记的用户",
+          "example": "建立项目笔记并用标签检索。",
+          "steps": [
+            "从官方入口安装 Joplin，创建笔记本和一条含附件的测试笔记。",
+            "添加标签并搜索，按同步文档配置服务，再在另一设备核对。"
+          ],
+          "verification": "文字和附件可找回，同步状态与实际内容一致；同步不能代替独立备份。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.\n\n[](https://www.paypal.com/donate/?hosted_button_id=WQCERTSSLCC7U) [](https://github.com/sponsors/laurent22/) [](https://www.patreon.com/joplin) [](https://joplinapp.org/donate/#donations)\n\n\n\n\n**Joplin** is a free, open source note taking and to-do applicatio"
+            },
+            {
+              "field": "purpose",
+              "quote": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.\n\n[](https://www.paypal.com/donate/?hosted_button_id=WQCERTSSLCC7U) [](https://github.com/sponsors/laurent22/) [](https://www.patreon.com/joplin) [](https://joplinapp.org/donate/#donations)\n\n\n\n\n**Joplin** is a free, open source note taking and to-do applicatio"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.\n\n[](https://www.paypal.com/donate/?hosted_button_id=WQCERTSSLCC7U) [](https://github.com/sponsors/laurent22/) [](https://www.patreon.com/joplin) [](https://joplinapp.org/donate/#donations)\n\n\n\n\n**Joplin** is a free, open source note taking and to-do applicatio"
+            },
+            {
+              "field": "steps",
+              "quote": "rce note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in [Markdown format](https://github.com/laurent22/joplin/blob/dev/readme/apps/markdown.md).\n\nNotes exported from Ev"
+            },
+            {
+              "field": "verification",
+              "quote": "rce note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in [Markdown format](https://github.com/laurent22/joplin/blob/dev/readme/apps/markdown.md).\n\nNotes exported from Ev"
+            }
+          ],
+          "sourceHash": "79c3a6b379802c2af72f6f3f70f8c4794801b192c66a89d8b1b5494928397eab",
+          "sourceUrl": "https://github.com/laurent22/joplin/blob/dev/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "79c3a6b379802c2af72f6f3f70f8c4794801b192c66a89d8b1b5494928397eab",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "lencx/chatgpt": {
+      "sourceHash": "3313e16dcd5ee456ce73fe7969343f88c51bc9091c4aeb8dfa0856d612cc3cfb",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "社区制作的 ChatGPT 桌面封装历史项目，README 指向旧版和后继 Noi；不是 OpenAI 官方客户端。",
+        "scenarios": [
+          "查看旧版桌面封装功能与维护状态。"
+        ],
+        "usage": "社区制作的 ChatGPT 桌面封装历史项目，README 指向旧版和后继 Noi；不是 OpenAI 官方客户端。",
+        "requirements": "使用仍需对应在线服务条件；先确认旧版安全和兼容性，日常使用可选择官方客户端。",
+        "quickStart": "1. 先阅读当前 README 的后继项目和官方客户端说明。\n2. 需要历史版本时进入 release-v1.1.0，按该版本文档核对安装和功能。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "社区制作的 ChatGPT 桌面封装历史项目，README 指向旧版和后继 Noi；不是 OpenAI 官方客户端。",
+          "audience": "研究桌面封装实现的用户",
+          "example": "查看旧版桌面封装功能与维护状态。",
+          "steps": [
+            "先阅读当前 README 的后继项目和官方客户端说明。",
+            "需要历史版本时进入 release-v1.1.0，按该版本文档核对安装和功能。"
+          ],
+          "verification": "能区分社区旧版、后继项目与官方客户端，不把历史说明当作当前平台承诺。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "❄️ ChatGPT Desktop Application (Mac, Windows and Linux)\n\nChatGPT Desktop Application (Available on Mac, Windows, and Linux)\n\n\n[](https://github.com/lencx/ChatGPT/releases)\n[](https://discord.gg/aPhCRf4zZr)\n[](https://twitter.com/lencx_)\n[](https://www.youtube.com/@lencx)\n\n\n\n---\n\n> [!NOTE]\n> **If you want to experi"
+            },
+            {
+              "field": "purpose",
+              "quote": "❄️ ChatGPT Desktop Application (Mac, Windows and Linux)\n\nChatGPT Desktop Application (Available on Mac, Windows, and Linux)\n\n\n[](https://github.com/lencx/ChatGPT/releases)\n[](https://discord.gg/aPhCRf4zZr)\n[](https://twitter.com/lencx_)\n[](https://www.youtube.com/@lencx)\n\n\n\n---\n\n> [!NOTE]\n> **If you want to experi"
+            },
+            {
+              "field": "scenarios",
+              "quote": "❄️ ChatGPT Desktop Application (Mac, Windows and Linux)\n\nChatGPT Desktop Application (Available on Mac, Windows, and Linux)\n\n\n[](https://github.com/lencx/ChatGPT/releases)\n[](https://discord.gg/aPhCRf4zZr)\n[](https://twitter.com/lencx_)\n[](https://www.youtube.com/@lencx)\n\n\n\n---\n\n> [!NOTE]\n> **If you want to experi"
+            },
+            {
+              "field": "steps",
+              "quote": "ous version (v1.1.0), please click [here](https://github.com/lencx/ChatGPT/tree/release-v1.1.0).\n\nI am currently looking for some differentiating features to develop version 2.0. If you are interested in this, please stay tuned."
+            },
+            {
+              "field": "verification",
+              "quote": "ous version (v1.1.0), please click [here](https://github.com/lencx/ChatGPT/tree/release-v1.1.0).\n\nI am currently looking for some differentiating features to develop version 2.0. If you are interested in this, please stay tuned."
+            }
+          ],
+          "sourceHash": "3313e16dcd5ee456ce73fe7969343f88c51bc9091c4aeb8dfa0856d612cc3cfb",
+          "sourceUrl": "https://github.com/lencx/ChatGPT/blob/v2-dev/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "3313e16dcd5ee456ce73fe7969343f88c51bc9091c4aeb8dfa0856d612cc3cfb",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "lllyasviel/fooocus": {
+      "sourceHash": "c449593a772d1e124971b7e71616b6a9a4f627d5ba85a8fce308d6abeebd3ff9",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "侧重提示词与画面结果的本地图片生成工具，简化模型参数操作；当前维护方向偏修复问题，不计划覆盖所有新模型架构。",
+        "scenarios": [
+          "输入画面描述生成一组候选图。"
+        ],
+        "usage": "侧重提示词与画面结果的本地图片生成工具，简化模型参数操作；当前维护方向偏修复问题，不计划覆盖所有新模型架构。",
+        "requirements": "需要符合安装说明的硬件与模型空间，模型下载和显存按实际路线确认。",
+        "quickStart": "1. 只从本仓库的安装入口获取程序，按系统说明完成模型准备。\n2. 启动界面输入主体、构图和风格，生成候选后检查细节；新模型需求先看兼容说明。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "侧重提示词与画面结果的本地图片生成工具，简化模型参数操作；当前维护方向偏修复问题，不计划覆盖所有新模型架构。",
+          "audience": "使用本地图像生成的设计人员",
+          "example": "输入画面描述生成一组候选图。",
+          "steps": [
+            "只从本仓库的安装入口获取程序，按系统说明完成模型准备。",
+            "启动界面输入主体、构图和风格，生成候选后检查细节；新模型需求先看兼容说明。"
+          ],
+          "verification": "图片能生成且内容与提示词对应，文字和结构问题经过人工检查；不默认支持 Flux 等新架构。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Focus on prompting and generating\n\n# Fooocus\n\n[>>> Click Here to Install Fooocus ).\n\nFooocus presents a rethinking of image generator designs. The software is offline, open source, and free, while at the same time, similar to many online image generators like Midjourney, the manual tweaking i"
+            },
+            {
+              "field": "purpose",
+              "quote": "Focus on prompting and generating\n\n# Fooocus\n\n[>>> Click Here to Install Fooocus ).\n\nFooocus presents a rethinking of image generator designs. The software is offline, open source, and free, while at the same time, similar to many online image generators like Midjourney, the manual tweaking i"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Focus on prompting and generating\n\n# Fooocus\n\n[>>> Click Here to Install Fooocus ).\n\nFooocus presents a rethinking of image generator designs. The software is offline, open source, and free, while at the same time, similar to many online image generators like Midjourney, the manual tweaking i"
+            },
+            {
+              "field": "steps",
+              "quote": "Focus on prompting and generating\n\n# Fooocus\n\n[>>> Click Here to Install Fooocus ).\n\nFooocus presents a rethinking of image generator designs. The software is offline, open source, and free, while at the same time, similar to many online image generators like Midjourney, the manual tweaking is not needed, and users only need to focus on t"
+            },
+            {
+              "field": "verification",
+              "quote": "Focus on prompting and generating\n\n# Fooocus\n\n[>>> Click Here to Install Fooocus ).\n\nFooocus presents a rethinking of image generator designs. The software is offline, open source, and free, while at the same time, similar to many online image generators like Midjourney, the manual tweaking is not needed, and users only need to focus on t"
+            }
+          ],
+          "sourceHash": "c449593a772d1e124971b7e71616b6a9a4f627d5ba85a8fce308d6abeebd3ff9",
+          "sourceUrl": "https://github.com/lllyasviel/Fooocus/blob/main/readme.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "c449593a772d1e124971b7e71616b6a9a4f627d5ba85a8fce308d6abeebd3ff9",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "lodash/lodash": {
+      "sourceHash": "eef8da64682845c97ea51a985235a55a8bd934e774126f743fb0934d3bf2c8e1",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "用于数组、对象、字符串与函数组合的 JavaScript 工具库，提供完整、模块化和函数式等构建形式。",
+        "scenarios": [
+          "对列表进行分组和数据转换。"
+        ],
+        "usage": "用于数组、对象、字符串与函数组合的 JavaScript 工具库，提供完整、模块化和函数式等构建形式。",
+        "requirements": "准备 JavaScript 项目，按打包方式选择模块格式与所需方法。",
+        "quickStart": "1. 按 README 的加载示例接入 Lodash，优先选择实际需要的方法。\n2. 参考 Docs 对小样本做转换，检查空数组、缺失值和对象变更行为。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "用于数组、对象、字符串与函数组合的 JavaScript 工具库，提供完整、模块化和函数式等构建形式。",
+          "audience": "处理 JavaScript 数据的开发者",
+          "example": "对列表进行分组和数据转换。",
+          "steps": [
+            "按 README 的加载示例接入 Lodash，优先选择实际需要的方法。",
+            "参考 Docs 对小样本做转换，检查空数组、缺失值和对象变更行为。"
+          ],
+          "verification": "转换结果符合测试，包体积与导入方式可控；工具函数不会自动校验业务数据。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A modern JavaScript utility library delivering modularity, performance, & extras.\n\n# lodash v4.18.1\n\n[Site](https://lodash.com/) |\n[Docs](https://lodash.com/docs) |\n[FP Guide](https://github.com/lodash/lodash/wiki/FP-Guide) |\n[Contributing](https://github.com/lodash/lodash/blob/main/.github/CONTRIBUTING.md) |\n[Wiki](https://github.com/loda"
+            },
+            {
+              "field": "purpose",
+              "quote": "A modern JavaScript utility library delivering modularity, performance, & extras.\n\n# lodash v4.18.1\n\n[Site](https://lodash.com/) |\n[Docs](https://lodash.com/docs) |\n[FP Guide](https://github.com/lodash/lodash/wiki/FP-Guide) |\n[Contributing](https://github.com/lodash/lodash/blob/main/.github/CONTRIBUTING.md) |\n[Wiki](https://github.com/loda"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A modern JavaScript utility library delivering modularity, performance, & extras.\n\n# lodash v4.18.1\n\n[Site](https://lodash.com/) |\n[Docs](https://lodash.com/docs) |\n[FP Guide](https://github.com/lodash/lodash/wiki/FP-Guide) |\n[Contributing](https://github.com/lodash/lodash/blob/main/.github/CONTRIBUTING.md) |\n[Wiki](https://github.com/loda"
+            },
+            {
+              "field": "steps",
+              "quote": "ts, & strings\n * Manipulating & testing values\n * Creating composite functions\n\n## Module Formats\n\nLodash is available in a [variety of builds](https://lodash.com/custom-builds) & module formats.\n\n * [lodash](https://www.npmjs.com/package/lodash) & [per method packages](https://www.npmjs.com/browse/keyword/lodash-modularized)\n * [lodash-es](https://www.np"
+            },
+            {
+              "field": "verification",
+              "quote": "ts, & strings\n * Manipulating & testing values\n * Creating composite functions\n\n## Module Formats\n\nLodash is available in a [variety of builds](https://lodash.com/custom-builds) & module formats.\n\n * [lodash](https://www.npmjs.com/package/lodash) & [per method packages](https://www.npmjs.com/browse/keyword/lodash-modularized)\n * [lodash-es](https://www.np"
+            }
+          ],
+          "sourceHash": "eef8da64682845c97ea51a985235a55a8bd934e774126f743fb0934d3bf2c8e1",
+          "sourceUrl": "https://github.com/lodash/lodash/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "eef8da64682845c97ea51a985235a55a8bd934e774126f743fb0934d3bf2c8e1",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "lordog/dive-into-llms": {
+      "sourceHash": "80bcaed6a44f0b0d8e249080b407877dd5564eb71b21ac88bd9dc58da3506a9f",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "中文大模型编程实践教程，结合理论与代码讲解模型开发、对齐和智能体等主题，并提供昇腾相关课程入口。",
+        "scenarios": [
+          "挑选一个模型实践章节完成最小实验。"
+        ],
+        "usage": "中文大模型编程实践教程，结合理论与代码讲解模型开发、对齐和智能体等主题，并提供昇腾相关课程入口。",
+        "requirements": "阅读可用浏览器，运行所选实验的 Python、模型与硬件依赖需按章节确认。",
+        "quickStart": "1. 从教程目录选择与基础匹配的一章，先阅读实验说明。\n2. 按该章准备环境与数据，运行示例并记录输入、输出及资源消耗。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "中文大模型编程实践教程，结合理论与代码讲解模型开发、对齐和智能体等主题，并提供昇腾相关课程入口。",
+          "audience": "希望动手学习大模型的开发者",
+          "example": "挑选一个模型实践章节完成最小实验。",
+          "steps": [
+            "从教程目录选择与基础匹配的一章，先阅读实验说明。",
+            "按该章准备环境与数据，运行示例并记录输入、输出及资源消耗。"
+          ],
+          "verification": "能解释所选实验的目标与结果，硬件路线与实际机器一致；不同章节不能共用未经确认的环境假设。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "《动手学大模型Dive into LLMs》系列编程实践教程\n\n# 《动手学大模型》系列编程实践教程\n\n\n\n  \t\n      \n    \n  \n       \n  \t\n  \n       \n  \t\n   \t\n       \n  \t\n  \t\n       \n  \t\n    \n      \n    \n    \n\n\n\n\n\n  项目动机/\n  教程目录/\n  贡献者列表\n\n\n\n## 💡 Updates\n\n2025/06/06  感谢各位朋友们的关注和积极反馈！我们从以下两个方面对本教程进行了更新：\n\n- [x] 上线国产化《大模型开发全流程》公益教程（含PPT、实验手册和视频）"
+            },
+            {
+              "field": "purpose",
+              "quote": "《动手学大模型Dive into LLMs》系列编程实践教程\n\n# 《动手学大模型》系列编程实践教程\n\n\n\n  \t\n      \n    \n  \n       \n  \t\n  \n       \n  \t\n   \t\n       \n  \t\n  \t\n       \n  \t\n    \n      \n    \n    \n\n\n\n\n\n  项目动机/\n  教程目录/\n  贡献者列表\n\n\n\n## 💡 Updates\n\n2025/06/06  感谢各位朋友们的关注和积极反馈！我们从以下两个方面对本教程进行了更新：\n\n- [x] 上线国产化《大模型开发全流程》公益教程（含PPT、实验手册和视频）"
+            },
+            {
+              "field": "scenarios",
+              "quote": "《动手学大模型Dive into LLMs》系列编程实践教程\n\n# 《动手学大模型》系列编程实践教程\n\n\n\n  \t\n      \n    \n  \n       \n  \t\n  \n       \n  \t\n   \t\n       \n  \t\n  \t\n       \n  \t\n    \n      \n    \n    \n\n\n\n\n\n  项目动机/\n  教程目录/\n  贡献者列表\n\n\n\n## 💡 Updates\n\n2025/06/06  感谢各位朋友们的关注和积极反馈！我们从以下两个方面对本教程进行了更新：\n\n- [x] 上线国产化《大模型开发全流程》公益教程（含PPT、实验手册和视频）"
+            },
+            {
+              "field": "steps",
+              "quote": "     \n  \t\n   \t\n       \n  \t\n  \t\n       \n  \t\n    \n      \n    \n    \n\n\n\n\n\n  项目动机/\n  教程目录/\n  贡献者列表\n\n\n\n## 💡 Updates\n\n2025/06/06  感谢各位朋友们的关注和积极反馈！我们从以下两个方面对本教程进行了更新：\n\n- [x] 上线国产化《大模型开发全流程》公益教程（含PPT、实验手册和视频），此处特别感谢华为昇腾社区的支持！\n- [x] 在原系列编程实践教程的基础上进行内容更新，并增加了新的主题（数学推理、GUI Agent、大模型对齐、隐写术等）！\n\n## 🎯 项目动机\n\n《动手学大模型》系列编程实践教程，由上海交通大学《自然语言处理前沿技术》（NIS8021）、《人工"
+            },
+            {
+              "field": "verification",
+              "quote": "     \n  \t\n   \t\n       \n  \t\n  \t\n       \n  \t\n    \n      \n    \n    \n\n\n\n\n\n  项目动机/\n  教程目录/\n  贡献者列表\n\n\n\n## 💡 Updates\n\n2025/06/06  感谢各位朋友们的关注和积极反馈！我们从以下两个方面对本教程进行了更新：\n\n- [x] 上线国产化《大模型开发全流程》公益教程（含PPT、实验手册和视频），此处特别感谢华为昇腾社区的支持！\n- [x] 在原系列编程实践教程的基础上进行内容更新，并增加了新的主题（数学推理、GUI Agent、大模型对齐、隐写术等）！\n\n## 🎯 项目动机\n\n《动手学大模型》系列编程实践教程，由上海交通大学《自然语言处理前沿技术》（NIS8021）、《人工"
+            }
+          ],
+          "sourceHash": "80bcaed6a44f0b0d8e249080b407877dd5564eb71b21ac88bd9dc58da3506a9f",
+          "sourceUrl": "https://github.com/Lordog/dive-into-llms/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "80bcaed6a44f0b0d8e249080b407877dd5564eb71b21ac88bd9dc58da3506a9f",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "lyswhut/lx-music-desktop": {
+      "sourceHash": "5db9464f8d760923cb7d22ca2bc4b5ae1afe0a866e6ea0b32b94f0c46712efbd",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "基于 Electron 与 Vue 的桌面音乐客户端，可组织列表与使用配置的音源；音频由所选来源返回，项目本身不保证每首歌可播放。",
+        "scenarios": [
+          "整理一个播放列表并测试已获授权的音源。"
+        ],
+        "usage": "基于 Electron 与 Vue 的桌面音乐客户端，可组织列表与使用配置的音源；音频由所选来源返回，项目本身不保证每首歌可播放。",
+        "requirements": "安装对应系统版本，来源和音频使用权自行确认；README 说明开发重点转向 Any Listen。",
+        "quickStart": "1. 先阅读说明与许可，从官方发行入口安装对应版本。\n2. 按文档选择可用来源并建立小列表，检查实际播放内容与曲目是否匹配。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "基于 Electron 与 Vue 的桌面音乐客户端，可组织列表与使用配置的音源；音频由所选来源返回，项目本身不保证每首歌可播放。",
+          "audience": "管理个人音乐播放的用户",
+          "example": "整理一个播放列表并测试已获授权的音源。",
+          "steps": [
+            "先阅读说明与许可，从官方发行入口安装对应版本。",
+            "按文档选择可用来源并建立小列表，检查实际播放内容与曲目是否匹配。"
+          ],
+          "verification": "曲目、音频与列表一致且可播放；不可用音源或版权内容不会由客户端自动解锁。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "一个基于 Electron 的音乐软件\n\n# LX Music 桌面版\n\n\n\n  \n  \n  \n  \n   -->\n  \n   -->\n\n\n\n\n\n\n一个基于 Electron & Vue 开发的音乐软件\n\n## 说明\n\n所用技术栈：\n\n- Electron 30+\n- Vue 3\n\n已支持的平台：\n\n- Linux\n- macOS\n- Windows 7 及以上\n\n*移动版项目地址：https://github.com/lyswhut/lx-music-mobile*\n\n> [!NOTE]\n> 目前新项目 [Any Listen](https://gi"
+            },
+            {
+              "field": "purpose",
+              "quote": "一个基于 Electron 的音乐软件\n\n# LX Music 桌面版\n\n\n\n  \n  \n  \n  \n   -->\n  \n   -->\n\n\n\n\n\n\n一个基于 Electron & Vue 开发的音乐软件\n\n## 说明\n\n所用技术栈：\n\n- Electron 30+\n- Vue 3\n\n已支持的平台：\n\n- Linux\n- macOS\n- Windows 7 及以上\n\n*移动版项目地址：https://github.com/lyswhut/lx-music-mobile*\n\n> [!NOTE]\n> 目前新项目 [Any Listen](https://gi"
+            },
+            {
+              "field": "scenarios",
+              "quote": "一个基于 Electron 的音乐软件\n\n# LX Music 桌面版\n\n\n\n  \n  \n  \n  \n   -->\n  \n   -->\n\n\n\n\n\n\n一个基于 Electron & Vue 开发的音乐软件\n\n## 说明\n\n所用技术栈：\n\n- Electron 30+\n- Vue 3\n\n已支持的平台：\n\n- Linux\n- macOS\n- Windows 7 及以上\n\n*移动版项目地址：https://github.com/lyswhut/lx-music-mobile*\n\n> [!NOTE]\n> 目前新项目 [Any Listen](https://gi"
+            },
+            {
+              "field": "steps",
+              "quote": "单地筛选与合并后进行展示，因此本项目不对数据的合法性、准确性负责。\n\n1.2 本项目本身没有获取某个音频数据的能力，本项目使用的在线音频数据来源来自软件设置内“自定义源”设置所选择的“源”返回的在线链接。例如播放某首歌，本项目所做的只是将希望播放的歌曲名、艺术家等信息传递给“源”，若“源”返回了一个链接，则本项目将认为这就是该歌曲的音频数据而进行使用，至于这是不是正确的音频数据本项目无法校验其准确性，所以使用本项目的过程中可能会出现希望播放的音频与实际播放的音频不对应或者无法播放的问题。\n\n1.3 本项目的非官方平台数据（例如“我的列表”内列表）来自使用者本地系统或者使用者连接的同步服务，本项目不对这些数据的合法性、准确性负责。\n\n### 二、版权数据\n\n2.1 使用本项目的过程"
+            },
+            {
+              "field": "verification",
+              "quote": "单地筛选与合并后进行展示，因此本项目不对数据的合法性、准确性负责。\n\n1.2 本项目本身没有获取某个音频数据的能力，本项目使用的在线音频数据来源来自软件设置内“自定义源”设置所选择的“源”返回的在线链接。例如播放某首歌，本项目所做的只是将希望播放的歌曲名、艺术家等信息传递给“源”，若“源”返回了一个链接，则本项目将认为这就是该歌曲的音频数据而进行使用，至于这是不是正确的音频数据本项目无法校验其准确性，所以使用本项目的过程中可能会出现希望播放的音频与实际播放的音频不对应或者无法播放的问题。\n\n1.3 本项目的非官方平台数据（例如“我的列表”内列表）来自使用者本地系统或者使用者连接的同步服务，本项目不对这些数据的合法性、准确性负责。\n\n### 二、版权数据\n\n2.1 使用本项目的过程"
+            }
+          ],
+          "sourceHash": "5db9464f8d760923cb7d22ca2bc4b5ae1afe0a866e6ea0b32b94f0c46712efbd",
+          "sourceUrl": "https://github.com/lyswhut/lx-music-desktop/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "5db9464f8d760923cb7d22ca2bc4b5ae1afe0a866e6ea0b32b94f0c46712efbd",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "nanmicoder/mediacrawler": {
+      "sourceHash": "259f999a113586d8b3b41994efeca56e82dff4dda9dfe32cc89d200c5d6e780e",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "用于学习多种内容平台公开帖子和评论采集流程的 Python 项目，包含浏览器连接、配置与可选媒体保存。",
+        "scenarios": [
+          "在允许范围内采集少量公开测试内容并核对字段。"
+        ],
+        "usage": "用于学习多种内容平台公开帖子和评论采集流程的 Python 项目，包含浏览器连接、配置与可选媒体保存。",
+        "requirements": "需要 Python、uv、Node，浏览器按 CDP 或 Playwright 路线配置；遵守来源平台与项目用途限制。",
+        "quickStart": "1. 按快速开始同步依赖，确认采用已有 Chrome 的 CDP 还是 Playwright。\n2. 通过 main.py --help 选择平台和小范围任务，检查输出字段与日志。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "用于学习多种内容平台公开帖子和评论采集流程的 Python 项目，包含浏览器连接、配置与可选媒体保存。",
+          "audience": "研究公开数据采集的软件学习者",
+          "example": "在允许范围内采集少量公开测试内容并核对字段。",
+          "steps": [
+            "按快速开始同步依赖，确认采用已有 Chrome 的 CDP 还是 Playwright。",
+            "通过 main.py --help 选择平台和小范围任务，检查输出字段与日志。"
+          ],
+          "verification": "采集范围与许可相符，字段对应公开原文；未启用的媒体下载不能当作已归档。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫\n\n# 🔥 MediaCrawler - 自媒体平台爬虫 🕷️\n\n\n\n📢 首页赞助位虚位以待 · 合作请联系 relakkes@gmail.com\n\n\n\n---\n\n\n\n\n  \n\n\n[](https://atomgit.com/NanmiCoder/MediaCrawler)\n\n[](https://github.com/NanmiCoder/MediaCrawler/stargazers)\n[](https://github.com/NanmiCoder/MediaCrawler/network/member"
+            },
+            {
+              "field": "purpose",
+              "quote": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫\n\n# 🔥 MediaCrawler - 自媒体平台爬虫 🕷️\n\n\n\n📢 首页赞助位虚位以待 · 合作请联系 relakkes@gmail.com\n\n\n\n---\n\n\n\n\n  \n\n\n[](https://atomgit.com/NanmiCoder/MediaCrawler)\n\n[](https://github.com/NanmiCoder/MediaCrawler/stargazers)\n[](https://github.com/NanmiCoder/MediaCrawler/network/member"
+            },
+            {
+              "field": "scenarios",
+              "quote": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫\n\n# 🔥 MediaCrawler - 自媒体平台爬虫 🕷️\n\n\n\n📢 首页赞助位虚位以待 · 合作请联系 relakkes@gmail.com\n\n\n\n---\n\n\n\n\n  \n\n\n[](https://atomgit.com/NanmiCoder/MediaCrawler)\n\n[](https://github.com/NanmiCoder/MediaCrawler/stargazers)\n[](https://github.com/NanmiCoder/MediaCrawler/network/member"
+            },
+            {
+              "field": "steps",
+              "quote": "stall\n```\n\n\n\n#### 安装 playwright 浏览器驱动\n\n```shell\nplaywright install\n```\n\n\n\n## 🚀 快速开始\n\n> 💡 **如果这个项目对您有帮助，请给个 ⭐ Star 支持一下！**\n\n\n\n# 其他平台爬虫使用示例，执行下面的命令查看\nuv run main.py --help\n```\n\n\n📥 媒体下载（封面 / 视频 / 图文图片）\n\n默认关闭。开启后会在爬取的同时把媒体文件下载到本地，按帖子聚合存放：\n\n```shell\n\n\n# 其他平台爬虫使用示例，执行下面的命令查看\npython main.py --help\n```\n\n\n\n\n\n\n## 3. 使用目的限制\n本项目严禁用于任何非法目的或非学习、非研究的商业行为"
+            },
+            {
+              "field": "verification",
+              "quote": "stall\n```\n\n\n\n#### 安装 playwright 浏览器驱动\n\n```shell\nplaywright install\n```\n\n\n\n## 🚀 快速开始\n\n> 💡 **如果这个项目对您有帮助，请给个 ⭐ Star 支持一下！**\n\n\n\n# 其他平台爬虫使用示例，执行下面的命令查看\nuv run main.py --help\n```\n\n\n📥 媒体下载（封面 / 视频 / 图文图片）\n\n默认关闭。开启后会在爬取的同时把媒体文件下载到本地，按帖子聚合存放：\n\n```shell\n\n\n# 其他平台爬虫使用示例，执行下面的命令查看\npython main.py --help\n```\n\n\n\n\n\n\n## 3. 使用目的限制\n本项目严禁用于任何非法目的或非学习、非研究的商业行为"
+            }
+          ],
+          "sourceHash": "259f999a113586d8b3b41994efeca56e82dff4dda9dfe32cc89d200c5d6e780e",
+          "sourceUrl": "https://github.com/NanmiCoder/MediaCrawler/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "259f999a113586d8b3b41994efeca56e82dff4dda9dfe32cc89d200c5d6e780e",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "kdn251/interviews": {
+      "sourceHash": "1fe354025025fc037845263ccd4931bfce9363a374abea5c75cf0d9f13e64910",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "汇总算法与数据结构面试学习内容，包含树、堆等概念和复杂度说明，可作为技术面试自测索引。",
+        "scenarios": [
+          "围绕树结构复习查询与更新复杂度。"
+        ],
+        "usage": "汇总算法与数据结构面试学习内容，包含树、堆等概念和复杂度说明，可作为技术面试自测索引。",
+        "requirements": "浏览器即可阅读，运行代码需相应语言环境；先选择与岗位相关的主题。",
+        "quickStart": "1. 从 Table of Contents 选择一项数据结构，必要时切到中文翻译。\n2. 独立实现小例子并验证边界，解释复杂度后再参考讲解。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "汇总算法与数据结构面试学习内容，包含树、堆等概念和复杂度说明，可作为技术面试自测索引。",
+          "audience": "准备算法面试的学习者",
+          "example": "围绕树结构复习查询与更新复杂度。",
+          "steps": [
+            "从 Table of Contents 选择一项数据结构，必要时切到中文翻译。",
+            "独立实现小例子并验证边界，解释复杂度后再参考讲解。"
+          ],
+          "verification": "能解释结构适用性和复杂度，测试结果正确；资料不能保证面试结果。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Everything you need to know to get the job.\n\n# Interviews\n> Pass your coding interviews with [The Daily Byte](https://thedailybyte.dev/?ref=kevin)  \n> [30,000+ Software Engineers have trusted us with their interview prep](https://thedailybyte.dev/?ref=kevin).\n\n>\n> Maintainer - [Kevin Naughton Jr.](http"
+            },
+            {
+              "field": "purpose",
+              "quote": "Everything you need to know to get the job.\n\n# Interviews\n> Pass your coding interviews with [The Daily Byte](https://thedailybyte.dev/?ref=kevin)  \n> [30,000+ Software Engineers have trusted us with their interview prep](https://thedailybyte.dev/?ref=kevin).\n\n>\n> Maintainer - [Kevin Naughton Jr.](http"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Everything you need to know to get the job.\n\n# Interviews\n> Pass your coding interviews with [The Daily Byte](https://thedailybyte.dev/?ref=kevin)  \n> [30,000+ Software Engineers have trusted us with their interview prep](https://thedailybyte.dev/?ref=kevin).\n\n>\n> Maintainer - [Kevin Naughton Jr.](http"
+            },
+            {
+              "field": "steps",
+              "quote": ".](https://github.com/kdn251)\n\n## Translations\n\n- [简体中文](./README-zh-cn.md)\n\n## Table of Contents\n- [YouTube](#youtube)\n- [The Daily Byte](#the-daily-byte)\n- [Instagram](#instagram)\n- [Articles](#articles)\n- [Online Judges](#online-judges)\n- [Live Coding Practice](#live-coding-practice)\n- [Data Structures](#data-structures)\n- [Algorithms](#algorithms)\n- ["
+            },
+            {
+              "field": "verification",
+              "quote": ".](https://github.com/kdn251)\n\n## Translations\n\n- [简体中文](./README-zh-cn.md)\n\n## Table of Contents\n- [YouTube](#youtube)\n- [The Daily Byte](#the-daily-byte)\n- [Instagram](#instagram)\n- [Articles](#articles)\n- [Online Judges](#online-judges)\n- [Live Coding Practice](#live-coding-practice)\n- [Data Structures](#data-structures)\n- [Algorithms](#algorithms)\n- ["
+            }
+          ],
+          "sourceHash": "1fe354025025fc037845263ccd4931bfce9363a374abea5c75cf0d9f13e64910",
+          "sourceUrl": "https://github.com/kdn251/interviews/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "1fe354025025fc037845263ccd4931bfce9363a374abea5c75cf0d9f13e64910",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "keras-team/keras": {
+      "sourceHash": "00408d36da6bdd831d8ef5187df965b22981a2432e6b3c92051e0c0e41ebe83b",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "支持 JAX、TensorFlow 和 PyTorch 等后端的高层深度学习框架，用于构建、训练与评估多类模型；部分后端仅支持推理。",
+        "scenarios": [
+          "在一个选定后端训练小型分类模型。"
+        ],
+        "usage": "支持 JAX、TensorFlow 和 PyTorch 等后端的高层深度学习框架，用于构建、训练与评估多类模型；部分后端仅支持推理。",
+        "requirements": "准备 Python 和所选后端依赖，后端兼容与硬件要求按安装文档确认。",
+        "quickStart": "1. 从官方文档按目标后端安装 Keras 3，先使用简单入门示例。\n2. 运行建模、训练和评估流程，再替换小样本并检查指标。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发框架",
+          "purpose": "支持 JAX、TensorFlow 和 PyTorch 等后端的高层深度学习框架，用于构建、训练与评估多类模型；部分后端仅支持推理。",
+          "audience": "需要快速构建模型的开发者",
+          "example": "在一个选定后端训练小型分类模型。",
+          "steps": [
+            "从官方文档按目标后端安装 Keras 3，先使用简单入门示例。",
+            "运行建模、训练和评估流程，再替换小样本并检查指标。"
+          ],
+          "verification": "模型能在选定后端训练或推理，输入形状和评估集正确；多后端并非所有自定义操作自动兼容。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Deep Learning for humans\n\n# Keras 3: Deep Learning for Humans\n\nKeras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only).\nEffortlessly build and train models for computer vision, natural language processing, audio"
+            },
+            {
+              "field": "purpose",
+              "quote": "Deep Learning for humans\n\n# Keras 3: Deep Learning for Humans\n\nKeras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only).\nEffortlessly build and train models for computer vision, natural language processing, audio"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Deep Learning for humans\n\n# Keras 3: Deep Learning for Humans\n\nKeras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only).\nEffortlessly build and train models for computer vision, natural language processing, audio"
+            },
+            {
+              "field": "steps",
+              "quote": "Deep Learning for humans\n\n# Keras 3: Deep Learning for Humans\n\nKeras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only).\nEffortlessly build and train models for computer vision, natural language processing, audio processing,\ntimeseries forecasting, recommender systems, etc.\n\n- **Accelerated model dev"
+            },
+            {
+              "field": "verification",
+              "quote": "Deep Learning for humans\n\n# Keras 3: Deep Learning for Humans\n\nKeras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only).\nEffortlessly build and train models for computer vision, natural language processing, audio processing,\ntimeseries forecasting, recommender systems, etc.\n\n- **Accelerated model dev"
+            }
+          ],
+          "sourceHash": "00408d36da6bdd831d8ef5187df965b22981a2432e6b3c92051e0c0e41ebe83b",
+          "sourceUrl": "https://github.com/keras-team/keras/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "00408d36da6bdd831d8ef5187df965b22981a2432e6b3c92051e0c0e41ebe83b",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "lydiahallie/javascript-questions": {
+      "sourceHash": "bb4e6720d0d6ab73db51dc6710144d2b67327819e5eade2d67e967b85faf8cc8",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "从基础到进阶的 JavaScript 代码问答，提供输出题与解释，适合检查作用域、类型转换和对象访问等知识。",
+        "scenarios": [
+          "预测一段代码输出再用控制台验证。"
+        ],
+        "usage": "从基础到进阶的 JavaScript 代码问答，提供输出题与解释，适合检查作用域、类型转换和对象访问等知识。",
+        "requirements": "浏览器控制台或 Node 即可；题目起于 2019 年，不覆盖所有新语言特性。",
+        "quickStart": "1. 选择少量题目先写出自己的答案与理由，不立即展开解释。\n2. 在适当运行环境验证，再阅读答案并记录语言规则与环境差异。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "从基础到进阶的 JavaScript 代码问答，提供输出题与解释，适合检查作用域、类型转换和对象访问等知识。",
+          "audience": "希望自测 JavaScript 的开发者",
+          "example": "预测一段代码输出再用控制台验证。",
+          "steps": [
+            "选择少量题目先写出自己的答案与理由，不立即展开解释。",
+            "在适当运行环境验证，再阅读答案并记录语言规则与环境差异。"
+          ],
+          "verification": "不仅答对结果，也能解释原因；新特性和环境差异另查当前规范。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A long list of (advanced) JavaScript questions, and their explanations :sparkles:\n\n# JavaScript Questions\n\n\n\n> [!NOTE]  \n> This repo was created in 2019 and the questions provided here are therefore based on the JavaScript syntax and behavior at that time. Since JavaScript is a constantly evolving language, there are newer language feature"
+            },
+            {
+              "field": "purpose",
+              "quote": "A long list of (advanced) JavaScript questions, and their explanations :sparkles:\n\n# JavaScript Questions\n\n\n\n> [!NOTE]  \n> This repo was created in 2019 and the questions provided here are therefore based on the JavaScript syntax and behavior at that time. Since JavaScript is a constantly evolving language, there are newer language feature"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A long list of (advanced) JavaScript questions, and their explanations :sparkles:\n\n# JavaScript Questions\n\n\n\n> [!NOTE]  \n> This repo was created in 2019 and the questions provided here are therefore based on the JavaScript syntax and behavior at that time. Since JavaScript is a constantly evolving language, there are newer language feature"
+            },
+            {
+              "field": "steps",
+              "quote": " was created in 2019 and the questions provided here are therefore based on the JavaScript syntax and behavior at that time. Since JavaScript is a constantly evolving language, there are newer language features that are not covered by the questions here.\n\n---\n\n\nFrom basic to advanced: test how well you know JavaScript, refresh your knowledge a bit or prepare for your "
+            },
+            {
+              "field": "verification",
+              "quote": " was created in 2019 and the questions provided here are therefore based on the JavaScript syntax and behavior at that time. Since JavaScript is a constantly evolving language, there are newer language features that are not covered by the questions here.\n\n---\n\n\nFrom basic to advanced: test how well you know JavaScript, refresh your knowledge a bit or prepare for your "
+            }
+          ],
+          "sourceHash": "bb4e6720d0d6ab73db51dc6710144d2b67327819e5eade2d67e967b85faf8cc8",
+          "sourceUrl": "https://github.com/lydiahallie/javascript-questions/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "bb4e6720d0d6ab73db51dc6710144d2b67327819e5eade2d67e967b85faf8cc8",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "makeplane/plane": {
+      "sourceHash": "fa429af29b97fe0d2b6792935f6d18b9b621fafd0f26963dc5c3984dc2dc81ef",
+      "completedAt": "2026-11-04T10:11:12.435Z",
+      "content": {
+        "summary": "用于任务、迭代周期、文档和产品路线管理的开源项目协作平台，可选择自部署来管理团队工作。",
+        "scenarios": [
+          "建立一个项目并跟踪需求到完成的状态。"
+        ],
+        "usage": "用于任务、迭代周期、文档和产品路线管理的开源项目协作平台，可选择自部署来管理团队工作。",
+        "requirements": "准备托管账号或官方支持的自部署环境，成员和访问权限按工作区设置。",
+        "quickStart": "1. 从 Documentation 选择部署或使用路线，创建测试工作区和项目。\n2. 添加一条需求、负责人和周期，记录状态变化并关联说明文档。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "用于任务、迭代周期、文档和产品路线管理的开源项目协作平台，可选择自部署来管理团队工作。",
+          "audience": "组织项目工作的产品与开发团队",
+          "example": "建立一个项目并跟踪需求到完成的状态。",
+          "steps": [
+            "从 Documentation 选择部署或使用路线，创建测试工作区和项目。",
+            "添加一条需求、负责人和周期，记录状态变化并关联说明文档。"
+          ],
+          "verification": "成员只看到授权项目，任务与周期记录可追踪；生产使用前检查备份和通知配置。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.\n\nModern project management for all teams\n\n\n    Website •\n    Forum •\n    X •\n    Documentation\n\n\n\n    \n      \n    \n\n\nMeet [Plane](https://plane.so/), an open-source project management tool to track issues, run ~sprints~ cycles, and manage product roadmaps wit"
+            },
+            {
+              "field": "purpose",
+              "quote": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.\n\nModern project management for all teams\n\n\n    Website •\n    Forum •\n    X •\n    Documentation\n\n\n\n    \n      \n    \n\n\nMeet [Plane](https://plane.so/), an open-source project management tool to track issues, run ~sprints~ cycles, and manage product roadmaps wit"
+            },
+            {
+              "field": "scenarios",
+              "quote": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.\n\nModern project management for all teams\n\n\n    Website •\n    Forum •\n    X •\n    Documentation\n\n\n\n    \n      \n    \n\n\nMeet [Plane](https://plane.so/), an open-source project management tool to track issues, run ~sprints~ cycles, and manage product roadmaps wit"
+            },
+            {
+              "field": "steps",
+              "quote": " \n      \n    \n  \n\n\n## 📝 Documentation\n\nExplore Plane's [product documentation](https://docs.plane.so/) and [developer documentation](https://developers.plane.so/) to learn about features, setup, and usage.\n\n## ❤️ Community\n\nJoin the Plane community on [GitHub Discussions](https://github.com/orgs/makeplane/discussions) and our [Forum](https://forum.plane.so). "
+            },
+            {
+              "field": "verification",
+              "quote": " \n      \n    \n  \n\n\n## 📝 Documentation\n\nExplore Plane's [product documentation](https://docs.plane.so/) and [developer documentation](https://developers.plane.so/) to learn about features, setup, and usage.\n\n## ❤️ Community\n\nJoin the Plane community on [GitHub Discussions](https://github.com/orgs/makeplane/discussions) and our [Forum](https://forum.plane.so). "
+            }
+          ],
+          "sourceHash": "fa429af29b97fe0d2b6792935f6d18b9b621fafd0f26963dc5c3984dc2dc81ef",
+          "sourceUrl": "https://github.com/makeplane/plane/blob/preview/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "fa429af29b97fe0d2b6792935f6d18b9b621fafd0f26963dc5c3984dc2dc81ef",
+            "checkedAt": "2026-11-04T10:11:12.435Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     }
   },
   "pending": {
@@ -5636,26 +6816,6 @@
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-20T05:59:29.609Z"
     },
-    "k-dense-ai/scientific-agent-skills": {
-      "id": "k-dense-ai/scientific-agent-skills",
-      "sourceHash": "70b3f83e1cbc547dea95ef0a3edc80acadf6f3c3ec8be3c619d68635801ff801",
-      "firstSeenAt": "2026-10-19T22:17:44.626Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "nanmicoder/mediacrawler": {
-      "id": "nanmicoder/mediacrawler",
-      "sourceHash": "115a2aaee559d0163707fda489f711c6d8e1e8e128ce87218df4af069d830b59",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/NanmiCoder/MediaCrawler/blob/main/README.md",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-10-24T19:29:55.769Z",
-      "nextAttemptAt": "2026-10-24T20:29:55.769Z"
-    },
     "xtekky/gpt4free": {
       "id": "xtekky/gpt4free",
       "sourceHash": "8b1b7edd708654d14f0dd5870407929435f4ace511642ea52f7c7cbee9be3893",
@@ -5676,16 +6836,6 @@
       "lastAttemptAt": "2026-10-24T19:29:55.769Z",
       "nextAttemptAt": "2026-10-24T20:29:55.769Z"
     },
-    "ladybirdbrowser/ladybird": {
-      "id": "ladybirdbrowser/ladybird",
-      "sourceHash": "73d101c312a4f95c6c9273f010c78cf292e9e8099a5709451ffd5edaae7b3da0",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/LadybirdBrowser/ladybird/blob/master/README.md",
-      "reason": "daily-budget-exhausted",
-      "lastAttemptAt": "2026-10-20T16:16:27.465Z"
-    },
     "thealgorithms/java": {
       "id": "thealgorithms/java",
       "sourceHash": "1f1f51c753fcc71ca89a959ff04b74ad3fb56c6baf3cb4b4a19f31b4e9842b9c",
@@ -5705,16 +6855,6 @@
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-21T06:00:52.593Z"
     },
-    "kelseyhightower/nocode": {
-      "id": "kelseyhightower/nocode",
-      "sourceHash": "a131492c7f5cd034dd92d461bbb44aa4f33bbab5c1d67f2a2d9947d796e75f35",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/kelseyhightower/nocode/blob/master/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-21T06:00:52.593Z"
-    },
     "remotion-dev/remotion": {
       "id": "remotion-dev/remotion",
       "sourceHash": "4eae2cef20c94b0dbd24829529150d46884976f801fea59881d6d1a9e44ce7d6",
@@ -5723,16 +6863,6 @@
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/remotion-dev/remotion/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
-    },
-    "kdn251/interviews": {
-      "id": "kdn251/interviews",
-      "sourceHash": "1fe354025025fc037845263ccd4931bfce9363a374abea5c75cf0d9f13e64910",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/kdn251/interviews/blob/master/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-23T06:01:15.471Z"
     },
     "traefik/traefik": {
       "id": "traefik/traefik",
@@ -5744,16 +6874,6 @@
       "reason": "invalid-response",
       "lastAttemptAt": "2026-10-25T06:04:34.666Z",
       "nextAttemptAt": "2026-10-25T07:04:34.666Z"
-    },
-    "lydiahallie/javascript-questions": {
-      "id": "lydiahallie/javascript-questions",
-      "sourceHash": "2a0287f0083150247f65874f21441eabd24119c2d0337ce650df35662339e7e7",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/lydiahallie/javascript-questions/blob/master/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-23T06:01:15.471Z"
     },
     "ryanoasis/nerd-fonts": {
       "id": "ryanoasis/nerd-fonts",
@@ -5797,16 +6917,6 @@
       "reason": "invalid-response",
       "lastAttemptAt": "2026-10-24T05:48:37.387Z"
     },
-    "keras-team/keras": {
-      "id": "keras-team/keras",
-      "sourceHash": "00408d36da6bdd831d8ef5187df965b22981a2432e6b3c92051e0c0e41ebe83b",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/keras-team/keras/blob/master/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-24T05:48:37.387Z"
-    },
     "virattt/ai-hedge-fund": {
       "id": "virattt/ai-hedge-fund",
       "sourceHash": "da12944d941a8eeedf0016d59a7900e6ab30bf8685cfc54f42735bb3f390b302",
@@ -5828,17 +6938,6 @@
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-26T06:09:17.010Z",
       "nextAttemptAt": "2026-10-26T07:09:17.010Z"
-    },
-    "karpathy/nanogpt": {
-      "id": "karpathy/nanogpt",
-      "sourceHash": "33ef11bf2ed4951a6d6832ef6852707f2c498eeac3ba2918391d038e71e55cc6",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/karpathy/nanoGPT/blob/master/README.md",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-10-25T06:04:34.666Z",
-      "nextAttemptAt": "2026-10-25T07:04:34.666Z"
     },
     "usememos/memos": {
       "id": "usememos/memos",
@@ -6053,24 +7152,6 @@
       "readmeUrl": "https://github.com/pi-hole/pi-hole/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "lodash/lodash": {
-      "id": "lodash/lodash",
-      "sourceHash": "eef8da64682845c97ea51a985235a55a8bd934e774126f743fb0934d3bf2c8e1",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/lodash/lodash/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "makeplane/plane": {
-      "id": "makeplane/plane",
-      "sourceHash": "fa429af29b97fe0d2b6792935f6d18b9b621fafd0f26963dc5c3984dc2dc81ef",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/makeplane/plane/blob/preview/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "nuxt/nuxt": {
       "id": "nuxt/nuxt",
       "sourceHash": "d98bcfacd7604aceb0f79994275dc8a10ce97576d0b7c05f191a2e1ca5a1c552",
@@ -6206,15 +7287,6 @@
       "readmeUrl": "https://github.com/pmndrs/zustand/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "karpathy/nanochat": {
-      "id": "karpathy/nanochat",
-      "sourceHash": "5e9d67eb594bdeb8d2a7586950364cb70a85fb56dc568a903d0e6ebbb4d5a595",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/karpathy/nanochat/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "pathwaycom/serviette": {
       "id": "pathwaycom/serviette",
       "sourceHash": "0a1e26620f0fc13f59843c04462e3df9e3851c7f3af59573496995256f231cc2",
@@ -6287,15 +7359,6 @@
       "readmeUrl": "https://github.com/Zie619/n8n-workflows/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "lordog/dive-into-llms": {
-      "id": "lordog/dive-into-llms",
-      "sourceHash": "114f90c094037ad67e4efd7989785571fa0a2b4bec5ca670e14e78665d90076b",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/Lordog/dive-into-llms/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "soimort/you-get": {
       "id": "soimort/you-get",
       "sourceHash": "c4baf12b39e8213d1cef543cbad2c16caa1171a50d6c22351c5f9d4782d011f7",
@@ -6303,15 +7366,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/soimort/you-get/blob/develop/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "laurent22/joplin": {
-      "id": "laurent22/joplin",
-      "sourceHash": "79c3a6b379802c2af72f6f3f70f8c4794801b192c66a89d8b1b5494928397eab",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/laurent22/joplin/blob/dev/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "typst/typst": {
@@ -6422,24 +7476,6 @@
       "readmeUrl": "https://github.com/wagoodman/dive/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "lencx/chatgpt": {
-      "id": "lencx/chatgpt",
-      "sourceHash": "3313e16dcd5ee456ce73fe7969343f88c51bc9091c4aeb8dfa0856d612cc3cfb",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/lencx/ChatGPT/blob/v2-dev/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "lyswhut/lx-music-desktop": {
-      "id": "lyswhut/lx-music-desktop",
-      "sourceHash": "049ab75486b526ab4ec5430a99153e826a81105b03bedcd63c25ad8285ce3738",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/lyswhut/lx-music-desktop/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "psf/requests": {
       "id": "psf/requests",
       "sourceHash": "6964e6ef8610654cef2a32c65b5b1d18fbdd13f87f4efcd06a38e13d51a912c1",
@@ -6465,15 +7501,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/vsouza/awesome-ios/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "lllyasviel/fooocus": {
-      "id": "lllyasviel/fooocus",
-      "sourceHash": "71eb46831684578be54e680b37f4042869b41e86158b30999558a6ad17b803f7",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/lllyasviel/Fooocus/blob/main/readme.md",
       "reason": "awaiting-chinese-guide"
     },
     "necolas/normalize.css": {
@@ -6568,15 +7595,6 @@
       "readmeUrl": "https://github.com/roboflow/supervision/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "justjavac/wechat-miniapp-radar": {
-      "id": "justjavac/wechat-miniapp-radar",
-      "sourceHash": "18127523833c95b059c1e9f83d398b6166a3885b906e7f82081cc6a3e2fc4a81",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/justjavac/wechat-miniapp-radar/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "skylot/jadx": {
       "id": "skylot/jadx",
       "sourceHash": "e08fc1986de1355cf81b132480a5ab512369f9dfec02e6c67253dbbb7d8b7a8b",
@@ -6647,15 +7665,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/TanStack/query/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "kelseyhightower/kubernetes-the-hard-way": {
-      "id": "kelseyhightower/kubernetes-the-hard-way",
-      "sourceHash": "a1f06a9783a1612b7a54927647682ed93030c3d9a04deff0125fcc788b3190d4",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "mastodon/mastodon": {
@@ -6741,28 +7750,6 @@
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/hashicorp/terraform/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
-    },
-    "keygraphhq/shannon": {
-      "id": "keygraphhq/shannon",
-      "sourceHash": "bf9b1eb5eda668d61a5bb16e2e39ac7daea3f4e5472f83b6060dcaef06239610",
-      "firstSeenAt": "2026-10-31T06:58:05.584Z",
-      "attempts": 3,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/KeygraphHQ/shannon/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-02T07:38:53.715Z",
-      "nextAttemptAt": "2026-11-02T08:38:53.715Z"
-    },
-    "kepano/obsidian-skills": {
-      "id": "kepano/obsidian-skills",
-      "sourceHash": "78bf68189995482c73d1afb8fc62eb9aab38b9b4a1b8198434121214941970f8",
-      "firstSeenAt": "2026-11-02T07:38:53.715Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/kepano/obsidian-skills/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-02T07:38:53.715Z",
-      "nextAttemptAt": "2026-11-02T08:38:53.715Z"
     },
     "boykopovar/anyps5": {
       "id": "boykopovar/anyps5",
@@ -6930,55 +7917,6 @@
       "savedAt": "2026-10-30T07:04:28.194Z",
       "reviewIssues": [
         "summary: 缺少项目核心功能描述（如构建、部署、国际化、自定义），仅保留了‘Easy to maintain open source documentation websites’的片段，未体现README整体精神；purpose: 与source S1-S4的功能描述（构建、部署、国际化、自定义）未对应，仅泛指‘搭建项目官网’，遗漏了关键功能；scenarios: 与source S3-S4的本地化和自定义描述不符，未提及国际化、博客、样式自定义等具体场景；steps: 仅列出了npm init命令，未包含后续的项目配置、语言设置、内容目录等实际入门流程；verification: 与source中未提及的‘运行 npm run start’冲突，且未提供有效的验证依据。"
-      ]
-    },
-    "keygraphhq/shannon|openrouter/nvidia/nemotron-3.5-lightning:free": {
-      "sourceHash": "bf9b1eb5eda668d61a5bb16e2e39ac7daea3f4e5472f83b6060dcaef06239610",
-      "draft": {
-        "kind": "cli",
-        "summary": "Shannon是一个用于Web应用和API的AI自主渗透测试工具，能分析源码、识别攻击向量并执行真实漏洞利用以在代码进入生产环境前证明漏洞存在。",
-        "purpose": "用于在开发阶段主动发现Web应用和API的安全漏洞，通过执行真实攻击证明漏洞并提供可操作的修复建议，实现\"无漏洞不报告\"的安全验证。",
-        "audience": "Web安全研究人员、开发人员和DevOps工程师",
-        "scenarios": [
-          "在代码提交前通过AI自动分析源码发现潜在安全风险",
-          "使用--exp-php2shell探针验证PHP应用是否打补丁防止php2shell RCE链",
-          "在CI/CD流水线中集成自动化安全测试以防止漏洞发布",
-          "利用AI识别和利用攻击路径以证明真实的RCE或其他关键漏洞"
-        ],
-        "steps": [
-          "确保已安装Docker用于工作容器和Node.js 18+用于npx工作流",
-          "配置AI提供商凭据（Anthropic、OpenAI、xAI或AWS Bedrock）并完成网络安全防护指引",
-          "使用命令'npx @keygraph/shannon@latest'启动交互式启动向导",
-          "按照向导设置完成后进行第一次渗透测试"
-        ],
-        "requirements": "Docker用于工作容器，Node.js 18+用于推荐的npx工作流，AI提供商凭据（Anthropic、OpenAI、xAI、AWS Bedrock等），以及在使用前完成网络安全防护指引",
-        "verification": "检查Shannon是否成功扫描并执行了真实的漏洞利用以证明代码中的漏洞，特别是使用--exp-php2shell探针确认PHP应用是否针对php2shell RCE链已打补丁",
-        "evidence": [
-          {
-            "field": "summary",
-            "quote": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.\n\n> [!NOTE]\n"
-          },
-          {
-            "field": "purpose",
-            "quote": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.\n\n> [!NOTE]\n"
-          },
-          {
-            "field": "scenarios",
-            "quote": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.\n\n> [!NOTE]\n"
-          },
-          {
-            "field": "steps",
-            "quote": "> **[php2shell upgrade verification](docs/exp-php2shell.md):** confirm your PHP apps are patched against the php2shell RCE chain with the experimental `--exp-php2shell` probe. See the [test results](docs/exp-php2shell-testing.md).\n\n\n\n\n\n\n\n\n\n\n\n### Shannon is an autonomous, AI pentester for web applications and APIs.\n\n"
-          },
-          {
-            "field": "verification",
-            "quote": "> **[php2shell upgrade verification](docs/exp-php2shell.md):** confirm your PHP apps are patched against the php2shell RCE chain with the experimental `--exp-php2shell` probe. See the [test results](docs/exp-php2shell-testing.md).\n\n\n\n\n\n\n\n\n\n\n\n### Shannon is an autonomous, AI pentester for web applications and APIs.\n\n"
-          }
-        ]
-      },
-      "savedAt": "2026-10-31T06:58:05.584Z",
-      "reviewIssues": [
-        "summary字段内容与source原文不符，实际为‘Shannon是一个用于Web应用和API的AI自主渗透测试工具...’，而非摘要中描述的内容；purpose字段内容与source原文不符，实际为‘Shannon是一个AI pentester for web applications and APIs...’，而非中文目的描述；scenarios字段内容与source原文不符，实际为‘Shannon is an autonomous, AI pentester for web applications and APIs...’，而非中文场景描述；steps字段内容与source原文不符，实际为英文命令和描述，而非中文步骤；requirements字段内容与source原文不符，实际为英文列表，而非中文需求；verification字段内容与source原文不符，实际为英文描述，而非中文验证方法。"
       ]
     },
     "vectorize-io/hindsight|openrouter/nvidia/nemotron-3.5-lightning:free": {

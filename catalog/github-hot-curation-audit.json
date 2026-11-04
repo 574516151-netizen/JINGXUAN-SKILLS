@@ -485,6 +485,113 @@
           "editionCopies": 3
         }
       ]
+    },
+    {
+      "batch": "backlog-006",
+      "reviewedAt": "2026-11-04T10:11:12.435Z",
+      "method": "source-reading-and-structure-check",
+      "projects": [
+        {
+          "id": "justjavac/wechat-miniapp-radar",
+          "sourceHash": "8a0dddf59838b45c010d02036a0f069c6c2ff70e3df11e5e32b8c489d9e45161",
+          "editionCopies": 3
+        },
+        {
+          "id": "k-dense-ai/scientific-agent-skills",
+          "sourceHash": "4932469e59c6a11b6d55a5daee663bd904908add774a6d81045c7dff61f7e96e",
+          "editionCopies": 3
+        },
+        {
+          "id": "karpathy/nanochat",
+          "sourceHash": "65abc2bd2f3e6d3feb5bc788207833cd3e105edfb0cdbf17ae03363ca47806f6",
+          "editionCopies": 3
+        },
+        {
+          "id": "karpathy/nanogpt",
+          "sourceHash": "3eaf359ff89e6e01e5903d7743203082114a95353d2f563441b19d810386e6ae",
+          "editionCopies": 3
+        },
+        {
+          "id": "kelseyhightower/kubernetes-the-hard-way",
+          "sourceHash": "a1f06a9783a1612b7a54927647682ed93030c3d9a04deff0125fcc788b3190d4",
+          "editionCopies": 2
+        },
+        {
+          "id": "kelseyhightower/nocode",
+          "sourceHash": "a131492c7f5cd034dd92d461bbb44aa4f33bbab5c1d67f2a2d9947d796e75f35",
+          "editionCopies": 3
+        },
+        {
+          "id": "kepano/obsidian-skills",
+          "sourceHash": "78bf68189995482c73d1afb8fc62eb9aab38b9b4a1b8198434121214941970f8",
+          "editionCopies": 1
+        },
+        {
+          "id": "keygraphhq/shannon",
+          "sourceHash": "9322173a06c1095be5e4dd2e29cbf68657bb4e3526f88ddeec182b56f7dfcedd",
+          "editionCopies": 1
+        },
+        {
+          "id": "ladybirdbrowser/ladybird",
+          "sourceHash": "73d101c312a4f95c6c9273f010c78cf292e9e8099a5709451ffd5edaae7b3da0",
+          "editionCopies": 3
+        },
+        {
+          "id": "laurent22/joplin",
+          "sourceHash": "79c3a6b379802c2af72f6f3f70f8c4794801b192c66a89d8b1b5494928397eab",
+          "editionCopies": 3
+        },
+        {
+          "id": "lencx/chatgpt",
+          "sourceHash": "3313e16dcd5ee456ce73fe7969343f88c51bc9091c4aeb8dfa0856d612cc3cfb",
+          "editionCopies": 3
+        },
+        {
+          "id": "lllyasviel/fooocus",
+          "sourceHash": "c449593a772d1e124971b7e71616b6a9a4f627d5ba85a8fce308d6abeebd3ff9",
+          "editionCopies": 3
+        },
+        {
+          "id": "lodash/lodash",
+          "sourceHash": "eef8da64682845c97ea51a985235a55a8bd934e774126f743fb0934d3bf2c8e1",
+          "editionCopies": 3
+        },
+        {
+          "id": "lordog/dive-into-llms",
+          "sourceHash": "80bcaed6a44f0b0d8e249080b407877dd5564eb71b21ac88bd9dc58da3506a9f",
+          "editionCopies": 3
+        },
+        {
+          "id": "lyswhut/lx-music-desktop",
+          "sourceHash": "5db9464f8d760923cb7d22ca2bc4b5ae1afe0a866e6ea0b32b94f0c46712efbd",
+          "editionCopies": 3
+        },
+        {
+          "id": "nanmicoder/mediacrawler",
+          "sourceHash": "259f999a113586d8b3b41994efeca56e82dff4dda9dfe32cc89d200c5d6e780e",
+          "editionCopies": 3
+        },
+        {
+          "id": "kdn251/interviews",
+          "sourceHash": "1fe354025025fc037845263ccd4931bfce9363a374abea5c75cf0d9f13e64910",
+          "editionCopies": 3
+        },
+        {
+          "id": "keras-team/keras",
+          "sourceHash": "00408d36da6bdd831d8ef5187df965b22981a2432e6b3c92051e0c0e41ebe83b",
+          "editionCopies": 3
+        },
+        {
+          "id": "lydiahallie/javascript-questions",
+          "sourceHash": "bb4e6720d0d6ab73db51dc6710144d2b67327819e5eade2d67e967b85faf8cc8",
+          "editionCopies": 3
+        },
+        {
+          "id": "makeplane/plane",
+          "sourceHash": "fa429af29b97fe0d2b6792935f6d18b9b621fafd0f26963dc5c3984dc2dc81ef",
+          "editionCopies": 3
+        }
+      ]
     }
   ]
 }
