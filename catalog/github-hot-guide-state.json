@@ -2051,6 +2051,1206 @@
         },
         "editorialStatus": "中文导读 · 官方原文已核对"
       }
+    },
+    "chen08209/flclash": {
+      "sourceHash": "a88b0ccacd3c47de1893b107be02671cf290a5c65896c994518985a484731eec",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "基于 Clash.Meta 的跨平台代理客户端，支持规则路由、代理组、订阅配置与延迟测试，可管理自己的网络连接配置。",
+        "scenarios": [
+          "在自己的设备上导入已有配置并测试连接。"
+        ],
+        "usage": "基于 Clash.Meta 的跨平台代理客户端，支持规则路由、代理组、订阅配置与延迟测试，可管理自己的网络连接配置。",
+        "requirements": "下载对应系统架构的发行包，准备自己有权使用的订阅或配置文件。",
+        "quickStart": "1. 从 Download 或 Releases 安装对应版本。\n2. 按 Usage 从链接或文件导入配置，选择代理组并测试延迟。\n3. 检查目标连接是否走预期规则，需要时关闭系统代理恢复原配置。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "基于 Clash.Meta 的跨平台代理客户端，支持规则路由、代理组、订阅配置与延迟测试，可管理自己的网络连接配置。",
+          "audience": "需要图形代理客户端的用户",
+          "example": "在自己的设备上导入已有配置并测试连接。",
+          "steps": [
+            "从 Download 或 Releases 安装对应版本。",
+            "按 Usage 从链接或文件导入配置，选择代理组并测试延迟。",
+            "检查目标连接是否走预期规则，需要时关闭系统代理恢复原配置。"
+          ],
+          "verification": "配置可载入，路由与连接状态符合预期；客户端本身不提供代理服务。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.\n\n# FlClash\n\nA multi-platform proxy client based on ClashMeta. Simple to use, open source and ad-free.\n\n**English** · [简体中文](README_zh_CN.md)\n\n[](https://github.com/chen08209/FlClash/releases/latest)\n[](https://github.com/chen08209/FlClash/releases)\n[](LICENSE"
+            },
+            {
+              "field": "purpose",
+              "quote": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.\n\n# FlClash\n\nA multi-platform proxy client based on ClashMeta. Simple to use, open source and ad-free.\n\n**English** · [简体中文](README_zh_CN.md)\n\n[](https://github.com/chen08209/FlClash/releases/latest)\n[](https://github.com/chen08209/FlClash/releases)\n[](LICENSE"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.\n\n# FlClash\n\nA multi-platform proxy client based on ClashMeta. Simple to use, open source and ad-free.\n\n**English** · [简体中文](README_zh_CN.md)\n\n[](https://github.com/chen08209/FlClash/releases/latest)\n[](https://github.com/chen08209/FlClash/releases)\n[](LICENSE"
+            },
+            {
+              "field": "steps",
+              "quote": "SH_ACCEPT_DISCLAIMER=1` in the app's environment to accept it on first launch.\n\n## Usage\n\n**Import a profile from a link.** Opening a link in this form imports the subscription into FlClash. The `clashmeta://`\nand `flclash://` schemes work the same way.\n\n```text\nclash://install-config?url=\n```\n\n**Automate on Android.** Tasker, MacroDroid and simi"
+            },
+            {
+              "field": "verification",
+              "quote": "SH_ACCEPT_DISCLAIMER=1` in the app's environment to accept it on first launch.\n\n## Usage\n\n**Import a profile from a link.** Opening a link in this form imports the subscription into FlClash. The `clashmeta://`\nand `flclash://` schemes work the same way.\n\n```text\nclash://install-config?url=\n```\n\n**Automate on Android.** Tasker, MacroDroid and simi"
+            }
+          ],
+          "sourceHash": "a88b0ccacd3c47de1893b107be02671cf290a5c65896c994518985a484731eec",
+          "sourceUrl": "https://github.com/chen08209/FlClash/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "a88b0ccacd3c47de1893b107be02671cf290a5c65896c994518985a484731eec",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "chenglou/pretext": {
+      "sourceHash": "1bdac78a17eb43ace0a3565ed6c663a1190a2d1ff28a5e5b089d7135461c4b53",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "JavaScript/TypeScript 多行文本测量与布局库，可给 DOM、Canvas 和 SVG 提供换行与尺寸信息，减少依赖 DOM 反复测量。",
+        "scenarios": [
+          "为聊天气泡计算多语言文本的行高与宽度。"
+        ],
+        "usage": "JavaScript/TypeScript 多行文本测量与布局库，可给 DOM、Canvas 和 SVG 提供换行与尺寸信息，减少依赖 DOM 反复测量。",
+        "requirements": "准备 JavaScript/TypeScript 项目与目标字体；示例演示需单独克隆仓库运行。",
+        "quickStart": "1. 在前端项目中通过 npm 安装 @chenglou/pretext。\n2. 参考 layoutWithLines 示例，传入文本、字体、最大宽度和行高。\n3. 在页面渲染计算出的行，改变容器宽度并对照真实显示。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "JavaScript/TypeScript 多行文本测量与布局库，可给 DOM、Canvas 和 SVG 提供换行与尺寸信息，减少依赖 DOM 反复测量。",
+          "audience": "开发网页排版和图形界面的前端工程师",
+          "example": "为聊天气泡计算多语言文本的行高与宽度。",
+          "steps": [
+            "在前端项目中通过 npm 安装 @chenglou/pretext。",
+            "参考 layoutWithLines 示例，传入文本、字体、最大宽度和行高。",
+            "在页面渲染计算出的行，改变容器宽度并对照真实显示。"
+          ],
+          "verification": "多语言换行和容器尺寸符合预期，字体与实际渲染一致；先检查窄宽度及特殊字符。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Fast, accurate & comprehensive text measurement & layout\n\n# Pretext\n\nPure JavaScript/TypeScript library for multiline text measurement & layout. Fast, accurate & supports all the languages you didn't even know about. Allows rendering to DOM, Canvas and SVG.\n\nPretext side-steps the need for DOM measurements (e.g. `g"
+            },
+            {
+              "field": "purpose",
+              "quote": "Fast, accurate & comprehensive text measurement & layout\n\n# Pretext\n\nPure JavaScript/TypeScript library for multiline text measurement & layout. Fast, accurate & supports all the languages you didn't even know about. Allows rendering to DOM, Canvas and SVG.\n\nPretext side-steps the need for DOM measurements (e.g. `g"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Fast, accurate & comprehensive text measurement & layout\n\n# Pretext\n\nPure JavaScript/TypeScript library for multiline text measurement & layout. Fast, accurate & supports all the languages you didn't even know about. Allows rendering to DOM, Canvas and SVG.\n\nPretext side-steps the need for DOM measurements (e.g. `g"
+            },
+            {
+              "field": "steps",
+              "quote": "browsers' own font engine as ground truth (very AI-friendly iteration method).\n\n## Installation\n\n```sh\nnpm install @chenglou/pretext\n```\n\n## Demos\n\nThe demos are exemplary API usage patterns we encourage you to read. They don't ship in the npm package, so clone the repo, run `bun install`, then `bun start`, and open  in your browser. On Windows, use `bu"
+            },
+            {
+              "field": "verification",
+              "quote": "browsers' own font engine as ground truth (very AI-friendly iteration method).\n\n## Installation\n\n```sh\nnpm install @chenglou/pretext\n```\n\n## Demos\n\nThe demos are exemplary API usage patterns we encourage you to read. They don't ship in the npm package, so clone the repo, run `bun install`, then `bun start`, and open  in your browser. On Windows, use `bu"
+            }
+          ],
+          "sourceHash": "1bdac78a17eb43ace0a3565ed6c663a1190a2d1ff28a5e5b089d7135461c4b53",
+          "sourceUrl": "https://github.com/chenglou/pretext/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "1bdac78a17eb43ace0a3565ed6c663a1190a2d1ff28a5e5b089d7135461c4b53",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "cherryhq/cherry-studio": {
+      "sourceHash": "ca61e2f9a2a799b76d1357c72f859e9d0fb5f0cd6960f341c45c59bcccd65785",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "面向多模型与智能体的 AI 工作台，集成对话、知识库、图片生成、工具和任务入口，可统一管理模型提供商配置。",
+        "scenarios": [
+          "连接一个模型并围绕一份资料开始对话。"
+        ],
+        "usage": "面向多模型与智能体的 AI 工作台，集成对话、知识库、图片生成、工具和任务入口，可统一管理模型提供商配置。",
+        "requirements": "安装对应桌面系统版本，准备模型服务配置；各服务额度与工具权限分别管理。",
+        "quickStart": "1. 从 Download Desktop 安装，打开链接中的 Getting Started 快速指南。\n2. 在 Model providers 中配置自己可用的服务和模型，创建一次对话。\n3. 需要资料检索时再建立知识库；智能体的文件与命令权限按任务启用。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "面向多模型与智能体的 AI 工作台，集成对话、知识库、图片生成、工具和任务入口，可统一管理模型提供商配置。",
+          "audience": "希望集中使用多种 AI 功能的用户",
+          "example": "连接一个模型并围绕一份资料开始对话。",
+          "steps": [
+            "从 Download Desktop 安装，打开链接中的 Getting Started 快速指南。",
+            "在 Model providers 中配置自己可用的服务和模型，创建一次对话。",
+            "需要资料检索时再建立知识库；智能体的文件与命令权限按任务启用。"
+          ],
+          "verification": "测试对话收到正确模型回复，资料引用可核对，未启用的工具不会被默认为可用。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Your AI workspace for models, agents, and productivity.\n\n# \n  \n    \n  \n\n\n\nEnglish | Official Site | Documentation | Development | Feedback\n\n\n\n[![][deepwiki-shield]][deepwiki-link]\n[![][twitter-shield]][twitter-link]\n[![][discord-shield]][discord-link]\n[![][telegram-shield]][telegram-link]\n\n\n\n\n[![][github-release-s"
+            },
+            {
+              "field": "purpose",
+              "quote": "Your AI workspace for models, agents, and productivity.\n\n# \n  \n    \n  \n\n\n\nEnglish | Official Site | Documentation | Development | Feedback\n\n\n\n[![][deepwiki-shield]][deepwiki-link]\n[![][twitter-shield]][twitter-link]\n[![][discord-shield]][discord-link]\n[![][telegram-shield]][telegram-link]\n\n\n\n\n[![][github-release-s"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Your AI workspace for models, agents, and productivity.\n\n# \n  \n    \n  \n\n\n\nEnglish | Official Site | Documentation | Development | Feedback\n\n\n\n[![][deepwiki-shield]][deepwiki-link]\n[![][twitter-shield]][twitter-link]\n[![][discord-shield]][discord-link]\n[![][telegram-shield]][telegram-link]\n\n\n\n\n[![][github-release-s"
+            },
+            {
+              "field": "steps",
+              "quote": "d knowledge bases, create images, and automate everyday tasks in one place.\n\n**[Download Desktop](https://cherryai.com/download)** · **[Getting Started](https://cherryai.com/docs/en/getting-started/quick-start/)**\n\n📱 **Cherry Studio Mobile is now available for iOS and Android!** [Download](https://cherryai.com/mobile) · [GitHub repository](https://githu"
+            },
+            {
+              "field": "verification",
+              "quote": "d knowledge bases, create images, and automate everyday tasks in one place.\n\n**[Download Desktop](https://cherryai.com/download)** · **[Getting Started](https://cherryai.com/docs/en/getting-started/quick-start/)**\n\n📱 **Cherry Studio Mobile is now available for iOS and Android!** [Download](https://cherryai.com/mobile) · [GitHub repository](https://githu"
+            }
+          ],
+          "sourceHash": "ca61e2f9a2a799b76d1357c72f859e9d0fb5f0cd6960f341c45c59bcccd65785",
+          "sourceUrl": "https://github.com/CherryHQ/cherry-studio/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "ca61e2f9a2a799b76d1357c72f859e9d0fb5f0cd6960f341c45c59bcccd65785",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "chinese-poetry/chinese-poetry": {
+      "sourceHash": "ab8b6a241e84446fb584d54c4a733ad22157f51bda258923aea781ab5c51eb63",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "以 JSON 分发唐诗、宋诗、宋词和其他古典文集，可用于诗词检索、阅读应用和文本分析，数据来源为互联网整理。",
+        "scenarios": [
+          "读取一份唐诗数据并按作者筛选展示。"
+        ],
+        "usage": "以 JSON 分发唐诗、宋诗、宋词和其他古典文集，可用于诗词检索、阅读应用和文本分析，数据来源为互联网整理。",
+        "requirements": "阅读可直接浏览；编程使用需能读取 JSON 的环境，并检查数据质量与许可。",
+        "quickStart": "1. 从 数据集 选择全唐诗或宋词目录，下载其中一份 JSON。\n2. 先查看实际字段，再用自己的脚本读取标题、作者和正文。\n3. 抽样与可靠文献核对，最后参考案例展示构建检索或阅读界面。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "源码 / 系统实现",
+          "purpose": "以 JSON 分发唐诗、宋诗、宋词和其他古典文集，可用于诗词检索、阅读应用和文本分析，数据来源为互联网整理。",
+          "audience": "制作诗词应用或做文本分析的开发者",
+          "example": "读取一份唐诗数据并按作者筛选展示。",
+          "steps": [
+            "从 数据集 选择全唐诗或宋词目录，下载其中一份 JSON。",
+            "先查看实际字段，再用自己的脚本读取标题、作者和正文。",
+            "抽样与可靠文献核对，最后参考案例展示构建检索或阅读界面。"
+          ],
+          "verification": "JSON 能解析且正文显示完整，作者与篇目经过抽样核对；数据集不会自动生成应用。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库,  唐宋两朝近一万四千古诗人,  接近5.5万首唐诗加26万宋诗.  两宋时期1564位词人，21050首词。\n\n## chinese-poetry: 最全中文诗歌古典文集数据库\n\n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n\n最全的中华古典文集数据库，包含 5.5 万首唐诗、26 万首宋诗、2.1 万首宋词和其他古典文集。诗人包括唐宋两朝近 1.4 万古诗人，和两宋时期 1.5 千古词人。数据来源于互联网。\n\n**为什么要做这个仓库?** 古诗是中华民族乃至全世界的瑰宝，我们应该传承下去，虽然有古典文集，但大多数人并没有拥有这些书籍。从某种意义上来说，这些庞大的文集离我"
+            },
+            {
+              "field": "purpose",
+              "quote": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库,  唐宋两朝近一万四千古诗人,  接近5.5万首唐诗加26万宋诗.  两宋时期1564位词人，21050首词。\n\n## chinese-poetry: 最全中文诗歌古典文集数据库\n\n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n\n最全的中华古典文集数据库，包含 5.5 万首唐诗、26 万首宋诗、2.1 万首宋词和其他古典文集。诗人包括唐宋两朝近 1.4 万古诗人，和两宋时期 1.5 千古词人。数据来源于互联网。\n\n**为什么要做这个仓库?** 古诗是中华民族乃至全世界的瑰宝，我们应该传承下去，虽然有古典文集，但大多数人并没有拥有这些书籍。从某种意义上来说，这些庞大的文集离我"
+            },
+            {
+              "field": "scenarios",
+              "quote": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库,  唐宋两朝近一万四千古诗人,  接近5.5万首唐诗加26万宋诗.  两宋时期1564位词人，21050首词。\n\n## chinese-poetry: 最全中文诗歌古典文集数据库\n\n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n\n最全的中华古典文集数据库，包含 5.5 万首唐诗、26 万首宋诗、2.1 万首宋词和其他古典文集。诗人包括唐宋两朝近 1.4 万古诗人，和两宋时期 1.5 千古词人。数据来源于互联网。\n\n**为什么要做这个仓库?** 古诗是中华民族乃至全世界的瑰宝，我们应该传承下去，虽然有古典文集，但大多数人并没有拥有这些书籍。从某种意义上来说，这些庞大的文集离我"
+            },
+            {
+              "field": "steps",
+              "quote": " \n\n\n\n  宋词作者作品榜\n  \n\n\n\n  唐诗高频词\n  \n\n\n\n  唐诗作者作品榜\n  \n\n\n\n  宋诗高频词\n  \n\n\n\n  宋诗作者作品榜\n  \n\n\n## 数据集\n\n- [唐诗宋诗](./全唐诗)\n- [全宋词](./宋词)\n- [五代·花间集](./五代诗词/huajianji)\n- [五代·南唐二主词](./五代诗词/nantang)\n- [论语](./论语)\n- [诗经](./诗经)\n- [幽梦影](./幽梦影)\n- [四书五经](./四书五经)\n- [蒙学](./蒙学)\n- [纳兰性德诗集](./纳兰性德)\n- [御定全唐詩](./御定全唐詩)\n\n\n## 贡献\n\n本项目目的是借助技术来生成格式化(JSON)数据，让开发者更方便快速的构建诗词类应用程序。身单力薄，欢迎"
+            },
+            {
+              "field": "verification",
+              "quote": " \n\n\n\n  宋词作者作品榜\n  \n\n\n\n  唐诗高频词\n  \n\n\n\n  唐诗作者作品榜\n  \n\n\n\n  宋诗高频词\n  \n\n\n\n  宋诗作者作品榜\n  \n\n\n## 数据集\n\n- [唐诗宋诗](./全唐诗)\n- [全宋词](./宋词)\n- [五代·花间集](./五代诗词/huajianji)\n- [五代·南唐二主词](./五代诗词/nantang)\n- [论语](./论语)\n- [诗经](./诗经)\n- [幽梦影](./幽梦影)\n- [四书五经](./四书五经)\n- [蒙学](./蒙学)\n- [纳兰性德诗集](./纳兰性德)\n- [御定全唐詩](./御定全唐詩)\n\n\n## 贡献\n\n本项目目的是借助技术来生成格式化(JSON)数据，让开发者更方便快速的构建诗词类应用程序。身单力薄，欢迎"
+            }
+          ],
+          "sourceHash": "ab8b6a241e84446fb584d54c4a733ad22157f51bda258923aea781ab5c51eb63",
+          "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "ab8b6a241e84446fb584d54c4a733ad22157f51bda258923aea781ab5c51eb63",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "christitustech/winutil": {
+      "sourceHash": "333064589886f189ece4b1500f2741a7b08279f219f8755d9d088ddaee310d84",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "集中管理 Windows 软件安装、系统调整、配置修复与更新设置的工具，部分操作会影响整个系统。",
+        "scenarios": [
+          "为新电脑选择安装软件和少量明确需要的设置。"
+        ],
+        "usage": "集中管理 Windows 软件安装、系统调整、配置修复与更新设置的工具，部分操作会影响整个系统。",
+        "requirements": "需要 Windows 管理员权限；先了解每项改动并保存可恢复的系统状态。",
+        "quickStart": "1. 先阅读 Quick Start 和官方 Known Issues，再检查稳定分支脚本来源。\n2. 按 README 在管理员终端启动稳定版，逐项选择需要的软件或设置。\n3. 执行后检查安装结果和系统行为；预设的具体内容可查 preset.json。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "集中管理 Windows 软件安装、系统调整、配置修复与更新设置的工具，部分操作会影响整个系统。",
+          "audience": "需要整理 Windows 环境的用户",
+          "example": "为新电脑选择安装软件和少量明确需要的设置。",
+          "steps": [
+            "先阅读 Quick Start 和官方 Known Issues，再检查稳定分支脚本来源。",
+            "按 README 在管理员终端启动稳定版，逐项选择需要的软件或设置。",
+            "执行后检查安装结果和系统行为；预设的具体内容可查 preset.json。"
+          ],
+          "verification": "实际变更与勾选一致，关键应用正常运行；不要把批量深度调整当作无风险加速。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates\n\n# Chris Titus Tech's Windows Utility\n\n[](https://github.com/ChrisTitusTech/winutil/releases/latest)\n\n[](https://discord.gg/RUbZUZyByQ)\n\nA curated compilation of Windows system tasks streamline **installs**, debloat with **tweaks**, troubleshoot with **config"
+            },
+            {
+              "field": "purpose",
+              "quote": "Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates\n\n# Chris Titus Tech's Windows Utility\n\n[](https://github.com/ChrisTitusTech/winutil/releases/latest)\n\n[](https://discord.gg/RUbZUZyByQ)\n\nA curated compilation of Windows system tasks streamline **installs**, debloat with **tweaks**, troubleshoot with **config"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates\n\n# Chris Titus Tech's Windows Utility\n\n[](https://github.com/ChrisTitusTech/winutil/releases/latest)\n\n[](https://discord.gg/RUbZUZyByQ)\n\nA curated compilation of Windows system tasks streamline **installs**, debloat with **tweaks**, troubleshoot with **config"
+            },
+            {
+              "field": "steps",
+              "quote": "figure **Windows updates**. Run it fresh on every new Windows install.\n\n\n\n\n---\n\n## Quick Start\n\n> **WinUtil must be run as Administrator** because it performs system-wide changes.\n\nOpen PowerShell or Terminal as admin, then run:\n\n**Stable Branch (recommended)**\n```ps1\nirm https://christitus.com/win | iex\n```\n\n**Development Branch**\n```ps1\nirm https://c"
+            },
+            {
+              "field": "verification",
+              "quote": "figure **Windows updates**. Run it fresh on every new Windows install.\n\n\n\n\n---\n\n## Quick Start\n\n> **WinUtil must be run as Administrator** because it performs system-wide changes.\n\nOpen PowerShell or Terminal as admin, then run:\n\n**Stable Branch (recommended)**\n```ps1\nirm https://christitus.com/win | iex\n```\n\n**Development Branch**\n```ps1\nirm https://c"
+            }
+          ],
+          "sourceHash": "333064589886f189ece4b1500f2741a7b08279f219f8755d9d088ddaee310d84",
+          "sourceUrl": "https://github.com/ChrisTitusTech/winutil/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "333064589886f189ece4b1500f2741a7b08279f219f8755d9d088ddaee310d84",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "chromedevtools/chrome-devtools-mcp": {
+      "sourceHash": "550458a418fce51ba4b7ac03bd44a1aba23264a2578171a5baeb4162b280fe5e",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "把 Chrome 的检查、调试、自动化与性能分析能力提供给编码助手，可通过 MCP 服务或 CLI 操作真实浏览器。",
+        "scenarios": [
+          "让助手检查自己网页的控制台报错和性能问题。"
+        ],
+        "usage": "把 Chrome 的检查、调试、自动化与性能分析能力提供给编码助手，可通过 MCP 服务或 CLI 操作真实浏览器。",
+        "requirements": "准备 Chrome、Node/npm 及支持 MCP 的客户端，确认浏览器内容可向该助手开放。",
+        "quickStart": "1. 按 Getting started 把 chrome-devtools-mcp 的 npx 配置加入 MCP 客户端。\n2. 重启或刷新客户端连接，要求助手打开自己的测试页面并读取控制台。\n3. 让助手记录可复现问题，再自行确认修改后的页面表现。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "把 Chrome 的检查、调试、自动化与性能分析能力提供给编码助手，可通过 MCP 服务或 CLI 操作真实浏览器。",
+          "audience": "调试网页的编码助手用户",
+          "example": "让助手检查自己网页的控制台报错和性能问题。",
+          "steps": [
+            "按 Getting started 把 chrome-devtools-mcp 的 npx 配置加入 MCP 客户端。",
+            "重启或刷新客户端连接，要求助手打开自己的测试页面并读取控制台。",
+            "让助手记录可复现问题，再自行确认修改后的页面表现。"
+          ],
+          "verification": "客户端能列出工具并读到目标页面的信息，修复前后有可比较记录；使用统计可按文档关闭。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Chrome DevTools for coding agents\n\n# Chrome DevTools for agents\n\n[](https://npmjs.org/package/chrome-devtools-mcp)\n\nChrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot)\ncontrol and inspect a live Chrome browser. It is avail"
+            },
+            {
+              "field": "purpose",
+              "quote": "Chrome DevTools for coding agents\n\n# Chrome DevTools for agents\n\n[](https://npmjs.org/package/chrome-devtools-mcp)\n\nChrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot)\ncontrol and inspect a live Chrome browser. It is avail"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Chrome DevTools for coding agents\n\n# Chrome DevTools for agents\n\n[](https://npmjs.org/package/chrome-devtools-mcp)\n\nChrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot)\ncontrol and inspect a live Chrome browser. It is avail"
+            },
+            {
+              "field": "steps",
+              "quote": " if `CHROME_DEVTOOLS_MCP_NO_USAGE_STATISTICS` or `CI` env variables are set.\n\n\n\n## Getting started\n\nAdd the following config to your MCP client:\n\n```json\n{\n  \"mcpServers\": {\n    \"chrome-devtools\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"chrome-devtools-mcp@latest\"]\n    }\n  }\n}\n```\n\n> [!NOTE]\n> Using `chrome-devtools-mcp@latest` ensures that your MC"
+            },
+            {
+              "field": "verification",
+              "quote": " if `CHROME_DEVTOOLS_MCP_NO_USAGE_STATISTICS` or `CI` env variables are set.\n\n\n\n## Getting started\n\nAdd the following config to your MCP client:\n\n```json\n{\n  \"mcpServers\": {\n    \"chrome-devtools\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"chrome-devtools-mcp@latest\"]\n    }\n  }\n}\n```\n\n> [!NOTE]\n> Using `chrome-devtools-mcp@latest` ensures that your MC"
+            }
+          ],
+          "sourceHash": "550458a418fce51ba4b7ac03bd44a1aba23264a2578171a5baeb4162b280fe5e",
+          "sourceUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "550458a418fce51ba4b7ac03bd44a1aba23264a2578171a5baeb4162b280fe5e",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "clickhouse/clickhouse": {
+      "sourceHash": "8bcf37bcfd8b7454cf0b0ea1395b409f4619d7a7fe5d89877d544f20613bd84f",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "面向实时分析的列式数据库，擅长聚合大量数据生成分析报表，可自行部署或使用 ClickHouse Cloud。",
+        "scenarios": [
+          "把一份事件数据导入表后统计分组指标。"
+        ],
+        "usage": "面向实时分析的列式数据库，擅长聚合大量数据生成分析报表，可自行部署或使用 ClickHouse Cloud。",
+        "requirements": "准备支持的平台或云账号；数据导入格式、磁盘和查询权限按部署文档配置。",
+        "quickStart": "1. 按 How To Install 选择本地安装，或使用 Cloud 入口建立测试环境。\n2. 打开 Useful Links 的 Tutorial，跟随建表和导入示例。\n3. 运行聚合查询，核对行数与统计结果，再使用自己的小样本。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "面向实时分析的列式数据库，擅长聚合大量数据生成分析报表，可自行部署或使用 ClickHouse Cloud。",
+          "audience": "处理分析查询的数据工程师",
+          "example": "把一份事件数据导入表后统计分组指标。",
+          "steps": [
+            "按 How To Install 选择本地安装，或使用 Cloud 入口建立测试环境。",
+            "打开 Useful Links 的 Tutorial，跟随建表和导入示例。",
+            "运行聚合查询，核对行数与统计结果，再使用自己的小样本。"
+          ],
+          "verification": "导入行数与来源一致，分组结果可独立核算；生产性能需用自己的数据验证。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "ClickHouse® is a real-time analytics database management system\n\n[](https://clickhouse.com)\n[](https://www.apache.org/licenses/LICENSE-2.0)\n\n\n    \n    \n    \n\n\n\n#### ClickHouse® is an open-source column-oriented database management system that allows generating analytical data reports in real-time.\n\n\n\n\n## How To Install (L"
+            },
+            {
+              "field": "purpose",
+              "quote": "ClickHouse® is a real-time analytics database management system\n\n[](https://clickhouse.com)\n[](https://www.apache.org/licenses/LICENSE-2.0)\n\n\n    \n    \n    \n\n\n\n#### ClickHouse® is an open-source column-oriented database management system that allows generating analytical data reports in real-time.\n\n\n\n\n## How To Install (L"
+            },
+            {
+              "field": "scenarios",
+              "quote": "ClickHouse® is a real-time analytics database management system\n\n[](https://clickhouse.com)\n[](https://www.apache.org/licenses/LICENSE-2.0)\n\n\n    \n    \n    \n\n\n\n#### ClickHouse® is an open-source column-oriented database management system that allows generating analytical data reports in real-time.\n\n\n\n\n## How To Install (L"
+            },
+            {
+              "field": "steps",
+              "quote": "ment system that allows generating analytical data reports in real-time.\n\n\n\n\n## How To Install (Linux, macOS, FreeBSD)\n\n```\ncurl https://clickhouse.com/ | sh\n```\nOr skip the install: try [ClickHouse Cloud](https://console.clickhouse.cloud/signUp?utm_medium=referral&utm_source=github) for free and start querying in minutes.\n\n## Useful Links\n\n* [Official"
+            },
+            {
+              "field": "verification",
+              "quote": "ment system that allows generating analytical data reports in real-time.\n\n\n\n\n## How To Install (Linux, macOS, FreeBSD)\n\n```\ncurl https://clickhouse.com/ | sh\n```\nOr skip the install: try [ClickHouse Cloud](https://console.clickhouse.cloud/signUp?utm_medium=referral&utm_source=github) for free and start querying in minutes.\n\n## Useful Links\n\n* [Official"
+            }
+          ],
+          "sourceHash": "8bcf37bcfd8b7454cf0b0ea1395b409f4619d7a7fe5d89877d544f20613bd84f",
+          "sourceUrl": "https://github.com/ClickHouse/ClickHouse/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "8bcf37bcfd8b7454cf0b0ea1395b409f4619d7a7fe5d89877d544f20613bd84f",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "commaai/openpilot": {
+      "sourceHash": "1f41ab5d1d3b1ace4208b9278f462a8cb82b31201a87b971ce82436705cc15c3",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "面向机器人与受支持汽车的开源驾驶辅助研究系统，需要专用设备、车型适配与线束，不是下载到普通电脑即可自动驾驶的应用。",
+        "scenarios": [
+          "先研究架构、安全模型和支持车型，再评估适配条件。"
+        ],
+        "usage": "面向机器人与受支持汽车的开源驾驶辅助研究系统，需要专用设备、车型适配与线束，不是下载到普通电脑即可自动驾驶的应用。",
+        "requirements": "车端使用需要受支持 comma 设备、车型和线束；研究软件需遵守官方安全要求。",
+        "quickStart": "1. 阅读 Using openpilot in a car，核对设备、软件、车型与线束四项条件。\n2. 从 Docs 查看架构与 Safety and Testing，优先理解离线测试和回放路径。\n3. 按开发文档做非道路验证，保留测试结果；车端操作按官方安全指南执行。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "研究 / 实验项目",
+          "purpose": "面向机器人与受支持汽车的开源驾驶辅助研究系统，需要专用设备、车型适配与线束，不是下载到普通电脑即可自动驾驶的应用。",
+          "audience": "研究驾驶辅助系统的开发者",
+          "example": "先研究架构、安全模型和支持车型，再评估适配条件。",
+          "steps": [
+            "阅读 Using openpilot in a car，核对设备、软件、车型与线束四项条件。",
+            "从 Docs 查看架构与 Safety and Testing，优先理解离线测试和回放路径。",
+            "按开发文档做非道路验证，保留测试结果；车端操作按官方安全指南执行。"
+          ],
+          "verification": "能确认车型适配和安全限制，并解释测试范围；离线检查不等于道路驾驶安全认证。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.\n\n# openpilot\n\n\n\n  openpilot is an operating system for robotics.\n  \n  Currently, it upgrades the driver assistance system in 300+ supported cars.\n\n\n\n### \n  Docs\n   · \n  Roadmap\n   · \n  Contribute\n   · \n  Community\n   · \n  Try it on a comma four\n\n\n\nQuick start"
+            },
+            {
+              "field": "purpose",
+              "quote": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.\n\n# openpilot\n\n\n\n  openpilot is an operating system for robotics.\n  \n  Currently, it upgrades the driver assistance system in 300+ supported cars.\n\n\n\n### \n  Docs\n   · \n  Roadmap\n   · \n  Contribute\n   · \n  Community\n   · \n  Try it on a comma four\n\n\n\nQuick start"
+            },
+            {
+              "field": "scenarios",
+              "quote": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.\n\n# openpilot\n\n\n\n  openpilot is an operating system for robotics.\n  \n  Currently, it upgrades the driver assistance system in 300+ supported cars.\n\n\n\n### \n  Docs\n   · \n  Roadmap\n   · \n  Contribute\n   · \n  Community\n   · \n  Try it on a comma four\n\n\n\nQuick start"
+            },
+            {
+              "field": "steps",
+              "quote": "   · \n  Try it on a comma four\n\n\n\nQuick start: `bash \n\n\n  \n    \n    \n    \n  \n\n\n\nUsing openpilot in a car\n------\n\nTo use openpilot in a car, you need four things:\n1. **Supported Device:** a comma four, available at [comma.ai/shop/comma-four](https://www.comma.ai/shop/comma-four).\n2. **Software:** The setup procedure for the comma four allows users to enter a URL "
+            },
+            {
+              "field": "verification",
+              "quote": "   · \n  Try it on a comma four\n\n\n\nQuick start: `bash \n\n\n  \n    \n    \n    \n  \n\n\n\nUsing openpilot in a car\n------\n\nTo use openpilot in a car, you need four things:\n1. **Supported Device:** a comma four, available at [comma.ai/shop/comma-four](https://www.comma.ai/shop/comma-four).\n2. **Software:** The setup procedure for the comma four allows users to enter a URL "
+            }
+          ],
+          "sourceHash": "1f41ab5d1d3b1ace4208b9278f462a8cb82b31201a87b971ce82436705cc15c3",
+          "sourceUrl": "https://github.com/commaai/openpilot/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "1f41ab5d1d3b1ace4208b9278f462a8cb82b31201a87b971ce82436705cc15c3",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "coollabsio/coolify": {
+      "sourceHash": "f4fe7a0a8011027b318fbeea575f418b51a613124893b31239a3b3c18d37d868",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "可自部署的应用托管平台，通过 SSH 管理自己的服务器，集中部署网站、数据库和服务，提供类似云平台的管理界面。",
+        "scenarios": [
+          "在自己的 VPS 上部署一个测试网站和数据库。"
+        ],
+        "usage": "可自部署的应用托管平台，通过 SSH 管理自己的服务器，集中部署网站、数据库和服务，提供类似云平台的管理界面。",
+        "requirements": "准备可 SSH 访问的服务器、相应管理权限及域名等应用配置。",
+        "quickStart": "1. 从 README 的 Documentation 打开安装指南，按服务器条件部署 Coolify。\n2. 连接自己的测试服务器，选择一个简单应用或服务进行部署。\n3. 检查部署日志、访问入口和持久化配置，验证后再规划生产环境。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "可自部署的应用托管平台，通过 SSH 管理自己的服务器，集中部署网站、数据库和服务，提供类似云平台的管理界面。",
+          "audience": "维护自有服务器的开发者",
+          "example": "在自己的 VPS 上部署一个测试网站和数据库。",
+          "steps": [
+            "从 README 的 Documentation 打开安装指南，按服务器条件部署 Coolify。",
+            "连接自己的测试服务器，选择一个简单应用或服务进行部署。",
+            "检查部署日志、访问入口和持久化配置，验证后再规划生产环境。"
+          ],
+          "verification": "应用可访问、重启后需要的数据仍在，部署日志可追踪；托管面板不代替数据备份。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.\n\n# Coolify\n\n**An open-source platform to deploy applications, databases, and services on your own servers.**\n\nOpen source & free forever, backed by our [philosophy](https://coolify.io/philosophy).\n\n\n\n[Website](https://c"
+            },
+            {
+              "field": "purpose",
+              "quote": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.\n\n# Coolify\n\n**An open-source platform to deploy applications, databases, and services on your own servers.**\n\nOpen source & free forever, backed by our [philosophy](https://coolify.io/philosophy).\n\n\n\n[Website](https://c"
+            },
+            {
+              "field": "scenarios",
+              "quote": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.\n\n# Coolify\n\n**An open-source platform to deploy applications, databases, and services on your own servers.**\n\nOpen source & free forever, backed by our [philosophy](https://coolify.io/philosophy).\n\n\n\n[Website](https://c"
+            },
+            {
+              "field": "steps",
+              "quote": "io/discord) · [Community](https://github.com/coollabsio/coolify/discussions)\n\n\n\n## What is Coolify?\n\nCoolify is an open-source and self-hostable alternative to Heroku, Netlify, and Vercel. It helps you manage servers, applications, and databases on your own hardware. You only need an SSH connection.\n\nYou can use a VPS, a bare-metal server, a Raspberry Pi, o"
+            },
+            {
+              "field": "verification",
+              "quote": "io/discord) · [Community](https://github.com/coollabsio/coolify/discussions)\n\n\n\n## What is Coolify?\n\nCoolify is an open-source and self-hostable alternative to Heroku, Netlify, and Vercel. It helps you manage servers, applications, and databases on your own hardware. You only need an SSH connection.\n\nYou can use a VPS, a bare-metal server, a Raspberry Pi, o"
+            }
+          ],
+          "sourceHash": "f4fe7a0a8011027b318fbeea575f418b51a613124893b31239a3b3c18d37d868",
+          "sourceUrl": "https://github.com/coollabsio/coolify/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "f4fe7a0a8011027b318fbeea575f418b51a613124893b31239a3b3c18d37d868",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "corentinj/real-time-voice-cloning": {
+      "sourceHash": "4e0d8b23989180f812b3fd28927d6f06ec99aed6d66b57a454530d3446fa52e7",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "实现 SV2TTS 三阶段语音克隆研究流程，从短音频提取说话人表征，再结合文本合成语音，提供 GUI 与命令行演示。",
+        "scenarios": [
+          "用自己的授权录音比较原声与合成效果。"
+        ],
+        "usage": "实现 SV2TTS 三阶段语音克隆研究流程，从短音频提取说话人表征，再结合文本合成语音，提供 GUI 与命令行演示。",
+        "requirements": "需要 ffmpeg、uv 和模型文件；按硬件选择 CPU 或 NVIDIA CUDA 路线。",
+        "quickStart": "1. 先阅读 Running the toolbox，再安装音频工具 ffmpeg 与依赖管理器 uv。\n2. 运行对应 CPU 或 CUDA 的 demo_toolbox.py 示例，等待模型下载。\n3. 录制自己的短音频，输入一段测试文本生成并试听。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "模型 / 推理项目",
+          "purpose": "实现 SV2TTS 三阶段语音克隆研究流程，从短音频提取说话人表征，再结合文本合成语音，提供 GUI 与命令行演示。",
+          "audience": "研究语音合成的开发者",
+          "example": "用自己的授权录音比较原声与合成效果。",
+          "steps": [
+            "先阅读 Running the toolbox，再安装音频工具 ffmpeg 与依赖管理器 uv。",
+            "运行对应 CPU 或 CUDA 的 demo_toolbox.py 示例，等待模型下载。",
+            "录制自己的短音频，输入一段测试文本生成并试听。"
+          ],
+          "verification": "能生成可播放音频，并检查发音、音色与噪声；演示不保证任意语言和录音都达到同样效果。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Clone a voice in 5 seconds to generate arbitrary speech in real-time\n\n# Real-Time Voice Cloning\n\nThis repository is an implementation of [Transfer Learning from Speaker Verification to\nMultispeaker Text-To-Speech Synthesis](https://arxiv.org/pdf/1806.04558.pdf) (SV2TTS) with a vocoder that works in real-time. This was my [mast"
+            },
+            {
+              "field": "purpose",
+              "quote": "Clone a voice in 5 seconds to generate arbitrary speech in real-time\n\n# Real-Time Voice Cloning\n\nThis repository is an implementation of [Transfer Learning from Speaker Verification to\nMultispeaker Text-To-Speech Synthesis](https://arxiv.org/pdf/1806.04558.pdf) (SV2TTS) with a vocoder that works in real-time. This was my [mast"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Clone a voice in 5 seconds to generate arbitrary speech in real-time\n\n# Real-Time Voice Cloning\n\nThis repository is an implementation of [Transfer Learning from Speaker Verification to\nMultispeaker Text-To-Speech Synthesis](https://arxiv.org/pdf/1806.04558.pdf) (SV2TTS) with a vocoder that works in real-time. This was my [mast"
+            },
+            {
+              "field": "steps",
+              "quote": "atterbox) for a similar project up to date with the 2025 SOTA in voice cloning\n\n## Running the toolbox\n\nBoth Windows and Linux are supported.\n1. Install [ffmpeg](https://ffmpeg.org/download.html#get-packages). This is necessary for reading audio files. Check if it's installed by running in a command line\n```\nffmpeg\n```\n2. Install uv for python package manageme"
+            },
+            {
+              "field": "verification",
+              "quote": "atterbox) for a similar project up to date with the 2025 SOTA in voice cloning\n\n## Running the toolbox\n\nBoth Windows and Linux are supported.\n1. Install [ffmpeg](https://ffmpeg.org/download.html#get-packages). This is necessary for reading audio files. Check if it's installed by running in a command line\n```\nffmpeg\n```\n2. Install uv for python package manageme"
+            }
+          ],
+          "sourceHash": "4e0d8b23989180f812b3fd28927d6f06ec99aed6d66b57a454530d3446fa52e7",
+          "sourceUrl": "https://github.com/CorentinJ/Real-Time-Voice-Cloning/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "4e0d8b23989180f812b3fd28927d6f06ec99aed6d66b57a454530d3446fa52e7",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "coreyhaines31/marketingskills": {
+      "sourceHash": "8507324e033833aee1cae6c282c76f96d163dbf6714b985b85e4e6c16a1106a4",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "面向 AI 助手的营销 Skill 集合，覆盖转化优化、文案、SEO、分析和增长任务，各技能可按需要单独安装。",
+        "scenarios": [
+          "结合产品信息改进落地页文案与转化路径。"
+        ],
+        "usage": "面向 AI 助手的营销 Skill 集合，覆盖转化优化、文案、SEO、分析和增长任务，各技能可按需要单独安装。",
+        "requirements": "需要支持 Agent Skills 的助手；准备产品事实、目标用户和页面内容。",
+        "quickStart": "1. 按 CLI Install 使用 npx skills 安装所需技能，而非默认要求所有工具都已接入。\n2. 提供落地页与目标，按 Usage 请求转化优化或主页文案。\n3. 逐项核对建议与产品事实，形成可执行修改和后续衡量指标。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "AI 指令 / Skill 资源",
+          "purpose": "面向 AI 助手的营销 Skill 集合，覆盖转化优化、文案、SEO、分析和增长任务，各技能可按需要单独安装。",
+          "audience": "需要营销协作的创始人和技术营销人员",
+          "example": "结合产品信息改进落地页文案与转化路径。",
+          "steps": [
+            "按 CLI Install 使用 npx skills 安装所需技能，而非默认要求所有工具都已接入。",
+            "提供落地页与目标，按 Usage 请求转化优化或主页文案。",
+            "逐项核对建议与产品事实，形成可执行修改和后续衡量指标。"
+          ],
+          "verification": "输出能对应页面具体问题，事实与承诺准确；提出优化不代表转化率已经提升。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.\n\n# Marketing Skills for AI Agents\n\nA collection of AI agent skills focused on marketing tasks. Built for technical marketers and founders who want AI coding agents to help with conversion optimization, copywriting, SEO, analytics, and growth engineering. Work"
+            },
+            {
+              "field": "purpose",
+              "quote": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.\n\n# Marketing Skills for AI Agents\n\nA collection of AI agent skills focused on marketing tasks. Built for technical marketers and founders who want AI coding agents to help with conversion optimization, copywriting, SEO, analytics, and growth engineering. Work"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.\n\n# Marketing Skills for AI Agents\n\nA collection of AI agent skills focused on marketing tasks. Built for technical marketers and founders who want AI coding agents to help with conversion optimization, copywriting, SEO, analytics, and growth engineering. Work"
+            },
+            {
+              "field": "steps",
+              "quote": " \\\n       email-sequence free-tool-strategy launch-strategy onboarding-cro \\\n \n\n## Usage\n\nOnce installed, just ask your agent to help with marketing tasks:\n\n```\n\"Help me optimize this landing page for conversions\"\n→ Uses cro skill\n\n\"Write homepage copy for my SaaS\"\n→ Uses copywriting skill\n\n\"Set up GA4 tracking for signups\"\n→ Uses analytics skill"
+            },
+            {
+              "field": "verification",
+              "quote": " \\\n       email-sequence free-tool-strategy launch-strategy onboarding-cro \\\n \n\n## Usage\n\nOnce installed, just ask your agent to help with marketing tasks:\n\n```\n\"Help me optimize this landing page for conversions\"\n→ Uses cro skill\n\n\"Write homepage copy for my SaaS\"\n→ Uses copywriting skill\n\n\"Set up GA4 tracking for signups\"\n→ Uses analytics skill"
+            }
+          ],
+          "sourceHash": "8507324e033833aee1cae6c282c76f96d163dbf6714b985b85e4e6c16a1106a4",
+          "sourceUrl": "https://github.com/coreyhaines31/marketingskills/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "8507324e033833aee1cae6c282c76f96d163dbf6714b985b85e4e6c16a1106a4",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "crewaiinc/crewai": {
+      "sourceHash": "11bf85d28d144b235ff83d239b54202306715a1dde5180f5e538b3403d331116",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "用 Python 组织多智能体协作与事件驱动流程，Crews 负责角色协作，Flows 用于控制步骤和状态。",
+        "scenarios": [
+          "让研究与整理两个角色产出一份可检查报告。"
+        ],
+        "usage": "用 Python 组织多智能体协作与事件驱动流程，Crews 负责角色协作，Flows 用于控制步骤和状态。",
+        "requirements": "需要 README 支持的 Python 环境、uv 及所选模型凭据；外部工具按需配置。",
+        "quickStart": "1. 按 installation guide 安装 CrewAI CLI，创建一个 crew 项目。\n2. 在生成的配置中设置角色、任务和模型，运行 crewai install 安装依赖。\n3. 运行 crewai run，检查任务之间的输入输出与最终结果。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发框架",
+          "purpose": "用 Python 组织多智能体协作与事件驱动流程，Crews 负责角色协作，Flows 用于控制步骤和状态。",
+          "audience": "构建智能体工作流的开发者",
+          "example": "让研究与整理两个角色产出一份可检查报告。",
+          "steps": [
+            "按 installation guide 安装 CrewAI CLI，创建一个 crew 项目。",
+            "在生成的配置中设置角色、任务和模型，运行 crewai install 安装依赖。",
+            "运行 crewai run，检查任务之间的输入输出与最终结果。"
+          ],
+          "verification": "角色任务确实按配置执行，最终结论有来源可核对；智能体执行成功不等于内容自动正确。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.\n\nHomepage\n  ·\n  Open Source\n  ·\n  Docs\n  ·\n  Start Cloud Trial\n  ·\n  Blog\n  ·\n  Forum\n\n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n### Fast and Flexible Multi-Agent Automation Framework\n\n>"
+            },
+            {
+              "field": "purpose",
+              "quote": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.\n\nHomepage\n  ·\n  Open Source\n  ·\n  Docs\n  ·\n  Start Cloud Trial\n  ·\n  Blog\n  ·\n  Forum\n\n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n### Fast and Flexible Multi-Agent Automation Framework\n\n>"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.\n\nHomepage\n  ·\n  Open Source\n  ·\n  Docs\n  ·\n  Start Cloud Trial\n  ·\n  Blog\n  ·\n  Forum\n\n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n### Fast and Flexible Multi-Agent Automation Framework\n\n>"
+            },
+            {
+              "field": "steps",
+              "quote": "AI?\n\nA: Install the CrewAI CLI with [UV](https://docs.astral.sh/uv/):\n\n```shell\nuv tool install crewai\n```\n\nThen create a project with `crewai create crew `, run `crewai install`, and start it with `crewai run`. See the [installation guide](https://docs.crewai.com/en/installation) for details.\n\n\n\n### Q: Is CrewAI AMP available for cloud and on-premise deployme"
+            },
+            {
+              "field": "verification",
+              "quote": "AI?\n\nA: Install the CrewAI CLI with [UV](https://docs.astral.sh/uv/):\n\n```shell\nuv tool install crewai\n```\n\nThen create a project with `crewai create crew `, run `crewai install`, and start it with `crewai run`. See the [installation guide](https://docs.crewai.com/en/installation) for details.\n\n\n\n### Q: Is CrewAI AMP available for cloud and on-premise deployme"
+            }
+          ],
+          "sourceHash": "11bf85d28d144b235ff83d239b54202306715a1dde5180f5e538b3403d331116",
+          "sourceUrl": "https://github.com/crewAIInc/crewAI/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "11bf85d28d144b235ff83d239b54202306715a1dde5180f5e538b3403d331116",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "cypress-io/cypress": {
+      "sourceHash": "90ded36d19546aa9676699b90a845b20df12460428733a42f0cb201a43a7acf0",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "用于浏览器应用的自动化测试工具，可把页面操作与断言写成可重复执行的测试，帮助发现交互回归。",
+        "scenarios": [
+          "为登录表单或搜索流程建立回归检查。"
+        ],
+        "usage": "用于浏览器应用的自动化测试工具，可把页面操作与断言写成可重复执行的测试，帮助发现交互回归。",
+        "requirements": "准备 Node 项目和可运行的测试页面，系统按官方安装要求确认。",
+        "quickStart": "1. 在项目中按 Installing 安装 cypress 开发依赖。\n2. 打开 get started 文档创建首个浏览器测试，指定自己的测试页面。\n3. 加入一次输入、点击和结果断言，运行并检查失败位置。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发框架",
+          "purpose": "用于浏览器应用的自动化测试工具，可把页面操作与断言写成可重复执行的测试，帮助发现交互回归。",
+          "audience": "维护网页应用的开发者和测试人员",
+          "example": "为登录表单或搜索流程建立回归检查。",
+          "steps": [
+            "在项目中按 Installing 安装 cypress 开发依赖。",
+            "打开 get started 文档创建首个浏览器测试，指定自己的测试页面。",
+            "加入一次输入、点击和结果断言，运行并检查失败位置。"
+          ],
+          "verification": "测试能重复通过，故意改变页面预期后能正确失败；单个用例通过不代表全站没有问题。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Fast, easy and reliable testing for anything that runs in a browser.\n\nDocumentation |\n  Changelog |\n  Roadmap\n\n\n\n### \n  The web has evolved. Finally, testing has too.\n\n\n\n\n  Fast, easy and reliable testing for anything that runs in a browser.\n\n\n  Join us, we're hiring.\n\n\n\n  \n    \n  \n  \n    \n  \n    \n    \n  \n\n\n## What is Cypress?"
+            },
+            {
+              "field": "purpose",
+              "quote": "Fast, easy and reliable testing for anything that runs in a browser.\n\nDocumentation |\n  Changelog |\n  Roadmap\n\n\n\n### \n  The web has evolved. Finally, testing has too.\n\n\n\n\n  Fast, easy and reliable testing for anything that runs in a browser.\n\n\n  Join us, we're hiring.\n\n\n\n  \n    \n  \n  \n    \n  \n    \n    \n  \n\n\n## What is Cypress?"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Fast, easy and reliable testing for anything that runs in a browser.\n\nDocumentation |\n  Changelog |\n  Roadmap\n\n\n\n### \n  The web has evolved. Finally, testing has too.\n\n\n\n\n  Fast, easy and reliable testing for anything that runs in a browser.\n\n\n  Join us, we're hiring.\n\n\n\n  \n    \n  \n  \n    \n  \n    \n    \n  \n\n\n## What is Cypress?"
+            },
+            {
+              "field": "steps",
+              "quote": "ing.\n\n\n\n  \n    \n  \n  \n    \n  \n    \n    \n  \n\n\n## What is Cypress?\n\n\n  \n    \n  \n\n\n## Installing\n\n[](https://badge.fury.io/js/cypress)\n\nInstall Cypress for Mac, Linux, or Windows, then [get started](https://on.cypress.io/install).\n\n```bash\nnpm install cypress --save-dev\n```\nor\n```bash\nyarn add cypress --dev\n```\nor\n```bash\npnpm add cypress --save-dev\n```\n"
+            },
+            {
+              "field": "verification",
+              "quote": "ing.\n\n\n\n  \n    \n  \n  \n    \n  \n    \n    \n  \n\n\n## What is Cypress?\n\n\n  \n    \n  \n\n\n## Installing\n\n[](https://badge.fury.io/js/cypress)\n\nInstall Cypress for Mac, Linux, or Windows, then [get started](https://on.cypress.io/install).\n\n```bash\nnpm install cypress --save-dev\n```\nor\n```bash\nyarn add cypress --dev\n```\nor\n```bash\npnpm add cypress --save-dev\n```\n"
+            }
+          ],
+          "sourceHash": "90ded36d19546aa9676699b90a845b20df12460428733a42f0cb201a43a7acf0",
+          "sourceUrl": "https://github.com/cypress-io/cypress/blob/develop/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "90ded36d19546aa9676699b90a845b20df12460428733a42f0cb201a43a7acf0",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "davidhdev/react-bits": {
+      "sourceHash": "cb1545f3c8d2301bf4c53f9e5e6b640ed64054b06c09c6a74bfbcd702186c6f9",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "提供可定制的 React 动画、背景和交互组件，包含文本动效、悬停、导航与微交互，并提供 JS/TS、CSS/Tailwind 版本。",
+        "scenarios": [
+          "给落地页加入可调参数的文本动画。"
+        ],
+        "usage": "提供可定制的 React 动画、背景和交互组件，包含文本动效、悬停、导航与微交互，并提供 JS/TS、CSS/Tailwind 版本。",
+        "requirements": "需要 React 或兼容项目，按组件选择语言、样式与依赖；Pro 内容与免费组件分开。",
+        "quickStart": "1. 从官方组件演示选择效果，先调整控件确认目标外观。\n2. 按 Installation 用 shadcn/jsrepo 添加对应版本，或在 Code 页复制文件。\n3. 在自己的页面接入并调整参数，检查小屏布局和动画性能。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "提供可定制的 React 动画、背景和交互组件，包含文本动效、悬停、导航与微交互，并提供 JS/TS、CSS/Tailwind 版本。",
+          "audience": "制作交互网页的前端开发者和设计师",
+          "example": "给落地页加入可调参数的文本动画。",
+          "steps": [
+            "从官方组件演示选择效果，先调整控件确认目标外观。",
+            "按 Installation 用 shadcn/jsrepo 添加对应版本，或在 Code 页复制文件。",
+            "在自己的页面接入并调整参数，检查小屏布局和动画性能。"
+          ],
+          "verification": "组件能在目标页面运行，文字与布局可读且交互不阻塞主要操作。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents.\n\n### Animated React components for websites people remember.\n\n  215+ free animated components and backgrounds for React.Tune them yourself, or hand them to your agent.\n  \n    \n    \n  \n  \n    Documentation ·\n    Installation ·\n    MCP "
+            },
+            {
+              "field": "purpose",
+              "quote": "The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents.\n\n### Animated React components for websites people remember.\n\n  215+ free animated components and backgrounds for React.Tune them yourself, or hand them to your agent.\n  \n    \n    \n  \n  \n    Documentation ·\n    Installation ·\n    MCP "
+            },
+            {
+              "field": "scenarios",
+              "quote": "The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents.\n\n### Animated React components for websites people remember.\n\n  215+ free animated components and backgrounds for React.Tune them yourself, or hand them to your agent.\n  \n    \n    \n  \n  \n    Documentation ·\n    Installation ·\n    MCP "
+            },
+            {
+              "field": "steps",
+              "quote": "irst? [Grab a free template and agent skill](https://reactbits.dev/pro), no ch\n\n## Installation\n\nAdd any component with the [shadcn](https://ui.shadcn.com/) CLI. The suffix picks the flavor: `JS` or `TS`, then `CSS` or `TW`.\n\n```bash\nnpx shadcn@latest add @react-bits/SplitText-TS-TW\n```\n\nOr with [jsrepo](https://jsrepo.dev):\n\n```bash\nnpx jsrepo@latest a"
+            },
+            {
+              "field": "verification",
+              "quote": "irst? [Grab a free template and agent skill](https://reactbits.dev/pro), no ch\n\n## Installation\n\nAdd any component with the [shadcn](https://ui.shadcn.com/) CLI. The suffix picks the flavor: `JS` or `TS`, then `CSS` or `TW`.\n\n```bash\nnpx shadcn@latest add @react-bits/SplitText-TS-TW\n```\n\nOr with [jsrepo](https://jsrepo.dev):\n\n```bash\nnpx jsrepo@latest a"
+            }
+          ],
+          "sourceHash": "cb1545f3c8d2301bf4c53f9e5e6b640ed64054b06c09c6a74bfbcd702186c6f9",
+          "sourceUrl": "https://github.com/DavidHDev/react-bits/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "cb1545f3c8d2301bf4c53f9e5e6b640ed64054b06c09c6a74bfbcd702186c6f9",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "dbeaver/dbeaver": {
+      "sourceHash": "d7a4c5179ee95e74b63f5e4443ced5a808a9599b76e2046e5fd6c7f4bacaaec3",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "跨平台数据库管理与 SQL 客户端，提供连接管理、查询编辑、数据查看、导入导出和关系图等功能。",
+        "scenarios": [
+          "连接测试数据库并查看表结构和查询结果。"
+        ],
+        "usage": "跨平台数据库管理与 SQL 客户端，提供连接管理、查询编辑、数据查看、导入导出和关系图等功能。",
+        "requirements": "准备对应系统安装包、可访问的数据库及授权凭据；商业版功能与社区版有区别。",
+        "quickStart": "1. 从仓库的官方下载入口安装社区版或所需版本。\n2. 新建数据库连接，选择驱动并填写测试环境连接信息。\n3. 先执行只读查询查看表与结果，再按需要使用导出等功能。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "跨平台数据库管理与 SQL 客户端，提供连接管理、查询编辑、数据查看、导入导出和关系图等功能。",
+          "audience": "需要管理数据库的开发者和分析师",
+          "example": "连接测试数据库并查看表结构和查询结果。",
+          "steps": [
+            "从仓库的官方下载入口安装社区版或所需版本。",
+            "新建数据库连接，选择驱动并填写测试环境连接信息。",
+            "先执行只读查询查看表与结果，再按需要使用导出等功能。"
+          ],
+          "verification": "连接测试通过、查询结果与数据库一致；执行写操作前确认连接环境和权限。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Free universal database tool and SQL client\n\n[](https://twitter.com/dbeaver_news)\n[](https://app.codacy.com/gh/dbeaver/dbeaver/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)\n[](http://www.apache.org/licenses/LICENSE-2.0)\n[](https://github.com/dbeaver/dbeaver/issues?q"
+            },
+            {
+              "field": "purpose",
+              "quote": "Free universal database tool and SQL client\n\n[](https://twitter.com/dbeaver_news)\n[](https://app.codacy.com/gh/dbeaver/dbeaver/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)\n[](http://www.apache.org/licenses/LICENSE-2.0)\n[](https://github.com/dbeaver/dbeaver/issues?q"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Free universal database tool and SQL client\n\n[](https://twitter.com/dbeaver_news)\n[](https://app.codacy.com/gh/dbeaver/dbeaver/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)\n[](http://www.apache.org/licenses/LICENSE-2.0)\n[](https://github.com/dbeaver/dbeaver/issues?q"
+            },
+            {
+              "field": "steps",
+              "quote": "dministrators and analysts.  \n\n* Has a lot of features including schema editor, SQL editor, data editor, AI chat, ER diagrams, data export/import/migration, SQL execution plans, database administration tools, database dashboards, Spatial data viewer, proxy and SSH tunnelling, custom database drivers editor, etc.\n* Out of the box supports more than "
+            },
+            {
+              "field": "verification",
+              "quote": "dministrators and analysts.  \n\n* Has a lot of features including schema editor, SQL editor, data editor, AI chat, ER diagrams, data export/import/migration, SQL execution plans, database administration tools, database dashboards, Spatial data viewer, proxy and SSH tunnelling, custom database drivers editor, etc.\n* Out of the box supports more than "
+            }
+          ],
+          "sourceHash": "d7a4c5179ee95e74b63f5e4443ced5a808a9599b76e2046e5fd6c7f4bacaaec3",
+          "sourceUrl": "https://github.com/dbeaver/dbeaver/blob/devel/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "d7a4c5179ee95e74b63f5e4443ced5a808a9599b76e2046e5fd6c7f4bacaaec3",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "deepfakes/faceswap": {
+      "sourceHash": "dbf3b3e6066678388874a598d2d8df0ff7f373721d0988e078baf3170417c7be",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "基于深度学习的图片和视频换脸工具，包含人脸提取、模型训练和转换等阶段，并提供图形界面。",
+        "scenarios": [
+          "在授权测试素材上研究提取、训练和转换流程。"
+        ],
+        "usage": "基于深度学习的图片和视频换脸工具，包含人脸提取、模型训练和转换等阶段，并提供图形界面。",
+        "requirements": "按 INSTALL.md 配置 Python 与硬件；CUDA GPU 效果较好，部分 AMD 路线需 Linux ROCm。",
+        "quickStart": "1. 先阅读 INSTALL.md，安装与自己系统和显卡匹配的依赖。\n2. 按 Overview 从 Extract 开始检查素材质量，再按 Train 训练模型。\n3. 使用 Convert 输出短测试片段，逐帧核对遮罩、边缘和一致性。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "基于深度学习的图片和视频换脸工具，包含人脸提取、模型训练和转换等阶段，并提供图形界面。",
+          "audience": "处理已获授权素材的视觉研究者",
+          "example": "在授权测试素材上研究提取、训练和转换流程。",
+          "steps": [
+            "先阅读 INSTALL.md，安装与自己系统和显卡匹配的依赖。",
+            "按 Overview 从 Extract 开始检查素材质量，再按 Train 训练模型。",
+            "使用 Convert 输出短测试片段，逐帧核对遮罩、边缘和一致性。"
+          ],
+          "verification": "授权素材能走通提取到转换，输出已明确标注为合成并检查失真；README 不保证任意素材效果。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Deepfakes Software For All\n\n# deepfakes_faceswap\n\n### Important information for **Patreon** and **PayPal** supporters. Please see this forum post: https://forum.faceswap.dev/viewtopic.php?f=14&t=3120\n\n\n  \nFaceSwap is a tool that utilizes deep learning to recognize and swap faces in pic"
+            },
+            {
+              "field": "purpose",
+              "quote": "Deepfakes Software For All\n\n# deepfakes_faceswap\n\n### Important information for **Patreon** and **PayPal** supporters. Please see this forum post: https://forum.faceswap.dev/viewtopic.php?f=14&t=3120\n\n\n  \nFaceSwap is a tool that utilizes deep learning to recognize and swap faces in pic"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Deepfakes Software For All\n\n# deepfakes_faceswap\n\n### Important information for **Patreon** and **PayPal** supporters. Please see this forum post: https://forum.faceswap.dev/viewtopic.php?f=14&t=3120\n\n\n  \nFaceSwap is a tool that utilizes deep learning to recognize and swap faces in pic"
+            },
+            {
+              "field": "steps",
+              "quote": "to](#manifesto)\n  - [FaceSwap has ethical uses.](#faceswap-has-ethical-uses)\n- [How To setup and run the project](#how-to-setup-and-run-the-project)\n- [Overview](#overview)\n  - [Extract](#extract)\n  - [Train](#train)\n  - [Convert](#convert)\n  - [GUI](#gui)\n- [General notes:](#general-notes)\n- [Help I need support!](#help-i-need-support)\n  - [Discord Server](#discord-ser"
+            },
+            {
+              "field": "verification",
+              "quote": "to](#manifesto)\n  - [FaceSwap has ethical uses.](#faceswap-has-ethical-uses)\n- [How To setup and run the project](#how-to-setup-and-run-the-project)\n- [Overview](#overview)\n  - [Extract](#extract)\n  - [Train](#train)\n  - [Convert](#convert)\n  - [GUI](#gui)\n- [General notes:](#general-notes)\n- [Help I need support!](#help-i-need-support)\n  - [Discord Server](#discord-ser"
+            }
+          ],
+          "sourceHash": "dbf3b3e6066678388874a598d2d8df0ff7f373721d0988e078baf3170417c7be",
+          "sourceUrl": "https://github.com/deepfakes/faceswap/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "dbf3b3e6066678388874a598d2d8df0ff7f373721d0988e078baf3170417c7be",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "definitelytyped/definitelytyped": {
+      "sourceHash": "0001d318380287577d4d7dcc288a45d26fe5f8dfd49e7bcc58adaeb999970e03",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "社区维护的 TypeScript 类型声明集合，为没有内置类型的 JavaScript 包提供类型检查与编辑器提示，通常通过对应的 @types 包使用。",
+        "scenarios": [
+          "为项目中缺少类型提示的依赖查找声明。"
+        ],
+        "usage": "社区维护的 TypeScript 类型声明集合，为没有内置类型的 JavaScript 包提供类型检查与编辑器提示，通常通过对应的 @types 包使用。",
+        "requirements": "准备 TypeScript 项目并确认依赖是否已自带类型；声明版本需与依赖兼容。",
+        "quickStart": "1. 在仓库中查找目标包的类型目录，先确认是否确实需要额外声明。\n2. 按 README 的消费类型说明安装对应 @types 包。\n3. 在项目中导入实际 API，运行类型检查并核对编辑器提示。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "社区维护的 TypeScript 类型声明集合，为没有内置类型的 JavaScript 包提供类型检查与编辑器提示，通常通过对应的 @types 包使用。",
+          "audience": "在 TypeScript 中使用 JavaScript 库的开发者",
+          "example": "为项目中缺少类型提示的依赖查找声明。",
+          "steps": [
+            "在仓库中查找目标包的类型目录，先确认是否确实需要额外声明。",
+            "按 README 的消费类型说明安装对应 @types 包。",
+            "在项目中导入实际 API，运行类型检查并核对编辑器提示。"
+          ],
+          "verification": "常用 API 有正确类型提示，编译检查不再因缺声明失败；声明不等同于实现运行正确。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The repository for high quality TypeScript type definitions.\n\n# Definitely Typed\n\n> The repository for _high quality_ TypeScript type definitions.\n\n_You can also read this README in [Español](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.es.md), [한국어](https://github.com/DefinitelyTyped/Definitel"
+            },
+            {
+              "field": "purpose",
+              "quote": "The repository for high quality TypeScript type definitions.\n\n# Definitely Typed\n\n> The repository for _high quality_ TypeScript type definitions.\n\n_You can also read this README in [Español](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.es.md), [한국어](https://github.com/DefinitelyTyped/Definitel"
+            },
+            {
+              "field": "scenarios",
+              "quote": "The repository for high quality TypeScript type definitions.\n\n# Definitely Typed\n\n> The repository for _high quality_ TypeScript type definitions.\n\n_You can also read this README in [Español](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.es.md), [한국어](https://github.com/DefinitelyTyped/Definitel"
+            },
+            {
+              "field": "steps",
+              "quote": "The repository for high quality TypeScript type definitions.\n\n# Definitely Typed\n\n> The repository for _high quality_ TypeScript type definitions.\n\n_You can also read this README in [Español](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.es.md), [한국어](https://github.com/DefinitelyTyped/Definite"
+            },
+            {
+              "field": "verification",
+              "quote": "The repository for high quality TypeScript type definitions.\n\n# Definitely Typed\n\n> The repository for _high quality_ TypeScript type definitions.\n\n_You can also read this README in [Español](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.es.md), [한국어](https://github.com/DefinitelyTyped/Definite"
+            }
+          ],
+          "sourceHash": "0001d318380287577d4d7dcc288a45d26fe5f8dfd49e7bcc58adaeb999970e03",
+          "sourceUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "0001d318380287577d4d7dcc288a45d26fe5f8dfd49e7bcc58adaeb999970e03",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "dkhamsing/open-source-ios-apps": {
+      "sourceHash": "2a6291cdf3b928a6a7c5cb5109e53e21429cbb5670b16501c4bd1442f7411686",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "按功能和 Apple 平台整理开源应用，链接到代码、截图及应用商店，可用于学习 iOS 界面与工程实现。",
+        "scenarios": [
+          "查找一个开源日历或媒体应用参考交互与架构。"
+        ],
+        "usage": "按功能和 Apple 平台整理开源应用，链接到代码、截图及应用商店，可用于学习 iOS 界面与工程实现。",
+        "requirements": "浏览只需浏览器；编译某个应用时需其要求的 macOS、Xcode 和依赖。",
+        "quickStart": "1. 从 Jump to 选择 Calendar、Media 等目标分类。\n2. 查看条目的平台、语言、更新信息，再进入该应用自己的仓库。\n3. 按目标应用 README 运行示例，记录可借鉴组件并检查许可。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "资源目录",
+          "purpose": "按功能和 Apple 平台整理开源应用，链接到代码、截图及应用商店，可用于学习 iOS 界面与工程实现。",
+          "audience": "学习 Apple 应用开发的开发者和设计师",
+          "example": "查找一个开源日历或媒体应用参考交互与架构。",
+          "steps": [
+            "从 Jump to 选择 Calendar、Media 等目标分类。",
+            "查看条目的平台、语言、更新信息，再进入该应用自己的仓库。",
+            "按目标应用 README 运行示例，记录可借鉴组件并检查许可。"
+          ],
+          "verification": "能定位到真实源码与所需构建条件；目录条目不代表都能在最新 Xcode 直接编译。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": ":iphone: Collaborative List of Open-Source iOS Apps\n\n# Open-Source iOS Apps\n\n\n\nA collaborative list of open-source `iOS`, `iPadOS`, `watchOS`, `tvOS` and `visionOS` apps, your [contribution](https://github.com/dkhamsing/open-source-ios-apps/blob/master/.github/CONTRIBUTING.md) is welcome :smile:\n\n \n\nJump to\n\n-"
+            },
+            {
+              "field": "purpose",
+              "quote": ":iphone: Collaborative List of Open-Source iOS Apps\n\n# Open-Source iOS Apps\n\n\n\nA collaborative list of open-source `iOS`, `iPadOS`, `watchOS`, `tvOS` and `visionOS` apps, your [contribution](https://github.com/dkhamsing/open-source-ios-apps/blob/master/.github/CONTRIBUTING.md) is welcome :smile:\n\n \n\nJump to\n\n-"
+            },
+            {
+              "field": "scenarios",
+              "quote": ":iphone: Collaborative List of Open-Source iOS Apps\n\n# Open-Source iOS Apps\n\n\n\nA collaborative list of open-source `iOS`, `iPadOS`, `watchOS`, `tvOS` and `visionOS` apps, your [contribution](https://github.com/dkhamsing/open-source-ios-apps/blob/master/.github/CONTRIBUTING.md) is welcome :smile:\n\n \n\nJump to\n\n-"
+            },
+            {
+              "field": "steps",
+              "quote": "pen-source-ios-apps/blob/master/.github/CONTRIBUTING.md) is welcome :smile:\n\n \n\nJump to\n\n- [Apple TV](#apple-tv) \n- [Apple Vision](#apple-vision) \n- [Apple Watch](#apple-watch) \n- [Browser](#browser) \n- [Calculator](#calculator) \n- [Calendar](#calendar) \n- [Color](#color) \n- [Clock](#clock) \n- [Clone](#clone) \n- [Communication](#communication) \n"
+            },
+            {
+              "field": "verification",
+              "quote": "pen-source-ios-apps/blob/master/.github/CONTRIBUTING.md) is welcome :smile:\n\n \n\nJump to\n\n- [Apple TV](#apple-tv) \n- [Apple Vision](#apple-vision) \n- [Apple Watch](#apple-watch) \n- [Browser](#browser) \n- [Calculator](#calculator) \n- [Calendar](#calendar) \n- [Color](#color) \n- [Clock](#clock) \n- [Clone](#clone) \n- [Communication](#communication) \n"
+            }
+          ],
+          "sourceHash": "2a6291cdf3b928a6a7c5cb5109e53e21429cbb5670b16501c4bd1442f7411686",
+          "sourceUrl": "https://github.com/dkhamsing/open-source-ios-apps/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "2a6291cdf3b928a6a7c5cb5109e53e21429cbb5670b16501c4bd1442f7411686",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "dockur/windows": {
+      "sourceHash": "e8dfa66f59cef214a23a352450bcd5472516ffff50c966bc405fde88e3a24736",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "通过 Docker 管理 Windows 虚拟机，使用 KVM 加速并支持自动下载、安装、持久化与资源配置，适合测试环境。",
+        "scenarios": [
+          "在支持虚拟化的主机上建立独立测试桌面。"
+        ],
+        "usage": "通过 Docker 管理 Windows 虚拟机，使用 KVM 加速并支持自动下载、安装、持久化与资源配置，适合测试环境。",
+        "requirements": "需要受支持 Docker/Podman 和 KVM 或嵌套虚拟化；README 至少要求 2GB 内存与 32GB 磁盘，Windows 许可另行满足。",
+        "quickStart": "1. 按 Requirements 检查主机支持，macOS 等不提供 KVM 的路线不能直接照搬。\n2. 从 Usage 复制 Compose 示例，设置版本、资源与持久化位置后启动。\n3. 按 How do I use it 连接安装界面，完成系统安装并测试重启。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "通过 Docker 管理 Windows 虚拟机，使用 KVM 加速并支持自动下载、安装、持久化与资源配置，适合测试环境。",
+          "audience": "需要 Windows 测试虚拟机的开发者",
+          "example": "在支持虚拟化的主机上建立独立测试桌面。",
+          "steps": [
+            "按 Requirements 检查主机支持，macOS 等不提供 KVM 的路线不能直接照搬。",
+            "从 Usage 复制 Compose 示例，设置版本、资源与持久化位置后启动。",
+            "按 How do I use it 连接安装界面，完成系统安装并测试重启。"
+          ],
+          "verification": "虚拟系统能启动且重启后数据仍在，资源使用在预期范围；容器封装不省略虚拟化与系统许可要求。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Windows inside a Docker container.\n\n# Windows\n\n\n\n\n\n[![Build]][build_url]\n[![Version]][tag_url]\n[![Size]][tag_url]\n[![Package]][pkg_url]\n[![Pulls]][hub_url]\n\n\n\n\nWindows inside a Docker container.\n\n## Features ✨\n\n- Runs Windows inside a Docker container\n- Automatic download and hands-free instal"
+            },
+            {
+              "field": "purpose",
+              "quote": "Windows inside a Docker container.\n\n# Windows\n\n\n\n\n\n[![Build]][build_url]\n[![Version]][tag_url]\n[![Size]][tag_url]\n[![Package]][pkg_url]\n[![Pulls]][hub_url]\n\n\n\n\nWindows inside a Docker container.\n\n## Features ✨\n\n- Runs Windows inside a Docker container\n- Automatic download and hands-free instal"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Windows inside a Docker container.\n\n# Windows\n\n\n\n\n\n[![Build]][build_url]\n[![Version]][tag_url]\n[![Size]][tag_url]\n[![Package]][pkg_url]\n[![Pulls]][hub_url]\n\n\n\n\nWindows inside a Docker container.\n\n## Features ✨\n\n- Runs Windows inside a Docker container\n- Automatic download and hands-free instal"
+            },
+            {
+              "field": "steps",
+              "quote": " backend.\n\n##### GitHub Codespaces:\n\n[](https://codespaces.new/dockur/windows)\n\n## Requirements ⚙️\n\n- Docker or Podman on a Linux host with KVM support.\n- Docker Desktop or Podman (Desktop) on Windows 11 with nested virtualization enabled.\n- At least 2 GB of available RAM.\n- At least 32 GB of free disk space.\n\n> [!NOTE]\n> Docker Desktop on Linux, macOS,"
+            },
+            {
+              "field": "verification",
+              "quote": " backend.\n\n##### GitHub Codespaces:\n\n[](https://codespaces.new/dockur/windows)\n\n## Requirements ⚙️\n\n- Docker or Podman on a Linux host with KVM support.\n- Docker Desktop or Podman (Desktop) on Windows 11 with nested virtualization enabled.\n- At least 2 GB of available RAM.\n- At least 32 GB of free disk space.\n\n> [!NOTE]\n> Docker Desktop on Linux, macOS,"
+            }
+          ],
+          "sourceHash": "e8dfa66f59cef214a23a352450bcd5472516ffff50c966bc405fde88e3a24736",
+          "sourceUrl": "https://github.com/dockur/windows/blob/master/readme.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "e8dfa66f59cef214a23a352450bcd5472516ffff50c966bc405fde88e3a24736",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "ebony-vinyl/dsh-our-free-model": {
+      "sourceHash": "e098d4c545cfd60bf3c7d8662c865fb0840c57a9eb25d466fab7b07dc22dbae2",
+      "completedAt": "2026-11-04T09:55:22.581Z",
+      "content": {
+        "summary": "为 dsh 提供模型选择、思考强度和本地兼容接口的插件，模型可用性取决于上游服务及本机网络。",
+        "scenarios": [
+          "在 dsh 中选择可用模型，并按需给本机工具提供转发。"
+        ],
+        "usage": "为 dsh 提供模型选择、思考强度和本地兼容接口的插件，模型可用性取决于上游服务及本机网络。",
+        "requirements": "需要受支持的 dsh 宿主与对应安装方式；上游宣称的免费和限额应以实际服务条件为准。",
+        "quickStart": "1. 按宿主类型选择插件管理器或本地插件安装路线，避免混用 scoped 包与本地挂载。\n2. 重启后在模型选择器选 Our Free Model 分组，发送小请求检查可用性。\n3. 需要本机调用时从设置启用本地转发，复制实际端口与生成的 Key。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "为 dsh 提供模型选择、思考强度和本地兼容接口的插件，模型可用性取决于上游服务及本机网络。",
+          "audience": "已使用 dsh 的用户",
+          "example": "在 dsh 中选择可用模型，并按需给本机工具提供转发。",
+          "steps": [
+            "按宿主类型选择插件管理器或本地插件安装路线，避免混用 scoped 包与本地挂载。",
+            "重启后在模型选择器选 Our Free Model 分组，发送小请求检查可用性。",
+            "需要本机调用时从设置启用本地转发，复制实际端口与生成的 Key。"
+          ],
+          "verification": "选定模型能回答且本地接口地址与设置一致；不保证宣传中的模型与无限额度持续可用。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.\n\n# dsh-our-free-model\n\n**简体中文** | [English](README_EN.md)\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  Trendshift JavaScript 周榜第 1 · 2026-10-05 至 2026-10-"
+            },
+            {
+              "field": "purpose",
+              "quote": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.\n\n# dsh-our-free-model\n\n**简体中文** | [English](README_EN.md)\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  Trendshift JavaScript 周榜第 1 · 2026-10-05 至 2026-10-"
+            },
+            {
+              "field": "scenarios",
+              "quote": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.\n\n# dsh-our-free-model\n\n**简体中文** | [English](README_EN.md)\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  Trendshift JavaScript 周榜第 1 · 2026-10-05 至 2026-10-"
+            },
+            {
+              "field": "steps",
+              "quote": "odel__aarch64.dmg\n```\n\n**安装后提示「已损坏」或打不开？**\n\n社区构建没有 Apple Developer 账号签名与公证，Gat\n\n## 使用说明\n\n**选择模型**：打开输入框的模型选择器，选择 Our Free Model 分组下的任意模型。选择结果按会话持久化。\n\n**调整思考强度**：同一菜单中的 Effort。声明了思考档位的模型给出它自己的档位（如 Off / Low /\nHigh / Max），选中值按原值下发；其余模型给 Light / Balanced / Deep 三档，档位越高思考占用的\n输出预算越多，上限为强制下发，因此档位之间存在可测量的差异。思考与可见回答共享同一输出额度，\n因此思考不可关闭的模型会将三档整体上移（设置 → Our"
+            },
+            {
+              "field": "verification",
+              "quote": "odel__aarch64.dmg\n```\n\n**安装后提示「已损坏」或打不开？**\n\n社区构建没有 Apple Developer 账号签名与公证，Gat\n\n## 使用说明\n\n**选择模型**：打开输入框的模型选择器，选择 Our Free Model 分组下的任意模型。选择结果按会话持久化。\n\n**调整思考强度**：同一菜单中的 Effort。声明了思考档位的模型给出它自己的档位（如 Off / Low /\nHigh / Max），选中值按原值下发；其余模型给 Light / Balanced / Deep 三档，档位越高思考占用的\n输出预算越多，上限为强制下发，因此档位之间存在可测量的差异。思考与可见回答共享同一输出额度，\n因此思考不可关闭的模型会将三档整体上移（设置 → Our"
+            }
+          ],
+          "sourceHash": "e098d4c545cfd60bf3c7d8662c865fb0840c57a9eb25d466fab7b07dc22dbae2",
+          "sourceUrl": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "e098d4c545cfd60bf3c7d8662c865fb0840c57a9eb25d466fab7b07dc22dbae2",
+            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     }
   },
   "pending": {
@@ -2247,16 +3447,6 @@
       "lastAttemptAt": "2026-10-25T06:04:34.666Z",
       "nextAttemptAt": "2026-10-25T07:04:34.666Z"
     },
-    "christitustech/winutil": {
-      "id": "christitustech/winutil",
-      "sourceHash": "333064589886f189ece4b1500f2741a7b08279f219f8755d9d088ddaee310d84",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/ChrisTitusTech/winutil/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-23T06:01:15.471Z"
-    },
     "rust-lang/rustlings": {
       "id": "rust-lang/rustlings",
       "sourceHash": "b8be9c50fb6c31e21b6499fb4e5cdd784d5f039486eb1ff0de49b4ea1945b2b1",
@@ -2305,17 +3495,6 @@
       "attempts": 1,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/tldr-pages/tldr/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-26T06:09:17.010Z",
-      "nextAttemptAt": "2026-10-26T07:09:17.010Z"
-    },
-    "commaai/openpilot": {
-      "id": "commaai/openpilot",
-      "sourceHash": "37702c7bb5949523cca76685afbaced5fb95723b0a12a7324106cf9298ca10df",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/commaai/openpilot/blob/master/README.md",
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-26T06:09:17.010Z",
       "nextAttemptAt": "2026-10-26T07:09:17.010Z"
@@ -2405,17 +3584,6 @@
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-27T06:14:54.471Z",
       "nextAttemptAt": "2026-10-27T07:14:54.471Z"
-    },
-    "coollabsio/coolify": {
-      "id": "coollabsio/coolify",
-      "sourceHash": "13f95cb7ec0e2a792e55ad2b7c484a2ce7584adb1615e3a41025c7ff79a01d1e",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/coollabsio/coolify/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-26T06:09:17.010Z",
-      "nextAttemptAt": "2026-10-26T07:09:17.010Z"
     },
     "rvc-boss/gpt-sovits": {
       "id": "rvc-boss/gpt-sovits",
@@ -2667,15 +3835,6 @@
       "readmeUrl": "https://github.com/spring-projects/spring-framework/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "corentinj/real-time-voice-cloning": {
-      "id": "corentinj/real-time-voice-cloning",
-      "sourceHash": "4e0d8b23989180f812b3fd28927d6f06ec99aed6d66b57a454530d3446fa52e7",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/CorentinJ/Real-Time-Voice-Cloning/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "raphire/win11debloat": {
       "id": "raphire/win11debloat",
       "sourceHash": "68667dfceafb71caf63e15cd599b10296420c242fb4eba938ae5a4339265b8a9",
@@ -2701,15 +3860,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/jquery/jquery/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "crewaiinc/crewai": {
-      "id": "crewaiinc/crewai",
-      "sourceHash": "f8bee760b136f2e134ab1112da0e36200f50623e9b9da4e39d57a99ffc230ff8",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/crewAIInc/crewAI/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "tiimgreen/github-cheat-sheet": {
@@ -2892,15 +4042,6 @@
       "readmeUrl": "https://github.com/zylon-ai/private-gpt/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "deepfakes/faceswap": {
-      "id": "deepfakes/faceswap",
-      "sourceHash": "6c22e78d8424358ec4ab83d24ad101bd17ee4deea49645512594e1b8925be7ca",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/deepfakes/faceswap/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "textualize/rich": {
       "id": "textualize/rich",
       "sourceHash": "68f454af26cac667205e509d5744c2416d0d1407ad6432b963937a238375f1da",
@@ -2908,15 +4049,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/Textualize/rich/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "chen08209/flclash": {
-      "id": "chen08209/flclash",
-      "sourceHash": "a88b0ccacd3c47de1893b107be02671cf290a5c65896c994518985a484731eec",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/chen08209/FlClash/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "zie619/n8n-workflows": {
@@ -3043,15 +4175,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/freqtrade/freqtrade/blob/develop/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "coreyhaines31/marketingskills": {
-      "id": "coreyhaines31/marketingskills",
-      "sourceHash": "31d5174510fe7198460a94de30e689eb12488339f230076011a8fe1aa0a93be6",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/coreyhaines31/marketingskills/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "hkuds/cli-anything": {
@@ -3207,24 +4330,6 @@
       "readmeUrl": "https://github.com/ElemeFE/element/blob/dev/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "chromedevtools/chrome-devtools-mcp": {
-      "id": "chromedevtools/chrome-devtools-mcp",
-      "sourceHash": "d7596858a10a784f05795fa814045d498b324d6afa45c887d1a7936cf7cd828e",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "chinese-poetry/chinese-poetry": {
-      "id": "chinese-poetry/chinese-poetry",
-      "sourceHash": "bc35ad259c2984b07582014d2072926005c79b583ccd532b485b03be25425076",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/chinese-poetry/chinese-poetry/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "vsouza/awesome-ios": {
       "id": "vsouza/awesome-ios",
       "sourceHash": "885efe0049816c5ec9e5d37171f3f1cc372093b922761c21ad7ecd3d827510ac",
@@ -3232,15 +4337,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/vsouza/awesome-ios/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "dockur/windows": {
-      "id": "dockur/windows",
-      "sourceHash": "f220baccaedee132f0a0361a66fc765912141df1111fd128dbc24241b6cd10ce",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/dockur/windows/blob/master/readme.md",
       "reason": "awaiting-chinese-guide"
     },
     "lllyasviel/fooocus": {
@@ -3333,15 +4429,6 @@
       "readmeUrl": "https://github.com/poteto/hiring-without-whiteboards/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "cherryhq/cherry-studio": {
-      "id": "cherryhq/cherry-studio",
-      "sourceHash": "489721f66786ef5e6952c1cb24b1b0dcf805c21727e09d513211db570c8b4f53",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/CherryHQ/cherry-studio/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "ionic-team/ionic-framework": {
       "id": "ionic-team/ionic-framework",
       "sourceHash": "3abc73f3580bfa2ee0462df8ca795e885a08716d34d30b80567c050de0e95f42",
@@ -3349,15 +4436,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/ionic-team/ionic-framework/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "dkhamsing/open-source-ios-apps": {
-      "id": "dkhamsing/open-source-ios-apps",
-      "sourceHash": "2a6291cdf3b928a6a7c5cb5109e53e21429cbb5670b16501c4bd1442f7411686",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/dkhamsing/open-source-ios-apps/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "run-llama/llama_index": {
@@ -3396,15 +4474,6 @@
       "readmeUrl": "https://github.com/xai-org/grok-1/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "dbeaver/dbeaver": {
-      "id": "dbeaver/dbeaver",
-      "sourceHash": "d7a4c5179ee95e74b63f5e4443ced5a808a9599b76e2046e5fd6c7f4bacaaec3",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/dbeaver/dbeaver/blob/devel/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "vectorize-io/hindsight": {
       "id": "vectorize-io/hindsight",
       "sourceHash": "c70127c0af07189e83ee18041b0dd44cfd352c00460aa270546ae327c299638f",
@@ -3432,15 +4501,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/jekyll/jekyll/blob/master/README.markdown",
-      "reason": "awaiting-chinese-guide"
-    },
-    "definitelytyped/definitelytyped": {
-      "id": "definitelytyped/definitelytyped",
-      "sourceHash": "927a942a97eb8a919a9449f3c457cc2e24f28c712b414ed6725666a099991a6c",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "ethereum/go-ethereum": {
@@ -3488,15 +4548,6 @@
       "readmeUrl": "https://github.com/skylot/jadx/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "cypress-io/cypress": {
-      "id": "cypress-io/cypress",
-      "sourceHash": "d39db428653c4a8cda1a30c9479f3bd48ed05dc740ea5df69c6bb0adbebd2e92",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/cypress-io/cypress/blob/develop/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "tldraw/tldraw": {
       "id": "tldraw/tldraw",
       "sourceHash": "c44b4c34c6a59c006743b0f27008192a42acf4a3adc4c9838956c9a1db5932ba",
@@ -3524,15 +4575,6 @@
       "readmeUrl": "https://github.com/serhii-londar/open-source-mac-os-apps/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "chenglou/pretext": {
-      "id": "chenglou/pretext",
-      "sourceHash": "1bdac78a17eb43ace0a3565ed6c663a1190a2d1ff28a5e5b089d7135461c4b53",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/chenglou/pretext/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "upscayl/upscayl": {
       "id": "upscayl/upscayl",
       "sourceHash": "a898347a68b269aa8228bd838873ba2a1b7a53ff695dd771262992ac6cd5c1eb",
@@ -3558,15 +4600,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/moeru-ai/airi/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "clickhouse/clickhouse": {
-      "id": "clickhouse/clickhouse",
-      "sourceHash": "1b8b7f7239bc5fbf99ab0eea2a5c57f328bbd8b197c1bce6ce2a5d427c5a2f73",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/ClickHouse/ClickHouse/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "tanstack/query": {
@@ -3669,17 +4702,6 @@
       "readmeUrl": "https://github.com/huginn/huginn/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "davidhdev/react-bits": {
-      "id": "davidhdev/react-bits",
-      "sourceHash": "aa6b1a641550f004c14cf8933d468ab0c17ea919bc3ffd056f6da14dd2457f4b",
-      "firstSeenAt": "2026-10-27T06:14:54.471Z",
-      "attempts": 3,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/DavidHDev/react-bits/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-02T07:38:53.715Z",
-      "nextAttemptAt": "2026-11-02T08:38:53.715Z"
-    },
     "emilkowalski/skills": {
       "id": "emilkowalski/skills",
       "sourceHash": "6b5d9f6ace7e6a1b3b2e2706adc289fe165cdb44563967f7792c4b437cdc827e",
@@ -3719,17 +4741,6 @@
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/hashicorp/terraform/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
-    },
-    "ebony-vinyl/dsh-our-free-model": {
-      "id": "ebony-vinyl/dsh-our-free-model",
-      "sourceHash": "f9fb5cfd4e29229e1b7cfb3d930406e0fbe71f6a99d81b90429a90210f9d585f",
-      "firstSeenAt": "2026-10-30T07:04:28.194Z",
-      "attempts": 4,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-03T07:54:18.929Z",
-      "nextAttemptAt": "2026-11-03T08:54:18.929Z"
     },
     "hkuds/deeptutor": {
       "id": "hkuds/deeptutor",

@@ -164,6 +164,113 @@
           "editionCopies": 3
         }
       ]
+    },
+    {
+      "batch": "backlog-003",
+      "reviewedAt": "2026-11-04T09:55:22.581Z",
+      "method": "source-reading-and-structure-check",
+      "projects": [
+        {
+          "id": "chen08209/flclash",
+          "sourceHash": "a88b0ccacd3c47de1893b107be02671cf290a5c65896c994518985a484731eec",
+          "editionCopies": 3
+        },
+        {
+          "id": "chenglou/pretext",
+          "sourceHash": "1bdac78a17eb43ace0a3565ed6c663a1190a2d1ff28a5e5b089d7135461c4b53",
+          "editionCopies": 3
+        },
+        {
+          "id": "cherryhq/cherry-studio",
+          "sourceHash": "ca61e2f9a2a799b76d1357c72f859e9d0fb5f0cd6960f341c45c59bcccd65785",
+          "editionCopies": 3
+        },
+        {
+          "id": "chinese-poetry/chinese-poetry",
+          "sourceHash": "ab8b6a241e84446fb584d54c4a733ad22157f51bda258923aea781ab5c51eb63",
+          "editionCopies": 3
+        },
+        {
+          "id": "christitustech/winutil",
+          "sourceHash": "333064589886f189ece4b1500f2741a7b08279f219f8755d9d088ddaee310d84",
+          "editionCopies": 3
+        },
+        {
+          "id": "chromedevtools/chrome-devtools-mcp",
+          "sourceHash": "550458a418fce51ba4b7ac03bd44a1aba23264a2578171a5baeb4162b280fe5e",
+          "editionCopies": 3
+        },
+        {
+          "id": "clickhouse/clickhouse",
+          "sourceHash": "8bcf37bcfd8b7454cf0b0ea1395b409f4619d7a7fe5d89877d544f20613bd84f",
+          "editionCopies": 3
+        },
+        {
+          "id": "commaai/openpilot",
+          "sourceHash": "1f41ab5d1d3b1ace4208b9278f462a8cb82b31201a87b971ce82436705cc15c3",
+          "editionCopies": 3
+        },
+        {
+          "id": "coollabsio/coolify",
+          "sourceHash": "f4fe7a0a8011027b318fbeea575f418b51a613124893b31239a3b3c18d37d868",
+          "editionCopies": 3
+        },
+        {
+          "id": "corentinj/real-time-voice-cloning",
+          "sourceHash": "4e0d8b23989180f812b3fd28927d6f06ec99aed6d66b57a454530d3446fa52e7",
+          "editionCopies": 3
+        },
+        {
+          "id": "coreyhaines31/marketingskills",
+          "sourceHash": "8507324e033833aee1cae6c282c76f96d163dbf6714b985b85e4e6c16a1106a4",
+          "editionCopies": 3
+        },
+        {
+          "id": "crewaiinc/crewai",
+          "sourceHash": "11bf85d28d144b235ff83d239b54202306715a1dde5180f5e538b3403d331116",
+          "editionCopies": 3
+        },
+        {
+          "id": "cypress-io/cypress",
+          "sourceHash": "90ded36d19546aa9676699b90a845b20df12460428733a42f0cb201a43a7acf0",
+          "editionCopies": 3
+        },
+        {
+          "id": "davidhdev/react-bits",
+          "sourceHash": "cb1545f3c8d2301bf4c53f9e5e6b640ed64054b06c09c6a74bfbcd702186c6f9",
+          "editionCopies": 1
+        },
+        {
+          "id": "dbeaver/dbeaver",
+          "sourceHash": "d7a4c5179ee95e74b63f5e4443ced5a808a9599b76e2046e5fd6c7f4bacaaec3",
+          "editionCopies": 3
+        },
+        {
+          "id": "deepfakes/faceswap",
+          "sourceHash": "dbf3b3e6066678388874a598d2d8df0ff7f373721d0988e078baf3170417c7be",
+          "editionCopies": 3
+        },
+        {
+          "id": "definitelytyped/definitelytyped",
+          "sourceHash": "0001d318380287577d4d7dcc288a45d26fe5f8dfd49e7bcc58adaeb999970e03",
+          "editionCopies": 3
+        },
+        {
+          "id": "dkhamsing/open-source-ios-apps",
+          "sourceHash": "2a6291cdf3b928a6a7c5cb5109e53e21429cbb5670b16501c4bd1442f7411686",
+          "editionCopies": 3
+        },
+        {
+          "id": "dockur/windows",
+          "sourceHash": "e8dfa66f59cef214a23a352450bcd5472516ffff50c966bc405fde88e3a24736",
+          "editionCopies": 3
+        },
+        {
+          "id": "ebony-vinyl/dsh-our-free-model",
+          "sourceHash": "e098d4c545cfd60bf3c7d8662c865fb0840c57a9eb25d466fab7b07dc22dbae2",
+          "editionCopies": 1
+        }
+      ]
     }
   ]
 }
