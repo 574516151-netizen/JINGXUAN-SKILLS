@@ -719,6 +719,133 @@
           "editionCopies": 3
         }
       ]
+    },
+    {
+      "batch": "backlog-008",
+      "reviewedAt": "2026-11-04T10:20:03.460Z",
+      "method": "source-reading-and-structure-check",
+      "projects": [
+        {
+          "id": "pocketbase/pocketbase",
+          "sourceHash": "8ed6196f2f1a12e2caeca5c9534772e456451de72ef832da5ea2106f0b6cf69a",
+          "editionCopies": 2
+        },
+        {
+          "id": "poteto/hiring-without-whiteboards",
+          "sourceHash": "c7430086e237d6e9a938000f5c07044ed037d7ab5e2738f4b157b03320bf069e",
+          "editionCopies": 3
+        },
+        {
+          "id": "powershell/powershell",
+          "sourceHash": "11e853a607f749509d5fbc0838791a6ca814c953de0171157cd978ffe5d33b9c",
+          "editionCopies": 3
+        },
+        {
+          "id": "prettier/prettier",
+          "sourceHash": "327eb2668af3407dd7da40eb8bc90bd1a9309ce7384169490fa9ab77aa029e94",
+          "editionCopies": 3
+        },
+        {
+          "id": "prometheus/prometheus",
+          "sourceHash": "19546733e6017ec45a5cfa8c365efa755791bb22846e3916b463045ebad7796f",
+          "editionCopies": 4
+        },
+        {
+          "id": "psf/requests",
+          "sourceHash": "6964e6ef8610654cef2a32c65b5b1d18fbdd13f87f4efcd06a38e13d51a912c1",
+          "editionCopies": 3
+        },
+        {
+          "id": "quantumnous/new-api",
+          "sourceHash": "68817a0df025268425b9a05f4cb4aefac32cd5780b0d78860dc5636eb41ed083",
+          "editionCopies": 3
+        },
+        {
+          "id": "rails/rails",
+          "sourceHash": "49a7beaac6f7f5a6f326c5b6496bf357911b1c02f1de9d19983ff56e6e2fdeee",
+          "editionCopies": 3
+        },
+        {
+          "id": "raphire/win11debloat",
+          "sourceHash": "68667dfceafb71caf63e15cd599b10296420c242fb4eba938ae5a4339265b8a9",
+          "editionCopies": 3
+        },
+        {
+          "id": "rclone/rclone",
+          "sourceHash": "ccfdad9c532c0b8256dc8ed75de631663a5714432899228e3b9a7459990fe85a",
+          "editionCopies": 3
+        },
+        {
+          "id": "reduxjs/redux",
+          "sourceHash": "a5722872a759a9f98f1f3e41039c4f9edfd850478bd97f793bf5df66a6832694",
+          "editionCopies": 3
+        },
+        {
+          "id": "remix-run/react-router",
+          "sourceHash": "84108c605c3d5430cf5eaaf55dc04543b228c68eb339507f9085c5edb0bbee48",
+          "editionCopies": 3
+        },
+        {
+          "id": "remotion-dev/remotion",
+          "sourceHash": "4eae2cef20c94b0dbd24829529150d46884976f801fea59881d6d1a9e44ce7d6",
+          "editionCopies": 3
+        },
+        {
+          "id": "resume/resume.github.com",
+          "sourceHash": "a774036b7b544e3c73f7743e04d8ced976826d9fd747b7cb2127b3fc2dc70278",
+          "editionCopies": 3
+        },
+        {
+          "id": "roboflow/supervision",
+          "sourceHash": "d6fea53f96dd8e430582d2ea42f555fbade1a1a82893673025c935dd96b07b26",
+          "editionCopies": 3
+        },
+        {
+          "id": "romkatv/powerlevel10k",
+          "sourceHash": "9290c893f4441855a7a489aa9cac59ee5dfa8e20bd2994f8948c250c4d0be6a9",
+          "editionCopies": 3
+        },
+        {
+          "id": "router-for-me/cliproxyapi",
+          "sourceHash": "f9343b69a90375095c6d468ab7aafd3305d23eab4041a8155b19dbdd936ff22d",
+          "editionCopies": 3
+        },
+        {
+          "id": "run-llama/llama_index",
+          "sourceHash": "4a026ae76a9bd7d8219ee83e3cbf7e983d59f119bc2dd7505661a3dc67ab656e",
+          "editionCopies": 3
+        },
+        {
+          "id": "rust-lang/rustlings",
+          "sourceHash": "b8be9c50fb6c31e21b6499fb4e5cdd784d5f039486eb1ff0de49b4ea1945b2b1",
+          "editionCopies": 3
+        },
+        {
+          "id": "rust-unofficial/awesome-rust",
+          "sourceHash": "bf1419d12b1531da49d36d0bb81b6f47d2d184e896e99fe44957a291172d5489",
+          "editionCopies": 3
+        },
+        {
+          "id": "rvc-boss/gpt-sovits",
+          "sourceHash": "3316e42ff25f4fdfe9b646e86b20290999aeaf9c7b183c06c9fd8fb7f4e830e8",
+          "editionCopies": 3
+        },
+        {
+          "id": "ryanoasis/nerd-fonts",
+          "sourceHash": "2901ba2f90e01e48f197e81b7e0a8b66bb4fc8c6ceea7962ac0f6f8b7d6dd0cf",
+          "editionCopies": 3
+        },
+        {
+          "id": "sansan0/trendradar",
+          "sourceHash": "35498e1c04ed27290d7254f715af871ce96282a21c86d94c18ede03ada3b23bf",
+          "editionCopies": 3
+        },
+        {
+          "id": "scrapy/scrapy",
+          "sourceHash": "1ed9ecb6210be6a9c913c77eb7c37371010719e0ece793af1088c632de03a1f5",
+          "editionCopies": 3
+        }
+      ]
     }
   ]
 }

@@ -2,64 +2,62 @@
   "schemaVersion": 1,
   "guides": {
     "prometheus/prometheus": {
-      "sourceHash": "1629239fb7ee3cb5b69911368296f1d92b1e518037f0d272ccdb2eef7b30525d",
-      "completedAt": "2026-10-20T05:59:29.609Z",
+      "sourceHash": "19546733e6017ec45a5cfa8c365efa755791bb22846e3916b463045ebad7796f",
+      "completedAt": "2026-11-04T10:20:03.460Z",
       "content": {
-        "summary": "Prometheus 是一个云原生监控与时间序列数据库项目，可定时采集目标指标、评估规则、展示结果，并在满足条件时触发告警。",
+        "summary": "用于采集指标、存储时间序列和查询监控数据的系统，可作为服务监测基础，并与相关客户端库和告警工具协作。",
         "scenarios": [
-          "运维人员通过 HTTP 拉取模式定时采集已配置目标的指标，并使用 PromQL 查询多维时间序列数据。",
-          "监控系统发现特定状态后评估规则表达式，并在观察到处方条件时触发告警。",
-          "团队通过服务发现或静态配置管理监控目标，并使用图形和仪表板支持查看分析结果。",
-          "批处理作业经由中间网关推送时间序列数据，以补充常规采集方式。"
+          "采集一个测试服务的指标并查询变化。"
         ],
-        "usage": "用于监控系统和服务，按间隔采集指标、计算规则表达式、呈现监控结果以及触发告警。",
-        "requirements": "需要可用的 Docker 环境并能够获取 `prom/prometheus` 镜像；其他安装条件和环境要求以原文为准。",
-        "quickStart": "1. 使用 `docker run --name prometheus -d -p 127.0.0.1:9090:9090 prom/prometheus` 启动 Prometheus 容器。\n2. 按照原文说明检查容器启动后的 Prometheus 是否已经可以访问。",
+        "usage": "用于采集指标、存储时间序列和查询监控数据的系统，可作为服务监测基础，并与相关客户端库和告警工具协作。",
+        "requirements": "准备对应运行环境和指标端点，存储、网络和保留时长按部署指南配置。",
+        "quickStart": "1. 从 prometheus.io 的入门文档启动发行包或官方镜像。\n2. 配置测试抓取目标，查看目标状态并执行一个指标查询。",
         "guide": {
           "version": 2,
           "language": "zh-CN",
           "kind": "自部署服务",
-          "purpose": "用于监控系统和服务，按间隔采集指标、计算规则表达式、呈现监控结果以及触发告警。",
-          "audience": "云原生系统运维人员、监控平台开发者和可靠性工程师",
-          "example": "运维人员通过 HTTP 拉取模式定时采集已配置目标的指标，并使用 PromQL 查询多维时间序列数据。",
+          "purpose": "用于采集指标、存储时间序列和查询监控数据的系统，可作为服务监测基础，并与相关客户端库和告警工具协作。",
+          "audience": "维护服务可观测性的工程师",
+          "example": "采集一个测试服务的指标并查询变化。",
           "steps": [
-            "使用 `docker run --name prometheus -d -p 127.0.0.1:9090:9090 prom/prometheus` 启动 Prometheus 容器。",
-            "按照原文说明检查容器启动后的 Prometheus 是否已经可以访问。"
+            "从 prometheus.io 的入门文档启动发行包或官方镜像。",
+            "配置测试抓取目标，查看目标状态并执行一个指标查询。"
           ],
-          "verification": "建议对照原文的容器启动说明检查结果，确认 Prometheus 容器启动后已处于可访问状态；原文未提供验收脚本。",
+          "verification": "抓取成功且时间序列持续更新，时间范围正确；监控可用不等于告警已配置。",
           "evidence": [
             {
               "field": "summary",
-              "quote": "The Prometheus monitoring system and time series database."
+              "quote": "The Prometheus monitoring system and time series database.\n\n# \n    Prometheus\n\n\n\nVisit prometheus.io for the full documentation,\nexamples and guides.\n\n\n\n[](https://github.com/prometheus/prometheus/actions/workflows/ci.yml)\n[][quay]\n[][hub]\n[](https://bestpractices.coreinfrastructure.org/projects/486)\n[](https://githu"
             },
             {
               "field": "purpose",
-              "quote": "It collects metrics\nfrom configured targets at given intervals, evaluates rule expressions,\ndisplays the results, and can trigger alerts when specified conditions are observed."
+              "quote": "The Prometheus monitoring system and time series database.\n\n# \n    Prometheus\n\n\n\nVisit prometheus.io for the full documentation,\nexamples and guides.\n\n\n\n[](https://github.com/prometheus/prometheus/actions/workflows/ci.yml)\n[][quay]\n[][hub]\n[](https://bestpractices.coreinfrastructure.org/projects/486)\n[](https://githu"
             },
             {
               "field": "scenarios",
-              "quote": "An HTTP **pull model** for time series collection"
+              "quote": "The Prometheus monitoring system and time series database.\n\n# \n    Prometheus\n\n\n\nVisit prometheus.io for the full documentation,\nexamples and guides.\n\n\n\n[](https://github.com/prometheus/prometheus/actions/workflows/ci.yml)\n[][quay]\n[][hub]\n[](https://bestpractices.coreinfrastructure.org/projects/486)\n[](https://githu"
             },
             {
               "field": "steps",
-              "quote": "docker run --name prometheus -d -p 127.0.0.1:9090:9090 prom/prometheus"
+              "quote": "metheus monitoring system and time series database.\n\n# \n    Prometheus\n\n\n\nVisit prometheus.io for the full documentation,\nexamples and guides.\n\n\n\n[](https://github.com/prometheus/prometheus/actions/workflows/ci.yml)\n[][quay]\n[][hub]\n[](https://bestpractices.coreinfrastructure.org/projects/486)\n[](https://github.com/prometheus/prometheus/actions/workfl"
             },
             {
               "field": "verification",
-              "quote": "Prometheus will now be reachable at ."
+              "quote": "metheus monitoring system and time series database.\n\n# \n    Prometheus\n\n\n\nVisit prometheus.io for the full documentation,\nexamples and guides.\n\n\n\n[](https://github.com/prometheus/prometheus/actions/workflows/ci.yml)\n[][quay]\n[][hub]\n[](https://bestpractices.coreinfrastructure.org/projects/486)\n[](https://github.com/prometheus/prometheus/actions/workfl"
             }
           ],
-          "sourceHash": "1629239fb7ee3cb5b69911368296f1d92b1e518037f0d272ccdb2eef7b30525d",
+          "sourceHash": "19546733e6017ec45a5cfa8c365efa755791bb22846e3916b463045ebad7796f",
           "sourceUrl": "https://github.com/prometheus/prometheus/blob/main/README.md",
-          "basis": "依据官方简介和 README 自动整理，并检查中文完整性及原文依据；场景示例不代表实际运行测试。",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
           "curated": true,
           "review": {
             "approved": true,
-            "sourceHash": "1629239fb7ee3cb5b69911368296f1d92b1e518037f0d272ccdb2eef7b30525d",
-            "checkedAt": "2026-10-20T05:59:29.609Z"
+            "sourceHash": "19546733e6017ec45a5cfa8c365efa755791bb22846e3916b463045ebad7796f",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
           }
         },
-        "editorialStatus": "中文导读 · 原文依据已检查"
+        "editorialStatus": "中文导读 · 官方原文已核对"
       }
     },
     "eternity4719/howtolivebetter": {
@@ -8208,6 +8206,1363 @@
         },
         "editorialStatus": "中文导读 · 官方原文已核对"
       }
+    },
+    "pocketbase/pocketbase": {
+      "sourceHash": "8ed6196f2f1a12e2caeca5c9534772e456451de72ef832da5ea2106f0b6cf69a",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "把 SQLite、实时订阅、文件与用户管理封装在一起的 Go 后端，带管理面板与 API；README 已提示源码迁移到新站点。",
+        "scenarios": [
+          "建立一个数据集合并从页面读取。"
+        ],
+        "usage": "把 SQLite、实时订阅、文件与用户管理封装在一起的 Go 后端，带管理面板与 API；README 已提示源码迁移到新站点。",
+        "requirements": "安装与当前官方来源匹配的版本，生产适用性和数据库升级要求按文档确认。",
+        "quickStart": "1. 先通过 README 的迁移提示和 pocketbase.io 确认当前下载与文档。\n2. 启动测试后端，在管理面板创建集合并设置访问规则，发起最小 API 请求。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "把 SQLite、实时订阅、文件与用户管理封装在一起的 Go 后端，带管理面板与 API；README 已提示源码迁移到新站点。",
+          "audience": "制作小型应用原型的开发者",
+          "example": "建立一个数据集合并从页面读取。",
+          "steps": [
+            "先通过 README 的迁移提示和 pocketbase.io 确认当前下载与文档。",
+            "启动测试后端，在管理面板创建集合并设置访问规则，发起最小 API 请求。"
+          ],
+          "verification": "规则限制有效、数据可读写且重启保留；迁移源码入口不代表已有安装自动升级。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Open Source realtime backend in 1 file\n\n**⚠️ The repo has moved to https://ganigeorgiev.com/pocketbase/pocketbase.**\n\n---\n\n\n    \n        \n    \n\n\n\n    \n    \n    \n\n\n[PocketBase](https://pocketbase.io) is an open source Go backend that includes:\n\n- embedded database (_SQLite_) with **realtime subscri"
+            },
+            {
+              "field": "purpose",
+              "quote": "Open Source realtime backend in 1 file\n\n**⚠️ The repo has moved to https://ganigeorgiev.com/pocketbase/pocketbase.**\n\n---\n\n\n    \n        \n    \n\n\n\n    \n    \n    \n\n\n[PocketBase](https://pocketbase.io) is an open source Go backend that includes:\n\n- embedded database (_SQLite_) with **realtime subscri"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Open Source realtime backend in 1 file\n\n**⚠️ The repo has moved to https://ganigeorgiev.com/pocketbase/pocketbase.**\n\n---\n\n\n    \n        \n    \n\n\n\n    \n    \n    \n\n\n[PocketBase](https://pocketbase.io) is an open source Go backend that includes:\n\n- embedded database (_SQLite_) with **realtime subscri"
+            },
+            {
+              "field": "steps",
+              "quote": "altime subscriptions**\n- built-in **files and users management**\n- convenient **Admin dashboard UI**\n- and simple **REST-ish API**\n\n**For documentation and examples, please visit https://pocketbase.io/docs.**\n\n> [!WARNING]\n> Please keep in mind that PocketBase is still under active development\n> and therefore full backward compatibility is not guaranteed b"
+            },
+            {
+              "field": "verification",
+              "quote": "altime subscriptions**\n- built-in **files and users management**\n- convenient **Admin dashboard UI**\n- and simple **REST-ish API**\n\n**For documentation and examples, please visit https://pocketbase.io/docs.**\n\n> [!WARNING]\n> Please keep in mind that PocketBase is still under active development\n> and therefore full backward compatibility is not guaranteed b"
+            }
+          ],
+          "sourceHash": "8ed6196f2f1a12e2caeca5c9534772e456451de72ef832da5ea2106f0b6cf69a",
+          "sourceUrl": "https://github.com/pocketbase/pocketbase/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "8ed6196f2f1a12e2caeca5c9534772e456451de72ef832da5ea2106f0b6cf69a",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "poteto/hiring-without-whiteboards": {
+      "sourceHash": "c7430086e237d6e9a938000f5c07044ed037d7ab5e2738f4b157b03320bf069e",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "收集较侧重实际工程任务而非白板算法问答的公司和团队，列出地区与面试形式，适合筛选求职方向。",
+        "scenarios": [
+          "查找采用作业或结对编程的目标公司。"
+        ],
+        "usage": "收集较侧重实际工程任务而非白板算法问答的公司和团队，列出地区与面试形式，适合筛选求职方向。",
+        "requirements": "浏览器即可阅读；职位与招聘流程会变化，申请前需向公司核实。",
+        "quickStart": "1. 按地区与面试形式浏览列表，进入公司的招聘入口。\n2. 确认当前岗位和实际面试安排，再按相关工作场景准备。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "资源目录",
+          "purpose": "收集较侧重实际工程任务而非白板算法问答的公司和团队，列出地区与面试形式，适合筛选求职方向。",
+          "audience": "偏好实践型面试的求职者",
+          "example": "查找采用作业或结对编程的目标公司。",
+          "steps": [
+            "按地区与面试形式浏览列表，进入公司的招聘入口。",
+            "确认当前岗位和实际面试安排，再按相关工作场景准备。"
+          ],
+          "verification": "目标公司与当前职位相符，面试形式已核实；列表不是录取承诺。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "⭐️  Companies that don't have a broken hiring process\n\n# Hiring Without Whiteboards\n\nA list of companies (or teams) that don't do \"whiteboard\" interviews. \"Whiteboards\" are used as a metaphor, and are a _symbol_ for the kinds of CS trivia questions that are associated with bad interview practices. Whiteboards ar"
+            },
+            {
+              "field": "purpose",
+              "quote": "⭐️  Companies that don't have a broken hiring process\n\n# Hiring Without Whiteboards\n\nA list of companies (or teams) that don't do \"whiteboard\" interviews. \"Whiteboards\" are used as a metaphor, and are a _symbol_ for the kinds of CS trivia questions that are associated with bad interview practices. Whiteboards ar"
+            },
+            {
+              "field": "scenarios",
+              "quote": "⭐️  Companies that don't have a broken hiring process\n\n# Hiring Without Whiteboards\n\nA list of companies (or teams) that don't do \"whiteboard\" interviews. \"Whiteboards\" are used as a metaphor, and are a _symbol_ for the kinds of CS trivia questions that are associated with bad interview practices. Whiteboards ar"
+            },
+            {
+              "field": "steps",
+              "quote": "en work with the team for a day\n- [Adthena](https://adthena.com) | London, UK | Takehome project and discussion on-site\n- [Adyen](https://www.adyen.com) | Amsterdam, NL | Take-home assignment, design discussion based on take home, culture fit etc. Provides visa sponsorship to the Netherlands.\n- [Affinipay](https://www.affinipay.com) | Austin, TX | Short "
+            },
+            {
+              "field": "verification",
+              "quote": "en work with the team for a day\n- [Adthena](https://adthena.com) | London, UK | Takehome project and discussion on-site\n- [Adyen](https://www.adyen.com) | Amsterdam, NL | Take-home assignment, design discussion based on take home, culture fit etc. Provides visa sponsorship to the Netherlands.\n- [Affinipay](https://www.affinipay.com) | Austin, TX | Short "
+            }
+          ],
+          "sourceHash": "c7430086e237d6e9a938000f5c07044ed037d7ab5e2738f4b157b03320bf069e",
+          "sourceUrl": "https://github.com/poteto/hiring-without-whiteboards/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "c7430086e237d6e9a938000f5c07044ed037d7ab5e2738f4b157b03320bf069e",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "powershell/powershell": {
+      "sourceHash": "11e853a607f749509d5fbc0838791a6ca814c953de0171157cd978ffe5d33b9c",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "跨 Windows、Linux 与 macOS 的命令行和自动化框架，以对象和结构化数据为核心，适合系统配置与脚本任务。",
+        "scenarios": [
+          "读取一份 JSON 或 CSV 并筛选输出。"
+        ],
+        "usage": "跨 Windows、Linux 与 macOS 的命令行和自动化框架，以对象和结构化数据为核心，适合系统配置与脚本任务。",
+        "requirements": "安装适配平台的 PowerShell；升级优先沿用原安装方式，脚本权限按实际任务配置。",
+        "quickStart": "1. 从 Get PowerShell 的官方安装文档安装对应版本。\n2. 按 getting started 运行只读的小脚本，查看结构化结果再逐步增加操作。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "跨 Windows、Linux 与 macOS 的命令行和自动化框架，以对象和结构化数据为核心，适合系统配置与脚本任务。",
+          "audience": "维护系统与自动化的开发者",
+          "example": "读取一份 JSON 或 CSV 并筛选输出。",
+          "steps": [
+            "从 Get PowerShell 的官方安装文档安装对应版本。",
+            "按 getting started 运行只读的小脚本，查看结构化结果再逐步增加操作。"
+          ],
+          "verification": "输出对象与原始数据一致，脚本错误可定位；跨平台命令可用性按模块确认。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "PowerShell for every system!\n\n# ![logo][] PowerShell\n\nWelcome to the PowerShell GitHub Community!\n[PowerShell](https://learn.microsoft.com/powershell/scripting/overview) is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your "
+            },
+            {
+              "field": "purpose",
+              "quote": "PowerShell for every system!\n\n# ![logo][] PowerShell\n\nWelcome to the PowerShell GitHub Community!\n[PowerShell](https://learn.microsoft.com/powershell/scripting/overview) is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your "
+            },
+            {
+              "field": "scenarios",
+              "quote": "PowerShell for every system!\n\n# ![logo][] PowerShell\n\nWelcome to the PowerShell GitHub Community!\n[PowerShell](https://learn.microsoft.com/powershell/scripting/overview) is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your "
+            },
+            {
+              "field": "steps",
+              "quote": "ttps://learn.microsoft.com/powershell/scripting/learn/more-powershell-learning\n\n## Get PowerShell\n\nPowerShell is supported on Windows, macOS, and a variety of Linux platforms. For\nmore information, see [Installing PowerShell](https://learn.microsoft.com/powershell/scripting/install/installing-powershell).\n\n## Upgrading PowerShell\n\nFor best results when up"
+            },
+            {
+              "field": "verification",
+              "quote": "ttps://learn.microsoft.com/powershell/scripting/learn/more-powershell-learning\n\n## Get PowerShell\n\nPowerShell is supported on Windows, macOS, and a variety of Linux platforms. For\nmore information, see [Installing PowerShell](https://learn.microsoft.com/powershell/scripting/install/installing-powershell).\n\n## Upgrading PowerShell\n\nFor best results when up"
+            }
+          ],
+          "sourceHash": "11e853a607f749509d5fbc0838791a6ca814c953de0171157cd978ffe5d33b9c",
+          "sourceUrl": "https://github.com/PowerShell/PowerShell/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "11e853a607f749509d5fbc0838791a6ca814c953de0171157cd978ffe5d33b9c",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "prettier/prettier": {
+      "sourceHash": "327eb2668af3407dd7da40eb8bc90bd1a9309ce7384169490fa9ab77aa029e94",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "通过解析并重新排版统一代码风格的格式化工具，可接编辑器、提交检查或 CI，支持多种前端与配置文件语言。",
+        "scenarios": [
+          "给项目建立一致的保存和检查规则。"
+        ],
+        "usage": "通过解析并重新排版统一代码风格的格式化工具，可接编辑器、提交检查或 CI，支持多种前端与配置文件语言。",
+        "requirements": "准备项目包管理环境，插件支持与配置选项按语言确认。",
+        "quickStart": "1. 从 Install 文档在项目中固定版本并设置格式规则。\n2. 先格式化一个测试文件检查差异，再接入编辑器或 CI 检查。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "通过解析并重新排版统一代码风格的格式化工具，可接编辑器、提交检查或 CI，支持多种前端与配置文件语言。",
+          "audience": "需要统一格式的开发团队",
+          "example": "给项目建立一致的保存和检查规则。",
+          "steps": [
+            "从 Install 文档在项目中固定版本并设置格式规则。",
+            "先格式化一个测试文件检查差异，再接入编辑器或 CI 检查。"
+          ],
+          "verification": "重复格式化无额外差异，原有测试通过；它统一格式而非验证业务正确。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Prettier is an opinionated code formatter.\n\n[](https://prettier.io)\n\n\n## Opinionated Code Formatter\n\n\n\n  \n    JavaScript\n    · TypeScript\n    · Flow\n    · JSX\n    · JSON\n  \n  \n  \n    CSS\n    · SCSS\n    · Less\n  \n  \n  \n    HTML\n    · Vue\n    · Angular\n  \n  \n  \n    GraphQL\n    · Markdown\n    · YAML\n  \n "
+            },
+            {
+              "field": "purpose",
+              "quote": "Prettier is an opinionated code formatter.\n\n[](https://prettier.io)\n\n\n## Opinionated Code Formatter\n\n\n\n  \n    JavaScript\n    · TypeScript\n    · Flow\n    · JSX\n    · JSON\n  \n  \n  \n    CSS\n    · SCSS\n    · Less\n  \n  \n  \n    HTML\n    · Vue\n    · Angular\n  \n  \n  \n    GraphQL\n    · Markdown\n    · YAML\n  \n "
+            },
+            {
+              "field": "scenarios",
+              "quote": "Prettier is an opinionated code formatter.\n\n[](https://prettier.io)\n\n\n## Opinionated Code Formatter\n\n\n\n  \n    JavaScript\n    · TypeScript\n    · Flow\n    · JSX\n    · JSON\n  \n  \n  \n    CSS\n    · SCSS\n    · Less\n  \n  \n  \n    HTML\n    · Vue\n    · Angular\n  \n  \n  \n    GraphQL\n    · Markdown\n    · YAML\n  \n "
+            },
+            {
+              "field": "steps",
+              "quote": "iew ever again!\n\n---\n\n**[Documentation](https://prettier.io/docs/)**\n\n[Install](https://prettier.io/docs/install) ·\n[Options](https://prettier.io/docs/options) ·\n[CLI](https://prettier.io/docs/cli) ·\n[API](https://prettier.io/docs/api)\n\n**[Playground](https://prettier.io/playground/)**\n\n---\n\n## Badge\n\nShow the world you're using _Prettier_ → [](https://github.com/pretti"
+            },
+            {
+              "field": "verification",
+              "quote": "iew ever again!\n\n---\n\n**[Documentation](https://prettier.io/docs/)**\n\n[Install](https://prettier.io/docs/install) ·\n[Options](https://prettier.io/docs/options) ·\n[CLI](https://prettier.io/docs/cli) ·\n[API](https://prettier.io/docs/api)\n\n**[Playground](https://prettier.io/playground/)**\n\n---\n\n## Badge\n\nShow the world you're using _Prettier_ → [](https://github.com/pretti"
+            }
+          ],
+          "sourceHash": "327eb2668af3407dd7da40eb8bc90bd1a9309ce7384169490fa9ab77aa029e94",
+          "sourceUrl": "https://github.com/prettier/prettier/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "327eb2668af3407dd7da40eb8bc90bd1a9309ce7384169490fa9ab77aa029e94",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "psf/requests": {
+      "sourceHash": "6964e6ef8610654cef2a32c65b5b1d18fbdd13f87f4efcd06a38e13d51a912c1",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "易用的 Python HTTP 客户端库，支持请求、会话、认证、TLS 验证和超时等常用网络访问能力。",
+        "scenarios": [
+          "调用一个有权访问的 HTTP 接口并读取返回数据。"
+        ],
+        "usage": "易用的 Python HTTP 客户端库，支持请求、会话、认证、TLS 验证和超时等常用网络访问能力。",
+        "requirements": "当前 README 要求 Python 3.10 以上；准备网络与所需认证配置。",
+        "quickStart": "1. 在自己的 Python 环境中按 Installing Requests 安装 requests 包。\n2. 参考请求示例访问测试接口，设置超时并检查状态码与返回体。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "易用的 Python HTTP 客户端库，支持请求、会话、认证、TLS 验证和超时等常用网络访问能力。",
+          "audience": "编写 Python 接口脚本的开发者",
+          "example": "调用一个有权访问的 HTTP 接口并读取返回数据。",
+          "steps": [
+            "在自己的 Python 环境中按 Installing Requests 安装 requests 包。",
+            "参考请求示例访问测试接口，设置超时并检查状态码与返回体。"
+          ],
+          "verification": "成功与失败状态都能处理，TLS 验证保留，认证信息未输出到公开日志。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A simple, yet elegant, HTTP library.\n\n# Requests\n\n[](https://pypi.org/project/requests/)\n[](https://pypi.org/project/requests)\n[](https://pepy.tech/project/requests)\n[](https://github.com/psf/requests/graphs/contributors)\n[](https://requests.readthedocs.io)\n\n**Requests** is a simple, yet elegant"
+            },
+            {
+              "field": "purpose",
+              "quote": "A simple, yet elegant, HTTP library.\n\n# Requests\n\n[](https://pypi.org/project/requests/)\n[](https://pypi.org/project/requests)\n[](https://pepy.tech/project/requests)\n[](https://github.com/psf/requests/graphs/contributors)\n[](https://requests.readthedocs.io)\n\n**Requests** is a simple, yet elegant"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A simple, yet elegant, HTTP library.\n\n# Requests\n\n[](https://pypi.org/project/requests/)\n[](https://pypi.org/project/requests)\n[](https://pepy.tech/project/requests)\n[](https://github.com/psf/requests/graphs/contributors)\n[](https://requests.readthedocs.io)\n\n**Requests** is a simple, yet elegant"
+            },
+            {
+              "field": "steps",
+              "quote": "ents?package_id=UGFja2FnZS01NzA4OTExNg%3D%3D) by `4,000,000+` repositories.\n\n## Installing Requests and Supported Versions\n\nRequests is available on PyPI:\n\n```console\n$ python -m pip install requests\n```\n\nRequests officially supports Python 3.10+.\n\n## Supported Features & Best–Practices\n\nRequests is ready for the demands of building robust and reliable HTTP–speaking applications,"
+            },
+            {
+              "field": "verification",
+              "quote": "ents?package_id=UGFja2FnZS01NzA4OTExNg%3D%3D) by `4,000,000+` repositories.\n\n## Installing Requests and Supported Versions\n\nRequests is available on PyPI:\n\n```console\n$ python -m pip install requests\n```\n\nRequests officially supports Python 3.10+.\n\n## Supported Features & Best–Practices\n\nRequests is ready for the demands of building robust and reliable HTTP–speaking applications,"
+            }
+          ],
+          "sourceHash": "6964e6ef8610654cef2a32c65b5b1d18fbdd13f87f4efcd06a38e13d51a912c1",
+          "sourceUrl": "https://github.com/psf/requests/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "6964e6ef8610654cef2a32c65b5b1d18fbdd13f87f4efcd06a38e13d51a912c1",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "quantumnous/new-api": {
+      "sourceHash": "68817a0df025268425b9a05f4cb4aefac32cd5780b0d78860dc5636eb41ed083",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "可自部署的 AI 网关，管理模型渠道、访问密钥、路由、用量与成本，向客户端提供兼容多家协议的接口。",
+        "scenarios": [
+          "为一个应用建立受限的模型访问 Key。"
+        ],
+        "usage": "可自部署的 AI 网关，管理模型渠道、访问密钥、路由、用量与成本，向客户端提供兼容多家协议的接口。",
+        "requirements": "需要 Docker 或官方部署环境，另需可用上游渠道与凭据；网关不赠送上游额度。",
+        "quickStart": "1. 按 Quick start 在 localhost 启动测试实例并完成管理员设置。\n2. 添加上游渠道并测试，配置模型、分组和额度，再生成客户端 Key 进行调用。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "可自部署的 AI 网关，管理模型渠道、访问密钥、路由、用量与成本，向客户端提供兼容多家协议的接口。",
+          "audience": "集中管理模型接入的开发者",
+          "example": "为一个应用建立受限的模型访问 Key。",
+          "steps": [
+            "按 Quick start 在 localhost 启动测试实例并完成管理员设置。",
+            "添加上游渠道并测试，配置模型、分组和额度，再生成客户端 Key 进行调用。"
+          ],
+          "verification": "请求走正确渠道，用量可核对，数据目录已持久化；网关 Key 与上游 Key 用途不同。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.\n\n# New API\n\n**An AI gateway for models, applications, and agents**\n\n\n  简体中文 |\n  繁體中文 |\n  English |\n  Français |\n  日本語\n\n\n\n  \n    \n  \n    \n  \n    \n  \n  \n    \n  \n\n\n\n  \n    \n  \n  \n  \n    \n  \n  \n    \n  \n\n\n\n  Screenshots •\n  Capabilities •\n  Quick start •\n  Dep"
+            },
+            {
+              "field": "purpose",
+              "quote": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.\n\n# New API\n\n**An AI gateway for models, applications, and agents**\n\n\n  简体中文 |\n  繁體中文 |\n  English |\n  Français |\n  日本語\n\n\n\n  \n    \n  \n    \n  \n    \n  \n  \n    \n  \n\n\n\n  \n    \n  \n  \n  \n    \n  \n  \n    \n  \n\n\n\n  Screenshots •\n  Capabilities •\n  Quick start •\n  Dep"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.\n\n# New API\n\n**An AI gateway for models, applications, and agents**\n\n\n  简体中文 |\n  繁體中文 |\n  English |\n  Français |\n  日本語\n\n\n\n  \n    \n  \n    \n  \n    \n  \n  \n    \n  \n\n\n\n  \n    \n  \n  \n  \n    \n  \n  \n    \n  \n\n\n\n  Screenshots •\n  Capabilities •\n  Quick start •\n  Dep"
+            },
+            {
+              "field": "steps",
+              "quote": "e `data` directory persists the SQLite database across container replacements.\n\n### Make your first request\n\n1. Add a channel with your upstream API key, available models, and group assignment; run a channel test.\n2. Configure model pricing and ensure the user has quota or a valid subscription.\n3. Create an API key in the console with access to the same group and m"
+            },
+            {
+              "field": "verification",
+              "quote": "e `data` directory persists the SQLite database across container replacements.\n\n### Make your first request\n\n1. Add a channel with your upstream API key, available models, and group assignment; run a channel test.\n2. Configure model pricing and ensure the user has quota or a valid subscription.\n3. Create an API key in the console with access to the same group and m"
+            }
+          ],
+          "sourceHash": "68817a0df025268425b9a05f4cb4aefac32cd5780b0d78860dc5636eb41ed083",
+          "sourceUrl": "https://github.com/QuantumNous/new-api/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "68817a0df025268425b9a05f4cb4aefac32cd5780b0d78860dc5636eb41ed083",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "rails/rails": {
+      "sourceHash": "49a7beaac6f7f5a6f326c5b6496bf357911b1c02f1de9d19983ff56e6e2fdeee",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "基于 Ruby 和 MVC 的全栈 Web 框架，包含开发数据库应用所需的模型、页面与控制器等能力。",
+        "scenarios": [
+          "搭建一个数据库支持的简单管理页面。"
+        ],
+        "usage": "基于 Ruby 和 MVC 的全栈 Web 框架，包含开发数据库应用所需的模型、页面与控制器等能力。",
+        "requirements": "准备匹配 Rails 的 Ruby、依赖和数据库环境。",
+        "quickStart": "1. 按 README 的起步流程创建应用，进入目录启动 bin/rails server。\n2. 打开本地页面，再跟随 Getting Started 添加模型与界面。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发框架",
+          "purpose": "基于 Ruby 和 MVC 的全栈 Web 框架，包含开发数据库应用所需的模型、页面与控制器等能力。",
+          "audience": "开发业务网站的 Ruby 工程师",
+          "example": "搭建一个数据库支持的简单管理页面。",
+          "steps": [
+            "按 README 的起步流程创建应用，进入目录启动 bin/rails server。",
+            "打开本地页面，再跟随 Getting Started 添加模型与界面。"
+          ],
+          "verification": "服务能启动，数据记录和页面操作相符，应用测试通过后再部署。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Ruby on Rails\n\n# Welcome to Rails\n\n## What's Rails?\n\nRails is a web application framework that includes everything needed to\ncreate database-backed web applications according to the\n[Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Model-view-controller)\npattern."
+            },
+            {
+              "field": "purpose",
+              "quote": "Ruby on Rails\n\n# Welcome to Rails\n\n## What's Rails?\n\nRails is a web application framework that includes everything needed to\ncreate database-backed web applications according to the\n[Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Model-view-controller)\npattern."
+            },
+            {
+              "field": "scenarios",
+              "quote": "Ruby on Rails\n\n# Welcome to Rails\n\n## What's Rails?\n\nRails is a web application framework that includes everything needed to\ncreate database-backed web applications according to the\n[Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Model-view-controller)\npattern."
+            },
+            {
+              "field": "steps",
+              "quote": "eloping your application. You may find\n   the following resources handy:\n    * [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html)\n    * [Ruby on Rails Guides](https://guides.rubyonrails.org)\n    * [The API Documentation](https://api.rubyonrails.org)\n\n## Contributing\n\nWe encourage you to contribute to Ruby on Rails! Please check out t"
+            },
+            {
+              "field": "verification",
+              "quote": "eloping your application. You may find\n   the following resources handy:\n    * [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html)\n    * [Ruby on Rails Guides](https://guides.rubyonrails.org)\n    * [The API Documentation](https://api.rubyonrails.org)\n\n## Contributing\n\nWe encourage you to contribute to Ruby on Rails! Please check out t"
+            }
+          ],
+          "sourceHash": "49a7beaac6f7f5a6f326c5b6496bf357911b1c02f1de9d19983ff56e6e2fdeee",
+          "sourceUrl": "https://github.com/rails/rails/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "49a7beaac6f7f5a6f326c5b6496bf357911b1c02f1de9d19983ff56e6e2fdeee",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "raphire/win11debloat": {
+      "sourceHash": "68667dfceafb71caf63e15cd599b10296420c242fb4eba938ae5a4339265b8a9",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "用于调整 Windows 10/11 预装应用、隐私、外观与更新相关设置的 PowerShell 脚本，可按需定制系统。",
+        "scenarios": [
+          "检查并移除自己不需要的预装应用。"
+        ],
+        "usage": "用于调整 Windows 10/11 预装应用、隐私、外观与更新相关设置的 PowerShell 脚本，可按需定制系统。",
+        "requirements": "需要相应系统权限，先保留恢复方式；某些选项会影响更新、加密等关键行为。",
+        "quickStart": "1. 先从 Wiki 阅读使用说明和每项设置，再检查脚本来源。\n2. 只选择明确需要的改动，在测试环境执行后核对应用和系统功能。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "用于调整 Windows 10/11 预装应用、隐私、外观与更新相关设置的 PowerShell 脚本，可按需定制系统。",
+          "audience": "了解系统设置影响的 Windows 用户",
+          "example": "检查并移除自己不需要的预装应用。",
+          "steps": [
+            "先从 Wiki 阅读使用说明和每项设置，再检查脚本来源。",
+            "只选择明确需要的改动，在测试环境执行后核对应用和系统功能。"
+          ],
+          "verification": "移除和调整范围与选择一致，关键功能仍正常；不把所有选项当作通用优化。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.\n\n# Win11Debloat\n\n[](https://github.com/Raphire/Win11Debloat/releases/latest)\n[](https://github.com/Raphire/Win11Debloat/discussions)\n[](https://github.com/Raphire/Win1"
+            },
+            {
+              "field": "purpose",
+              "quote": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.\n\n# Win11Debloat\n\n[](https://github.com/Raphire/Win11Debloat/releases/latest)\n[](https://github.com/Raphire/Win11Debloat/discussions)\n[](https://github.com/Raphire/Win1"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.\n\n# Win11Debloat\n\n[](https://github.com/Raphire/Win11Debloat/releases/latest)\n[](https://github.com/Raphire/Win11Debloat/discussions)\n[](https://github.com/Raphire/Win1"
+            },
+            {
+              "field": "steps",
+              "quote": "oat/releases/latest)\n[](https://github.com/Raphire/Win11Debloat/discussions)\n[](https://github.com/Raphire/Win11Debloat/wiki/)\n\n Win11Debloat is a lightweight, easy to use PowerShell script that allows you to quickly declutter and customize your Windows experience, no installation required! You can use it to remove pre-installed apps, disable telemetry, remove intrusive interface el"
+            },
+            {
+              "field": "verification",
+              "quote": "oat/releases/latest)\n[](https://github.com/Raphire/Win11Debloat/discussions)\n[](https://github.com/Raphire/Win11Debloat/wiki/)\n\n Win11Debloat is a lightweight, easy to use PowerShell script that allows you to quickly declutter and customize your Windows experience, no installation required! You can use it to remove pre-installed apps, disable telemetry, remove intrusive interface el"
+            }
+          ],
+          "sourceHash": "68667dfceafb71caf63e15cd599b10296420c242fb4eba938ae5a4339265b8a9",
+          "sourceUrl": "https://github.com/Raphire/Win11Debloat/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "68667dfceafb71caf63e15cd599b10296420c242fb4eba938ae5a4339265b8a9",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "rclone/rclone": {
+      "sourceHash": "ccfdad9c532c0b8256dc8ed75de631663a5714432899228e3b9a7459990fe85a",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "通过命令行管理云存储和本地文件，支持多家存储服务的复制、同步等操作，可用于构建自己的备份流程。",
+        "scenarios": [
+          "把一份测试目录复制到自己的云盘。"
+        ],
+        "usage": "通过命令行管理云存储和本地文件，支持多家存储服务的复制、同步等操作，可用于构建自己的备份流程。",
+        "requirements": "需要对应存储账号和授权，先理解 copy 与 sync 的覆盖、删除语义。",
+        "quickStart": "1. 从 Installation 安装，按 Documentation 为一个自己的存储配置连接。\n2. 先列出目录并用小文件测试复制，确认方向与结果后再规划同步。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "通过命令行管理云存储和本地文件，支持多家存储服务的复制、同步等操作，可用于构建自己的备份流程。",
+          "audience": "管理多存储文件的技术用户",
+          "example": "把一份测试目录复制到自己的云盘。",
+          "steps": [
+            "从 Installation 安装，按 Documentation 为一个自己的存储配置连接。",
+            "先列出目录并用小文件测试复制，确认方向与结果后再规划同步。"
+          ],
+          "verification": "源与目标文件、大小和必要校验一致，恢复路径可用；同步删除行为需明确配置。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files\n\n[](https://rclone.org/#gh-light-mode-only)\n\n[](https://rclone.org/#gh-dark-mode-only)\n\n[Website](https://rclone.org) |\n[Documentation](https://rclone.org/docs/) |\n[Download](https://rclone.org/downloads/) |\n[Contributing](CONTRIBUTING.md) |\n[Changelog](http"
+            },
+            {
+              "field": "purpose",
+              "quote": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files\n\n[](https://rclone.org/#gh-light-mode-only)\n\n[](https://rclone.org/#gh-dark-mode-only)\n\n[Website](https://rclone.org) |\n[Documentation](https://rclone.org/docs/) |\n[Download](https://rclone.org/downloads/) |\n[Contributing](CONTRIBUTING.md) |\n[Changelog](http"
+            },
+            {
+              "field": "scenarios",
+              "quote": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files\n\n[](https://rclone.org/#gh-light-mode-only)\n\n[](https://rclone.org/#gh-dark-mode-only)\n\n[Website](https://rclone.org) |\n[Documentation](https://rclone.org/docs/) |\n[Download](https://rclone.org/downloads/) |\n[Contributing](CONTRIBUTING.md) |\n[Changelog](http"
+            },
+            {
+              "field": "steps",
+              "quote": "sya.dev [:page_facing_up:](https://rclone.org/dosya/)\n- Dreamhost [:page_facin\n\n## Installation & documentation\n\nPlease see the [rclone website](https://rclone.org/) for:\n\n- [Installation](https://rclone.org/install/)\n- [Documentation & configuration](https://rclone.org/docs/)\n- [Changelog](https://rclone.org/changelog/)\n- [FAQ](https://rclone.org/faq/)\n- [Storage prov"
+            },
+            {
+              "field": "verification",
+              "quote": "sya.dev [:page_facing_up:](https://rclone.org/dosya/)\n- Dreamhost [:page_facin\n\n## Installation & documentation\n\nPlease see the [rclone website](https://rclone.org/) for:\n\n- [Installation](https://rclone.org/install/)\n- [Documentation & configuration](https://rclone.org/docs/)\n- [Changelog](https://rclone.org/changelog/)\n- [FAQ](https://rclone.org/faq/)\n- [Storage prov"
+            }
+          ],
+          "sourceHash": "ccfdad9c532c0b8256dc8ed75de631663a5714432899228e3b9a7459990fe85a",
+          "sourceUrl": "https://github.com/rclone/rclone/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "ccfdad9c532c0b8256dc8ed75de631663a5714432899228e3b9a7459990fe85a",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "reduxjs/redux": {
+      "sourceHash": "a5722872a759a9f98f1f3e41039c4f9edfd850478bd97f793bf5df66a6832694",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "以集中 store、action 与纯 reducer 管理可预测全局状态的 JavaScript 库，官方推荐用 Redux Toolkit 简化常见写法。",
+        "scenarios": [
+          "让多个组件共享一组可追踪状态。"
+        ],
+        "usage": "以集中 store、action 与纯 reducer 管理可预测全局状态的 JavaScript 库，官方推荐用 Redux Toolkit 简化常见写法。",
+        "requirements": "准备 JavaScript 项目，React 绑定与 Redux Toolkit 按实际应用配置。",
+        "quickStart": "1. 阅读 Basic Example，用 Redux Toolkit 建立 slice 与 store。\n2. 触发 action 并观察状态变化，给 reducer 添加输入输出测试。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "以集中 store、action 与纯 reducer 管理可预测全局状态的 JavaScript 库，官方推荐用 Redux Toolkit 简化常见写法。",
+          "audience": "需要共享状态的应用开发者",
+          "example": "让多个组件共享一组可追踪状态。",
+          "steps": [
+            "阅读 Basic Example，用 Redux Toolkit 建立 slice 与 store。",
+            "触发 action 并观察状态变化，给 reducer 添加输入输出测试。"
+          ],
+          "verification": "状态只按预期动作变化且可解释，避免把所有局部状态都放进全局。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A JS library for predictable global state management\n\n# Redux\n\nRedux is a JS library for predictable and maintainable global state management.\n\nIt helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides "
+            },
+            {
+              "field": "purpose",
+              "quote": "A JS library for predictable global state management\n\n# Redux\n\nRedux is a JS library for predictable and maintainable global state management.\n\nIt helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides "
+            },
+            {
+              "field": "scenarios",
+              "quote": "A JS library for predictable global state management\n\n# Redux\n\nRedux is a JS library for predictable and maintainable global state management.\n\nIt helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides "
+            },
+            {
+              "field": "steps",
+              "quote": "ic-redux-tao-of-redux-part-2/)**\n> - **[Redux FAQ](https://redux.js.org/faq)**\n\n## Basic Example\n\nThe whole global state of your app is stored in an object tree inside a single _store_.\nThe only way to change the state tree is to create an _action_, an object describing what happened, and _dispatch_ it to the store.\nTo specify how state gets updated in r"
+            },
+            {
+              "field": "verification",
+              "quote": "ic-redux-tao-of-redux-part-2/)**\n> - **[Redux FAQ](https://redux.js.org/faq)**\n\n## Basic Example\n\nThe whole global state of your app is stored in an object tree inside a single _store_.\nThe only way to change the state tree is to create an _action_, an object describing what happened, and _dispatch_ it to the store.\nTo specify how state gets updated in r"
+            }
+          ],
+          "sourceHash": "a5722872a759a9f98f1f3e41039c4f9edfd850478bd97f793bf5df66a6832694",
+          "sourceUrl": "https://github.com/reduxjs/redux/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "a5722872a759a9f98f1f3e41039c4f9edfd850478bd97f793bf5df66a6832694",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "remix-run/react-router": {
+      "sourceHash": "84108c605c3d5430cf5eaaf55dc04543b228c68eb339507f9085c5edb0bbee48",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "为 React 提供页面路由的工具，按所选模式支持声明式导航、数据处理或更完整框架能力，版本升级路线各不相同。",
+        "scenarios": [
+          "建立列表与详情之间的导航。"
+        ],
+        "usage": "为 React 提供页面路由的工具，按所选模式支持声明式导航、数据处理或更完整框架能力，版本升级路线各不相同。",
+        "requirements": "准备匹配当前版本的 React 环境，先选择官方 modes 中适合项目的路线。",
+        "quickStart": "1. 从 Get Started 的模式选择开始，按对应教程接入。\n2. 添加两个路由并测试链接、参数、返回与直接打开地址。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发框架",
+          "purpose": "为 React 提供页面路由的工具，按所选模式支持声明式导航、数据处理或更完整框架能力，版本升级路线各不相同。",
+          "audience": "构建多页面 React 应用的开发者",
+          "example": "建立列表与详情之间的导航。",
+          "steps": [
+            "从 Get Started 的模式选择开始，按对应教程接入。",
+            "添加两个路由并测试链接、参数、返回与直接打开地址。"
+          ],
+          "verification": "浏览器前进后退和刷新符合预期；旧版项目按对应升级文档迁移。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Declarative routing for React\n\n[![npm package][npm-badge]][npm] [![build][build-badge]][build]\n\n[Get Started](https://reactrouter.com/start/modes) · [Documentation](https://reactrouter.com/) · [Changelog](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md) · [Discord](http:/"
+            },
+            {
+              "field": "purpose",
+              "quote": "Declarative routing for React\n\n[![npm package][npm-badge]][npm] [![build][build-badge]][build]\n\n[Get Started](https://reactrouter.com/start/modes) · [Documentation](https://reactrouter.com/) · [Changelog](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md) · [Discord](http:/"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Declarative routing for React\n\n[![npm package][npm-badge]][npm] [![build][build-badge]][build]\n\n[Get Started](https://reactrouter.com/start/modes) · [Documentation](https://reactrouter.com/) · [Changelog](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md) · [Discord](http:/"
+            },
+            {
+              "field": "steps",
+              "quote": "\n[![npm package][npm-badge]][npm] [![build][build-badge]][build]\n\n[Get Started](https://reactrouter.com/start/modes) · [Documentation](https://reactrouter.com/) · [Changelog](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md) · [Discord](http://remix.run/discord)\n\n\n\n[npm-badge]: https://img.shields.io/npm/v/react-router.svg\n[npm]: https://www.npmjs.org/packa"
+            },
+            {
+              "field": "verification",
+              "quote": "\n[![npm package][npm-badge]][npm] [![build][build-badge]][build]\n\n[Get Started](https://reactrouter.com/start/modes) · [Documentation](https://reactrouter.com/) · [Changelog](https://github.com/remix-run/react-router/blob/main/CHANGELOG.md) · [Discord](http://remix.run/discord)\n\n\n\n[npm-badge]: https://img.shields.io/npm/v/react-router.svg\n[npm]: https://www.npmjs.org/packa"
+            }
+          ],
+          "sourceHash": "84108c605c3d5430cf5eaaf55dc04543b228c68eb339507f9085c5edb0bbee48",
+          "sourceUrl": "https://github.com/remix-run/react-router/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "84108c605c3d5430cf5eaaf55dc04543b228c68eb339507f9085c5edb0bbee48",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "remotion-dev/remotion": {
+      "sourceHash": "4eae2cef20c94b0dbd24829529150d46884976f801fea59881d6d1a9e44ce7d6",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "用 React 与代码制作视频和动画，可建立可复用的动态素材与自动化渲染流程，也有交互和智能体相关入口。",
+        "scenarios": [
+          "把一组文字与图片做成可重复渲染的短片。"
+        ],
+        "usage": "用 React 与代码制作视频和动画，可建立可复用的动态素材与自动化渲染流程，也有交互和智能体相关入口。",
+        "requirements": "准备 React/Node 开发环境和媒体素材；部分公司使用场景需要专门许可。",
+        "quickStart": "1. 从 remotion.dev/docs 创建示例，定义内容、尺寸、时长与动画。\n2. 在预览中检查关键帧后按文档渲染视频，保留源代码和素材。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发框架",
+          "purpose": "用 React 与代码制作视频和动画，可建立可复用的动态素材与自动化渲染流程，也有交互和智能体相关入口。",
+          "audience": "制作数据或模板化视频的开发者",
+          "example": "把一组文字与图片做成可重复渲染的短片。",
+          "steps": [
+            "从 remotion.dev/docs 创建示例，定义内容、尺寸、时长与动画。",
+            "在预览中检查关键帧后按文档渲染视频，保留源代码和素材。"
+          ],
+          "verification": "导出视频的画面、声音和时长符合目标，许可条件已确认。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "🎥      Make videos programmatically with React\n\n- **Make videos agentically**: Turn your idea into a video using your agent.\n- **Make videos interactively**: Edit and animate like in a regular video editor.\n- **Make videos programmatically**: Leverage web technology and own your video as code.\n\n## Video A"
+            },
+            {
+              "field": "purpose",
+              "quote": "🎥      Make videos programmatically with React\n\n- **Make videos agentically**: Turn your idea into a video using your agent.\n- **Make videos interactively**: Edit and animate like in a regular video editor.\n- **Make videos programmatically**: Leverage web technology and own your video as code.\n\n## Video A"
+            },
+            {
+              "field": "scenarios",
+              "quote": "🎥      Make videos programmatically with React\n\n- **Make videos agentically**: Turn your idea into a video using your agent.\n- **Make videos interactively**: Edit and animate like in a regular video editor.\n- **Make videos programmatically**: Leverage web technology and own your video as code.\n\n## Video A"
+            },
+            {
+              "field": "steps",
+              "quote": "n.dev/ai)\n  - [GitHub Issues](https://github.com/remotion-dev/remotion/issues)\n\n## Documentation\n\nDocumentation: [**remotion.dev/docs**](https://www.remotion.dev/docs)  \nAPI Reference: [**remotion.dev/api**](https://www.remotion.dev/api)\n\n## License\n\nBe aware of that Remotion has a special license and requires obtaining a company license in some cases. R"
+            },
+            {
+              "field": "verification",
+              "quote": "n.dev/ai)\n  - [GitHub Issues](https://github.com/remotion-dev/remotion/issues)\n\n## Documentation\n\nDocumentation: [**remotion.dev/docs**](https://www.remotion.dev/docs)  \nAPI Reference: [**remotion.dev/api**](https://www.remotion.dev/api)\n\n## License\n\nBe aware of that Remotion has a special license and requires obtaining a company license in some cases. R"
+            }
+          ],
+          "sourceHash": "4eae2cef20c94b0dbd24829529150d46884976f801fea59881d6d1a9e44ce7d6",
+          "sourceUrl": "https://github.com/remotion-dev/remotion/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "4eae2cef20c94b0dbd24829529150d46884976f801fea59881d6d1a9e44ce7d6",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "resume/resume.github.com": {
+      "sourceHash": "a774036b7b544e3c73f7743e04d8ced976826d9fd747b7cb2127b3fc2dc70278",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "根据公开 GitHub 仓库与活动生成简历视图的服务，README 采用用户主动选择展示的机制，并非完整职业简历生成器。",
+        "scenarios": [
+          "查看自己的公开 GitHub 活动摘要。"
+        ],
+        "usage": "根据公开 GitHub 仓库与活动生成简历视图的服务，README 采用用户主动选择展示的机制，并非完整职业简历生成器。",
+        "requirements": "需要 GitHub 用户名，展示机制按网站当前条件确认；本地开发需 Ruby 和 rack。",
+        "quickStart": "1. 阅读主页的 opt-in 机制，理解公开展示条件后再自行决定是否启用。\n2. 按 README 的用户名 URL 查看并核对仓库、活动和个人信息。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "根据公开 GitHub 仓库与活动生成简历视图的服务，README 采用用户主动选择展示的机制，并非完整职业简历生成器。",
+          "audience": "希望展示开源活动的开发者",
+          "example": "查看自己的公开 GitHub 活动摘要。",
+          "steps": [
+            "阅读主页的 opt-in 机制，理解公开展示条件后再自行决定是否启用。",
+            "按 README 的用户名 URL 查看并核对仓库、活动和个人信息。"
+          ],
+          "verification": "显示内容与公开资料对应，不能用开源活动推断完整工作经历。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Resumes generated using the GitHub informations\n\n# [GitHub Résumé](https://resume.github.io/)\n\n**A service that creates a résumé based on your GitHub repos/activity.**\n\nGitHub Résumé is **opt-in**. To make your resume visible, just **star** [this project](https://github.com/resume/resume.github.com). To vi"
+            },
+            {
+              "field": "purpose",
+              "quote": "Resumes generated using the GitHub informations\n\n# [GitHub Résumé](https://resume.github.io/)\n\n**A service that creates a résumé based on your GitHub repos/activity.**\n\nGitHub Résumé is **opt-in**. To make your resume visible, just **star** [this project](https://github.com/resume/resume.github.com). To vi"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Resumes generated using the GitHub informations\n\n# [GitHub Résumé](https://resume.github.io/)\n\n**A service that creates a résumé based on your GitHub repos/activity.**\n\nGitHub Résumé is **opt-in**. To make your resume visible, just **star** [this project](https://github.com/resume/resume.github.com). To vi"
+            },
+            {
+              "field": "steps",
+              "quote": "hat creates a résumé based on your GitHub repos/activity.**\n\nGitHub Résumé is **opt-in**. To make your resume visible, just **star** [this project](https://github.com/resume/resume.github.com). To view your résumé, go to `https://resume.github.io/?yourusername` or follow the instructions on the [home page](https://resume.github.io/).\n\nGreat for"
+            },
+            {
+              "field": "verification",
+              "quote": "hat creates a résumé based on your GitHub repos/activity.**\n\nGitHub Résumé is **opt-in**. To make your resume visible, just **star** [this project](https://github.com/resume/resume.github.com). To view your résumé, go to `https://resume.github.io/?yourusername` or follow the instructions on the [home page](https://resume.github.io/).\n\nGreat for"
+            }
+          ],
+          "sourceHash": "a774036b7b544e3c73f7743e04d8ced976826d9fd747b7cb2127b3fc2dc70278",
+          "sourceUrl": "https://github.com/resume/resume.github.com/blob/master/README.markdown",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "a774036b7b544e3c73f7743e04d8ced976826d9fd747b7cb2127b3fc2dc70278",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "roboflow/supervision": {
+      "sourceHash": "d6fea53f96dd8e430582d2ea42f555fbade1a1a82893673025c935dd96b07b26",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "可复用的计算机视觉辅助工具库，提供检测结果处理、标注展示和数据集转换等能力，可搭配不同模型使用。",
+        "scenarios": [
+          "将检测结果画到图片并转换标注格式。"
+        ],
+        "usage": "可复用的计算机视觉辅助工具库，提供检测结果处理、标注展示和数据集转换等能力，可搭配不同模型使用。",
+        "requirements": "准备 Python 与模型输出或已有标注，具体模型和库依赖按教程配置。",
+        "quickStart": "1. 从 Tutorials 选择 detect and annotate 或端到端示例。\n2. 用小样本读取检测结果、绘制标注，再尝试数据集格式转换。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "可复用的计算机视觉辅助工具库，提供检测结果处理、标注展示和数据集转换等能力，可搭配不同模型使用。",
+          "audience": "实现视觉应用的开发者",
+          "example": "将检测结果画到图片并转换标注格式。",
+          "steps": [
+            "从 Tutorials 选择 detect and annotate 或端到端示例。",
+            "用小样本读取检测结果、绘制标注，再尝试数据集格式转换。"
+          ],
+          "verification": "框、类别与原图一致，转换前后样本数和标签对应；工具库本身不是万能检测模型。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "We write your reusable computer vision tools. 💜\n\n[notebooks](https://github.com/roboflow/notebooks) | [inference](https://github.com/roboflow/inference) | [autodistill](https://github.com/autodistill/autodistill) | [maestro](https://github.com/roboflow/multimodal-maestro)\n\n\n\n[](https://badge.fury.io/py/sup"
+            },
+            {
+              "field": "purpose",
+              "quote": "We write your reusable computer vision tools. 💜\n\n[notebooks](https://github.com/roboflow/notebooks) | [inference](https://github.com/roboflow/inference) | [autodistill](https://github.com/autodistill/autodistill) | [maestro](https://github.com/roboflow/multimodal-maestro)\n\n\n\n[](https://badge.fury.io/py/sup"
+            },
+            {
+              "field": "scenarios",
+              "quote": "We write your reusable computer vision tools. 💜\n\n[notebooks](https://github.com/roboflow/notebooks) | [inference](https://github.com/roboflow/inference) | [autodistill](https://github.com/autodistill/autodistill) | [maestro](https://github.com/roboflow/multimodal-maestro)\n\n\n\n[](https://badge.fury.io/py/sup"
+            },
+            {
+              "field": "steps",
+              "quote": "  images_directory_path=...,\n      annotations_directory_path=...,\n  )\n  ```\n\n\n\n## 🎬 Tutorials\n\nWant to learn how to use Supervision? Explore our [how-to guides](https://supervision.roboflow.com/develop/how_to/detect_and_annotate/), [end-to-end examples](./examples), [cheatsheet](https://roboflow.github.io/cheatsheet-supervision/), and [cookbooks](http"
+            },
+            {
+              "field": "verification",
+              "quote": "  images_directory_path=...,\n      annotations_directory_path=...,\n  )\n  ```\n\n\n\n## 🎬 Tutorials\n\nWant to learn how to use Supervision? Explore our [how-to guides](https://supervision.roboflow.com/develop/how_to/detect_and_annotate/), [end-to-end examples](./examples), [cheatsheet](https://roboflow.github.io/cheatsheet-supervision/), and [cookbooks](http"
+            }
+          ],
+          "sourceHash": "d6fea53f96dd8e430582d2ea42f555fbade1a1a82893673025c935dd96b07b26",
+          "sourceUrl": "https://github.com/roboflow/supervision/blob/develop/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "d6fea53f96dd8e430582d2ea42f555fbade1a1a82893673025c935dd96b07b26",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "romkatv/powerlevel10k": {
+      "sourceHash": "9290c893f4441855a7a489aa9cac59ee5dfa8e20bd2994f8948c250c4d0be6a9",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "注重速度与定制的 Zsh 提示符主题，可显示目录和开发上下文；README 提醒维护与支持十分有限。",
+        "scenarios": [
+          "为终端设置清晰的提示符布局。"
+        ],
+        "usage": "注重速度与定制的 Zsh 提示符主题，可显示目录和开发上下文；README 提醒维护与支持十分有限。",
+        "requirements": "需要 Zsh 和适配图标的字体，先备份现有 Shell 配置。",
+        "quickStart": "1. 先阅读维护状态，再按 README 选择安装路线与推荐字体。\n2. 按配置教程设置主题，重开终端检查布局和 Git 状态显示。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "注重速度与定制的 Zsh 提示符主题，可显示目录和开发上下文；README 提醒维护与支持十分有限。",
+          "audience": "定制 Zsh 终端的用户",
+          "example": "为终端设置清晰的提示符布局。",
+          "steps": [
+            "先阅读维护状态，再按 README 选择安装路线与推荐字体。",
+            "按配置教程设置主题，重开终端检查布局和 Git 状态显示。"
+          ],
+          "verification": "提示符没有乱码、启动正常且原命令可用；新增特性与问题修复不可默认期待。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A Zsh theme\n\n# Powerlevel10k\n[](\n  https://gitter.im/powerlevel10k/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)\n\n- **THE PROJECT HAS VERY LIMITED SUPPORT**\n- **NO NEW FEATURES ARE IN THE WORKS**\n- **MOST BUGS WILL GO UNFIXED**\n- **HELP REQUESTS WILL"
+            },
+            {
+              "field": "purpose",
+              "quote": "A Zsh theme\n\n# Powerlevel10k\n[](\n  https://gitter.im/powerlevel10k/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)\n\n- **THE PROJECT HAS VERY LIMITED SUPPORT**\n- **NO NEW FEATURES ARE IN THE WORKS**\n- **MOST BUGS WILL GO UNFIXED**\n- **HELP REQUESTS WILL"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A Zsh theme\n\n# Powerlevel10k\n[](\n  https://gitter.im/powerlevel10k/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)\n\n- **THE PROJECT HAS VERY LIMITED SUPPORT**\n- **NO NEW FEATURES ARE IN THE WORKS**\n- **MOST BUGS WILL GO UNFIXED**\n- **HELP REQUESTS WILL"
+            },
+            {
+              "field": "steps",
+              "quote": "HE WORKS**\n- **MOST BUGS WILL GO UNFIXED**\n- **HELP REQUESTS WILL BE IGNORED**\n\nPowerlevel10k is a theme for Zsh. It emphasizes [speed](#uncompromising-performance),\n[flexibility](#extremely-customizable) and [out-of-the-box experience](#configuration-wizard).\n\n\n\n- [Getting started](#getting-started)\n- [Features](#features)\n- [Installation](#installation)\n- [Configurati"
+            },
+            {
+              "field": "verification",
+              "quote": "HE WORKS**\n- **MOST BUGS WILL GO UNFIXED**\n- **HELP REQUESTS WILL BE IGNORED**\n\nPowerlevel10k is a theme for Zsh. It emphasizes [speed](#uncompromising-performance),\n[flexibility](#extremely-customizable) and [out-of-the-box experience](#configuration-wizard).\n\n\n\n- [Getting started](#getting-started)\n- [Features](#features)\n- [Installation](#installation)\n- [Configurati"
+            }
+          ],
+          "sourceHash": "9290c893f4441855a7a489aa9cac59ee5dfa8e20bd2994f8948c250c4d0be6a9",
+          "sourceUrl": "https://github.com/romkatv/powerlevel10k/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "9290c893f4441855a7a489aa9cac59ee5dfa8e20bd2994f8948c250c4d0be6a9",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "router-for-me/cliproxyapi": {
+      "sourceHash": "f9343b69a90375095c6d468ab7aafd3305d23eab4041a8155b19dbdd936ff22d",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "把支持的编码客户端或模型渠道转换为兼容 API 的代理服务，带独立图形管理等配套入口，实际模型取决于渠道与账号。",
+        "scenarios": [
+          "让一个客户端通过代理访问自己可用的模型。"
+        ],
+        "usage": "把支持的编码客户端或模型渠道转换为兼容 API 的代理服务，带独立图形管理等配套入口，实际模型取决于渠道与账号。",
+        "requirements": "准备符合服务条款的账号或凭据；模型、额度与可用性按渠道确认。",
+        "quickStart": "1. 从 Getting Started 的 Guides 选择服务或桌面路线并配置一个渠道。\n2. 让客户端使用代理提供的地址和凭据发起最小请求，检查实际模型与响应。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "把支持的编码客户端或模型渠道转换为兼容 API 的代理服务，带独立图形管理等配套入口，实际模型取决于渠道与账号。",
+          "audience": "整合自己模型访问的开发者",
+          "example": "让一个客户端通过代理访问自己可用的模型。",
+          "steps": [
+            "从 Getting Started 的 Guides 选择服务或桌面路线并配置一个渠道。",
+            "让客户端使用代理提供的地址和凭据发起最小请求，检查实际模型与响应。"
+          ],
+          "verification": "调用归属与模型正确，访问范围受控；代理不保证绕过订阅或上游限制。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API\n\n# CLI Proxy API\n\nEnglish | [中文](README_CN.md) | [日本語](README_JA.md)\n\nIf you want to use CLIProxyAPI on your desktop, we recommend our [EasyCLIProxyAPI](https://github.com/router-for-me/EasyCL"
+            },
+            {
+              "field": "purpose",
+              "quote": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API\n\n# CLI Proxy API\n\nEnglish | [中文](README_CN.md) | [日本語](README_JA.md)\n\nIf you want to use CLIProxyAPI on your desktop, we recommend our [EasyCLIProxyAPI](https://github.com/router-for-me/EasyCL"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API\n\n# CLI Proxy API\n\nEnglish | [中文](README_CN.md) | [日本語](README_JA.md)\n\nIf you want to use CLIProxyAPI on your desktop, we recommend our [EasyCLIProxyAPI](https://github.com/router-for-me/EasyCL"
+            },
+            {
+              "field": "steps",
+              "quote": " is Google's latest Flash model for long-horizon software engineering and agen\n\n## Getting Started\n\nCLIProxyAPI Guides: [https://help.router-for.me/](https://help.router-for.me/)\n\n[Claude Code with a Codex backend](examples/claude-code-codex/README.md): optional visible progress, classifier routing, image-tool pass-through, and latency diagnostics.\n\n\n\n## U"
+            },
+            {
+              "field": "verification",
+              "quote": " is Google's latest Flash model for long-horizon software engineering and agen\n\n## Getting Started\n\nCLIProxyAPI Guides: [https://help.router-for.me/](https://help.router-for.me/)\n\n[Claude Code with a Codex backend](examples/claude-code-codex/README.md): optional visible progress, classifier routing, image-tool pass-through, and latency diagnostics.\n\n\n\n## U"
+            }
+          ],
+          "sourceHash": "f9343b69a90375095c6d468ab7aafd3305d23eab4041a8155b19dbdd936ff22d",
+          "sourceUrl": "https://github.com/router-for-me/CLIProxyAPI/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "f9343b69a90375095c6d468ab7aafd3305d23eab4041a8155b19dbdd936ff22d",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "run-llama/llama_index": {
+      "sourceHash": "4a026ae76a9bd7d8219ee83e3cbf7e983d59f119bc2dd7505661a3dc67ab656e",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "围绕文档处理、索引、检索增强和文档智能体组织应用的框架与平台入口，帮助模型利用自己的资料。",
+        "scenarios": [
+          "把少量文档建立索引后进行带来源问答。"
+        ],
+        "usage": "围绕文档处理、索引、检索增强和文档智能体组织应用的框架与平台入口，帮助模型利用自己的资料。",
+        "requirements": "需要对应语言环境、数据与所选模型/嵌入服务；云产品与本地框架条件不同。",
+        "quickStart": "1. 从 Important Links 的最新 Documentation 选择框架入门，不只依赖 README。\n2. 加载小文档集并建索引，发起问题检查检索片段与引用。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发框架",
+          "purpose": "围绕文档处理、索引、检索增强和文档智能体组织应用的框架与平台入口，帮助模型利用自己的资料。",
+          "audience": "构建资料问答的开发者",
+          "example": "把少量文档建立索引后进行带来源问答。",
+          "steps": [
+            "从 Important Links 的最新 Documentation 选择框架入门，不只依赖 README。",
+            "加载小文档集并建索引，发起问题检查检索片段与引用。"
+          ],
+          "verification": "答案可回到文档证据，资料更新策略明确；检索不保证模型每次结论正确。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "LlamaIndex is the document processing platform for AI\n\n# 🗂️ LlamaIndex Framework 🦙\n\n[](https://pypi.org/project/llama-index/)\n[](https://github.com/run-llama/llama_index/actions/workflows/build_package.yml)\n[](https://github.com/jerryjliu/llama_index/graphs/contributors)\n[](https://discord.gg/dGcwcsnxhU)\n[](ht"
+            },
+            {
+              "field": "purpose",
+              "quote": "LlamaIndex is the document processing platform for AI\n\n# 🗂️ LlamaIndex Framework 🦙\n\n[](https://pypi.org/project/llama-index/)\n[](https://github.com/run-llama/llama_index/actions/workflows/build_package.yml)\n[](https://github.com/jerryjliu/llama_index/graphs/contributors)\n[](https://discord.gg/dGcwcsnxhU)\n[](ht"
+            },
+            {
+              "field": "scenarios",
+              "quote": "LlamaIndex is the document processing platform for AI\n\n# 🗂️ LlamaIndex Framework 🦙\n\n[](https://pypi.org/project/llama-index/)\n[](https://github.com/run-llama/llama_index/actions/workflows/build_package.yml)\n[](https://github.com/jerryjliu/llama_index/graphs/contributors)\n[](https://discord.gg/dGcwcsnxhU)\n[](ht"
+            },
+            {
+              "field": "steps",
+              "quote": "maagents/overview/?utm_medium=li_github&utm_source=github&utm_campaign=2026--)\n\n### Important Links\n\n[Documentation](https://developers.llamaindex.ai/python/framework/?utm_medium=li_github&utm_source=github&utm_campaign=2026--)\n\n[X (formerly Twitter)](https://x.com/llama_index)\n\n[LinkedIn](https://www.linkedin.com/company/llamaindex/)\n\n[Reddit](https://www."
+            },
+            {
+              "field": "verification",
+              "quote": "maagents/overview/?utm_medium=li_github&utm_source=github&utm_campaign=2026--)\n\n### Important Links\n\n[Documentation](https://developers.llamaindex.ai/python/framework/?utm_medium=li_github&utm_source=github&utm_campaign=2026--)\n\n[X (formerly Twitter)](https://x.com/llama_index)\n\n[LinkedIn](https://www.linkedin.com/company/llamaindex/)\n\n[Reddit](https://www."
+            }
+          ],
+          "sourceHash": "4a026ae76a9bd7d8219ee83e3cbf7e983d59f119bc2dd7505661a3dc67ab656e",
+          "sourceUrl": "https://github.com/run-llama/llama_index/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "4a026ae76a9bd7d8219ee83e3cbf7e983d59f119bc2dd7505661a3dc67ab656e",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "rust-lang/rustlings": {
+      "sourceHash": "b8be9c50fb6c31e21b6499fb4e5cdd784d5f039486eb1ff0de49b4ea1945b2b1",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "通过一组小型 Rust 代码练习熟悉语法和编译器反馈，推荐与官方 Rust Book 配合学习。",
+        "scenarios": [
+          "从基础练习修正编译错误并解释原因。"
+        ],
+        "usage": "通过一组小型 Rust 代码练习熟悉语法和编译器反馈，推荐与官方 Rust Book 配合学习。",
+        "requirements": "按 Rustlings 官网准备 Rust 工具链与练习程序。",
+        "quickStart": "1. 从 rustlings.rust-lang.org 查看 setup 并安装练习环境。\n2. 按顺序完成少量练习，结合官方 Rust Book 理解编译错误再继续。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "通过一组小型 Rust 代码练习熟悉语法和编译器反馈，推荐与官方 Rust Book 配合学习。",
+          "audience": "刚开始学习 Rust 的程序员",
+          "example": "从基础练习修正编译错误并解释原因。",
+          "steps": [
+            "从 rustlings.rust-lang.org 查看 setup 并安装练习环境。",
+            "按顺序完成少量练习，结合官方 Rust Book 理解编译错误再继续。"
+          ],
+          "verification": "练习检查通过且能解释修正，保留自己的笔记而不是只替换答案。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": ":crab: Small exercises to get you used to reading and writing Rust code!\n\n# [Rustlings](https://rustlings.rust-lang.org) 🦀\n\nSmall exercises to get you used to reading and writing [Rust](https://www.rust-lang.org) code - _Recommended in parallel to reading [the official Rust book](https://doc.rust-lang.org/book) 📚️_\n\nVisit the **"
+            },
+            {
+              "field": "purpose",
+              "quote": ":crab: Small exercises to get you used to reading and writing Rust code!\n\n# [Rustlings](https://rustlings.rust-lang.org) 🦀\n\nSmall exercises to get you used to reading and writing [Rust](https://www.rust-lang.org) code - _Recommended in parallel to reading [the official Rust book](https://doc.rust-lang.org/book) 📚️_\n\nVisit the **"
+            },
+            {
+              "field": "scenarios",
+              "quote": ":crab: Small exercises to get you used to reading and writing Rust code!\n\n# [Rustlings](https://rustlings.rust-lang.org) 🦀\n\nSmall exercises to get you used to reading and writing [Rust](https://www.rust-lang.org) code - _Recommended in parallel to reading [the official Rust book](https://doc.rust-lang.org/book) 📚️_\n\nVisit the **"
+            },
+            {
+              "field": "steps",
+              "quote": "t book](https://doc.rust-lang.org/book) 📚️_\n\nVisit the **website** for a demo, info about setup and more:\n\n## ➡️ [rustlings.rust-lang.org](https://rustlings.rust-lang.org) ⬅️"
+            },
+            {
+              "field": "verification",
+              "quote": "t book](https://doc.rust-lang.org/book) 📚️_\n\nVisit the **website** for a demo, info about setup and more:\n\n## ➡️ [rustlings.rust-lang.org](https://rustlings.rust-lang.org) ⬅️"
+            }
+          ],
+          "sourceHash": "b8be9c50fb6c31e21b6499fb4e5cdd784d5f039486eb1ff0de49b4ea1945b2b1",
+          "sourceUrl": "https://github.com/rust-lang/rustlings/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "b8be9c50fb6c31e21b6499fb4e5cdd784d5f039486eb1ff0de49b4ea1945b2b1",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "rust-unofficial/awesome-rust": {
+      "sourceHash": "bf1419d12b1531da49d36d0bb81b6f47d2d184e896e99fe44957a291172d5489",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "按领域整理 Rust 应用、库与学习资源，包含开发、部署和多类工具，可用于选型与查找实现。",
+        "scenarios": [
+          "比较一个部署或数据处理领域的候选工具。"
+        ],
+        "usage": "按领域整理 Rust 应用、库与学习资源，包含开发、部署和多类工具，可用于选型与查找实现。",
+        "requirements": "浏览即可筛选，目标工具的版本、许可和环境按其自身文档确认。",
+        "quickStart": "1. 从 Applications 或领域分类选择目标，阅读条目描述。\n2. 进入候选仓库核对维护状态与示例，在小项目中验证最需要的能力。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "资源目录",
+          "purpose": "按领域整理 Rust 应用、库与学习资源，包含开发、部署和多类工具，可用于选型与查找实现。",
+          "audience": "寻找 Rust 生态资源的开发者",
+          "example": "比较一个部署或数据处理领域的候选工具。",
+          "steps": [
+            "从 Applications 或领域分类选择目标，阅读条目描述。",
+            "进入候选仓库核对维护状态与示例，在小项目中验证最需要的能力。"
+          ],
+          "verification": "选择理由对应实际需求，依赖和许可明确；清单收录不代表每项都经过本软件实测。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A curated list of Rust code and resources.\n\n# Awesome Rust [](https://github.com/rust-unofficial/awesome-rust/actions/workflows/lint.yml) [](https://github.com/rust-unofficial/awesome-rust/actions/workflows/rust.yml) [](https://www.trackawesomelist.com/rust-unofficial/awesome-rust/)\n\nA curated list of"
+            },
+            {
+              "field": "purpose",
+              "quote": "A curated list of Rust code and resources.\n\n# Awesome Rust [](https://github.com/rust-unofficial/awesome-rust/actions/workflows/lint.yml) [](https://github.com/rust-unofficial/awesome-rust/actions/workflows/rust.yml) [](https://www.trackawesomelist.com/rust-unofficial/awesome-rust/)\n\nA curated list of"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A curated list of Rust code and resources.\n\n# Awesome Rust [](https://github.com/rust-unofficial/awesome-rust/actions/workflows/lint.yml) [](https://github.com/rust-unofficial/awesome-rust/actions/workflows/rust.yml) [](https://www.trackawesomelist.com/rust-unofficial/awesome-rust/)\n\nA curated list of"
+            },
+            {
+              "field": "steps",
+              "quote": "A curated list of Rust code and resources.\n\n# Awesome Rust [](https://github.com/rust-unofficial/awesome-rust/actions/workflows/lint.yml) [](https://github.com/rust-unofficial/awesome-rust/actions/workflows/rust.yml) [](https://www.trackawesomelist.com/rust-unofficial/awesome-rust/)\n\nA curated list o"
+            },
+            {
+              "field": "verification",
+              "quote": "A curated list of Rust code and resources.\n\n# Awesome Rust [](https://github.com/rust-unofficial/awesome-rust/actions/workflows/lint.yml) [](https://github.com/rust-unofficial/awesome-rust/actions/workflows/rust.yml) [](https://www.trackawesomelist.com/rust-unofficial/awesome-rust/)\n\nA curated list o"
+            }
+          ],
+          "sourceHash": "bf1419d12b1531da49d36d0bb81b6f47d2d184e896e99fe44957a291172d5489",
+          "sourceUrl": "https://github.com/rust-unofficial/awesome-rust/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "bf1419d12b1531da49d36d0bb81b6f47d2d184e896e99fe44957a291172d5489",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "rvc-boss/gpt-sovits": {
+      "sourceHash": "3316e42ff25f4fdfe9b646e86b20290999aeaf9c7b183c06c9fd8fb7f4e830e8",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "带 WebUI 的少样本语音合成与音色转换项目，可用授权语音准备数据、训练或进行推理，提供多平台安装说明。",
+        "scenarios": [
+          "使用自己的短录音测试文本转语音。"
+        ],
+        "usage": "带 WebUI 的少样本语音合成与音色转换项目，可用授权语音准备数据、训练或进行推理，提供多平台安装说明。",
+        "requirements": "按所选模型准备 Python、依赖、ffmpeg 与匹配硬件；版本和预训练权重需对应。",
+        "quickStart": "1. 按 Install 和中文 User guide 配置环境与权重。\n2. 先用授权参考音频生成短文本，再根据需要走数据处理与微调流程。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "模型 / 推理项目",
+          "purpose": "带 WebUI 的少样本语音合成与音色转换项目，可用授权语音准备数据、训练或进行推理，提供多平台安装说明。",
+          "audience": "研究授权配音的开发者",
+          "example": "使用自己的短录音测试文本转语音。",
+          "steps": [
+            "按 Install 和中文 User guide 配置环境与权重。",
+            "先用授权参考音频生成短文本，再根据需要走数据处理与微调流程。"
+          ],
+          "verification": "内容、音色、停顿和噪声经过试听核对；少量数据不保证所有语言与素材质量。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)\n\n# GPT-SoVITS-WebUI\n\nA Powerful Few-shot Voice Conversion and Text-to-Speech WebUI.\n\n[](https://github.com/RVC-Boss/GPT-SoVITS)\n\n\n\n -->\n\n[](https://www.python.org)\n[](https://github.com/RVC-Boss/gpt-sovits/releases)\n\n[](https://colab.research.google.com/githu"
+            },
+            {
+              "field": "purpose",
+              "quote": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)\n\n# GPT-SoVITS-WebUI\n\nA Powerful Few-shot Voice Conversion and Text-to-Speech WebUI.\n\n[](https://github.com/RVC-Boss/GPT-SoVITS)\n\n\n\n -->\n\n[](https://www.python.org)\n[](https://github.com/RVC-Boss/gpt-sovits/releases)\n\n[](https://colab.research.google.com/githu"
+            },
+            {
+              "field": "scenarios",
+              "quote": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)\n\n# GPT-SoVITS-WebUI\n\nA Powerful Few-shot Voice Conversion and Text-to-Speech WebUI.\n\n[](https://github.com/RVC-Boss/GPT-SoVITS)\n\n\n\n -->\n\n[](https://www.python.org)\n[](https://github.com/RVC-Boss/gpt-sovits/releases)\n\n[](https://colab.research.google.com/githu"
+            },
+            {
+              "field": "steps",
+              "quote": "ot TTS Speaker Similarity Comparison Image on SeedTTS Eval Testset_CN2020**\n\n\n\n\n## Install\n\n#### Install Dependences\n\n```bash\nconda create -n GPTSoVits python=3.10\nconda activate GPTSoVits\n\npip install -r extra-req.txt --no-deps\npip install -r requirements.txt\n```\n\n\n\n#### Install FFmpeg\n\n##### Conda Users\n\n```bash\nconda activate GPTSoVits\nconda ins"
+            },
+            {
+              "field": "verification",
+              "quote": "ot TTS Speaker Similarity Comparison Image on SeedTTS Eval Testset_CN2020**\n\n\n\n\n## Install\n\n#### Install Dependences\n\n```bash\nconda create -n GPTSoVits python=3.10\nconda activate GPTSoVits\n\npip install -r extra-req.txt --no-deps\npip install -r requirements.txt\n```\n\n\n\n#### Install FFmpeg\n\n##### Conda Users\n\n```bash\nconda activate GPTSoVits\nconda ins"
+            }
+          ],
+          "sourceHash": "3316e42ff25f4fdfe9b646e86b20290999aeaf9c7b183c06c9fd8fb7f4e830e8",
+          "sourceUrl": "https://github.com/RVC-Boss/GPT-SoVITS/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "3316e42ff25f4fdfe9b646e86b20290999aeaf9c7b183c06c9fd8fb7f4e830e8",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "ryanoasis/nerd-fonts": {
+      "sourceHash": "2901ba2f90e01e48f197e81b7e0a8b66bb4fc8c6ceea7962ac0f6f8b7d6dd0cf",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "给编程字体补充图标字形的字体集合与修补工具，可解决终端主题中的图标显示需求，并提供多种安装方式。",
+        "scenarios": [
+          "安装一个带图标的字体给终端使用。"
+        ],
+        "usage": "给编程字体补充图标字形的字体集合与修补工具，可解决终端主题中的图标显示需求，并提供多种安装方式。",
+        "requirements": "选择适合系统的字体包，下载后通常还需在系统安装并在终端中选择。",
+        "quickStart": "1. 从 Font Installation 选择单个字体或 Release 字体包。\n2. 安装字体文件并在终端设置中选用，检查普通字符与图标的宽度和对齐。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "字体 / 图标资源",
+          "purpose": "给编程字体补充图标字形的字体集合与修补工具，可解决终端主题中的图标显示需求，并提供多种安装方式。",
+          "audience": "定制终端与代码编辑器的用户",
+          "example": "安装一个带图标的字体给终端使用。",
+          "steps": [
+            "从 Font Installation 选择单个字体或 Release 字体包。",
+            "安装字体文件并在终端设置中选用，检查普通字符与图标的宽度和对齐。"
+          ],
+          "verification": "图标无方框或错位、文字可读；下载压缩包不等于字体已启用。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more\n\n# \n  \n\n\n\n## \n  \n\n\n\n\n\n[Releases][release]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Fonts](#patched-fonts)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Font Patcher](#font-patcher)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Wiki Documentation][wiki]&nbsp;&n"
+            },
+            {
+              "field": "purpose",
+              "quote": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more\n\n# \n  \n\n\n\n## \n  \n\n\n\n\n\n[Releases][release]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Fonts](#patched-fonts)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Font Patcher](#font-patcher)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Wiki Documentation][wiki]&nbsp;&n"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more\n\n# \n  \n\n\n\n## \n  \n\n\n\n\n\n[Releases][release]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Fonts](#patched-fonts)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Font Patcher](#font-patcher)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Wiki Documentation][wiki]&nbsp;&n"
+            },
+            {
+              "field": "steps",
+              "quote": "nstaller)\n  * `Option 7.` want to install only one font for all fonts see [Fon\n\n## Font Installation\n\nSome of the options below just help you to download the font file(s) (i.e. `.ttf` or `.otf`) or archives of font files.\nThese must be installed on your system, depending on your OS. Usually (double) clicking the font files individually does the trick.\nAsk yo"
+            },
+            {
+              "field": "verification",
+              "quote": "nstaller)\n  * `Option 7.` want to install only one font for all fonts see [Fon\n\n## Font Installation\n\nSome of the options below just help you to download the font file(s) (i.e. `.ttf` or `.otf`) or archives of font files.\nThese must be installed on your system, depending on your OS. Usually (double) clicking the font files individually does the trick.\nAsk yo"
+            }
+          ],
+          "sourceHash": "2901ba2f90e01e48f197e81b7e0a8b66bb4fc8c6ceea7962ac0f6f8b7d6dd0cf",
+          "sourceUrl": "https://github.com/ryanoasis/nerd-fonts/blob/master/readme.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "2901ba2f90e01e48f197e81b7e0a8b66bb4fc8c6ceea7962ac0f6f8b7d6dd0cf",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "sansan0/trendradar": {
+      "sourceHash": "35498e1c04ed27290d7254f715af871ce96282a21c86d94c18ede03ada3b23bf",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "聚合多平台热点和 RSS，按关键词筛选并可通过模型整理分析、翻译和通知，支持 Docker 等部署与数据自持。",
+        "scenarios": [
+          "围绕一个主题建立每日资讯清单。"
+        ],
+        "usage": "聚合多平台热点和 RSS，按关键词筛选并可通过模型整理分析、翻译和通知，支持 Docker 等部署与数据自持。",
+        "requirements": "准备部署环境与信息源，AI 与推送渠道需各自的服务配置和权限。",
+        "quickStart": "1. 按 快速开始 的 Docker Compose 路线建立测试配置。\n2. 先配置少量源和关键词核对采集，再按需启用 AI 和一个通知渠道。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "聚合多平台热点和 RSS，按关键词筛选并可通过模型整理分析、翻译和通知，支持 Docker 等部署与数据自持。",
+          "audience": "需要跟踪话题的技术用户",
+          "example": "围绕一个主题建立每日资讯清单。",
+          "steps": [
+            "按 快速开始 的 Docker Compose 路线建立测试配置。",
+            "先配置少量源和关键词核对采集，再按需启用 AI 和一个通知渠道。"
+          ],
+          "verification": "匹配条目有正确来源与时间，通知数量可核对；模型分析不等于新闻已经证实。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。\n\n最快30秒部署的热点助手 —— 告别无效刷屏，只看真正关心的新闻资讯\n\n🌐 官方网站 · 📖 官网文档 · AI 自建热榜数据源\n\n\n\n\n[](https://github.com/sansan0/TrendRadar/stargazers)"
+            },
+            {
+              "field": "purpose",
+              "quote": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。\n\n最快30秒部署的热点助手 —— 告别无效刷屏，只看真正关心的新闻资讯\n\n🌐 官方网站 · 📖 官网文档 · AI 自建热榜数据源\n\n\n\n\n[](https://github.com/sansan0/TrendRadar/stargazers)"
+            },
+            {
+              "field": "scenarios",
+              "quote": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。\n\n最快30秒部署的热点助手 —— 告别无效刷屏，只看真正关心的新闻资讯\n\n🌐 官方网站 · 📖 官网文档 · AI 自建热榜数据源\n\n\n\n\n[](https://github.com/sansan0/TrendRadar/stargazers)"
+            },
+            {
+              "field": "steps",
+              "quote": "[**1**]\n\n**微博** (1 条):\n  1. 比亚迪月销量破纪录 [**2**]\n\n更新时间：2025-01-15 12:30:15\n\n\n\n#### 方式一：使用 docker compose（推荐）\n\n1. **创建项目目录和配置**:\n\n   ```bash\n   # 克隆项目到本地\n   git clone https://github.com/sansan0/TrendRadar.git\n   cd TrendRadar\n   ```\n\n   > 💡 **说明**：Docke"
+            },
+            {
+              "field": "verification",
+              "quote": "[**1**]\n\n**微博** (1 条):\n  1. 比亚迪月销量破纪录 [**2**]\n\n更新时间：2025-01-15 12:30:15\n\n\n\n#### 方式一：使用 docker compose（推荐）\n\n1. **创建项目目录和配置**:\n\n   ```bash\n   # 克隆项目到本地\n   git clone https://github.com/sansan0/TrendRadar.git\n   cd TrendRadar\n   ```\n\n   > 💡 **说明**：Docke"
+            }
+          ],
+          "sourceHash": "35498e1c04ed27290d7254f715af871ce96282a21c86d94c18ede03ada3b23bf",
+          "sourceUrl": "https://github.com/sansan0/TrendRadar/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "35498e1c04ed27290d7254f715af871ce96282a21c86d94c18ede03ada3b23bf",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "scrapy/scrapy": {
+      "sourceHash": "1ed9ecb6210be6a9c913c77eb7c37371010719e0ece793af1088c632de03a1f5",
+      "completedAt": "2026-11-04T10:20:03.460Z",
+      "content": {
+        "summary": "用于从网页提取结构化数据的 Python 爬取框架，适合编写可复用采集与处理流程，并提供完整开发文档。",
+        "scenarios": [
+          "从自己的测试页面提取标题与链接。"
+        ],
+        "usage": "用于从网页提取结构化数据的 Python 爬取框架，适合编写可复用采集与处理流程，并提供完整开发文档。",
+        "requirements": "README 要求 Python 3.11 以上，准备有权访问的测试网站并遵守采集限制。",
+        "quickStart": "1. 安装 Scrapy 后按官方 documentation 创建入门项目。\n2. 针对测试页面写提取规则，小范围运行并查看字段和错误。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发框架",
+          "purpose": "用于从网页提取结构化数据的 Python 爬取框架，适合编写可复用采集与处理流程，并提供完整开发文档。",
+          "audience": "研究授权网页数据处理的开发者",
+          "example": "从自己的测试页面提取标题与链接。",
+          "steps": [
+            "安装 Scrapy 后按官方 documentation 创建入门项目。",
+            "针对测试页面写提取规则，小范围运行并查看字段和错误。"
+          ],
+          "verification": "输出与页面内容对应，重复与失败处理明确，采集范围没有超出授权。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Scrapy, a fast high-level web crawling & scraping framework for Python.\n\n|logo|\n\n.. |logo| image:: https://raw.githubusercontent.com/scrapy/scrapy/master/docs/_static/logo.svg\n   :target: https://scrapy.org\n   :alt: Scrapy\n   :width: 480px\n\n|version| |python_version| |tests| |coverage| |conda| |deepwiki|\n\n.. |version| image:: htt"
+            },
+            {
+              "field": "purpose",
+              "quote": "Scrapy, a fast high-level web crawling & scraping framework for Python.\n\n|logo|\n\n.. |logo| image:: https://raw.githubusercontent.com/scrapy/scrapy/master/docs/_static/logo.svg\n   :target: https://scrapy.org\n   :alt: Scrapy\n   :width: 480px\n\n|version| |python_version| |tests| |coverage| |conda| |deepwiki|\n\n.. |version| image:: htt"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Scrapy, a fast high-level web crawling & scraping framework for Python.\n\n|logo|\n\n.. |logo| image:: https://raw.githubusercontent.com/scrapy/scrapy/master/docs/_static/logo.svg\n   :target: https://scrapy.org\n   :alt: Scrapy\n   :width: 480px\n\n|version| |python_version| |tests| |coverage| |conda| |deepwiki|\n\n.. |version| image:: htt"
+            },
+            {
+              "field": "steps",
+              "quote": "s/contributors\n.. _Scrapy: https://scrapy.org/\n.. _Zyte: https://www.zyte.com/\n\nInstall with:\n\n.. code:: bash\n\n    pip install scrapy\n\nAnd follow the documentation_ to learn how to use it.\n\n.. _documentation: https://docs.scrapy.org/en/latest/\n\nIf you wish to contribute, see Contributing_.\n\n.. _Contributing: https://docs.scrapy.org/en/master/contribut"
+            },
+            {
+              "field": "verification",
+              "quote": "s/contributors\n.. _Scrapy: https://scrapy.org/\n.. _Zyte: https://www.zyte.com/\n\nInstall with:\n\n.. code:: bash\n\n    pip install scrapy\n\nAnd follow the documentation_ to learn how to use it.\n\n.. _documentation: https://docs.scrapy.org/en/latest/\n\nIf you wish to contribute, see Contributing_.\n\n.. _Contributing: https://docs.scrapy.org/en/master/contribut"
+            }
+          ],
+          "sourceHash": "1ed9ecb6210be6a9c913c77eb7c37371010719e0ece793af1088c632de03a1f5",
+          "sourceUrl": "https://github.com/scrapy/scrapy/blob/master/README.rst",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "1ed9ecb6210be6a9c913c77eb7c37371010719e0ece793af1088c632de03a1f5",
+            "checkedAt": "2026-11-04T10:20:03.460Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     }
   },
   "pending": {
@@ -8271,15 +9626,6 @@
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-21T06:00:52.593Z"
     },
-    "remotion-dev/remotion": {
-      "id": "remotion-dev/remotion",
-      "sourceHash": "4eae2cef20c94b0dbd24829529150d46884976f801fea59881d6d1a9e44ce7d6",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/remotion-dev/remotion/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "traefik/traefik": {
       "id": "traefik/traefik",
       "sourceHash": "46b6efd4baefeca5547e0cbb03c61bdded293a4f349bba64c0f09f8aceabfdec",
@@ -8290,37 +9636,6 @@
       "reason": "invalid-response",
       "lastAttemptAt": "2026-10-25T06:04:34.666Z",
       "nextAttemptAt": "2026-10-25T07:04:34.666Z"
-    },
-    "ryanoasis/nerd-fonts": {
-      "id": "ryanoasis/nerd-fonts",
-      "sourceHash": "aeb4b9e1e66a86ba4a86765e3a1384ff67bed7f472c51bda62d4fb9597755533",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/ryanoasis/nerd-fonts/blob/master/readme.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-25T06:04:34.666Z",
-      "nextAttemptAt": "2026-10-25T07:04:34.666Z"
-    },
-    "scrapy/scrapy": {
-      "id": "scrapy/scrapy",
-      "sourceHash": "1ed9ecb6210be6a9c913c77eb7c37371010719e0ece793af1088c632de03a1f5",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/scrapy/scrapy/blob/master/README.rst",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-23T06:01:15.471Z"
-    },
-    "rust-lang/rustlings": {
-      "id": "rust-lang/rustlings",
-      "sourceHash": "b8be9c50fb6c31e21b6499fb4e5cdd784d5f039486eb1ff0de49b4ea1945b2b1",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/rust-lang/rustlings/blob/main/README.md",
-      "reason": "invalid-response",
-      "lastAttemptAt": "2026-10-24T05:48:37.387Z"
     },
     "virattt/ai-hedge-fund": {
       "id": "virattt/ai-hedge-fund",
@@ -8386,17 +9701,6 @@
       "lastAttemptAt": "2026-10-27T06:14:54.471Z",
       "nextAttemptAt": "2026-10-27T07:14:54.471Z"
     },
-    "rvc-boss/gpt-sovits": {
-      "id": "rvc-boss/gpt-sovits",
-      "sourceHash": "eccc323602a85e6bbb4cde6b50536bf76198bd2c6c337ee2175489f2ca0cb76d",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/RVC-Boss/GPT-SoVITS/blob/main/README.md",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-10-27T06:14:54.471Z",
-      "nextAttemptAt": "2026-10-27T07:14:54.471Z"
-    },
     "socketio/socket.io": {
       "id": "socketio/socket.io",
       "sourceHash": "a57f48cc64f6cc54e4eaaf0e7fc6764e544e85d97575d91ca6363c67cc96b19a",
@@ -8416,28 +9720,6 @@
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/termux/termux-app/blob/master/README.md",
       "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-10-28T06:50:28.519Z",
-      "nextAttemptAt": "2026-10-28T07:50:28.519Z"
-    },
-    "sansan0/trendradar": {
-      "id": "sansan0/trendradar",
-      "sourceHash": "ab89114f6703c8f6c05d745099077753394be7948dedd7d2b6e0c49db933b76d",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/sansan0/TrendRadar/blob/master/README.md",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-10-28T06:50:28.519Z",
-      "nextAttemptAt": "2026-10-28T07:50:28.519Z"
-    },
-    "resume/resume.github.com": {
-      "id": "resume/resume.github.com",
-      "sourceHash": "a774036b7b544e3c73f7743e04d8ced976826d9fd747b7cb2127b3fc2dc70278",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/resume/resume.github.com/blob/master/README.markdown",
-      "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-28T06:50:28.519Z",
       "nextAttemptAt": "2026-10-28T07:50:28.519Z"
     },
@@ -8483,24 +9765,6 @@
       "readmeUrl": "https://github.com/Solido/awesome-flutter/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "pocketbase/pocketbase": {
-      "id": "pocketbase/pocketbase",
-      "sourceHash": "f00a91249e81ae68efe5764ca776447d92cd5fe6de33416a39b38eec94bcd394",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-10-26T06:09:17.010Z",
-      "readmeUrl": "https://github.com/pocketbase/pocketbase/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "reduxjs/redux": {
-      "id": "reduxjs/redux",
-      "sourceHash": "9144834a710bd0c2134388edbd098a517997110b4bb0de4db5b244a9474febea",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/reduxjs/redux/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "sharkdp/bat": {
       "id": "sharkdp/bat",
       "sourceHash": "8b0c330a3f454df57d8321cdcfb1d9e97cb25ba057186a482443487d88e11c2d",
@@ -8517,15 +9781,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/xingshaocheng/architect-awesome/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "rclone/rclone": {
-      "id": "rclone/rclone",
-      "sourceHash": "ccfdad9c532c0b8256dc8ed75de631663a5714432899228e3b9a7459990fe85a",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/rclone/rclone/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "starship/starship": {
@@ -8546,24 +9801,6 @@
       "readmeUrl": "https://github.com/spring-projects/spring-framework/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "raphire/win11debloat": {
-      "id": "raphire/win11debloat",
-      "sourceHash": "68667dfceafb71caf63e15cd599b10296420c242fb4eba938ae5a4339265b8a9",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/Raphire/Win11Debloat/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "rust-unofficial/awesome-rust": {
-      "id": "rust-unofficial/awesome-rust",
-      "sourceHash": "d63bcb309cf275df02c480e22c1d42321a3cfa3afbfeb73e078bc1cb23a7df23",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/rust-unofficial/awesome-rust/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "tiimgreen/github-cheat-sheet": {
       "id": "tiimgreen/github-cheat-sheet",
       "sourceHash": "be0891dfab4ba4404cd4c56cecba7ed4bc6fa5dac4ce579dfb1c33b245edc050",
@@ -8580,15 +9817,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/shadowsocks/shadowsocks-windows/blob/v4/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "rails/rails": {
-      "id": "rails/rails",
-      "sourceHash": "49a7beaac6f7f5a6f326c5b6496bf357911b1c02f1de9d19983ff56e6e2fdeee",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/rails/rails/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "twentyhq/twenty": {
@@ -8672,33 +9900,6 @@
       "readmeUrl": "https://github.com/typst/typst/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "remix-run/react-router": {
-      "id": "remix-run/react-router",
-      "sourceHash": "84108c605c3d5430cf5eaaf55dc04543b228c68eb339507f9085c5edb0bbee48",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/remix-run/react-router/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "powershell/powershell": {
-      "id": "powershell/powershell",
-      "sourceHash": "11d147f477d2714829793abbde5ee522b88e5e3d22a66cd221e8f0a2d185eec1",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/PowerShell/PowerShell/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "router-for-me/cliproxyapi": {
-      "id": "router-for-me/cliproxyapi",
-      "sourceHash": "c5a85c7cd7b26f919bf226bacf6b73584095ce0210e5e7f58def82457893c696",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/router-for-me/CLIProxyAPI/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "tryghost/ghost": {
       "id": "tryghost/ghost",
       "sourceHash": "d9611164524d2953c8ff0cde8135ab7d6c5b7e770f7bdd50fb29f3e455997a68",
@@ -8717,15 +9918,6 @@
       "readmeUrl": "https://github.com/WerWolv/ImHex/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "romkatv/powerlevel10k": {
-      "id": "romkatv/powerlevel10k",
-      "sourceHash": "74acfe772a48510a2c5f67c64fa022d17cedd609c31b4f43b9657436e21185b3",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/romkatv/powerlevel10k/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "vuejs/core": {
       "id": "vuejs/core",
       "sourceHash": "142725384b8042fb247816e3a649a9219951923186b566c3c910f6751f5b9aae",
@@ -8742,15 +9934,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/wagoodman/dive/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "psf/requests": {
-      "id": "psf/requests",
-      "sourceHash": "6964e6ef8610654cef2a32c65b5b1d18fbdd13f87f4efcd06a38e13d51a912c1",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/psf/requests/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "vsouza/awesome-ios": {
@@ -8780,33 +9963,6 @@
       "readmeUrl": "https://github.com/sickcodes/Docker-OSX/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "poteto/hiring-without-whiteboards": {
-      "id": "poteto/hiring-without-whiteboards",
-      "sourceHash": "c7430086e237d6e9a938000f5c07044ed037d7ab5e2738f4b157b03320bf069e",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/poteto/hiring-without-whiteboards/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "run-llama/llama_index": {
-      "id": "run-llama/llama_index",
-      "sourceHash": "6ae4ec4cb505feba58820a233bb3a2b85f1af87db40c28fd43d5904f34b09b5a",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/run-llama/llama_index/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "prettier/prettier": {
-      "id": "prettier/prettier",
-      "sourceHash": "b3e17c69babe3f15b12308499c1f99626aeedbb4c2118801563a0a4e5d556cd1",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/prettier/prettier/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "xai-org/grok-1": {
       "id": "xai-org/grok-1",
       "sourceHash": "e140036f021ef872459601df8f6b896a5ab4fbc57c9f0ac9e8c6dc2603bc2e3a",
@@ -8826,15 +9982,6 @@
       "reason": "source-review-rejected",
       "lastAttemptAt": "2026-11-04T07:28:40.974Z",
       "nextAttemptAt": "2026-11-04T08:28:40.974Z"
-    },
-    "roboflow/supervision": {
-      "id": "roboflow/supervision",
-      "sourceHash": "d6fea53f96dd8e430582d2ea42f555fbade1a1a82893673025c935dd96b07b26",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/roboflow/supervision/blob/develop/README.md",
-      "reason": "awaiting-chinese-guide"
     },
     "skylot/jadx": {
       "id": "skylot/jadx",
@@ -8890,15 +10037,6 @@
       "readmeUrl": "https://github.com/TanStack/query/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "quantumnous/new-api": {
-      "id": "quantumnous/new-api",
-      "sourceHash": "e85df865a983d2bf6874c9dd792b9fb7aa09bc2f15336d833a1b4980d63c6521",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/QuantumNous/new-api/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "team-spotube/spotube": {
       "id": "team-spotube/spotube",
       "sourceHash": "e04f5aeeb9ce3fda9a60f2fca9987e50e25cd71155c7cb62c6be88e872da9b7b",
@@ -8907,16 +10045,6 @@
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/team-spotube/spotube/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
-    },
-    "prometheus/prometheus": {
-      "id": "prometheus/prometheus",
-      "sourceHash": "c8bba184e8d8a4fd2fa92e80c58fe2e087bdc039c0c79e1ffab4b47a47bb6a31",
-      "firstSeenAt": "2026-10-24T05:48:37.387Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/prometheus/prometheus/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-24T05:48:37.387Z"
     },
     "yuan1z0825/nature-skills": {
       "id": "yuan1z0825/nature-skills",
