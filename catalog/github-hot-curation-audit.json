@@ -846,6 +846,133 @@
           "editionCopies": 3
         }
       ]
+    },
+    {
+      "batch": "backlog-009",
+      "reviewedAt": "2026-11-04T10:24:11.228Z",
+      "method": "source-reading-and-structure-check",
+      "projects": [
+        {
+          "id": "scutan90/deeplearning-500-questions",
+          "sourceHash": "230300c607a67623a4079e1297c446faaf3f337b5c288fb4430009dd0120c007",
+          "editionCopies": 3
+        },
+        {
+          "id": "semantic-org/semantic-ui",
+          "sourceHash": "d1838da0511effbbe1f74ae26427e41a611a92424989a3c63bc2afd042f4e88f",
+          "editionCopies": 3
+        },
+        {
+          "id": "serhii-londar/open-source-mac-os-apps",
+          "sourceHash": "c9f4baa878707db401ab66f18742e184a150ce0bcc23ca30f26592f520867e1c",
+          "editionCopies": 3
+        },
+        {
+          "id": "shadowsocks/shadowsocks-windows",
+          "sourceHash": "7bb03018159fc0e974ede2474b14dd94ff584984c30a05cd48fb07358efdbb4d",
+          "editionCopies": 3
+        },
+        {
+          "id": "sharkdp/bat",
+          "sourceHash": "54195407048fdc6187aad5b3fe78305e15a8ae8a500a3fe3ca61d97d1be6859a",
+          "editionCopies": 3
+        },
+        {
+          "id": "sickcodes/docker-osx",
+          "sourceHash": "837eee2ef4b2edf38606fdd518d36eefbb13820abbac9a39aef431cfd4df4180",
+          "editionCopies": 3
+        },
+        {
+          "id": "skylot/jadx",
+          "sourceHash": "8a5059cbdf8c954cd6cc95d64528c4a352074262c82594b50d0de2f3b0f8b196",
+          "editionCopies": 3
+        },
+        {
+          "id": "socketio/socket.io",
+          "sourceHash": "a57f48cc64f6cc54e4eaaf0e7fc6764e544e85d97575d91ca6363c67cc96b19a",
+          "editionCopies": 3
+        },
+        {
+          "id": "soimort/you-get",
+          "sourceHash": "205cf0ef05553cf3319d3bb254f67c00c8548e4f4b966ed535e2222485b9cb1b",
+          "editionCopies": 3
+        },
+        {
+          "id": "solido/awesome-flutter",
+          "sourceHash": "47df2584df9fbb04b35fbc66bd89c064eb201bfb64a04de0806a9fcdbe82fc73",
+          "editionCopies": 3
+        },
+        {
+          "id": "spring-projects/spring-framework",
+          "sourceHash": "aada63ade842cf3571d589868adb13dadbeb4610a25f05e7c17c317f6af13936",
+          "editionCopies": 3
+        },
+        {
+          "id": "starship/starship",
+          "sourceHash": "0133def9d97727637add8c783877d887892ce2b88fc52794f92bbfb976149f0f",
+          "editionCopies": 3
+        },
+        {
+          "id": "tanstack/query",
+          "sourceHash": "eb4a4b899584bab2ca41e6db5f98cba0d93aae133f559cff5bcc02b5012f5716",
+          "editionCopies": 2
+        },
+        {
+          "id": "team-spotube/spotube",
+          "sourceHash": "29357a4d6ce43364e5013a5ccebd79688079a3be28039fc745b87fa51f2b88aa",
+          "editionCopies": 2
+        },
+        {
+          "id": "termux/termux-app",
+          "sourceHash": "dce747037423712411af51361f123d337994dd311e63781079e9db0b6d907789",
+          "editionCopies": 3
+        },
+        {
+          "id": "textualize/rich",
+          "sourceHash": "68f454af26cac667205e509d5744c2416d0d1407ad6432b963937a238375f1da",
+          "editionCopies": 3
+        },
+        {
+          "id": "thealgorithms/java",
+          "sourceHash": "1f1f51c753fcc71ca89a959ff04b74ad3fb56c6baf3cb4b4a19f31b4e9842b9c",
+          "editionCopies": 3
+        },
+        {
+          "id": "tiimgreen/github-cheat-sheet",
+          "sourceHash": "be0891dfab4ba4404cd4c56cecba7ed4bc6fa5dac4ce579dfb1c33b245edc050",
+          "editionCopies": 3
+        },
+        {
+          "id": "tldr-pages/tldr",
+          "sourceHash": "d7fa3321fe6f620a3211610f5016502197cb335339de4dbb824d5229e27f1558",
+          "editionCopies": 3
+        },
+        {
+          "id": "tldraw/tldraw",
+          "sourceHash": "f1e1302d709bc4b815a6e773fd1c2c72d32d5a52445b193473b4715ae9739304",
+          "editionCopies": 3
+        },
+        {
+          "id": "topjohnwu/magisk",
+          "sourceHash": "d4abc679661d6bd55343f6b02699909a6c162bfa8bb89aef45e2d6c2b5f0db7f",
+          "editionCopies": 3
+        },
+        {
+          "id": "traefik/traefik",
+          "sourceHash": "443be1d5892fd1d21ba7b6cca42f0e9e1df43002b2a8df95279373515c814c3c",
+          "editionCopies": 3
+        },
+        {
+          "id": "tryghost/ghost",
+          "sourceHash": "d9611164524d2953c8ff0cde8135ab7d6c5b7e770f7bdd50fb29f3e455997a68",
+          "editionCopies": 3
+        },
+        {
+          "id": "tw93/pake",
+          "sourceHash": "e6c4e2517cf046f7cc747863ce567bd8c95b8d74b7273110faf02a14d756fb4a",
+          "editionCopies": 3
+        }
+      ]
     }
   ]
 }

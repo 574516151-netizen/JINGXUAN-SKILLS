@@ -9563,6 +9563,1422 @@
         },
         "editorialStatus": "中文导读 · 官方原文已核对"
       }
+    },
+    "scutan90/deeplearning-500-questions": {
+      "sourceHash": "230300c607a67623a4079e1297c446faaf3f337b5c288fb4430009dd0120c007",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "以问答组织数学、机器学习与深度学习知识的中文资料，涉及网络结构、视觉任务、训练技巧和模型优化。",
+        "scenarios": [
+          "按主题检查自己对反向传播和归一化的理解。"
+        ],
+        "usage": "以问答组织数学、机器学习与深度学习知识的中文资料，涉及网络结构、视觉任务、训练技巧和模型优化。",
+        "requirements": "阅读无需运行环境；代码验证需对应框架，资料年份与当前方法区别确认。",
+        "quickStart": "1. 从目录选择一个薄弱主题，先尝试独立回答。\n2. 阅读解释并用小公式或实验验证，再对照当前框架文档记录差异。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "以问答组织数学、机器学习与深度学习知识的中文资料，涉及网络结构、视觉任务、训练技巧和模型优化。",
+          "audience": "复习深度学习基础的学习者",
+          "example": "按主题检查自己对反向传播和归一化的理解。",
+          "steps": [
+            "从目录选择一个薄弱主题，先尝试独立回答。",
+            "阅读解释并用小公式或实验验证，再对照当前框架文档记录差异。"
+          ],
+          "verification": "能够解释概念和适用条件，历史资料与新方法分开；题数不代表完整覆盖所有研究。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为18个章节，50余万字。由于水平有限，书中不妥之处恳请广大读者批评指正。   未完待续............ 如有意合作，联系scutjy2015@163.com                     版权所有，违权必究       Tan 2018.06\n\n# 京东售卖链接：https://item.jd.com/12785031.html\n# 京东商城100多家书店有现货。\n\n## 深度学习500问——AI工程师面试宝典(博文视点出品)，谈继勇 主编，郭子钊，李剑，佃松宜 副主编 著\n\n# 内容简介\n\n本书系统地描述了深度学习的基本理论算法及应用。全书共14章，第1-3章论述了数学基础、机器学习基础和深度学习基础；第4-7章介绍了一些经典网络及计算机视觉领域中常用的CNN、RNN、"
+            },
+            {
+              "field": "purpose",
+              "quote": "深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为18个章节，50余万字。由于水平有限，书中不妥之处恳请广大读者批评指正。   未完待续............ 如有意合作，联系scutjy2015@163.com                     版权所有，违权必究       Tan 2018.06\n\n# 京东售卖链接：https://item.jd.com/12785031.html\n# 京东商城100多家书店有现货。\n\n## 深度学习500问——AI工程师面试宝典(博文视点出品)，谈继勇 主编，郭子钊，李剑，佃松宜 副主编 著\n\n# 内容简介\n\n本书系统地描述了深度学习的基本理论算法及应用。全书共14章，第1-3章论述了数学基础、机器学习基础和深度学习基础；第4-7章介绍了一些经典网络及计算机视觉领域中常用的CNN、RNN、"
+            },
+            {
+              "field": "scenarios",
+              "quote": "深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为18个章节，50余万字。由于水平有限，书中不妥之处恳请广大读者批评指正。   未完待续............ 如有意合作，联系scutjy2015@163.com                     版权所有，违权必究       Tan 2018.06\n\n# 京东售卖链接：https://item.jd.com/12785031.html\n# 京东商城100多家书店有现货。\n\n## 深度学习500问——AI工程师面试宝典(博文视点出品)，谈继勇 主编，郭子钊，李剑，佃松宜 副主编 著\n\n# 内容简介\n\n本书系统地描述了深度学习的基本理论算法及应用。全书共14章，第1-3章论述了数学基础、机器学习基础和深度学习基础；第4-7章介绍了一些经典网络及计算机视觉领域中常用的CNN、RNN、"
+            },
+            {
+              "field": "steps",
+              "quote": "么使用深层表示 93\n\n3.1.5 深度学习架构分类 94\n\n3.1.6 如何选择深度学习开发平台 94\n\n3.2 神经网络计算 95\n\n3.2.1 前向传播和反向传播 95\n\n3.2.2 如何计算神经网络的输出 96\n\n3.2.3 如何计算卷积神经网络输出值 97\n\n3.2.4 如何计算池化层输出值 100\n\n3.2.5 反向传播实例 101\n\n3.2.6 神经网络更“深”的意义 104\n\n3.3 激活函数 104\n\n3.3.1 为什么需要激活函数 104\n\n3.3.2 为什么激活函数需要非线性函数 105\n\n3.3.3 常见的激活函数及其图像 105\n\n3.3.4 常见激活函数的导数计算 107\n\n3.3.5 激活函数有哪些性质 108\n\n3.3.6 如何选择激活函数 108"
+            },
+            {
+              "field": "verification",
+              "quote": "么使用深层表示 93\n\n3.1.5 深度学习架构分类 94\n\n3.1.6 如何选择深度学习开发平台 94\n\n3.2 神经网络计算 95\n\n3.2.1 前向传播和反向传播 95\n\n3.2.2 如何计算神经网络的输出 96\n\n3.2.3 如何计算卷积神经网络输出值 97\n\n3.2.4 如何计算池化层输出值 100\n\n3.2.5 反向传播实例 101\n\n3.2.6 神经网络更“深”的意义 104\n\n3.3 激活函数 104\n\n3.3.1 为什么需要激活函数 104\n\n3.3.2 为什么激活函数需要非线性函数 105\n\n3.3.3 常见的激活函数及其图像 105\n\n3.3.4 常见激活函数的导数计算 107\n\n3.3.5 激活函数有哪些性质 108\n\n3.3.6 如何选择激活函数 108"
+            }
+          ],
+          "sourceHash": "230300c607a67623a4079e1297c446faaf3f337b5c288fb4430009dd0120c007",
+          "sourceUrl": "https://github.com/scutan90/DeepLearning-500-questions/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "230300c607a67623a4079e1297c446faaf3f337b5c288fb4430009dd0120c007",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "semantic-org/semantic-ui": {
+      "sourceHash": "d1838da0511effbbe1f74ae26427e41a611a92424989a3c63bc2afd042f4e88f",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "以语义化表达与主题定制为特点的网页 UI 框架，提供组件、CSS 变量和主题继承等能力。",
+        "scenarios": [
+          "使用按钮、表单与列表组件搭建一致风格页面。"
+        ],
+        "usage": "以语义化表达与主题定制为特点的网页 UI 框架，提供组件、CSS 变量和主题继承等能力。",
+        "requirements": "准备网页开发环境，组件脚本和构建依赖按官方文档配置。",
+        "quickStart": "1. 从 semantic-ui.com 的文档选择安装方式并接入样式。\n2. 复制一个组件示例，替换内容后调整主题变量，检查交互与响应式。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "以语义化表达与主题定制为特点的网页 UI 框架，提供组件、CSS 变量和主题继承等能力。",
+          "audience": "制作网页界面的前端工程师",
+          "example": "使用按钮、表单与列表组件搭建一致风格页面。",
+          "steps": [
+            "从 semantic-ui.com 的文档选择安装方式并接入样式。",
+            "复制一个组件示例，替换内容后调整主题变量，检查交互与响应式。"
+          ],
+          "verification": "组件样式与交互正常，主题变化保持一致；框架本身不决定信息架构。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Semantic is a UI component framework based around useful principles from natural language.\n\n# Semantic UI\n\n[](https://gitter.im/Semantic-Org/Semantic-UI?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n[](https://cdnjs.com/libraries/semantic-ui/)\n\n[Semantic](http://www.semantic-ui.com) is a UI framework designed for themi"
+            },
+            {
+              "field": "purpose",
+              "quote": "Semantic is a UI component framework based around useful principles from natural language.\n\n# Semantic UI\n\n[](https://gitter.im/Semantic-Org/Semantic-UI?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n[](https://cdnjs.com/libraries/semantic-ui/)\n\n[Semantic](http://www.semantic-ui.com) is a UI framework designed for themi"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Semantic is a UI component framework based around useful principles from natural language.\n\n# Semantic UI\n\n[](https://gitter.im/Semantic-Org/Semantic-UI?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n[](https://cdnjs.com/libraries/semantic-ui/)\n\n[Semantic](http://www.semantic-ui.com) is a UI framework designed for themi"
+            },
+            {
+              "field": "steps",
+              "quote": "/cdnjs.com/libraries/semantic-ui/)\n\n[Semantic](http://www.semantic-ui.com) is a UI framework designed for theming.\n\nKey Features\n* 50+ UI elements\n* 3000 + CSS variables\n* 3 Levels of variable inheritance (similar to SublimeText)\n* Built with EM values for responsive design\n* Flexbox friendly\n\nSemantic allows developers to build beautiful websites fast, with **concise HT"
+            },
+            {
+              "field": "verification",
+              "quote": "/cdnjs.com/libraries/semantic-ui/)\n\n[Semantic](http://www.semantic-ui.com) is a UI framework designed for theming.\n\nKey Features\n* 50+ UI elements\n* 3000 + CSS variables\n* 3 Levels of variable inheritance (similar to SublimeText)\n* Built with EM values for responsive design\n* Flexbox friendly\n\nSemantic allows developers to build beautiful websites fast, with **concise HT"
+            }
+          ],
+          "sourceHash": "d1838da0511effbbe1f74ae26427e41a611a92424989a3c63bc2afd042f4e88f",
+          "sourceUrl": "https://github.com/Semantic-Org/Semantic-UI/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "d1838da0511effbbe1f74ae26427e41a611a92424989a3c63bc2afd042f4e88f",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "serhii-londar/open-source-mac-os-apps": {
+      "sourceHash": "c9f4baa878707db401ab66f18742e184a150ce0bcc23ca30f26592f520867e1c",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "按类别整理 macOS 开源应用，包含原生和跨平台软件、语言与来源链接，适合寻找工具或学习实现。",
+        "scenarios": [
+          "按 Graphics 或 Productivity 分类挑选软件。"
+        ],
+        "usage": "按类别整理 macOS 开源应用，包含原生和跨平台软件、语言与来源链接，适合寻找工具或学习实现。",
+        "requirements": "浏览即可筛选，安装条件、芯片支持和签名状态按各项目确认。",
+        "quickStart": "1. 从分类目录选择用途并打开候选仓库。\n2. 核对当前发行版、维护和许可，再在自己的 Mac 上测试最需要的功能。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "资源目录",
+          "purpose": "按类别整理 macOS 开源应用，包含原生和跨平台软件、语言与来源链接，适合寻找工具或学习实现。",
+          "audience": "寻找开源 Mac 工具的用户",
+          "example": "按 Graphics 或 Productivity 分类挑选软件。",
+          "steps": [
+            "从分类目录选择用途并打开候选仓库。",
+            "核对当前发行版、维护和许可，再在自己的 Mac 上测试最需要的功能。"
+          ],
+          "verification": "所选工具匹配系统和目标，来源明确；目录不是一个包含全部软件的安装包。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps\n\n# Awesome macOS Open Source Applications\n\n  A curated list of open source applications for macOS\n  \n    \n    \n    \n  \n  \n    \n    \n    \n  \n\n\n\n  Audio •\n  Backup •\n  Browser •\n  Chat •\n  Crypto •\n  Database •\n  Dev •\n  Editors •\n  Graphics •\n  Productivity •\n"
+            },
+            {
+              "field": "purpose",
+              "quote": "🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps\n\n# Awesome macOS Open Source Applications\n\n  A curated list of open source applications for macOS\n  \n    \n    \n    \n  \n  \n    \n    \n    \n  \n\n\n\n  Audio •\n  Backup •\n  Browser •\n  Chat •\n  Crypto •\n  Database •\n  Dev •\n  Editors •\n  Graphics •\n  Productivity •\n"
+            },
+            {
+              "field": "scenarios",
+              "quote": "🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps\n\n# Awesome macOS Open Source Applications\n\n  A curated list of open source applications for macOS\n  \n    \n    \n    \n  \n  \n    \n    \n    \n  \n\n\n\n  Audio •\n  Backup •\n  Browser •\n  Chat •\n  Crypto •\n  Database •\n  Dev •\n  Editors •\n  Graphics •\n  Productivity •\n"
+            },
+            {
+              "field": "steps",
+              "quote": "https://t.me/s/opensourcemacosapps\n\n# Awesome macOS Open Source Applications\n\n  A curated list of open source applications for macOS\n  \n    \n    \n    \n  \n  \n    \n    \n    \n  \n\n\n\n  Audio •\n  Backup •\n  Browser •\n  Chat •\n  Crypto •\n  Database •\n  Dev •\n  Editors •\n  Graphics •\n  Productivity •\n  Utilities\n\n\nList of awesome open source applications for macOS. This list contains a l"
+            },
+            {
+              "field": "verification",
+              "quote": "https://t.me/s/opensourcemacosapps\n\n# Awesome macOS Open Source Applications\n\n  A curated list of open source applications for macOS\n  \n    \n    \n    \n  \n  \n    \n    \n    \n  \n\n\n\n  Audio •\n  Backup •\n  Browser •\n  Chat •\n  Crypto •\n  Database •\n  Dev •\n  Editors •\n  Graphics •\n  Productivity •\n  Utilities\n\n\nList of awesome open source applications for macOS. This list contains a l"
+            }
+          ],
+          "sourceHash": "c9f4baa878707db401ab66f18742e184a150ce0bcc23ca30f26592f520867e1c",
+          "sourceUrl": "https://github.com/serhii-londar/open-source-mac-os-apps/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "c9f4baa878707db401ab66f18742e184a150ce0bcc23ca30f26592f520867e1c",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "shadowsocks/shadowsocks-windows": {
+      "sourceHash": "7bb03018159fc0e974ede2474b14dd94ff584984c30a05cd48fb07358efdbb4d",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "Windows 上的 Shadowsocks 图形客户端，支持系统代理、PAC 与规则、自动切换和插件等功能。",
+        "scenarios": [
+          "导入自己的服务配置并检查规则模式。"
+        ],
+        "usage": "Windows 上的 Shadowsocks 图形客户端，支持系统代理、PAC 与规则、自动切换和插件等功能。",
+        "requirements": "README 要求相应 .NET Framework，另需有权使用的服务地址和凭据。",
+        "quickStart": "1. 从 Downloads 取得发行版本，按 Usage 填入自己的配置。\n2. 选择规则或全局模式，测试连接后确认哪些域名直连或代理。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "Windows 上的 Shadowsocks 图形客户端，支持系统代理、PAC 与规则、自动切换和插件等功能。",
+          "audience": "需要管理自有代理配置的 Windows 用户",
+          "example": "导入自己的服务配置并检查规则模式。",
+          "steps": [
+            "从 Downloads 取得发行版本，按 Usage 填入自己的配置。",
+            "选择规则或全局模式，测试连接后确认哪些域名直连或代理。"
+          ],
+          "verification": "连接和规则符合配置，关闭后原网络可恢复；客户端本身不提供服务端账号。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A C# port of shadowsocks\n\nShadowsocks for Windows\n=======================\n\n[![Build Status]][Appveyor]\n\n[中文说明]\n\n## Features\n\n1. System proxy configuration\n2. PAC mode and global mode\n3. [GeoSite] and user rules\n4. Supports HTTP proxy\n5. Supports server auto switching\n6. Supports UDP "
+            },
+            {
+              "field": "purpose",
+              "quote": "A C# port of shadowsocks\n\nShadowsocks for Windows\n=======================\n\n[![Build Status]][Appveyor]\n\n[中文说明]\n\n## Features\n\n1. System proxy configuration\n2. PAC mode and global mode\n3. [GeoSite] and user rules\n4. Supports HTTP proxy\n5. Supports server auto switching\n6. Supports UDP "
+            },
+            {
+              "field": "scenarios",
+              "quote": "A C# port of shadowsocks\n\nShadowsocks for Windows\n=======================\n\n[![Build Status]][Appveyor]\n\n[中文说明]\n\n## Features\n\n1. System proxy configuration\n2. PAC mode and global mode\n3. [GeoSite] and user rules\n4. Supports HTTP proxy\n5. Supports server auto switching\n6. Supports UDP "
+            },
+            {
+              "field": "steps",
+              "quote": "ts server auto switching\n6. Supports UDP relay (see Usage)\n7. Supports plugins\n\n## Downloads\n\nDownload the latest release from [release page].\n\n## Requirements\n\n.NET Framework 4.8 or higher, Microsoft [Visual C++ 2015 Redistributable] (x86) .\n\n## Basics\n\n1. Find Shadowsocks icon in the notification tray\n2. You can add multiple servers in servers menu"
+            },
+            {
+              "field": "verification",
+              "quote": "ts server auto switching\n6. Supports UDP relay (see Usage)\n7. Supports plugins\n\n## Downloads\n\nDownload the latest release from [release page].\n\n## Requirements\n\n.NET Framework 4.8 or higher, Microsoft [Visual C++ 2015 Redistributable] (x86) .\n\n## Basics\n\n1. Find Shadowsocks icon in the notification tray\n2. You can add multiple servers in servers menu"
+            }
+          ],
+          "sourceHash": "7bb03018159fc0e974ede2474b14dd94ff584984c30a05cd48fb07358efdbb4d",
+          "sourceUrl": "https://github.com/shadowsocks/shadowsocks-windows/blob/v4/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "7bb03018159fc0e974ede2474b14dd94ff584984c30a05cd48fb07358efdbb4d",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "sharkdp/bat": {
+      "sourceHash": "54195407048fdc6187aad5b3fe78305e15a8ae8a500a3fe3ca61d97d1be6859a",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "带语法高亮、行号和 Git 集成的终端文件查看器，可替代部分 cat 的阅读场景并处理标准输入。",
+        "scenarios": [
+          "查看源码并突出显示改动与行号。"
+        ],
+        "usage": "带语法高亮、行号和 Git 集成的终端文件查看器，可替代部分 cat 的阅读场景并处理标准输入。",
+        "requirements": "按系统安装发行包，Windows 相关运行库按 Prerequisites 确认。",
+        "quickStart": "1. 从 Installation 选择安装方式，用 bat 打开一个源码文件。\n2. 按 How To Use 测试行号、语言选择与标准输入，检查主题与终端表现。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "带语法高亮、行号和 Git 集成的终端文件查看器，可替代部分 cat 的阅读场景并处理标准输入。",
+          "audience": "经常在终端阅读代码的开发者",
+          "example": "查看源码并突出显示改动与行号。",
+          "steps": [
+            "从 Installation 选择安装方式，用 bat 打开一个源码文件。",
+            "按 How To Use 测试行号、语言选择与标准输入，检查主题与终端表现。"
+          ],
+          "verification": "内容没有变化，高亮与行号正确；查看器不应被误当作代码执行器。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A cat(1) clone with wings.\n\nA cat(1) clone with syntax highlighting and Git integration.\n\n\n\n  Key Features •\n  How To Use •\n  Installation •\n  Customization •\n  Project goals, alternatives\n  [English]\n  [中文]\n  [日本語]\n  [한국어]\n  [Русский]\n\n\n### Syntax highlighting\n\n`bat` supports syntax h"
+            },
+            {
+              "field": "purpose",
+              "quote": "A cat(1) clone with wings.\n\nA cat(1) clone with syntax highlighting and Git integration.\n\n\n\n  Key Features •\n  How To Use •\n  Installation •\n  Customization •\n  Project goals, alternatives\n  [English]\n  [中文]\n  [日本語]\n  [한국어]\n  [Русский]\n\n\n### Syntax highlighting\n\n`bat` supports syntax h"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A cat(1) clone with wings.\n\nA cat(1) clone with syntax highlighting and Git integration.\n\n\n\n  Key Features •\n  How To Use •\n  Installation •\n  Customization •\n  Project goals, alternatives\n  [English]\n  [中文]\n  [日本語]\n  [한국어]\n  [Русский]\n\n\n### Syntax highlighting\n\n`bat` supports syntax h"
+            },
+            {
+              "field": "steps",
+              "quote": "//learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) package.\n\n\n\n## Installation\n\n\n\n[](https://repology.org/project/bat-cat/versions)\n\n\n\n# Download a theme in '.tmTheme' format, for example:\ngit clone https://github.com/greggb/sublime-snazzy\n\n\n\n# Install (release version)\ncargo install --path . --locked"
+            },
+            {
+              "field": "verification",
+              "quote": "//learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) package.\n\n\n\n## Installation\n\n\n\n[](https://repology.org/project/bat-cat/versions)\n\n\n\n# Download a theme in '.tmTheme' format, for example:\ngit clone https://github.com/greggb/sublime-snazzy\n\n\n\n# Install (release version)\ncargo install --path . --locked"
+            }
+          ],
+          "sourceHash": "54195407048fdc6187aad5b3fe78305e15a8ae8a500a3fe3ca61d97d1be6859a",
+          "sourceUrl": "https://github.com/sharkdp/bat/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "54195407048fdc6187aad5b3fe78305e15a8ae8a500a3fe3ca61d97d1be6859a",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "sickcodes/docker-osx": {
+      "sourceHash": "837eee2ef4b2edf38606fdd518d36eefbb13820abbac9a39aef431cfd4df4180",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "把 macOS 虚拟机的运行环境封装到 Docker 工作流中，适用于受许可环境下的系统研究与测试，仍依赖虚拟化而非普通容器隔离。",
+        "scenarios": [
+          "评估自己的授权测试环境是否具备运行条件。"
+        ],
+        "usage": "把 macOS 虚拟机的运行环境封装到 Docker 工作流中，适用于受许可环境下的系统研究与测试，仍依赖虚拟化而非普通容器隔离。",
+        "requirements": "需要官方说明中的虚拟化、显示与宿主条件，并满足 Apple 许可；磁盘操作只针对新建测试镜像。",
+        "quickStart": "1. 先阅读项目的要求和 Quick Start，核对授权与宿主虚拟化条件。\n2. 选对应用途镜像，按文档在隔离测试存储安装，检查启动与数据保留。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "研究 / 实验项目",
+          "purpose": "把 macOS 虚拟机的运行环境封装到 Docker 工作流中，适用于受许可环境下的系统研究与测试，仍依赖虚拟化而非普通容器隔离。",
+          "audience": "研究 macOS 虚拟化的工程师",
+          "example": "评估自己的授权测试环境是否具备运行条件。",
+          "steps": [
+            "先阅读项目的要求和 Quick Start，核对授权与宿主虚拟化条件。",
+            "选对应用途镜像，按文档在隔离测试存储安装，检查启动与数据保留。"
+          ],
+          "verification": "虚拟系统能在已确认环境启动，不把容器命令当作跨任意硬件兼容保证。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.\n\n# Docker-OSX · [Follow @sickcodes on Twitter](https://twitter.com/sickcodes)\n\n\n\nRun Mac OS X in Docker with near-native performance! X11 Forwarding! iMessage security research! iPhone USB working! macOS in a Docker container!\n\nConduct Security Research on ma"
+            },
+            {
+              "field": "purpose",
+              "quote": "Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.\n\n# Docker-OSX · [Follow @sickcodes on Twitter](https://twitter.com/sickcodes)\n\n\n\nRun Mac OS X in Docker with near-native performance! X11 Forwarding! iMessage security research! iPhone USB working! macOS in a Docker container!\n\nConduct Security Research on ma"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.\n\n# Docker-OSX · [Follow @sickcodes on Twitter](https://twitter.com/sickcodes)\n\n\n\nRun Mac OS X in Docker with near-native performance! X11 Forwarding! iMessage security research! iPhone USB working! macOS in a Docker container!\n\nConduct Security Research on ma"
+            },
+            {
+              "field": "steps",
+              "quote": "er creation examples](#container-creation-examples) section.\n\nThere are several different Docker-OSX images available that are suitable for different purposes.\n\n- `sickcodes/docker-osx:latest` - [I just want to try it out.](#quick-start-docker-osx)\n- `sickcodes/docker-osx:latest` - [I want to use Docker-OSX to develop/secure apps in Xcode (sign into Xcode, Transpor"
+            },
+            {
+              "field": "verification",
+              "quote": "er creation examples](#container-creation-examples) section.\n\nThere are several different Docker-OSX images available that are suitable for different purposes.\n\n- `sickcodes/docker-osx:latest` - [I just want to try it out.](#quick-start-docker-osx)\n- `sickcodes/docker-osx:latest` - [I want to use Docker-OSX to develop/secure apps in Xcode (sign into Xcode, Transpor"
+            }
+          ],
+          "sourceHash": "837eee2ef4b2edf38606fdd518d36eefbb13820abbac9a39aef431cfd4df4180",
+          "sourceUrl": "https://github.com/sickcodes/Docker-OSX/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "837eee2ef4b2edf38606fdd518d36eefbb13820abbac9a39aef431cfd4df4180",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "skylot/jadx": {
+      "sourceHash": "8a5059cbdf8c954cd6cc95d64528c4a352074262c82594b50d0de2f3b0f8b196",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "将 Android Dex/APK 等转换为可阅读 Java 表示的反编译工具，提供命令行和 GUI；README 明确不能还原所有代码。",
+        "scenarios": [
+          "查看测试 APK 的类与资源用于排查问题。"
+        ],
+        "usage": "将 Android Dex/APK 等转换为可阅读 Java 表示的反编译工具，提供命令行和 GUI；README 明确不能还原所有代码。",
+        "requirements": "准备对应发行版本与运行环境，确认有权分析目标文件。",
+        "quickStart": "1. 按 Install 获取 jadx，打开自己的测试 APK。\n2. 使用 GUI 搜索类或按 Usage 导出结果，遇到错误参考 Troubleshooting。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "将 Android Dex/APK 等转换为可阅读 Java 表示的反编译工具，提供命令行和 GUI；README 明确不能还原所有代码。",
+          "audience": "分析自己或获授权应用的开发者",
+          "example": "查看测试 APK 的类与资源用于排查问题。",
+          "steps": [
+            "按 Install 获取 jadx，打开自己的测试 APK。",
+            "使用 GUI 搜索类或按 Usage 导出结果，遇到错误参考 Troubleshooting。"
+          ],
+          "verification": "关键逻辑能交叉核对，失败和推断被保留；反编译输出不等于原始源码。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Dex to Java decompiler\n\n## JADX\n\n\n\n\n\n\n[](https://central.sonatype.com/namespace/io.github.skylot)\n\n[](https://www.apache.org/licenses/LICENSE-2.0.html)\n\n**jadx** - Dex to Java decompiler\n\nCommand-line and GUI tools for producing Java source code from Android Dex and APK files\n\n> [!"
+            },
+            {
+              "field": "purpose",
+              "quote": "Dex to Java decompiler\n\n## JADX\n\n\n\n\n\n\n[](https://central.sonatype.com/namespace/io.github.skylot)\n\n[](https://www.apache.org/licenses/LICENSE-2.0.html)\n\n**jadx** - Dex to Java decompiler\n\nCommand-line and GUI tools for producing Java source code from Android Dex and APK files\n\n> [!"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Dex to Java decompiler\n\n## JADX\n\n\n\n\n\n\n[](https://central.sonatype.com/namespace/io.github.skylot)\n\n[](https://www.apache.org/licenses/LICENSE-2.0.html)\n\n**jadx** - Dex to Java decompiler\n\nCommand-line and GUI tools for producing Java source code from Android Dex and APK files\n\n> [!"
+            },
+            {
+              "field": "steps",
+              "quote": "mula/jadx)\n  ```bash\n  brew install jadx\n  ```\n- Flathub\n  [](https://flathub.\n\n### Usage\n```\njadx[-gui] [command] [options]  (.apk, .dex, .jar, .class, .smali, .zip, .aar, .arsc, .aab, .xapk, .apkm, .apks, .jadx.kts)\ncommands (use ' --help' for command options):\n  plugins\t  - manage jadx plugins\n\noptions:\n  -d, --output-dir                       "
+            },
+            {
+              "field": "verification",
+              "quote": "mula/jadx)\n  ```bash\n  brew install jadx\n  ```\n- Flathub\n  [](https://flathub.\n\n### Usage\n```\njadx[-gui] [command] [options]  (.apk, .dex, .jar, .class, .smali, .zip, .aar, .arsc, .aab, .xapk, .apkm, .apks, .jadx.kts)\ncommands (use ' --help' for command options):\n  plugins\t  - manage jadx plugins\n\noptions:\n  -d, --output-dir                       "
+            }
+          ],
+          "sourceHash": "8a5059cbdf8c954cd6cc95d64528c4a352074262c82594b50d0de2f3b0f8b196",
+          "sourceUrl": "https://github.com/skylot/jadx/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "8a5059cbdf8c954cd6cc95d64528c4a352074262c82594b50d0de2f3b0f8b196",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "socketio/socket.io": {
+      "sourceHash": "a57f48cc64f6cc54e4eaaf0e7fc6764e544e85d97575d91ca6363c67cc96b19a",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "提供跨平台双向低延迟通信的库，适合网页与服务之间传递实时事件，需要匹配的客户端和服务端。",
+        "scenarios": [
+          "让两个测试页面同步一条消息。"
+        ],
+        "usage": "提供跨平台双向低延迟通信的库，适合网页与服务之间传递实时事件，需要匹配的客户端和服务端。",
+        "requirements": "准备对应客户端与服务端环境，版本和部署代理设置按官方文档匹配。",
+        "quickStart": "1. 从 Getting Started 进入官方教程，启动一个最小服务与客户端。\n2. 连接后发送测试事件，检查接收、断线和重连行为。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "提供跨平台双向低延迟通信的库，适合网页与服务之间传递实时事件，需要匹配的客户端和服务端。",
+          "audience": "制作实时交互应用的开发者",
+          "example": "让两个测试页面同步一条消息。",
+          "steps": [
+            "从 Getting Started 进入官方教程，启动一个最小服务与客户端。",
+            "连接后发送测试事件，检查接收、断线和重连行为。"
+          ],
+          "verification": "事件内容、接收端和连接状态正确；重连不代表业务事件自动保证不丢失。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Bidirectional and low-latency communication for every platform\n\n# socket.io\n\n[](https://www.npmjs.com/package/socket.io)\n[](https://github.com/socketio/socket.io/actions/workflows/ci-socket.io.yml)\n[](https://www.npmjs.com/package/socket.io)\n\n## Getting Started\n\nPlease check our documentation [here](https://socket.io).\n\n"
+            },
+            {
+              "field": "purpose",
+              "quote": "Bidirectional and low-latency communication for every platform\n\n# socket.io\n\n[](https://www.npmjs.com/package/socket.io)\n[](https://github.com/socketio/socket.io/actions/workflows/ci-socket.io.yml)\n[](https://www.npmjs.com/package/socket.io)\n\n## Getting Started\n\nPlease check our documentation [here](https://socket.io).\n\n"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Bidirectional and low-latency communication for every platform\n\n# socket.io\n\n[](https://www.npmjs.com/package/socket.io)\n[](https://github.com/socketio/socket.io/actions/workflows/ci-socket.io.yml)\n[](https://www.npmjs.com/package/socket.io)\n\n## Getting Started\n\nPlease check our documentation [here](https://socket.io).\n\n"
+            },
+            {
+              "field": "steps",
+              "quote": "ctions/workflows/ci-socket.io.yml)\n[](https://www.npmjs.com/package/socket.io)\n\n## Getting Started\n\nPlease check our documentation [here](https://socket.io).\n\n## Questions\n\nOur [issues list](https://github.com/socketio/socket.io/issues) is exclusively reserved for bug reports and feature requests. For usage questions, please use the following resources:\n\n-"
+            },
+            {
+              "field": "verification",
+              "quote": "ctions/workflows/ci-socket.io.yml)\n[](https://www.npmjs.com/package/socket.io)\n\n## Getting Started\n\nPlease check our documentation [here](https://socket.io).\n\n## Questions\n\nOur [issues list](https://github.com/socketio/socket.io/issues) is exclusively reserved for bug reports and feature requests. For usage questions, please use the following resources:\n\n-"
+            }
+          ],
+          "sourceHash": "a57f48cc64f6cc54e4eaaf0e7fc6764e544e85d97575d91ca6363c67cc96b19a",
+          "sourceUrl": "https://github.com/socketio/socket.io/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "a57f48cc64f6cc54e4eaaf0e7fc6764e544e85d97575d91ca6363c67cc96b19a",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "soimort/you-get": {
+      "sourceHash": "205cf0ef05553cf3319d3bb254f67c00c8548e4f4b966ed535e2222485b9cb1b",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "从受支持网页提取和下载媒体的 Python 命令行工具，用于保存有权获取的内容，网站支持会随页面变化。",
+        "scenarios": [
+          "下载自己可合法保存的公开测试媒体。"
+        ],
+        "usage": "从受支持网页提取和下载媒体的 Python 命令行工具，用于保存有权获取的内容，网站支持会随页面变化。",
+        "requirements": "准备 Python 3 与所需媒体处理依赖，下载权限和网站条件需确认。",
+        "quickStart": "1. 按 PyPI 安装路线安装 you-get，并先查看版本与帮助。\n2. 针对有权下载的测试 URL 查看信息，再保存到指定目录并播放核对。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "从受支持网页提取和下载媒体的 Python 命令行工具，用于保存有权获取的内容，网站支持会随页面变化。",
+          "audience": "整理授权媒体的技术用户",
+          "example": "下载自己可合法保存的公开测试媒体。",
+          "steps": [
+            "按 PyPI 安装路线安装 you-get，并先查看版本与帮助。",
+            "针对有权下载的测试 URL 查看信息，再保存到指定目录并播放核对。"
+          ],
+          "verification": "文件内容和来源对应、媒体完整；工具不保证所有网站可用，也不绕过访问限制。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": ":arrow_double_down: Dumb downloader that scrapes the web\n\n# You-Get\n\n[](https://github.com/soimort/you-get/actions)\n[](https://pypi.python.org/pypi/you-get/)\n[](https://gitter.im/soimort/you-get?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n**NOTICE (30 May 2022): Support for Python 3."
+            },
+            {
+              "field": "purpose",
+              "quote": ":arrow_double_down: Dumb downloader that scrapes the web\n\n# You-Get\n\n[](https://github.com/soimort/you-get/actions)\n[](https://pypi.python.org/pypi/you-get/)\n[](https://gitter.im/soimort/you-get?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n**NOTICE (30 May 2022): Support for Python 3."
+            },
+            {
+              "field": "scenarios",
+              "quote": ":arrow_double_down: Dumb downloader that scrapes the web\n\n# You-Get\n\n[](https://github.com/soimort/you-get/actions)\n[](https://pypi.python.org/pypi/you-get/)\n[](https://gitter.im/soimort/you-get?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n**NOTICE (30 May 2022): Support for Python 3."
+            },
+            {
+              "field": "steps",
+              "quote": " package manager: (Note that you must use the Python 3 version of `pip`)\n\n    $ pip install you-get\n\n\n\n### Option 2: Install via [Antigen](https://github.com/zsh-users/antigen) (for Zsh users)\n\nAdd the following line to your `.zshrc`:\n\n    antigen bundle soimort/you-get\n\n\n\n### Option 3: Download from GitHub\n\nYou may either download the [stable](https://gith"
+            },
+            {
+              "field": "verification",
+              "quote": " package manager: (Note that you must use the Python 3 version of `pip`)\n\n    $ pip install you-get\n\n\n\n### Option 2: Install via [Antigen](https://github.com/zsh-users/antigen) (for Zsh users)\n\nAdd the following line to your `.zshrc`:\n\n    antigen bundle soimort/you-get\n\n\n\n### Option 3: Download from GitHub\n\nYou may either download the [stable](https://gith"
+            }
+          ],
+          "sourceHash": "205cf0ef05553cf3319d3bb254f67c00c8548e4f4b966ed535e2222485b9cb1b",
+          "sourceUrl": "https://github.com/soimort/you-get/blob/develop/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "205cf0ef05553cf3319d3bb254f67c00c8548e4f4b966ed535e2222485b9cb1b",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "solido/awesome-flutter": {
+      "sourceHash": "47df2584df9fbb04b35fbc66bd89c064eb201bfb64a04de0806a9fcdbe82fc73",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "收集 Flutter 库、工具、教程与文章的生态目录，可查找组件、架构和进阶渲染等学习资源。",
+        "scenarios": [
+          "为应用寻找合适的交互组件和状态管理资料。"
+        ],
+        "usage": "收集 Flutter 库、工具、教程与文章的生态目录，可查找组件、架构和进阶渲染等学习资源。",
+        "requirements": "浏览只需网页，使用某个库时按其 Flutter/Dart 版本与平台条件配置。",
+        "quickStart": "1. 从目标分类选择少量候选，阅读描述后进入原仓库。\n2. 按候选文档运行示例，比较平台支持、维护状态和许可再接入。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "资源目录",
+          "purpose": "收集 Flutter 库、工具、教程与文章的生态目录，可查找组件、架构和进阶渲染等学习资源。",
+          "audience": "使用 Flutter 的开发者和设计工程师",
+          "example": "为应用寻找合适的交互组件和状态管理资料。",
+          "steps": [
+            "从目标分类选择少量候选，阅读描述后进入原仓库。",
+            "按候选文档运行示例，比较平台支持、维护状态和许可再接入。"
+          ],
+          "verification": "选择基于实际功能与维护条件，不能仅凭目录或截图判断兼容性。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.\n\n[](https://flutter.dev/)\n\n\n\n  \n    \n  \n   \n    \n  \n\n\n\n\n\n\n\nFlutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.\nIf you appreciate the content 📖, support projects visibility"
+            },
+            {
+              "field": "purpose",
+              "quote": "An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.\n\n[](https://flutter.dev/)\n\n\n\n  \n    \n  \n   \n    \n  \n\n\n\n\n\n\n\nFlutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.\nIf you appreciate the content 📖, support projects visibility"
+            },
+            {
+              "field": "scenarios",
+              "quote": "An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.\n\n[](https://flutter.dev/)\n\n\n\n  \n    \n  \n   \n    \n  \n\n\n\n\n\n\n\nFlutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.\nIf you appreciate the content 📖, support projects visibility"
+            },
+            {
+              "field": "steps",
+              "quote": "-management-for-minimalists-4c71a2f2f0c1?sk=6f9cedfb550ca9cc7f88317e2e7055a0) - Understanding app architecture without relying on third-party frameworks by [Suragch](https://twitter.com/Suragch1). See also [State Management](#state-management).\n\n### Advanced\n\n- [Rendering Pipeline](https://www.youtube.com/watch?v=UUfXWzp0-DU) [1187👍] and [Let's build a render tree](h"
+            },
+            {
+              "field": "verification",
+              "quote": "-management-for-minimalists-4c71a2f2f0c1?sk=6f9cedfb550ca9cc7f88317e2e7055a0) - Understanding app architecture without relying on third-party frameworks by [Suragch](https://twitter.com/Suragch1). See also [State Management](#state-management).\n\n### Advanced\n\n- [Rendering Pipeline](https://www.youtube.com/watch?v=UUfXWzp0-DU) [1187👍] and [Let's build a render tree](h"
+            }
+          ],
+          "sourceHash": "47df2584df9fbb04b35fbc66bd89c064eb201bfb64a04de0806a9fcdbe82fc73",
+          "sourceUrl": "https://github.com/Solido/awesome-flutter/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "47df2584df9fbb04b35fbc66bd89c064eb201bfb64a04de0806a9fcdbe82fc73",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "spring-projects/spring-framework": {
+      "sourceHash": "aada63ade842cf3571d589868adb13dadbeb4610a25f05e7c17c317f6af13936",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "Spring 生态的基础 Java 应用框架，为应用组织和企业开发提供核心能力，并有参考文档与跨项目教程。",
+        "scenarios": [
+          "通过官方指南理解并构建一个小服务。"
+        ],
+        "usage": "Spring 生态的基础 Java 应用框架，为应用组织和企业开发提供核心能力，并有参考文档与跨项目教程。",
+        "requirements": "准备教程要求的 JDK 和构建工具；使用框架不必先编译整个源码仓库。",
+        "quickStart": "1. 从 guides and tutorials 选择一个入门项目。\n2. 按指南运行并修改一个端点或组件，参考 API 文档检查配置与行为。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发框架",
+          "purpose": "Spring 生态的基础 Java 应用框架，为应用组织和企业开发提供核心能力，并有参考文档与跨项目教程。",
+          "audience": "开发 Java 服务的工程师",
+          "example": "通过官方指南理解并构建一个小服务。",
+          "steps": [
+            "从 guides and tutorials 选择一个入门项目。",
+            "按指南运行并修改一个端点或组件，参考 API 文档检查配置与行为。"
+          ],
+          "verification": "示例可运行且测试通过，所选 Spring 与 JDK 版本相容。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Spring Framework\n\n#  Spring Framework [](https://github.com/spring-projects/spring-framework/actions/workflows/build-and-deploy-snapshot.yml?query=branch%3Amain) [](https://ge.spring.io/scans?search.rootProjectNames=spring)\n\nThis is the home of the Spring Framework: the found"
+            },
+            {
+              "field": "purpose",
+              "quote": "Spring Framework\n\n#  Spring Framework [](https://github.com/spring-projects/spring-framework/actions/workflows/build-and-deploy-snapshot.yml?query=branch%3Amain) [](https://ge.spring.io/scans?search.rootProjectNames=spring)\n\nThis is the home of the Spring Framework: the found"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Spring Framework\n\n#  Spring Framework [](https://github.com/spring-projects/spring-framework/actions/workflows/build-and-deploy-snapshot.yml?query=branch%3Amain) [](https://ge.spring.io/scans?search.rootProjectNames=spring)\n\nThis is the home of the Spring Framework: the found"
+            },
+            {
+              "field": "steps",
+              "quote": "s://docs.spring.io/spring-framework/docs/current/javadoc-api/). There are also [guides and tutorials](https://spring.io/guides) across Spring projects.\n\n## Micro-Benchmarks\n\nSee the [Micro-Benchmarks](https://github.com/spring-projects/spring-framework/wiki/Micro-Benchmarks) wiki page.\n\n## Build from Source\n\nSee the [Build from Source](CONTRIBUTING.md#build-"
+            },
+            {
+              "field": "verification",
+              "quote": "s://docs.spring.io/spring-framework/docs/current/javadoc-api/). There are also [guides and tutorials](https://spring.io/guides) across Spring projects.\n\n## Micro-Benchmarks\n\nSee the [Micro-Benchmarks](https://github.com/spring-projects/spring-framework/wiki/Micro-Benchmarks) wiki page.\n\n## Build from Source\n\nSee the [Build from Source](CONTRIBUTING.md#build-"
+            }
+          ],
+          "sourceHash": "aada63ade842cf3571d589868adb13dadbeb4610a25f05e7c17c317f6af13936",
+          "sourceUrl": "https://github.com/spring-projects/spring-framework/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "aada63ade842cf3571d589868adb13dadbeb4610a25f05e7c17c317f6af13936",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "starship/starship": {
+      "sourceHash": "0133def9d97727637add8c783877d887892ce2b88fc52794f92bbfb976149f0f",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "跨多种 Shell 的可定制提示符工具，可根据目录和开发环境显示上下文，安装后需给实际 Shell 添加初始化配置。",
+        "scenarios": [
+          "在自己的 Shell 中显示简洁的项目状态。"
+        ],
+        "usage": "跨多种 Shell 的可定制提示符工具，可根据目录和开发环境显示上下文，安装后需给实际 Shell 添加初始化配置。",
+        "requirements": "准备受支持 Shell 和适配字体，备份原 Shell 配置。",
+        "quickStart": "1. 按 Installation 安装 Starship，选择 Step 2 中自己的 Shell 初始化片段。\n2. 重开终端并调整配置，检查普通目录与代码项目中的显示。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "跨多种 Shell 的可定制提示符工具，可根据目录和开发环境显示上下文，安装后需给实际 Shell 添加初始化配置。",
+          "audience": "希望统一终端提示符的用户",
+          "example": "在自己的 Shell 中显示简洁的项目状态。",
+          "steps": [
+            "按 Installation 安装 Starship，选择 Step 2 中自己的 Shell 初始化片段。",
+            "重开终端并调整配置，检查普通目录与代码项目中的显示。"
+          ],
+          "verification": "Shell 启动正常，图标与状态正确；不同 Shell 的初始化不能混用。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!\n\nWebsite\n  ·\n  Installation\n  ·\n  Configuration\n\n\n\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n\n\n\n# \n\n\n\n\n**The minimal, blazing-fast, and infinitely customi"
+            },
+            {
+              "field": "purpose",
+              "quote": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!\n\nWebsite\n  ·\n  Installation\n  ·\n  Configuration\n\n\n\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n\n\n\n# \n\n\n\n\n**The minimal, blazing-fast, and infinitely customi"
+            },
+            {
+              "field": "scenarios",
+              "quote": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!\n\nWebsite\n  ·\n  Installation\n  ·\n  Configuration\n\n\n\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n  &nbsp;\n  \n\n\n\n# \n\n\n\n\n**The minimal, blazing-fast, and infinitely customi"
+            },
+            {
+              "field": "steps",
+              "quote": " starship --locked`                             |\n| _Any_         \n\n### Step 2. Set up your shell to use Starship\n\nConfigure your shell to initialize starship. Select yours from the list below:\n\n\nBash\n\nAdd the following to the end of `~/.bashrc`:\n\n```sh\neval \"$(starship init bash)\"\n```\n\n\n\n\nCmd\n\nYou need to use [Clink](https://chrisant996.github.io/clink/clink.html) (v1.2"
+            },
+            {
+              "field": "verification",
+              "quote": " starship --locked`                             |\n| _Any_         \n\n### Step 2. Set up your shell to use Starship\n\nConfigure your shell to initialize starship. Select yours from the list below:\n\n\nBash\n\nAdd the following to the end of `~/.bashrc`:\n\n```sh\neval \"$(starship init bash)\"\n```\n\n\n\n\nCmd\n\nYou need to use [Clink](https://chrisant996.github.io/clink/clink.html) (v1.2"
+            }
+          ],
+          "sourceHash": "0133def9d97727637add8c783877d887892ce2b88fc52794f92bbfb976149f0f",
+          "sourceUrl": "https://github.com/starship/starship/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "0133def9d97727637add8c783877d887892ce2b88fc52794f92bbfb976149f0f",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "tanstack/query": {
+      "sourceHash": "eb4a4b899584bab2ca41e6db5f98cba0d93aae133f559cff5bcc02b5012f5716",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "管理网页异步服务端状态的工具，统一数据获取、缓存、重新获取、分页和更新，支持多种前端框架。",
+        "scenarios": [
+          "给列表页面加入加载、缓存与更新状态。"
+        ],
+        "usage": "管理网页异步服务端状态的工具，统一数据获取、缓存、重新获取、分页和更新，支持多种前端框架。",
+        "requirements": "准备支持的前端框架和对应适配包，接口与缓存策略按应用配置。",
+        "quickStart": "1. 从 Read the docs 选择自己框架的入门，配置查询客户端。\n2. 建立一个列表查询与更新操作，检查加载、失败和失效后重新获取。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "管理网页异步服务端状态的工具，统一数据获取、缓存、重新获取、分页和更新，支持多种前端框架。",
+          "audience": "处理接口数据的前端开发者",
+          "example": "给列表页面加入加载、缓存与更新状态。",
+          "steps": [
+            "从 Read the docs 选择自己框架的入门，配置查询客户端。",
+            "建立一个列表查询与更新操作，检查加载、失败和失效后重新获取。"
+          ],
+          "verification": "页面状态与请求结果一致，缓存键和刷新规则明确；不把缓存数据误认为最新服务端值。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.\n\n### [Become a Sponsor!](https://github.com/sponsors/tannerlinsley/)\n\n\n\n# TanStack Query\n\nAn async state management library built to simplify fetching, caching, synchronizing, and updating server state.\n\n- Protocol‑agnostic fetching (REST, GraphQL, promises, "
+            },
+            {
+              "field": "purpose",
+              "quote": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.\n\n### [Become a Sponsor!](https://github.com/sponsors/tannerlinsley/)\n\n\n\n# TanStack Query\n\nAn async state management library built to simplify fetching, caching, synchronizing, and updating server state.\n\n- Protocol‑agnostic fetching (REST, GraphQL, promises, "
+            },
+            {
+              "field": "scenarios",
+              "quote": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.\n\n### [Become a Sponsor!](https://github.com/sponsors/tannerlinsley/)\n\n\n\n# TanStack Query\n\nAn async state management library built to simplify fetching, caching, synchronizing, and updating server state.\n\n- Protocol‑agnostic fetching (REST, GraphQL, promises, "
+            },
+            {
+              "field": "steps",
+              "quote": "sley/)\n\n\n\n# TanStack Query\n\nAn async state management library built to simplify fetching, caching, synchronizing, and updating server state.\n\n- Protocol‑agnostic fetching (REST, GraphQL, promises, etc.)\n- Caching, refetching, pagination & infinite scroll\n- Mutations, dependent queries & background updates\n- Prefetching, cancellation & React Suspense support\n\n### Read th"
+            },
+            {
+              "field": "verification",
+              "quote": "sley/)\n\n\n\n# TanStack Query\n\nAn async state management library built to simplify fetching, caching, synchronizing, and updating server state.\n\n- Protocol‑agnostic fetching (REST, GraphQL, promises, etc.)\n- Caching, refetching, pagination & infinite scroll\n- Mutations, dependent queries & background updates\n- Prefetching, cancellation & React Suspense support\n\n### Read th"
+            }
+          ],
+          "sourceHash": "eb4a4b899584bab2ca41e6db5f98cba0d93aae133f559cff5bcc02b5012f5716",
+          "sourceUrl": "https://github.com/TanStack/query/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "eb4a4b899584bab2ca41e6db5f98cba0d93aae133f559cff5bcc02b5012f5716",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "team-spotube/spotube": {
+      "sourceHash": "29357a4d6ce43364e5013a5ccebd79688079a3be28039fc745b87fa51f2b88aa",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "通过插件接入音乐元数据、歌单和音频来源的跨平台播放应用，来源可以由社区或用户扩展。",
+        "scenarios": [
+          "连接有权使用的音源并整理歌单。"
+        ],
+        "usage": "通过插件接入音乐元数据、歌单和音频来源的跨平台播放应用，来源可以由社区或用户扩展。",
+        "requirements": "安装匹配系统版本，插件和音乐服务权限分别确认。",
+        "quickStart": "1. 从官方发行入口安装对应版本，按文档选择来源插件。\n2. 导入小歌单并测试播放，核对实际音频与曲目信息。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "通过插件接入音乐元数据、歌单和音频来源的跨平台播放应用，来源可以由社区或用户扩展。",
+          "audience": "管理音乐播放的用户",
+          "example": "连接有权使用的音源并整理歌单。",
+          "steps": [
+            "从官方发行入口安装对应版本，按文档选择来源插件。",
+            "导入小歌单并测试播放，核对实际音频与曲目信息。"
+          ],
+          "verification": "歌单和来源对应，播放正常；应用不保证任意第三方音源长期可用。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "🎧 Open source music streaming app! Available for both desktop & mobile!\n\nA cross-platform extensible open-source music streaming platform.\nBring your own music metadata/playlist/audio-source with plugins created by community or by\nyourself. A small step towards the decentralized music streaming era!\n\n\n\n\n\n\n\n[](https://news.ycombin"
+            },
+            {
+              "field": "purpose",
+              "quote": "🎧 Open source music streaming app! Available for both desktop & mobile!\n\nA cross-platform extensible open-source music streaming platform.\nBring your own music metadata/playlist/audio-source with plugins created by community or by\nyourself. A small step towards the decentralized music streaming era!\n\n\n\n\n\n\n\n[](https://news.ycombin"
+            },
+            {
+              "field": "scenarios",
+              "quote": "🎧 Open source music streaming app! Available for both desktop & mobile!\n\nA cross-platform extensible open-source music streaming platform.\nBring your own music metadata/playlist/audio-source with plugins created by community or by\nyourself. A small step towards the decentralized music streaming era!\n\n\n\n\n\n\n\n[](https://news.ycombin"
+            },
+            {
+              "field": "steps",
+              "quote": "op & mobile!\n\nA cross-platform extensible open-source music streaming platform.\nBring your own music metadata/playlist/audio-source with plugins created by community or by\nyourself. A small step towards the decentralized music streaming era!\n\n\n\n\n\n\n\n[](https://news.ycombinator.com/item?id=39066136)\n\n\n\n---\n\n\n\n\n****\n\n## 🌃 Features\n\n- 🧩 Plugin powered, support"
+            },
+            {
+              "field": "verification",
+              "quote": "op & mobile!\n\nA cross-platform extensible open-source music streaming platform.\nBring your own music metadata/playlist/audio-source with plugins created by community or by\nyourself. A small step towards the decentralized music streaming era!\n\n\n\n\n\n\n\n[](https://news.ycombinator.com/item?id=39066136)\n\n\n\n---\n\n\n\n\n****\n\n## 🌃 Features\n\n- 🧩 Plugin powered, support"
+            }
+          ],
+          "sourceHash": "29357a4d6ce43364e5013a5ccebd79688079a3be28039fc745b87fa51f2b88aa",
+          "sourceUrl": "https://github.com/team-spotube/spotube/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "29357a4d6ce43364e5013a5ccebd79688079a3be28039fc745b87fa51f2b88aa",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "termux/termux-app": {
+      "sourceHash": "dce747037423712411af51361f123d337994dd311e63781079e9db0b6d907789",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "Android 上的终端与 Linux 用户空间应用，可通过软件包扩展开发和命令行能力；本仓库是应用本体而非全部包源码。",
+        "scenarios": [
+          "安装一个命令行工具并操作自己的测试文件。"
+        ],
+        "usage": "Android 上的终端与 Linux 用户空间应用，可通过软件包扩展开发和命令行能力；本仓库是应用本体而非全部包源码。",
+        "requirements": "完整应用与包支持按 README 主要面向 Android 7 以上；应用和插件来源需一致。",
+        "quickStart": "1. 从 Installation 选择当前受支持来源安装 Termux。\n2. 按 Wiki 的入门更新软件包并安装小工具，在自有目录测试；迁移来源前先备份。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "Android 上的终端与 Linux 用户空间应用，可通过软件包扩展开发和命令行能力；本仓库是应用本体而非全部包源码。",
+          "audience": "希望在 Android 使用终端的用户",
+          "example": "安装一个命令行工具并操作自己的测试文件。",
+          "steps": [
+            "从 Installation 选择当前受支持来源安装 Termux。",
+            "按 Wiki 的入门更新软件包并安装小工具，在自有目录测试；迁移来源前先备份。"
+          ],
+          "verification": "终端和包管理正常，文件权限清楚；Android 5/6 的应用兼容不等于包更新受支持。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Termux - a terminal emulator application for Android OS extendible by variety of packages.\n\n# Termux application\n\n[](https://github.com/termux/termux-app/actions)\n[](https://github.com/termux/termux-app/actions)\n[](https://gitter.im/termux/termux)\n[](https://discord.gg/HXpF69X)\n[](https://jitpack.io/#termux/termux-app)\n\n\n[Termux](https://termux.dev"
+            },
+            {
+              "field": "purpose",
+              "quote": "Termux - a terminal emulator application for Android OS extendible by variety of packages.\n\n# Termux application\n\n[](https://github.com/termux/termux-app/actions)\n[](https://github.com/termux/termux-app/actions)\n[](https://gitter.im/termux/termux)\n[](https://discord.gg/HXpF69X)\n[](https://jitpack.io/#termux/termux-app)\n\n\n[Termux](https://termux.dev"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Termux - a terminal emulator application for Android OS extendible by variety of packages.\n\n# Termux application\n\n[](https://github.com/termux/termux-app/actions)\n[](https://github.com/termux/termux-app/actions)\n[](https://gitter.im/termux/termux)\n[](https://discord.gg/HXpF69X)\n[](https://jitpack.io/#termux/termux-app)\n\n\n[Termux](https://termux.dev"
+            },
+            {
+              "field": "steps",
+              "quote": "re](https://github.com/termux/termux-app/wiki/Termux-on-android-5-or-6) for th\n\n## Uninstallation\n\nUninstallation may be required if a user doesn't want Termux installed in their device anymore or is switching to a different [install source](#installation). You may also want to consider [Backing up Termux](https://wiki.termux.com/wiki/Backing_up_Termux) b"
+            },
+            {
+              "field": "verification",
+              "quote": "re](https://github.com/termux/termux-app/wiki/Termux-on-android-5-or-6) for th\n\n## Uninstallation\n\nUninstallation may be required if a user doesn't want Termux installed in their device anymore or is switching to a different [install source](#installation). You may also want to consider [Backing up Termux](https://wiki.termux.com/wiki/Backing_up_Termux) b"
+            }
+          ],
+          "sourceHash": "dce747037423712411af51361f123d337994dd311e63781079e9db0b6d907789",
+          "sourceUrl": "https://github.com/termux/termux-app/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "dce747037423712411af51361f123d337994dd311e63781079e9db0b6d907789",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "textualize/rich": {
+      "sourceHash": "68f454af26cac667205e509d5744c2416d0d1407ad6432b963937a238375f1da",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "Python 终端格式化库，可输出彩色文字、表格、进度条、Markdown 和异常追踪，适合改善 CLI 可读性。",
+        "scenarios": [
+          "给处理任务增加进度条与结果表格。"
+        ],
+        "usage": "Python 终端格式化库，可输出彩色文字、表格、进度条、Markdown 和异常追踪，适合改善 CLI 可读性。",
+        "requirements": "需要 Python 与支持相应显示的终端。",
+        "quickStart": "1. 按 Installing 安装 rich，再运行 python -m rich 检查终端效果。\n2. 参照 Rich API 为小脚本添加表格或进度，检查窄窗口和重定向输出。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "Python 终端格式化库，可输出彩色文字、表格、进度条、Markdown 和异常追踪，适合改善 CLI 可读性。",
+          "audience": "编写 Python 命令行程序的开发者",
+          "example": "给处理任务增加进度条与结果表格。",
+          "steps": [
+            "按 Installing 安装 rich，再运行 python -m rich 检查终端效果。",
+            "参照 Rich API 为小脚本添加表格或进度，检查窄窗口和重定向输出。"
+          ],
+          "verification": "输出清晰且真实进度对应处理状态，原始结果没有被样式掩盖。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Rich is a Python library for rich text and beautiful formatting in the terminal.\n\n[](https://pypi.org/project/rich/) [](https://badge.fury.io/py/rich)\n\n[](https://pepy.tech/project/rich)\n[](https://codecov.io/gh/Textualize/rich)\n[](https://www.willmcgugan.com/tag/rich/)\n[](https://twitter.com/willmcgugan)\n\n\n\n[English readme](https://githu"
+            },
+            {
+              "field": "purpose",
+              "quote": "Rich is a Python library for rich text and beautiful formatting in the terminal.\n\n[](https://pypi.org/project/rich/) [](https://badge.fury.io/py/rich)\n\n[](https://pepy.tech/project/rich)\n[](https://codecov.io/gh/Textualize/rich)\n[](https://www.willmcgugan.com/tag/rich/)\n[](https://twitter.com/willmcgugan)\n\n\n\n[English readme](https://githu"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Rich is a Python library for rich text and beautiful formatting in the terminal.\n\n[](https://pypi.org/project/rich/) [](https://badge.fury.io/py/rich)\n\n[](https://pepy.tech/project/rich)\n[](https://codecov.io/gh/Textualize/rich)\n[](https://www.willmcgugan.com/tag/rich/)\n[](https://twitter.com/willmcgugan)\n\n\n\n[English readme](https://githu"
+            },
+            {
+              "field": "steps",
+              "quote": "witter.com/fishnets88).\n\nSee what [people are saying about Rich](https://www.w\n\n## Installing\n\nInstall with `pip` or your favorite PyPI package manager.\n\n```sh\npython -m pip install rich\n```\n\nRun the following to test Rich output on your terminal:\n\n```sh\npython -m rich\n```"
+            },
+            {
+              "field": "verification",
+              "quote": "witter.com/fishnets88).\n\nSee what [people are saying about Rich](https://www.w\n\n## Installing\n\nInstall with `pip` or your favorite PyPI package manager.\n\n```sh\npython -m pip install rich\n```\n\nRun the following to test Rich output on your terminal:\n\n```sh\npython -m rich\n```"
+            }
+          ],
+          "sourceHash": "68f454af26cac667205e509d5744c2416d0d1407ad6432b963937a238375f1da",
+          "sourceUrl": "https://github.com/Textualize/rich/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "68f454af26cac667205e509d5744c2416d0d1407ad6432b963937a238375f1da",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "thealgorithms/java": {
+      "sourceHash": "1f1f51c753fcc71ca89a959ff04b74ad3fb56c6baf3cb4b4a19f31b4e9842b9c",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "用于学习的 Java 算法实现集合，可按目录查找和运行；实现重在教学，不一定比 Java 标准库高效。",
+        "scenarios": [
+          "阅读并测试一种排序或查找算法。"
+        ],
+        "usage": "用于学习的 Java 算法实现集合，可按目录查找和运行；实现重在教学，不一定比 Java 标准库高效。",
+        "requirements": "准备项目要求的 Java 开发环境，或按 README 的在线开发入口学习。",
+        "quickStart": "1. 从 DIRECTORY.md 找到一个算法，先阅读输入输出约定。\n2. 运行示例并补边界测试，对比复杂度与标准库行为。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "用于学习的 Java 算法实现集合，可按目录查找和运行；实现重在教学，不一定比 Java 标准库高效。",
+          "audience": "学习算法的 Java 开发者",
+          "example": "阅读并测试一种排序或查找算法。",
+          "steps": [
+            "从 DIRECTORY.md 找到一个算法，先阅读输入输出约定。",
+            "运行示例并补边界测试，对比复杂度与标准库行为。"
+          ],
+          "verification": "测试结果正确且能解释算法过程，不直接把教学实现当作生产最佳实现。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "All Algorithms implemented in Java\n\n# The Algorithms - Java\n\n[](https://github.com/TheAlgorithms/Java/actions/workflows/build.yml)\n[](https://codecov.io/gh/TheAlgorithms/Java)\n[](https://discord.gg/c7MnfGFGa6)\n[](https://gitpod.io/#https://github.com/TheAlgorithms/Java)\n\n\nYou can run and edit "
+            },
+            {
+              "field": "purpose",
+              "quote": "All Algorithms implemented in Java\n\n# The Algorithms - Java\n\n[](https://github.com/TheAlgorithms/Java/actions/workflows/build.yml)\n[](https://codecov.io/gh/TheAlgorithms/Java)\n[](https://discord.gg/c7MnfGFGa6)\n[](https://gitpod.io/#https://github.com/TheAlgorithms/Java)\n\n\nYou can run and edit "
+            },
+            {
+              "field": "scenarios",
+              "quote": "All Algorithms implemented in Java\n\n# The Algorithms - Java\n\n[](https://github.com/TheAlgorithms/Java/actions/workflows/build.yml)\n[](https://codecov.io/gh/TheAlgorithms/Java)\n[](https://discord.gg/c7MnfGFGa6)\n[](https://gitpod.io/#https://github.com/TheAlgorithms/Java)\n\n\nYou can run and edit "
+            },
+            {
+              "field": "steps",
+              "quote": "UTING.md) before you contribute to this project.\n\n## Algorithms\nOur [directory](DIRECTORY.md) contains the full list of algorithms implemented in Java."
+            },
+            {
+              "field": "verification",
+              "quote": "UTING.md) before you contribute to this project.\n\n## Algorithms\nOur [directory](DIRECTORY.md) contains the full list of algorithms implemented in Java."
+            }
+          ],
+          "sourceHash": "1f1f51c753fcc71ca89a959ff04b74ad3fb56c6baf3cb4b4a19f31b4e9842b9c",
+          "sourceUrl": "https://github.com/TheAlgorithms/Java/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "1f1f51c753fcc71ca89a959ff04b74ad3fb56c6baf3cb4b4a19f31b4e9842b9c",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "tiimgreen/github-cheat-sheet": {
+      "sourceHash": "be0891dfab4ba4404cd4c56cecba7ed4bc6fa5dac4ce579dfb1c33b245edc050",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "Git 与 GitHub 功能速查资料，收集仓库浏览、差异显示、提交筛选和克隆等技巧，适合提升日常协作效率。",
+        "scenarios": [
+          "按作者筛选提交并调整代码差异的阅读方式。"
+        ],
+        "usage": "Git 与 GitHub 功能速查资料，收集仓库浏览、差异显示、提交筛选和克隆等技巧，适合提升日常协作效率。",
+        "requirements": "浏览器和可选 Git 即可；历史界面技巧需在当前 GitHub 核对。",
+        "quickStart": "1. 从目录选一个浏览或提交历史技巧，先阅读示例。\n2. 在自己的测试仓库尝试并与当前官方帮助对照，记录仍适用的用法。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "Git 与 GitHub 功能速查资料，收集仓库浏览、差异显示、提交筛选和克隆等技巧，适合提升日常协作效率。",
+          "audience": "经常使用 GitHub 的开发者",
+          "example": "按作者筛选提交并调整代码差异的阅读方式。",
+          "steps": [
+            "从目录选一个浏览或提交历史技巧，先阅读示例。",
+            "在自己的测试仓库尝试并与当前官方帮助对照，记录仍适用的用法。"
+          ],
+          "verification": "能重复找到预期提交或视图，不把旧界面描述当作永久规则。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A list of cool features of Git and GitHub.\n\n# GitHub Cheat Sheet [](https://github.com/sindresorhus/awesome)\nA collection of cool hidden and not so hidden features of Git and GitHub. This cheat sheet was inspired by [Zach Holman](https://github.com/holman)'s [Git and GitHub Secrets](http://confreaks.t"
+            },
+            {
+              "field": "purpose",
+              "quote": "A list of cool features of Git and GitHub.\n\n# GitHub Cheat Sheet [](https://github.com/sindresorhus/awesome)\nA collection of cool hidden and not so hidden features of Git and GitHub. This cheat sheet was inspired by [Zach Holman](https://github.com/holman)'s [Git and GitHub Secrets](http://confreaks.t"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A list of cool features of Git and GitHub.\n\n# GitHub Cheat Sheet [](https://github.com/sindresorhus/awesome)\nA collection of cool hidden and not so hidden features of Git and GitHub. This cheat sheet was inspired by [Zach Holman](https://github.com/holman)'s [Git and GitHub Secrets](http://confreaks.t"
+            },
+            {
+              "field": "steps",
+              "quote": "o source file before adding `?ts=4`:\n\n\n\n...and this is after adding `?ts=4`:\n\n\n\n### Commit History by Author\nTo view all commits on a repo by author add `?author={user}` to the URL.\n\n```\nhttps://github.com/rails/rails/commits/master?author=dhh\n```\n\n\n\n[*Read more about the differences between commits views.*](https://help.github.com/articles/differences-between-commi"
+            },
+            {
+              "field": "verification",
+              "quote": "o source file before adding `?ts=4`:\n\n\n\n...and this is after adding `?ts=4`:\n\n\n\n### Commit History by Author\nTo view all commits on a repo by author add `?author={user}` to the URL.\n\n```\nhttps://github.com/rails/rails/commits/master?author=dhh\n```\n\n\n\n[*Read more about the differences between commits views.*](https://help.github.com/articles/differences-between-commi"
+            }
+          ],
+          "sourceHash": "be0891dfab4ba4404cd4c56cecba7ed4bc6fa5dac4ce579dfb1c33b245edc050",
+          "sourceUrl": "https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "be0891dfab4ba4404cd4c56cecba7ed4bc6fa5dac4ce579dfb1c33b245edc050",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "tldr-pages/tldr": {
+      "sourceHash": "d7fa3321fe6f620a3211610f5016502197cb335339de4dbb824d5229e27f1558",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "社区维护的命令行速查页，用简短说明和常见示例补充完整手册，页面以 Markdown 保存并支持多语言。",
+        "scenarios": [
+          "查阅一个不常用命令的典型参数组合。"
+        ],
+        "usage": "社区维护的命令行速查页，用简短说明和常见示例补充完整手册，页面以 Markdown 保存并支持多语言。",
+        "requirements": "可以直接浏览页面，或选择受支持的客户端；实际命令需在自己的系统存在。",
+        "quickStart": "1. 按 README 选择网页或客户端入口，搜索目标命令。\n2. 先理解示例占位符和影响范围，在测试文件上尝试，再查完整手册确认细节。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "社区维护的命令行速查页，用简短说明和常见示例补充完整手册，页面以 Markdown 保存并支持多语言。",
+          "audience": "需要快速查命令的终端用户",
+          "example": "查阅一个不常用命令的典型参数组合。",
+          "steps": [
+            "按 README 选择网页或客户端入口，搜索目标命令。",
+            "先理解示例占位符和影响范围，在测试文件上尝试，再查完整手册确认细节。"
+          ],
+          "verification": "参数与系统版本相符，结果符合预期；短例子不代替完整命令说明。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Collaborative cheatsheets for console commands 📚.\n\n# \n\n\n[![Build status][github-actions-image]][github-actions-url]\n[![Matrix chat][matrix-image]][matrix-url]\n[![Merged PRs][prs-merged-image]][prs-merged-url]\n[![GitHub contributors][contributors-image]][contributors-url]\n[![license][license-image]][license-u"
+            },
+            {
+              "field": "purpose",
+              "quote": "Collaborative cheatsheets for console commands 📚.\n\n# \n\n\n[![Build status][github-actions-image]][github-actions-url]\n[![Matrix chat][matrix-image]][matrix-url]\n[![Merged PRs][prs-merged-image]][prs-merged-url]\n[![GitHub contributors][contributors-image]][contributors-url]\n[![license][license-image]][license-u"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Collaborative cheatsheets for console commands 📚.\n\n# \n\n\n[![Build status][github-actions-image]][github-actions-url]\n[![Matrix chat][matrix-image]][matrix-url]\n[![Merged PRs][prs-merged-image]][prs-merged-url]\n[![GitHub contributors][contributors-image]][contributors-url]\n[![license][license-image]][license-u"
+            },
+            {
+              "field": "steps",
+              "quote": "abel%3A%22help+wanted%22) label.\n- Translating pages into different languages.\n\nAll `tldr` pages are written in Markdown so that they can be edited quite easily and changes can be submitted in\npull requests here using Git on the command-line or\nusing the GitHub web interface.\n\nWe strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.\nIf it's your first tim"
+            },
+            {
+              "field": "verification",
+              "quote": "abel%3A%22help+wanted%22) label.\n- Translating pages into different languages.\n\nAll `tldr` pages are written in Markdown so that they can be edited quite easily and changes can be submitted in\npull requests here using Git on the command-line or\nusing the GitHub web interface.\n\nWe strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.\nIf it's your first tim"
+            }
+          ],
+          "sourceHash": "d7fa3321fe6f620a3211610f5016502197cb335339de4dbb824d5229e27f1558",
+          "sourceUrl": "https://github.com/tldr-pages/tldr/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "d7fa3321fe6f620a3211610f5016502197cb335339de4dbb824d5229e27f1558",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "tldraw/tldraw": {
+      "sourceHash": "f1e1302d709bc4b815a6e773fd1c2c72d32d5a52445b193473b4715ae9739304",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "用于 React 的无限画布 SDK，提供白板、形状、工具和自定义界面基础，可扩展为自己的画布应用。",
+        "scenarios": [
+          "在网页嵌入可编辑画布并扩展一个自定义形状。"
+        ],
+        "usage": "用于 React 的无限画布 SDK，提供白板、形状、工具和自定义界面基础，可扩展为自己的画布应用。",
+        "requirements": "需要 React 项目，正式使用前核对 SDK 当前许可与部署要求。",
+        "quickStart": "1. 按 Quick start 安装 tldraw 并引入组件和样式。\n2. 先测试默认绘图与选择，再按 Examples 或 Starter kits 添加自己的形状。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "用于 React 的无限画布 SDK，提供白板、形状、工具和自定义界面基础，可扩展为自己的画布应用。",
+          "audience": "制作白板和图形工具的前端开发者",
+          "example": "在网页嵌入可编辑画布并扩展一个自定义形状。",
+          "steps": [
+            "按 Quick start 安装 tldraw 并引入组件和样式。",
+            "先测试默认绘图与选择，再按 Examples 或 Starter kits 添加自己的形状。"
+          ],
+          "verification": "画布可缩放、选择和编辑，自己的数据保存与恢复另行验证。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent recommended #1 five star SDK.\n\n### \n  Build infinite canvas apps in React with the tldraw SDK.\n\n\n\n\n  Docs · Examples · Starter kits\n\n\n## Feature highlights\n\ntldraw provides a feature-complete infinite canvas engine designed to be the foundation for any canvas app. Create custom shapes, to"
+            },
+            {
+              "field": "purpose",
+              "quote": "Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent recommended #1 five star SDK.\n\n### \n  Build infinite canvas apps in React with the tldraw SDK.\n\n\n\n\n  Docs · Examples · Starter kits\n\n\n## Feature highlights\n\ntldraw provides a feature-complete infinite canvas engine designed to be the foundation for any canvas app. Create custom shapes, to"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent recommended #1 five star SDK.\n\n### \n  Build infinite canvas apps in React with the tldraw SDK.\n\n\n\n\n  Docs · Examples · Starter kits\n\n\n## Feature highlights\n\ntldraw provides a feature-complete infinite canvas engine designed to be the foundation for any canvas app. Create custom shapes, to"
+            },
+            {
+              "field": "steps",
+              "quote": "nd-edit/whiteboards), [Honeycomb](https://www.honeycomb.io/platform/canvas), [\n\n## Quick start\n\nInstall the tldraw package:\n\n```bash\nnpm i tldraw\n```\n\nThen, use the `` component in your React app:\n\n```tsx\nimport { Tldraw } from 'tldraw'\nimport 'tldraw/tldraw.css'\n\nexport default function App() {\n\treturn (\n\t\t\n\t\t\t\n\t\t\n\t)\n}\n```"
+            },
+            {
+              "field": "verification",
+              "quote": "nd-edit/whiteboards), [Honeycomb](https://www.honeycomb.io/platform/canvas), [\n\n## Quick start\n\nInstall the tldraw package:\n\n```bash\nnpm i tldraw\n```\n\nThen, use the `` component in your React app:\n\n```tsx\nimport { Tldraw } from 'tldraw'\nimport 'tldraw/tldraw.css'\n\nexport default function App() {\n\treturn (\n\t\t\n\t\t\t\n\t\t\n\t)\n}\n```"
+            }
+          ],
+          "sourceHash": "f1e1302d709bc4b815a6e773fd1c2c72d32d5a52445b193473b4715ae9739304",
+          "sourceUrl": "https://github.com/tldraw/tldraw/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "f1e1302d709bc4b815a6e773fd1c2c72d32d5a52445b193473b4715ae9739304",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "topjohnwu/magisk": {
+      "sourceHash": "d4abc679661d6bd55343f6b02699909a6c162bfa8bb89aef45e2d6c2b5f0db7f",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "用于 Android 系统定制的开源工具套件，包含应用 root 权限管理和模块等能力，非 Google 官方产品。",
+        "scenarios": [
+          "先评估自己的测试设备是否符合安装条件。"
+        ],
+        "usage": "用于 Android 系统定制的开源工具套件，包含应用 root 权限管理和模块等能力，非 Google 官方产品。",
+        "requirements": "仅使用自己有权管理且可恢复的设备，机型和启动镜像要求按官方文档确认。",
+        "quickStart": "1. 先从 Documentation 阅读安装与恢复说明，确认备份和机型条件。\n2. 按机型对应路线在测试设备操作，检查启动与权限管理，不套用其他设备的镜像。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "用于 Android 系统定制的开源工具套件，包含应用 root 权限管理和模块等能力，非 Google 官方产品。",
+          "audience": "了解 Android 系统维护的开发者",
+          "example": "先评估自己的测试设备是否符合安装条件。",
+          "steps": [
+            "先从 Documentation 阅读安装与恢复说明，确认备份和机型条件。",
+            "按机型对应路线在测试设备操作，检查启动与权限管理，不套用其他设备的镜像。"
+          ],
+          "verification": "设备能正常启动且权限行为明确；系统级更改不保证兼容所有应用或升级。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The Magic Mask for Android\n\n[](https://raw.githubusercontent.com/topjohnwu/magisk-files/count/count.json)\n\n#### This is not an officially supported Google product\n\n## Introduction\n\nMagisk is a suite of open source software for customizing Android, supporting devices higher than Android"
+            },
+            {
+              "field": "purpose",
+              "quote": "The Magic Mask for Android\n\n[](https://raw.githubusercontent.com/topjohnwu/magisk-files/count/count.json)\n\n#### This is not an officially supported Google product\n\n## Introduction\n\nMagisk is a suite of open source software for customizing Android, supporting devices higher than Android"
+            },
+            {
+              "field": "scenarios",
+              "quote": "The Magic Mask for Android\n\n[](https://raw.githubusercontent.com/topjohnwu/magisk-files/count/count.json)\n\n#### This is not an officially supported Google product\n\n## Introduction\n\nMagisk is a suite of open source software for customizing Android, supporting devices higher than Android"
+            },
+            {
+              "field": "steps",
+              "quote": "lding and Development](https://topjohnwu.github.io/Magisk/build.html)\n- [Magisk Documentation](https://topjohnwu.github.io/Magisk/)\n- [Zygisk module sample](https://github.com/topjohnwu/zygisk-module-sample)\n\n## Bug Reports\n\n**Only bug reports from Debug builds will be accepted.**\n\nFor installation issues, upload both boot image and install logs.\nFor "
+            },
+            {
+              "field": "verification",
+              "quote": "lding and Development](https://topjohnwu.github.io/Magisk/build.html)\n- [Magisk Documentation](https://topjohnwu.github.io/Magisk/)\n- [Zygisk module sample](https://github.com/topjohnwu/zygisk-module-sample)\n\n## Bug Reports\n\n**Only bug reports from Debug builds will be accepted.**\n\nFor installation issues, upload both boot image and install logs.\nFor "
+            }
+          ],
+          "sourceHash": "d4abc679661d6bd55343f6b02699909a6c162bfa8bb89aef45e2d6c2b5f0db7f",
+          "sourceUrl": "https://github.com/topjohnwu/Magisk/blob/master/README.MD",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "d4abc679661d6bd55343f6b02699909a6c162bfa8bb89aef45e2d6c2b5f0db7f",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "traefik/traefik": {
+      "sourceHash": "443be1d5892fd1d21ba7b6cca42f0e9e1df43002b2a8df95279373515c814c3c",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "可与服务注册和编排环境协作的 HTTP 反向代理与负载均衡器，自动发现服务并建立路由，适合多服务入口。",
+        "scenarios": [
+          "用一个入口路由到两项测试服务。"
+        ],
+        "usage": "可与服务注册和编排环境协作的 HTTP 反向代理与负载均衡器，自动发现服务并建立路由，适合多服务入口。",
+        "requirements": "准备 Docker 等所选环境和后端服务，端口、域名与 TLS 按官方文档配置。",
+        "quickStart": "1. 按 Quickstart 的 5-Minute 教程启动测试环境。\n2. 为服务添加路由配置，访问不同路径或域名并检查后端与日志。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "可与服务注册和编排环境协作的 HTTP 反向代理与负载均衡器，自动发现服务并建立路由，适合多服务入口。",
+          "audience": "管理容器与微服务的工程师",
+          "example": "用一个入口路由到两项测试服务。",
+          "steps": [
+            "按 Quickstart 的 5-Minute 教程启动测试环境。",
+            "为服务添加路由配置，访问不同路径或域名并检查后端与日志。"
+          ],
+          "verification": "请求路由到正确服务，管理面板和敏感端口未意外公开。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The Cloud Native Application Proxy\n\n[](https://doc.traefik.io/traefik)\n[](https://github.com/traefik/traefik/blob/master/LICENSE.md)\n[](https://community.traefik.io/)\n[](https://twitter.com/intent/follow?screen_name=traefik)\n\nTraefik (pronounced _traffic_) is a modern HTTP reverse proxy and lo"
+            },
+            {
+              "field": "purpose",
+              "quote": "The Cloud Native Application Proxy\n\n[](https://doc.traefik.io/traefik)\n[](https://github.com/traefik/traefik/blob/master/LICENSE.md)\n[](https://community.traefik.io/)\n[](https://twitter.com/intent/follow?screen_name=traefik)\n\nTraefik (pronounced _traffic_) is a modern HTTP reverse proxy and lo"
+            },
+            {
+              "field": "scenarios",
+              "quote": "The Cloud Native Application Proxy\n\n[](https://doc.traefik.io/traefik)\n[](https://github.com/traefik/traefik/blob/master/LICENSE.md)\n[](https://community.traefik.io/)\n[](https://twitter.com/intent/follow?screen_name=traefik)\n\nTraefik (pronounced _traffic_) is a modern HTTP reverse proxy and lo"
+            },
+            {
+              "field": "steps",
+              "quote": " get the sources:\n\n```shell\ngit clone https://github.com/traefik/traefik\n```\n\n\n\n## Quickstart\n\nTo get your hands on Traefik, you can use the [5-Minute Quickstart](https://doc.traefik.io/traefik/getting-started/quick-start/) in our documentation (you will need Docker)."
+            },
+            {
+              "field": "verification",
+              "quote": " get the sources:\n\n```shell\ngit clone https://github.com/traefik/traefik\n```\n\n\n\n## Quickstart\n\nTo get your hands on Traefik, you can use the [5-Minute Quickstart](https://doc.traefik.io/traefik/getting-started/quick-start/) in our documentation (you will need Docker)."
+            }
+          ],
+          "sourceHash": "443be1d5892fd1d21ba7b6cca42f0e9e1df43002b2a8df95279373515c814c3c",
+          "sourceUrl": "https://github.com/traefik/traefik/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "443be1d5892fd1d21ba7b6cca42f0e9e1df43002b2a8df95279373515c814c3c",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "tryghost/ghost": {
+      "sourceHash": "d9611164524d2953c8ff0cde8135ab7d6c5b7e770f7bdd50fb29f3e455997a68",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "面向内容发布、会员、订阅与邮件通讯的平台，可构建独立出版站点，并提供托管与自部署相关入口。",
+        "scenarios": [
+          "建立一份测试文章和订阅流程。"
+        ],
+        "usage": "面向内容发布、会员、订阅与邮件通讯的平台，可构建独立出版站点，并提供托管与自部署相关入口。",
+        "requirements": "按官方部署路线准备环境，邮件与支付等功能需独立服务配置。",
+        "quickStart": "1. 从 Docs 选择当前安装路线，创建测试站点和管理员。\n2. 发布测试文章并检查公开范围，再按需配置邮件或会员功能。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "面向内容发布、会员、订阅与邮件通讯的平台，可构建独立出版站点，并提供托管与自部署相关入口。",
+          "audience": "维护内容网站的作者和团队",
+          "example": "建立一份测试文章和订阅流程。",
+          "steps": [
+            "从 Docs 选择当前安装路线，创建测试站点和管理员。",
+            "发布测试文章并检查公开范围，再按需配置邮件或会员功能。"
+          ],
+          "verification": "文章与访问权限正确，测试订阅能走通；写文章不代表邮件和付款已自动配置。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Independent technology for modern publishing, memberships, subscriptions and newsletters.\n\n&nbsp;\n\n  \n    \n  \n  \n    \n  \n\n&nbsp;\n\n\n    Ghost.org •\n    Forum •\n    Docs •\n    Contributing •\n    Twitter\n    \n    \n        \n    \n    \n        \n    \n    \n        \n    \n    \n        \n    \n    \n\n\n&nbsp;\n\n> [!NOTE]\n> Love open source? We're hiring! Ghost is"
+            },
+            {
+              "field": "purpose",
+              "quote": "Independent technology for modern publishing, memberships, subscriptions and newsletters.\n\n&nbsp;\n\n  \n    \n  \n  \n    \n  \n\n&nbsp;\n\n\n    Ghost.org •\n    Forum •\n    Docs •\n    Contributing •\n    Twitter\n    \n    \n        \n    \n    \n        \n    \n    \n        \n    \n    \n        \n    \n    \n\n\n&nbsp;\n\n> [!NOTE]\n> Love open source? We're hiring! Ghost is"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Independent technology for modern publishing, memberships, subscriptions and newsletters.\n\n&nbsp;\n\n  \n    \n  \n  \n    \n  \n\n&nbsp;\n\n\n    Ghost.org •\n    Forum •\n    Docs •\n    Contributing •\n    Twitter\n    \n    \n        \n    \n    \n        \n    \n    \n        \n    \n    \n        \n    \n    \n\n\n&nbsp;\n\n> [!NOTE]\n> Love open source? We're hiring! Ghost is"
+            },
+            {
+              "field": "steps",
+              "quote": "ps, subscriptions and newsletters.\n\n&nbsp;\n\n  \n    \n  \n  \n    \n  \n\n&nbsp;\n\n\n    Ghost.org •\n    Forum •\n    Docs •\n    Contributing •\n    Twitter\n    \n    \n        \n    \n    \n        \n    \n    \n        \n    \n    \n        \n    \n    \n\n\n&nbsp;\n\n> [!NOTE]\n> Love open source? We're hiring! Ghost is looking staff engineers to [join the team](https://car"
+            },
+            {
+              "field": "verification",
+              "quote": "ps, subscriptions and newsletters.\n\n&nbsp;\n\n  \n    \n  \n  \n    \n  \n\n&nbsp;\n\n\n    Ghost.org •\n    Forum •\n    Docs •\n    Contributing •\n    Twitter\n    \n    \n        \n    \n    \n        \n    \n    \n        \n    \n    \n        \n    \n    \n\n\n&nbsp;\n\n> [!NOTE]\n> Love open source? We're hiring! Ghost is looking staff engineers to [join the team](https://car"
+            }
+          ],
+          "sourceHash": "d9611164524d2953c8ff0cde8135ab7d6c5b7e770f7bdd50fb29f3e455997a68",
+          "sourceUrl": "https://github.com/TryGhost/Ghost/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "d9611164524d2953c8ff0cde8135ab7d6c5b7e770f7bdd50fb29f3e455997a68",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "tw93/pake": {
+      "sourceHash": "e6c4e2517cf046f7cc747863ce567bd8c95b8d74b7273110faf02a14d756fb4a",
+      "completedAt": "2026-11-04T10:24:11.228Z",
+      "content": {
+        "summary": "把网页封装为轻量桌面应用的工具，支持 macOS、Windows 与 Linux，可定制窗口、图标并通过脚本或智能体调用。",
+        "scenarios": [
+          "把自己的 Web 工具封装为桌面窗口。"
+        ],
+        "usage": "把网页封装为轻量桌面应用的工具，支持 macOS、Windows 与 Linux，可定制窗口、图标并通过脚本或智能体调用。",
+        "requirements": "按平台准备 CLI 构建依赖，网页使用权和登录条件仍由原服务决定。",
+        "quickStart": "1. 按 CLI Usage Guide 安装 pake-cli，先对自己的测试网址设置名称。\n2. 构建并打开应用检查图标、窗口与登录；本地静态产物可按文档直接打包。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "把网页封装为轻量桌面应用的工具，支持 macOS、Windows 与 Linux，可定制窗口、图标并通过脚本或智能体调用。",
+          "audience": "希望为网页制作桌面入口的开发者",
+          "example": "把自己的 Web 工具封装为桌面窗口。",
+          "steps": [
+            "按 CLI Usage Guide 安装 pake-cli，先对自己的测试网址设置名称。",
+            "构建并打开应用检查图标、窗口与登录；本地静态产物可按文档直接打包。"
+          ],
+          "verification": "网页核心操作与桌面窗口正常，安装包适配目标系统；封装不让在线服务变为完整离线软件。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.\n\n# Pake\n\n  Turn any website into a lightweight desktop app with one command. Supports macOS, Windows, and Linux.\n  pake.run\n  English · 中文 · 繁體 · 日本語 · 한국어 · Deutsch · Français\n  \n  \n  \n  \n  \n\n\n## Features\n\n- 🎐 **Lightweight**: Installer is nearly 20 times s"
+            },
+            {
+              "field": "purpose",
+              "quote": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.\n\n# Pake\n\n  Turn any website into a lightweight desktop app with one command. Supports macOS, Windows, and Linux.\n  pake.run\n  English · 中文 · 繁體 · 日本語 · 한국어 · Deutsch · Français\n  \n  \n  \n  \n  \n\n\n## Features\n\n- 🎐 **Lightweight**: Installer is nearly 20 times s"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.\n\n# Pake\n\n  Turn any website into a lightweight desktop app with one command. Supports macOS, Windows, and Linux.\n  pake.run\n  English · 中文 · 繁體 · 日本語 · 한국어 · Deutsch · Français\n  \n  \n  \n  \n  \n\n\n## Features\n\n- 🎐 **Lightweight**: Installer is nearly 20 times s"
+            },
+            {
+              "field": "steps",
+              "quote": "uild sets up the environment and takes a while, later builds are fast. See the [CLI Usage Guide](docs/cli-usage.md) for every option, or try [GitHub Actions Online Building](docs/github-actions-usage.md) if you'd rather skip the command line.\n\nUsing Pake from a script or AI agent? Pass `--json` for machine-readable results, describe apps declaratively w"
+            },
+            {
+              "field": "verification",
+              "quote": "uild sets up the environment and takes a while, later builds are fast. See the [CLI Usage Guide](docs/cli-usage.md) for every option, or try [GitHub Actions Online Building](docs/github-actions-usage.md) if you'd rather skip the command line.\n\nUsing Pake from a script or AI agent? Pass `--json` for machine-readable results, describe apps declaratively w"
+            }
+          ],
+          "sourceHash": "e6c4e2517cf046f7cc747863ce567bd8c95b8d74b7273110faf02a14d756fb4a",
+          "sourceUrl": "https://github.com/tw93/Pake/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "e6c4e2517cf046f7cc747863ce567bd8c95b8d74b7273110faf02a14d756fb4a",
+            "checkedAt": "2026-11-04T10:24:11.228Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     }
   },
   "pending": {
@@ -9607,15 +11023,6 @@
       "lastAttemptAt": "2026-10-24T19:29:55.769Z",
       "nextAttemptAt": "2026-10-24T20:29:55.769Z"
     },
-    "thealgorithms/java": {
-      "id": "thealgorithms/java",
-      "sourceHash": "1f1f51c753fcc71ca89a959ff04b74ad3fb56c6baf3cb4b4a19f31b4e9842b9c",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/TheAlgorithms/Java/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "webpack/webpack": {
       "id": "webpack/webpack",
       "sourceHash": "e056f19b6de0b8d1b35dc1b94608b530e128f9fb7d4509655b1ccbb46eb75e4f",
@@ -9625,17 +11032,6 @@
       "readmeUrl": "https://github.com/webpack/webpack/blob/main/README.md",
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-21T06:00:52.593Z"
-    },
-    "traefik/traefik": {
-      "id": "traefik/traefik",
-      "sourceHash": "46b6efd4baefeca5547e0cbb03c61bdded293a4f349bba64c0f09f8aceabfdec",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/traefik/traefik/blob/master/README.md",
-      "reason": "invalid-response",
-      "lastAttemptAt": "2026-10-25T06:04:34.666Z",
-      "nextAttemptAt": "2026-10-25T07:04:34.666Z"
     },
     "virattt/ai-hedge-fund": {
       "id": "virattt/ai-hedge-fund",
@@ -9648,17 +11044,6 @@
       "lastAttemptAt": "2026-10-25T06:04:34.666Z",
       "nextAttemptAt": "2026-10-25T07:04:34.666Z"
     },
-    "tldr-pages/tldr": {
-      "id": "tldr-pages/tldr",
-      "sourceHash": "769442253e714ae0a2b0ccccf373c4f8d2ac92efb9b42069b589837f7483bd34",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/tldr-pages/tldr/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-26T06:09:17.010Z",
-      "nextAttemptAt": "2026-10-26T07:09:17.010Z"
-    },
     "usememos/memos": {
       "id": "usememos/memos",
       "sourceHash": "219999fb0096b9750ba4ee4c98172ecbed72cffa832bc46f51867aabf4eda0c9",
@@ -9669,17 +11054,6 @@
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-26T06:09:17.010Z",
       "nextAttemptAt": "2026-10-26T07:09:17.010Z"
-    },
-    "topjohnwu/magisk": {
-      "id": "topjohnwu/magisk",
-      "sourceHash": "d4abc679661d6bd55343f6b02699909a6c162bfa8bb89aef45e2d6c2b5f0db7f",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/topjohnwu/Magisk/blob/master/README.MD",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-10-27T06:14:54.471Z",
-      "nextAttemptAt": "2026-10-27T07:14:54.471Z"
     },
     "upstash/context7": {
       "id": "upstash/context7",
@@ -9700,28 +11074,6 @@
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-27T06:14:54.471Z",
       "nextAttemptAt": "2026-10-27T07:14:54.471Z"
-    },
-    "socketio/socket.io": {
-      "id": "socketio/socket.io",
-      "sourceHash": "a57f48cc64f6cc54e4eaaf0e7fc6764e544e85d97575d91ca6363c67cc96b19a",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/socketio/socket.io/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-28T06:50:28.519Z",
-      "nextAttemptAt": "2026-10-28T07:50:28.519Z"
-    },
-    "termux/termux-app": {
-      "id": "termux/termux-app",
-      "sourceHash": "a3a48504eaf77d0707ef31eac162abc85361b64701fd34c4df41ab9ddcab99ac",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/termux/termux-app/blob/master/README.md",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-10-28T06:50:28.519Z",
-      "nextAttemptAt": "2026-10-28T07:50:28.519Z"
     },
     "youngyangyang04/leetcode-master": {
       "id": "youngyangyang04/leetcode-master",
@@ -9745,35 +11097,6 @@
       "lastAttemptAt": "2026-10-28T06:50:28.519Z",
       "nextAttemptAt": "2026-10-28T07:50:28.519Z"
     },
-    "tw93/pake": {
-      "id": "tw93/pake",
-      "sourceHash": "8aa076f73ce83f451ef1233ef896f56957224667f871f57aea4d8190b4317547",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/tw93/Pake/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-29T07:01:48.386Z",
-      "nextAttemptAt": "2026-10-29T08:01:48.386Z"
-    },
-    "solido/awesome-flutter": {
-      "id": "solido/awesome-flutter",
-      "sourceHash": "47df2584df9fbb04b35fbc66bd89c064eb201bfb64a04de0806a9fcdbe82fc73",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/Solido/awesome-flutter/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "sharkdp/bat": {
-      "id": "sharkdp/bat",
-      "sourceHash": "8b0c330a3f454df57d8321cdcfb1d9e97cb25ba057186a482443487d88e11c2d",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/sharkdp/bat/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "xingshaocheng/architect-awesome": {
       "id": "xingshaocheng/architect-awesome",
       "sourceHash": "d053444c540d67eb957afa2bf9e7dd2b9d6cc6e1512e1a0bd9a3e88e8d7d2edf",
@@ -9781,42 +11104,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/xingshaocheng/architect-awesome/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "starship/starship": {
-      "id": "starship/starship",
-      "sourceHash": "3d6e220825d7576a7a0b99f637fd77c780767999464ece281be8899413c8fea6",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/starship/starship/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "spring-projects/spring-framework": {
-      "id": "spring-projects/spring-framework",
-      "sourceHash": "aada63ade842cf3571d589868adb13dadbeb4610a25f05e7c17c317f6af13936",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/spring-projects/spring-framework/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "tiimgreen/github-cheat-sheet": {
-      "id": "tiimgreen/github-cheat-sheet",
-      "sourceHash": "be0891dfab4ba4404cd4c56cecba7ed4bc6fa5dac4ce579dfb1c33b245edc050",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "shadowsocks/shadowsocks-windows": {
-      "id": "shadowsocks/shadowsocks-windows",
-      "sourceHash": "7bb03018159fc0e974ede2474b14dd94ff584984c30a05cd48fb07358efdbb4d",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/shadowsocks/shadowsocks-windows/blob/v4/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "twentyhq/twenty": {
@@ -9846,15 +11133,6 @@
       "readmeUrl": "https://github.com/wasabeef/awesome-android-ui/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "scutan90/deeplearning-500-questions": {
-      "id": "scutan90/deeplearning-500-questions",
-      "sourceHash": "230300c607a67623a4079e1297c446faaf3f337b5c288fb4430009dd0120c007",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/scutan90/DeepLearning-500-questions/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "zylon-ai/private-gpt": {
       "id": "zylon-ai/private-gpt",
       "sourceHash": "6a930207f84ecdc9a4f2206ea5ef4d46f9305cb673f9e7b6734e674cb1bf37a3",
@@ -9862,15 +11140,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/zylon-ai/private-gpt/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "textualize/rich": {
-      "id": "textualize/rich",
-      "sourceHash": "68f454af26cac667205e509d5744c2416d0d1407ad6432b963937a238375f1da",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/Textualize/rich/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "zie619/n8n-workflows": {
@@ -9882,15 +11151,6 @@
       "readmeUrl": "https://github.com/Zie619/n8n-workflows/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "soimort/you-get": {
-      "id": "soimort/you-get",
-      "sourceHash": "c4baf12b39e8213d1cef543cbad2c16caa1171a50d6c22351c5f9d4782d011f7",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/soimort/you-get/blob/develop/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "typst/typst": {
       "id": "typst/typst",
       "sourceHash": "910a6be3e04cb715b51d20e24a6843e2745dacf94f219fcbc0a6bb8546eb22e9",
@@ -9898,15 +11158,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/typst/typst/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "tryghost/ghost": {
-      "id": "tryghost/ghost",
-      "sourceHash": "d9611164524d2953c8ff0cde8135ab7d6c5b7e770f7bdd50fb29f3e455997a68",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/TryGhost/Ghost/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "werwolv/imhex": {
@@ -9954,15 +11205,6 @@
       "readmeUrl": "https://github.com/VoltAgent/awesome-openclaw-skills/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "sickcodes/docker-osx": {
-      "id": "sickcodes/docker-osx",
-      "sourceHash": "ba39dfa5ff9e870b626eee4ff1479221dc8b2fc92a433f5982ed9ade777c7e26",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/sickcodes/Docker-OSX/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "xai-org/grok-1": {
       "id": "xai-org/grok-1",
       "sourceHash": "e140036f021ef872459601df8f6b896a5ab4fbc57c9f0ac9e8c6dc2603bc2e3a",
@@ -9983,42 +11225,6 @@
       "lastAttemptAt": "2026-11-04T07:28:40.974Z",
       "nextAttemptAt": "2026-11-04T08:28:40.974Z"
     },
-    "skylot/jadx": {
-      "id": "skylot/jadx",
-      "sourceHash": "e08fc1986de1355cf81b132480a5ab512369f9dfec02e6c67253dbbb7d8b7a8b",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/skylot/jadx/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "tldraw/tldraw": {
-      "id": "tldraw/tldraw",
-      "sourceHash": "c44b4c34c6a59c006743b0f27008192a42acf4a3adc4c9838956c9a1db5932ba",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/tldraw/tldraw/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "semantic-org/semantic-ui": {
-      "id": "semantic-org/semantic-ui",
-      "sourceHash": "d1838da0511effbbe1f74ae26427e41a611a92424989a3c63bc2afd042f4e88f",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/Semantic-Org/Semantic-UI/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "serhii-londar/open-source-mac-os-apps": {
-      "id": "serhii-londar/open-source-mac-os-apps",
-      "sourceHash": "35898d01ded8a4e35809ef2fbe6ceb2610a83dbf13dea92882540b7cea7b21c9",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/serhii-londar/open-source-mac-os-apps/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "upscayl/upscayl": {
       "id": "upscayl/upscayl",
       "sourceHash": "a898347a68b269aa8228bd838873ba2a1b7a53ff695dd771262992ac6cd5c1eb",
@@ -10026,24 +11232,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/upscayl/upscayl/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "tanstack/query": {
-      "id": "tanstack/query",
-      "sourceHash": "eb4a4b899584bab2ca41e6db5f98cba0d93aae133f559cff5bcc02b5012f5716",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/TanStack/query/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "team-spotube/spotube": {
-      "id": "team-spotube/spotube",
-      "sourceHash": "e04f5aeeb9ce3fda9a60f2fca9987e50e25cd71155c7cb62c6be88e872da9b7b",
-      "firstSeenAt": "2026-10-22T06:06:20.228Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/team-spotube/spotube/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "yuan1z0825/nature-skills": {
