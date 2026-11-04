@@ -6,7 +6,8 @@ const oldThreshold=structuredClone(feed);oldThreshold.thresholdExclusive=100000;
 
 // Specific guidance and faithful fallback for newly discovered projects.
 const {enrich,types}=require('../electron/engine/github-hot-guides'),profiles=require('../catalog/github-hot-profiles.json');
-assert(feed.editions[0].items.every(r=>r.guide&&r.summary&&(!profiles[r.id]||(r.guide.curated&&r.guide.example&&types[profiles[r.id].kind]))));
+const {isReady,isUnfinished}=require('../electron/engine/github-hot-admission');
+assert(feed.editions[0].items.every(r=>isUnfinished(r)?!r.guide&&r.summary.includes('未补齐'):isReady(r)&&r.guide&&r.summary&&(!profiles[r.id]||(r.guide.curated&&r.guide.example&&types[profiles[r.id].kind]))));
 const fresh=normalize({full_name:'fixture/new-library',stargazers_count:60000,description:'A library for processing vector drawings',topics:[]},{},null,at);assert.equal(fresh.summary,'A library for processing vector drawings');assert.equal(fresh.guide.curated,false);policy.validateRepo(fresh);
 for(const guide of [{...fresh.guide,steps:'bad'},{...fresh.guide,example:'x'.repeat(601)}])assert.throws(()=>policy.validateRepo({...fresh,guide}));
 console.log('Project-specific guides, source fallback and guide validation passed');

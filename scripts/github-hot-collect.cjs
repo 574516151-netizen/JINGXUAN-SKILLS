@@ -21,10 +21,15 @@ function parseTrending(html,now){
   if(!rows.length)throw Error('GitHub Trending 未提供可识别的周增长');return rows;
 }
 function plainReadme(value){
- const text=value.replace(/<script\b[\s\S]*?<\/script>/gi,'').replace(/<style\b[\s\S]*?<\/style>/gi,'').replace(/!\[[^\]]*\]\([^)]*\)/g,'').replace(/<[^>]+>/g,'').replace(/\r\n/g,'\n');
+ const text=value.replace(/<script\b[\s\S]*?<\/script>/gi,'').replace(/<style\b[\s\S]*?<\/style>/gi,'').replace(/<h([1-4])\b[^>]*>([\s\S]*?)<\/h\1>/gi,(_m,n,title)=>'\n'+'#'.repeat(Number(n))+' '+title.replace(/<[^>]+>/g,'')+'\n').replace(/!\[[^\]]*\]\([^)]*\)/g,'').replace(/<[^>]+>/g,'').replace(/\r\n/g,'\n');
  if(text.length<=6000)return text;
- const selected=[text.slice(0,2200)],headings=[...text.matchAll(/^#{1,4}\s+(.+)$/gm)];let size=2200;
- for(let i=0;i<headings.length&&size<6000;i++){const h=headings[i];if(h.index<2200||!/install|quick.?start|getting.?started|usage|examples?|how.to|使用|安装|入门|快速|deploy|requirements|prerequisites/i.test(h[1]))continue;const end=headings[i+1]?.index||text.length,section=text.slice(h.index,Math.min(end,h.index+1800, h.index+6000-size-2));if(section.length>10){selected.push(section);size+=section.length+2;}}
+ const selected=[text.slice(0,2200)],headings=[...text.matchAll(/^#{1,4}\s+(.+)$/gm)];let size=2200;const used=new Set();
+ // Reserve room for setup and actual use instead of letting a long sponsor or
+ // prerequisite section consume the entire source window.
+ for(const [pattern,budget]of [[/requirements|prerequisites|前置|依赖/i,700],[/install|set.?up|download|deploy|pick.an.agent|安装|下载|部署/i,1500],[/quick.?start|getting.?started|get.started|usage|how.to|creat(?:e|ing)|使用|入门|快速|示例/i,1400]]){
+  let remaining=budget;
+  for(let i=0;i<headings.length&&remaining>100;i++){const h=headings[i];if(h.index<2200||used.has(i)||!pattern.test(h[1]))continue;const end=headings[i+1]?.index||text.length,section=text.slice(h.index,Math.min(end,h.index+1000,h.index+remaining));if(section.trim().length<32)continue;selected.push(section);used.add(i);remaining-=section.length+2;size+=section.length+2;}
+ }
  if(selected.length===1)return text.slice(0,6000);return selected.join('\n\n').slice(0,6000);
 }
 

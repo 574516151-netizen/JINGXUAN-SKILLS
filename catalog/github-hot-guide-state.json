@@ -63,64 +63,62 @@
       }
     },
     "eternity4719/howtolivebetter": {
-      "sourceHash": "55d49395635d26fde9942a1566e25ace18e3f3bedf4f6a148ade2f6984b4031e",
-      "completedAt": "2026-10-20T16:16:27.465Z",
+      "sourceHash": "c0040ef5b009a1e64ffbcd5405beebc4d4bece9a6879baa99e2c435e25c91707",
+      "completedAt": "2026-11-04T09:31:51.926Z",
       "content": {
-        "summary": "一份按生活决策场景整理、强调成本收益与证据等级的中文人生指南资源目录。",
+        "summary": "按生活问题组织的中文资料指南，涵盖时间、工作、财产安全及公共服务等主题，条目附成本、收益、证据等级和原始出处，并提供在线检索与离线阅读入口。",
         "scenarios": [
-          "准备失业或手头缺钱时，查找可以领取的救助与求助方向。",
-          "遇到倒地无呼吸、大出血、火灾或迷路等情况时，查询紧急应对事项。",
-          "准备开店、做网站或经营平台时，查询应办理的证照和合规要求。",
-          "面临恋爱结婚、生育育儿或慢性病管理时，查看相关成本、流程与风险。"
+          "围绕换工作、办事或学习技能等具体问题，筛选相关条目并继续阅读对应的官方或论文出处。"
         ],
-        "usage": "帮助读者查阅长寿防病、急救、理财、法律、医保社保及家庭经营等现实问题的行动建议。",
-        "requirements": "法律、医保、社保等内容按中国大陆现行规定编写；政策时效、地区执行差异及办理要求以当地部门、医生和律师意见为准。",
-        "quickStart": "1. 打开项目的在线检索页，按关键词、章节或证据等级筛选所需建议。\n2. 根据花费、耗时和毅力要求叠加筛选条件，点击条目间指路查看关联内容。",
+        "usage": "帮助读者按具体生活问题找到相关条目和原始资料，再判断适用条件。",
+        "requirements": "在线阅读需浏览器；涉及医疗、法律或当地政策时，应核对条目时间与适用地区，原文也明确提醒内容可能过时。",
+        "quickStart": "1. 从 README 打开在线检索页，用关键词或章节定位当前关心的问题。\n2. 结合证据等级、成本和时间条件筛选条目，并打开原始出处核实其时间与适用条件。",
         "guide": {
           "version": 2,
           "language": "zh-CN",
-          "kind": "资源目录",
-          "purpose": "帮助读者查阅长寿防病、急救、理财、法律、医保社保及家庭经营等现实问题的行动建议。",
-          "audience": "关注健康、安全、钱与生活选择的普通读者及家庭决策者",
-          "example": "准备失业或手头缺钱时，查找可以领取的救助与求助方向。",
+          "kind": "学习教程",
+          "purpose": "帮助读者按具体生活问题找到相关条目和原始资料，再判断适用条件。",
+          "audience": "希望按问题检索生活资料的中文读者",
+          "example": "围绕换工作、办事或学习技能等具体问题，筛选相关条目并继续阅读对应的官方或论文出处。",
           "steps": [
-            "打开项目的在线检索页，按关键词、章节或证据等级筛选所需建议。",
-            "根据花费、耗时和毅力要求叠加筛选条件，点击条目间指路查看关联内容。"
+            "从 README 打开在线检索页，用关键词或章节定位当前关心的问题。",
+            "结合证据等级、成本和时间条件筛选条目，并打开原始出处核实其时间与适用条件。"
           ],
-          "verification": "建议检查检索结果能否显示对应正文和条目来源，并确认筛选与条目指路能够打开相应内容；原文未提供专门验收脚本。",
+          "verification": "确认所选条目具有对应章节和出处，相关政策或专业问题再与当地部门及专业人员核实；指南用于查阅，不能替代诊疗或法律意见。",
           "evidence": [
             {
               "field": "summary",
-              "quote": "高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。"
+              "quote": "钱时能去领什么，开店、开公司、做网站要办什么手续。也讲恋爱结婚生孩子、出国和学手艺。法律、医保、社保这些制度上的内容，按中国大陆的现行规定写。\n767 条建议，每条写明花掉什么、换回什么、证据有多硬，来源只引期刊论文和官方文件，少数官方不公开的案件引署名的原创新闻报道并附网页存档。\n\n不用全做：这是一份备选单，不是任务清单——挑走一两条就算数，作者自己也没做到其中大部分。\n\n书里的内容可能过时，也可能有错。不少政策各地执行不一样。真去办事、看病、打官司时，以当地部门、医生和律师的说法为准。发现写错了，欢迎[提 issue](https://github.com/eternity4719/HowToLiveBetter/issues)。\n\n**电子书平台上的官方版本由果麦文化独家出品**，"
             },
             {
               "field": "purpose",
-              "quote": "讲怎么活得久、怎么少生病，出了意外怎么救。讲怎么少花冤枉钱，哪些事会让人被骗、摊上官司。讲没工作没钱时能去领什么，开店、开公司、做网站要办什么手续。"
+              "quote": "E.md)。\n- **想按条件挑**：打开[在线检索页](https://eternity4719.github.io/HowToLiveBetter/)，可以按关键词、章节、证据等级来筛，也可以按「花不花钱、花多少时间、要不要毅力」这三样筛，几个条件能叠着用。页面上的内容直接取自 book/ 目录里的正文，正文一改，页面跟着改。\n- **条目之间会互相指路**（「见第 8 节第 17 条」这种）：在检索页里，这种指路带一条虚线。点一下，就地显示被指的那条的标题和「说人话」。想真的翻过去，再按「跳过去」。那一条正好被筛选条件藏起来了，页面会自动把筛选清掉。在 GitHub 上直接读正文点不动，但每处指路后面都写着指向什么（「见第 18 条（借钱写清借条）」）。不翻过去也知道说的是哪条。\n- **"
             },
             {
               "field": "scenarios",
-              "quote": "失业了、被欠薪了、身上没钱了，能领什么、去哪求助？"
+              "quote": "之后先做什么.md) · [孩子出生前后要办的事](docs/孩子出生前后要办的事.md) · [刚确诊慢性病之后](docs/刚确诊慢性病之后.md) · [换工作、换城市之前](docs/换工作、换城市之前.md)\n\n\n交流\n\n[QQ 群 582670354](https://qm.qq.com/q/P1RNw3Rnqg)（点击加群）\n\n\n其他语言\n\n[English](https://book.dlgrv.com/en/) · [Русский](https://book.dlgrv.com/ru/) · [Español](https://book.dlgrv.com/es/) · [Português](https://book.dlgrv.com/pt/) · [العربية"
             },
             {
               "field": "steps",
-              "quote": "打开[在线检索页](https://eternity4719.github.io/HowToLiveBetter/)，可以按关键词、章节、证据等级来筛，也可以按「花不花钱、花多少时间、要不要毅力」这三样筛，几个条件能叠着用。"
+              "quote": "不到就说查不到，不自己编数字。装法见 [那个目录的说明](skills/life-decision-guide/README.md)。\n- **想按条件挑**：打开[在线检索页](https://eternity4719.github.io/HowToLiveBetter/)，可以按关键词、章节、证据等级来筛，也可以按「花不花钱、花多少时间、要不要毅力」这三样筛，几个条件能叠着用。页面上的内容直接取自 book/ 目录里的正文，正文一改，页面跟着改。\n- **条目之间会互相指路**（「见第 8 节第 17 条」这种）：在检索页里，这种指路带一条虚线。点一下，就地显示被指的那条的标题和「说人话」。想真的翻过去，再按「跳过去」。那一条正好被筛选条件藏起来了，页面会自动把筛选清掉。在 GitHu"
             },
             {
               "field": "verification",
-              "quote": "页面上的内容直接取自 book/ 目录里的正文，正文一改，页面跟着改。"
+              "quote": "官方文件，少数官方不公开的案件引署名的原创新闻报道并附网页存档。\n\n不用全做：这是一份备选单，不是任务清单——挑走一两条就算数，作者自己也没做到其中大部分。\n\n书里的内容可能过时，也可能有错。不少政策各地执行不一样。真去办事、看病、打官司时，以当地部门、医生和律师的说法为准。发现写错了，欢迎[提 issue](https://github.com/eternity4719/HowToLiveBetter/issues)。\n\n**电子书平台上的官方版本由果麦文化独家出品**，2026 年 10 月上架，其他版本都不是官方的。本页的网页版、EPUB、PDF 照旧免费，更新也最快。\n\n[](https://eternity4719.github.io/HowToLiveBetter/)\n[](#"
             }
           ],
-          "sourceHash": "55d49395635d26fde9942a1566e25ace18e3f3bedf4f6a148ade2f6984b4031e",
+          "sourceHash": "c0040ef5b009a1e64ffbcd5405beebc4d4bece9a6879baa99e2c435e25c91707",
           "sourceUrl": "https://github.com/eternity4719/HowToLiveBetter/blob/main/README.md",
-          "basis": "依据官方简介和 README 自动整理，并检查中文完整性及原文依据；场景示例不代表实际运行测试。",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
           "curated": true,
           "review": {
             "approved": true,
-            "sourceHash": "55d49395635d26fde9942a1566e25ace18e3f3bedf4f6a148ade2f6984b4031e",
-            "checkedAt": "2026-10-20T16:16:27.465Z"
+            "sourceHash": "c0040ef5b009a1e64ffbcd5405beebc4d4bece9a6879baa99e2c435e25c91707",
+            "checkedAt": "2026-11-04T09:31:51.926Z",
+            "method": "source-reading-and-structure-check"
           }
         },
-        "editorialStatus": "中文导读 · 原文依据已检查"
+        "editorialStatus": "中文导读 · 官方原文已核对"
       }
     },
     "leonardomso/33-js-concepts": {
@@ -320,20 +318,542 @@
         },
         "editorialStatus": "中文导读 · 原文依据已检查"
       }
+    },
+    "cloudflare/security-audit-skill": {
+      "sourceHash": "ee5d5fdde70e0dd6f3d825c3a5082fe4fd2f5ee9c7d0a89e2d5f6e28bd221cd0",
+      "completedAt": "2026-11-04T09:31:51.926Z",
+      "content": {
+        "summary": "面向代码智能体的安全审计工作流，把架构梳理、漏洞候选验证、证据记录和报告生成分阶段组织起来，并区分已确认、待验证及已否定的发现。",
+        "scenarios": [
+          "让多个隔离智能体检查代码仓库的不同攻击面，再由独立验证者复核漏洞候选。"
+        ],
+        "usage": "帮助开发团队对单个代码仓库开展有覆盖记录和可追溯证据的安全检查。",
+        "requirements": "需要支持工具和并行子智能体的编码宿主、Node.js，以及执行目标代码时所需的操作系统级沙箱。",
+        "quickStart": "1. 按 README 的 Skills CLI 安装入口安装 security-audit 技能，确认宿主支持并行子智能体。\n2. 在需要审计的代码仓库中启动宿主，提出安全审计请求并指定报告输出位置。\n3. 先查看覆盖记录和待验证发现，再按原文的校验脚本检查结构化发现文件。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "AI 指令 / Skill 资源",
+          "purpose": "帮助开发团队对单个代码仓库开展有覆盖记录和可追溯证据的安全检查。",
+          "audience": "具备代码审计环境的开发者和安全人员",
+          "example": "让多个隔离智能体检查代码仓库的不同攻击面，再由独立验证者复核漏洞候选。",
+          "steps": [
+            "按 README 的 Skills CLI 安装入口安装 security-audit 技能，确认宿主支持并行子智能体。",
+            "在需要审计的代码仓库中启动宿主，提出安全审计请求并指定报告输出位置。",
+            "先查看覆盖记录和待验证发现，再按原文的校验脚本检查结构化发现文件。"
+          ],
+          "verification": "核对架构和覆盖记录、发现文件及最终报告是否生成，并检查已确认与待验证项目是否分开记录；这些状态不等同于所有代码均安全。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "rity-audit\n\nA coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting.\n\nThis is the skill that seeded Cloudflare's vulnerability discovery harness, described in [Build your own vul"
+            },
+            {
+              "field": "purpose",
+              "quote": " single-repo starting point it evolved from.\n\n## What it does\n\nThe skill runs a structured audit in six phases:\n\n1. **Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architecture.md` and `coverage-ledger.json`.\n2. **Coverage-led hunting** -- assign isolated hunters from ledger units, record their c"
+            },
+            {
+              "field": "scenarios",
+              "quote": "nd deterministic coverage in `architecture.md` and `coverage-ledger.json`.\n2. **Coverage-led hunting** -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps.\n3. **Candidate validation** -- give every unique candidate to a fresh verifier that tries to disprove it.\n4. **Structured output** -- write `confirmed`"
+            },
+            {
+              "field": "steps",
+              "quote": "tallation\n\nInstall the skill with the [Skills CLI](https://skills.sh):\n\n```bash\nnpx skills add https://github.com/cloudflare/security-audit-skill \\\n  --skill security-audit\n```\n\nUse `--global` for a user-level installation:\n\n```bash\nnpx skills add https://github.com/cloudflare/security-audit-skill \\\n  --skill security-audit \\\n  --global\n```\n\nRun `npx s"
+            },
+            {
+              "field": "verification",
+              "quote": "ger.cjs` after creating the ledger and after each later ledger update. It runs `validate-findings.cjs` in Phase 4 and again after every Phase 5 replacement.\n\nThe verdicts are distinct: `confirmed` has a complete source trace and bounded observed result, `needs_validation` has an exact unresolved fact and no severity, and `rejected` records a disproved candida"
+            }
+          ],
+          "sourceHash": "ee5d5fdde70e0dd6f3d825c3a5082fe4fd2f5ee9c7d0a89e2d5f6e28bd221cd0",
+          "sourceUrl": "https://github.com/cloudflare/security-audit-skill/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "ee5d5fdde70e0dd6f3d825c3a5082fe4fd2f5ee9c7d0a89e2d5f6e28bd221cd0",
+            "checkedAt": "2026-11-04T09:31:51.926Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "ghostty-org/ghostty": {
+      "sourceHash": "9d84f0f56d3232cb4385dda26397462deacaca08f0b048f0f74c924eee7d6280",
+      "completedAt": "2026-11-04T09:31:51.926Z",
+      "content": {
+        "summary": "使用原生界面与GPU加速的终端模拟器，既提供日常命令行工作的桌面终端，也提供可嵌入其他程序的终端功能库。",
+        "scenarios": [
+          "使用桌面终端运行本地命令行程序，或参考 libghostty 示例为自己的应用嵌入终端能力。"
+        ],
+        "usage": "为开发、运维和日常命令行操作提供原生终端环境。",
+        "requirements": "桌面使用需选择官网下载页支持的系统和安装包；嵌入库开发则另按对应示例准备环境。",
+        "quickStart": "1. 从 README 的 Ghostty 下载页面进入官方安装入口，选择适合自己系统的桌面版本。\n2. 打开 Ghostty 运行一项日常终端任务，再按官方文档调整需要的终端行为或界面设置。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "为开发、运维和日常命令行操作提供原生终端环境。",
+          "audience": "经常使用命令行的开发者与终端用户",
+          "example": "使用桌面终端运行本地命令行程序，或参考 libghostty 示例为自己的应用嵌入终端能力。",
+          "steps": [
+            "从 README 的 Ghostty 下载页面进入官方安装入口，选择适合自己系统的桌面版本。",
+            "打开 Ghostty 运行一项日常终端任务，再按官方文档调整需要的终端行为或界面设置。"
+          ],
+          "verification": "确认终端能够打开并显示命令执行结果，再检查自己常用程序的显示与交互；如采用嵌入库路线，应另对照官方示例。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.\n\n# \n\n  \n  Ghostty\n\n\n  \n    Fast, native, feature-rich terminal emulator pushing modern features.\n    \n    A native GUI or embeddable library via libghostty.\n    \n    About\n    ·\n    Download\n    ·\n    Documen"
+            },
+            {
+              "field": "purpose",
+              "quote": "s a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.\n\n# \n\n  \n  Ghostty\n\n\n  \n    Fast, native, feature-rich terminal emulator pushing modern features.\n    \n    A native GUI or embeddable library via libghostty.\n    \n    About\n    ·\n    Download\n    ·\n    Documentation\n    ·\n    Contribut"
+            },
+            {
+              "field": "scenarios",
+              "quote": "ulator pushing modern features.\n    \n    A native GUI or embeddable library via libghostty.\n    \n    About\n    ·\n    Download\n    ·\n    Documentation\n    ·\n    Contributing\n    ·\n    Developing\n  \n\n\n## About\n\nGhostty is a terminal emulator that differentiates itself by being\nfast, feature-rich, and native. While there are many excellent terminal\nem"
+            },
+            {
+              "field": "steps",
+              "quote": "ls, see [About Ghostty](https://ghostty.org/docs/about).\n\n## Download\n\nSee the [download page](https://ghostty.org/download) on the Ghostty website.\n\n## Documentation\n\nSee the [documentation](https://ghostty.org/docs) on the Ghostty website.\n\n## Contributing and Developing\n\nIf you have any ideas, issues, etc. regarding Ghostty, or would like to\ncontri"
+            },
+            {
+              "field": "verification",
+              "quote": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.\n\n# \n\n  \n  Ghostty\n\n\n  \n    Fast, native, feature-rich terminal emulator pushing modern features.\n    \n    A native GUI or embeddable library via libghostty.\n    \n    About\n    ·\n    Download\n    ·\n    Documen"
+            }
+          ],
+          "sourceHash": "9d84f0f56d3232cb4385dda26397462deacaca08f0b048f0f74c924eee7d6280",
+          "sourceUrl": "https://github.com/ghostty-org/ghostty/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "9d84f0f56d3232cb4385dda26397462deacaca08f0b048f0f74c924eee7d6280",
+            "checkedAt": "2026-11-04T09:31:51.926Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "storytold/photocraft": {
+      "sourceHash": "658e0a945047f25a26a6e94b605621809845d986edd38ab9680bad89a26be9a4",
+      "completedAt": "2026-11-04T09:31:51.926Z",
+      "content": {
+        "summary": "以Rust开发的原生图像编辑器，提供图层、蒙版、调整层、文字和矢量等编辑能力，可打开、编辑并保存分层PSD文档。",
+        "scenarios": [
+          "打开已有分层PSD进行图像与文字相关编辑，再保存给后续设计环节继续处理。"
+        ],
+        "usage": "在桌面环境编辑图片和分层设计稿，并保留可继续修改的图层文档。",
+        "requirements": "按官方页面选择支持自己系统的桌面安装包，并准备一份图片或分层PSD用于试用。",
+        "quickStart": "1. 进入 README 的 PhotoCraft 官方下载页面，选择对应桌面系统的版本安装。\n2. 打开一份测试图片或分层PSD，先做少量图层相关修改，再保存为新的文档副本。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "在桌面环境编辑图片和分层设计稿，并保留可继续修改的图层文档。",
+          "audience": "需要图层编辑与PSD交接的设计师及图像用户",
+          "example": "打开已有分层PSD进行图像与文字相关编辑，再保存给后续设计环节继续处理。",
+          "steps": [
+            "进入 README 的 PhotoCraft 官方下载页面，选择对应桌面系统的版本安装。",
+            "打开一份测试图片或分层PSD，先做少量图层相关修改，再保存为新的文档副本。"
+          ],
+          "verification": "重新打开保存的副本，对照图像显示及图层保留情况；原文提供的是图层编辑能力，不能据此承诺任意平面图片都会自动还原成独立图层。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "source, clean-room reimplementation of Adobe Photoshop, rebuilt in pure Rust.\n  Layers, masks, adjustment layers, layer styles, type, vectors, brushes and real PSD files,\n  in a native app written entirely in Rust. Open source, offline, and yours.\n\n\n\n  \n  \n  \n  \n  \n  \n  \n\n\n\n  \n\n\n\n  PhotoCraft on getartcraft.com ·\n  ArtCraft ·\n  All Crafting Apps\n\n\n\n\n\n  \n  \n  A caption c"
+            },
+            {
+              "field": "purpose",
+              "quote": "ectron, no web view, no waiting.\n    \n    \n      \n### 🗂️ Real PSD files\n\n      Open, edit and save layered Photoshop documents. Re-saving keeps the render of 307 of the 309 psd-tools test files.\n    \n    \n      \n### 🤖 Agent-ready\n\n      Every action is a command, so you can drive the same engine from the UI, the CLI, a JSON control channel or an MCP server.\n    \n  \n\n\n\n\n## Features\n\n"
+            },
+            {
+              "field": "scenarios",
+              "quote": "t.\n  Layers, masks, adjustment layers, layer styles, type, vectors, brushes and real PSD files,\n  in a native app written entirely in Rust. Open source, offline, and yours.\n\n\n\n  \n  \n  \n  \n  \n  \n  \n\n\n\n  \n\n\n\n  PhotoCraft on getartcraft.com ·\n  ArtCraft ·\n  All Crafting Apps\n\n\n\n\n\n  \n  \n  A caption card with a drop shadow, live type, and Vibrance and Curve"
+            },
+            {
+              "field": "steps",
+              "quote": "them, or turn them off, and your original pixels never change.\n\n## Downloads\n\n**New to PhotoCraft?** Download it from the [PhotoCraft page on getartcraft.com](https://getartcraft.com/apps/photocraft). That's the easiest way to install it.\n\n**Want a specific build or format?** On GitHub, the [latest release](https://github.com/storytold/photocraft/releases/"
+            },
+            {
+              "field": "verification",
+              "quote": "ectron, no web view, no waiting.\n    \n    \n      \n### 🗂️ Real PSD files\n\n      Open, edit and save layered Photoshop documents. Re-saving keeps the render of 307 of the 309 psd-tools test files.\n    \n    \n      \n### 🤖 Agent-ready\n\n      Every action is a command, so you can drive the same engine from the UI, the CLI, a JSON control channel or an MCP server.\n    \n  \n\n\n\n\n## Features\n\n"
+            }
+          ],
+          "sourceHash": "658e0a945047f25a26a6e94b605621809845d986edd38ab9680bad89a26be9a4",
+          "sourceUrl": "https://github.com/storytold/photocraft/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "658e0a945047f25a26a6e94b605621809845d986edd38ab9680bad89a26be9a4",
+            "checkedAt": "2026-11-04T09:31:51.926Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "hugohe3/ppt-master": {
+      "sourceHash": "a5d40a3e5d5e392528c28a6fa0c08ec20932fa62e2d3d48282a1853a47c21bb9",
+      "completedAt": "2026-11-04T09:31:51.926Z",
+      "content": {
+        "summary": "供具备文件操作能力的AI智能体使用的演示文稿工作流，可把文档或主题整理成可继续编辑的PowerPoint，并支持模板、原生形状、图表等制作环节。",
+        "scenarios": [
+          "把报告PDF或已有文字交给编码智能体，生成可在PowerPoint中继续修改的演示文稿。"
+        ],
+        "usage": "把已有资料组织为演示文稿初稿，减少逐页编排和导出的重复工作。",
+        "requirements": "需要Python 3.10至3.14，以及能读写文件、执行命令并持续对话的Agent；Windows用户应先核对专门安装指南。",
+        "quickStart": "1. 从仓库下载ZIP并解压，按原文使用 pip install -r requirements.txt 安装依赖。\n2. 在所选Agent中打开解压后的 ppt-master 项目目录，把资料放入项目的 projects 目录。\n3. 在聊天中提供资料路径并说明制作PPT的需求，生成后继续检查和修改导出的演示文稿。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "AI 指令 / Skill 资源",
+          "purpose": "把已有资料组织为演示文稿初稿，减少逐页编排和导出的重复工作。",
+          "audience": "有演示文稿制作需求的办公人员及内容作者",
+          "example": "把报告PDF或已有文字交给编码智能体，生成可在PowerPoint中继续修改的演示文稿。",
+          "steps": [
+            "从仓库下载ZIP并解压，按原文使用 pip install -r requirements.txt 安装依赖。",
+            "在所选Agent中打开解压后的 ppt-master 项目目录，把资料放入项目的 projects 目录。",
+            "在聊天中提供资料路径并说明制作PPT的需求，生成后继续检查和修改导出的演示文稿。"
+          ],
+          "verification": "在PowerPoint中打开导出的文件，检查文字、形状和图表能否继续编辑，同时对照源资料核对内容与排版；不把一次生成视作免检查的最终稿。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He\n\n# PPT Master — AI generates native PowerPoint from any document\n\n[](http"
+            },
+            {
+              "field": "purpose",
+              "quote": "s, DOCX files, and web pages, identify key points, structure the narrative, and generate a natively editable PPTX that you can continue refining in PowerPoint.\n\n**Try a [Kimi Code plan](https://www.kimi.com/code/?aff=ppt-master) ([中文站](https://www.kimi.com/code/?aff=ppt-master) | [Global](https://www.kimi.ai/code/?aff=ppt-master)), or access the API through the Kimi Open"
+            },
+            {
+              "field": "scenarios",
+              "quote": "-master` first, then launch it. Everything from here on happens in the chat.\n\n**Provide source materials (recommended):** Place your PDF, DOCX, images, or other files in the `projects/` directory, then tell the AI chat panel which files to use. The quickest way to get the path: right-click the file in your file manager or IDE sidebar → **Copy Path** (or **Copy R"
+            },
+            {
+              "field": "steps",
+              "quote": "```\n\nThen install dependencies:\n\n```bash\npip install -r requirements.txt\n```\n\n**Option B — Download ZIP** (no Git required; best for a quick trial): click **Code → Download ZIP** on the [GitHub page](https://github.com/hugohe3/ppt-maste\n\n### 4. Create\n\n**First, open the project folder in your agent:** the goal is to point the AI at the `ppt-master` directory yo"
+            },
+            {
+              "field": "verification",
+              "quote": "es, and web pages, identify key points, structure the narrative, and generate a natively editable PPTX that you can continue refining in PowerPoint.\n\n**Try a [Kimi Code plan](https://www.kimi.com/code/?aff=ppt-master) ([中文站](https://www.kimi.com/code/?aff=ppt-master) | [Global](https://www.kimi.ai/code/?aff=ppt-master)), or access the API through the Kimi"
+            }
+          ],
+          "sourceHash": "a5d40a3e5d5e392528c28a6fa0c08ec20932fa62e2d3d48282a1853a47c21bb9",
+          "sourceUrl": "https://github.com/hugohe3/ppt-master/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "a5d40a3e5d5e392528c28a6fa0c08ec20932fa62e2d3d48282a1853a47c21bb9",
+            "checkedAt": "2026-11-04T09:31:51.926Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "1c7/chinese-independent-developer": {
+      "sourceHash": "c7de4037f2ee359156dadfc14506b81151e30638283b20cdeab73dd40a382846",
+      "completedAt": "2026-11-04T09:31:51.926Z",
+      "content": {
+        "summary": "汇集中国独立开发者产品的项目目录，主版面侧重可直接使用的网站和应用，另外列出程序员、游戏以及往年项目版面，并标注项目维护状态。",
+        "scenarios": [
+          "按项目介绍发现一款网站或应用，查看其上线状态，并进入产品自己的页面了解实际用途。"
+        ],
+        "usage": "发现独立开发产品、查看其他开发者在做什么，并寻找具体产品的访问入口。",
+        "requirements": "使用浏览器查阅即可；目录内各产品的账号、费用和系统要求需到对应产品页面确认。",
+        "quickStart": "1. 先浏览 README 主版面的近期项目，按说明区分网站应用、程序员工具及游戏子版面。\n2. 选中一个项目后查看开发中、已上线或缺乏维护等状态，再打开其产品及介绍链接。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "资源目录",
+          "purpose": "发现独立开发产品、查看其他开发者在做什么，并寻找具体产品的访问入口。",
+          "audience": "独立开发者、产品设计师与工具使用者",
+          "example": "按项目介绍发现一款网站或应用，查看其上线状态，并进入产品自己的页面了解实际用途。",
+          "steps": [
+            "先浏览 README 主版面的近期项目，按说明区分网站应用、程序员工具及游戏子版面。",
+            "选中一个项目后查看开发中、已上线或缺乏维护等状态，再打开其产品及介绍链接。"
+          ],
+          "verification": "核对所选项目的官方页面是否能访问，以及实际用途是否符合自己的需求；目录收录本身不代表每个产品都已由本软件测试。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么\n\n## 中国独立开发者项目列表\n聚合所有中国独立开发者的项目\n\n### 子版面\n- [程序员版面](./.github/pages/README-Programmer-Edition.md)：使用需要命令行或写代码\n- [游戏版面](./.github/pages/README-Game.md)：都是游戏\n- [2018 ~ 2025 年收录的项目](./.github/pages/README-Earlier-Projects.md)：项目太多，从主列表单独分出一册\n\n备注：您当前查看的是主版面，收录的产品是打开即用，和子版面中的产品类型不同。\n\n**1. 为什么有这个表"
+            },
+            {
+              "field": "purpose",
+              "quote": "cts.md)：项目太多，从主列表单独分出一册\n\n备注：您当前查看的是主版面，收录的产品是打开即用，和子版面中的产品类型不同。\n\n**1. 为什么有这个表**\n作为开发者其实比较好奇其他人在做什么业余项目（不管目的是做到盈利/玩票/试试看）\n所以特意建了这个库。欢迎各位开发者把自己的项目加进来~ 发 Pull Request 或 Issue 即可 \n（入选标准：必须是网站或App，不能是开发者工具或论坛型网站）\n\n**写好介绍语很重要**：❌ `AI 视频生成工具` → ✅ `无需剪辑经验，3 步生成竖屏短视频`\n👉 [如何写好一句话产品介绍](./.github/CONTRIBUTING.md)\n\n**2. 项目有 3 种状态**\n\n| 开发中 | 已上线 | 已关闭或缺乏维护 |\n|--"
+            },
+            {
+              "field": "scenarios",
+              "quote": " 年收录的项目](./.github/pages/README-Earlier-Projects.md)：项目太多，从主列表单独分出一册\n\n备注：您当前查看的是主版面，收录的产品是打开即用，和子版面中的产品类型不同。\n\n**1. 为什么有这个表**\n作为开发者其实比较好奇其他人在做什么业余项目（不管目的是做到盈利/玩票/试试看）\n所以特意建了这个库。欢迎各位开发者把自己的项目加进来~ 发 Pull Request 或 Issue 即可 \n（入选标准：必须是网站或App，不能是开发者工具或论坛型网站）\n\n**写好介绍语很重要**：❌ `AI 视频生成工具` → ✅ `无需剪辑经验，3 步生成竖屏短视频`\n👉 [如何写好一句话产品介绍](./.github/CONTRIBUTIN"
+            },
+            {
+              "field": "steps",
+              "quote": "🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么\n\n## 中国独立开发者项目列表\n聚合所有中国独立开发者的项目\n\n### 子版面\n- [程序员版面](./.github/pages/README-Programmer-Edition.md)：使用需要命令行或写代码\n- [游戏版面](./.github/pages/README-Game.md)：都是游戏\n- [2018 ~ 2025 年收录的项目](./.github/pages/README-Earlier-Projects.md)：项目太多，从主列表单独分出一册\n\n备注：您当前查看的是主版面，收录的产品是打开即用，和子版面中的产品类型不同。\n\n**1. 为什么有这个表**\n作为开发者其"
+            },
+            {
+              "field": "verification",
+              "quote": "生成工具` → ✅ `无需剪辑经验，3 步生成竖屏短视频`\n👉 [如何写好一句话产品介绍](./.github/CONTRIBUTING.md)\n\n**2. 项目有 3 种状态**\n\n| 开发中 | 已上线 | 已关闭或缺乏维护 |\n|--------|--------|--------|\n| :clock8: | :white_check_mark: | :x: |\n\n## 3. 项目列表\n\n### 2026 年 11 月 4 号添加\n\n#### Linhao Cui - [Github](https://github.com/cuilinhao)\n* :white_check_mark: [SoulPaw](https://soulpaw.art/)：在线 AI 宠物写真工具，上传 "
+            }
+          ],
+          "sourceHash": "c7de4037f2ee359156dadfc14506b81151e30638283b20cdeab73dd40a382846",
+          "sourceUrl": "https://github.com/1c7/chinese-independent-developer/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "c7de4037f2ee359156dadfc14506b81151e30638283b20cdeab73dd40a382846",
+            "checkedAt": "2026-11-04T09:31:51.926Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "2dust/v2rayng": {
+      "sourceHash": "9bea286f7cbb42ff9a77288f962676dfa8d50adc42de96461996700fa8b38939",
+      "completedAt": "2026-11-04T09:31:51.926Z",
+      "content": {
+        "summary": "面向Android的V2Ray客户端，可使用Xray或v2fly核心，并提供地理IP、域名路由数据相关的配置说明；桌面端是另一个项目v2rayN。",
+        "scenarios": [
+          "在Android设备上使用自己具备使用权限的连接配置，并维护所需的域名或IP路由数据。"
+        ],
+        "usage": "在Android设备上管理相应核心的网络代理连接与路由配置。",
+        "requirements": "需要Android设备及可用连接配置；原文提示路由数据下载功能本身需要可用代理。",
+        "quickStart": "1. 从 README 指向的GitHub Releases选择Android发布文件，按GPG校验说明核对文件来源与完整性。\n2. 安装后参照仓库Wiki完成自己的连接配置；需要自定义路由数据时，再按Geoip与Geosite说明处理。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "在Android设备上管理相应核心的网络代理连接与路由配置。",
+          "audience": "需要Android代理客户端的技术用户",
+          "example": "在Android设备上使用自己具备使用权限的连接配置，并维护所需的域名或IP路由数据。",
+          "steps": [
+            "从 README 指向的GitHub Releases选择Android发布文件，按GPG校验说明核对文件来源与完整性。",
+            "安装后参照仓库Wiki完成自己的连接配置；需要自定义路由数据时，再按Geoip与Geosite说明处理。"
+          ],
+          "verification": "确认文件校验与应用启动正常，再核对自己的连接和路由设置；不要把Android版本与桌面v2rayN混为一谈。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A V2Ray client for Android, support Xray core and v2fly core\n\n# v2rayNG\n\nA V2Ray client for Android, support [Xray core](https://github.com/XTLS/Xray-core) and [v2fly core](https://github.com/v2fly/v2ray-core)\n\n[](https://developer.android.com/about/versions/lollipop)\n[](https://kotlin"
+            },
+            {
+              "field": "purpose",
+              "quote": "A V2Ray client for Android, support Xray core and v2fly core\n\n# v2rayNG\n\nA V2Ray client for Android, support [Xray core](https://github.com/XTLS/Xray-core) and [v2fly core](https://github.com/v2fly/v2ray-core)\n\n[](https://developer.android.com/about/versions/lollipop)\n[](https://kotlinlang.org)"
+            },
+            {
+              "field": "scenarios",
+              "quote": "yN \\\n> v2rayNG 是手机版，电脑版请访问 v2rayN\n>\n> https://github.com/2dust/v2rayN\n\n---\n\n### Geoip and Geosite\n\n- geoip.dat and geosite.dat files are in `Android/data/com.v2ray.ang/files/assets` (path may differ on some Android device)\n- download feature will get enhanced version in this [repo](https://github.com/Loyalsoldier/v2ray-rules-dat) (note: it needs a working"
+            },
+            {
+              "field": "steps",
+              "quote": "hub.com/2dust/v2rayNG/releases)\n[](https://t.me/v2rayn)\n\n---\n\n## Download / 下载\n\nDownload the latest release here:\n\n在这里下载最新版本：\n\n[https://github.com/2dust/v2rayNG/releases](https://github.com/2dust/v2rayNG/releases)\n\n> [!TIP]\n> v2rayNG is the mobile version. For the desktop version, please visit the v2rayN \\\n> v2rayNG 是手机版，电脑版请访问 v2rayN\n>\n> https://github.com/2dust/v2rayN"
+            },
+            {
+              "field": "verification",
+              "quote": "对于 WSA，需要通过 `appops set [package name] ACTIVATE_VPN allow` 授予 VPN 权限。\n\n---\n\n\n## GPG Verification / GPG 签名校验\n\nRelease files are signed with GPG to verify authenticity and integrity, helping prevent mirror, ISP, or CDN hijacking.\n\n发布文件已使用 GPG 签名，可用于校验文件真实性与完整性，预防镜像站、运营商或 CDN 劫持。\n\n### Fingerprint / 公钥指纹\n\n```text\n7694 5E9F 3E9A 168F 8070 F195 805D 661C\n134D "
+            }
+          ],
+          "sourceHash": "9bea286f7cbb42ff9a77288f962676dfa8d50adc42de96461996700fa8b38939",
+          "sourceUrl": "https://github.com/2dust/v2rayNG/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "9bea286f7cbb42ff9a77288f962676dfa8d50adc42de96461996700fa8b38939",
+            "checkedAt": "2026-11-04T09:31:51.926Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "aaif-goose/goose": {
+      "sourceHash": "63207033842bdea6f6bfd9327e48fef40ee82cfb256c40e35e1878f78ca494fc",
+      "completedAt": "2026-11-04T09:31:51.926Z",
+      "content": {
+        "summary": "运行在本机的开源通用AI智能体，提供桌面程序、命令行和API，可连接不同模型提供方，并通过MCP扩展完成代码、写作、研究与自动化任务。",
+        "scenarios": [
+          "在本机提交代码修改或资料分析任务，让智能体调用已配置的模型和扩展完成工作。"
+        ],
+        "usage": "把本地文件、模型与工具连接起来，辅助执行多步骤工作。",
+        "requirements": "需要对应系统的桌面版本，以及选定提供方可用的API凭据或原文支持的订阅接入方式；扩展按任务单独配置。",
+        "quickStart": "1. 从 README 的桌面下载入口安装macOS、Linux或Windows版本，先按Quickstart选择模型提供方。\n2. 配置可用模型后提交一个范围小、容易核对的任务，需要额外工具时再按官方文档接入MCP扩展。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "AI 助手 / 智能体",
+          "purpose": "把本地文件、模型与工具连接起来，辅助执行多步骤工作。",
+          "audience": "愿意配置模型与工具的个人用户及开发者",
+          "example": "在本机提交代码修改或资料分析任务，让智能体调用已配置的模型和扩展完成工作。",
+          "steps": [
+            "从 README 的桌面下载入口安装macOS、Linux或Windows版本，先按Quickstart选择模型提供方。",
+            "配置可用模型后提交一个范围小、容易核对的任务，需要额外工具时再按官方文档接入MCP扩展。"
+          ],
+          "verification": "检查实际生成的内容或文件变更是否符合任务，并核对工具的执行记录；连接模型和扩展不代表所有任务都会自动正确完成。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": " code, workflows, and everything in between_\n\n\n  \n  \n  \n  \n  \n\n\n\n\n\n\n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n\nA native desktop app for macOS, Linux, and Windows. A full CLI for terminal workflows. An API to embed it anywhere. Buil"
+            },
+            {
+              "field": "purpose",
+              "quote": "eral-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.\n\nA native desktop app for macOS, Linux, and Windows. A full CLI for terminal workflows. An API to embed it anywhere. Built in Rust for performance and portability.\n\ngoose works with 15+ providers — Anthropic, OpenAI, Google,"
+            },
+            {
+              "field": "scenarios",
+              "quote": "emini subscriptions via [ACP](https://goose-docs.ai/docs/guides/acp-providers). Connect to 70+ extensions via the [Model Context Protocol](https://modelcontextprotocol.io/) open standard.\n\ngoose is part of the [Agentic AI Foundation (AAIF)](https://aaif.io/) at the Linux Foundation.\n\n# Get started\n\n**[Download the desktop app](https://goose-docs.ai/docs/getting-s"
+            },
+            {
+              "field": "steps",
+              "quote": "oundation (AAIF)](https://aaif.io/) at the Linux Foundation.\n\n# Get started\n\n**[Download the desktop app](https://goose-docs.ai/docs/getting-started/installation)** for macOS, Linux, and Windows.\n\nOr install the CLI:\n\n```bash\ncurl -fsSL https://github.com/aaif-goose/goose/releases/download/stable/download_cli.sh | bash\n```\n\n# Quick links\n- [Quickstart](https://g"
+            },
+            {
+              "field": "verification",
+              "quote": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n\n# goose\n\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n\n  \n  \n  \n  \n  \n\n\n\n\n\n\n\ngoose is a general-purpose AI agent that runs on your machine. Not just for code — use it for resear"
+            }
+          ],
+          "sourceHash": "63207033842bdea6f6bfd9327e48fef40ee82cfb256c40e35e1878f78ca494fc",
+          "sourceUrl": "https://github.com/aaif-goose/goose/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "63207033842bdea6f6bfd9327e48fef40ee82cfb256c40e35e1878f78ca494fc",
+            "checkedAt": "2026-11-04T09:31:51.926Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "adam-p/markdown-here": {
+      "sourceHash": "9d96506207d9cce6db8cb1d66a5c366d7675489bcf6e9e454520f2da2e7a7b91",
+      "completedAt": "2026-11-04T09:31:51.926Z",
+      "content": {
+        "summary": "用于浏览器和Thunderbird的Markdown排版扩展，可在邮件富文本编辑区写Markdown，再转换为HTML显示，支持带语言标记的代码语法高亮。",
+        "scenarios": [
+          "用Markdown编写带标题和代码块的技术邮件，发送前在编辑框内转换并检查排版。"
+        ],
+        "usage": "在邮件编辑流程中直接完成Markdown到富文本的排版转换。",
+        "requirements": "需要官方README列出的浏览器或Thunderbird环境，并启用邮件富文本或HTML编辑模式。",
+        "quickStart": "1. 通过 README 对应的扩展安装入口安装Markdown Here，安装后重新加载网页邮件页面。\n2. 在富文本编辑框写入Markdown，使用右键菜单中的Markdown Toggle或扩展按钮转换显示。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "在邮件编辑流程中直接完成Markdown到富文本的排版转换。",
+          "audience": "经常通过邮件发送技术说明或代码的用户",
+          "example": "用Markdown编写带标题和代码块的技术邮件，发送前在编辑框内转换并检查排版。",
+          "steps": [
+            "通过 README 对应的扩展安装入口安装Markdown Here，安装后重新加载网页邮件页面。",
+            "在富文本编辑框写入Markdown，使用右键菜单中的Markdown Toggle或扩展按钮转换显示。"
+          ],
+          "verification": "发送前确认编辑区已经渲染为所需的富文本样式，重点检查代码块、标题和段落；原文明确要求使用富文本编辑器。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.\n\n#  Markdown Here\n\n[**Visit the website.**](https://markdown-here.com)\n[**Get it for Chrome.**](https://chrome.google.com/webstore/detail/elifhakcjgalahccnjkneoccemfahfoa)\n[**Get it for Firefox.**](https://addons.mozi"
+            },
+            {
+              "field": "purpose",
+              "quote": "Thunderbird extension that lets you write email&dagger; in Markdown&Dagger; and render them before sending. It also supports syntax highlighting (just specify the language in a fenced code block).\n\nWriting email with code in it is pretty tedious. Writing Markdown with code in it is easy. I found myself writing email in Markdown in the GitHub in-browser editor, the"
+            },
+            {
+              "field": "scenarios",
+              "quote": "pports syntax highlighting (just specify the language in a fenced code block).\n\nWriting email with code in it is pretty tedious. Writing Markdown with code in it is easy. I found myself writing email in Markdown in the GitHub in-browser editor, then copying the preview into email. This is a pretty absurd workflow, so I decided to create a tool to write and rend"
+            },
+            {
+              "field": "steps",
+              "quote": " highlighting.');\n   ```\n   \n\n5. Right-click in the compose box and choose the \"Markdown Toggle\" item from the context menu. Or click the button that appears on your toolbar. Or use the hotkey (SHIFT+ALT+M by default).\n6. You should see your email rendered correctly from Markdown into rich HTML.\n7. Send your awesome email to everyone you know. It will a"
+            },
+            {
+              "field": "verification",
+              "quote": "on that appears on your toolbar. Or use the hotkey (SHIFT+ALT+M by default).\n6. You should see your email rendered correctly from Markdown into rich HTML.\n7. Send your awesome email to everyone you know. It will appear t"
+            }
+          ],
+          "sourceHash": "9d96506207d9cce6db8cb1d66a5c366d7675489bcf6e9e454520f2da2e7a7b91",
+          "sourceUrl": "https://github.com/adam-p/markdown-here/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "9d96506207d9cce6db8cb1d66a5c366d7675489bcf6e9e454520f2da2e7a7b91",
+            "checkedAt": "2026-11-04T09:31:51.926Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "agalwood/motrix": {
+      "sourceHash": "a66b3c417c8fcfa6b2d445fa5c1239b576b29dc3f6fcd99bc979703b53770cce",
+      "completedAt": "2026-11-04T09:31:51.926Z",
+      "content": {
+        "summary": "提供桌面界面的下载管理器，支持HTTP、FTP、BitTorrent和磁力链接等任务；原文也介绍了可用于NAS或家庭服务器的无桌面运行方式。",
+        "scenarios": [
+          "在桌面程序中管理普通文件和种子下载，按任务查看进度并处理保存目录。"
+        ],
+        "usage": "在一个下载工具中管理不同类型的下载任务与保存位置。",
+        "requirements": "桌面路线需选择对应macOS、Windows或Linux版本；从旧版升级前先备份已有配置和下载文件。",
+        "quickStart": "1. 从 README 的GitHub Releases入口下载适合自己系统的Motrix桌面版本。\n2. 安装并打开程序后，用一份小文件链接建立下载任务，选择保存目录并观察任务进度。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "在一个下载工具中管理不同类型的下载任务与保存位置。",
+          "audience": "需要集中管理文件下载的桌面用户",
+          "example": "在桌面程序中管理普通文件和种子下载，按任务查看进度并处理保存目录。",
+          "steps": [
+            "从 README 的GitHub Releases入口下载适合自己系统的Motrix桌面版本。",
+            "安装并打开程序后，用一份小文件链接建立下载任务，选择保存目录并观察任务进度。"
+          ],
+          "verification": "确认下载完成后的文件与保存位置正确；旧版迁移的暂停任务需另行确认恢复，不把迁移记录出现视为已经继续下载。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "lish | [简体中文](./README.zh-CN.md)\n\n## Overview\n\nMotrix is a clean, full-featured desktop download manager for HTTP, FTP, BitTorrent, magnet links, and more.\n\n**Motrix Turbo** is Motrix v2, rebuilt from the ground up with Electron, React, and TypeScript while keeping the clean, straightforward experience of v1. The download core is independent of the UI. Browser e"
+            },
+            {
+              "field": "purpose",
+              "quote": "md)\n\n## Overview\n\nMotrix is a clean, full-featured desktop download manager for HTTP, FTP, BitTorrent, magnet links, and more.\n\n**Motrix Turbo** is Motrix v2, rebuilt from the ground up with Electron, React, and TypeScript while keeping the clean, straightforward experience of v1. The download core is independent of the UI. Browser extensions and command-line tools communi"
+            },
+            {
+              "field": "scenarios",
+              "quote": "s run in isolated sandboxes.\n\nThe same core powers two ways to run Motrix:\n\n- **Desktop app:** Runs on macOS, Windows, and Linux\n- **Headless server:** Runs without a desktop environment, either directly on Node.js or in Docker, and includes a web UI for NAS devices and home servers\n\n## Motrix 2.2.1\n\nMotrix 2.2.1 fixes startup recovery for broken ma"
+            },
+            {
+              "field": "steps",
+              "quote": "d fixes stale\nretry actions after Web UI session changes.\nDownload [v2.2.1 from GitHub Releases](https://github.com/agalwood/Motrix/releases/tag/v2.2.1)\nand read the [full release notes](./docs/release-notes/2.2.1.md).\n\nBack up your existing Motrix profile and downloads before upgrading. The bundled\nengine upgrades its SQLite database to schema 6 and ke"
+            },
+            {
+              "field": "verification",
+              "quote": "need to downgrade.\nThe desktop Migration Assistant imports selected v1 tasks as paused records and\npreserves the original files. Resuming downloads requires a separate explicit\naction. Windows in-place BitTorrent activation requires a supported local NTFS\nvolume and explicit authorization. See the [migration guide](./docs/legacy-migration.md)\nfor suppo"
+            }
+          ],
+          "sourceHash": "a66b3c417c8fcfa6b2d445fa5c1239b576b29dc3f6fcd99bc979703b53770cce",
+          "sourceUrl": "https://github.com/agalwood/Motrix/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "a66b3c417c8fcfa6b2d445fa5c1239b576b29dc3f6fcd99bc979703b53770cce",
+            "checkedAt": "2026-11-04T09:31:51.926Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     }
   },
   "pending": {
-    "storytold/photocraft": {
-      "id": "storytold/photocraft",
-      "sourceHash": "652a60154b44cad8f8863292ee35237c03261bf9959df37741c9a5554269c4f6",
-      "firstSeenAt": "2026-10-19T06:10:18.286Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/storytold/photocraft/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-24T19:29:55.769Z",
-      "nextAttemptAt": "2026-10-24T20:29:55.769Z"
-    },
     "madslorentzen/ai-job-search": {
       "id": "madslorentzen/ai-job-search",
       "sourceHash": "2f7636632b585fcf4123e19a957c7f26678022b9f7ff20fb28382c3ae6154eac",
@@ -547,17 +1067,6 @@
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-23T06:01:15.471Z"
     },
-    "hugohe3/ppt-master": {
-      "id": "hugohe3/ppt-master",
-      "sourceHash": "5621e9035949394ab3a24a2cda7c23b48cff8ed2436743502267dc2230d437cf",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/hugohe3/ppt-master/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-04T07:28:40.974Z",
-      "nextAttemptAt": "2026-11-04T08:28:40.974Z"
-    },
     "rust-lang/rustlings": {
       "id": "rust-lang/rustlings",
       "sourceHash": "b8be9c50fb6c31e21b6499fb4e5cdd784d5f039486eb1ff0de49b4ea1945b2b1",
@@ -575,16 +1084,6 @@
       "attempts": 1,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/keras-team/keras/blob/master/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-24T05:48:37.387Z"
-    },
-    "2dust/v2rayng": {
-      "id": "2dust/v2rayng",
-      "sourceHash": "9bea286f7cbb42ff9a77288f962676dfa8d50adc42de96461996700fa8b38939",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/2dust/v2rayNG/blob/master/README.md",
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-24T05:48:37.387Z"
     },
@@ -814,17 +1313,6 @@
       "lastAttemptAt": "2026-10-28T06:50:28.519Z",
       "nextAttemptAt": "2026-10-28T07:50:28.519Z"
     },
-    "ghostty-org/ghostty": {
-      "id": "ghostty-org/ghostty",
-      "sourceHash": "9133dfea18e6a49b7e1eabe7854ff40abc40332a34998a675e9032709293d211",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 3,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/ghostty-org/ghostty/blob/main/README.md",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-11-03T07:54:18.929Z",
-      "nextAttemptAt": "2026-11-03T08:54:18.929Z"
-    },
     "tw93/pake": {
       "id": "tw93/pake",
       "sourceHash": "8aa076f73ce83f451ef1233ef896f56957224667f871f57aea4d8190b4317547",
@@ -852,15 +1340,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/pathwaycom/pathway/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "1c7/chinese-independent-developer": {
-      "id": "1c7/chinese-independent-developer",
-      "sourceHash": "bd885d1ff72d441192b700f2b4fb1807fad7a72c472864565131b26cdacb5d9e",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/1c7/chinese-independent-developer/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "berriai/litellm": {
@@ -1016,15 +1495,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/spring-projects/spring-framework/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "adam-p/markdown-here": {
-      "id": "adam-p/markdown-here",
-      "sourceHash": "4d5c390f4b7d7d5feea0239d65b8e53369f0d7cd6dd68a8aa3beb76d1e894605",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/adam-p/markdown-here/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "corentinj/real-time-voice-cloning": {
@@ -1308,15 +1778,6 @@
       "readmeUrl": "https://github.com/Textualize/rich/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "agalwood/motrix": {
-      "id": "agalwood/motrix",
-      "sourceHash": "7cbaa3b402e022a0faa8871b40ce127513ea17c4576f52d85c704f36c02cbcb3",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/agalwood/Motrix/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "chen08209/flclash": {
       "id": "chen08209/flclash",
       "sourceHash": "a88b0ccacd3c47de1893b107be02671cf290a5c65896c994518985a484731eec",
@@ -1513,15 +1974,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/WerWolv/ImHex/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "aaif-goose/goose": {
-      "id": "aaif-goose/goose",
-      "sourceHash": "63207033842bdea6f6bfd9327e48fef40ee82cfb256c40e35e1878f78ca494fc",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/aaif-goose/goose/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "ngosang/trackerslist": {
@@ -2167,17 +2619,6 @@
       "readmeUrl": "https://github.com/team-spotube/spotube/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "eternity4719/howtolivebetter": {
-      "id": "eternity4719/howtolivebetter",
-      "sourceHash": "c0040ef5b009a1e64ffbcd5405beebc4d4bece9a6879baa99e2c435e25c91707",
-      "firstSeenAt": "2026-10-24T05:48:37.387Z",
-      "attempts": 2,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/eternity4719/HowToLiveBetter/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-04T07:28:40.974Z",
-      "nextAttemptAt": "2026-11-04T08:28:40.974Z"
-    },
     "prometheus/prometheus": {
       "id": "prometheus/prometheus",
       "sourceHash": "c8bba184e8d8a4fd2fa92e80c58fe2e087bdc039c0c79e1ffab4b47a47bb6a31",
@@ -2236,17 +2677,6 @@
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-11-03T07:54:18.929Z",
       "nextAttemptAt": "2026-11-03T08:54:18.929Z"
-    },
-    "cloudflare/security-audit-skill": {
-      "id": "cloudflare/security-audit-skill",
-      "sourceHash": "f5dffeb1d3f72ea77f83c474241647605fc1fcd39725cd015b6fd8b662d66776",
-      "firstSeenAt": "2026-10-28T06:50:28.519Z",
-      "attempts": 6,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/cloudflare/security-audit-skill/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-04T07:28:40.974Z",
-      "nextAttemptAt": "2026-11-04T08:28:40.974Z"
     },
     "jgthms/bulma": {
       "id": "jgthms/bulma",
@@ -2395,52 +2825,6 @@
     }
   },
   "drafts": {
-    "ghostty-org/ghostty|openrouter/nvidia/nemotron-3.5-lightning:free": {
-      "sourceHash": "9133dfea18e6a49b7e1eabe7854ff40abc40332a34998a675e9032709293d211",
-      "draft": {
-        "kind": "app",
-        "summary": "Ghostty是一个快速、功能丰富且跨平台的终端模拟器，使用平台原生UI和GPU加速。",
-        "purpose": "作为终端模拟器使用，提供比传统Terminal.app/iTerm更快的性能，并支持多线程架构、SIMD指令优化以及Kitty图形协议等现代特性。",
-        "audience": "终端用户、开发者",
-        "scenarios": [
-          "需要高性能终端模拟器的用户寻求比传统Terminal.app/iTerm更快的替代方案",
-          "跨平台开发者需要一个在macOS、Linux等系统上都能提供原生体验的终端应用",
-          "需要现代终端特性（如Kitty图形协议、标签页、分割窗口）的用户"
-        ],
-        "steps": [
-          "访问Ghostty官方下载页面获取安装包",
-          "下载完成后按照平台提示完成安装"
-        ],
-        "requirements": "需要访问Ghostty官方下载页面获取安装包，操作系统需支持平台原生UI（macOS、Linux、Windows）。",
-        "verification": "启动Ghostty后确认界面响应流畅，验证是否成功使用了平台原生渲染和GPU加速特性。",
-        "evidence": [
-          {
-            "field": "summary",
-            "quote": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.\n\nGhostty\n\n  \n    Fast, native, feature-rich terminal emulator pushing modern features.\n    \n    A native GUI or embeddable library via libghostty.\n    \n    About\n    ·\n    Download\n    ·\n    Documentation\n    ·\n    Contributing\n    ·\n    Developing\n  \n\n\n## About\n\n"
-          },
-          {
-            "field": "purpose",
-            "quote": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.\n\nGhostty\n\n  \n    Fast, native, feature-rich terminal emulator pushing modern features.\n    \n    A native GUI or embeddable library via libghostty.\n    \n    About\n    ·\n    Download\n    ·\n    Documentation\n    ·\n    Contributing\n    ·\n    Developing\n  \n\n\n## About\n\n"
-          },
-          {
-            "field": "scenarios",
-            "quote": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.\n\nGhostty\n\n  \n    Fast, native, feature-rich terminal emulator pushing modern features.\n    \n    A native GUI or embeddable library via libghostty.\n    \n    About\n    ·\n    Download\n    ·\n    Documentation\n    ·\n    Contributing\n    ·\n    Developing\n  \n\n\n## About\n\n"
-          },
-          {
-            "field": "steps",
-            "quote": "Ghostty is a terminal emulator that differentiates itself by being\nfast, feature-rich, and native. While there are many excellent terminal\nemulators available, they all force you to choose between speed,\nfeatures, or native UIs. Ghostty provides all three.\n\n**`libghostty`** is a cross-platform, zero-dependency C and Zig library\nfor building terminal emulators or utilizing terminal functionality\n"
-          },
-          {
-            "field": "verification",
-            "quote": "Ghostty is a terminal emulator that differentiates itself by being\nfast, feature-rich, and native. While there are many excellent terminal\nemulators available, they all force you to choose between speed,\nfeatures, or native UIs. Ghostty provides all three.\n\n**`libghostty`** is a cross-platform, zero-dependency C and Zig library\nfor building terminal emulators or utilizing terminal functionality\n"
-          }
-        ]
-      },
-      "savedAt": "2026-11-03T07:54:18.929Z",
-      "reviewIssues": [
-        "源文件未提供完整的中文导读内容，draft 中的中文摘要、用途、场景、步骤、验证方法等均为机器翻译或片段，缺乏结构化的中文导读内容，无法进行实质性审查"
-      ]
-    },
     "youngyangyang04/leetcode-master|openrouter/nvidia/nemotron-3.5-lightning:free": {
       "sourceHash": "d6d08f9d921734ea56c03d2811b6839d023e17bf126e7f9fd5099a0fe7635a97",
       "draft": {

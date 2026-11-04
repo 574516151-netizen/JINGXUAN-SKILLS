@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "batches": [
+    {
+      "batch": "backlog-001",
+      "reviewedAt": "2026-11-04T09:26:47.053Z",
+      "method": "source-reading-and-structure-check",
+      "projects": [
+        {
+          "id": "cloudflare/security-audit-skill",
+          "sourceHash": "ee5d5fdde70e0dd6f3d825c3a5082fe4fd2f5ee9c7d0a89e2d5f6e28bd221cd0",
+          "editionCopies": 1
+        },
+        {
+          "id": "ghostty-org/ghostty",
+          "sourceHash": "9d84f0f56d3232cb4385dda26397462deacaca08f0b048f0f74c924eee7d6280",
+          "editionCopies": 3
+        },
+        {
+          "id": "storytold/photocraft",
+          "sourceHash": "658e0a945047f25a26a6e94b605621809845d986edd38ab9680bad89a26be9a4",
+          "editionCopies": 3
+        },
+        {
+          "id": "hugohe3/ppt-master",
+          "sourceHash": "a5d40a3e5d5e392528c28a6fa0c08ec20932fa62e2d3d48282a1853a47c21bb9",
+          "editionCopies": 3
+        },
+        {
+          "id": "eternity4719/howtolivebetter",
+          "sourceHash": "c0040ef5b009a1e64ffbcd5405beebc4d4bece9a6879baa99e2c435e25c91707",
+          "editionCopies": 4
+        },
+        {
+          "id": "1c7/chinese-independent-developer",
+          "sourceHash": "c7de4037f2ee359156dadfc14506b81151e30638283b20cdeab73dd40a382846",
+          "editionCopies": 3
+        },
+        {
+          "id": "2dust/v2rayng",
+          "sourceHash": "9bea286f7cbb42ff9a77288f962676dfa8d50adc42de96461996700fa8b38939",
+          "editionCopies": 3
+        },
+        {
+          "id": "aaif-goose/goose",
+          "sourceHash": "63207033842bdea6f6bfd9327e48fef40ee82cfb256c40e35e1878f78ca494fc",
+          "editionCopies": 3
+        },
+        {
+          "id": "adam-p/markdown-here",
+          "sourceHash": "9d96506207d9cce6db8cb1d66a5c366d7675489bcf6e9e454520f2da2e7a7b91",
+          "editionCopies": 3
+        },
+        {
+          "id": "agalwood/motrix",
+          "sourceHash": "a66b3c417c8fcfa6b2d445fa5c1239b576b29dc3f6fcd99bc979703b53770cce",
+          "editionCopies": 3
+        }
+      ]
+    },
+    {
+      "batch": "backlog-001",
+      "reviewedAt": "2026-11-04T09:31:51.926Z",
+      "method": "source-reading-and-structure-check",
+      "projects": [
+        {
+          "id": "cloudflare/security-audit-skill",
+          "sourceHash": "ee5d5fdde70e0dd6f3d825c3a5082fe4fd2f5ee9c7d0a89e2d5f6e28bd221cd0",
+          "editionCopies": 1
+        },
+        {
+          "id": "ghostty-org/ghostty",
+          "sourceHash": "9d84f0f56d3232cb4385dda26397462deacaca08f0b048f0f74c924eee7d6280",
+          "editionCopies": 3
+        },
+        {
+          "id": "storytold/photocraft",
+          "sourceHash": "658e0a945047f25a26a6e94b605621809845d986edd38ab9680bad89a26be9a4",
+          "editionCopies": 3
+        },
+        {
+          "id": "hugohe3/ppt-master",
+          "sourceHash": "a5d40a3e5d5e392528c28a6fa0c08ec20932fa62e2d3d48282a1853a47c21bb9",
+          "editionCopies": 3
+        },
+        {
+          "id": "eternity4719/howtolivebetter",
+          "sourceHash": "c0040ef5b009a1e64ffbcd5405beebc4d4bece9a6879baa99e2c435e25c91707",
+          "editionCopies": 4
+        },
+        {
+          "id": "1c7/chinese-independent-developer",
+          "sourceHash": "c7de4037f2ee359156dadfc14506b81151e30638283b20cdeab73dd40a382846",
+          "editionCopies": 3
+        },
+        {
+          "id": "2dust/v2rayng",
+          "sourceHash": "9bea286f7cbb42ff9a77288f962676dfa8d50adc42de96461996700fa8b38939",
+          "editionCopies": 3
+        },
+        {
+          "id": "aaif-goose/goose",
+          "sourceHash": "63207033842bdea6f6bfd9327e48fef40ee82cfb256c40e35e1878f78ca494fc",
+          "editionCopies": 3
+        },
+        {
+          "id": "adam-p/markdown-here",
+          "sourceHash": "9d96506207d9cce6db8cb1d66a5c366d7675489bcf6e9e454520f2da2e7a7b91",
+          "editionCopies": 3
+        },
+        {
+          "id": "agalwood/motrix",
+          "sourceHash": "a66b3c417c8fcfa6b2d445fa5c1239b576b29dc3f6fcd99bc979703b53770cce",
+          "editionCopies": 3
+        }
+      ]
+    }
+  ]
+}
