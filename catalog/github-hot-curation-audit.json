@@ -271,6 +271,113 @@
           "editionCopies": 1
         }
       ]
+    },
+    {
+      "batch": "backlog-004",
+      "reviewedAt": "2026-11-04T09:59:11.614Z",
+      "method": "source-reading-and-structure-check",
+      "projects": [
+        {
+          "id": "elder-plinius/cl4r1t4s",
+          "sourceHash": "dc84b5976e2b9da250ce6b75575bf8ef02dd7b7f8c4a721c8ae84fb480c81abe",
+          "editionCopies": 3
+        },
+        {
+          "id": "elemefe/element",
+          "sourceHash": "1214f12a6abc92cb26b1dfc40fa25c87171e866b42e5e48e2f8526298e7ae321",
+          "editionCopies": 3
+        },
+        {
+          "id": "emilkowalski/skills",
+          "sourceHash": "6b5d9f6ace7e6a1b3b2e2706adc289fe165cdb44563967f7792c4b437cdc827e",
+          "editionCopies": 1
+        },
+        {
+          "id": "etcd-io/etcd",
+          "sourceHash": "b19af9d5c42791a7cc6b33b9b3511b5690ab1b65eb83616ad1b5a3f1d22fe534",
+          "editionCopies": 3
+        },
+        {
+          "id": "ethereum/go-ethereum",
+          "sourceHash": "533b8f7c19b9520fb658f37f05ef3ce827c1f6cf0344e4b536785017504cba14",
+          "editionCopies": 3
+        },
+        {
+          "id": "expo/expo",
+          "sourceHash": "e5e8b4462c22e711b8035ad0c85fecbee432b15658550f82b327b01f0c4279b9",
+          "editionCopies": 3
+        },
+        {
+          "id": "facebook/docusaurus",
+          "sourceHash": "06978ed25215803b9f8cac67fb901a0be71e90488651d707481db0068f44c2d7",
+          "editionCopies": 2
+        },
+        {
+          "id": "facebookresearch/segment-anything",
+          "sourceHash": "e19373128ef5b8f66ed9611fc1d7946b0c6fe14756258d1bfb59464d48762c9c",
+          "editionCopies": 3
+        },
+        {
+          "id": "ffmpeg/ffmpeg",
+          "sourceHash": "937c5256c902b81703f74ed7f79e0f94e302dde3dc4942c903f7ec1534e416ba",
+          "editionCopies": 3
+        },
+        {
+          "id": "filosottile/mkcert",
+          "sourceHash": "af3a2a034926e7f52d264e57433d2a413ab358d2fbd65565f3d75d0e5d2637b6",
+          "editionCopies": 3
+        },
+        {
+          "id": "firstcontributions/first-contributions",
+          "sourceHash": "6a788e101f50e222783ccfe672e0e4af059e7aab7a1a7b87569c40c1433e6eca",
+          "editionCopies": 3
+        },
+        {
+          "id": "foundationagents/openmanus",
+          "sourceHash": "2e37975476cfeb24172e573ba501b58f7bfb791f1135ee1d4ee3cd8baf3ffd7f",
+          "editionCopies": 3
+        },
+        {
+          "id": "freqtrade/freqtrade",
+          "sourceHash": "839725563990f61663576ea30d40e56c156531c0d2f105ad06ef2ee86fb14e07",
+          "editionCopies": 3
+        },
+        {
+          "id": "fuellabs/fuel-core",
+          "sourceHash": "163eead940dcc479db5c1d036b93b1044c8aba593fceb7c2148097031b53778c",
+          "editionCopies": 3
+        },
+        {
+          "id": "fuellabs/sway",
+          "sourceHash": "46b5809ca1242a9a73f4d23c5f1eb9ff7eff1a74aa7fcfa19b27bb8d28813c62",
+          "editionCopies": 3
+        },
+        {
+          "id": "gatsbyjs/gatsby",
+          "sourceHash": "c561483d304d1333504cf8dc11319f655d9edef53fbabd112bac1a8b9cb5dd57",
+          "editionCopies": 3
+        },
+        {
+          "id": "ggml-org/whisper.cpp",
+          "sourceHash": "59a94a815eeadfcf67c78cf34020357893c4f31ec97e45bd0ce6e8f0447c7f22",
+          "editionCopies": 3
+        },
+        {
+          "id": "git/git",
+          "sourceHash": "adfc7542e4c839de146aeb9caa490c3cdf7a1ded6c6c0830018ac74978b382f0",
+          "editionCopies": 3
+        },
+        {
+          "id": "go-gitea/gitea",
+          "sourceHash": "52f6e8de12dc9ce551e899b66c89fdd962d30bf2899e56093ca873977fa7bca2",
+          "editionCopies": 3
+        },
+        {
+          "id": "golang-standards/project-layout",
+          "sourceHash": "48d2e8bc9b3f4625af7d3ec7600fa8333c4cb61f280ca9b51dab92b7a32d7b07",
+          "editionCopies": 3
+        }
+      ]
     }
   ]
 }
