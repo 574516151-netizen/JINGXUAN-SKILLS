@@ -3,7 +3,7 @@
   "batches": [
     {
       "batch": "backlog-001",
-      "reviewedAt": "2026-11-04T09:26:47.053Z",
+      "reviewedAt": "2026-11-04T09:31:51.926Z",
       "method": "source-reading-and-structure-check",
       "projects": [
         {
@@ -59,58 +59,108 @@
       ]
     },
     {
-      "batch": "backlog-001",
-      "reviewedAt": "2026-11-04T09:31:51.926Z",
+      "batch": "backlog-002",
+      "reviewedAt": "2026-11-04T09:45:38.658Z",
       "method": "source-reading-and-structure-check",
       "projects": [
         {
-          "id": "cloudflare/security-audit-skill",
-          "sourceHash": "ee5d5fdde70e0dd6f3d825c3a5082fe4fd2f5ee9c7d0a89e2d5f6e28bd221cd0",
+          "id": "ageitgey/face_recognition",
+          "sourceHash": "8586496af97106674aa0f78c2da1f5ee52dda5f06f7f89d7f858be16da45690d",
+          "editionCopies": 3
+        },
+        {
+          "id": "ai-job-search-dev/ai-job-search",
+          "sourceHash": "e27820e7fa3ec4b3201f1a8e6bddcfce9b212cfb9aab222fef38618f7b4c13d6",
+          "editionCopies": 3
+        },
+        {
+          "id": "alacritty/alacritty",
+          "sourceHash": "4270c53697592f2a38f3d5ff4e6027450b152fecf937b3c56fd7cd739a14cae9",
+          "editionCopies": 3
+        },
+        {
+          "id": "alishahryar1/free-claude-code",
+          "sourceHash": "b34775a679d22e88df67a2680d99d3aebd224c8acc61220623b577cdab7664fe",
+          "editionCopies": 3
+        },
+        {
+          "id": "alistgo/alist",
+          "sourceHash": "587eaa2bd81f9e0e3fd8e0dd4afb31546ee866b76df40bcb85377e02fe37eae5",
+          "editionCopies": 2
+        },
+        {
+          "id": "anthropics/claude-cookbooks",
+          "sourceHash": "995b9b259228d55ffed5f192e3202424cc4e0b5aac7dc8c8c08ecaf3ca7447e7",
+          "editionCopies": 3
+        },
+        {
+          "id": "apple/container",
+          "sourceHash": "441eace26d84362793a3d5fe159b735e730498e86500191f6edcd9794a1e0535",
+          "editionCopies": 3
+        },
+        {
+          "id": "appwrite/appwrite",
+          "sourceHash": "3a41b0b2f6c5899cb5d28edd902b899e503d052b5a66a37a0bd795d4b9123258",
+          "editionCopies": 3
+        },
+        {
+          "id": "astral-sh/ruff",
+          "sourceHash": "4b5aabb88ccf2242d6309c190a3ac302ab4ebbe9de364851a1abbc620c825e2c",
           "editionCopies": 1
         },
         {
-          "id": "ghostty-org/ghostty",
-          "sourceHash": "9d84f0f56d3232cb4385dda26397462deacaca08f0b048f0f74c924eee7d6280",
+          "id": "avik-jain/100-days-of-ml-code",
+          "sourceHash": "ae532a596727da7f43a46ad329cbce3f20693161f3c5164069337470e189e77d",
           "editionCopies": 3
         },
         {
-          "id": "storytold/photocraft",
-          "sourceHash": "658e0a945047f25a26a6e94b605621809845d986edd38ab9680bad89a26be9a4",
+          "id": "ayghri/i-have-adhd",
+          "sourceHash": "ffb19196e0abfd22c37d34397c52794c71f52b532492097d3106d0156065bbac",
           "editionCopies": 3
         },
         {
-          "id": "hugohe3/ppt-master",
-          "sourceHash": "a5d40a3e5d5e392528c28a6fa0c08ec20932fa62e2d3d48282a1853a47c21bb9",
+          "id": "azl397985856/leetcode",
+          "sourceHash": "e62105b440949461815ebacd117b1f1412125c4d7418f8ef49878d5dcc89a373",
           "editionCopies": 3
         },
         {
-          "id": "eternity4719/howtolivebetter",
-          "sourceHash": "c0040ef5b009a1e64ffbcd5405beebc4d4bece9a6879baa99e2c435e25c91707",
-          "editionCopies": 4
-        },
-        {
-          "id": "1c7/chinese-independent-developer",
-          "sourceHash": "c7de4037f2ee359156dadfc14506b81151e30638283b20cdeab73dd40a382846",
+          "id": "bannedbook/fanqiang",
+          "sourceHash": "880ece7d3a3bf9d8d591f87caaade449e8f0b2bbe7be1524913bec3f5ad37a0f",
           "editionCopies": 3
         },
         {
-          "id": "2dust/v2rayng",
-          "sourceHash": "9bea286f7cbb42ff9a77288f962676dfa8d50adc42de96461996700fa8b38939",
+          "id": "berriai/litellm",
+          "sourceHash": "bb8749671f3c96124557f9886cc6769a63af8c0985c9a9ab524aea5e9f9e9f4b",
           "editionCopies": 3
         },
         {
-          "id": "aaif-goose/goose",
-          "sourceHash": "63207033842bdea6f6bfd9327e48fef40ee82cfb256c40e35e1878f78ca494fc",
+          "id": "bilawalsidhu/gods-eye-view",
+          "sourceHash": "1dd96da0d8e3adf60cf0d06c67e3bf3ab9040c1a64ce07a36836f842c1da6b3c",
           "editionCopies": 3
         },
         {
-          "id": "adam-p/markdown-here",
-          "sourceHash": "9d96506207d9cce6db8cb1d66a5c366d7675489bcf6e9e454520f2da2e7a7b91",
+          "id": "blader/humanizer",
+          "sourceHash": "6eb34ba3014ec7d3ef64dc9574450e118f8db6679bc56fc9cede7d975968266d",
           "editionCopies": 3
         },
         {
-          "id": "agalwood/motrix",
-          "sourceHash": "a66b3c417c8fcfa6b2d445fa5c1239b576b29dc3f6fcd99bc979703b53770cce",
+          "id": "bmad-code-org/bmad-method",
+          "sourceHash": "c11e82936b67f7e089e369e5bc2c2319a61889ed568eee8f0b7e781daa393262",
+          "editionCopies": 3
+        },
+        {
+          "id": "bojieli/ai-agent-book",
+          "sourceHash": "52a3e29e6a0486e0f2d76b13c6339a4d4ec6196390b889a205c568e929e74889",
+          "editionCopies": 3
+        },
+        {
+          "id": "charlax/professional-programming",
+          "sourceHash": "7d0d488dda276a768c47067264813c0c33c8758fa2182f36514e494ba8d80e17",
+          "editionCopies": 3
+        },
+        {
+          "id": "cheaper-inference/omniroute",
+          "sourceHash": "1754136aefeca39eeeabd8e8560a828a551cb807adb021d3dd2aa3b036b243d7",
           "editionCopies": 3
         }
       ]

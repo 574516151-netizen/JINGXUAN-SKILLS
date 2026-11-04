@@ -851,6 +851,1206 @@
         },
         "editorialStatus": "中文导读 · 官方原文已核对"
       }
+    },
+    "ageitgey/face_recognition": {
+      "sourceHash": "8586496af97106674aa0f78c2da1f5ee52dda5f06f7f89d7f858be16da45690d",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "基于 dlib 的 Python 人脸定位与识别库，也提供命令行入口，可比较已知照片与新照片中的人脸。",
+        "scenarios": [
+          "为已获授权的照片集建立人脸比对原型。"
+        ],
+        "usage": "基于 dlib 的 Python 人脸定位与识别库，也提供命令行入口，可比较已知照片与新照片中的人脸。",
+        "requirements": "准备 Python、dlib 和 cmake；README 主要支持 macOS/Linux，Windows 不属官方支持平台。",
+        "quickStart": "1. 按 README 的平台安装说明先配置 dlib，再安装 face_recognition 包。\n2. 打开识别人脸的 Python 示例，准备一张已知人脸与一张新照片，运行编码和比较流程。\n3. 检查检测框与匹配结果，换用不同光线的照片观察误识别。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "基于 dlib 的 Python 人脸定位与识别库，也提供命令行入口，可比较已知照片与新照片中的人脸。",
+          "audience": "有 Python 基础的图像开发者",
+          "example": "为已获授权的照片集建立人脸比对原型。",
+          "steps": [
+            "按 README 的平台安装说明先配置 dlib，再安装 face_recognition 包。",
+            "打开识别人脸的 Python 示例，准备一张已知人脸与一张新照片，运行编码和比较流程。",
+            "检查检测框与匹配结果，换用不同光线的照片观察误识别。"
+          ],
+          "verification": "已知与未知照片均能得到编码，并能人工核对匹配结果；示例准确率不代表自己的照片表现。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The world's simplest facial recognition api for Python and the command line\n\n# Face Recognition\n\n_You can also read a translated version of this file [in Chinese 简体中文版](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean 한국어](https://github.com/ageitgey/face_recognition/blob/master/REA"
+            },
+            {
+              "field": "purpose",
+              "quote": "The world's simplest facial recognition api for Python and the command line\n\n# Face Recognition\n\n_You can also read a translated version of this file [in Chinese 简体中文版](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean 한국어](https://github.com/ageitgey/face_recognition/blob/master/REA"
+            },
+            {
+              "field": "scenarios",
+              "quote": "The world's simplest facial recognition api for Python and the command line\n\n# Face Recognition\n\n_You can also read a translated version of this file [in Chinese 简体中文版](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean 한국어](https://github.com/ageitgey/face_recognition/blob/master/REA"
+            },
+            {
+              "field": "steps",
+              "quote": "7\n  * macOS or Linux (Windows not officially supported, but might work)\n\n\n\n#### Installing on Mac or Linux\n\nFirst, make sure you have dlib already installed with Python bindings:\n\n  * [How to install dlib from source on macOS or Ubuntu](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)\n  \nThen, make sure you have cmake installed:  \n \n```brew insta"
+            },
+            {
+              "field": "verification",
+              "quote": "7\n  * macOS or Linux (Windows not officially supported, but might work)\n\n\n\n#### Installing on Mac or Linux\n\nFirst, make sure you have dlib already installed with Python bindings:\n\n  * [How to install dlib from source on macOS or Ubuntu](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)\n  \nThen, make sure you have cmake installed:  \n \n```brew insta"
+            }
+          ],
+          "sourceHash": "8586496af97106674aa0f78c2da1f5ee52dda5f06f7f89d7f858be16da45690d",
+          "sourceUrl": "https://github.com/ageitgey/face_recognition/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "8586496af97106674aa0f78c2da1f5ee52dda5f06f7f89d7f858be16da45690d",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "ai-job-search-dev/ai-job-search": {
+      "sourceHash": "e27820e7fa3ec4b3201f1a8e6bddcfce9b212cfb9aab222fef38618f7b4c13d6",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "基于 Claude Code 的求职流程，把个人资料、职位匹配、简历定制、求职信与面试准备串联起来，求职网站搜索部分侧重丹麦市场。",
+        "scenarios": [
+          "根据一份职位描述生成可自行审阅的定制申请材料。"
+        ],
+        "usage": "基于 Claude Code 的求职流程，把个人资料、职位匹配、简历定制、求职信与面试准备串联起来，求职网站搜索部分侧重丹麦市场。",
+        "requirements": "准备 Claude Code、Python、Bun 及自己的真实经历；模型和门户访问条件分别配置。",
+        "quickStart": "1. Fork 或克隆仓库，在 README 的 Quick start 中核对环境并安装门户工具。\n2. 启动 Claude，按 Set up your profile 填写经历和求职方向，再使用仓库的 apply 流程分析职位。\n3. 逐项核对生成简历与求职信的事实，保存申请记录，提交由自己决定。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "AI 指令 / Skill 资源",
+          "purpose": "基于 Claude Code 的求职流程，把个人资料、职位匹配、简历定制、求职信与面试准备串联起来，求职网站搜索部分侧重丹麦市场。",
+          "audience": "需要组织求职材料的求职者",
+          "example": "根据一份职位描述生成可自行审阅的定制申请材料。",
+          "steps": [
+            "Fork 或克隆仓库，在 README 的 Quick start 中核对环境并安装门户工具。",
+            "启动 Claude，按 Set up your profile 填写经历和求职方向，再使用仓库的 apply 流程分析职位。",
+            "逐项核对生成简历与求职信的事实，保存申请记录，提交由自己决定。"
+          ],
+          "verification": "职位匹配理由可回溯到原始职位与个人资料，申请材料没有虚构经历；生成完成不等于已经投递。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.\n\n&nbsp;\n  \n  &nbsp;\n  \n\n\n\n  \n\n\n\n  An AI-powered job application framework built on Claude Code.\n  Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV,\n  write cover letters, and prepare you for interviews.\n"
+            },
+            {
+              "field": "purpose",
+              "quote": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.\n\n&nbsp;\n  \n  &nbsp;\n  \n\n\n\n  \n\n\n\n  An AI-powered job application framework built on Claude Code.\n  Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV,\n  write cover letters, and prepare you for interviews.\n"
+            },
+            {
+              "field": "scenarios",
+              "quote": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.\n\n&nbsp;\n  \n  &nbsp;\n  \n\n\n\n  \n\n\n\n  An AI-powered job application framework built on Claude Code.\n  Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV,\n  write cover letters, and prepare you for interviews.\n"
+            },
+            {
+              "field": "steps",
+              "quote": "un with plain `bun`; `bun install` only pulls TypeScript dev types.\n\n\n\n\n\n### 3. Set up your profile\n\n```bash\nclaude\n\n\n## Quick start\n\n> 🎥 **Prefer to see it in action first?** [The Next New Thing did a hands-on walkthrough](https://www.youtube.com/watch?v=HoVxjMNFYv4) of how the workflow is actually used, from setup to a finished application (recorded Augu"
+            },
+            {
+              "field": "verification",
+              "quote": "un with plain `bun`; `bun install` only pulls TypeScript dev types.\n\n\n\n\n\n### 3. Set up your profile\n\n```bash\nclaude\n\n\n## Quick start\n\n> 🎥 **Prefer to see it in action first?** [The Next New Thing did a hands-on walkthrough](https://www.youtube.com/watch?v=HoVxjMNFYv4) of how the workflow is actually used, from setup to a finished application (recorded Augu"
+            }
+          ],
+          "sourceHash": "e27820e7fa3ec4b3201f1a8e6bddcfce9b212cfb9aab222fef38618f7b4c13d6",
+          "sourceUrl": "https://github.com/ai-job-search-dev/ai-job-search/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "e27820e7fa3ec4b3201f1a8e6bddcfce9b212cfb9aab222fef38618f7b4c13d6",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "alacritty/alacritty": {
+      "sourceHash": "4270c53697592f2a38f3d5ff4e6027450b152fecf937b3c56fd7cd739a14cae9",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "使用 OpenGL 渲染的跨平台终端模拟器，提供可配置的终端窗口，适合运行 Shell 和命令行程序；分屏与标签通常由其他工具承担。",
+        "scenarios": [
+          "替换桌面终端，调整字体与配色后运行开发命令。"
+        ],
+        "usage": "使用 OpenGL 渲染的跨平台终端模拟器，提供可配置的终端窗口，适合运行 Shell 和命令行程序；分屏与标签通常由其他工具承担。",
+        "requirements": "选择对应 BSD、Linux、macOS 或 Windows 的发行包，并准备可用 Shell。",
+        "quickStart": "1. 从 GitHub Releases 安装对应系统的二进制版本，启动终端窗口。\n2. 根据 Configuration 创建 alacritty.toml；Windows 放在 APPDATA 下的 alacritty 目录。\n3. 修改一项字体或配色设置，再在窗口中运行常用命令检查显示。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "使用 OpenGL 渲染的跨平台终端模拟器，提供可配置的终端窗口，适合运行 Shell 和命令行程序；分屏与标签通常由其他工具承担。",
+          "audience": "经常使用命令行的开发者",
+          "example": "替换桌面终端，调整字体与配色后运行开发命令。",
+          "steps": [
+            "从 GitHub Releases 安装对应系统的二进制版本，启动终端窗口。",
+            "根据 Configuration 创建 alacritty.toml；Windows 放在 APPDATA 下的 alacritty 目录。",
+            "修改一项字体或配色设置，再在窗口中运行常用命令检查显示。"
+          ],
+          "verification": "Shell 能正常输入输出，配置生效且中文字符显示符合预期；分屏需求另配终端复用器。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A cross-platform, OpenGL terminal emulator.\n\n# Alacritty - A fast, cross-platform, OpenGL terminal emulator\n\n\n\n  \n\n\n## About\n\nAlacritty is a modern terminal emulator that comes with sensible defaults, but\nallows for extensive [configuration](#configuration). By integrating with other\napplications, rath"
+            },
+            {
+              "field": "purpose",
+              "quote": "A cross-platform, OpenGL terminal emulator.\n\n# Alacritty - A fast, cross-platform, OpenGL terminal emulator\n\n\n\n  \n\n\n## About\n\nAlacritty is a modern terminal emulator that comes with sensible defaults, but\nallows for extensive [configuration](#configuration). By integrating with other\napplications, rath"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A cross-platform, OpenGL terminal emulator.\n\n# Alacritty - A fast, cross-platform, OpenGL terminal emulator\n\n\n\n  \n\n\n## About\n\nAlacritty is a modern terminal emulator that comes with sensible defaults, but\nallows for extensive [configuration](#configuration). By integrating with other\napplications, rath"
+            },
+            {
+              "field": "steps",
+              "quote": "t OpenGL ES 2.0\n- [Windows] ConPTY support (Windows 10 version 1809 or higher)\n\n## Configuration\n\nYou can find the documentation for Alacritty's configuration in `man 5\nalacritty`, or by looking at [the website] if you do not have the manpages\ninstalled.\n\n[the website]: https://alacritty.org/config-alacritty.html\n\nAlacritty doesn't create the config file"
+            },
+            {
+              "field": "verification",
+              "quote": "t OpenGL ES 2.0\n- [Windows] ConPTY support (Windows 10 version 1809 or higher)\n\n## Configuration\n\nYou can find the documentation for Alacritty's configuration in `man 5\nalacritty`, or by looking at [the website] if you do not have the manpages\ninstalled.\n\n[the website]: https://alacritty.org/config-alacritty.html\n\nAlacritty doesn't create the config file"
+            }
+          ],
+          "sourceHash": "4270c53697592f2a38f3d5ff4e6027450b152fecf937b3c56fd7cd739a14cae9",
+          "sourceUrl": "https://github.com/alacritty/alacritty/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "4270c53697592f2a38f3d5ff4e6027450b152fecf937b3c56fd7cd739a14cae9",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "alishahryar1/free-claude-code": {
+      "sourceHash": "b34775a679d22e88df67a2680d99d3aebd224c8acc61220623b577cdab7664fe",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "将多种编码助手连接到可用模型提供商的路由工具，支持终端与编辑器等入口；名称中的免费不代表赠送官方 Claude 订阅。",
+        "scenarios": [
+          "给已有编码工具配置自己可用的模型服务。"
+        ],
+        "usage": "将多种编码助手连接到可用模型提供商的路由工具，支持终端与编辑器等入口；名称中的免费不代表赠送官方 Claude 订阅。",
+        "requirements": "准备受支持编码助手及合法可用的服务凭据；免费额度、计费和可用性由各提供商决定。",
+        "quickStart": "1. 打开 README 的 Install，检查对应系统的安装脚本后选择需要的编码助手。\n2. 按 Choose a provider 与 Connect your client 配置一个自己可用的后端。\n3. 发送一个简单代码解释请求，核对实际模型、响应与提供商用量。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "将多种编码助手连接到可用模型提供商的路由工具，支持终端与编辑器等入口；名称中的免费不代表赠送官方 Claude 订阅。",
+          "audience": "需要切换模型后端的编码助手用户",
+          "example": "给已有编码工具配置自己可用的模型服务。",
+          "steps": [
+            "打开 README 的 Install，检查对应系统的安装脚本后选择需要的编码助手。",
+            "按 Choose a provider 与 Connect your client 配置一个自己可用的后端。",
+            "发送一个简单代码解释请求，核对实际模型、响应与提供商用量。"
+          ],
+          "verification": "客户端能收到所选后端的回复，用量归属正确；能连通不代表模型能力或免费额度永久不变。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)\n\n# \n  \n    \n    \n  \n\n\n\n[](https://github.com/Alishahryar1/free-claude-code/blob/main/LICENSE)\n[](https://www.python.org/downloads/)\n[]"
+            },
+            {
+              "field": "purpose",
+              "quote": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)\n\n# \n  \n    \n    \n  \n\n\n\n[](https://github.com/Alishahryar1/free-claude-code/blob/main/LICENSE)\n[](https://www.python.org/downloads/)\n[]"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)\n\n# \n  \n    \n    \n  \n\n\n\n[](https://github.com/Alishahryar1/free-claude-code/blob/main/LICENSE)\n[](https://www.python.org/downloads/)\n[]"
+            },
+            {
+              "field": "steps",
+              "quote": "ktop](https://github.com/deepseek-ai/deepseek-harness)), IDE extensions ([VS C\n\n### 1. Install\n\nmacOS/Linux:\n\n```bash\ncurl -fsSL \"https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/install.sh\" | sh\n```\n\nWindows PowerShell:\n\n```powershell\n& ([scriptblock]::Create((irm \"https://raw.githubusercontent.com/Alishahryar1/free-claude-"
+            },
+            {
+              "field": "verification",
+              "quote": "ktop](https://github.com/deepseek-ai/deepseek-harness)), IDE extensions ([VS C\n\n### 1. Install\n\nmacOS/Linux:\n\n```bash\ncurl -fsSL \"https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/install.sh\" | sh\n```\n\nWindows PowerShell:\n\n```powershell\n& ([scriptblock]::Create((irm \"https://raw.githubusercontent.com/Alishahryar1/free-claude-"
+            }
+          ],
+          "sourceHash": "b34775a679d22e88df67a2680d99d3aebd224c8acc61220623b577cdab7664fe",
+          "sourceUrl": "https://github.com/Alishahryar1/free-claude-code/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "b34775a679d22e88df67a2680d99d3aebd224c8acc61220623b577cdab7664fe",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "alistgo/alist": {
+      "sourceHash": "587eaa2bd81f9e0e3fd8e0dd4afb31546ee866b76df40bcb85377e02fe37eae5",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "把本地磁盘和多个网盘统一成网页文件列表与 WebDAV 入口，支持浏览、预览、上传和跨存储复制。",
+        "scenarios": [
+          "把自有网盘与本地目录放在同一个文件门户中。"
+        ],
+        "usage": "把本地磁盘和多个网盘统一成网页文件列表与 WebDAV 入口，支持浏览、预览、上传和跨存储复制。",
+        "requirements": "准备运行服务的设备与存储授权；各网盘接口限制独立存在。",
+        "quickStart": "1. 从仓库 Document 入口查看部署文档，选择适合设备的安装方式。\n2. 启动服务并配置管理账号，先添加一个自己的本地目录或网盘。\n3. 在网页中浏览一个测试文件，再按 WebDAV 文档连接客户端。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "把本地磁盘和多个网盘统一成网页文件列表与 WebDAV 入口，支持浏览、预览、上传和跨存储复制。",
+          "audience": "需要统一管理多个存储的用户",
+          "example": "把自有网盘与本地目录放在同一个文件门户中。",
+          "steps": [
+            "从仓库 Document 入口查看部署文档，选择适合设备的安装方式。",
+            "启动服务并配置管理账号，先添加一个自己的本地目录或网盘。",
+            "在网页中浏览一个测试文件，再按 WebDAV 文档连接客户端。"
+          ],
+          "verification": "网页列表能显示正确目录，测试文件可正常下载；上传与删除权限应和配置一致。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。\n\n🗂️A file list program that supports multiple storages, powered by Gin and Solidjs.\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n\n---\n\nEnglish | [中文](./README_cn.md) | [日本語](./README_ja.md"
+            },
+            {
+              "field": "purpose",
+              "quote": "🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。\n\n🗂️A file list program that supports multiple storages, powered by Gin and Solidjs.\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n\n---\n\nEnglish | [中文](./README_cn.md) | [日本語](./README_ja.md"
+            },
+            {
+              "field": "scenarios",
+              "quote": "🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。\n\n🗂️A file list program that supports multiple storages, powered by Gin and Solidjs.\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n\n---\n\nEnglish | [中文](./README_cn.md) | [日本語](./README_ja.md"
+            },
+            {
+              "field": "steps",
+              "quote": "/alist)\n- [x] Cloudflare Workers proxy\n- [x] File/Folder package download\n- [x] Web upload(Can allow visitors to upload), delete, mkdir, rename, move and copy\n- [x] Offline download\n- [x] Copy files between two storage\n- [x] Multi-thread downloading acceleration for single-thread download/stream\n\n## Document\n\n\n\n## API Documentation (via Apifox):\n\n\n"
+            },
+            {
+              "field": "verification",
+              "quote": "/alist)\n- [x] Cloudflare Workers proxy\n- [x] File/Folder package download\n- [x] Web upload(Can allow visitors to upload), delete, mkdir, rename, move and copy\n- [x] Offline download\n- [x] Copy files between two storage\n- [x] Multi-thread downloading acceleration for single-thread download/stream\n\n## Document\n\n\n\n## API Documentation (via Apifox):\n\n\n"
+            }
+          ],
+          "sourceHash": "587eaa2bd81f9e0e3fd8e0dd4afb31546ee866b76df40bcb85377e02fe37eae5",
+          "sourceUrl": "https://github.com/AlistGo/alist/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "587eaa2bd81f9e0e3fd8e0dd4afb31546ee866b76df40bcb85377e02fe37eae5",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "anthropics/claude-cookbooks": {
+      "sourceHash": "995b9b259228d55ffed5f192e3202424cc4e0b5aac7dc8c8c08ecaf3ca7447e7",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "Anthropic 的 Claude 开发示例集，按 Notebook 和配方展示多模态、工具、评估、缓存与成本优化等做法，可作为代码参考。",
+        "scenarios": [
+          "参考文档提取或评估配方，为自己的应用制作最小原型。"
+        ],
+        "usage": "Anthropic 的 Claude 开发示例集，按 Notebook 和配方展示多模态、工具、评估、缓存与成本优化等做法，可作为代码参考。",
+        "requirements": "通常需要 Python、Notebook 环境及 Claude API 凭据；实际依赖和调用费用按所选配方确认。",
+        "quickStart": "1. 先阅读 Prerequisites；初学者从 Claude API Fundamentals 课程入口开始。\n2. 从 README 选择一个配方，打开对应 Notebook，按其依赖和凭据说明逐格运行。\n3. 替换一份自己的小样本，记录请求、输出与用量后再接入项目。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "Anthropic 的 Claude 开发示例集，按 Notebook 和配方展示多模态、工具、评估、缓存与成本优化等做法，可作为代码参考。",
+          "audience": "使用 Claude API 的开发者",
+          "example": "参考文档提取或评估配方，为自己的应用制作最小原型。",
+          "steps": [
+            "先阅读 Prerequisites；初学者从 Claude API Fundamentals 课程入口开始。",
+            "从 README 选择一个配方，打开对应 Notebook，按其依赖和凭据说明逐格运行。",
+            "替换一份自己的小样本，记录请求、输出与用量后再接入项目。"
+          ],
+          "verification": "Notebook 关键单元格成功执行，输出符合配方目标；模型版本与费用以实际账户为准。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.\n\n# Claude Cookbooks\n\nThe Claude Cookbooks provide code and guides designed to help developers build with Claude, offering copy-able code snippets that you can easily integrate into your own projects.\n\n## Prerequisites\n\nTo make the most of the examples in this"
+            },
+            {
+              "field": "purpose",
+              "quote": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.\n\n# Claude Cookbooks\n\nThe Claude Cookbooks provide code and guides designed to help developers build with Claude, offering copy-able code snippets that you can easily integrate into your own projects.\n\n## Prerequisites\n\nTo make the most of the examples in this"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.\n\n# Claude Cookbooks\n\nThe Claude Cookbooks provide code and guides designed to help developers build with Claude, offering copy-able code snippets that you can easily integrate into your own projects.\n\n## Prerequisites\n\nTo make the most of the examples in this"
+            },
+            {
+              "field": "steps",
+              "quote": " copy-able code snippets that you can easily integrate into your own projects.\n\n## Prerequisites\n\nTo make the most of the examples in this cookbook, you'll need a Claude API key (sign up for free [here](https://www.anthropic.com)).\n\nWhile the code examples are primarily written in Python, the concepts can be adapted to any programming language that suppo"
+            },
+            {
+              "field": "verification",
+              "quote": " copy-able code snippets that you can easily integrate into your own projects.\n\n## Prerequisites\n\nTo make the most of the examples in this cookbook, you'll need a Claude API key (sign up for free [here](https://www.anthropic.com)).\n\nWhile the code examples are primarily written in Python, the concepts can be adapted to any programming language that suppo"
+            }
+          ],
+          "sourceHash": "995b9b259228d55ffed5f192e3202424cc4e0b5aac7dc8c8c08ecaf3ca7447e7",
+          "sourceUrl": "https://github.com/anthropics/claude-cookbooks/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "995b9b259228d55ffed5f192e3202424cc4e0b5aac7dc8c8c08ecaf3ca7447e7",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "apple/container": {
+      "sourceHash": "441eace26d84362793a3d5fe159b735e730498e86500191f6edcd9794a1e0535",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "Apple 用 Swift 开发的容器工具，在 Apple 芯片 Mac 上用轻量虚拟机运行 Linux 容器，并读写 OCI 镜像。",
+        "scenarios": [
+          "本地构建并运行 Linux Web 服务镜像。"
+        ],
+        "usage": "Apple 用 Swift 开发的容器工具，在 Apple 芯片 Mac 上用轻量虚拟机运行 Linux 容器，并读写 OCI 镜像。",
+        "requirements": "需要 Apple silicon Mac，系统版本与安装包要求按当前 README 的 Requirements 确认。",
+        "quickStart": "1. 按 Get started 安装发行版本，启动 container system start。\n2. 打开 Next steps 中的 guided tour，跟随示例构建并运行简单 Web 服务镜像。\n3. 访问示例服务，检查容器进程与镜像；需要时再尝试推送到自己的镜像仓库。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "Apple 用 Swift 开发的容器工具，在 Apple 芯片 Mac 上用轻量虚拟机运行 Linux 容器，并读写 OCI 镜像。",
+          "audience": "使用 Apple 芯片 Mac 的开发者",
+          "example": "本地构建并运行 Linux Web 服务镜像。",
+          "steps": [
+            "按 Get started 安装发行版本，启动 container system start。",
+            "打开 Next steps 中的 guided tour，跟随示例构建并运行简单 Web 服务镜像。",
+            "访问示例服务，检查容器进程与镜像；需要时再尝试推送到自己的镜像仓库。"
+          ],
+          "verification": "示例镜像能构建、容器能运行且服务可访问；实验性命令兼容性单独确认。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.\n\n# \n  \n  &nbsp;container\n\n\n\n`container` is a tool that you can use to create and run Linux containers as lightweight virtual machines on your Mac. It's written in Swift, and optimized for Apple silicon.\n\nThe tool consumes and produces [OCI-compatible containe"
+            },
+            {
+              "field": "purpose",
+              "quote": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.\n\n# \n  \n  &nbsp;container\n\n\n\n`container` is a tool that you can use to create and run Linux containers as lightweight virtual machines on your Mac. It's written in Swift, and optimized for Apple silicon.\n\nThe tool consumes and produces [OCI-compatible containe"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.\n\n# \n  \n  &nbsp;container\n\n\n\n`container` is a tool that you can use to create and run Linux containers as lightweight virtual machines on your Mac. It's written in Swift, and optimized for Apple silicon.\n\nThe tool consumes and produces [OCI-compatible containe"
+            },
+            {
+              "field": "steps",
+              "quote": "he installed files under `/usr/local`.\n\nStart the system service with:\n\n```bash\ncontainer system start\n```\n\n### Run your first container\n\n```bash\ncontainer run --rm alpine echo hello\n```\n\nThis pulls the `alpine` image, runs it in a lightweight Linux VM, prints `hello`, and\nremoves the container when it exits. See the [tutorial](./docs/tutorials/start-here.md)\n"
+            },
+            {
+              "field": "verification",
+              "quote": "he installed files under `/usr/local`.\n\nStart the system service with:\n\n```bash\ncontainer system start\n```\n\n### Run your first container\n\n```bash\ncontainer run --rm alpine echo hello\n```\n\nThis pulls the `alpine` image, runs it in a lightweight Linux VM, prints `hello`, and\nremoves the container when it exits. See the [tutorial](./docs/tutorials/start-here.md)\n"
+            }
+          ],
+          "sourceHash": "441eace26d84362793a3d5fe159b735e730498e86500191f6edcd9794a1e0535",
+          "sourceUrl": "https://github.com/apple/container/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "441eace26d84362793a3d5fe159b735e730498e86500191f6edcd9794a1e0535",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "appwrite/appwrite": {
+      "sourceHash": "3a41b0b2f6c5899cb5d28edd902b899e503d052b5a66a37a0bd795d4b9123258",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "提供认证、数据库、存储、函数和实时能力的应用后端平台，既可使用托管云，也可自部署，并能通过 MCP 与编码助手连接。",
+        "scenarios": [
+          "为一个应用原型添加用户登录和文件存储。"
+        ],
+        "usage": "提供认证、数据库、存储、函数和实时能力的应用后端平台，既可使用托管云，也可自部署，并能通过 MCP 与编码助手连接。",
+        "requirements": "选择 Appwrite Cloud 账号或自部署环境；SDK、权限和密钥按项目配置。",
+        "quickStart": "1. 从 Installation & Setup 选择托管云或对应平台的自部署指南。\n2. 创建一个项目，按 Getting Started 连接 SDK 或受支持的编码助手。\n3. 先完成一个小功能，例如测试用户登录或上传文件，并检查访问权限。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "提供认证、数据库、存储、函数和实时能力的应用后端平台，既可使用托管云，也可自部署，并能通过 MCP 与编码助手连接。",
+          "audience": "需要快速搭建应用后端的开发者",
+          "example": "为一个应用原型添加用户登录和文件存储。",
+          "steps": [
+            "从 Installation & Setup 选择托管云或对应平台的自部署指南。",
+            "创建一个项目，按 Getting Started 连接 SDK 或受支持的编码助手。",
+            "先完成一个小功能，例如测试用户登录或上传文件，并检查访问权限。"
+          ],
+          "verification": "项目中的测试数据可通过配置好的客户端访问，未授权请求受到限制；测试与生产密钥分开。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more\n\n# Appwrite\n\n    The open-source cloud for agents and developers. Appwrite is an MCP and agent-first platform for building and scaling apps. Give your agents Auth, Databases, Storage, Functions, Messaging, Realtime, and Hosting, all in one place.\n    \n    \n\n\n"
+            },
+            {
+              "field": "purpose",
+              "quote": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more\n\n# Appwrite\n\n    The open-source cloud for agents and developers. Appwrite is an MCP and agent-first platform for building and scaling apps. Give your agents Auth, Databases, Storage, Functions, Messaging, Realtime, and Hosting, all in one place.\n    \n    \n\n\n"
+            },
+            {
+              "field": "scenarios",
+              "quote": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more\n\n# Appwrite\n\n    The open-source cloud for agents and developers. Appwrite is an MCP and agent-first platform for building and scaling apps. Give your agents Auth, Databases, Storage, Functions, Messaging, Realtime, and Hosting, all in one place.\n    \n    \n\n\n"
+            },
+            {
+              "field": "steps",
+              "quote": "[Dokploy](https://appwrite.io/docs/advanced/self-hosting/platforms/dokploy).\n\n\n\n## Getting Started\n\nGetting started with Appwrite is as easy as creating a new project, connecting an agent, or integrating an SDK into your code. You can start from a prompt, a quick start tutorial, or the hosted MCP server."
+            },
+            {
+              "field": "verification",
+              "quote": "[Dokploy](https://appwrite.io/docs/advanced/self-hosting/platforms/dokploy).\n\n\n\n## Getting Started\n\nGetting started with Appwrite is as easy as creating a new project, connecting an agent, or integrating an SDK into your code. You can start from a prompt, a quick start tutorial, or the hosted MCP server."
+            }
+          ],
+          "sourceHash": "3a41b0b2f6c5899cb5d28edd902b899e503d052b5a66a37a0bd795d4b9123258",
+          "sourceUrl": "https://github.com/appwrite/appwrite/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "3a41b0b2f6c5899cb5d28edd902b899e503d052b5a66a37a0bd795d4b9123258",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "astral-sh/ruff": {
+      "sourceHash": "4b5aabb88ccf2242d6309c190a3ac302ab4ebbe9de364851a1abbc620c825e2c",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "用 Rust 编写的 Python 代码检查与格式化工具，可统一 lint、导入整理和格式规则，并读取 pyproject.toml 配置。",
+        "scenarios": [
+          "在提交前检查一个 Python 目录的风格与常见问题。"
+        ],
+        "usage": "用 Rust 编写的 Python 代码检查与格式化工具，可统一 lint、导入整理和格式规则，并读取 pyproject.toml 配置。",
+        "requirements": "准备 Python 项目及 uv、pip 或 pipx 等安装入口；先保留可回退的代码版本。",
+        "quickStart": "1. 按 Installation 安装 Ruff，进入需要检查的 Python 项目。\n2. 运行 ruff check 查看诊断，先理解报告再决定修复。\n3. 需要统一排版时运行 ruff format，审阅代码差异后再提交。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "用 Rust 编写的 Python 代码检查与格式化工具，可统一 lint、导入整理和格式规则，并读取 pyproject.toml 配置。",
+          "audience": "维护 Python 项目的开发者",
+          "example": "在提交前检查一个 Python 目录的风格与常见问题。",
+          "steps": [
+            "按 Installation 安装 Ruff，进入需要检查的 Python 项目。",
+            "运行 ruff check 查看诊断，先理解报告再决定修复。",
+            "需要统一排版时运行 ruff format，审阅代码差异后再提交。"
+          ],
+          "verification": "检查报告可定位到具体文件行，格式变更经过差异审阅，项目原有测试仍通过。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "An extremely fast Python linter and code formatter, written in Rust.\n\n# Ruff\n\n[](https://github.com/astral-sh/ruff)\n[](https://pypi.python.org/pypi/ruff)\n[](https://github.com/astral-sh/ruff/blob/main/LICENSE)\n[](https://pypi.python.org/pypi/ruff)\n[](https://github.com/astral-sh/ruff/actions)\n[](https://discord.com/invite/astr"
+            },
+            {
+              "field": "purpose",
+              "quote": "An extremely fast Python linter and code formatter, written in Rust.\n\n# Ruff\n\n[](https://github.com/astral-sh/ruff)\n[](https://pypi.python.org/pypi/ruff)\n[](https://github.com/astral-sh/ruff/blob/main/LICENSE)\n[](https://pypi.python.org/pypi/ruff)\n[](https://github.com/astral-sh/ruff/actions)\n[](https://discord.com/invite/astr"
+            },
+            {
+              "field": "scenarios",
+              "quote": "An extremely fast Python linter and code formatter, written in Rust.\n\n# Ruff\n\n[](https://github.com/astral-sh/ruff)\n[](https://pypi.python.org/pypi/ruff)\n[](https://github.com/astral-sh/ruff/blob/main/LICENSE)\n[](https://pypi.python.org/pypi/ruff)\n[](https://github.com/astral-sh/ruff/actions)\n[](https://discord.com/invite/astr"
+            },
+            {
+              "field": "steps",
+              "quote": "ng Started\n\nFor more, see the [documentation](https://docs.astral.sh/ruff/).\n\n\n\n### Usage\n\nTo run Ruff as a linter, try any of the following:\n\n```shell\nruff check                          # Lint all files in the current directory (and any subdirectories).\nruff check path/to/code/            # Lint all files in `/path/to/code` (and any subdirectori"
+            },
+            {
+              "field": "verification",
+              "quote": "ng Started\n\nFor more, see the [documentation](https://docs.astral.sh/ruff/).\n\n\n\n### Usage\n\nTo run Ruff as a linter, try any of the following:\n\n```shell\nruff check                          # Lint all files in the current directory (and any subdirectories).\nruff check path/to/code/            # Lint all files in `/path/to/code` (and any subdirectori"
+            }
+          ],
+          "sourceHash": "4b5aabb88ccf2242d6309c190a3ac302ab4ebbe9de364851a1abbc620c825e2c",
+          "sourceUrl": "https://github.com/astral-sh/ruff/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "4b5aabb88ccf2242d6309c190a3ac302ab4ebbe9de364851a1abbc620c825e2c",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "avik-jain/100-days-of-ml-code": {
+      "sourceHash": "ae532a596727da7f43a46ad329cbce3f20693161f3c5164069337470e189e77d",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "按每日主题记录机器学习学习过程，包含数据预处理、回归、分类和决策树等讲解、代码及数据集入口。",
+        "scenarios": [
+          "从数据预处理与简单线性回归开始完成两个小练习。"
+        ],
+        "usage": "按每日主题记录机器学习学习过程，包含数据预处理、回归、分类和决策树等讲解、代码及数据集入口。",
+        "requirements": "需要基础 Python 知识；每个练习的库和数据按链接中的代码说明准备。",
+        "quickStart": "1. 从 README 下载 datasets，打开 Day 1 的 Data PreProcessing 代码。\n2. 完成预处理后继续 Day 2 的简单线性回归，记录输入、模型和输出。\n3. 对照讲解检查数据切分与预测结果，再选择下一主题。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "按每日主题记录机器学习学习过程，包含数据预处理、回归、分类和决策树等讲解、代码及数据集入口。",
+          "audience": "希望循序练习机器学习的初学者",
+          "example": "从数据预处理与简单线性回归开始完成两个小练习。",
+          "steps": [
+            "从 README 下载 datasets，打开 Day 1 的 Data PreProcessing 代码。",
+            "完成预处理后继续 Day 2 的简单线性回归，记录输入、模型和输出。",
+            "对照讲解检查数据切分与预测结果，再选择下一主题。"
+          ],
+          "verification": "能解释预处理做了什么、回归输入输出是什么，并复现所选练习；日程是学习记录而非课程完成保证。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "100 Days of ML Coding\n\n# 100-Days-Of-ML-Code\n\n100 Days of Machine Learning Coding as proposed by [Siraj Raval](https://github.com/llSourcell)\n\nGet the datasets from [here](https://github.com/Avik-Jain/100-Days-Of-ML-Code/tree/master/datasets)\n\n## Data PreProcessing | Day 1\nCheck o"
+            },
+            {
+              "field": "purpose",
+              "quote": "100 Days of ML Coding\n\n# 100-Days-Of-ML-Code\n\n100 Days of Machine Learning Coding as proposed by [Siraj Raval](https://github.com/llSourcell)\n\nGet the datasets from [here](https://github.com/Avik-Jain/100-Days-Of-ML-Code/tree/master/datasets)\n\n## Data PreProcessing | Day 1\nCheck o"
+            },
+            {
+              "field": "scenarios",
+              "quote": "100 Days of ML Coding\n\n# 100-Days-Of-ML-Code\n\n100 Days of Machine Learning Coding as proposed by [Siraj Raval](https://github.com/llSourcell)\n\nGet the datasets from [here](https://github.com/Avik-Jain/100-Days-Of-ML-Code/tree/master/datasets)\n\n## Data PreProcessing | Day 1\nCheck o"
+            },
+            {
+              "field": "steps",
+              "quote": "ere](https://github.com/Avik-Jain/100-Days-Of-ML-Code/tree/master/datasets)\n\n## Data PreProcessing | Day 1\nCheck out the code from [here](https://github.com/Avik-Jain/100-Days-Of-ML-Code/blob/master/Code/Day%201_Data%20PreProcessing.md).\n\n\n  \n\n\n## Simple Linear Regression | Day 2\nCheck out the code from [here](https://github.com/Avik-Jain/100-Days-Of-ML-Co"
+            },
+            {
+              "field": "verification",
+              "quote": "ere](https://github.com/Avik-Jain/100-Days-Of-ML-Code/tree/master/datasets)\n\n## Data PreProcessing | Day 1\nCheck out the code from [here](https://github.com/Avik-Jain/100-Days-Of-ML-Code/blob/master/Code/Day%201_Data%20PreProcessing.md).\n\n\n  \n\n\n## Simple Linear Regression | Day 2\nCheck out the code from [here](https://github.com/Avik-Jain/100-Days-Of-ML-Co"
+            }
+          ],
+          "sourceHash": "ae532a596727da7f43a46ad329cbce3f20693161f3c5164069337470e189e77d",
+          "sourceUrl": "https://github.com/Avik-Jain/100-Days-Of-ML-Code/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "ae532a596727da7f43a46ad329cbce3f20693161f3c5164069337470e189e77d",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "ayghri/i-have-adhd": {
+      "sourceHash": "ffb19196e0abfd22c37d34397c52794c71f52b532492097d3106d0156065bbac",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "调整编码助手的表达方式，让答案先给行动、步骤编号并减少跑题，适合希望快速看到下一步的用户，属于输出规范而非诊疗工具。",
+        "scenarios": [
+          "让一次报错排查回复更简洁并包含明确下一步。"
+        ],
+        "usage": "调整编码助手的表达方式，让答案先给行动、步骤编号并减少跑题，适合希望快速看到下一步的用户，属于输出规范而非诊疗工具。",
+        "requirements": "需要支持 Skill 或插件的编码助手，按 INSTALL.md 和 AGENTS.md 安装。",
+        "quickStart": "1. 把 README 的 Install 提示发给编码助手，要求按仓库 AGENTS.md 安装。\n2. 重启助手后调用 /i-have-adhd，提供一个实际任务或报错。\n3. 对照 The rules 检查是否先说行动、使用编号并给出一个明确下一步。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "AI 指令 / Skill 资源",
+          "purpose": "调整编码助手的表达方式，让答案先给行动、步骤编号并减少跑题，适合希望快速看到下一步的用户，属于输出规范而非诊疗工具。",
+          "audience": "希望减少冗长回答的编码助手用户",
+          "example": "让一次报错排查回复更简洁并包含明确下一步。",
+          "steps": [
+            "把 README 的 Install 提示发给编码助手，要求按仓库 AGENTS.md 安装。",
+            "重启助手后调用 /i-have-adhd，提供一个实际任务或报错。",
+            "对照 The rules 检查是否先说行动、使用编号并给出一个明确下一步。"
+          ],
+          "verification": "回复结构符合规则且关键操作没有因精简而丢失；该工具不判断用户是否患有 ADHD。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.\n\nADHD-friendly outputs. No ADHD diagnosis needed!\n\n\n  \n\n\n\n  🇬🇧 ·\n  🇨🇳 ·\n  🇪🇸 ·\n  🇧🇷 ·\n  🇯🇵 ·\n  🇻🇳 ·\n  🇰🇷 ·\n  🇮🇷 ·\n  🇹🇭 ·\n  🇸🇦 ·\n  🇫🇷\n\n\n\n## Install\n\nCopy/paste into your CLI prompt:\n\n```text\nInstall the i-have-adhd skill/plugin from https"
+            },
+            {
+              "field": "purpose",
+              "quote": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.\n\nADHD-friendly outputs. No ADHD diagnosis needed!\n\n\n  \n\n\n\n  🇬🇧 ·\n  🇨🇳 ·\n  🇪🇸 ·\n  🇧🇷 ·\n  🇯🇵 ·\n  🇻🇳 ·\n  🇰🇷 ·\n  🇮🇷 ·\n  🇹🇭 ·\n  🇸🇦 ·\n  🇫🇷\n\n\n\n## Install\n\nCopy/paste into your CLI prompt:\n\n```text\nInstall the i-have-adhd skill/plugin from https"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.\n\nADHD-friendly outputs. No ADHD diagnosis needed!\n\n\n  \n\n\n\n  🇬🇧 ·\n  🇨🇳 ·\n  🇪🇸 ·\n  🇧🇷 ·\n  🇯🇵 ·\n  🇻🇳 ·\n  🇰🇷 ·\n  🇮🇷 ·\n  🇹🇭 ·\n  🇸🇦 ·\n  🇫🇷\n\n\n\n## Install\n\nCopy/paste into your CLI prompt:\n\n```text\nInstall the i-have-adhd skill/plugin from https"
+            },
+            {
+              "field": "steps",
+              "quote": "🇪🇸 ·\n  🇧🇷 ·\n  🇯🇵 ·\n  🇻🇳 ·\n  🇰🇷 ·\n  🇮🇷 ·\n  🇹🇭 ·\n  🇸🇦 ·\n  🇫🇷\n\n\n\n## Install\n\nCopy/paste into your CLI prompt:\n\n```text\nInstall the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions.\n```\n\nOr 🔗 [check the installation instructions](INSTALL.md).\n\n## What it does\n\nA skill"
+            },
+            {
+              "field": "verification",
+              "quote": "🇪🇸 ·\n  🇧🇷 ·\n  🇯🇵 ·\n  🇻🇳 ·\n  🇰🇷 ·\n  🇮🇷 ·\n  🇹🇭 ·\n  🇸🇦 ·\n  🇫🇷\n\n\n\n## Install\n\nCopy/paste into your CLI prompt:\n\n```text\nInstall the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions.\n```\n\nOr 🔗 [check the installation instructions](INSTALL.md).\n\n## What it does\n\nA skill"
+            }
+          ],
+          "sourceHash": "ffb19196e0abfd22c37d34397c52794c71f52b532492097d3106d0156065bbac",
+          "sourceUrl": "https://github.com/ayghri/i-have-adhd/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "ffb19196e0abfd22c37d34397c52794c71f52b532492097d3106d0156065bbac",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "azl397985856/leetcode": {
+      "sourceHash": "e62105b440949461815ebacd117b1f1412125c4d7418f8ef49878d5dcc89a373",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "中文算法题解与专题学习仓库，整理数据结构、滑动窗口、回溯、单调栈等思路，并提供代表性 LeetCode 题目解析。",
+        "scenarios": [
+          "围绕滑动窗口专题做题并归纳适用条件。"
+        ],
+        "usage": "中文算法题解与专题学习仓库，整理数据结构、滑动窗口、回溯、单调栈等思路，并提供代表性 LeetCode 题目解析。",
+        "requirements": "浏览器即可阅读；运行题解时需准备对应编程语言环境或力扣账号。",
+        "quickStart": "1. 从 README 的专题入口选一个基础主题，先阅读思路与模板。\n2. 打开相关代表题目，独立写解法后再对照题解。\n3. 在题目平台运行样例与边界情况，记录复杂度和错误原因。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "中文算法题解与专题学习仓库，整理数据结构、滑动窗口、回溯、单调栈等思路，并提供代表性 LeetCode 题目解析。",
+          "audience": "准备算法练习和技术面试的学习者",
+          "example": "围绕滑动窗口专题做题并归纳适用条件。",
+          "steps": [
+            "从 README 的专题入口选一个基础主题，先阅读思路与模板。",
+            "打开相关代表题目，独立写解法后再对照题解。",
+            "在题目平台运行样例与边界情况，记录复杂度和错误原因。"
+          ],
+          "verification": "能通过题目测试并解释时间、空间复杂度，而不只是复制通过的代码。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)\n\n# LeetCode\n\n[]() []() []() []() []() []()\n\n[](#哪里能找到我) [](#哪里能找到我) [](https://p.ipic.vip/pj4t8y.jpg) [](https://p.ipic.vip/n9co7k.jpg) [](https://p.ipic.vip/m7g3to.jpg)\n\n简体中文 | [English](./README.en.md)\n\n---\n\n我们的 slogan 是： **只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。**\n\n"
+            },
+            {
+              "field": "purpose",
+              "quote": "LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)\n\n# LeetCode\n\n[]() []() []() []() []() []()\n\n[](#哪里能找到我) [](#哪里能找到我) [](https://p.ipic.vip/pj4t8y.jpg) [](https://p.ipic.vip/n9co7k.jpg) [](https://p.ipic.vip/m7g3to.jpg)\n\n简体中文 | [English](./README.en.md)\n\n---\n\n我们的 slogan 是： **只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。**\n\n"
+            },
+            {
+              "field": "scenarios",
+              "quote": "LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)\n\n# LeetCode\n\n[]() []() []() []() []() []()\n\n[](#哪里能找到我) [](#哪里能找到我) [](https://p.ipic.vip/pj4t8y.jpg) [](https://p.ipic.vip/n9co7k.jpg) [](https://p.ipic.vip/m7g3to.jpg)\n\n简体中文 | [English](./README.en.md)\n\n---\n\n我们的 slogan 是： **只有熟练掌握基础的数据结构与算法，才能对复杂问题迎刃有余。**\n\n"
+            },
+            {
+              "field": "steps",
+              "quote": "2020/02/08/%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%93%E9%A2%98/)\n- [滑动窗口（思路 + 模板）](./thinkings/slide-window.md)\n- [位运算](./thinkings/bit.md)\n- [小岛问题](./thinkings/island.md)🖊\n- [最大公约数](./thinkings/GCD.md)\n- [并查集](./thinkings/union-find.md)\n- [平衡二叉树专题](./thinkings/balanced-tree.md)\n- [蓄水池抽样](./thinkings/reservoid-sampling.md)\n- [单调栈"
+            },
+            {
+              "field": "verification",
+              "quote": "2020/02/08/%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%93%E9%A2%98/)\n- [滑动窗口（思路 + 模板）](./thinkings/slide-window.md)\n- [位运算](./thinkings/bit.md)\n- [小岛问题](./thinkings/island.md)🖊\n- [最大公约数](./thinkings/GCD.md)\n- [并查集](./thinkings/union-find.md)\n- [平衡二叉树专题](./thinkings/balanced-tree.md)\n- [蓄水池抽样](./thinkings/reservoid-sampling.md)\n- [单调栈"
+            }
+          ],
+          "sourceHash": "e62105b440949461815ebacd117b1f1412125c4d7418f8ef49878d5dcc89a373",
+          "sourceUrl": "https://github.com/azl397985856/leetcode/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "e62105b440949461815ebacd117b1f1412125c4d7418f8ef49878d5dcc89a373",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "bannedbook/fanqiang": {
+      "sourceHash": "880ece7d3a3bf9d8d591f87caaade449e8f0b2bbe7be1524913bec3f5ad37a0f",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "按 Android、macOS、Linux、路由器和游戏机等平台收集网络代理工具与配置教程，是导航目录而非统一客户端。",
+        "scenarios": [
+          "查找自己操作系统对应的代理客户端说明。"
+        ],
+        "usage": "按 Android、macOS、Linux、路由器和游戏机等平台收集网络代理工具与配置教程，是导航目录而非统一客户端。",
+        "requirements": "准备浏览器；实际客户端、服务和网络权限需按目标教程单独确认。",
+        "quickStart": "1. 从 README 选择与自己设备匹配的平台目录。\n2. 打开具体工具的教程，确认其来源、版本及所需配置。\n3. 只在有权管理的设备和网络中验证连接，保留恢复原网络配置的方法。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "资源目录",
+          "purpose": "按 Android、macOS、Linux、路由器和游戏机等平台收集网络代理工具与配置教程，是导航目录而非统一客户端。",
+          "audience": "需要查阅网络工具资料的用户",
+          "example": "查找自己操作系统对应的代理客户端说明。",
+          "steps": [
+            "从 README 选择与自己设备匹配的平台目录。",
+            "打开具体工具的教程，确认其来源、版本及所需配置。",
+            "只在有权管理的设备和网络中验证连接，保留恢复原网络配置的方法。"
+          ],
+          "verification": "能够辨认所选工具的官方来源、配置位置与连接状态；目录内不同工具并非一个安装包。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "翻墙-科学上网\n\n# 翻墙-科学上网、翻墙工具、翻墙教程项目库\n\n*   [翻墙新闻-FQNews-安卓APP](https://github.com/bannedbook/fanqiang/tree/master/fqnews2)\n*   [安卓翻墙软件](https://github.com/bannedbook/fanqiang/wiki/%E5%AE%89%E5%8D%93%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6)\n*   [安卓翻墙APP教程](https://github.com/ba"
+            },
+            {
+              "field": "purpose",
+              "quote": "翻墙-科学上网\n\n# 翻墙-科学上网、翻墙工具、翻墙教程项目库\n\n*   [翻墙新闻-FQNews-安卓APP](https://github.com/bannedbook/fanqiang/tree/master/fqnews2)\n*   [安卓翻墙软件](https://github.com/bannedbook/fanqiang/wiki/%E5%AE%89%E5%8D%93%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6)\n*   [安卓翻墙APP教程](https://github.com/ba"
+            },
+            {
+              "field": "scenarios",
+              "quote": "翻墙-科学上网\n\n# 翻墙-科学上网、翻墙工具、翻墙教程项目库\n\n*   [翻墙新闻-FQNews-安卓APP](https://github.com/bannedbook/fanqiang/tree/master/fqnews2)\n*   [安卓翻墙软件](https://github.com/bannedbook/fanqiang/wiki/%E5%AE%89%E5%8D%93%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6)\n*   [安卓翻墙APP教程](https://github.com/ba"
+            },
+            {
+              "field": "steps",
+              "quote": "-FQNews-安卓APP](https://github.com/bannedbook/fanqiang/tree/master/fqnews2)\n*   [安卓翻墙软件](https://github.com/bannedbook/fanqiang/wiki/%E5%AE%89%E5%8D%93%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6)\n*   [安卓翻墙APP教程](https://github.com/bannedbook/fanqiang/tree/master/android)\n*   [Chrome一键翻墙包](https://github.com/bannedbook/fanqiang/wiki/Chrome%E4%B8%80%E9%9"
+            },
+            {
+              "field": "verification",
+              "quote": "-FQNews-安卓APP](https://github.com/bannedbook/fanqiang/tree/master/fqnews2)\n*   [安卓翻墙软件](https://github.com/bannedbook/fanqiang/wiki/%E5%AE%89%E5%8D%93%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6)\n*   [安卓翻墙APP教程](https://github.com/bannedbook/fanqiang/tree/master/android)\n*   [Chrome一键翻墙包](https://github.com/bannedbook/fanqiang/wiki/Chrome%E4%B8%80%E9%9"
+            }
+          ],
+          "sourceHash": "880ece7d3a3bf9d8d591f87caaade449e8f0b2bbe7be1524913bec3f5ad37a0f",
+          "sourceUrl": "https://github.com/bannedbook/fanqiang/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "880ece7d3a3bf9d8d591f87caaade449e8f0b2bbe7be1524913bec3f5ad37a0f",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "berriai/litellm": {
+      "sourceHash": "bb8749671f3c96124557f9886cc6769a63af8c0985c9a9ab524aea5e9f9e9f4b",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "为多家大模型提供统一调用格式，可作为 Python SDK 嵌入应用，也可部署代理网关集中管理鉴权、用量与路由。",
+        "scenarios": [
+          "把应用中的两家模型服务统一到一个调用接口。"
+        ],
+        "usage": "为多家大模型提供统一调用格式，可作为 Python SDK 嵌入应用，也可部署代理网关集中管理鉴权、用量与路由。",
+        "requirements": "准备 Python 或网关部署环境，以及实际可用的模型提供商凭据。",
+        "quickStart": "1. 从 Get Started 选择 Python SDK 或集中式 Proxy Server 路线。\n2. 按 Python SDK 示例安装 litellm，配置一个提供商并运行最小调用。\n3. 核对模型响应与用量，再按 Router 文档配置重试或备用后端。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "为多家大模型提供统一调用格式，可作为 Python SDK 嵌入应用，也可部署代理网关集中管理鉴权、用量与路由。",
+          "audience": "需要接入多种模型的应用开发者",
+          "example": "把应用中的两家模型服务统一到一个调用接口。",
+          "steps": [
+            "从 Get Started 选择 Python SDK 或集中式 Proxy Server 路线。",
+            "按 Python SDK 示例安装 litellm，配置一个提供商并运行最小调用。",
+            "核对模型响应与用量，再按 Router 文档配置重试或备用后端。"
+          ],
+          "verification": "所选后端可返回预期结果，用量与错误能定位到提供商；统一接口不会免除上游计费。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]\n\n# \n        🚅 LiteLLM\n    \n\n    \n        LiteLLM AI Gateway\n        \n        Open Source AI Gateway for 100+ LLMs. Self-hosted. Enterprise-ready. Call any LLM in OpenAI format.\n   "
+            },
+            {
+              "field": "purpose",
+              "quote": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]\n\n# \n        🚅 LiteLLM\n    \n\n    \n        LiteLLM AI Gateway\n        \n        Open Source AI Gateway for 100+ LLMs. Self-hosted. Enterprise-ready. Call any LLM in OpenAI format.\n   "
+            },
+            {
+              "field": "scenarios",
+              "quote": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]\n\n# \n        🚅 LiteLLM\n    \n\n    \n        LiteLLM AI Gateway\n        \n        Open Source AI Gateway for 100+ LLMs. Self-hosted. Enterprise-ready. Call any LLM in OpenAI format.\n   "
+            },
+            {
+              "field": "steps",
+              "quote": "gs`, `/images`, `/audio`, `/batches`, `/rerank`, `/a2a`, `/messages` and more.\n\n### Python SDK\n\n```shell\nuv add litellm\n```\n\nAn independent `litellm-core` distribution provides the Python SDK with the same\n`import litellm` API and runtime dependencies. It has no optional extras, CLI entry\npoints, or bundled dashboard. Install one SDK distribut\n\n### Dep"
+            },
+            {
+              "field": "verification",
+              "quote": "gs`, `/images`, `/audio`, `/batches`, `/rerank`, `/a2a`, `/messages` and more.\n\n### Python SDK\n\n```shell\nuv add litellm\n```\n\nAn independent `litellm-core` distribution provides the Python SDK with the same\n`import litellm` API and runtime dependencies. It has no optional extras, CLI entry\npoints, or bundled dashboard. Install one SDK distribut\n\n### Dep"
+            }
+          ],
+          "sourceHash": "bb8749671f3c96124557f9886cc6769a63af8c0985c9a9ab524aea5e9f9e9f4b",
+          "sourceUrl": "https://github.com/BerriAI/litellm/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "bb8749671f3c96124557f9886cc6769a63af8c0985c9a9ab524aea5e9f9e9f4b",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "sourceHash": "1dd96da0d8e3adf60cf0d06c67e3bf3ab9040c1a64ce07a36836f842c1da6b3c",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "在浏览器的三维地球上汇集公开飞机、船舶、卫星和地震等空间信息，可扩展影像与实时语音功能。",
+        "scenarios": [
+          "在三维地球上查看公开航班和地震图层。"
+        ],
+        "usage": "在浏览器的三维地球上汇集公开飞机、船舶、卫星和地震等空间信息，可扩展影像与实时语音功能。",
+        "requirements": "浏览器需有合适图形能力；本地基础模式无需 API Key，增强影像和语音依赖各提供商配置。",
+        "quickStart": "1. 打开 Quick Start，选择本地安装路线，按该路线安装依赖并启动。\n2. 先使用默认影像加载地球，再开启航班或地震等无密钥图层。\n3. 需要增强效果时从 POWER UP 添加自己可用的服务 Key，并核对 Keys & Costs。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "在浏览器的三维地球上汇集公开飞机、船舶、卫星和地震等空间信息，可扩展影像与实时语音功能。",
+          "audience": "对公开地理信息可视化感兴趣的用户",
+          "example": "在三维地球上查看公开航班和地震图层。",
+          "steps": [
+            "打开 Quick Start，选择本地安装路线，按该路线安装依赖并启动。",
+            "先使用默认影像加载地球，再开启航班或地震等无密钥图层。",
+            "需要增强效果时从 POWER UP 添加自己可用的服务 Key，并核对 Keys & Costs。"
+          ],
+          "verification": "地球和所选图层能加载，数据来源与时间可识别；公开数据不保证覆盖或实时精度。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.\n\n# 🌐 God's Eye View\n\n[](https://github.com/bilawalsidhu/gods-eye-view/actions/workflows/ci.yml) [](https://x.com/bilawalsidhu/status/2093798887815348521)\n\n### A spy-satellite simulator in your browser — then you realize the sources are public and the data is"
+            },
+            {
+              "field": "purpose",
+              "quote": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.\n\n# 🌐 God's Eye View\n\n[](https://github.com/bilawalsidhu/gods-eye-view/actions/workflows/ci.yml) [](https://x.com/bilawalsidhu/status/2093798887815348521)\n\n### A spy-satellite simulator in your browser — then you realize the sources are public and the data is"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.\n\n# 🌐 God's Eye View\n\n[](https://github.com/bilawalsidhu/gods-eye-view/actions/workflows/ci.yml) [](https://x.com/bilawalsidhu/status/2093798887815348521)\n\n### A spy-satellite simulator in your browser — then you realize the sources are public and the data is"
+            },
+            {
+              "field": "steps",
+              "quote": "m use 24\n   npm ci\n   npm run doctor\n   GEV_ALLOWED_HOSTS=\"$CODESPACE_NAME-417\n\n## ⚡ Quick Start\n\n**Local setup needs no account or API keys.** The app opens with\nEsri satellite imagery and keyless terrain. OSM is the fallback if Esri is\nunreachable. Flights, military traffic, satellites, earthquakes, public\ncameras, radio, and launches are available wit"
+            },
+            {
+              "field": "verification",
+              "quote": "m use 24\n   npm ci\n   npm run doctor\n   GEV_ALLOWED_HOSTS=\"$CODESPACE_NAME-417\n\n## ⚡ Quick Start\n\n**Local setup needs no account or API keys.** The app opens with\nEsri satellite imagery and keyless terrain. OSM is the fallback if Esri is\nunreachable. Flights, military traffic, satellites, earthquakes, public\ncameras, radio, and launches are available wit"
+            }
+          ],
+          "sourceHash": "1dd96da0d8e3adf60cf0d06c67e3bf3ab9040c1a64ce07a36836f842c1da6b3c",
+          "sourceUrl": "https://github.com/bilawalsidhu/gods-eye-view/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "1dd96da0d8e3adf60cf0d06c67e3bf3ab9040c1a64ce07a36836f842c1da6b3c",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "blader/humanizer": {
+      "sourceHash": "6eb34ba3014ec7d3ef64dc9574450e118f8db6679bc56fc9cede7d975968266d",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "帮助改写 AI 文本中套路化和空泛的表达，在保留原意的同时更适合人类阅读，可在支持 Skill 的助手中使用。",
+        "scenarios": [
+          "改写一段产品公告，减少口号和空泛结尾。"
+        ],
+        "usage": "帮助改写 AI 文本中套路化和空泛的表达，在保留原意的同时更适合人类阅读，可在支持 Skill 的助手中使用。",
+        "requirements": "需要支持 Skill 的助手，并准备可核对事实的原始文本。",
+        "quickStart": "1. 按 Installation 为助手安装 Humanizer，确认可调用 /humanizer。\n2. 调用 /humanizer 并粘贴原文，或提供需要修改的文档路径。\n3. 对照原文检查事实、语气和删改位置，保留符合用途的版本。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "AI 指令 / Skill 资源",
+          "purpose": "帮助改写 AI 文本中套路化和空泛的表达，在保留原意的同时更适合人类阅读，可在支持 Skill 的助手中使用。",
+          "audience": "需要修改文案和技术文章的写作者",
+          "example": "改写一段产品公告，减少口号和空泛结尾。",
+          "steps": [
+            "按 Installation 为助手安装 Humanizer，确认可调用 /humanizer。",
+            "调用 /humanizer 并粘贴原文，或提供需要修改的文档路径。",
+            "对照原文检查事实、语气和删改位置，保留符合用途的版本。"
+          ],
+          "verification": "事实与承诺没有被改写扩大，句子更直接；它不承诺绕过 AI 文本检测。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Agent skill that removes signs of AI-generated writing from text\n\n# Humanizer \n\nsponsored by [cfo.ai](https://cfo.ai)\n\n[](https://github.com/blader/humanizer/stargazers) [](https://skills.sh/blader/humanizer) \n\n\nHumanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wiki"
+            },
+            {
+              "field": "purpose",
+              "quote": "Agent skill that removes signs of AI-generated writing from text\n\n# Humanizer \n\nsponsored by [cfo.ai](https://cfo.ai)\n\n[](https://github.com/blader/humanizer/stargazers) [](https://skills.sh/blader/humanizer) \n\n\nHumanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wiki"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Agent skill that removes signs of AI-generated writing from text\n\n# Humanizer \n\nsponsored by [cfo.ai](https://cfo.ai)\n\n[](https://github.com/blader/humanizer/stargazers) [](https://skills.sh/blader/humanizer) \n\n\nHumanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wiki"
+            },
+            {
+              "field": "steps",
+              "quote": " all.\n\n## Installation\n\nOnce installed, the skill answers to `/humanizer`.\n\n##\n\n## Usage\n\nCall the skill directly:\n\n```\n/humanizer\n\n[paste your text here]\n```\n\nOr ask in plain language:\n\n```\nPlease humanize this text: [your text]\n```\n\nTo rewrite a file, give Humanizer its path:\n\n```\nHumanize the prose in docs/launch-post.md\n```"
+            },
+            {
+              "field": "verification",
+              "quote": " all.\n\n## Installation\n\nOnce installed, the skill answers to `/humanizer`.\n\n##\n\n## Usage\n\nCall the skill directly:\n\n```\n/humanizer\n\n[paste your text here]\n```\n\nOr ask in plain language:\n\n```\nPlease humanize this text: [your text]\n```\n\nTo rewrite a file, give Humanizer its path:\n\n```\nHumanize the prose in docs/launch-post.md\n```"
+            }
+          ],
+          "sourceHash": "6eb34ba3014ec7d3ef64dc9574450e118f8db6679bc56fc9cede7d975968266d",
+          "sourceUrl": "https://github.com/blader/humanizer/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "6eb34ba3014ec7d3ef64dc9574450e118f8db6679bc56fc9cede7d975968266d",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "bmad-code-org/bmad-method": {
+      "sourceHash": "c11e82936b67f7e089e369e5bc2c2319a61889ed568eee8f0b7e781daa393262",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "面向 AI 协作开发的分阶段方法，把需求、产品、架构、UX、实现和测试衔接起来，并按改动复杂度选择规划深度。",
+        "scenarios": [
+          "把一个新功能从需求澄清推进到实现和验收。"
+        ],
+        "usage": "面向 AI 协作开发的分阶段方法，把需求、产品、架构、UX、实现和测试衔接起来，并按改动复杂度选择规划深度。",
+        "requirements": "准备现有代码或项目目标，以及官方文档支持的 AI 工具。",
+        "quickStart": "1. 从 Documentation 的 Build Your First Change 进入安装和首个改动教程。\n2. 按 Choose a Planning Path 判断是直接实现还是先补需求和架构，保留明确决策。\n3. 沿教程推进实现、评审与修正，逐项检查产出是否符合最初需求。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "AI 指令 / Skill 资源",
+          "purpose": "面向 AI 协作开发的分阶段方法，把需求、产品、架构、UX、实现和测试衔接起来，并按改动复杂度选择规划深度。",
+          "audience": "用编码助手交付项目的个人与团队",
+          "example": "把一个新功能从需求澄清推进到实现和验收。",
+          "steps": [
+            "从 Documentation 的 Build Your First Change 进入安装和首个改动教程。",
+            "按 Choose a Planning Path 判断是直接实现还是先补需求和架构，保留明确决策。",
+            "沿教程推进实现、评审与修正，逐项检查产出是否符合最初需求。"
+          ],
+          "verification": "需求与技术决策能在后续实现中追溯，交付经过检查；多角色流程仍需要用户判断。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Breakthrough Method for Agile Ai Driven Development\n\n[](https://github.com/bmad-code-org/BMAD-METHOD/tags)\n[](LICENSE)\n[](https://discord.gg/gk8jAdXWmj)\n\n**Agile Ai Driven Development — turn an idea or change request into working software without giving up the thinking.**\n\nAi Driven Development (AiDD) covers t"
+            },
+            {
+              "field": "purpose",
+              "quote": "Breakthrough Method for Agile Ai Driven Development\n\n[](https://github.com/bmad-code-org/BMAD-METHOD/tags)\n[](LICENSE)\n[](https://discord.gg/gk8jAdXWmj)\n\n**Agile Ai Driven Development — turn an idea or change request into working software without giving up the thinking.**\n\nAi Driven Development (AiDD) covers t"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Breakthrough Method for Agile Ai Driven Development\n\n[](https://github.com/bmad-code-org/BMAD-METHOD/tags)\n[](LICENSE)\n[](https://discord.gg/gk8jAdXWmj)\n\n**Agile Ai Driven Development — turn an idea or change request into working software without giving up the thinking.**\n\nAi Driven Development (AiDD) covers t"
+            },
+            {
+              "field": "steps",
+              "quote": "framework, including Unity, Unreal, Godot, and Phaser |\n\n## Documentation\n\n- **[Build Your First Change](https://docs.bmad-method.org/start/build-your-first-change/)** — Install BMad and build a small project.\n- **[Choose a Plan"
+            },
+            {
+              "field": "verification",
+              "quote": "framework, including Unity, Unreal, Godot, and Phaser |\n\n## Documentation\n\n- **[Build Your First Change](https://docs.bmad-method.org/start/build-your-first-change/)** — Install BMad and build a small project.\n- **[Choose a Plan"
+            }
+          ],
+          "sourceHash": "c11e82936b67f7e089e369e5bc2c2319a61889ed568eee8f0b7e781daa393262",
+          "sourceUrl": "https://github.com/bmad-code-org/BMAD-METHOD/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "c11e82936b67f7e089e369e5bc2c2319a61889ed568eee8f0b7e781daa393262",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "bojieli/ai-agent-book": {
+      "sourceHash": "52a3e29e6a0486e0f2d76b13c6339a4d4ec6196390b889a205c568e929e74889",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "中文 AI Agent 原理与工程实践教材，提供全书在线阅读、PDF/EPUB 和按章节组织的实验代码，覆盖构建与评估。",
+        "scenarios": [
+          "阅读第一章并运行对应的上下文实验。"
+        ],
+        "usage": "中文 AI Agent 原理与工程实践教材，提供全书在线阅读、PDF/EPUB 和按章节组织的实验代码，覆盖构建与评估。",
+        "requirements": "阅读只需浏览器；实验需 Python 与 uv 或 pip，模型、浏览器、CUDA 等按各实验要求配置。",
+        "quickStart": "1. 从电子书入口选择最新中文 PDF 或在线版，先阅读第一章。\n2. 克隆仓库，按章节使用 uv sync --locked --extra ch1 准备依赖。\n3. 根据实验 README 配置提供商，再运行第一章 context 示例并比较结果。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "学习教程",
+          "purpose": "中文 AI Agent 原理与工程实践教材，提供全书在线阅读、PDF/EPUB 和按章节组织的实验代码，覆盖构建与评估。",
+          "audience": "希望系统学习智能体工程的开发者",
+          "example": "阅读第一章并运行对应的上下文实验。",
+          "steps": [
+            "从电子书入口选择最新中文 PDF 或在线版，先阅读第一章。",
+            "克隆仓库，按章节使用 uv sync --locked --extra ch1 准备依赖。",
+            "根据实验 README 配置提供商，再运行第一章 context 示例并比较结果。"
+          ],
+          "verification": "能复现选定实验并说明输入、上下文和输出；本地模型仅用于明确支持它的实验。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码\n\n# 深入理解 AI Agent：设计原理与工程实践\n\n[](#-电子书) [](https://bojieli.github.io/ai-agent-book/astro/) [](https://github.com/bojieli/ai-agent-book) [](LICENSE) [](#-电子书)\n[](https://github.com/trending)\n\n**中文** ← 当前 · [English](docs/en/README.md) · [Español](docs/es/README."
+            },
+            {
+              "field": "purpose",
+              "quote": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码\n\n# 深入理解 AI Agent：设计原理与工程实践\n\n[](#-电子书) [](https://bojieli.github.io/ai-agent-book/astro/) [](https://github.com/bojieli/ai-agent-book) [](LICENSE) [](#-电子书)\n[](https://github.com/trending)\n\n**中文** ← 当前 · [English](docs/en/README.md) · [Español](docs/es/README."
+            },
+            {
+              "field": "scenarios",
+              "quote": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码\n\n# 深入理解 AI Agent：设计原理与工程实践\n\n[](#-电子书) [](https://bojieli.github.io/ai-agent-book/astro/) [](https://github.com/bojieli/ai-agent-book) [](LICENSE) [](#-电子书)\n[](https://github.com/trending)\n\n**中文** ← 当前 · [English](docs/en/README.md) · [Español](docs/es/README."
+            },
+            {
+              "field": "steps",
+              "quote": "参考各实验 README。第 8 章部分内置第三方组件需要 Python 3.12+。\n\n\n\n# 推荐：使用提交到仓库的 uv.lock，获得可复现的章节环境\nuv sync --locked --extra ch1"
+            },
+            {
+              "field": "verification",
+              "quote": "参考各实验 README。第 8 章部分内置第三方组件需要 Python 3.12+。\n\n\n\n# 推荐：使用提交到仓库的 uv.lock，获得可复现的章节环境\nuv sync --locked --extra ch1"
+            }
+          ],
+          "sourceHash": "52a3e29e6a0486e0f2d76b13c6339a4d4ec6196390b889a205c568e929e74889",
+          "sourceUrl": "https://github.com/bojieli/ai-agent-book/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "52a3e29e6a0486e0f2d76b13c6339a4d4ec6196390b889a205c568e929e74889",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "charlax/professional-programming": {
+      "sourceHash": "7d0d488dda276a768c47067264813c0c33c8758fa2182f36514e494ba8d80e17",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "按主题整理软件工程学习资料，覆盖架构、代码质量、调试、数据库、沟通与职业成长，是文章与书籍索引。",
+        "scenarios": [
+          "围绕代码评审或 API 设计制定一个短期阅读清单。"
+        ],
+        "usage": "按主题整理软件工程学习资料，覆盖架构、代码质量、调试、数据库、沟通与职业成长，是文章与书籍索引。",
+        "requirements": "准备浏览器；外部文章、课程和书籍的访问条件各自独立。",
+        "quickStart": "1. 从 Table of Contents 选择一个具体主题，避免一次浏览全部目录。\n2. 打开该主题的文章或书籍入口，选择与当前问题最相关的一项。\n3. 把学习要点应用到一个小改动，并在代码评审中检查效果。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "资源目录",
+          "purpose": "按主题整理软件工程学习资料，覆盖架构、代码质量、调试、数据库、沟通与职业成长，是文章与书籍索引。",
+          "audience": "希望查漏补缺的软件工程师",
+          "example": "围绕代码评审或 API 设计制定一个短期阅读清单。",
+          "steps": [
+            "从 Table of Contents 选择一个具体主题，避免一次浏览全部目录。",
+            "打开该主题的文章或书籍入口，选择与当前问题最相关的一项。",
+            "把学习要点应用到一个小改动，并在代码评审中检查效果。"
+          ],
+          "verification": "能从目录定位到原始资料，并留下可执行的改进记录；阅读清单本身无需安装。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A collection of learning resources for curious software engineers\n\n## Table of Contents\n\n- [Professional Programming - about this list](#professional-programming---about-this-list)\n  - [Principles](#principles)\n  - [Contributing to this list](#contributing-to-this-list)\n  - [Must-read books](#must-read-books)\n  - [Must-read"
+            },
+            {
+              "field": "purpose",
+              "quote": "A collection of learning resources for curious software engineers\n\n## Table of Contents\n\n- [Professional Programming - about this list](#professional-programming---about-this-list)\n  - [Principles](#principles)\n  - [Contributing to this list](#contributing-to-this-list)\n  - [Must-read books](#must-read-books)\n  - [Must-read"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A collection of learning resources for curious software engineers\n\n## Table of Contents\n\n- [Professional Programming - about this list](#professional-programming---about-this-list)\n  - [Principles](#principles)\n  - [Contributing to this list](#contributing-to-this-list)\n  - [Must-read books](#must-read-books)\n  - [Must-read"
+            },
+            {
+              "field": "steps",
+              "quote": "A collection of learning resources for curious software engineers\n\n## Table of Contents\n\n- [Professional Programming - about this list](#professional-programming---about-this-list)\n  - [Principles](#principles)\n  - [Contributing to this list](#contributing-to-this-list)\n  - [Must-read books](#must-read-books)\n  - [Must-read articles](#must-read-"
+            },
+            {
+              "field": "verification",
+              "quote": "A collection of learning resources for curious software engineers\n\n## Table of Contents\n\n- [Professional Programming - about this list](#professional-programming---about-this-list)\n  - [Principles](#principles)\n  - [Contributing to this list](#contributing-to-this-list)\n  - [Must-read books](#must-read-books)\n  - [Must-read articles](#must-read-"
+            }
+          ],
+          "sourceHash": "7d0d488dda276a768c47067264813c0c33c8758fa2182f36514e494ba8d80e17",
+          "sourceUrl": "https://github.com/charlax/professional-programming/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "7d0d488dda276a768c47067264813c0c33c8758fa2182f36514e494ba8d80e17",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "cheaper-inference/omniroute": {
+      "sourceHash": "1754136aefeca39eeeabd8e8560a828a551cb807adb021d3dd2aa3b036b243d7",
+      "completedAt": "2026-11-04T09:45:38.658Z",
+      "content": {
+        "summary": "把多个模型提供商汇集到统一 AI 网关，为编码工具提供路由和备用后端；免费池依赖用户自己的提供商账号与额度。",
+        "scenarios": [
+          "为编码工具配置一个主模型与一个可用备用模型。"
+        ],
+        "usage": "把多个模型提供商汇集到统一 AI 网关，为编码工具提供路由和备用后端；免费池依赖用户自己的提供商账号与额度。",
+        "requirements": "准备 npm 或 README 支持的安装环境和自己的提供商凭据；上游条款及计费单独适用。",
+        "quickStart": "1. 按 Quick Start 安装 omniroute 并启动，核对当前版本的安装脚本要求。\n2. 在面板连接一个自己有权限使用的提供商，按 CLI Tools Guide 配置客户端。\n3. 发起最小请求，查看模型、用量与错误，再配置可用的备用路由。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "把多个模型提供商汇集到统一 AI 网关，为编码工具提供路由和备用后端；免费池依赖用户自己的提供商账号与额度。",
+          "audience": "需要管理模型连接的开发者",
+          "example": "为编码工具配置一个主模型与一个可用备用模型。",
+          "steps": [
+            "按 Quick Start 安装 omniroute 并启动，核对当前版本的安装脚本要求。",
+            "在面板连接一个自己有权限使用的提供商，按 CLI Tools Guide 配置客户端。",
+            "发起最小请求，查看模型、用量与错误，再配置可用的备用路由。"
+          ],
+          "verification": "客户端请求到达所选模型，用量可核对；汇总免费额度不是网关赠送的统一余额。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors\n\n# 🚀 OmniRoute — The Free AI Gateway\n\n**Created by [Diego Souza](https://github.com/di"
+            },
+            {
+              "field": "purpose",
+              "quote": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors\n\n# 🚀 OmniRoute — The Free AI Gateway\n\n**Created by [Diego Souza](https://github.com/di"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors\n\n# 🚀 OmniRoute — The Free AI Gateway\n\n**Created by [Diego Souza](https://github.com/di"
+            },
+            {
+              "field": "steps",
+              "quote": "e --now omniroute.service\n```\n\n**🔧 Nix (Flake)**\n\n```bash\n\n\n# ⚡ Quick Start\n\n\n\n**1) Install & run**\n\n```bash\nnpm install -g omniroute\nomniroute\n```\n\n> 💡 See `npm warn ERESOLVE` or peer-dep warnings? [They're harmless](docs/guides/TROUBLESHOOTING.md#npm-install-warnings-eresolve--peer--deprecated).\n> **Using npm 11 or later?** npm may block package lifecycl"
+            },
+            {
+              "field": "verification",
+              "quote": "e --now omniroute.service\n```\n\n**🔧 Nix (Flake)**\n\n```bash\n\n\n# ⚡ Quick Start\n\n\n\n**1) Install & run**\n\n```bash\nnpm install -g omniroute\nomniroute\n```\n\n> 💡 See `npm warn ERESOLVE` or peer-dep warnings? [They're harmless](docs/guides/TROUBLESHOOTING.md#npm-install-warnings-eresolve--peer--deprecated).\n> **Using npm 11 or later?** npm may block package lifecycl"
+            }
+          ],
+          "sourceHash": "1754136aefeca39eeeabd8e8560a828a551cb807adb021d3dd2aa3b036b243d7",
+          "sourceUrl": "https://github.com/cheaper-inference/OmniRoute/blob/release/v3.8.53/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "1754136aefeca39eeeabd8e8560a828a551cb807adb021d3dd2aa3b036b243d7",
+            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     }
   },
   "pending": {
@@ -944,16 +2144,6 @@
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/TheAlgorithms/Java/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
-    },
-    "alacritty/alacritty": {
-      "id": "alacritty/alacritty",
-      "sourceHash": "093a2c684dd24a3b0a1fb37c846203f70dab4236c43a235a137b6394ca77e35f",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/alacritty/alacritty/blob/master/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-21T06:00:52.593Z"
     },
     "webpack/webpack": {
       "id": "webpack/webpack",
@@ -1324,15 +2514,6 @@
       "lastAttemptAt": "2026-10-29T07:01:48.386Z",
       "nextAttemptAt": "2026-10-29T08:01:48.386Z"
     },
-    "alishahryar1/free-claude-code": {
-      "id": "alishahryar1/free-claude-code",
-      "sourceHash": "a013ba4a5f036818af4fee4820742d7d7572dda8fee7daa618dc1d48e8a5ee02",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/Alishahryar1/free-claude-code/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "pathwaycom/pathway": {
       "id": "pathwaycom/pathway",
       "sourceHash": "e845fc51b813d579f2bbd37dced4c4076cdeeefb26449c1ce3a04bfd6e913d3a",
@@ -1341,17 +2522,6 @@
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/pathwaycom/pathway/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
-    },
-    "berriai/litellm": {
-      "id": "berriai/litellm",
-      "sourceHash": "5ba9e0585a84b94169e47729b32b639be1b04e935ef2824c5a31fb58514b4e43",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/BerriAI/litellm/blob/main/README.md",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-10-29T07:01:48.386Z",
-      "nextAttemptAt": "2026-10-29T08:01:48.386Z"
     },
     "solido/awesome-flutter": {
       "id": "solido/awesome-flutter",
@@ -1623,17 +2793,6 @@
       "readmeUrl": "https://github.com/karpathy/nanochat/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "blader/humanizer": {
-      "id": "blader/humanizer",
-      "sourceHash": "2f7f0be9cd4b3f4d61b04e9557c2c58a00a05b9b3b882c4e52406389218e2181",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 2,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/blader/humanizer/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-04T07:28:40.974Z",
-      "nextAttemptAt": "2026-11-04T08:28:40.974Z"
-    },
     "pathwaycom/serviette": {
       "id": "pathwaycom/serviette",
       "sourceHash": "0a1e26620f0fc13f59843c04462e3df9e3851c7f3af59573496995256f231cc2",
@@ -1670,15 +2829,6 @@
       "readmeUrl": "https://github.com/go-gitea/gitea/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "bilawalsidhu/gods-eye-view": {
-      "id": "bilawalsidhu/gods-eye-view",
-      "sourceHash": "4a984fe81efa7b6027f8aeaf27be605d0b1671c79197cc9db239d5d74fdc39e8",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/bilawalsidhu/gods-eye-view/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "jellyfin/jellyfin": {
       "id": "jellyfin/jellyfin",
       "sourceHash": "c98b7095643da5749745536b73bb51e1b65824158a941e57752f0872c5e5d448",
@@ -1713,24 +2863,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/wasabeef/awesome-android-ui/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "ayghri/i-have-adhd": {
-      "id": "ayghri/i-have-adhd",
-      "sourceHash": "ffb19196e0abfd22c37d34397c52794c71f52b532492097d3106d0156065bbac",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/ayghri/i-have-adhd/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "appwrite/appwrite": {
-      "id": "appwrite/appwrite",
-      "sourceHash": "f9f0f6a5a2d53edf6f7a63ea6f6ed576cc46cbc42a1cac7d0c1c870d3e70df21",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/appwrite/appwrite/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "scutan90/deeplearning-500-questions": {
@@ -1812,15 +2944,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/soimort/you-get/blob/develop/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "ageitgey/face_recognition": {
-      "id": "ageitgey/face_recognition",
-      "sourceHash": "63bf8b0df795f328f11c180512a9a08643d922122c91acee0c2998e65bd03e13",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/ageitgey/face_recognition/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "laurent22/joplin": {
@@ -1913,15 +3036,6 @@
       "readmeUrl": "https://github.com/router-for-me/CLIProxyAPI/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "azl397985856/leetcode": {
-      "id": "azl397985856/leetcode",
-      "sourceHash": "e62105b440949461815ebacd117b1f1412125c4d7418f8ef49878d5dcc89a373",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/azl397985856/leetcode/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "freqtrade/freqtrade": {
       "id": "freqtrade/freqtrade",
       "sourceHash": "e5f7a30c5f887d4eec0a12aedde1ed86c99f26f56eeec60b285e212ccbacb047",
@@ -1929,15 +3043,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/freqtrade/freqtrade/blob/develop/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "bannedbook/fanqiang": {
-      "id": "bannedbook/fanqiang",
-      "sourceHash": "880ece7d3a3bf9d8d591f87caaade449e8f0b2bbe7be1524913bec3f5ad37a0f",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/bannedbook/fanqiang/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "coreyhaines31/marketingskills": {
@@ -2001,15 +3106,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/odoo/odoo/blob/20.0/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "bojieli/ai-agent-book": {
-      "id": "bojieli/ai-agent-book",
-      "sourceHash": "c2ba80377dea3d889b435ce19b4e3b23364ce5e0d3213542f184f926fb8a36d1",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/bojieli/ai-agent-book/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "facebookresearch/segment-anything": {
@@ -2084,15 +3180,6 @@
       "readmeUrl": "https://github.com/ggml-org/whisper.cpp/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "bmad-code-org/bmad-method": {
-      "id": "bmad-code-org/bmad-method",
-      "sourceHash": "b23ddca07b2060eba9661994c54b3198466d9d5e4187bb6fa76d7ad3c0b5e810",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/bmad-code-org/BMAD-METHOD/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "google/material-design-icons": {
       "id": "google/material-design-icons",
       "sourceHash": "3393ccebdc815958b2adda7dfeb7878a2dce73f0db2de830f3518fc2034b3a92",
@@ -2163,15 +3250,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/lllyasviel/Fooocus/blob/main/readme.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "anthropics/claude-cookbooks": {
-      "id": "anthropics/claude-cookbooks",
-      "sourceHash": "7f1cccc1c65b3d1be911a422581a555f23a878997cd5eb9e894be9cf04054768",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/anthropics/claude-cookbooks/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "necolas/normalize.css": {
@@ -2327,15 +3405,6 @@
       "readmeUrl": "https://github.com/dbeaver/dbeaver/blob/devel/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "avik-jain/100-days-of-ml-code": {
-      "id": "avik-jain/100-days-of-ml-code",
-      "sourceHash": "ae532a596727da7f43a46ad329cbce3f20693161f3c5164069337470e189e77d",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/Avik-Jain/100-Days-Of-ML-Code/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "vectorize-io/hindsight": {
       "id": "vectorize-io/hindsight",
       "sourceHash": "c70127c0af07189e83ee18041b0dd44cfd352c00460aa270546ae327c299638f",
@@ -2363,15 +3432,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/jekyll/jekyll/blob/master/README.markdown",
-      "reason": "awaiting-chinese-guide"
-    },
-    "charlax/professional-programming": {
-      "id": "charlax/professional-programming",
-      "sourceHash": "7d0d488dda276a768c47067264813c0c33c8758fa2182f36514e494ba8d80e17",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/charlax/professional-programming/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "definitelytyped/definitelytyped": {
@@ -2473,15 +3533,6 @@
       "readmeUrl": "https://github.com/chenglou/pretext/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "apple/container": {
-      "id": "apple/container",
-      "sourceHash": "720889f8537f54ca40cb06fccd6857db5512e1e996775ee7c557542bec9a62d1",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/apple/container/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "upscayl/upscayl": {
       "id": "upscayl/upscayl",
       "sourceHash": "a898347a68b269aa8228bd838873ba2a1b7a53ff695dd771262992ac6cd5c1eb",
@@ -2554,15 +3605,6 @@
       "readmeUrl": "https://github.com/QuantumNous/new-api/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "alistgo/alist": {
-      "id": "alistgo/alist",
-      "sourceHash": "587eaa2bd81f9e0e3fd8e0dd4afb31546ee866b76df40bcb85377e02fe37eae5",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/AlistGo/alist/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "pandas-dev/pandas": {
       "id": "pandas-dev/pandas",
       "sourceHash": "5365b49e9b570a7562b6142f457d9cecea01d0fdd14c64b392658a2d2754f141",
@@ -2579,35 +3621,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "astral-sh/ruff": {
-      "id": "astral-sh/ruff",
-      "sourceHash": "9c7d34b0eb90617623a740f5f9e4c02e0fb611034db235cfe6c57ad24d2b862e",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/astral-sh/ruff/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "cheaper-inference/omniroute": {
-      "id": "cheaper-inference/omniroute",
-      "sourceHash": "7c6d6ddf705bbb5f4328efa001094bd3a78d00df9d65d005ea3696b42ab01c07",
-      "firstSeenAt": "2026-10-22T06:06:20.228Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/cheaper-inference/OmniRoute/blob/release/v3.8.53/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-04T07:28:40.974Z",
-      "nextAttemptAt": "2026-11-04T08:28:40.974Z"
-    },
-    "ai-job-search-dev/ai-job-search": {
-      "id": "ai-job-search-dev/ai-job-search",
-      "sourceHash": "3b9d4a0e5801ee0c2ec46791098b2d4844363be38a9d87802cd5fd9fe5b9a35f",
-      "firstSeenAt": "2026-10-22T06:06:20.228Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/ai-job-search-dev/ai-job-search/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "team-spotube/spotube": {
@@ -2870,53 +3883,6 @@
       "savedAt": "2026-10-29T07:01:48.386Z",
       "reviewIssues": [
         "缺少关键前置条件：README明确提到需要具备基础编程能力，且建议新手先刷数组/链表/哈希/字符串再进阶到二叉树/回溯/动态规划/图论，草稿中的'无严格前置知识要求'与原文不符"
-      ]
-    },
-    "berriai/litellm|openrouter/nvidia/nemotron-3.5-lightning:free": {
-      "sourceHash": "5ba9e0585a84b94169e47729b32b639be1b04e935ef2824c5a31fb58514b4e43",
-      "draft": {
-        "kind": "self",
-        "summary": "最快的AI网关，Rust核心配合Python SDK，可调用100+ LLM API提供商，支持OpenAI格式调用，并具备成本追踪、防护措施、负载均衡和日志记录功能，兼容Bedrock、Azure、OpenAI、Anthropic、VertexAI、vLLM、Nvidia NIM等。",
-        "purpose": "作为统一的Python SDK或自部署AI网关，实现跨多个LLM提供商的统一调用、成本管理、访问控制和负载均衡，帮助开发者无需修改代码即可互换LLM提供商，并提供管理后台监控使用情况。",
-        "audience": "AI开发者、团队技术负责人",
-        "scenarios": [
-          "需要统一接口调用100+家LLM提供商的开发者",
-          "希望在不重写代码的情况下互换LLM服务商的项目",
-          "需要成本追踪和访问控制的企业级AI应用",
-          "需要低延迟高吞吐AI代理服务的团队"
-        ],
-        "steps": [
-          "使用pip或uv安装litellm库：pip install litellm 或 uv add litellm",
-          "配置API密钥并使用OpenAI格式调用任意LLM：litellm.completion(model='gpt-4', messages=[{'role': 'user', 'content': 'Hello'}])"
-        ],
-        "requirements": "Python运行环境，各LLM提供商的API密钥，uv或pip包管理工具",
-        "verification": "成功调用LLM并返回响应内容，检查成本追踪日志是否记录，确认使用的模型与预期一致",
-        "evidence": [
-          {
-            "field": "summary",
-            "quote": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]\n\n🚅 LiteLLM\n    \n    \n        LiteLLM AI Gateway\n        \n"
-          },
-          {
-            "field": "purpose",
-            "quote": "- **Unified API** — one interface for 100+ LLMs, no provider-specific SDK juggling\n- **Drop-in OpenAI compatibility** — swap providers without rewriting your code\n- **Production-ready gateway** — virtual keys, spend tracking, guardrails, load balancing, and an admin dashboard out of the box\n- **8ms P95 latency** at 1k RPS ([benchmarks](https://docs.litellm.ai/docs/benchmarks))\n\n### OSS Adopters\n\n\n"
-          },
-          {
-            "field": "scenarios",
-            "quote": "## What is LiteLLM\n\nLiteLLM is an open source AI Gateway that gives you a single, unified interface to call 100+ LLM providers — OpenAI, Anthropic, Gemini, Bedrock, Azure, and more — using the OpenAI format.\n\nUse it as a **Python SDK** for direct library integration, or deploy the **AI Gateway (Proxy Server)** as a centralized service for your team or organization.\n\n"
-          },
-          {
-            "field": "steps",
-            "quote": "git clone https://github.com/BerriAI/litellm.git\ncd litellm\nmake install-dev    # Install development dependencies\nmake format         # Format your code\nmake lint           # Run all linting checks\nmake test-unit      # Run unit tests\nmake format-check   # Check formatting only\n```\n\nFor detailed contributing guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).\n\n"
-          },
-          {
-            "field": "verification",
-            "quote": "- **Unified API** — one interface for 100+ LLMs, no provider-specific SDK juggling\n- **Drop-in OpenAI compatibility** — swap providers without rewriting your code\n- **Production-ready gateway** — virtual keys, spend tracking, guardrails, load balancing, and an admin dashboard out of the box\n- **8ms P95 latency** at 1k RPS ([benchmarks](https://docs.litellm.ai/docs/benchmarks))\n\n### OSS Adopters\n\n\n"
-          }
-        ]
-      },
-      "savedAt": "2026-10-29T07:01:48.386Z",
-      "reviewIssues": [
-        "summary: 译文提及 'Rust 核心'，但源文本仅描述为 'Rust core'，未明确声明项目整体以 Rust 实现，存在潜在夸大译文之嫌；purpose: 中文描述中提及 '访问控制'，源文本未明确列出 '访问控制' 为核心功能点，仅提及 'virtual keys'（虚拟密钥），译文略有强化；scenarios: 中文列举 '需要访问控制的企业级 AI 应用'，源文本未明确将访问控制列为主要场景，仅隐含于 'virtual keys' 之下；steps: 中文仅列出 '使用 pip 或 uv 安装' 与 '配置 API 密钥 调用'，未包含源文本中 'make install-dev' 等开发者工作流步骤，且入门步骤缺少关键前置条件（如获取 API 密钥、设置环境变量）；verification: 中文描述 '检查成本追踪日志'，源文本中成本追踪属于 gateway 功能，直接使用 Python SDK 调用时可能默认不记录，验证方法描述不符合实际使用场景；evidence: S9 中引用的 make 命令为开发者贡献步骤，不应出现在入门用户的 verification 或 steps 中。"
       ]
     },
     "meta/docusaurus|openrouter/nvidia/nemotron-3.5-lightning:free": {

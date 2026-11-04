@@ -16,6 +16,7 @@ function apply({directory,sourceDirectory,drafts,batch,write=false,now=new Date(
  }
  for(const edition of feed.editions){edition.guideReadyCount=edition.items.filter(isReady).length;edition.guidePendingCount=edition.items.length-edition.guideReadyCount;}
  feed.generatedAt=now;feed.updateStatus=summarize(state,now);if(JSON.stringify(feed.editions.map(e=>e.boards))!==boards)throw Error('Historical rankings changed');policy.validateFeed(feed);
+ audit.batches=[...new Map(audit.batches.filter(entry=>entry.batch!==batch).map(entry=>[entry.batch,entry])).values()];
  audit.batches.push({batch,reviewedAt:now,method:'source-reading-and-structure-check',projects:results});
  if(write){try{for(const [i,value]of [feed,state,raw,audit].entries()){const file=path.join(directory,files[i]),temp=file+'.curation.tmp';fs.writeFileSync(temp,JSON.stringify(value,null,2)+'\n');fs.renameSync(temp,file);}}catch(e){for(const name of files){const file=path.join(directory,name);if(before[name])fs.writeFileSync(file,before[name]);else if(fs.existsSync(file))fs.unlinkSync(file);}throw e;}}
  return {batch,write,completed:results.length,pending:Object.keys(state.pending).length,rankingsPreserved:true,results};
