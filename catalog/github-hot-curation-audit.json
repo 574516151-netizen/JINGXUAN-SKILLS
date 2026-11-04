@@ -973,6 +973,143 @@
           "editionCopies": 3
         }
       ]
+    },
+    {
+      "batch": "backlog-010",
+      "reviewedAt": "2026-11-04T10:27:58.917Z",
+      "method": "source-reading-and-structure-check",
+      "projects": [
+        {
+          "id": "twentyhq/twenty",
+          "sourceHash": "e24e44c3343b744b7281c5dcb5f55e8c74d12525bf1058f3a29f34b26b57e567",
+          "editionCopies": 3
+        },
+        {
+          "id": "typst/typst",
+          "sourceHash": "5c47bc39a4a0d88ae2b39e2a5f3c53a5121e72f13b99e2f935229f48587e376b",
+          "editionCopies": 3
+        },
+        {
+          "id": "ultralytics/ultralytics",
+          "sourceHash": "f24af52fb56386c5d1bf33365592ba6e4ad0106239d31ab8009715e58b88868a",
+          "editionCopies": 3
+        },
+        {
+          "id": "ultralytics/yolov5",
+          "sourceHash": "5f218c787fcf8c792f13ab48c02620af7f1e2482288c241dffef6ab7198c7c89",
+          "editionCopies": 3
+        },
+        {
+          "id": "upscayl/upscayl",
+          "sourceHash": "a16ad623ca7c16353479445c5e71ba0bf6f8600519a1735114054697ada04bd7",
+          "editionCopies": 3
+        },
+        {
+          "id": "upstash/context7",
+          "sourceHash": "8febb9e5fab43b6ea1f6b5d0e9bea296f195250d8987491032014cbae9fcbac6",
+          "editionCopies": 3
+        },
+        {
+          "id": "usememos/memos",
+          "sourceHash": "cf739154c460a8b1ba35f96ca3763976e7df962e748f75e32c321dff0fd724fe",
+          "editionCopies": 3
+        },
+        {
+          "id": "vectorize-io/hindsight",
+          "sourceHash": "92d7198fc7acab4ce1a1af6e7bcbee01f9afcdc250ed041e126a575367e8f4fd",
+          "editionCopies": 3
+        },
+        {
+          "id": "virattt/ai-hedge-fund",
+          "sourceHash": "338df5c6d08c5e874ae03c0ef312c833b46e70b35b5c85336cdf767a7bd00e9d",
+          "editionCopies": 3
+        },
+        {
+          "id": "voltagent/awesome-openclaw-skills",
+          "sourceHash": "72aa0cae76c1439aa5c4a4ba5ca345e4a100b48705ca76e73192dfa43bb4b307",
+          "editionCopies": 3
+        },
+        {
+          "id": "vsouza/awesome-ios",
+          "sourceHash": "0abedb77143a2dbdce26802d7025780c847f77b723c615eab931e3d5df0ba4fb",
+          "editionCopies": 3
+        },
+        {
+          "id": "vuejs/core",
+          "sourceHash": "43a5ae0310a36ee90e70f08d420939e0232a9ae5225b464f32e930dc070111e7",
+          "editionCopies": 3
+        },
+        {
+          "id": "wagoodman/dive",
+          "sourceHash": "95822e6ed8fc22a989e5e487be91780ac1acf54fd73f60cf2078b75c4f5f720a",
+          "editionCopies": 3
+        },
+        {
+          "id": "wasabeef/awesome-android-ui",
+          "sourceHash": "bba54523dcb6056f13cb120538c23461f14e027dbac1f850142e1de16b802e9d",
+          "editionCopies": 3
+        },
+        {
+          "id": "webpack/webpack",
+          "sourceHash": "8774ec568dbe16d42ec1273f590116a2b31620029ecc135882eef2456a8e3354",
+          "editionCopies": 3
+        },
+        {
+          "id": "werwolv/imhex",
+          "sourceHash": "61b9e2018fafecddfb382c705eded0936f353b2031d296339b09bc85c414756c",
+          "editionCopies": 3
+        },
+        {
+          "id": "withastro/astro",
+          "sourceHash": "407ac44e0d70303f72cc9a461a100027a8e17e7c3fee700d0b4b685b32eb85db",
+          "editionCopies": 3
+        },
+        {
+          "id": "xai-org/grok-1",
+          "sourceHash": "e140036f021ef872459601df8f6b896a5ab4fbc57c9f0ac9e8c6dc2603bc2e3a",
+          "editionCopies": 3
+        },
+        {
+          "id": "xingshaocheng/architect-awesome",
+          "sourceHash": "195393b18c2c3d31e860dc9a0773cd5a35283599c5904e952b91aeb69c30de3d",
+          "editionCopies": 3
+        },
+        {
+          "id": "xtekky/gpt4free",
+          "sourceHash": "bc68e2611cda148d234222595c133cb32cda6c9a0dc6f893b1a3dd8136540eb4",
+          "editionCopies": 3
+        },
+        {
+          "id": "youngyangyang04/leetcode-master",
+          "sourceHash": "8200c3c384b960923054f12f7845ed5440d8cbf22ed635a553145afb4676c8fc",
+          "editionCopies": 3
+        },
+        {
+          "id": "yuan1z0825/nature-skills",
+          "sourceHash": "82781867b048f278b5fe9a2ebecf83cdb17084372205742d34bb4b49a7d6d28f",
+          "editionCopies": 3
+        },
+        {
+          "id": "z4nzu/hackingtool",
+          "sourceHash": "f2acf4532eeb4f8ed4f18db40b4e7169928ce4cbbac12cff9b70eae7b1c410f4",
+          "editionCopies": 3
+        },
+        {
+          "id": "zhulinsen/daily_stock_analysis",
+          "sourceHash": "fcd1156211b20381b00400a03d630e471a679960d0ee92498e8eeda9ef2cfdae",
+          "editionCopies": 3
+        },
+        {
+          "id": "zie619/n8n-workflows",
+          "sourceHash": "f97a7a8bf04730def8fa948e8f21582883470fc0f00b6f3a162835925f8722cf",
+          "editionCopies": 3
+        },
+        {
+          "id": "zylon-ai/private-gpt",
+          "sourceHash": "279db0df8d00e9f658422a628f314a01282e01dc80c0c55b235a2657c2fd1fca",
+          "editionCopies": 3
+        }
+      ]
     }
   ]
 }
