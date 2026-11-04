@@ -592,6 +592,133 @@
           "editionCopies": 3
         }
       ]
+    },
+    {
+      "batch": "backlog-007",
+      "reviewedAt": "2026-11-04T10:15:40.191Z",
+      "method": "source-reading-and-structure-check",
+      "projects": [
+        {
+          "id": "marktext/marktext",
+          "sourceHash": "83a7c303c2910953be0708f0bf800359903ca784433c14440494b13255635393",
+          "editionCopies": 3
+        },
+        {
+          "id": "mastodon/mastodon",
+          "sourceHash": "059ddcde62a3d2305e344194e79bbc33f35fcdba3e7e918e19cf1b89dace3cdd",
+          "editionCopies": 2
+        },
+        {
+          "id": "meilisearch/meilisearch",
+          "sourceHash": "48b3e3963dbc175ba6008cda86023b9d428f116d9dd1c6c31a3aaec7ad8390d8",
+          "editionCopies": 3
+        },
+        {
+          "id": "mempalace/mempalace",
+          "sourceHash": "cec697a3e23dce2803caccb444d99fc827fe58391c2538c57bed05f489d3973b",
+          "editionCopies": 3
+        },
+        {
+          "id": "meta-llama/llama",
+          "sourceHash": "67a44dc954a4ae05af98c2f47493660bee4cd4318e01698ef0fcb05e7fc9a0f5",
+          "editionCopies": 3
+        },
+        {
+          "id": "meta/docusaurus",
+          "sourceHash": "73543f109f0576cdf318de5e676e11b13fd1905d2dff379ceb45f57c9ad6cc10",
+          "editionCopies": 1
+        },
+        {
+          "id": "microsoft/autogen",
+          "sourceHash": "8f390686ef2bded7a30308e8478540dc33d3200cf3b8c429dba272070d26925f",
+          "editionCopies": 3
+        },
+        {
+          "id": "microsoft/vibevoice",
+          "sourceHash": "1eff35ff9d014e83e5582abc5a3244e49bc1f06bb4b7577e463a744ca6377e1f",
+          "editionCopies": 3
+        },
+        {
+          "id": "moeru-ai/airi",
+          "sourceHash": "3f5441a5b8b6735acf7f7ebc3615b33280e79579babc62c21b8554c46d5f4e31",
+          "editionCopies": 3
+        },
+        {
+          "id": "mozilla/pdf.js",
+          "sourceHash": "3e2c6755e265e32ef308704c47c4c43471013d885c3c415f17e3ffb577092be7",
+          "editionCopies": 3
+        },
+        {
+          "id": "multica-ai/multica",
+          "sourceHash": "8c7e3f1452c157997e731b14e51d81b03b1481bfa891d21a2031505fe78d33e2",
+          "editionCopies": 3
+        },
+        {
+          "id": "mvanhorn/last30days-skill",
+          "sourceHash": "8e7c067a7218495f7f404200d3c960859d5576c0d8d63b7f4b7c99d0d3fbc667",
+          "editionCopies": 3
+        },
+        {
+          "id": "necolas/normalize.css",
+          "sourceHash": "9b8e1ed5095da98e6556d55b14b8833035c7330bd70128b2979ca27193e2138f",
+          "editionCopies": 3
+        },
+        {
+          "id": "ngosang/trackerslist",
+          "sourceHash": "461775dae76663b1e4f39fbc9ff87da4f88cc6d236b29f1df026df36b8c12c56",
+          "editionCopies": 3
+        },
+        {
+          "id": "nlohmann/json",
+          "sourceHash": "e8b68dd7f44c50215fc6dc9ad799bd2b3c13b983cf7cb167450cc787fd9d4e74",
+          "editionCopies": 3
+        },
+        {
+          "id": "nuxt/nuxt",
+          "sourceHash": "d98bcfacd7604aceb0f79994275dc8a10ce97576d0b7c05f191a2e1ca5a1c552",
+          "editionCopies": 3
+        },
+        {
+          "id": "odoo/odoo",
+          "sourceHash": "a4dd96701e7c62c2eec457ab0253d88a435db27531970f77a9334e68f58266ba",
+          "editionCopies": 3
+        },
+        {
+          "id": "pandas-dev/pandas",
+          "sourceHash": "4ce2d41dd5e9ee19dc76e4969761e6b10d3f86d5d1878a0f46ef5a16d97ca209",
+          "editionCopies": 2
+        },
+        {
+          "id": "pathwaycom/pathway",
+          "sourceHash": "ed37daf73f5e8b13f9fe9a50c3147ee1ae6e42e4557ae60a62ffe1f4aa8bef80",
+          "editionCopies": 3
+        },
+        {
+          "id": "pathwaycom/serviette",
+          "sourceHash": "0a1e26620f0fc13f59843c04462e3df9e3851c7f3af59573496995256f231cc2",
+          "editionCopies": 3
+        },
+        {
+          "id": "penpot/penpot",
+          "sourceHash": "a1a18530602b21fb8291e0c9b90fc47cf2878d1641b5fdc4e3147214af5ae9dd",
+          "editionCopies": 3
+        },
+        {
+          "id": "pi-hole/pi-hole",
+          "sourceHash": "4c83ea00fabb7a35aa8f8a5e40f19121ee7e62afef44133695db863006e5bdea",
+          "editionCopies": 3
+        },
+        {
+          "id": "plexpt/awesome-chatgpt-prompts-zh",
+          "sourceHash": "497e54b25a433c16d1bda8ec061904fbbbe4f848c5e5b33e6b0870307b937619",
+          "editionCopies": 3
+        },
+        {
+          "id": "pmndrs/zustand",
+          "sourceHash": "ae27040d9ae9fe7902bd2385256228b5daf8bca2afca659c7b60c9db582a62fd",
+          "editionCopies": 3
+        }
+      ]
     }
   ]
 }

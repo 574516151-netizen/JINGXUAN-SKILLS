@@ -6792,6 +6792,1422 @@
         },
         "editorialStatus": "中文导读 · 官方原文已核对"
       }
+    },
+    "marktext/marktext": {
+      "sourceHash": "83a7c303c2910953be0708f0bf800359903ca784433c14440494b13255635393",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "注重易用性的跨平台 Markdown 编辑器，用于编写和查看本地 Markdown 文档，可从发行包直接安装。",
+        "scenarios": [
+          "整理一份含标题、列表和代码块的说明文档。"
+        ],
+        "usage": "注重易用性的跨平台 Markdown 编辑器，用于编写和查看本地 Markdown 文档，可从发行包直接安装。",
+        "requirements": "安装适配 Linux、macOS 或 Windows 的发行包；具体功能按用户文档确认。",
+        "quickStart": "1. 从 release page 下载对应版本，打开或新建 Markdown 文档。\n2. 编辑标题与代码块，保存后重新打开，并检查原始 Markdown 内容。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "注重易用性的跨平台 Markdown 编辑器，用于编写和查看本地 Markdown 文档，可从发行包直接安装。",
+          "audience": "编写笔记与文档的用户",
+          "example": "整理一份含标题、列表和代码块的说明文档。",
+          "steps": [
+            "从 release page 下载对应版本，打开或新建 Markdown 文档。",
+            "编辑标题与代码块，保存后重新打开，并检查原始 Markdown 内容。"
+          ],
+          "verification": "文档内容和格式保留，文件能被其他 Markdown 工具读取。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.\n\n# MarkText\n\n\n\n  \n    \n  \n\n\n  :high_brightness: Next generation markdown editor :crescent_moon:\n  A simple and elegant open-source markdown editor that focused on speed and usability.\n  Available for Linux, macOS and Windows.\n\n\n\n\n\n  \n  \n    \n  \n  \n  \n    \n  \n"
+            },
+            {
+              "field": "purpose",
+              "quote": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.\n\n# MarkText\n\n\n\n  \n    \n  \n\n\n  :high_brightness: Next generation markdown editor :crescent_moon:\n  A simple and elegant open-source markdown editor that focused on speed and usability.\n  Available for Linux, macOS and Windows.\n\n\n\n\n\n  \n  \n    \n  \n  \n  \n    \n  \n"
+            },
+            {
+              "field": "scenarios",
+              "quote": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.\n\n# MarkText\n\n\n\n  \n    \n  \n\n\n  :high_brightness: Next generation markdown editor :crescent_moon:\n  A simple and elegant open-source markdown editor that focused on speed and usability.\n  Available for Linux, macOS and Windows.\n\n\n\n\n\n  \n  \n    \n  \n  \n  \n    \n  \n"
+            },
+            {
+              "field": "steps",
+              "quote": "n either download the latest `marktext-mac-(arm64|x64)-%version%.dmg` from the [release page](https://github.com/marktext/marktext/releases/latest) or install MarkText using [**homebrew cask**](https://github.com/caskroom/homebrew-cask). To use Homebrew-Cask you just need to have [Homebrew](https://brew.sh/) installed.\n\n```bash\nbrew install --cask ma"
+            },
+            {
+              "field": "verification",
+              "quote": "n either download the latest `marktext-mac-(arm64|x64)-%version%.dmg` from the [release page](https://github.com/marktext/marktext/releases/latest) or install MarkText using [**homebrew cask**](https://github.com/caskroom/homebrew-cask). To use Homebrew-Cask you just need to have [Homebrew](https://brew.sh/) installed.\n\n```bash\nbrew install --cask ma"
+            }
+          ],
+          "sourceHash": "83a7c303c2910953be0708f0bf800359903ca784433c14440494b13255635393",
+          "sourceUrl": "https://github.com/marktext/marktext/blob/develop/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "83a7c303c2910953be0708f0bf800359903ca784433c14440494b13255635393",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "mastodon/mastodon": {
+      "sourceHash": "059ddcde62a3d2305e344194e79bbc33f35fcdba3e7e918e19cf1b89dace3cdd",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "基于 ActivityPub 的开源社交网络服务器，可自建社区并与其他实例互联，支持发布文字、链接和媒体。",
+        "scenarios": [
+          "先了解实例与联邦关系，再建立隔离测试社区。"
+        ],
+        "usage": "基于 ActivityPub 的开源社交网络服务器，可自建社区并与其他实例互联，支持发布文字、链接和媒体。",
+        "requirements": "需服务器与官方部署依赖；域名、邮件、存储和社区管理策略另行准备。",
+        "quickStart": "1. 从官方文档选择部署指南，开发研究可查看 DEVELOPMENT。\n2. 建立测试账号并验证发布、关注与可见范围，再规划对外互联。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "基于 ActivityPub 的开源社交网络服务器，可自建社区并与其他实例互联，支持发布文字、链接和媒体。",
+          "audience": "有社区运维能力的团队",
+          "example": "先了解实例与联邦关系，再建立隔离测试社区。",
+          "steps": [
+            "从官方文档选择部署指南，开发研究可查看 DEVELOPMENT。",
+            "建立测试账号并验证发布、关注与可见范围，再规划对外互联。"
+          ],
+          "verification": "内容权限与实例设置符合预期，联邦交互单独测试；自建服务也需要持续运维。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Your self-hosted, globally interconnected microblogging community\n\n> [!NOTE]\n> Want to learn more about Mastodon?\n> Click below to find out more in a video.\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n    \n  \n    \n  \n\n\nMastodon is a **free, open-source social network server** based on [ActivityPub](https://www.w3.org/TR/activitypub/) where "
+            },
+            {
+              "field": "purpose",
+              "quote": "Your self-hosted, globally interconnected microblogging community\n\n> [!NOTE]\n> Want to learn more about Mastodon?\n> Click below to find out more in a video.\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n    \n  \n    \n  \n\n\nMastodon is a **free, open-source social network server** based on [ActivityPub](https://www.w3.org/TR/activitypub/) where "
+            },
+            {
+              "field": "scenarios",
+              "quote": "Your self-hosted, globally interconnected microblogging community\n\n> [!NOTE]\n> Want to learn more about Mastodon?\n> Click below to find out more in a video.\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n    \n  \n    \n  \n\n\nMastodon is a **free, open-source social network server** based on [ActivityPub](https://www.w3.org/TR/activitypub/) where "
+            },
+            {
+              "field": "steps",
+              "quote": "\n\nYou can learn about setting up a development environment in the [DEVELOPMENT](docs/DEVELOPMENT.md) documentation.\n\nIf you would like to help with translations 🌐 you can do so on [Crowdin](https://crowdin.com/project/mastodon).\n\n## LICENSE\n\nCopyright (c) 2016-2026 Eugen Rochko (+ [`mastodon authors`](AUTHORS.md))\n\nLicensed under GNU Affero General Public "
+            },
+            {
+              "field": "verification",
+              "quote": "\n\nYou can learn about setting up a development environment in the [DEVELOPMENT](docs/DEVELOPMENT.md) documentation.\n\nIf you would like to help with translations 🌐 you can do so on [Crowdin](https://crowdin.com/project/mastodon).\n\n## LICENSE\n\nCopyright (c) 2016-2026 Eugen Rochko (+ [`mastodon authors`](AUTHORS.md))\n\nLicensed under GNU Affero General Public "
+            }
+          ],
+          "sourceHash": "059ddcde62a3d2305e344194e79bbc33f35fcdba3e7e918e19cf1b89dace3cdd",
+          "sourceUrl": "https://github.com/mastodon/mastodon/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "059ddcde62a3d2305e344194e79bbc33f35fcdba3e7e918e19cf1b89dace3cdd",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "meilisearch/meilisearch": {
+      "sourceHash": "48b3e3963dbc175ba6008cda86023b9d428f116d9dd1c6c31a3aaec7ad8390d8",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "可通过 API 接入应用的搜索引擎，支持全文搜索、拼写容错、筛选与混合检索，适合产品内的即时搜索。",
+        "scenarios": [
+          "给一组商品或文章添加搜索与分类过滤。"
+        ],
+        "usage": "可通过 API 接入应用的搜索引擎，支持全文搜索、拼写容错、筛选与混合检索，适合产品内的即时搜索。",
+        "requirements": "准备自部署服务或云账号，索引字段和访问密钥按文档配置。",
+        "quickStart": "1. 从 README 的快速入口部署服务或建立 Cloud 项目。\n2. 按所用语言指南导入小数据集并发起搜索，设置需要的筛选字段。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "可通过 API 接入应用的搜索引擎，支持全文搜索、拼写容错、筛选与混合检索，适合产品内的即时搜索。",
+          "audience": "需要站内搜索的开发者",
+          "example": "给一组商品或文章添加搜索与分类过滤。",
+          "steps": [
+            "从 README 的快速入口部署服务或建立 Cloud 项目。",
+            "按所用语言指南导入小数据集并发起搜索，设置需要的筛选字段。"
+          ],
+          "verification": "关键词、错拼与过滤结果可解释，前端密钥权限受限；混合检索依赖另行配置。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.\n\n#### \n  Website |\n  Roadmap |\n  Meilisearch Cloud |\n  Blog |\n  Documentation |\n  FAQ |\n  Discord\n\n\n\n\n  \n  \n  \n\n\n⚡ A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow 🔍\n\n[Meilisearch](https://www.meilisearch.com?utm_c"
+            },
+            {
+              "field": "purpose",
+              "quote": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.\n\n#### \n  Website |\n  Roadmap |\n  Meilisearch Cloud |\n  Blog |\n  Documentation |\n  FAQ |\n  Discord\n\n\n\n\n  \n  \n  \n\n\n⚡ A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow 🔍\n\n[Meilisearch](https://www.meilisearch.com?utm_c"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.\n\n#### \n  Website |\n  Roadmap |\n  Meilisearch Cloud |\n  Blog |\n  Documentation |\n  FAQ |\n  Discord\n\n\n\n\n  \n  \n  \n\n\n⚡ A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow 🔍\n\n[Meilisearch](https://www.meilisearch.com?utm_c"
+            },
+            {
+              "field": "steps",
+              "quote": "m_source=github&utm_medium=meilisearch&utm_content=quick-start), or follow the [Cloud getting started guide](https://www.meilisearch.com/docs/getting_started/first_project?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=quick-start).\n\n## ✨ Features\n- **Hybrid search:** Combine the best of both [semantic](https://www.meilisearch.com/docs/learn/"
+            },
+            {
+              "field": "verification",
+              "quote": "m_source=github&utm_medium=meilisearch&utm_content=quick-start), or follow the [Cloud getting started guide](https://www.meilisearch.com/docs/getting_started/first_project?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=quick-start).\n\n## ✨ Features\n- **Hybrid search:** Combine the best of both [semantic](https://www.meilisearch.com/docs/learn/"
+            }
+          ],
+          "sourceHash": "48b3e3963dbc175ba6008cda86023b9d428f116d9dd1c6c31a3aaec7ad8390d8",
+          "sourceUrl": "https://github.com/meilisearch/meilisearch/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "48b3e3963dbc175ba6008cda86023b9d428f116d9dd1c6c31a3aaec7ad8390d8",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "mempalace/mempalace": {
+      "sourceHash": "cec697a3e23dce2803caccb444d99fc827fe58391c2538c57bed05f489d3973b",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "面向 AI 的本地优先记忆系统，保存原文并提供检索与可配置后端，可给项目组织持久资料。",
+        "scenarios": [
+          "为一个测试项目初始化记忆并检索已保存内容。"
+        ],
+        "usage": "面向 AI 的本地优先记忆系统，保存原文并提供检索与可配置后端，可给项目组织持久资料。",
+        "requirements": "准备隔离的 Python 工具环境；嵌入模型、存储与可选远程接口按配置准备。",
+        "quickStart": "1. 先阅读 Direct CLI setup，在隔离环境中用 uv tool install 安装 mempalace。\n2. 为测试目录初始化并按用户指南写入和检索资料，比较原文与返回片段。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "面向 AI 的本地优先记忆系统，保存原文并提供检索与可配置后端，可给项目组织持久资料。",
+          "audience": "需要项目长期上下文的开发者",
+          "example": "为一个测试项目初始化记忆并检索已保存内容。",
+          "steps": [
+            "先阅读 Direct CLI setup，在隔离环境中用 uv tool install 安装 mempalace。",
+            "为测试目录初始化并按用户指南写入和检索资料，比较原文与返回片段。"
+          ],
+          "verification": "检索结果可回到保存的原文，项目隔离正确；基准分数不是自己数据的效果保证。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The best-benchmarked open-source AI memory system. And it's free.\n\n# MemPalace\n\nLocal-first AI memory. Verbatim storage, pluggable backend, 96.6% R@5 raw on LongMemEval — zero API calls.\n\n[![][version-shield]][release-link]\n[![][python-shield]][python-link]\n[![][license-shield]][license-link]\n[![][discord-shield]][discord-l"
+            },
+            {
+              "field": "purpose",
+              "quote": "The best-benchmarked open-source AI memory system. And it's free.\n\n# MemPalace\n\nLocal-first AI memory. Verbatim storage, pluggable backend, 96.6% R@5 raw on LongMemEval — zero API calls.\n\n[![][version-shield]][release-link]\n[![][python-shield]][python-link]\n[![][license-shield]][license-link]\n[![][discord-shield]][discord-l"
+            },
+            {
+              "field": "scenarios",
+              "quote": "The best-benchmarked open-source AI memory system. And it's free.\n\n# MemPalace\n\nLocal-first AI memory. Verbatim storage, pluggable backend, 96.6% R@5 raw on LongMemEval — zero API calls.\n\n[![][version-shield]][release-link]\n[![][python-shield]][python-link]\n[![][license-shield]][license-link]\n[![][discord-shield]][discord-l"
+            },
+            {
+              "field": "steps",
+              "quote": "y` if the server needs auth) to use any OpenAI-compatible `/v1/embeddings` end\n\n### Direct CLI setup\n\nMemPalace ships a CLI, so install it in an isolated environment to avoid\nPEP 668 errors on Debian/Ubuntu/Homebrew Pythons and to keep mempalace's\ndeps (`chromadb`, `numpy`, `grpcio`, …) from conflicting with anything\nelse in your global site-packages.\n\nWe re"
+            },
+            {
+              "field": "verification",
+              "quote": "y` if the server needs auth) to use any OpenAI-compatible `/v1/embeddings` end\n\n### Direct CLI setup\n\nMemPalace ships a CLI, so install it in an isolated environment to avoid\nPEP 668 errors on Debian/Ubuntu/Homebrew Pythons and to keep mempalace's\ndeps (`chromadb`, `numpy`, `grpcio`, …) from conflicting with anything\nelse in your global site-packages.\n\nWe re"
+            }
+          ],
+          "sourceHash": "cec697a3e23dce2803caccb444d99fc827fe58391c2538c57bed05f489d3973b",
+          "sourceUrl": "https://github.com/MemPalace/mempalace/blob/develop/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "cec697a3e23dce2803caccb444d99fc827fe58391c2538c57bed05f489d3973b",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "meta-llama/llama": {
+      "sourceHash": "67a44dc954a4ae05af98c2f47493660bee4cd4318e01698ef0fcb05e7fc9a0f5",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "Llama 旧版推理代码仓库，保留 Llama 2 快速使用说明；官方已将后续模型与工具整合到其他仓库。",
+        "scenarios": [
+          "了解历史 Llama 2 加载方式并找到当前模型入口。"
+        ],
+        "usage": "Llama 旧版推理代码仓库，保留 Llama 2 快速使用说明；官方已将后续模型与工具整合到其他仓库。",
+        "requirements": "旧版路线需要兼容 PyTorch/CUDA 环境及合法获得的权重；先确认许可与硬件。",
+        "quickStart": "1. 先阅读 Note of deprecation，从所列仓库选择需要的当前模型或工具。\n2. 确需复现旧版时按 Quick Start 安装并获取匹配权重，运行小输入验证。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "模型 / 推理项目",
+          "purpose": "Llama 旧版推理代码仓库，保留 Llama 2 快速使用说明；官方已将后续模型与工具整合到其他仓库。",
+          "audience": "研究旧版模型推理的开发者",
+          "example": "了解历史 Llama 2 加载方式并找到当前模型入口。",
+          "steps": [
+            "先阅读 Note of deprecation，从所列仓库选择需要的当前模型或工具。",
+            "确需复现旧版时按 Quick Start 安装并获取匹配权重，运行小输入验证。"
+          ],
+          "verification": "代码、权重和模型版本匹配，不把历史仓库当作最新 Llama 全套工具。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Inference code for Llama models\n\n## **Note of deprecation**\n\nThank you for developing with Llama models. As part of the Llama 3.1 release, we’ve consolidated GitHub repos and added some additional repos as we’ve expanded Llama’s functionality into being an e2e Llama Stack. Please use the fo"
+            },
+            {
+              "field": "purpose",
+              "quote": "Inference code for Llama models\n\n## **Note of deprecation**\n\nThank you for developing with Llama models. As part of the Llama 3.1 release, we’ve consolidated GitHub repos and added some additional repos as we’ve expanded Llama’s functionality into being an e2e Llama Stack. Please use the fo"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Inference code for Llama models\n\n## **Note of deprecation**\n\nThank you for developing with Llama models. As part of the Llama 3.1 release, we’ve consolidated GitHub repos and added some additional repos as we’ve expanded Llama’s functionality into being an e2e Llama Stack. Please use the fo"
+            },
+            {
+              "field": "steps",
+              "quote": ".\n\n## Download\n\nIn order to download the model weights and tokenizer, please v\n\n## Quick Start\n\nYou can follow the steps below to quickly get up and running with Llama 2 models. These steps will let you run quick inference locally. For more examples, see the [Llama 2 cookbook repository](https://github.com/facebookresearch/llama-recipes). \n\n1. In a con"
+            },
+            {
+              "field": "verification",
+              "quote": ".\n\n## Download\n\nIn order to download the model weights and tokenizer, please v\n\n## Quick Start\n\nYou can follow the steps below to quickly get up and running with Llama 2 models. These steps will let you run quick inference locally. For more examples, see the [Llama 2 cookbook repository](https://github.com/facebookresearch/llama-recipes). \n\n1. In a con"
+            }
+          ],
+          "sourceHash": "67a44dc954a4ae05af98c2f47493660bee4cd4318e01698ef0fcb05e7fc9a0f5",
+          "sourceUrl": "https://github.com/meta-llama/llama/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "67a44dc954a4ae05af98c2f47493660bee4cd4318e01698ef0fcb05e7fc9a0f5",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "meta/docusaurus": {
+      "sourceHash": "73543f109f0576cdf318de5e676e11b13fd1905d2dff379ceb45f57c9ad6cc10",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "Docusaurus 文档网站框架的来源条目，利用 React 与内容文件搭建项目说明站，可从在线示例和短教程入门。",
+        "scenarios": [
+          "建立一个包含首页与文档导航的网站。"
+        ],
+        "usage": "Docusaurus 文档网站框架的来源条目，利用 React 与内容文件搭建项目说明站，可从在线示例和短教程入门。",
+        "requirements": "浏览器可试用 docusaurus.new；本地开发按官方 Node 环境要求准备。",
+        "quickStart": "1. 通过 5-minute tutorial 或 docusaurus.new 创建示例。\n2. 修改一篇文档与导航，检查预览和生产构建，再按教程部署。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发框架",
+          "purpose": "Docusaurus 文档网站框架的来源条目，利用 React 与内容文件搭建项目说明站，可从在线示例和短教程入门。",
+          "audience": "维护项目文档的网站开发者",
+          "example": "建立一个包含首页与文档导航的网站。",
+          "steps": [
+            "通过 5-minute tutorial 或 docusaurus.new 创建示例。",
+            "修改一篇文档与导航，检查预览和生产构建，再按教程部署。"
+          ],
+          "verification": "文档路径和导航链接正确，部署结果包含最新内容；保留内容源文件便于后续维护。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Easy to maintain open source documentation websites.\n\n# \n    Docusaurus\n    \n    \n    \n      \n    \n  \n\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n## Introduction\n\nDocusaurus is a project for building, deploying, and maintaining open source project websites easily.\n\nShort on time? Check out our [5-minute tutori"
+            },
+            {
+              "field": "purpose",
+              "quote": "Easy to maintain open source documentation websites.\n\n# \n    Docusaurus\n    \n    \n    \n      \n    \n  \n\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n## Introduction\n\nDocusaurus is a project for building, deploying, and maintaining open source project websites easily.\n\nShort on time? Check out our [5-minute tutori"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Easy to maintain open source documentation websites.\n\n# \n    Docusaurus\n    \n    \n    \n      \n    \n  \n\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n## Introduction\n\nDocusaurus is a project for building, deploying, and maintaining open source project websites easily.\n\nShort on time? Check out our [5-minute tutori"
+            },
+            {
+              "field": "steps",
+              "quote": "maintaining open source project websites easily.\n\nShort on time? Check out our [5-minute tutorial ⏱️](https://tutorial.docusaurus.io)!\n\n**Tip**: use **[docusaurus.new](https://docusaurus.new)** to test Docusaurus immediately in a playground.\n\n- **Simple to Start**\n\n> Docusaurus is built in a way so that it can [get running](https://docusaurus.io/docs/inst"
+            },
+            {
+              "field": "verification",
+              "quote": "maintaining open source project websites easily.\n\nShort on time? Check out our [5-minute tutorial ⏱️](https://tutorial.docusaurus.io)!\n\n**Tip**: use **[docusaurus.new](https://docusaurus.new)** to test Docusaurus immediately in a playground.\n\n- **Simple to Start**\n\n> Docusaurus is built in a way so that it can [get running](https://docusaurus.io/docs/inst"
+            }
+          ],
+          "sourceHash": "73543f109f0576cdf318de5e676e11b13fd1905d2dff379ceb45f57c9ad6cc10",
+          "sourceUrl": "https://github.com/meta/docusaurus/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "73543f109f0576cdf318de5e676e11b13fd1905d2dff379ceb45f57c9ad6cc10",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "microsoft/autogen": {
+      "sourceHash": "8f390686ef2bded7a30308e8478540dc33d3200cf3b8c429dba272070d26925f",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "用于构建多智能体 AI 应用的编程框架，可组织模型、工具与人协作，并提供代码和图形配置入口。",
+        "scenarios": [
+          "运行一个助手加工具的最小示例。"
+        ],
+        "usage": "用于构建多智能体 AI 应用的编程框架，可组织模型、工具与人协作，并提供代码和图形配置入口。",
+        "requirements": "准备对应 Python 版本、AgentChat/Extensions 及模型凭据；具体维护和迁移状态以当前 README 为准。",
+        "quickStart": "1. 按安装部分配置 AgentChat 与所需模型扩展，先阅读 Quickstart。\n2. 设置自己的模型凭据运行最小示例，需要浏览器时再配置 MCP 工具。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发框架",
+          "purpose": "用于构建多智能体 AI 应用的编程框架，可组织模型、工具与人协作，并提供代码和图形配置入口。",
+          "audience": "研究多智能体协作的开发者",
+          "example": "运行一个助手加工具的最小示例。",
+          "steps": [
+            "按安装部分配置 AgentChat 与所需模型扩展，先阅读 Quickstart。",
+            "设置自己的模型凭据运行最小示例，需要浏览器时再配置 MCP 工具。"
+          ],
+          "verification": "模型与工具调用记录可查看，任务结果可核对；工具权限和实际费用独立确认。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A programming framework for agentic AI\n\n[](https://twitter.com/pyautogen)\n[](https://www.linkedin.com/company/105812540)\n[](https://aka.ms/autogen-discord)\n[](https://microsoft.github.io/autogen/)\n[](https://devblogs.microsoft.com/autogen/)\n\n\n\n# AutoGen [](https://github.com/microsoft/agent-framew"
+            },
+            {
+              "field": "purpose",
+              "quote": "A programming framework for agentic AI\n\n[](https://twitter.com/pyautogen)\n[](https://www.linkedin.com/company/105812540)\n[](https://aka.ms/autogen-discord)\n[](https://microsoft.github.io/autogen/)\n[](https://devblogs.microsoft.com/autogen/)\n\n\n\n# AutoGen [](https://github.com/microsoft/agent-framew"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A programming framework for agentic AI\n\n[](https://twitter.com/pyautogen)\n[](https://www.linkedin.com/company/105812540)\n[](https://aka.ms/autogen-discord)\n[](https://microsoft.github.io/autogen/)\n[](https://devblogs.microsoft.com/autogen/)\n\n\n\n# AutoGen [](https://github.com/microsoft/agent-framew"
+            },
+            {
+              "field": "steps",
+              "quote": "am(task=\"Find out how many contributors for the microsoft/autogen repository\")\n\n## Quickstart\n\nThe following samples call OpenAI API, so you first need to create an account and export your key as `export OPENAI_API_KEY=\"sk-...\"`."
+            },
+            {
+              "field": "verification",
+              "quote": "am(task=\"Find out how many contributors for the microsoft/autogen repository\")\n\n## Quickstart\n\nThe following samples call OpenAI API, so you first need to create an account and export your key as `export OPENAI_API_KEY=\"sk-...\"`."
+            }
+          ],
+          "sourceHash": "8f390686ef2bded7a30308e8478540dc33d3200cf3b8c429dba272070d26925f",
+          "sourceUrl": "https://github.com/microsoft/autogen/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "8f390686ef2bded7a30308e8478540dc33d3200cf3b8c429dba272070d26925f",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "microsoft/vibevoice": {
+      "sourceHash": "1eff35ff9d014e83e5582abc5a3244e49bc1f06bb4b7577e463a744ca6377e1f",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "语音 AI 模型与示例集合，包含长音频转录、说话人及时间信息和实时语音等不同路线，需按具体模型使用。",
+        "scenarios": [
+          "转录一段多人录音并检查说话人和时间戳。"
+        ],
+        "usage": "语音 AI 模型与示例集合，包含长音频转录、说话人及时间信息和实时语音等不同路线，需按具体模型使用。",
+        "requirements": "选择模型对应文档、权重与运行环境；各模型的推理和发布状态不同。",
+        "quickStart": "1. 从 Models 选择 ASR 或实时语音路线，打开对应 Documentation 或 Colab。\n2. 下载匹配权重，先用短录音运行示例，再核对文字、时间戳和说话人。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "模型 / 推理项目",
+          "purpose": "语音 AI 模型与示例集合，包含长音频转录、说话人及时间信息和实时语音等不同路线，需按具体模型使用。",
+          "audience": "研究转录或语音交互的开发者",
+          "example": "转录一段多人录音并检查说话人和时间戳。",
+          "steps": [
+            "从 Models 选择 ASR 或实时语音路线，打开对应 Documentation 或 Colab。",
+            "下载匹配权重，先用短录音运行示例，再核对文字、时间戳和说话人。"
+          ],
+          "verification": "转录内容与原音频对应，模型支持和限制明确；表中 Disabled 的入口不视为可运行演示。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Open-Source Frontier Voice AI\n\n## 🎙️ VibeVoice: Open-Source Frontier Voice AI\n[](https://microsoft.github.io/VibeVoice)\n[](https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f)\n[](https://openreview.net/pdf?id=FihSkzyxdv)\n[](https://arxiv.org/pdf/2601.18184)\n[]"
+            },
+            {
+              "field": "purpose",
+              "quote": "Open-Source Frontier Voice AI\n\n## 🎙️ VibeVoice: Open-Source Frontier Voice AI\n[](https://microsoft.github.io/VibeVoice)\n[](https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f)\n[](https://openreview.net/pdf?id=FihSkzyxdv)\n[](https://arxiv.org/pdf/2601.18184)\n[]"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Open-Source Frontier Voice AI\n\n## 🎙️ VibeVoice: Open-Source Frontier Voice AI\n[](https://microsoft.github.io/VibeVoice)\n[](https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f)\n[](https://openreview.net/pdf?id=FihSkzyxdv)\n[](https://arxiv.org/pdf/2601.18184)\n[]"
+            },
+            {
+              "field": "steps",
+              "quote": "/github/microsoft/VibeVoice/blob/main/demo/vibevoice_realtime_colab.ipynb) |\n\n\n\n## Models\n\n\n### 1. 📖 [VibeVoice-ASR](docs/vibevoice-asr.md) - Long-form Speech Recognition\n\n**VibeVoice-ASR** is a unified speech-to-text model designed to handle **60-minute long-form audio** in a single pass, generating structured transcriptions containing **Who (Sp"
+            },
+            {
+              "field": "verification",
+              "quote": "/github/microsoft/VibeVoice/blob/main/demo/vibevoice_realtime_colab.ipynb) |\n\n\n\n## Models\n\n\n### 1. 📖 [VibeVoice-ASR](docs/vibevoice-asr.md) - Long-form Speech Recognition\n\n**VibeVoice-ASR** is a unified speech-to-text model designed to handle **60-minute long-form audio** in a single pass, generating structured transcriptions containing **Who (Sp"
+            }
+          ],
+          "sourceHash": "1eff35ff9d014e83e5582abc5a3244e49bc1f06bb4b7577e463a744ca6377e1f",
+          "sourceUrl": "https://github.com/microsoft/VibeVoice/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "1eff35ff9d014e83e5582abc5a3244e49bc1f06bb4b7577e463a744ca6377e1f",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "moeru-ai/airi": {
+      "sourceHash": "3f5441a5b8b6735acf7f7ebc3615b33280e79579babc62c21b8554c46d5f4e31",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "可自部署的 AI 虚拟角色项目，结合图形角色、模型和实时语音交互，提供浏览器与桌面路线并探索游戏等扩展。",
+        "scenarios": [
+          "配置一个角色进行文字与语音对话。"
+        ],
+        "usage": "可自部署的 AI 虚拟角色项目，结合图形角色、模型和实时语音交互，提供浏览器与桌面路线并探索游戏等扩展。",
+        "requirements": "准备受支持浏览器或桌面版本，模型、识别和合成服务按所选功能配置。",
+        "quickStart": "1. 从 Try it 或官方文档选择体验或自部署路线。\n2. 配置一个可用模型，先测试文字，再逐项开启语音与角色显示。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "可自部署的 AI 虚拟角色项目，结合图形角色、模型和实时语音交互，提供浏览器与桌面路线并探索游戏等扩展。",
+          "audience": "研究虚拟角色交互的开发者",
+          "example": "配置一个角色进行文字与语音对话。",
+          "steps": [
+            "从 Try it 或官方文档选择体验或自部署路线。",
+            "配置一个可用模型，先测试文字，再逐项开启语音与角色显示。"
+          ],
+          "verification": "输入、回复和角色表现可对应，语音链路分别可用；实验扩展不等于全部默认可用。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.\n\n# Project AIRI\n\n\nRe-creating Neuro-sama, a soul container of AI waifu / virtual characters to bring them into our world.\n\n\n  [Join Discord Server] [Try it] [简体中文] "
+            },
+            {
+              "field": "purpose",
+              "quote": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.\n\n# Project AIRI\n\n\nRe-creating Neuro-sama, a soul container of AI waifu / virtual characters to bring them into our world.\n\n\n  [Join Discord Server] [Try it] [简体中文] "
+            },
+            {
+              "field": "scenarios",
+              "quote": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.\n\n# Project AIRI\n\n\nRe-creating Neuro-sama, a soul container of AI waifu / virtual characters to bring them into our world.\n\n\n  [Join Discord Server] [Try it] [简体中文] "
+            },
+            {
+              "field": "steps",
+              "quote": "me voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.\n\n# Project AIRI\n\n\nRe-creating Neuro-sama, a soul container of AI waifu / virtual characters to bring them into our world.\n\n\n  [Join Discord Server] [Try it] [简体中文] [日本語] [Русский] [Tiếng Việt] [Français] [한국어]\n\n\n\n  \n  \n  \n  \n  \n  \n  \n\n\n\n  \n  \n    \n      \n      \n      \n    \n "
+            },
+            {
+              "field": "verification",
+              "quote": "me voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.\n\n# Project AIRI\n\n\nRe-creating Neuro-sama, a soul container of AI waifu / virtual characters to bring them into our world.\n\n\n  [Join Discord Server] [Try it] [简体中文] [日本語] [Русский] [Tiếng Việt] [Français] [한국어]\n\n\n\n  \n  \n  \n  \n  \n  \n  \n\n\n\n  \n  \n    \n      \n      \n      \n    \n "
+            }
+          ],
+          "sourceHash": "3f5441a5b8b6735acf7f7ebc3615b33280e79579babc62c21b8554c46d5f4e31",
+          "sourceUrl": "https://github.com/moeru-ai/airi/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "3f5441a5b8b6735acf7f7ebc3615b33280e79579babc62c21b8554c46d5f4e31",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "mozilla/pdf.js": {
+      "sourceHash": "3e2c6755e265e32ef308704c47c4c43471013d885c3c415f17e3ffb577092be7",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "用 HTML5 和 JavaScript 实现 PDF 阅读与渲染的项目，可给网页提供文档查看能力，并包含演示和测试。",
+        "scenarios": [
+          "在自己的页面显示一份测试 PDF。"
+        ],
+        "usage": "用 HTML5 和 JavaScript 实现 PDF 阅读与渲染的项目，可给网页提供文档查看能力，并包含演示和测试。",
+        "requirements": "准备浏览器与网页服务；开发或构建源码需按项目文档配置工具链。",
+        "quickStart": "1. 从官网查看示例，再按 README 的开发文档接入适合的构建。\n2. 加载本地测试文档，检查多页、文字和缩放，记录不支持或渲染差异。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "用 HTML5 和 JavaScript 实现 PDF 阅读与渲染的项目，可给网页提供文档查看能力，并包含演示和测试。",
+          "audience": "需要网页 PDF 查看器的开发者",
+          "example": "在自己的页面显示一份测试 PDF。",
+          "steps": [
+            "从官网查看示例，再按 README 的开发文档接入适合的构建。",
+            "加载本地测试文档，检查多页、文字和缩放，记录不支持或渲染差异。"
+          ],
+          "verification": "页面和文字与原 PDF 相符，控制台无加载错误；查看能力不等于编辑源文档。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "PDF Reader in JavaScript\n\n# PDF.js [](https://github.com/mozilla/pdf.js/actions/workflows/ci.yml?query=branch%3Amaster) [](https://codecov.io/gh/mozilla/pdf.js) [](https://github.com/mozilla/pdf.js.refs/commits/main) [](https://app.codspeed.io/mozilla/pdf.js?utm_source=badge)\n\n[PDF.j"
+            },
+            {
+              "field": "purpose",
+              "quote": "PDF Reader in JavaScript\n\n# PDF.js [](https://github.com/mozilla/pdf.js/actions/workflows/ci.yml?query=branch%3Amaster) [](https://codecov.io/gh/mozilla/pdf.js) [](https://github.com/mozilla/pdf.js.refs/commits/main) [](https://app.codspeed.io/mozilla/pdf.js?utm_source=badge)\n\n[PDF.j"
+            },
+            {
+              "field": "scenarios",
+              "quote": "PDF Reader in JavaScript\n\n# PDF.js [](https://github.com/mozilla/pdf.js/actions/workflows/ci.yml?query=branch%3Amaster) [](https://codecov.io/gh/mozilla/pdf.js) [](https://github.com/mozilla/pdf.js.refs/commits/main) [](https://app.codspeed.io/mozilla/pdf.js?utm_source=badge)\n\n[PDF.j"
+            },
+            {
+              "field": "steps",
+              "quote": "ge)\n\n[PDF.js](https://mozilla.github.io/pdf.js/) is a Portable Document Format (PDF) viewer that is built with HTML5.\n\nPDF.js is community-driven and supported by Mozilla. Our goal is to\ncreate a general-purpose, web standards-based platform for parsing and\nrendering PDFs.\n\n## Contributing\n\nPDF.js is an open source project and always looking for mor"
+            },
+            {
+              "field": "verification",
+              "quote": "ge)\n\n[PDF.js](https://mozilla.github.io/pdf.js/) is a Portable Document Format (PDF) viewer that is built with HTML5.\n\nPDF.js is community-driven and supported by Mozilla. Our goal is to\ncreate a general-purpose, web standards-based platform for parsing and\nrendering PDFs.\n\n## Contributing\n\nPDF.js is an open source project and always looking for mor"
+            }
+          ],
+          "sourceHash": "3e2c6755e265e32ef308704c47c4c43471013d885c3c415f17e3ffb577092be7",
+          "sourceUrl": "https://github.com/mozilla/pdf.js/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "3e2c6755e265e32ef308704c47c4c43471013d885c3c415f17e3ffb577092be7",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "multica-ai/multica": {
+      "sourceHash": "8c7e3f1452c157997e731b14e51d81b03b1481bfa891d21a2031505fe78d33e2",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "把人和 AI 编码助手放在同一任务看板的协作工作区，可分派问题、观察进度和评审交付，支持自部署。",
+        "scenarios": [
+          "给一个已登录的编码助手分派小任务并评审结果。"
+        ],
+        "usage": "把人和 AI 编码助手放在同一任务看板的协作工作区，可分派问题、观察进度和评审交付，支持自部署。",
+        "requirements": "运行机器须先装好受支持的 Agent CLI 并登录；自部署完整服务需要 Docker。",
+        "quickStart": "1. 从 Get started 选择云、桌面或自部署，连接运行助手的机器。\n2. 创建测试任务并分派给配置好的助手，观察阻碍和交付，再审阅差异。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "把人和 AI 编码助手放在同一任务看板的协作工作区，可分派问题、观察进度和评审交付，支持自部署。",
+          "audience": "管理多助手开发工作的团队",
+          "example": "给一个已登录的编码助手分派小任务并评审结果。",
+          "steps": [
+            "从 Get started 选择云、桌面或自部署，连接运行助手的机器。",
+            "创建测试任务并分派给配置好的助手，观察阻碍和交付，再审阅差异。"
+          ],
+          "verification": "任务状态和实际代码结果一致，评审确认后再接收；平台不自带所有编码助手。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Make humans and AI agents work as one team — open-source and self-hostable.\n\n**Agents that show up on the board.**\n\nMultica is a source-available workspace where you assign work to AI coding agents the way you'd\nassign it to a teammate — they pick up the issue, report progress, raise blockers, and hand it\nback for review. Self-hostab"
+            },
+            {
+              "field": "purpose",
+              "quote": "Make humans and AI agents work as one team — open-source and self-hostable.\n\n**Agents that show up on the board.**\n\nMultica is a source-available workspace where you assign work to AI coding agents the way you'd\nassign it to a teammate — they pick up the issue, report progress, raise blockers, and hand it\nback for review. Self-hostab"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Make humans and AI agents work as one team — open-source and self-hostable.\n\n**Agents that show up on the board.**\n\nMultica is a source-available workspace where you assign work to AI coding agents the way you'd\nassign it to a teammate — they pick up the issue, report progress, raise blockers, and hand it\nback for review. Self-hostab"
+            },
+            {
+              "field": "steps",
+              "quote": "ople on one team; the leader routes the work.\n- **[Skills](https://multica.ai/\n\n## Get started\n\n- **Cloud** — sign up at **[multica.ai](https://multica.ai)**. No terminal required.\n- **Desktop** — download **[Multica Desktop](https://multica.ai/download)** for macOS, Windows, or\n  Linux. It connects the computer it runs on as a runtime automatically.\n-"
+            },
+            {
+              "field": "verification",
+              "quote": "ople on one team; the leader routes the work.\n- **[Skills](https://multica.ai/\n\n## Get started\n\n- **Cloud** — sign up at **[multica.ai](https://multica.ai)**. No terminal required.\n- **Desktop** — download **[Multica Desktop](https://multica.ai/download)** for macOS, Windows, or\n  Linux. It connects the computer it runs on as a runtime automatically.\n-"
+            }
+          ],
+          "sourceHash": "8c7e3f1452c157997e731b14e51d81b03b1481bfa891d21a2031505fe78d33e2",
+          "sourceUrl": "https://github.com/multica-ai/multica/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "8c7e3f1452c157997e731b14e51d81b03b1481bfa891d21a2031505fe78d33e2",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "mvanhorn/last30days-skill": {
+      "sourceHash": "8e7c067a7218495f7f404200d3c960859d5576c0d8d63b7f4b7c99d0d3fbc667",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "针对近期话题跨多个社区和网页检索并整理带依据摘要的技能，用于观察讨论趋势；各数据来源有独立接入条件。",
+        "scenarios": [
+          "了解某项技术近一个月的讨论与常见问题。"
+        ],
+        "usage": "针对近期话题跨多个社区和网页检索并整理带依据摘要的技能，用于观察讨论趋势；各数据来源有独立接入条件。",
+        "requirements": "需要受支持的助手及所选来源配置，部分搜索凭据按 setup 指南填写。",
+        "quickStart": "1. 按 Install 选择对应客户端的插件或 npx skills 安装方式。\n2. 提供具体主题和时间范围，运行调研后检查摘要中的来源、日期与代表性。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "AI 指令 / Skill 资源",
+          "purpose": "针对近期话题跨多个社区和网页检索并整理带依据摘要的技能，用于观察讨论趋势；各数据来源有独立接入条件。",
+          "audience": "需要近期话题调研的用户",
+          "example": "了解某项技术近一个月的讨论与常见问题。",
+          "steps": [
+            "按 Install 选择对应客户端的插件或 npx skills 安装方式。",
+            "提供具体主题和时间范围，运行调研后检查摘要中的来源、日期与代表性。"
+          ],
+          "verification": "结论可点回真实来源，缺失渠道明确；热度不等于事实可靠或全面覆盖。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary\n\n# /last30days\n\nEnglish | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)\n\n\n  \n\n\n\n  \n    \n  \n  \n  \n    \n  \n  \n  \n    \n  \n\n\n**An AI agent-led s"
+            },
+            {
+              "field": "purpose",
+              "quote": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary\n\n# /last30days\n\nEnglish | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)\n\n\n  \n\n\n\n  \n    \n  \n  \n  \n    \n  \n  \n  \n    \n  \n\n\n**An AI agent-led s"
+            },
+            {
+              "field": "scenarios",
+              "quote": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary\n\n# /last30days\n\nEnglish | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)\n\n\n  \n\n\n\n  \n    \n  \n  \n  \n    \n  \n  \n  \n    \n  \n\n\n**An AI agent-led s"
+            },
+            {
+              "field": "steps",
+              "quote": " and tell you what actually matters.\n\nThat's the unlock. Not one better search\n\n## Install\n\n| Surface | Install | Updates |\n|---------|---------|---------|\n| **Claude Code** (recommended) | `/plugin marketplace add mvanhorn/last30days-skill` | Auto via marketplace, or `claude plugin update last30days@last30days-skill` |\n| **Grok** (xAI Build CLI) |"
+            },
+            {
+              "field": "verification",
+              "quote": " and tell you what actually matters.\n\nThat's the unlock. Not one better search\n\n## Install\n\n| Surface | Install | Updates |\n|---------|---------|---------|\n| **Claude Code** (recommended) | `/plugin marketplace add mvanhorn/last30days-skill` | Auto via marketplace, or `claude plugin update last30days@last30days-skill` |\n| **Grok** (xAI Build CLI) |"
+            }
+          ],
+          "sourceHash": "8e7c067a7218495f7f404200d3c960859d5576c0d8d63b7f4b7c99d0d3fbc667",
+          "sourceUrl": "https://github.com/mvanhorn/last30days-skill/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "8e7c067a7218495f7f404200d3c960859d5576c0d8d63b7f4b7c99d0d3fbc667",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "necolas/normalize.css": {
+      "sourceHash": "9b8e1ed5095da98e6556d55b14b8833035c7330bd70128b2979ca27193e2138f",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "用较小 CSS 样式集统一浏览器默认表现，同时保留有用默认行为，可作为网页样式的基础层。",
+        "scenarios": [
+          "减少表单和基础元素在浏览器间的默认差异。"
+        ],
+        "usage": "用较小 CSS 样式集统一浏览器默认表现，同时保留有用默认行为，可作为网页样式的基础层。",
+        "requirements": "需要可加载 CSS 的网页；按项目样式顺序安排基础层与业务层。",
+        "quickStart": "1. 按 NPM 或 Download 获取 normalize.css，在业务样式之前引入。\n2. 对比标题、按钮、输入框等基础元素，再在目标浏览器检查自己的覆盖样式。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "用较小 CSS 样式集统一浏览器默认表现，同时保留有用默认行为，可作为网页样式的基础层。",
+          "audience": "编写网页样式的前端开发者",
+          "example": "减少表单和基础元素在浏览器间的默认差异。",
+          "steps": [
+            "按 NPM 或 Download 获取 normalize.css，在业务样式之前引入。",
+            "对比标题、按钮、输入框等基础元素，再在目标浏览器检查自己的覆盖样式。"
+          ],
+          "verification": "基础元素表现稳定且自定义样式没有被意外覆盖；不替代组件设计规范。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A modern alternative to CSS resets\n\n# normalize.css\n\n\n\n> A modern alternative to CSS resets\n\n[![npm][npm-image]][npm-url] [![license][license-image]][license-url]\n[![changelog][changelog-image]][changelog-url]\n[![gitter][gitter-image]][gitter-url]\n\n\n**NPM**\n\n```sh\nnpm install --save normalize."
+            },
+            {
+              "field": "purpose",
+              "quote": "A modern alternative to CSS resets\n\n# normalize.css\n\n\n\n> A modern alternative to CSS resets\n\n[![npm][npm-image]][npm-url] [![license][license-image]][license-url]\n[![changelog][changelog-image]][changelog-url]\n[![gitter][gitter-image]][gitter-url]\n\n\n**NPM**\n\n```sh\nnpm install --save normalize."
+            },
+            {
+              "field": "scenarios",
+              "quote": "A modern alternative to CSS resets\n\n# normalize.css\n\n\n\n> A modern alternative to CSS resets\n\n[![npm][npm-image]][npm-url] [![license][license-image]][license-url]\n[![changelog][changelog-image]][changelog-url]\n[![gitter][gitter-image]][gitter-url]\n\n\n**NPM**\n\n```sh\nnpm install --save normalize."
+            },
+            {
+              "field": "steps",
+              "quote": "g-image]][changelog-url]\n[![gitter][gitter-image]][gitter-url]\n\n\n**NPM**\n\n```sh\nnpm install --save normalize.css\n```\n\n**CDN**\n\nSee https://yarnpkg.com/en/package/normalize.css\n\n**Download**\n\nSee https://necolas.github.io/normalize.css/latest/normalize.css\n\n\n## What does it do?\n\n* Preserves useful defaults, unlike many CSS resets.\n* Normalizes styles for a wide range of "
+            },
+            {
+              "field": "verification",
+              "quote": "g-image]][changelog-url]\n[![gitter][gitter-image]][gitter-url]\n\n\n**NPM**\n\n```sh\nnpm install --save normalize.css\n```\n\n**CDN**\n\nSee https://yarnpkg.com/en/package/normalize.css\n\n**Download**\n\nSee https://necolas.github.io/normalize.css/latest/normalize.css\n\n\n## What does it do?\n\n* Preserves useful defaults, unlike many CSS resets.\n* Normalizes styles for a wide range of "
+            }
+          ],
+          "sourceHash": "9b8e1ed5095da98e6556d55b14b8833035c7330bd70128b2979ca27193e2138f",
+          "sourceUrl": "https://github.com/necolas/normalize.css/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "9b8e1ed5095da98e6556d55b14b8833035c7330bd70128b2979ca27193e2138f",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "ngosang/trackerslist": {
+      "sourceHash": "461775dae76663b1e4f39fbc9ff87da4f88cc6d236b29f1df026df36b8c12c56",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "维护公开 BitTorrent tracker 地址列表，按不同规模与协议提供文本文件，可给有权分享的种子添加发现节点。",
+        "scenarios": [
+          "为自己的公开文件分发检查 tracker 列表。"
+        ],
+        "usage": "维护公开 BitTorrent tracker 地址列表，按不同规模与协议提供文本文件，可给有权分享的种子添加发现节点。",
+        "requirements": "需要支持 tracker 配置的客户端；列表更新不保证任意 tracker 长期可用。",
+        "quickStart": "1. 从 Lists 选择合适的列表并查看更新时间。\n2. 按客户端文档导入到自己的测试种子，检查连接状态和实际发现节点情况。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "资源目录",
+          "purpose": "维护公开 BitTorrent tracker 地址列表，按不同规模与协议提供文本文件，可给有权分享的种子添加发现节点。",
+          "audience": "管理合法 P2P 分发的用户",
+          "example": "为自己的公开文件分发检查 tracker 列表。",
+          "steps": [
+            "从 Lists 选择合适的列表并查看更新时间。",
+            "按客户端文档导入到自己的测试种子，检查连接状态和实际发现节点情况。"
+          ],
+          "verification": "列表格式能被客户端识别，连接结果可查看；添加 tracker 不会产生不存在的种子数据。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Updated list of public BitTorrent trackers\n\n# ngosang/trackerslist\n\n[](#)\n[](#)\n\n\n[](https://ko-fi.com/ngosang)\n\nUpdated list of public BitTorrent trackers.\n\n### Lists\n*These lists are automatically updated every day. Last update 2026/11/04:*\n\n* trackers_best (20 trackers) => [link](https://raw.github"
+            },
+            {
+              "field": "purpose",
+              "quote": "Updated list of public BitTorrent trackers\n\n# ngosang/trackerslist\n\n[](#)\n[](#)\n\n\n[](https://ko-fi.com/ngosang)\n\nUpdated list of public BitTorrent trackers.\n\n### Lists\n*These lists are automatically updated every day. Last update 2026/11/04:*\n\n* trackers_best (20 trackers) => [link](https://raw.github"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Updated list of public BitTorrent trackers\n\n# ngosang/trackerslist\n\n[](#)\n[](#)\n\n\n[](https://ko-fi.com/ngosang)\n\nUpdated list of public BitTorrent trackers.\n\n### Lists\n*These lists are automatically updated every day. Last update 2026/11/04:*\n\n* trackers_best (20 trackers) => [link](https://raw.github"
+            },
+            {
+              "field": "steps",
+              "quote": ")\n\n\n[](https://ko-fi.com/ngosang)\n\nUpdated list of public BitTorrent trackers.\n\n### Lists\n*These lists are automatically updated every day. Last update 2026/11/04:*\n\n* trackers_best (20 trackers) => [link](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt) / [mirror](https://ngosang.github.io/trackerslist/trackers_bes"
+            },
+            {
+              "field": "verification",
+              "quote": ")\n\n\n[](https://ko-fi.com/ngosang)\n\nUpdated list of public BitTorrent trackers.\n\n### Lists\n*These lists are automatically updated every day. Last update 2026/11/04:*\n\n* trackers_best (20 trackers) => [link](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt) / [mirror](https://ngosang.github.io/trackerslist/trackers_bes"
+            }
+          ],
+          "sourceHash": "461775dae76663b1e4f39fbc9ff87da4f88cc6d236b29f1df026df36b8c12c56",
+          "sourceUrl": "https://github.com/ngosang/trackerslist/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "461775dae76663b1e4f39fbc9ff87da4f88cc6d236b29f1df026df36b8c12c56",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "nlohmann/json": {
+      "sourceHash": "e8b68dd7f44c50215fc6dc9ad799bd2b3c13b983cf7cb167450cc787fd9d4e74",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "面向现代 C++ 的 JSON 库，提供解析、序列化和自定义类型转换，便于在 C++ 程序中处理结构化数据。",
+        "scenarios": [
+          "读取配置并将自定义对象写回 JSON。"
+        ],
+        "usage": "面向现代 C++ 的 JSON 库，提供解析、序列化和自定义类型转换，便于在 C++ 程序中处理结构化数据。",
+        "requirements": "准备支持项目要求的 C++ 编译器，按构建系统接入库。",
+        "quickStart": "1. 按 README 的集成方式加入库，运行 JSON 解析小例子。\n2. 按 Basic usage 为自己的类型提供转换函数，测试缺失字段与无效输入。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "面向现代 C++ 的 JSON 库，提供解析、序列化和自定义类型转换，便于在 C++ 程序中处理结构化数据。",
+          "audience": "处理 JSON 数据的 C++ 开发者",
+          "example": "读取配置并将自定义对象写回 JSON。",
+          "steps": [
+            "按 README 的集成方式加入库，运行 JSON 解析小例子。",
+            "按 Basic usage 为自己的类型提供转换函数，测试缺失字段与无效输入。"
+          ],
+          "verification": "解析与序列化往返后关键值不丢失，异常路径可处理。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "JSON for Modern C++\n\n[](https://github.com/nlohmann/json/releases)\n\n[](https://ci.appveyor.com/project/nlohmann/json)\n[](https://github.com/nlohmann/json/actions?query=workflow%3AUbuntu)\n[](https://github.com/nlohmann/json/actions?query=workflow%3AmacOS)\n[](https://github.com/nl"
+            },
+            {
+              "field": "purpose",
+              "quote": "JSON for Modern C++\n\n[](https://github.com/nlohmann/json/releases)\n\n[](https://ci.appveyor.com/project/nlohmann/json)\n[](https://github.com/nlohmann/json/actions?query=workflow%3AUbuntu)\n[](https://github.com/nlohmann/json/actions?query=workflow%3AmacOS)\n[](https://github.com/nl"
+            },
+            {
+              "field": "scenarios",
+              "quote": "JSON for Modern C++\n\n[](https://github.com/nlohmann/json/releases)\n\n[](https://ci.appveyor.com/project/nlohmann/json)\n[](https://github.com/nlohmann/json/actions?query=workflow%3AUbuntu)\n[](https://github.com/nlohmann/json/actions?query=workflow%3AmacOS)\n[](https://github.com/nl"
+            },
+            {
+              "field": "steps",
+              "quote": "ng initializer lists\njson ex3 = {\n  {\"happy\", true},\n  {\"pi\", 3.141},\n};\n```\n\n\n\n#### Basic usage\n\nTo make this work with one of your types, you only need to provide two functions:\n\n```cpp\nusing nlohmann::json;\n\nnamespace ns {\n    void to_json(json& j, const person& p) {\n        j = json{{\"name\", p.name}, {\"address\", p.address}, {\"age\", p.age}};\n    }\n\n  "
+            },
+            {
+              "field": "verification",
+              "quote": "ng initializer lists\njson ex3 = {\n  {\"happy\", true},\n  {\"pi\", 3.141},\n};\n```\n\n\n\n#### Basic usage\n\nTo make this work with one of your types, you only need to provide two functions:\n\n```cpp\nusing nlohmann::json;\n\nnamespace ns {\n    void to_json(json& j, const person& p) {\n        j = json{{\"name\", p.name}, {\"address\", p.address}, {\"age\", p.age}};\n    }\n\n  "
+            }
+          ],
+          "sourceHash": "e8b68dd7f44c50215fc6dc9ad799bd2b3c13b983cf7cb167450cc787fd9d4e74",
+          "sourceUrl": "https://github.com/nlohmann/json/blob/develop/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "e8b68dd7f44c50215fc6dc9ad799bd2b3c13b983cf7cb167450cc787fd9d4e74",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "nuxt/nuxt": {
+      "sourceHash": "d98bcfacd7604aceb0f79994275dc8a10ce97576d0b7c05f191a2e1ca5a1c552",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "基于 Vue 的全栈网页框架，提供服务端渲染、静态生成与混合渲染等能力，用于构建站点和 Web 应用。",
+        "scenarios": [
+          "制作一个同时包含页面与服务端数据的原型。"
+        ],
+        "usage": "基于 Vue 的全栈网页框架，提供服务端渲染、静态生成与混合渲染等能力，用于构建站点和 Web 应用。",
+        "requirements": "准备官方支持的 Node 环境，部署模式按项目需求选择。",
+        "quickStart": "1. 从 Nuxt 官网的入门文档创建示例项目。\n2. 添加一个页面与数据读取，运行预览并检查服务端及浏览器行为。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发框架",
+          "purpose": "基于 Vue 的全栈网页框架，提供服务端渲染、静态生成与混合渲染等能力，用于构建站点和 Web 应用。",
+          "audience": "使用 Vue 的全栈开发者",
+          "example": "制作一个同时包含页面与服务端数据的原型。",
+          "steps": [
+            "从 Nuxt 官网的入门文档创建示例项目。",
+            "添加一个页面与数据读取，运行预览并检查服务端及浏览器行为。"
+          ],
+          "verification": "页面和数据按预期呈现，部署目标支持选择的渲染方式。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "The full-stack Vue framework.\n\n# Nuxt\n\n\n  \n  \n  \n  \n  \n  \n  \n\n\nNuxt is a free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.\n\nIt provides a number of features that ma"
+            },
+            {
+              "field": "purpose",
+              "quote": "The full-stack Vue framework.\n\n# Nuxt\n\n\n  \n  \n  \n  \n  \n  \n  \n\n\nNuxt is a free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.\n\nIt provides a number of features that ma"
+            },
+            {
+              "field": "scenarios",
+              "quote": "The full-stack Vue framework.\n\n# Nuxt\n\n\n  \n  \n  \n  \n  \n  \n  \n\n\nNuxt is a free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.\n\nIt provides a number of features that ma"
+            },
+            {
+              "field": "steps",
+              "quote": "t easy to build fast, SEO-friendly, and scalable web applications, including:\n- Server-side rendering, static site generation, hybrid rendering and edge-side rendering\n- Automatic routing with code-splitting and pre-fetching\n- Data fetching and state management\n- Search engine optimization and defining meta tags\n- Auto imports of components, composables and u"
+            },
+            {
+              "field": "verification",
+              "quote": "t easy to build fast, SEO-friendly, and scalable web applications, including:\n- Server-side rendering, static site generation, hybrid rendering and edge-side rendering\n- Automatic routing with code-splitting and pre-fetching\n- Data fetching and state management\n- Search engine optimization and defining meta tags\n- Auto imports of components, composables and u"
+            }
+          ],
+          "sourceHash": "d98bcfacd7604aceb0f79994275dc8a10ce97576d0b7c05f191a2e1ca5a1c552",
+          "sourceUrl": "https://github.com/nuxt/nuxt/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "d98bcfacd7604aceb0f79994275dc8a10ce97576d0b7c05f191a2e1ca5a1c552",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "odoo/odoo": {
+      "sourceHash": "a4dd96701e7c62c2eec457ab0253d88a435db27531970f77a9334e68f58266ba",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "可组合的业务应用套件，覆盖 CRM、网站、库存、项目等模块，多个应用可集成为企业管理系统。",
+        "scenarios": [
+          "在测试环境建立客户和项目管理流程。"
+        ],
+        "usage": "可组合的业务应用套件，覆盖 CRM、网站、库存、项目等模块，多个应用可集成为企业管理系统。",
+        "requirements": "准备所选版本的服务器依赖或托管账号，模块、许可和业务配置分别确认。",
+        "quickStart": "1. 按 Getting started 的 Setup instructions 安装测试环境。\n2. 选择一个业务模块录入虚拟测试数据，跟随 eLearning 走通最小流程。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "可组合的业务应用套件，覆盖 CRM、网站、库存、项目等模块，多个应用可集成为企业管理系统。",
+          "audience": "需要业务管理系统的团队",
+          "example": "在测试环境建立客户和项目管理流程。",
+          "steps": [
+            "按 Getting started 的 Setup instructions 安装测试环境。",
+            "选择一个业务模块录入虚拟测试数据，跟随 eLearning 走通最小流程。"
+          ],
+          "verification": "记录流转和角色权限符合业务需求；正式账务等需按实际制度单独校验。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Odoo. Open Source Apps To Grow Your Business.\n\n# Odoo\n\n[](https://runbot.odoo.com/runbot)\n[](https://www.odoo.com/documentation/master)\n[](https://www.odoo.com/forum/help-1)\n[](https://nightly.odoo.com/)\n\nOdoo is a suite of web based open source business apps.\n\nThe main Odoo Apps include an [Open Source "
+            },
+            {
+              "field": "purpose",
+              "quote": "Odoo. Open Source Apps To Grow Your Business.\n\n# Odoo\n\n[](https://runbot.odoo.com/runbot)\n[](https://www.odoo.com/documentation/master)\n[](https://www.odoo.com/forum/help-1)\n[](https://nightly.odoo.com/)\n\nOdoo is a suite of web based open source business apps.\n\nThe main Odoo Apps include an [Open Source "
+            },
+            {
+              "field": "scenarios",
+              "quote": "Odoo. Open Source Apps To Grow Your Business.\n\n# Odoo\n\n[](https://runbot.odoo.com/runbot)\n[](https://www.odoo.com/documentation/master)\n[](https://www.odoo.com/forum/help-1)\n[](https://nightly.odoo.com/)\n\nOdoo is a suite of web based open source business apps.\n\nThe main Odoo Apps include an [Open Source "
+            },
+            {
+              "field": "steps",
+              "quote": "eatured [Open Source ERP](https://www.odoo.com) when you install several Apps.\n\n## Getting started with Odoo\n\nFor a standard installation please follow the [Setup instructions](https://www.odoo.com/documentation/master/administration/install/install.html)\nfrom the documentation.\n\nTo learn the software, we recommend the [Odoo eLearning](https://www.odoo.com/slides),\n"
+            },
+            {
+              "field": "verification",
+              "quote": "eatured [Open Source ERP](https://www.odoo.com) when you install several Apps.\n\n## Getting started with Odoo\n\nFor a standard installation please follow the [Setup instructions](https://www.odoo.com/documentation/master/administration/install/install.html)\nfrom the documentation.\n\nTo learn the software, we recommend the [Odoo eLearning](https://www.odoo.com/slides),\n"
+            }
+          ],
+          "sourceHash": "a4dd96701e7c62c2eec457ab0253d88a435db27531970f77a9334e68f58266ba",
+          "sourceUrl": "https://github.com/odoo/odoo/blob/20.0/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "a4dd96701e7c62c2eec457ab0253d88a435db27531970f77a9334e68f58266ba",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "pandas-dev/pandas": {
+      "sourceHash": "4ce2d41dd5e9ee19dc76e4969761e6b10d3f86d5d1878a0f46ef5a16d97ca209",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "Python 数据分析库，提供带标签的数据结构、缺失值处理、对齐与统计操作，适合清洗和分析表格数据。",
+        "scenarios": [
+          "读取一份 CSV 并按分类汇总。"
+        ],
+        "usage": "Python 数据分析库，提供带标签的数据结构、缺失值处理、对齐与统计操作，适合清洗和分析表格数据。",
+        "requirements": "准备 Python 和兼容版本依赖，数据量需适合可用内存。",
+        "quickStart": "1. 从 Where to get it 选择安装方式，按 Documentation 运行入门示例。\n2. 读取小数据检查列类型与缺失值，再按目标分组统计并导出结果。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "Python 数据分析库，提供带标签的数据结构、缺失值处理、对齐与统计操作，适合清洗和分析表格数据。",
+          "audience": "处理表格数据的分析人员和开发者",
+          "example": "读取一份 CSV 并按分类汇总。",
+          "steps": [
+            "从 Where to get it 选择安装方式，按 Documentation 运行入门示例。",
+            "读取小数据检查列类型与缺失值，再按目标分组统计并导出结果。"
+          ],
+          "verification": "输入输出行数、类型和合计可核算，缺失值处理符合业务规则。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more\n\n-----------------\n\n# pandas: A Powerful Python Data Analysis Toolkit\n\n| | |\n| --- | --- |\n| Testing | [](https://github.com/pandas-dev/pandas/actions/workflows/unit-tests.yml) [](https://codecov.io/gh/pandas-dev/pandas) |\n| Package | [](https:/"
+            },
+            {
+              "field": "purpose",
+              "quote": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more\n\n-----------------\n\n# pandas: A Powerful Python Data Analysis Toolkit\n\n| | |\n| --- | --- |\n| Testing | [](https://github.com/pandas-dev/pandas/actions/workflows/unit-tests.yml) [](https://codecov.io/gh/pandas-dev/pandas) |\n| Package | [](https:/"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more\n\n-----------------\n\n# pandas: A Powerful Python Data Analysis Toolkit\n\n| | |\n| --- | --- |\n| Testing | [](https://github.com/pandas-dev/pandas/actions/workflows/unit-tests.yml) [](https://codecov.io/gh/pandas-dev/pandas) |\n| Package | [](https:/"
+            },
+            {
+              "field": "steps",
+              "quote": " available in any language**. It is already well on\nits way towards this goal.\n\n## Table of Contents\n\n- [Main Features](#main-features)\n- [Where to get it](#where-to-get-it)\n- [Dependencies](#dependencies)\n- [Installation from sources](#installation-from-sources)\n- [License](#license)\n- [Documentation](#documentation)\n- [Background](#background)\n- [Getting H"
+            },
+            {
+              "field": "verification",
+              "quote": " available in any language**. It is already well on\nits way towards this goal.\n\n## Table of Contents\n\n- [Main Features](#main-features)\n- [Where to get it](#where-to-get-it)\n- [Dependencies](#dependencies)\n- [Installation from sources](#installation-from-sources)\n- [License](#license)\n- [Documentation](#documentation)\n- [Background](#background)\n- [Getting H"
+            }
+          ],
+          "sourceHash": "4ce2d41dd5e9ee19dc76e4969761e6b10d3f86d5d1878a0f46ef5a16d97ca209",
+          "sourceUrl": "https://github.com/pandas-dev/pandas/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "4ce2d41dd5e9ee19dc76e4969761e6b10d3f86d5d1878a0f46ef5a16d97ca209",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "pathwaycom/pathway": {
+      "sourceHash": "ed37daf73f5e8b13f9fe9a50c3147ee1ae6e42e4557ae60a62ffe1f4aa8bef80",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "用 Python 构建流式 ETL、实时分析和 RAG 数据管道的框架，可让输入变化持续更新计算结果。",
+        "scenarios": [
+          "让一个数据文件变化后自动更新汇总结果。"
+        ],
+        "usage": "用 Python 构建流式 ETL、实时分析和 RAG 数据管道的框架，可让输入变化持续更新计算结果。",
+        "requirements": "需要 Python 3.10 以上，原生路线面向 macOS/Linux，其他系统按文档使用虚拟环境方案。",
+        "quickStart": "1. 按 Installation 安装 Pathway，选择 templates 中一个可运行示例。\n2. 使用小样本启动管道，再修改输入并观察输出变化。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发框架",
+          "purpose": "用 Python 构建流式 ETL、实时分析和 RAG 数据管道的框架，可让输入变化持续更新计算结果。",
+          "audience": "构建实时数据应用的开发者",
+          "example": "让一个数据文件变化后自动更新汇总结果。",
+          "steps": [
+            "按 Installation 安装 Pathway，选择 templates 中一个可运行示例。",
+            "使用小样本启动管道，再修改输入并观察输出变化。"
+          ],
+          "verification": "更新被正确处理，批量和增量结果一致；部署资源与外部模型依赖单独评估。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.\n\nGetting Started |\n    Deployment |\n    Documentation and Support |\n    Blog |\n    License\n\n  \n\n\n# Pathway Live Data Framework\n\n[Pathway Live Data Framework](https://pathway.com) is a Python ETL framework for stream processing, real-time analytics, LLM pipeli"
+            },
+            {
+              "field": "purpose",
+              "quote": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.\n\nGetting Started |\n    Deployment |\n    Documentation and Support |\n    Blog |\n    License\n\n  \n\n\n# Pathway Live Data Framework\n\n[Pathway Live Data Framework](https://pathway.com) is a Python ETL framework for stream processing, real-time analytics, LLM pipeli"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.\n\nGetting Started |\n    Deployment |\n    Documentation and Support |\n    Blog |\n    License\n\n  \n\n\n# Pathway Live Data Framework\n\n[Pathway Live Data Framework](https://pathway.com) is a Python ETL framework for stream processing, real-time analytics, LLM pipeli"
+            },
+            {
+              "field": "steps",
+              "quote": "as easy as possible. It's the ideal solution for a wide range of data processi\n\n### Installation\n\nPathway Live Data Framework requires Python 3.10 or above.\n\nYou can install the current release of Pathway Live Data Framework using `pip`:\n\n```\n$ pip install -U pathway\n```\n\n⚠️ Pathway Live Data Framework is available on MacOS and Linux. Users of other syst"
+            },
+            {
+              "field": "verification",
+              "quote": "as easy as possible. It's the ideal solution for a wide range of data processi\n\n### Installation\n\nPathway Live Data Framework requires Python 3.10 or above.\n\nYou can install the current release of Pathway Live Data Framework using `pip`:\n\n```\n$ pip install -U pathway\n```\n\n⚠️ Pathway Live Data Framework is available on MacOS and Linux. Users of other syst"
+            }
+          ],
+          "sourceHash": "ed37daf73f5e8b13f9fe9a50c3147ee1ae6e42e4557ae60a62ffe1f4aa8bef80",
+          "sourceUrl": "https://github.com/pathwaycom/pathway/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "ed37daf73f5e8b13f9fe9a50c3147ee1ae6e42e4557ae60a62ffe1f4aa8bef80",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "pathwaycom/serviette": {
+      "sourceHash": "0a1e26620f0fc13f59843c04462e3df9e3851c7f3af59573496995256f231cc2",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "基于 Pathway 的无代码 RAG 服务，让文档变化更新检索与问答，可连接多种向量数据库，适合建立资料问答原型。",
+        "scenarios": [
+          "用内置咖啡机语料演示修改文档后的回答变化。"
+        ],
+        "usage": "基于 Pathway 的无代码 RAG 服务，让文档变化更新检索与问答，可连接多种向量数据库，适合建立资料问答原型。",
+        "requirements": "需要 Python、较新 pip、Pathway 许可 Key，生成模型和嵌入路线按配置选择。",
+        "quickStart": "1. 按 README 的演示安装路线启动内置 corpus 和聊天界面。\n2. 修改演示 docs 中的一段内容，重复提问并检查引用与答案变化。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "基于 Pathway 的无代码 RAG 服务，让文档变化更新检索与问答，可连接多种向量数据库，适合建立资料问答原型。",
+          "audience": "需要文档问答服务的技术用户",
+          "example": "用内置咖啡机语料演示修改文档后的回答变化。",
+          "steps": [
+            "按 README 的演示安装路线启动内置 corpus 和聊天界面。",
+            "修改演示 docs 中的一段内容，重复提问并检查引用与答案变化。"
+          ],
+          "verification": "修改能进入检索结果，回答引用正确；可选模型 API 费用与本地嵌入资源单独计算。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway.\n\n# serviette\n\n> **Looking for llm-app templates?** All templates, cookbooks and examples\n> are still available in full in the\n> [Pathway repository under `examples/llm-app`](https://github.com/pathwaycom/pathway/tree/main/examples/llm-app).\n\n\n  \n  \n  \n  \n\n\n**"
+            },
+            {
+              "field": "purpose",
+              "quote": "A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway.\n\n# serviette\n\n> **Looking for llm-app templates?** All templates, cookbooks and examples\n> are still available in full in the\n> [Pathway repository under `examples/llm-app`](https://github.com/pathwaycom/pathway/tree/main/examples/llm-app).\n\n\n  \n  \n  \n  \n\n\n**"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway.\n\n# serviette\n\n> **Looking for llm-app templates?** All templates, cookbooks and examples\n> are still available in full in the\n> [Pathway repository under `examples/llm-app`](https://github.com/pathwaycom/pathway/tree/main/examples/llm-app).\n\n\n  \n  \n  \n  \n\n\n**"
+            },
+            {
+              "field": "steps",
+              "quote": "thway license is\nfree; the only metered component is the optional model API th\n\n## Requirements\n\n- Python ≥ 3.10 (the minimum supported by Pathway).\n- A free Pathway license key in `PATHWAY_LICENSE_KEY` —\n  .\n\n\n\n# 0. Prerequisites: Python >= 3.10 (3.12 recommended) and git."
+            },
+            {
+              "field": "verification",
+              "quote": "thway license is\nfree; the only metered component is the optional model API th\n\n## Requirements\n\n- Python ≥ 3.10 (the minimum supported by Pathway).\n- A free Pathway license key in `PATHWAY_LICENSE_KEY` —\n  .\n\n\n\n# 0. Prerequisites: Python >= 3.10 (3.12 recommended) and git."
+            }
+          ],
+          "sourceHash": "0a1e26620f0fc13f59843c04462e3df9e3851c7f3af59573496995256f231cc2",
+          "sourceUrl": "https://github.com/pathwaycom/serviette/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "0a1e26620f0fc13f59843c04462e3df9e3851c7f3af59573496995256f231cc2",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "penpot/penpot": {
+      "sourceHash": "a1a18530602b21fb8291e0c9b90fc47cf2878d1641b5fdc4e3147214af5ae9dd",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "开源产品设计与原型协作平台，包含设计 Tokens、响应式布局和可编程扩展，既可用托管服务也可自部署。",
+        "scenarios": [
+          "建立带布局和组件的页面原型并交给开发核对。"
+        ],
+        "usage": "开源产品设计与原型协作平台，包含设计 Tokens、响应式布局和可编程扩展，既可用托管服务也可自部署。",
+        "requirements": "托管方式需账号，自部署按官网准备 Docker/Kubernetes 等环境。",
+        "quickStart": "1. 从 Getting started 选择 SaaS 或自部署，并阅读 User Guide。\n2. 建立画板、组件与布局，尝试设计 Tokens 后用预览检查尺寸和交互。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "开源产品设计与原型协作平台，包含设计 Tokens、响应式布局和可编程扩展，既可用托管服务也可自部署。",
+          "audience": "设计系统和产品界面的团队",
+          "example": "建立带布局和组件的页面原型并交给开发核对。",
+          "steps": [
+            "从 Getting started 选择 SaaS 或自部署，并阅读 User Guide。",
+            "建立画板、组件与布局，尝试设计 Tokens 后用预览检查尺寸和交互。"
+          ],
+          "verification": "布局在目标尺寸可用，组件和 Tokens 一致；MCP 与插件能力按实际连接另行确认。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Penpot: The open-source design platform for Product teams that need scalable collaboration.\n\n[uri_license]: https://www.mozilla.org/en-US/MPL/2.0\n[uri_license_image]: https://img.shields.io/badge/MPL-2.0-blue.svg\n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n\n  Website  •\n  User Guide  •\n  Learning Center  •\n  Community\n\n\n  Youtube  •\n  Peertube  "
+            },
+            {
+              "field": "purpose",
+              "quote": "Penpot: The open-source design platform for Product teams that need scalable collaboration.\n\n[uri_license]: https://www.mozilla.org/en-US/MPL/2.0\n[uri_license_image]: https://img.shields.io/badge/MPL-2.0-blue.svg\n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n\n  Website  •\n  User Guide  •\n  Learning Center  •\n  Community\n\n\n  Youtube  •\n  Peertube  "
+            },
+            {
+              "field": "scenarios",
+              "quote": "Penpot: The open-source design platform for Product teams that need scalable collaboration.\n\n[uri_license]: https://www.mozilla.org/en-US/MPL/2.0\n[uri_license_image]: https://img.shields.io/badge/MPL-2.0-blue.svg\n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\n\n  Website  •\n  User Guide  •\n  Learning Center  •\n  Community\n\n\n  Youtube  •\n  Peertube  "
+            },
+            {
+              "field": "steps",
+              "quote": "orm** for building scalable design systems and fully integrated product develo\n\n## Getting started ##\n\nPenpot is the only design & prototype platform that is deployment agnostic. You can use it in our [SAAS](https://design.penpot.app) or deploy it anywhere.\n\nLearn how to install it with Docker, Kubernetes, Elestio or other options on [our website](https://"
+            },
+            {
+              "field": "verification",
+              "quote": "orm** for building scalable design systems and fully integrated product develo\n\n## Getting started ##\n\nPenpot is the only design & prototype platform that is deployment agnostic. You can use it in our [SAAS](https://design.penpot.app) or deploy it anywhere.\n\nLearn how to install it with Docker, Kubernetes, Elestio or other options on [our website](https://"
+            }
+          ],
+          "sourceHash": "a1a18530602b21fb8291e0c9b90fc47cf2878d1641b5fdc4e3147214af5ae9dd",
+          "sourceUrl": "https://github.com/penpot/penpot/blob/develop/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "a1a18530602b21fb8291e0c9b90fc47cf2878d1641b5fdc4e3147214af5ae9dd",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "pi-hole/pi-hole": {
+      "sourceHash": "4c83ea00fabb7a35aa8f8a5e40f19121ee7e62afef44133695db863006e5bdea",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "通过自有 Linux 设备提供 DNS 层域名过滤的工具，让网络内设备使用同一 DNS 服务减少不需要的内容请求。",
+        "scenarios": [
+          "先让一台测试设备使用自己的过滤 DNS。"
+        ],
+        "usage": "通过自有 Linux 设备提供 DNS 层域名过滤的工具，让网络内设备使用同一 DNS 服务减少不需要的内容请求。",
+        "requirements": "需要受支持 Linux 或 Docker 环境和网络管理权限，保留原 DNS 设置以便恢复。",
+        "quickStart": "1. 按官方安装或 Docker 路线部署 Pi-hole，先查看管理界面状态。\n2. 按 Post-install 先给单台设备配置 DNS，检查查询日志后再决定是否改路由器。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "通过自有 Linux 设备提供 DNS 层域名过滤的工具，让网络内设备使用同一 DNS 服务减少不需要的内容请求。",
+          "audience": "管理家庭或测试网络的用户",
+          "example": "先让一台测试设备使用自己的过滤 DNS。",
+          "steps": [
+            "按官方安装或 Docker 路线部署 Pi-hole，先查看管理界面状态。",
+            "按 Post-install 先给单台设备配置 DNS，检查查询日志后再决定是否改路由器。"
+          ],
+          "verification": "正常域名能解析且过滤记录可解释，误拦截可恢复；DNS 过滤无法屏蔽所有形式广告。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A black hole for Internet advertisements\n\n#\n\n\n  \n  \n  Network-wide ad blocking via your own Linux hardware\n\n\n\n\nThe Pi-hole® is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content without installing any client-side software.\n\n- **Easy-to-insta"
+            },
+            {
+              "field": "purpose",
+              "quote": "A black hole for Internet advertisements\n\n#\n\n\n  \n  \n  Network-wide ad blocking via your own Linux hardware\n\n\n\n\nThe Pi-hole® is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content without installing any client-side software.\n\n- **Easy-to-insta"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A black hole for Internet advertisements\n\n#\n\n\n  \n  \n  Network-wide ad blocking via your own Linux hardware\n\n\n\n\nThe Pi-hole® is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content without installing any client-side software.\n\n- **Easy-to-insta"
+            },
+            {
+              "field": "steps",
+              "quote": "://github.com/pi-hole/docker-pi-hole) to use the Official Docker Images.\n\n\n\n## [Post-install: Make your network take advantage of Pi-hole](https://docs.pi-hole.net/main/post-install/)\n\nOnce the installer has been run, you will need to [configure your router to have **DHCP clients use Pi-hole as their DNS server**](https://discourse.pi-hole.net/t/how-"
+            },
+            {
+              "field": "verification",
+              "quote": "://github.com/pi-hole/docker-pi-hole) to use the Official Docker Images.\n\n\n\n## [Post-install: Make your network take advantage of Pi-hole](https://docs.pi-hole.net/main/post-install/)\n\nOnce the installer has been run, you will need to [configure your router to have **DHCP clients use Pi-hole as their DNS server**](https://discourse.pi-hole.net/t/how-"
+            }
+          ],
+          "sourceHash": "4c83ea00fabb7a35aa8f8a5e40f19121ee7e62afef44133695db863006e5bdea",
+          "sourceUrl": "https://github.com/pi-hole/pi-hole/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "4c83ea00fabb7a35aa8f8a5e40f19121ee7e62afef44133695db863006e5bdea",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "plexpt/awesome-chatgpt-prompts-zh": {
+      "sourceHash": "497e54b25a433c16d1bda8ec061904fbbbe4f848c5e5b33e6b0870307b937619",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "按角色和任务收集中文提示词示例，覆盖产品、文案、表格和语言练习等用途，可作为自己提示词的起点。",
+        "scenarios": [
+          "参考产品经理示例生成自己的需求草稿。"
+        ],
+        "usage": "按角色和任务收集中文提示词示例，覆盖产品、文案、表格和语言练习等用途，可作为自己提示词的起点。",
+        "requirements": "需要可用的对话助手；仓库所链接的第三方站点不等于 OpenAI 官方服务。",
+        "quickStart": "1. 选择与任务对应的示例，替换其中的角色、目标和输入。\n2. 把修改后的提示发送给自己的助手，检查事实、结构和缺失约束，再继续迭代。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "资源目录",
+          "purpose": "按角色和任务收集中文提示词示例，覆盖产品、文案、表格和语言练习等用途，可作为自己提示词的起点。",
+          "audience": "希望快速组织 AI 请求的用户",
+          "example": "参考产品经理示例生成自己的需求草稿。",
+          "steps": [
+            "选择与任务对应的示例，替换其中的角色、目标和输入。",
+            "把修改后的提示发送给自己的助手，检查事实、结构和缺失约束，再继续迭代。"
+          ],
+          "verification": "产出符合实际任务且事实经过核对；示例不是必须遵循的指令，也不保证模型执行效果。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。\n\n# 🧠ChatGPT 中文调教指南\n\nChatGPT是由[OpenAI](https://openai.com/)训练的一款大型语言模型，能够和你进行任何领域的对话。\n\n[国内中文版](https://chat.aimakex.com/i/1)\n\n它能够生成类似于人类写作的文本。您只需要给出提示或提出问题，它就可以生成你想要的东西。\n\n**[在 GitHub 上查看](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)**\n\n**[在 Gitee 上查看"
+            },
+            {
+              "field": "purpose",
+              "quote": "ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。\n\n# 🧠ChatGPT 中文调教指南\n\nChatGPT是由[OpenAI](https://openai.com/)训练的一款大型语言模型，能够和你进行任何领域的对话。\n\n[国内中文版](https://chat.aimakex.com/i/1)\n\n它能够生成类似于人类写作的文本。您只需要给出提示或提出问题，它就可以生成你想要的东西。\n\n**[在 GitHub 上查看](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)**\n\n**[在 Gitee 上查看"
+            },
+            {
+              "field": "scenarios",
+              "quote": "ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。\n\n# 🧠ChatGPT 中文调教指南\n\nChatGPT是由[OpenAI](https://openai.com/)训练的一款大型语言模型，能够和你进行任何领域的对话。\n\n[国内中文版](https://chat.aimakex.com/i/1)\n\n它能够生成类似于人类写作的文本。您只需要给出提示或提出问题，它就可以生成你想要的东西。\n\n**[在 GitHub 上查看](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)**\n\n**[在 Gitee 上查看"
+            },
+            {
+              "field": "steps",
+              "quote": "唯一代码块中回复，而不是其他任何区域。我将输入命令来告诉角色该做什么，而你需要回复角色的行动结果以推动游戏的进行。我的第一个命令是'醒来'，请从这里开始故事\n\n## 担任产品经理\n\n> 请确认我的以下请求。请您作为产品经理回复我。我将会提供一个主题，您将帮助我编写一份包括以下章节标题的PRD文档：主题、简介、问题陈述、目标与目的、用户故事、技术要求、收益、KPI指标、开发风险以及结论。我的需求是：做一个赛博朋克的网站首页。\n\n## 做表格\n\n> 请你充当表格生成器。您只会回复我一个包含10行的表格。我会告诉你在单元格中写入什么，你只会以markdown表格形式回复结果，而不是其他任何内容。请注意，您的回答应该是简明扼要的，不需要附带任何额外的解释。你只会回复 markdown 表的作为结果"
+            },
+            {
+              "field": "verification",
+              "quote": "唯一代码块中回复，而不是其他任何区域。我将输入命令来告诉角色该做什么，而你需要回复角色的行动结果以推动游戏的进行。我的第一个命令是'醒来'，请从这里开始故事\n\n## 担任产品经理\n\n> 请确认我的以下请求。请您作为产品经理回复我。我将会提供一个主题，您将帮助我编写一份包括以下章节标题的PRD文档：主题、简介、问题陈述、目标与目的、用户故事、技术要求、收益、KPI指标、开发风险以及结论。我的需求是：做一个赛博朋克的网站首页。\n\n## 做表格\n\n> 请你充当表格生成器。您只会回复我一个包含10行的表格。我会告诉你在单元格中写入什么，你只会以markdown表格形式回复结果，而不是其他任何内容。请注意，您的回答应该是简明扼要的，不需要附带任何额外的解释。你只会回复 markdown 表的作为结果"
+            }
+          ],
+          "sourceHash": "497e54b25a433c16d1bda8ec061904fbbbe4f848c5e5b33e6b0870307b937619",
+          "sourceUrl": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "497e54b25a433c16d1bda8ec061904fbbbe4f848c5e5b33e6b0870307b937619",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "pmndrs/zustand": {
+      "sourceHash": "ae27040d9ae9fe7902bd2385256228b5daf8bca2afca659c7b60c9db582a62fd",
+      "completedAt": "2026-11-04T10:15:40.191Z",
+      "content": {
+        "summary": "以 Hook 为主要接口的轻量 React 状态管理库，用 store 保存状态与更新动作，并按组件选择的状态触发更新。",
+        "scenarios": [
+          "在两个组件间共享一个计数和更新动作。"
+        ],
+        "usage": "以 Hook 为主要接口的轻量 React 状态管理库，用 store 保存状态与更新动作，并按组件选择的状态触发更新。",
+        "requirements": "需要 React/JavaScript 项目，TypeScript 与中间件按文档配置。",
+        "quickStart": "1. 按 README 建立一个包含状态和更新函数的 store。\n2. 在两个组件中分别选择读取值与动作，点击后检查同步更新；持久化按需加入。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "以 Hook 为主要接口的轻量 React 状态管理库，用 store 保存状态与更新动作，并按组件选择的状态触发更新。",
+          "audience": "维护 React 应用的前端开发者",
+          "example": "在两个组件间共享一个计数和更新动作。",
+          "steps": [
+            "按 README 建立一个包含状态和更新函数的 store。",
+            "在两个组件中分别选择读取值与动作，点击后检查同步更新；持久化按需加入。"
+          ],
+          "verification": "读取同一状态的组件正确更新，未相关组件行为正常；持久化内容需自行控制。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "🐻 Bear necessities for state management in React\n\n[](https://github.com/pmndrs/zustand/actions?query=workflow%3ATest)\n[](https://bundlejs.com/?q=zustand)\n[](https://www.npmjs.com/package/zustand)\n[](https://www.npmjs.com/package/zustand)\n[](https://discord.gg/poimandres)\n\n\n  \n    \n  \n\n\nA small, fast and sca"
+            },
+            {
+              "field": "purpose",
+              "quote": "🐻 Bear necessities for state management in React\n\n[](https://github.com/pmndrs/zustand/actions?query=workflow%3ATest)\n[](https://bundlejs.com/?q=zustand)\n[](https://www.npmjs.com/package/zustand)\n[](https://www.npmjs.com/package/zustand)\n[](https://discord.gg/poimandres)\n\n\n  \n    \n  \n\n\nA small, fast and sca"
+            },
+            {
+              "field": "scenarios",
+              "quote": "🐻 Bear necessities for state management in React\n\n[](https://github.com/pmndrs/zustand/actions?query=workflow%3ATest)\n[](https://bundlejs.com/?q=zustand)\n[](https://www.npmjs.com/package/zustand)\n[](https://www.npmjs.com/package/zustand)\n[](https://discord.gg/poimandres)\n\n\n  \n    \n  \n\n\nA small, fast and sca"
+            },
+            {
+              "field": "steps",
+              "quote": "rs: state.bears + 1 })),\n  removeAllBears: () => set({ bears: 0 }),\n}))\n```\n\n## Then bind your components, and that's it!\n\nUse the hook anywhere, no providers are needed. Select your state and the component will re-render on changes.\n\n```jsx\nfunction BearCounter() {\n  const bears = useBearStore((state) => state.bears)\n  return \n# {bears} around here ...\n\n}\n\nfunct"
+            },
+            {
+              "field": "verification",
+              "quote": "rs: state.bears + 1 })),\n  removeAllBears: () => set({ bears: 0 }),\n}))\n```\n\n## Then bind your components, and that's it!\n\nUse the hook anywhere, no providers are needed. Select your state and the component will re-render on changes.\n\n```jsx\nfunction BearCounter() {\n  const bears = useBearStore((state) => state.bears)\n  return \n# {bears} around here ...\n\n}\n\nfunct"
+            }
+          ],
+          "sourceHash": "ae27040d9ae9fe7902bd2385256228b5daf8bca2afca659c7b60c9db582a62fd",
+          "sourceUrl": "https://github.com/pmndrs/zustand/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "ae27040d9ae9fe7902bd2385256228b5daf8bca2afca659c7b60c9db582a62fd",
+            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     }
   },
   "pending": {
@@ -6896,17 +8312,6 @@
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-23T06:01:15.471Z"
     },
-    "mvanhorn/last30days-skill": {
-      "id": "mvanhorn/last30days-skill",
-      "sourceHash": "7d65964199f6f208cacb52738b8e6d702689ceb6da95974aeac568c0a6764ee8",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/mvanhorn/last30days-skill/blob/main/README.md",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-10-25T06:04:34.666Z",
-      "nextAttemptAt": "2026-10-25T07:04:34.666Z"
-    },
     "rust-lang/rustlings": {
       "id": "rust-lang/rustlings",
       "sourceHash": "b8be9c50fb6c31e21b6499fb4e5cdd784d5f039486eb1ff0de49b4ea1945b2b1",
@@ -6946,17 +8351,6 @@
       "attempts": 1,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/usememos/memos/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-26T06:09:17.010Z",
-      "nextAttemptAt": "2026-10-26T07:09:17.010Z"
-    },
-    "plexpt/awesome-chatgpt-prompts-zh": {
-      "id": "plexpt/awesome-chatgpt-prompts-zh",
-      "sourceHash": "497e54b25a433c16d1bda8ec061904fbbbe4f848c5e5b33e6b0870307b937619",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh/blob/main/README.md",
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-10-26T06:09:17.010Z",
       "nextAttemptAt": "2026-10-26T07:09:17.010Z"
@@ -7047,15 +8441,6 @@
       "lastAttemptAt": "2026-10-28T06:50:28.519Z",
       "nextAttemptAt": "2026-10-28T07:50:28.519Z"
     },
-    "marktext/marktext": {
-      "id": "marktext/marktext",
-      "sourceHash": "6f5f61839ea72d4a5a34bd2e638f3e5081810cb2fa3d7cda6bea5ecf64025d9b",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/marktext/marktext/blob/develop/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "youngyangyang04/leetcode-master": {
       "id": "youngyangyang04/leetcode-master",
       "sourceHash": "d6d08f9d921734ea56c03d2811b6839d023e17bf126e7f9fd5099a0fe7635a97",
@@ -7089,15 +8474,6 @@
       "lastAttemptAt": "2026-10-29T07:01:48.386Z",
       "nextAttemptAt": "2026-10-29T08:01:48.386Z"
     },
-    "pathwaycom/pathway": {
-      "id": "pathwaycom/pathway",
-      "sourceHash": "e845fc51b813d579f2bbd37dced4c4076cdeeefb26449c1ce3a04bfd6e913d3a",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/pathwaycom/pathway/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "solido/awesome-flutter": {
       "id": "solido/awesome-flutter",
       "sourceHash": "47df2584df9fbb04b35fbc66bd89c064eb201bfb64a04de0806a9fcdbe82fc73",
@@ -7116,15 +8492,6 @@
       "readmeUrl": "https://github.com/pocketbase/pocketbase/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "microsoft/autogen": {
-      "id": "microsoft/autogen",
-      "sourceHash": "b3212944dcdc4069c57d5356bdcaf2d51ba4d2781ce53d9163580547659dd537",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/microsoft/autogen/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "reduxjs/redux": {
       "id": "reduxjs/redux",
       "sourceHash": "9144834a710bd0c2134388edbd098a517997110b4bb0de4db5b244a9474febea",
@@ -7132,33 +8499,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/reduxjs/redux/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "penpot/penpot": {
-      "id": "penpot/penpot",
-      "sourceHash": "a1a18530602b21fb8291e0c9b90fc47cf2878d1641b5fdc4e3147214af5ae9dd",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/penpot/penpot/blob/develop/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "pi-hole/pi-hole": {
-      "id": "pi-hole/pi-hole",
-      "sourceHash": "4c83ea00fabb7a35aa8f8a5e40f19121ee7e62afef44133695db863006e5bdea",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/pi-hole/pi-hole/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "nuxt/nuxt": {
-      "id": "nuxt/nuxt",
-      "sourceHash": "d98bcfacd7604aceb0f79994275dc8a10ce97576d0b7c05f191a2e1ca5a1c552",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/nuxt/nuxt/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "sharkdp/bat": {
@@ -7233,33 +8573,6 @@
       "readmeUrl": "https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "mempalace/mempalace": {
-      "id": "mempalace/mempalace",
-      "sourceHash": "87934f5e31be773f4a15284d99d88c8750e3e74d80850c86db859f1e48890e1e",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/MemPalace/mempalace/blob/develop/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "meta-llama/llama": {
-      "id": "meta-llama/llama",
-      "sourceHash": "8b0568f3e3174fe75e41cbb7d5e3a871b7bde2018fac14b01b1329477df8c8fb",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/meta-llama/llama/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "meilisearch/meilisearch": {
-      "id": "meilisearch/meilisearch",
-      "sourceHash": "6075a7f7e88df31d610428eddd12a57d26af1ec91de3a372b435569807897900",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/meilisearch/meilisearch/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "shadowsocks/shadowsocks-windows": {
       "id": "shadowsocks/shadowsocks-windows",
       "sourceHash": "7bb03018159fc0e974ede2474b14dd94ff584984c30a05cd48fb07358efdbb4d",
@@ -7276,24 +8589,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/rails/rails/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "pmndrs/zustand": {
-      "id": "pmndrs/zustand",
-      "sourceHash": "090e82b67e062c143c7270675f7d32c643dced60cd218c90957dbdd6288d28c4",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/pmndrs/zustand/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "pathwaycom/serviette": {
-      "id": "pathwaycom/serviette",
-      "sourceHash": "0a1e26620f0fc13f59843c04462e3df9e3851c7f3af59573496995256f231cc2",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/pathwaycom/serviette/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "twentyhq/twenty": {
@@ -7422,15 +8717,6 @@
       "readmeUrl": "https://github.com/WerWolv/ImHex/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "ngosang/trackerslist": {
-      "id": "ngosang/trackerslist",
-      "sourceHash": "8dbcd7eaeae8c75987f8dcb3a59ba3f226c82df8e1feaa2425a2be9509ee9791",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/ngosang/trackerslist/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "romkatv/powerlevel10k": {
       "id": "romkatv/powerlevel10k",
       "sourceHash": "74acfe772a48510a2c5f67c64fa022d17cedd609c31b4f43b9657436e21185b3",
@@ -7438,24 +8724,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/romkatv/powerlevel10k/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "odoo/odoo": {
-      "id": "odoo/odoo",
-      "sourceHash": "a4dd96701e7c62c2eec457ab0253d88a435db27531970f77a9334e68f58266ba",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/odoo/odoo/blob/20.0/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "microsoft/vibevoice": {
-      "id": "microsoft/vibevoice",
-      "sourceHash": "5c72f3d4a7555978c2a7c9772735c69bd463bd69a7aee57d31341dc929d9b5f8",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/microsoft/VibeVoice/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "vuejs/core": {
@@ -7485,15 +8753,6 @@
       "readmeUrl": "https://github.com/psf/requests/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "mozilla/pdf.js": {
-      "id": "mozilla/pdf.js",
-      "sourceHash": "3e2c6755e265e32ef308704c47c4c43471013d885c3c415f17e3ffb577092be7",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/mozilla/pdf.js/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "vsouza/awesome-ios": {
       "id": "vsouza/awesome-ios",
       "sourceHash": "885efe0049816c5ec9e5d37171f3f1cc372093b922761c21ad7ecd3d827510ac",
@@ -7501,24 +8760,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/vsouza/awesome-ios/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "necolas/normalize.css": {
-      "id": "necolas/normalize.css",
-      "sourceHash": "9b8e1ed5095da98e6556d55b14b8833035c7330bd70128b2979ca27193e2138f",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/necolas/normalize.css/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "multica-ai/multica": {
-      "id": "multica-ai/multica",
-      "sourceHash": "eab3e37b9c3c55d09d7b396370e5fc46cc39181bfa77050a7429eccbf1010a46",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/multica-ai/multica/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "voltagent/awesome-openclaw-skills": {
@@ -7640,24 +8881,6 @@
       "readmeUrl": "https://github.com/upscayl/upscayl/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "nlohmann/json": {
-      "id": "nlohmann/json",
-      "sourceHash": "1fb79befb821aa510e3fa4529b56fb53622594880071ebc4e0334be822715702",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/nlohmann/json/blob/develop/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "moeru-ai/airi": {
-      "id": "moeru-ai/airi",
-      "sourceHash": "8fe15be775d24504a09a24442b19b5876e4924f021dc0afcdf22680861365522",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/moeru-ai/airi/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "tanstack/query": {
       "id": "tanstack/query",
       "sourceHash": "eb4a4b899584bab2ca41e6db5f98cba0d93aae133f559cff5bcc02b5012f5716",
@@ -7667,15 +8890,6 @@
       "readmeUrl": "https://github.com/TanStack/query/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "mastodon/mastodon": {
-      "id": "mastodon/mastodon",
-      "sourceHash": "059ddcde62a3d2305e344194e79bbc33f35fcdba3e7e918e19cf1b89dace3cdd",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/mastodon/mastodon/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
     "quantumnous/new-api": {
       "id": "quantumnous/new-api",
       "sourceHash": "e85df865a983d2bf6874c9dd792b9fb7aa09bc2f15336d833a1b4980d63c6521",
@@ -7683,15 +8897,6 @@
       "attempts": 0,
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/QuantumNous/new-api/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "pandas-dev/pandas": {
-      "id": "pandas-dev/pandas",
-      "sourceHash": "5365b49e9b570a7562b6142f457d9cecea01d0fdd14c64b392658a2d2754f141",
-      "firstSeenAt": "2026-10-20T16:16:27.465Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/pandas-dev/pandas/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "team-spotube/spotube": {
@@ -7730,17 +8935,6 @@
       "lastSeenAt": "2026-11-04T07:28:40.974Z",
       "readmeUrl": "https://github.com/jgthms/bulma/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
-    },
-    "meta/docusaurus": {
-      "id": "meta/docusaurus",
-      "sourceHash": "73b668a2b8aa2bb5794482779546efa082e237483e66ea6e66d712432d4a0770",
-      "firstSeenAt": "2026-10-29T07:01:48.386Z",
-      "attempts": 4,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/meta/docusaurus/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-02T07:38:53.715Z",
-      "nextAttemptAt": "2026-11-02T08:38:53.715Z"
     },
     "hashicorp/terraform": {
       "id": "hashicorp/terraform",
@@ -7870,53 +9064,6 @@
       "savedAt": "2026-10-29T07:01:48.386Z",
       "reviewIssues": [
         "缺少关键前置条件：README明确提到需要具备基础编程能力，且建议新手先刷数组/链表/哈希/字符串再进阶到二叉树/回溯/动态规划/图论，草稿中的'无严格前置知识要求'与原文不符"
-      ]
-    },
-    "meta/docusaurus|openrouter/nvidia/nemotron-3.5-lightning:free": {
-      "sourceHash": "73b668a2b8aa2bb5794482779546efa082e237483e66ea6e66d712432d4a0770",
-      "draft": {
-        "kind": "cli",
-        "summary": "Easy to maintain open source documentation websites。Docusaurus是一个项目，用于轻松构建、部署和维护开源项目网站。",
-        "purpose": "帮助用户快速搭建项目官网，包括文档、博客等核心页面，并支持国际化和自定义样式。",
-        "audience": "开发者、项目维护者",
-        "scenarios": [
-          "需要快速搭建开源项目文档网站的开发者",
-          "希望提供多语言文档以拓展国际社区的团队",
-          "想要自定义网站样式和布局的设计者",
-          "希望通过博客功能记录项目动态的维护者"
-        ],
-        "steps": [
-          "使用 npm init docusaurus@latest 初始化项目",
-          "按照向导配置站点名称、默认语言和内容目录"
-        ],
-        "requirements": "Node.js 环境和 npm 包管理器",
-        "verification": "运行 npm run start 查看本地预览，确认文档和博客页面正常显示",
-        "evidence": [
-          {
-            "field": "summary",
-            "quote": "Easy to maintain open source documentation websites.\n\nDocusaurus\n    \n    \n    \n      \n    \n  \n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n## Introduction\n\nDocusaurus is a project for building, deploying, and maintaining open source project websites easily.\n\nShort on time? Check out our [5-minute tutorial ⏱️](https://tutorial.docusaurus.io)!\n\n"
-          },
-          {
-            "field": "purpose",
-            "quote": "Easy to maintain open source documentation websites.\n\nDocusaurus\n    \n    \n    \n      \n    \n  \n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n## Introduction\n\nDocusaurus is a project for building, deploying, and maintaining open source project websites easily.\n\nShort on time? Check out our [5-minute tutorial ⏱️](https://tutorial.docusaurus.io)!\n\n"
-          },
-          {
-            "field": "scenarios",
-            "quote": "Easy to maintain open source documentation websites.\n\nDocusaurus\n    \n    \n    \n      \n    \n  \n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n## Introduction\n\nDocusaurus is a project for building, deploying, and maintaining open source project websites easily.\n\nShort on time? Check out our [5-minute tutorial ⏱️](https://tutorial.docusaurus.io)!\n\n"
-          },
-          {
-            "field": "steps",
-            "quote": "Use the initialization CLI to create your site:\n\n```bash\nnpm init docusaurus@latest\n```\n\n[Read the docs](https://docusaurus.io/docs/installation) for any further information.\n\n## Contributing\n\n"
-          },
-          {
-            "field": "verification",
-            "quote": "Use the initialization CLI to create your site:\n\n```bash\nnpm init docusaurus@latest\n```\n\n[Read the docs](https://docusaurus.io/docs/installation) for any further information.\n\n## Contributing\n\n"
-          }
-        ]
-      },
-      "savedAt": "2026-10-30T07:04:28.194Z",
-      "reviewIssues": [
-        "summary: 缺少项目核心功能描述（如构建、部署、国际化、自定义），仅保留了‘Easy to maintain open source documentation websites’的片段，未体现README整体精神；purpose: 与source S1-S4的功能描述（构建、部署、国际化、自定义）未对应，仅泛指‘搭建项目官网’，遗漏了关键功能；scenarios: 与source S3-S4的本地化和自定义描述不符，未提及国际化、博客、样式自定义等具体场景；steps: 仅列出了npm init命令，未包含后续的项目配置、语言设置、内容目录等实际入门流程；verification: 与source中未提及的‘运行 npm run start’冲突，且未提供有效的验证依据。"
       ]
     },
     "vectorize-io/hindsight|openrouter/nvidia/nemotron-3.5-lightning:free": {
