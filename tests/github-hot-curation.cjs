@@ -8,4 +8,16 @@ try{
  const before=fs.readFileSync(path.join(temp,'github-hot.json'),'utf8'),args={directory:temp,sourceDirectory:temp,drafts:[draft],batch:'synthetic',now:'2026-11-04T00:00:00Z'};assert.equal(apply(args).completed,1);assert.equal(fs.readFileSync(path.join(temp,'github-hot.json'),'utf8'),before);
  assert.throws(()=>apply({...args,write:true,drafts:[{...draft,evidence:{...draft.evidence,steps:'invented source command'}}]}),/missing source anchor/);assert.equal(fs.readFileSync(path.join(temp,'github-hot.json'),'utf8'),before);
  const result=apply({...args,write:true});assert.equal(result.pending,0);const saved=JSON.parse(fs.readFileSync(path.join(temp,'github-hot.json')));assert(isReady(saved.editions[0].items[0]));assert.deepEqual(saved.editions[0].boards,feed.editions[0].boards);assert.equal(saved.editions[0].items[0].stars,item.stars);assert.equal(saved.editions[0].items[0].publication,undefined);assert.match(saved.editions[0].items[0].guide.basis,/未实际运行/);assert.equal(JSON.parse(fs.readFileSync(path.join(temp,'github-hot-guide-state.json'))).guides[item.id].sourceHash,sourceHash(item));console.log('Curated batch dry-run, evidence rejection, source cache and immutable rankings passed.');
+ const candidate={...item,id:'fixture/unpublished',fullName:'fixture/unpublished',url:'https://github.com/fixture/unpublished',readmeUrl:'https://github.com/fixture/unpublished/blob/main/README.md'};
+ fs.writeFileSync(path.join(temp,'fixture--unpublished.source.json'),JSON.stringify(candidate));
+ const candidateDraft={...draft,id:candidate.id},snapshot=JSON.parse(fs.readFileSync(path.join(temp,'github-hot.json'))),candidateArgs={...args,batch:'unpublished',drafts:[candidateDraft]};
+ assert.throws(()=>apply(candidateArgs),/absent from published/);
+ assert.throws(()=>apply({...candidateArgs,cacheUnpublished:true,aliases:[{from:item.id,to:candidate.id,evidenceUrl:'https://api.github.com/repos/'+item.id,checkedAt:args.now}]}),/Published alias/);
+ const queued=JSON.parse(fs.readFileSync(path.join(temp,'github-hot-guide-state.json')));queued.pending[candidate.id]={...pending,sourceHash:sourceHash(candidate)};queued.pending['fixture/old-name']={...pending};fs.writeFileSync(path.join(temp,'github-hot-guide-state.json'),JSON.stringify(queued));
+ const alias={from:'fixture/old-name',to:candidate.id,evidenceUrl:'https://api.github.com/repos/fixture/old-name',checkedAt:args.now};
+ const warm=apply({...candidateArgs,cacheUnpublished:true,aliases:[alias],write:true});assert.equal(warm.unpublishedCached,1);assert.equal(warm.pending,0);
+ assert.deepEqual(JSON.parse(fs.readFileSync(path.join(temp,'github-hot.json'))).editions,snapshot.editions);
+ const warmedState=JSON.parse(fs.readFileSync(path.join(temp,'github-hot-guide-state.json')));assert(isReady({...candidate,...warmedState.guides[candidate.id].content}));
+ apply({...candidateArgs,cacheUnpublished:true,aliases:[alias],write:true});const audit=JSON.parse(fs.readFileSync(path.join(temp,'github-hot-curation-audit.json')));assert.equal(audit.batches.filter(b=>b.batch==='unpublished').length,1);assert.equal(audit.batches.at(-1).retiredAliases[0].to,candidate.id);
+ console.log('Unpublished cache opt-in, alias audit, publication guard and repeat-safe batches passed.');
 }finally{assert.equal(path.dirname(temp),os.tmpdir());fs.rmSync(temp,{recursive:true,force:true});}

@@ -912,7 +912,7 @@
     },
     "ai-job-search-dev/ai-job-search": {
       "sourceHash": "e27820e7fa3ec4b3201f1a8e6bddcfce9b212cfb9aab222fef38618f7b4c13d6",
-      "completedAt": "2026-11-04T09:45:38.658Z",
+      "completedAt": "2026-11-04T10:36:58.622Z",
       "content": {
         "summary": "基于 Claude Code 的求职流程，把个人资料、职位匹配、简历定制、求职信与面试准备串联起来，求职网站搜索部分侧重丹麦市场。",
         "scenarios": [
@@ -963,7 +963,7 @@
           "review": {
             "approved": true,
             "sourceHash": "e27820e7fa3ec4b3201f1a8e6bddcfce9b212cfb9aab222fef38618f7b4c13d6",
-            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "checkedAt": "2026-11-04T10:36:58.622Z",
             "method": "source-reading-and-structure-check"
           }
         },
@@ -12513,95 +12513,481 @@
         },
         "editorialStatus": "中文导读 · 官方原文已核对"
       }
-    }
-  },
-  "pending": {
-    "madslorentzen/ai-job-search": {
-      "id": "madslorentzen/ai-job-search",
-      "sourceHash": "2f7636632b585fcf4123e19a957c7f26678022b9f7ff20fb28382c3ae6154eac",
-      "firstSeenAt": "2026-10-19T06:10:18.286Z",
-      "attempts": 3,
-      "lastSeenAt": "2026-10-21T06:00:52.593Z",
-      "readmeUrl": "https://github.com/MadsLorentzen/ai-job-search/blob/master/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-10-20T05:59:29.609Z",
-      "nextAttemptAt": "2026-10-20T06:59:29.609Z"
     },
     "jgthms/bulma": {
-      "id": "jgthms/bulma",
       "sourceHash": "15068c9e181aace3b7f033f994e4606fa86da061914cc3af820a2c1a1ac8d644",
-      "firstSeenAt": "2026-10-28T06:50:28.519Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/jgthms/bulma/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
+      "completedAt": "2026-11-04T10:36:58.622Z",
+      "content": {
+        "summary": "基于 Flexbox 的现代 CSS 框架，用类名构建布局、表单与常用界面组件，适合不绑定特定 JavaScript 框架的样式基础。",
+        "scenarios": [
+          "搭建一页响应式表单与卡片布局。"
+        ],
+        "usage": "基于 Flexbox 的现代 CSS 框架，用类名构建布局、表单与常用界面组件，适合不绑定特定 JavaScript 框架的样式基础。",
+        "requirements": "准备网页项目；交互逻辑需要自己或配套库实现，不默认由 CSS 提供。",
+        "quickStart": "1. 按 Quick install 选择 npm 或样式文件接入。\n2. 参考组件文档添加布局与表单，在不同宽度检查显示，交互另行实现。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "开发库",
+          "purpose": "基于 Flexbox 的现代 CSS 框架，用类名构建布局、表单与常用界面组件，适合不绑定特定 JavaScript 框架的样式基础。",
+          "audience": "需要轻量样式体系的前端开发者",
+          "example": "搭建一页响应式表单与卡片布局。",
+          "steps": [
+            "按 Quick install 选择 npm 或样式文件接入。",
+            "参考组件文档添加布局与表单，在不同宽度检查显示，交互另行实现。"
+          ],
+          "verification": "布局、样式与断点正确，键盘和表单行为可用；CSS 框架不会自动处理业务交互。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Modern CSS framework based on Flexbox\n\n# [Bulma](https://bulma.io)\n\nBulma is a **modern CSS framework** based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).\n\n\n[][npm-link]\n[][npm-link]\n[](https://www.jsdelivr.com/package/npm/bulma)"
+            },
+            {
+              "field": "purpose",
+              "quote": "Modern CSS framework based on Flexbox\n\n# [Bulma](https://bulma.io)\n\nBulma is a **modern CSS framework** based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).\n\n\n[][npm-link]\n[][npm-link]\n[](https://www.jsdelivr.com/package/npm/bulma)"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Modern CSS framework based on Flexbox\n\n# [Bulma](https://bulma.io)\n\nBulma is a **modern CSS framework** based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).\n\n\n[][npm-link]\n[][npm-link]\n[](https://www.jsdelivr.com/package/npm/bulma)"
+            },
+            {
+              "field": "steps",
+              "quote": "k]\n[](https://gitter.im/jgthms/bulma)\n[](https://travis-ci.org/jgthms/bulma)\n\n\n\n## Quick install\n\nBulma is constantly in development! Try it out now:\n\n### NPM\n\n```sh\nnpm install bulma\n```\n\n**or**\n\n### Yarn\n\n```sh\nyarn add bulma\n```\n\n### Bower\n\n```sh\nbower install bulma\n```\n\n### Import\n\nAfter installation, you can import the CSS file into your project usi"
+            },
+            {
+              "field": "verification",
+              "quote": "k]\n[](https://gitter.im/jgthms/bulma)\n[](https://travis-ci.org/jgthms/bulma)\n\n\n\n## Quick install\n\nBulma is constantly in development! Try it out now:\n\n### NPM\n\n```sh\nnpm install bulma\n```\n\n**or**\n\n### Yarn\n\n```sh\nyarn add bulma\n```\n\n### Bower\n\n```sh\nbower install bulma\n```\n\n### Import\n\nAfter installation, you can import the CSS file into your project usi"
+            }
+          ],
+          "sourceHash": "15068c9e181aace3b7f033f994e4606fa86da061914cc3af820a2c1a1ac8d644",
+          "sourceUrl": "https://github.com/jgthms/bulma/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "15068c9e181aace3b7f033f994e4606fa86da061914cc3af820a2c1a1ac8d644",
+            "checkedAt": "2026-11-04T10:36:58.622Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     },
     "hashicorp/terraform": {
-      "id": "hashicorp/terraform",
       "sourceHash": "40141a3d73fc6faf0a1cb9ca37719b0fe00dc910335d910359984e1c969fe459",
-      "firstSeenAt": "2026-10-29T07:01:48.386Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/hashicorp/terraform/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
+      "completedAt": "2026-11-04T10:36:58.622Z",
+      "content": {
+        "summary": "以声明式配置管理基础设施的工具，通过提供商插件调用云和服务 API，让资源变更可审阅、共享与版本化。",
+        "scenarios": [
+          "在测试账号中预览一个小资源的变更计划。"
+        ],
+        "usage": "以声明式配置管理基础设施的工具，通过提供商插件调用云和服务 API，让资源变更可审阅、共享与版本化。",
+        "requirements": "需要 CLI、匹配提供商和授权，状态存储与许可条件按官方文档确认。",
+        "quickStart": "1. 从 Tutorials 选择测试环境路线，安装并编写最小配置。\n2. 先审阅 plan 的资源变更，再决定是否应用；完成后按教程清理测试资源。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "以声明式配置管理基础设施的工具，通过提供商插件调用云和服务 API，让资源变更可审阅、共享与版本化。",
+          "audience": "维护基础设施的工程师",
+          "example": "在测试账号中预览一个小资源的变更计划。",
+          "steps": [
+            "从 Tutorials 选择测试环境路线，安装并编写最小配置。",
+            "先审阅 plan 的资源变更，再决定是否应用；完成后按教程清理测试资源。"
+          ],
+          "verification": "配置、状态和实际资源一致，计划中的创建或删除全部可解释。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.\n\n# Terraform\n\n- Website: https://developer.hashicorp.com/terraform\n- Forums: [HashiCorp Discuss](https://discuss.hashicorp.com/c/terraform-core)\n- Docu"
+            },
+            {
+              "field": "purpose",
+              "quote": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.\n\n# Terraform\n\n- Website: https://developer.hashicorp.com/terraform\n- Forums: [HashiCorp Discuss](https://discuss.hashicorp.com/c/terraform-core)\n- Docu"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.\n\n# Terraform\n\n- Website: https://developer.hashicorp.com/terraform\n- Forums: [HashiCorp Discuss](https://discuss.hashicorp.com/c/terraform-core)\n- Docu"
+            },
+            {
+              "field": "steps",
+              "quote": "veloper.hashicorp.com/terraform/docs)\n- Tutorials: [HashiCorp's Learn Platform](https://developer.hashicorp.com/terraform/tutorials)\n- Certification Exam: [HashiCorp Certified: Terraform Associate](https://www.hashicorp.com/certification/#hashicorp-certified-terraform-associate)\n\n\n\nTerraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform "
+            },
+            {
+              "field": "verification",
+              "quote": "veloper.hashicorp.com/terraform/docs)\n- Tutorials: [HashiCorp's Learn Platform](https://developer.hashicorp.com/terraform/tutorials)\n- Certification Exam: [HashiCorp Certified: Terraform Associate](https://www.hashicorp.com/certification/#hashicorp-certified-terraform-associate)\n\n\n\nTerraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform "
+            }
+          ],
+          "sourceHash": "40141a3d73fc6faf0a1cb9ca37719b0fe00dc910335d910359984e1c969fe459",
+          "sourceUrl": "https://github.com/hashicorp/terraform/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "40141a3d73fc6faf0a1cb9ca37719b0fe00dc910335d910359984e1c969fe459",
+            "checkedAt": "2026-11-04T10:36:58.622Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     },
     "boykopovar/anyps5": {
-      "id": "boykopovar/anyps5",
-      "sourceHash": "6e1d15e010c45714fb6a9da90749b49cd52d53927d40afb9e4ec54e259f001e0",
-      "firstSeenAt": "2026-11-03T07:54:18.929Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/boykopovar/AnyPS5/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-03T07:54:18.929Z",
-      "nextAttemptAt": "2026-11-03T08:54:18.929Z"
+      "sourceHash": "98319bb4c63e97eabedc7322a3b281931e573ad59c0aedc31ddf75f08adc9411",
+      "completedAt": "2026-11-04T10:36:58.622Z",
+      "content": {
+        "summary": "研究将 PS5 等可执行文件移植到 Linux/Windows 的互操作工具，包含重链接与兼容性实验，不提供游戏、固件或密钥。",
+        "scenarios": [
+          "核对一份自有授权样本的当前兼容路径。"
+        ],
+        "usage": "研究将 PS5 等可执行文件移植到 Linux/Windows 的互操作工具，包含重链接与兼容性实验，不提供游戏、固件或密钥。",
+        "requirements": "需要合法取得的二进制与对应构建依赖，具体游戏和平台支持按报告确认。",
+        "quickStart": "1. 先阅读中文用户说明与 Compatibility，确认样本是否有测试报告。\n2. 按对应文档构建或使用重链接路线，在隔离环境记录转换与启动问题。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "研究 / 实验项目",
+          "purpose": "研究将 PS5 等可执行文件移植到 Linux/Windows 的互操作工具，包含重链接与兼容性实验，不提供游戏、固件或密钥。",
+          "audience": "研究合法软件兼容性的开发者",
+          "example": "核对一份自有授权样本的当前兼容路径。",
+          "steps": [
+            "先阅读中文用户说明与 Compatibility，确认样本是否有测试报告。",
+            "按对应文档构建或使用重链接路线，在隔离环境记录转换与启动问题。"
+          ],
+          "verification": "转换结果与兼容报告可比较，未支持部分明确；不宣称任意游戏都能运行。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Tool for automatic PS5 executables porting to Linux and Windows\n\n**English** | [Português (Brasil)](docs/user/README.pt-BR.md) | [Español](docs/user/README.es.md) | [Italiano](docs/user/README.it.md) | [简体中文](docs/user/README.zh-CN.md) | [Русский](docs/user/README.ru.md) | [Bahasa Indonesia](docs/user/README.id.md)\n\n# Abo"
+            },
+            {
+              "field": "purpose",
+              "quote": "Tool for automatic PS5 executables porting to Linux and Windows\n\n**English** | [Português (Brasil)](docs/user/README.pt-BR.md) | [Español](docs/user/README.es.md) | [Italiano](docs/user/README.it.md) | [简体中文](docs/user/README.zh-CN.md) | [Русский](docs/user/README.ru.md) | [Bahasa Indonesia](docs/user/README.id.md)\n\n# Abo"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Tool for automatic PS5 executables porting to Linux and Windows\n\n**English** | [Português (Brasil)](docs/user/README.pt-BR.md) | [Español](docs/user/README.es.md) | [Italiano](docs/user/README.it.md) | [简体中文](docs/user/README.zh-CN.md) | [Русский](docs/user/README.ru.md) | [Bahasa Indonesia](docs/user/README.id.md)\n\n# Abo"
+            },
+            {
+              "field": "steps",
+              "quote": "irv-Tools](3rdparty/SPIRV-Tools) when built with `ANYPS5_ENABLE_SPIRV_TOOLS`).\n\n## Compatibility\n\nPer-game status and test reports live in the [Game bring-up](https://github.com/boykopovar/AnyPS5/discussions/categories/game-bring-up) discussions, one thread per title.\n\n## Input mapping\n\nSDL-mapped game controllers are supported, including analog sticks a"
+            },
+            {
+              "field": "verification",
+              "quote": "irv-Tools](3rdparty/SPIRV-Tools) when built with `ANYPS5_ENABLE_SPIRV_TOOLS`).\n\n## Compatibility\n\nPer-game status and test reports live in the [Game bring-up](https://github.com/boykopovar/AnyPS5/discussions/categories/game-bring-up) discussions, one thread per title.\n\n## Input mapping\n\nSDL-mapped game controllers are supported, including analog sticks a"
+            }
+          ],
+          "sourceHash": "98319bb4c63e97eabedc7322a3b281931e573ad59c0aedc31ddf75f08adc9411",
+          "sourceUrl": "https://github.com/boykopovar/AnyPS5/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "98319bb4c63e97eabedc7322a3b281931e573ad59c0aedc31ddf75f08adc9411",
+            "checkedAt": "2026-11-04T10:36:58.622Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     },
     "gathin23/cleanyourtv": {
-      "id": "gathin23/cleanyourtv",
-      "sourceHash": "7942a282add06fb45950c7d32349f54946fc0019343b15a568314364e097207e",
-      "firstSeenAt": "2026-11-04T07:28:40.974Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/Gathin23/cleanyourtv/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
+      "sourceHash": "d242ade2dbbd7d9f4dfc60181ed21a026cff2437380eea003ae7f2401855ceed",
+      "completedAt": "2026-11-04T10:36:58.622Z",
+      "content": {
+        "summary": "通过同一 Wi-Fi 上的电脑调整 Android/Google TV 预装应用与主屏的工具流程，提供助手和手工路线，并包含恢复方法。",
+        "scenarios": [
+          "先检查电视可调整项目，再试用简洁主屏。"
+        ],
+        "usage": "通过同一 Wi-Fi 上的电脑调整 Android/Google TV 预装应用与主屏的工具流程，提供助手和手工路线，并包含恢复方法。",
+        "requirements": "需匹配 Android/Google TV 和网络；电脑路线按文档准备 Python、JDK 与 Android SDK，其他电视系统不适用。",
+        "quickStart": "1. 从 Start here 核对电视系统，按 Quick start 准备环境与连接。\n2. 先审阅将禁用的应用与恢复脚本，再按小范围变更验证主屏和常用功能。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "通过同一 Wi-Fi 上的电脑调整 Android/Google TV 预装应用与主屏的工具流程，提供助手和手工路线，并包含恢复方法。",
+          "audience": "管理自有 Android 电视的用户",
+          "example": "先检查电视可调整项目，再试用简洁主屏。",
+          "steps": [
+            "从 Start here 核对电视系统，按 Quick start 准备环境与连接。",
+            "先审阅将禁用的应用与恢复脚本，再按小范围变更验证主屏和常用功能。"
+          ],
+          "verification": "电视可正常使用且变更可恢复；不要把它套用于三星等非 Android 系统。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.\n\nRead in: 简体中文 · 正體中文 · Tiếng Việt · 日本語 · Italiano · Português · Nederlands · Deutsch · Українська · Türkçe\n\n\n\n  \n  \n  \n  \n  \n  \n\n\n\n  \n\n\n\n  \n\n\n## Start here\n\n| You have | Go to |\n|---|---|\n| **An Android TV or Google TV** | [Quick start](#quick-start): a cod"
+            },
+            {
+              "field": "purpose",
+              "quote": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.\n\nRead in: 简体中文 · 正體中文 · Tiếng Việt · 日本語 · Italiano · Português · Nederlands · Deutsch · Українська · Türkçe\n\n\n\n  \n  \n  \n  \n  \n  \n\n\n\n  \n\n\n\n  \n\n\n## Start here\n\n| You have | Go to |\n|---|---|\n| **An Android TV or Google TV** | [Quick start](#quick-start): a cod"
+            },
+            {
+              "field": "scenarios",
+              "quote": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.\n\nRead in: 简体中文 · 正體中文 · Tiếng Việt · 日本語 · Italiano · Português · Nederlands · Deutsch · Українська · Türkçe\n\n\n\n  \n  \n  \n  \n  \n  \n\n\n\n  \n\n\n\n  \n\n\n## Start here\n\n| You have | Go to |\n|---|---|\n| **An Android TV or Google TV** | [Quick start](#quick-start): a cod"
+            },
+            {
+              "field": "steps",
+              "quote": "and, so the prompt has your coding assistant discover it on your TV and ask\nbe\n\n## Quick start\n\n| You have | Do this |\n|---|---|\n| **A computer** | Use the prompt with a coding assistant: the three steps below. |\n| **A computer, no coding assistant** | Run the three steps yourself: the commands are in [Doing it by hand](#doing-it-by-hand). |\n| **A phon"
+            },
+            {
+              "field": "verification",
+              "quote": "and, so the prompt has your coding assistant discover it on your TV and ask\nbe\n\n## Quick start\n\n| You have | Do this |\n|---|---|\n| **A computer** | Use the prompt with a coding assistant: the three steps below. |\n| **A computer, no coding assistant** | Run the three steps yourself: the commands are in [Doing it by hand](#doing-it-by-hand). |\n| **A phon"
+            }
+          ],
+          "sourceHash": "d242ade2dbbd7d9f4dfc60181ed21a026cff2437380eea003ae7f2401855ceed",
+          "sourceUrl": "https://github.com/Gathin23/cleanyourtv/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "d242ade2dbbd7d9f4dfc60181ed21a026cff2437380eea003ae7f2401855ceed",
+            "checkedAt": "2026-11-04T10:36:58.622Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     },
     "lukasz-madon/awesome-remote-job": {
-      "id": "lukasz-madon/awesome-remote-job",
       "sourceHash": "db6a5683815d025cd92d50b4c9734b0495128631a074dd616fc86a506b5fef78",
-      "firstSeenAt": "2026-11-04T07:28:40.974Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/lukasz-madon/awesome-remote-job/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
+      "completedAt": "2026-11-04T10:36:58.622Z",
+      "content": {
+        "summary": "按远程工作主题汇集职位、公司、工具与协作资源，帮助寻找机会并了解分布式工作的方式。",
+        "scenarios": [
+          "筛选远程职位来源并学习协作方法。"
+        ],
+        "usage": "按远程工作主题汇集职位、公司、工具与协作资源，帮助寻找机会并了解分布式工作的方式。",
+        "requirements": "浏览器即可阅读，岗位地区、时区和招聘状态需向来源确认。",
+        "quickStart": "1. 按目录选择招聘或团队协作资源，进入原始网站。\n2. 核实岗位限制和日期，或挑一项协作建议在自己的流程中试行。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "资源目录",
+          "purpose": "按远程工作主题汇集职位、公司、工具与协作资源，帮助寻找机会并了解分布式工作的方式。",
+          "audience": "寻找远程机会或组织远程团队的用户",
+          "example": "筛选远程职位来源并学习协作方法。",
+          "steps": [
+            "按目录选择招聘或团队协作资源，进入原始网站。",
+            "核实岗位限制和日期，或挑一项协作建议在自己的流程中试行。"
+          ],
+          "verification": "信息仍有效并与个人条件匹配；目录不保证职位持续开放或录用结果。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python\n\n# Awesome Remote Job [](https://github.com/sindresorhus/awesome) [](https://www.trackawesomelist.com/lukasz-madon/awesome-remote-job/)\n\nA curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecommuting) resources.\n\n## Languages\n\n- [Engli"
+            },
+            {
+              "field": "purpose",
+              "quote": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python\n\n# Awesome Remote Job [](https://github.com/sindresorhus/awesome) [](https://www.trackawesomelist.com/lukasz-madon/awesome-remote-job/)\n\nA curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecommuting) resources.\n\n## Languages\n\n- [Engli"
+            },
+            {
+              "field": "scenarios",
+              "quote": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python\n\n# Awesome Remote Job [](https://github.com/sindresorhus/awesome) [](https://www.trackawesomelist.com/lukasz-madon/awesome-remote-job/)\n\nA curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecommuting) resources.\n\n## Languages\n\n- [Engli"
+            },
+            {
+              "field": "steps",
+              "quote": "ckawesomelist.com/lukasz-madon/awesome-remote-job/)\n\nA curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecommuting) resources.\n\n## Languages\n\n- [English (default)](README.md)\n- [Español](README.es.md)\n- [Français](README.fr.md)\n- [简体中文](README.zh.md)\n- [日本語](README.ja.md)\n\n*To contribute, click README.md and then the pencil ico"
+            },
+            {
+              "field": "verification",
+              "quote": "ckawesomelist.com/lukasz-madon/awesome-remote-job/)\n\nA curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecommuting) resources.\n\n## Languages\n\n- [English (default)](README.md)\n- [Español](README.es.md)\n- [Français](README.fr.md)\n- [简体中文](README.zh.md)\n- [日本語](README.ja.md)\n\n*To contribute, click README.md and then the pencil ico"
+            }
+          ],
+          "sourceHash": "db6a5683815d025cd92d50b4c9734b0495128631a074dd616fc86a506b5fef78",
+          "sourceUrl": "https://github.com/lukasz-madon/awesome-remote-job/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "db6a5683815d025cd92d50b4c9734b0495128631a074dd616fc86a506b5fef78",
+            "checkedAt": "2026-11-04T10:36:58.622Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     },
     "mudler/localai": {
-      "id": "mudler/localai",
-      "sourceHash": "4584fcc893bf8c3ccd9c66a5c388793110f48bad8a8f5628628ba82d6f93e2e7",
-      "firstSeenAt": "2026-11-04T07:28:40.974Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/mudler/LocalAI/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
+      "sourceHash": "b330136db60b9d3db0cba6434a4795efb9f9c484adeb68a2648bfae40235847e",
+      "completedAt": "2026-11-04T10:36:58.622Z",
+      "content": {
+        "summary": "将多类模型后端组织为本地 AI 服务的引擎，可处理文本、视觉和语音等任务，按所选后端下载运行组件。",
+        "scenarios": [
+          "运行一个适合自己硬件的小文本模型并调用。"
+        ],
+        "usage": "将多类模型后端组织为本地 AI 服务的引擎，可处理文本、视觉和语音等任务，按所选后端下载运行组件。",
+        "requirements": "需要模型、存储和对应运行环境；无 GPU 路线也受内存、速度与模型限制。",
+        "quickStart": "1. 按 Getting Started guide 安装并选择适合硬件的后端与小模型。\n2. 启动服务发送简短请求，记录延迟和内存，再决定是否扩展任务。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "自部署服务",
+          "purpose": "将多类模型后端组织为本地 AI 服务的引擎，可处理文本、视觉和语音等任务，按所选后端下载运行组件。",
+          "audience": "搭建本地推理服务的开发者",
+          "example": "运行一个适合自己硬件的小文本模型并调用。",
+          "steps": [
+            "按 Getting Started guide 安装并选择适合硬件的后端与小模型。",
+            "启动服务发送简短请求，记录延迟和内存，再决定是否扩展任务。"
+          ],
+          "verification": "模型能加载并返回预期结果，实际资源可承受；不把支持多种模型理解为任意硬件都足够。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.\n\n# \n  \n   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeutsch |\nEspañol |\nfrançais |\n日本語 |\n한국어 |\nPortuguês |\nРусский |\n中文\n\n\n**LocalAI** is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.\n\n**A small core, not a"
+            },
+            {
+              "field": "purpose",
+              "quote": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.\n\n# \n  \n   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeutsch |\nEspañol |\nfrançais |\n日本語 |\n한국어 |\nPortuguês |\nРусский |\n中文\n\n\n**LocalAI** is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.\n\n**A small core, not a"
+            },
+            {
+              "field": "scenarios",
+              "quote": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.\n\n# \n  \n   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeutsch |\nEspañol |\nfrançais |\n日本語 |\n한국어 |\nPortuguês |\nРусский |\n中文\n\n\n**LocalAI** is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.\n\n**A small core, not a"
+            },
+            {
+              "field": "steps",
+              "quote": "on](https://localai.io/features/gpu-acceleration/).\n\nFor more details, see the [Getting Started guide](https://localai.io/basics/getting_started/).\n\n## Latest News\n\n- **October 2026**: **LocalAI 4.11.0** — Audio scenes with transcription, speaker labels, and sound detection. Also the Decisions API (`/v1/systemone`), model failover chains, signed OCI galleries"
+            },
+            {
+              "field": "verification",
+              "quote": "on](https://localai.io/features/gpu-acceleration/).\n\nFor more details, see the [Getting Started guide](https://localai.io/basics/getting_started/).\n\n## Latest News\n\n- **October 2026**: **LocalAI 4.11.0** — Audio scenes with transcription, speaker labels, and sound detection. Also the Decisions API (`/v1/systemone`), model failover chains, signed OCI galleries"
+            }
+          ],
+          "sourceHash": "b330136db60b9d3db0cba6434a4795efb9f9c484adeb68a2648bfae40235847e",
+          "sourceUrl": "https://github.com/mudler/LocalAI/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "b330136db60b9d3db0cba6434a4795efb9f9c484adeb68a2648bfae40235847e",
+            "checkedAt": "2026-11-04T10:36:58.622Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     },
     "x64dbg/x64dbg": {
-      "id": "x64dbg/x64dbg",
       "sourceHash": "8430f9af815348b3f8061f79c1a16d05358413fe03b16e5f77d66ed0c558ef22",
-      "firstSeenAt": "2026-11-04T07:28:40.974Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/x64dbg/x64dbg/blob/development/README.md",
-      "reason": "awaiting-chinese-guide"
+      "completedAt": "2026-11-04T10:36:58.622Z",
+      "content": {
+        "summary": "Windows 用户态二进制调试器，可查看执行流程、断点与运行数据，适合分析自己的程序或获授权样本。",
+        "scenarios": [
+          "在测试程序中设置断点观察变量与调用。"
+        ],
+        "usage": "Windows 用户态二进制调试器，可查看执行流程、断点与运行数据，适合分析自己的程序或获授权样本。",
+        "requirements": "需要 Windows 与匹配位数版本；不可信样本应在隔离分析环境处理。",
+        "quickStart": "1. 从官方入口获取版本，先打开自己的小测试程序。\n2. 按文档设置断点并单步，检查寄存器、内存与调用栈记录。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "Windows 用户态二进制调试器，可查看执行流程、断点与运行数据，适合分析自己的程序或获授权样本。",
+          "audience": "调试 Windows 程序的开发者",
+          "example": "在测试程序中设置断点观察变量与调用。",
+          "steps": [
+            "从官方入口获取版本，先打开自己的小测试程序。",
+            "按文档设置断点并单步，检查寄存器、内存与调用栈记录。"
+          ],
+          "verification": "断点命中目标位置，运行状态能与预期代码对应；本工具不会自动恢复完整原始源码。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.\n\n# x64dbg\n\n\n\n[](https://translate.x64dbg.com) [](https://sourceforge.net/projects/x64dbg/files/latest/download) [](https://deepwiki.com/x64dbg/x64dbg)\n\n[](https://discord.x64dbg.com) [](https://slack.x64dbg.com) [](https://gitter.im/x64dbg/x64dbg) [](https://"
+            },
+            {
+              "field": "purpose",
+              "quote": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.\n\n# x64dbg\n\n\n\n[](https://translate.x64dbg.com) [](https://sourceforge.net/projects/x64dbg/files/latest/download) [](https://deepwiki.com/x64dbg/x64dbg)\n\n[](https://discord.x64dbg.com) [](https://slack.x64dbg.com) [](https://gitter.im/x64dbg/x64dbg) [](https://"
+            },
+            {
+              "field": "scenarios",
+              "quote": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.\n\n# x64dbg\n\n\n\n[](https://translate.x64dbg.com) [](https://sourceforge.net/projects/x64dbg/files/latest/download) [](https://deepwiki.com/x64dbg/x64dbg)\n\n[](https://discord.x64dbg.com) [](https://slack.x64dbg.com) [](https://gitter.im/x64dbg/x64dbg) [](https://"
+            },
+            {
+              "field": "steps",
+              "quote": "[](https://matrix.to/#/#x64dbg:matrix.org) [](https://web.libera.chat/#x64dbg)\n\nAn open-source binary debugger for Windows, aimed at malware analysis and reverse engineering of executables you do not have the source code for. There are many features available and a comprehensive [plugin system](https://plugins.x64dbg.com) to add your own. You can find more information"
+            },
+            {
+              "field": "verification",
+              "quote": "[](https://matrix.to/#/#x64dbg:matrix.org) [](https://web.libera.chat/#x64dbg)\n\nAn open-source binary debugger for Windows, aimed at malware analysis and reverse engineering of executables you do not have the source code for. There are many features available and a comprehensive [plugin system](https://plugins.x64dbg.com) to add your own. You can find more information"
+            }
+          ],
+          "sourceHash": "8430f9af815348b3f8061f79c1a16d05358413fe03b16e5f77d66ed0c558ef22",
+          "sourceUrl": "https://github.com/x64dbg/x64dbg/blob/development/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "8430f9af815348b3f8061f79c1a16d05358413fe03b16e5f77d66ed0c558ef22",
+            "checkedAt": "2026-11-04T10:36:58.622Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     },
     "tmux/tmux": {
-      "id": "tmux/tmux",
       "sourceHash": "0cc31e33e2d5c31bcdd9764f5efab4ca165eca4a3d3c5abf5f35d59a84ec5c04",
-      "firstSeenAt": "2026-11-04T07:28:40.974Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-04T07:28:40.974Z",
-      "readmeUrl": "https://github.com/tmux/tmux/blob/master/.github/README.md",
-      "reason": "awaiting-chinese-guide"
+      "completedAt": "2026-11-04T10:36:58.622Z",
+      "content": {
+        "summary": "在一个终端中管理多个会话与窗口的复用器，会话可分离并在后台继续，之后再连接，适合远程或长期命令任务。",
+        "scenarios": [
+          "把长期测试和日志放在独立会话中切换查看。"
+        ],
+        "usage": "在一个终端中管理多个会话与窗口的复用器，会话可分离并在后台继续，之后再连接，适合远程或长期命令任务。",
+        "requirements": "需要支持的平台与依赖，配置示例按 tmux 文档选择。",
+        "quickStart": "1. 按平台安装 tmux，阅读 Documentation 中的 tmux.1 使用说明。\n2. 创建测试会话并分离后重新连接，参考 example_tmux.conf 调整需要的快捷键。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "在一个终端中管理多个会话与窗口的复用器，会话可分离并在后台继续，之后再连接，适合远程或长期命令任务。",
+          "audience": "经常使用 Unix 终端的开发者",
+          "example": "把长期测试和日志放在独立会话中切换查看。",
+          "steps": [
+            "按平台安装 tmux，阅读 Documentation 中的 tmux.1 使用说明。",
+            "创建测试会话并分离后重新连接，参考 example_tmux.conf 调整需要的快捷键。"
+          ],
+          "verification": "重新连接能看到原会话，窗口和命令状态清楚；主机关机后进程不会因此永久保留。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "tmux source code\n\n# Welcome to tmux!\n\ntmux is a terminal multiplexer: it enables a number of terminals to be created,\naccessed, and controlled from a single screen. tmux may be detached from a\nscreen and continue running in the background, then later reattached.\n\nThis release"
+            },
+            {
+              "field": "purpose",
+              "quote": "tmux source code\n\n# Welcome to tmux!\n\ntmux is a terminal multiplexer: it enables a number of terminals to be created,\naccessed, and controlled from a single screen. tmux may be detached from a\nscreen and continue running in the background, then later reattached.\n\nThis release"
+            },
+            {
+              "field": "scenarios",
+              "quote": "tmux source code\n\n# Welcome to tmux!\n\ntmux is a terminal multiplexer: it enables a number of terminals to be created,\naccessed, and controlled from a single screen. tmux may be detached from a\nscreen and continue running in the background, then later reattached.\n\nThis release"
+            },
+            {
+              "field": "steps",
+              "quote": "g list if you're thinking of working on something or need\nfurther information.\n\n## Documentation\n\nFor documentation on using tmux, see the tmux.1 manpage. View it from the\nsource tree with:\n\n~~~bash\nnroff -mdoc tmux.1|less\n~~~\n\nA small example configuration is in `example_tmux.conf`.\n\nAnd a bash(1) completion file at:\n\nhttps://github.com/scop/bash-comple"
+            },
+            {
+              "field": "verification",
+              "quote": "g list if you're thinking of working on something or need\nfurther information.\n\n## Documentation\n\nFor documentation on using tmux, see the tmux.1 manpage. View it from the\nsource tree with:\n\n~~~bash\nnroff -mdoc tmux.1|less\n~~~\n\nA small example configuration is in `example_tmux.conf`.\n\nAnd a bash(1) completion file at:\n\nhttps://github.com/scop/bash-comple"
+            }
+          ],
+          "sourceHash": "0cc31e33e2d5c31bcdd9764f5efab4ca165eca4a3d3c5abf5f35d59a84ec5c04",
+          "sourceUrl": "https://github.com/tmux/tmux/blob/master/.github/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "0cc31e33e2d5c31bcdd9764f5efab4ca165eca4a3d3c5abf5f35d59a84ec5c04",
+            "checkedAt": "2026-11-04T10:36:58.622Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     }
   },
+  "pending": {},
   "budget": {
     "day": "2026-11-04",
     "counts": {

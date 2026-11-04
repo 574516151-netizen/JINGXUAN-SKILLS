@@ -1110,6 +1110,66 @@
           "editionCopies": 3
         }
       ]
+    },
+    {
+      "batch": "backlog-011",
+      "reviewedAt": "2026-11-04T10:36:58.622Z",
+      "method": "source-reading-and-structure-check",
+      "projects": [
+        {
+          "id": "jgthms/bulma",
+          "sourceHash": "15068c9e181aace3b7f033f994e4606fa86da061914cc3af820a2c1a1ac8d644",
+          "editionCopies": 0
+        },
+        {
+          "id": "hashicorp/terraform",
+          "sourceHash": "40141a3d73fc6faf0a1cb9ca37719b0fe00dc910335d910359984e1c969fe459",
+          "editionCopies": 0
+        },
+        {
+          "id": "boykopovar/anyps5",
+          "sourceHash": "98319bb4c63e97eabedc7322a3b281931e573ad59c0aedc31ddf75f08adc9411",
+          "editionCopies": 0
+        },
+        {
+          "id": "gathin23/cleanyourtv",
+          "sourceHash": "d242ade2dbbd7d9f4dfc60181ed21a026cff2437380eea003ae7f2401855ceed",
+          "editionCopies": 0
+        },
+        {
+          "id": "lukasz-madon/awesome-remote-job",
+          "sourceHash": "db6a5683815d025cd92d50b4c9734b0495128631a074dd616fc86a506b5fef78",
+          "editionCopies": 0
+        },
+        {
+          "id": "mudler/localai",
+          "sourceHash": "b330136db60b9d3db0cba6434a4795efb9f9c484adeb68a2648bfae40235847e",
+          "editionCopies": 0
+        },
+        {
+          "id": "x64dbg/x64dbg",
+          "sourceHash": "8430f9af815348b3f8061f79c1a16d05358413fe03b16e5f77d66ed0c558ef22",
+          "editionCopies": 0
+        },
+        {
+          "id": "tmux/tmux",
+          "sourceHash": "0cc31e33e2d5c31bcdd9764f5efab4ca165eca4a3d3c5abf5f35d59a84ec5c04",
+          "editionCopies": 0
+        },
+        {
+          "id": "ai-job-search-dev/ai-job-search",
+          "sourceHash": "e27820e7fa3ec4b3201f1a8e6bddcfce9b212cfb9aab222fef38618f7b4c13d6",
+          "editionCopies": 3
+        }
+      ],
+      "retiredAliases": [
+        {
+          "from": "madslorentzen/ai-job-search",
+          "to": "ai-job-search-dev/ai-job-search",
+          "evidenceUrl": "https://api.github.com/repos/madslorentzen/ai-job-search",
+          "checkedAt": "2026-11-04T10:33:55.798Z"
+        }
+      ]
     }
   ]
 }

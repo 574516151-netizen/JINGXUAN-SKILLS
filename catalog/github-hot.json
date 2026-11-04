@@ -2,29 +2,14 @@
   "schemaVersion": 1,
   "guidePolicyVersion": 3,
   "updateStatus": {
-    "lastCollectedAt": "2026-11-04T10:27:58.917Z",
-    "pendingCount": 9,
-    "readyCount": 211,
-    "reasons": [
-      {
-        "code": "guide-validation-failed",
-        "label": "中文完整性检查未通过",
-        "action": "重新整理缺失字段",
-        "count": 2,
-        "nextAttemptAt": "2026-10-20T06:59:29.609Z"
-      },
-      {
-        "code": "awaiting-chinese-guide",
-        "label": "排队中，尚未开始整理",
-        "action": "项目已可浏览和收藏，后台按批次补齐中文介绍",
-        "count": 7,
-        "nextAttemptAt": null
-      }
-    ]
+    "lastCollectedAt": "2026-11-04T10:36:58.622Z",
+    "pendingCount": 0,
+    "readyCount": 219,
+    "reasons": []
   },
   "thresholdExclusive": 50000,
   "maxItems": 500,
-  "generatedAt": "2026-11-04T10:27:58.917Z",
+  "generatedAt": "2026-11-04T10:36:58.622Z",
   "editions": [
     {
       "id": "2026-11-02",
@@ -16938,7 +16923,7 @@
           ],
           "readmeUrl": "https://github.com/ai-job-search-dev/ai-job-search/blob/master/README.md",
           "readmeExcerpt": "\n  \n\n\n\n  \n  &nbsp;\n  \n  &nbsp;\n  \n\n\n\n  \n\n\n\n  An AI-powered job application framework built on Claude Code.\n  Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV,\n  write cover letters, and prepare you for interviews.\n\n\n\n  Quick start\n  &nbsp;&nbsp;&nbsp;\n  Commands\n  &nbsp;&nbsp;&nbsp;\n  How /apply works\n  &nbsp;&nbsp;&nbsp;\n  Customization\n  &nbsp;&nbsp;&nbsp;\n  Setup guide\n\n\n> [!NOTE]\n> This is an independent open-source project and is not affiliated with, endorsed by, sponsored by, or maintained by Anthropic. Anthropic and Claude Code are referenced only to describe the toolchain this workflow uses.\n>\n> This project has **no affiliated cryptocurrency, token, or paid sponsorship program**. Anything claiming otherwise is unauthorized and should be treated as a scam. The only ways to support the project are the Ko-fi link below and contributing on GitHub.\n\n## Does it actually work?\n\nI'm a geophysicist by training. When my position was cut in late 2025, I built this framework to run my own job search - the same `/scrape`, `/apply`, and `/interview` workflow in this repo, used weekly, on my own career. I was upfront about it with every employer I spoke to, and instead of counting against me, it usually sparked a genuine technical conversation.\n\n\n  \n\n\nSixty-nine tailored applications, twenty first interviews, and one signed contract later, I started as an AI engineer in June 2026. People kept asking whether this actually works. It got me hired. Now it's yours.\n\n*The longer version, including the full application funnel, is on [LinkedIn](https://www.linkedin.com/in/mads-lorentzen/).*\n\n\n  Did this save you a Sunday of cover-letter writing? Consider a coffee.\n  Did it land you the job? Maybe two. ☕\n\n\n\n  \n    \n  \n\n\n## What this is\n\nA structured workflow that turns Claude Code into a full-stack job application assistant. Six commands carry you from an empty profile to a tracked result:\n\n\n  \n\n\nThe core workflow (self-profiling, fit evaluation, and the drafter-reviewer application pipeline) is **language- and country-agnostic**. The job portal search skills are built for the Danish market (Jobindex, Jobnet, Akademikernes Jobbank, etc.), but\n\n### 2. Install job search tools\n\n```bash\npython3 tools/install_portal_clis.py   # Windows: python tools\\install_portal_clis.py\n```\n\n\nWhat the installer does\n\nIt runs `bun install` in every portal CLI under `.agents/skills/*/cli/` - discovered, not listed, so a portal you add with `/add-portal` or copy from another fork is included on a fresh clone. Every install runs with `--ignore-scripts`, and a CLI whose `package.json` declares an install-time lifecycle script, `trustedDependencies` or `workspaces`, or that has a `bunfig.toml` or `.npmrc` beside it, is skipped and reported rather than run. `--dry-run` shows what it would install.\n\nFor `linkedin-search` and `freehire-search` the install is optional: both have zero runtime dependencies and run with plain `bun`; `bun install` only pulls TypeScript dev types.\n\n\n\n\n\n### 3. Set up your profile\n\n```bash\nclaude\n\n\n## Quick start\n\n> 🎥 **Prefer to see it in action first?** [The Next New Thing did a hands-on walkthrough](https://www.youtube.com/watch?v=HoVxjMNFYv4) of how the workflow is actually used, from setup to a finished application (recorded August 2026 - commands may have evolved since).\n\n",
-          "readmeFetchedAt": "2026-11-04T09:25:32.427Z",
+          "readmeFetchedAt": "2026-11-04T10:30:09.894Z",
           "language": "Python",
           "license": "MIT",
           "pushedAt": "2026-11-02T06:04:24Z",
@@ -17006,7 +16991,7 @@
             "review": {
               "approved": true,
               "sourceHash": "e27820e7fa3ec4b3201f1a8e6bddcfce9b212cfb9aab222fef38618f7b4c13d6",
-              "checkedAt": "2026-11-04T09:45:38.658Z",
+              "checkedAt": "2026-11-04T10:36:58.622Z",
               "method": "source-reading-and-structure-check"
             }
           }
@@ -55955,7 +55940,7 @@
           ],
           "readmeUrl": "https://github.com/ai-job-search-dev/ai-job-search/blob/master/README.md",
           "readmeExcerpt": "\n  \n\n\n\n  \n  &nbsp;\n  \n  &nbsp;\n  \n\n\n\n  \n\n\n\n  An AI-powered job application framework built on Claude Code.\n  Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV,\n  write cover letters, and prepare you for interviews.\n\n\n\n  Quick start\n  &nbsp;&nbsp;&nbsp;\n  Commands\n  &nbsp;&nbsp;&nbsp;\n  How /apply works\n  &nbsp;&nbsp;&nbsp;\n  Customization\n  &nbsp;&nbsp;&nbsp;\n  Setup guide\n\n\n> [!NOTE]\n> This is an independent open-source project and is not affiliated with, endorsed by, sponsored by, or maintained by Anthropic. Anthropic and Claude Code are referenced only to describe the toolchain this workflow uses.\n>\n> This project has **no affiliated cryptocurrency, token, or paid sponsorship program**. Anything claiming otherwise is unauthorized and should be treated as a scam. The only ways to support the project are the Ko-fi link below and contributing on GitHub.\n\n## Does it actually work?\n\nI'm a geophysicist by training. When my position was cut in late 2025, I built this framework to run my own job search - the same `/scrape`, `/apply`, and `/interview` workflow in this repo, used weekly, on my own career. I was upfront about it with every employer I spoke to, and instead of counting against me, it usually sparked a genuine technical conversation.\n\n\n  \n\n\nSixty-nine tailored applications, twenty first interviews, and one signed contract later, I started as an AI engineer in June 2026. People kept asking whether this actually works. It got me hired. Now it's yours.\n\n*The longer version, including the full application funnel, is on [LinkedIn](https://www.linkedin.com/in/mads-lorentzen/).*\n\n\n  Did this save you a Sunday of cover-letter writing? Consider a coffee.\n  Did it land you the job? Maybe two. ☕\n\n\n\n  \n    \n  \n\n\n## What this is\n\nA structured workflow that turns Claude Code into a full-stack job application assistant. Six commands carry you from an empty profile to a tracked result:\n\n\n  \n\n\nThe core workflow (self-profiling, fit evaluation, and the drafter-reviewer application pipeline) is **language- and country-agnostic**. The job portal search skills are built for the Danish market (Jobindex, Jobnet, Akademikernes Jobbank, etc.), but\n\n### 2. Install job search tools\n\n```bash\npython3 tools/install_portal_clis.py   # Windows: python tools\\install_portal_clis.py\n```\n\n\nWhat the installer does\n\nIt runs `bun install` in every portal CLI under `.agents/skills/*/cli/` - discovered, not listed, so a portal you add with `/add-portal` or copy from another fork is included on a fresh clone. Every install runs with `--ignore-scripts`, and a CLI whose `package.json` declares an install-time lifecycle script, `trustedDependencies` or `workspaces`, or that has a `bunfig.toml` or `.npmrc` beside it, is skipped and reported rather than run. `--dry-run` shows what it would install.\n\nFor `linkedin-search` and `freehire-search` the install is optional: both have zero runtime dependencies and run with plain `bun`; `bun install` only pulls TypeScript dev types.\n\n\n\n\n\n### 3. Set up your profile\n\n```bash\nclaude\n\n\n## Quick start\n\n> 🎥 **Prefer to see it in action first?** [The Next New Thing did a hands-on walkthrough](https://www.youtube.com/watch?v=HoVxjMNFYv4) of how the workflow is actually used, from setup to a finished application (recorded August 2026 - commands may have evolved since).\n\n",
-          "readmeFetchedAt": "2026-11-04T09:25:32.427Z",
+          "readmeFetchedAt": "2026-11-04T10:30:09.894Z",
           "language": "Python",
           "license": "MIT",
           "pushedAt": "2026-10-21T05:29:11Z",
@@ -56023,7 +56008,7 @@
             "review": {
               "approved": true,
               "sourceHash": "e27820e7fa3ec4b3201f1a8e6bddcfce9b212cfb9aab222fef38618f7b4c13d6",
-              "checkedAt": "2026-11-04T09:45:38.658Z",
+              "checkedAt": "2026-11-04T10:36:58.622Z",
               "method": "source-reading-and-structure-check"
             }
           }
@@ -99873,7 +99858,7 @@
           ],
           "readmeUrl": "https://github.com/ai-job-search-dev/ai-job-search/blob/master/README.md",
           "readmeExcerpt": "\n  \n\n\n\n  \n  &nbsp;\n  \n  &nbsp;\n  \n\n\n\n  \n\n\n\n  An AI-powered job application framework built on Claude Code.\n  Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV,\n  write cover letters, and prepare you for interviews.\n\n\n\n  Quick start\n  &nbsp;&nbsp;&nbsp;\n  Commands\n  &nbsp;&nbsp;&nbsp;\n  How /apply works\n  &nbsp;&nbsp;&nbsp;\n  Customization\n  &nbsp;&nbsp;&nbsp;\n  Setup guide\n\n\n> [!NOTE]\n> This is an independent open-source project and is not affiliated with, endorsed by, sponsored by, or maintained by Anthropic. Anthropic and Claude Code are referenced only to describe the toolchain this workflow uses.\n>\n> This project has **no affiliated cryptocurrency, token, or paid sponsorship program**. Anything claiming otherwise is unauthorized and should be treated as a scam. The only ways to support the project are the Ko-fi link below and contributing on GitHub.\n\n## Does it actually work?\n\nI'm a geophysicist by training. When my position was cut in late 2025, I built this framework to run my own job search - the same `/scrape`, `/apply`, and `/interview` workflow in this repo, used weekly, on my own career. I was upfront about it with every employer I spoke to, and instead of counting against me, it usually sparked a genuine technical conversation.\n\n\n  \n\n\nSixty-nine tailored applications, twenty first interviews, and one signed contract later, I started as an AI engineer in June 2026. People kept asking whether this actually works. It got me hired. Now it's yours.\n\n*The longer version, including the full application funnel, is on [LinkedIn](https://www.linkedin.com/in/mads-lorentzen/).*\n\n\n  Did this save you a Sunday of cover-letter writing? Consider a coffee.\n  Did it land you the job? Maybe two. ☕\n\n\n\n  \n    \n  \n\n\n## What this is\n\nA structured workflow that turns Claude Code into a full-stack job application assistant. Six commands carry you from an empty profile to a tracked result:\n\n\n  \n\n\nThe core workflow (self-profiling, fit evaluation, and the drafter-reviewer application pipeline) is **language- and country-agnostic**. The job portal search skills are built for the Danish market (Jobindex, Jobnet, Akademikernes Jobbank, etc.), but\n\n### 2. Install job search tools\n\n```bash\npython3 tools/install_portal_clis.py   # Windows: python tools\\install_portal_clis.py\n```\n\n\nWhat the installer does\n\nIt runs `bun install` in every portal CLI under `.agents/skills/*/cli/` - discovered, not listed, so a portal you add with `/add-portal` or copy from another fork is included on a fresh clone. Every install runs with `--ignore-scripts`, and a CLI whose `package.json` declares an install-time lifecycle script, `trustedDependencies` or `workspaces`, or that has a `bunfig.toml` or `.npmrc` beside it, is skipped and reported rather than run. `--dry-run` shows what it would install.\n\nFor `linkedin-search` and `freehire-search` the install is optional: both have zero runtime dependencies and run with plain `bun`; `bun install` only pulls TypeScript dev types.\n\n\n\n\n\n### 3. Set up your profile\n\n```bash\nclaude\n\n\n## Quick start\n\n> 🎥 **Prefer to see it in action first?** [The Next New Thing did a hands-on walkthrough](https://www.youtube.com/watch?v=HoVxjMNFYv4) of how the workflow is actually used, from setup to a finished application (recorded August 2026 - commands may have evolved since).\n\n",
-          "readmeFetchedAt": "2026-11-04T09:25:32.427Z",
+          "readmeFetchedAt": "2026-11-04T10:30:09.894Z",
           "language": "Python",
           "license": "MIT",
           "pushedAt": "2026-10-21T05:29:11Z",
@@ -99941,7 +99926,7 @@
             "review": {
               "approved": true,
               "sourceHash": "e27820e7fa3ec4b3201f1a8e6bddcfce9b212cfb9aab222fef38618f7b4c13d6",
-              "checkedAt": "2026-11-04T09:45:38.658Z",
+              "checkedAt": "2026-11-04T10:36:58.622Z",
               "method": "source-reading-and-structure-check"
             }
           }
