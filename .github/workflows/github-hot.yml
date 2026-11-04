@@ -47,6 +47,8 @@ jobs:
           node scripts/github-hot-collect.cjs --directory catalog --editorial catalog/github-hot-editorial.json "${args[@]}"
       - name: Validate published feed
         run: node scripts/validate-github-hot.cjs
+      - name: Verify weekly snapshot window
+        run: node tests/github-hot-weekly-window.cjs
       - name: Verify Chinese publication gate
         run: |
           node tests/github-hot-admission-core.cjs

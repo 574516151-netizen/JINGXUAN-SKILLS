@@ -1,4 +1,5 @@
 const THRESHOLD=50000,MAX=500;
+const WEEK_MS=7*86400000,SNAPSHOT_TOLERANCE_MS=12*3600000,WEEKLY_POLICY_VERSION=2;
 const {assertPublished}=require('./github-hot-admission');
 const categories=['AI 与智能体','开发与编程','设计与创意','图像、视频与音频','3D 与游戏','效率与办公','数据与知识管理','系统与实用工具','学习与教程'];
 const repoPattern=/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/;
@@ -24,6 +25,8 @@ function validateRepo(r,threshold=THRESHOLD){
 }
 function validateEdition(e,maxItems=MAX,threshold=THRESHOLD){
   check(e&&/^\d{4}-\d{2}-\d{2}(?:-r(?:[2-9]|[1-9]\d+))?$/.test(e.id),'期号');date(e.publishedAt);date(e.windowStart);date(e.windowEnd);
+  if(e.revisionOf!==undefined)check(typeof e.revisionOf==='string'&&/^\d{4}-\d{2}-\d{2}(?:-r(?:[2-9]|[1-9]\d+))?$/.test(e.revisionOf)&&e.revisionOf!==e.id,'修订原期');
+  if(e.weeklyPolicyVersion!==undefined)check([1,WEEKLY_POLICY_VERSION].includes(e.weeklyPolicyVersion),'周增长规则版本');
   const editionThreshold=e.thresholdExclusive??threshold;check([50000,100000].includes(editionThreshold),'历史门槛');
   check(Date.parse(e.windowEnd)>Date.parse(e.windowStart)&&Date.parse(e.windowEnd)-Date.parse(e.windowStart)===7*86400000,'统计窗口');
   check(Array.isArray(e.items)&&e.items.length<=1000,'项目数量');const ids=new Set();for(const r of e.items){validateRepo(r,Math.max(threshold,editionThreshold));check(!ids.has(r.id),'项目重复');ids.add(r.id);}
@@ -37,13 +40,13 @@ function validateEdition(e,maxItems=MAX,threshold=THRESHOLD){
       const value=kind==='stars'?map.get(row.id).stars:row.delta;check(Number.isSafeInteger(value)&&value>=0&&value<=previous,'排序或增长数量');previous=value;
       if(kind==='weekly'){
         check(['snapshot','github-trending'].includes(row.metric),'热度来源');date(row.observedAt);date(row.periodStart);date(row.periodEnd);
-        const span=Date.parse(row.periodEnd)-Date.parse(row.periodStart);check(Math.abs(span-7*86400000)<=3600000,'增长统计周期');
+        const span=Date.parse(row.periodEnd)-Date.parse(row.periodStart);check(Math.abs(span-WEEK_MS)<=(row.metric==='snapshot'?SNAPSHOT_TOLERANCE_MS:3600000),'增长统计周期');
         check(Date.parse(row.periodEnd)<=Date.parse(e.windowEnd)+3600000&&Date.parse(row.periodEnd)>=Date.parse(e.windowEnd)-86400000,'过期热度');
       }
     }
   }
   check(Number.isInteger(e.candidateCount)&&e.candidateCount>=e.items.length,'候选数量');text(e.coverage,2000);text(e.weeklyNote,1200);return e;
 }
-function validateFeed(feed){check(feed?.schemaVersion===1&&[THRESHOLD,100000].includes(feed.thresholdExclusive)&&[100,300,MAX].includes(feed.maxItems),'规则版本');date(feed.generatedAt);check(Array.isArray(feed.editions)&&feed.editions.length>0&&feed.editions.length<=12,'最近 12 期');let previous=Infinity;const seen=new Set();for(const e of feed.editions){validateEdition(e,feed.maxItems,feed.thresholdExclusive);check(!seen.has(e.id)&&Date.parse(e.publishedAt)<=previous,'期号重复或顺序');previous=Date.parse(e.publishedAt);seen.add(e.id);}if(feed.guidePolicyVersion!==undefined){check([1,2,3].includes(feed.guidePolicyVersion),'中文导读规则版本');assertPublished(feed);}if(feed.updateStatus){const s=feed.updateStatus;date(s.lastCollectedAt);check(Number.isInteger(s.pendingCount)&&s.pendingCount>=0&&s.pendingCount<=10000,'队列数量');check(Number.isInteger(s.readyCount)&&s.readyCount>=0&&s.readyCount<=10000,'完成数量');check(Array.isArray(s.reasons)&&s.reasons.length<=30,'队列原因');for(const r of s.reasons){text(r.code,80);text(r.label,100);text(r.action,200);check(Number.isInteger(r.count)&&r.count>0&&r.count<=10000,'原因数量');if(r.nextAttemptAt)date(r.nextAttemptAt);}}return feed;}
+function validateFeed(feed){check(feed?.schemaVersion===1&&[THRESHOLD,100000].includes(feed.thresholdExclusive)&&[100,300,MAX].includes(feed.maxItems),'规则版本');date(feed.generatedAt);check(Array.isArray(feed.editions)&&feed.editions.length>0&&feed.editions.length<=12,'最近 12 期');let previous=Infinity;const seen=new Set();for(const e of feed.editions){validateEdition(e,feed.maxItems,feed.thresholdExclusive);check(!seen.has(e.id)&&Date.parse(e.publishedAt)<=previous,'期号重复或顺序');previous=Date.parse(e.publishedAt);seen.add(e.id);}if(feed.guidePolicyVersion!==undefined){check([1,2,3].includes(feed.guidePolicyVersion),'中文导读规则版本');assertPublished(feed);}if(feed.weeklyPolicyVersion!==undefined)check([1,WEEKLY_POLICY_VERSION].includes(feed.weeklyPolicyVersion),'周增长规则版本');if(feed.updateStatus){const s=feed.updateStatus;date(s.lastCollectedAt);check(Number.isInteger(s.pendingCount)&&s.pendingCount>=0&&s.pendingCount<=10000,'队列数量');check(Number.isInteger(s.readyCount)&&s.readyCount>=0&&s.readyCount<=10000,'完成数量');check(Array.isArray(s.reasons)&&s.reasons.length<=30,'队列原因');for(const r of s.reasons){text(r.code,80);text(r.label,100);text(r.action,200);check(Number.isInteger(r.count)&&r.count>0&&r.count<=10000,'原因数量');if(r.nextAttemptAt)date(r.nextAttemptAt);}}return feed;}
 function boardRows(items,previous=[],metric=null){const prior=new Map(previous.map(x=>[x.id,x]));return items.slice(0,MAX).map((r,i)=>{const old=prior.get(r.id);return {id:r.id,rank:i+1,change:old?old.rank-(i+1):null,streak:old?(old.streak||1)+1:1,...(metric?metric(r):{})};});}
-module.exports={THRESHOLD,MAX,categories,repoPattern,validateRepo,validateEdition,validateFeed,boardRows,httpsUrl};
+module.exports={THRESHOLD,MAX,WEEK_MS,SNAPSHOT_TOLERANCE_MS,WEEKLY_POLICY_VERSION,categories,repoPattern,validateRepo,validateEdition,validateFeed,boardRows,httpsUrl};
