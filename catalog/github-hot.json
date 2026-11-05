@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "guidePolicyVersion": 3,
   "updateStatus": {
-    "lastCollectedAt": "2026-11-04T10:36:58.622Z",
+    "lastCollectedAt": "2026-11-05T07:53:59.513Z",
     "pendingCount": 0,
     "readyCount": 219,
     "reasons": []
   },
   "thresholdExclusive": 50000,
   "maxItems": 500,
-  "generatedAt": "2026-11-04T16:35:37.687Z",
+  "generatedAt": "2026-11-05T07:53:59.513Z",
   "editions": [
     {
       "id": "2026-11-02-r2",
