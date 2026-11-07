@@ -12987,22 +12987,172 @@
       }
     }
   },
-  "pending": {},
+  "pending": {
+    "pingdotgg/t3code": {
+      "id": "pingdotgg/t3code",
+      "sourceHash": "c6f47541a1c0fe273c027771b3cac7198f3f4ce445c9d5919bb2cfcc70e2105f",
+      "firstSeenAt": "2026-11-07T07:05:20.326Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-11-07T07:05:20.326Z",
+      "readmeUrl": "https://github.com/pingdotgg/t3code/blob/main/README.md",
+      "reason": "invalid-response",
+      "lastAttemptAt": "2026-11-07T07:05:20.326Z",
+      "nextAttemptAt": "2026-11-07T08:05:20.326Z"
+    },
+    "metabase/metabase": {
+      "id": "metabase/metabase",
+      "sourceHash": "18ae5d1df190f5a138cf36439f19952bbcabdd6ed37a1b6a8839935f2e632b4e",
+      "firstSeenAt": "2026-11-07T07:05:20.326Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-11-07T07:05:20.326Z",
+      "readmeUrl": "https://github.com/metabase/metabase/blob/master/README.md",
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-11-07T07:05:20.326Z",
+      "nextAttemptAt": "2026-11-07T08:05:20.326Z"
+    },
+    "leonardomso/33-js-concepts": {
+      "id": "leonardomso/33-js-concepts",
+      "sourceHash": "e04b3089461805589a7dc12b110b9b24808a36c4d339db86ff72610b9330c1b2",
+      "firstSeenAt": "2026-11-07T07:05:20.326Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-11-07T07:05:20.326Z",
+      "readmeUrl": "https://github.com/leonardomso/33-js-concepts/blob/master/README.md",
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-11-07T07:05:20.326Z",
+      "nextAttemptAt": "2026-11-07T08:05:20.326Z"
+    },
+    "warpdotdev/warp": {
+      "id": "warpdotdev/warp",
+      "sourceHash": "e0db2957d000543444d1748619276a921846f2904c94435eeb427562f3ef35d0",
+      "firstSeenAt": "2026-11-07T07:05:20.326Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-11-07T07:05:20.326Z",
+      "readmeUrl": "https://github.com/warpdotdev/warp/blob/master/README.md",
+      "reason": "source-review-rejected",
+      "lastAttemptAt": "2026-11-07T07:05:20.326Z",
+      "nextAttemptAt": "2026-11-07T08:05:20.326Z"
+    },
+    "nocodb/nocodb": {
+      "id": "nocodb/nocodb",
+      "sourceHash": "25fc3956df4e8bd1332860c50fe756fceccea060965bf4a4b87b521ee1760fde",
+      "firstSeenAt": "2026-11-07T07:05:20.326Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-11-07T07:05:20.326Z",
+      "readmeUrl": "https://github.com/nocodb/nocodb/blob/develop/README.md",
+      "reason": "source-review-rejected",
+      "lastAttemptAt": "2026-11-07T07:05:20.326Z",
+      "nextAttemptAt": "2026-11-07T08:05:20.326Z"
+    }
+  },
   "budget": {
-    "day": "2026-11-04",
+    "day": "2026-11-07",
     "counts": {
       "openrouter": 8
     },
     "lastValidation": {
-      "id": "cheaper-inference/omniroute",
+      "id": "leonardomso/33-js-concepts",
       "model": "nvidia/nemotron-3.5-lightning:free",
       "issues": [
-        "invalid-chinese-requirements",
-        "missing-chinese-scenarios",
-        "missing-chinese-start-steps"
+        "invalid-chinese-audience",
+        "missing-chinese-scenarios"
       ],
-      "checkedAt": "2026-11-04T07:28:40.974Z"
+      "checkedAt": "2026-11-07T07:05:20.326Z"
     }
   },
-  "drafts": {}
+  "drafts": {
+    "warpdotdev/warp|openrouter/nvidia/nemotron-3.5-lightning:free": {
+      "sourceHash": "e0db2957d000543444d1748619276a921846f2904c94435eeb427562f3ef35d0",
+      "draft": {
+        "kind": "app",
+        "summary": "Warp是一个由终端诞生的代理开发环境，提供内置编码代理或支持Claude Code、Codex、Gemini CLI等外部CLI代理，旨在通过AI辅助提升开发效率。",
+        "purpose": "用于代码编辑、终端操作、问题管理以及通过Warp Factories自动化开发流程，支持自定义模型和基准测试以实现自改进。",
+        "audience": "开发者、团队",
+        "scenarios": [
+          "利用内置编码代理或自带CLI代理辅助编写和重构代码",
+          "通过Warp Factories构建云端软件工厂进行自动化开发",
+          "浏览Warp Factory仪表盘查看agent活动和贡献者数据",
+          "使用Slack社区获取支持并与维护者协作"
+        ],
+        "steps": [
+          "访问官网下载并安装Warp客户端",
+          "启动Warp并登录或注册账户以访问功能"
+        ],
+        "requirements": "需要联网访问官方下载页面并接受AGPL v3或MIT许可证条款的用户",
+        "verification": "确认Warp界面成功启动并能访问内置代理或连接外部CLI代理",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "Warp is an agentic development environment, born out of the terminal.\n\n&nbsp;\n\n  \n\n\n\n  Website\n  ·\n  Code\n  ·\n  Agents\n  ·\n  Terminal\n  ·\n  Drive\n  ·\n  Docs\n  ·\n  How Warp Works\n\n\n> [!NOTE]\n> OpenAI is the founding sponsor of the new, open-source Warp repository, and the new agentic management workflows are powered by GPT models.\n\n\n# \n\n\n## About\n\n"
+          },
+          {
+            "field": "purpose",
+            "quote": "Warp is an agentic development environment, born out of the terminal.\n\n&nbsp;\n\n  \n\n\n\n  Website\n  ·\n  Code\n  ·\n  Agents\n  ·\n  Terminal\n  ·\n  Drive\n  ·\n  Docs\n  ·\n  How Warp Works\n\n\n> [!NOTE]\n> OpenAI is the founding sponsor of the new, open-source Warp repository, and the new agentic management workflows are powered by GPT models.\n\n\n# \n\n\n## About\n\n"
+          },
+          {
+            "field": "scenarios",
+            "quote": "Warp is an agentic development environment, born out of the terminal.\n\n&nbsp;\n\n  \n\n\n\n  Website\n  ·\n  Code\n  ·\n  Agents\n  ·\n  Terminal\n  ·\n  Drive\n  ·\n  Docs\n  ·\n  How Warp Works\n\n\n> [!NOTE]\n> OpenAI is the founding sponsor of the new, open-source Warp repository, and the new agentic management workflows are powered by GPT models.\n\n\n# \n\n\n## About\n\n"
+          },
+          {
+            "field": "steps",
+            "quote": "[Warp](https://www.warp.dev) is an agentic development environment, born out of the terminal. Use Warp's built-in coding agent, or bring your own CLI agent (Claude Code, Codex, Gemini CLI, and others).\n\n## Installation\n\nYou can [download Warp](https://www.warp.dev/download) and [read our docs](https://docs.warp.dev/) for platform-specific instructions.\n\n## Warp Contributions Overview Dashboard\n\n"
+          },
+          {
+            "field": "verification",
+            "quote": "[Warp](https://www.warp.dev) is an agentic development environment, born out of the terminal. Use Warp's built-in coding agent, or bring your own CLI agent (Claude Code, Codex, Gemini CLI, and others).\n\n## Installation\n\nYou can [download Warp](https://www.warp.dev/download) and [read our docs](https://docs.warp.dev/) for platform-specific instructions.\n\n## Warp Contributions Overview Dashboard\n\n"
+          }
+        ]
+      },
+      "savedAt": "2026-11-07T07:05:20.326Z",
+      "reviewIssues": [
+        "源文本中未提及中文导读所需的‘用途、场景、入门步骤、验证方法’的完整细节。草稿内容为空泛概括，缺少关键前置条件（如平台下载链接、账户注册细节）和具体验证标准。"
+      ]
+    },
+    "nocodb/nocodb|openrouter/nvidia/nemotron-3.5-lightning:free": {
+      "sourceHash": "25fc3956df4e8bd1332860c50fe756fceccea060965bf4a4b87b521ee1760fde",
+      "draft": {
+        "kind": "self",
+        "summary": "NocoDB是一个免费且可自托管的Airtable替代品，提供最快最简单的在线数据库构建方式，支持Docker、二进制文件和Auto-upstall等多种部署方式，并提供丰富的表格界面和工作流自动化集成。",
+        "purpose": "用于快速构建在线数据库，替代Airtable，通过丰富的表格界面、多种视图类型和权限控制进行数据管理，并通过App Store实现聊天、邮件和存储等工作流自动化集成。",
+        "audience": "开发者、数据管理人员、团队协作人员",
+        "scenarios": [
+          "希望用免费开源方案替代昂贵的Airtable服务的个人用户",
+          "需要自托管数据库以确保数据隐私和安全的组织",
+          "需要通过网页界面快速创建和管理数据表的团队",
+          "想要通过集成Slack、邮件或存储服务实现自动化工作流的团队"
+        ],
+        "steps": [
+          "使用Docker with SQLite命令启动NocoDB容器：docker run -d --name noco -v \"$(pwd)\"/nocodb:/usr/app/data/ -p 8080:8080 nocodb/nocodb:latest",
+          "访问 http://localhost:8080/dashboard 打开NocoDB Web界面并开始创建数据库"
+        ],
+        "requirements": "Docker环境或支持二进制执行的操作系统，以及足够的磁盘空间用于持久化数据存储",
+        "verification": "在浏览器中访问 http://localhost:8080/dashboard 并看到NocoDB登录界面或默认数据库界面，确认服务已成功启动",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative\n\n# \n    \n        \n            \n            \n        \n        \n    \n\n\n\n\nNocoDB is the fastest and easiest way to build databases online.\n\n\n\n\n    Website •\n    Discord •\n    Community •\n    Twitter •\n    Reddit •\n    Documentation\n\n\n\n\n\n\n[](markdown/readme/languages/chinese.md)\n[](markdown/readme/languages/french.md)\n"
+          },
+          {
+            "field": "purpose",
+            "quote": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative\n\n# \n    \n        \n            \n            \n        \n        \n    \n\n\n\n\nNocoDB is the fastest and easiest way to build databases online.\n\n\n\n\n    Website •\n    Discord •\n    Community •\n    Twitter •\n    Reddit •\n    Documentation\n\n\n\n\n\n\n[](markdown/readme/languages/chinese.md)\n[](markdown/readme/languages/french.md)\n"
+          },
+          {
+            "field": "scenarios",
+            "quote": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative\n\n# \n    \n        \n            \n            \n        \n        \n    \n\n\n\n\nNocoDB is the fastest and easiest way to build databases online.\n\n\n\n\n    Website •\n    Discord •\n    Community •\n    Twitter •\n    Reddit •\n    Documentation\n\n\n\n\n\n\n[](markdown/readme/languages/chinese.md)\n[](markdown/readme/languages/french.md)\n"
+          },
+          {
+            "field": "steps",
+            "quote": "[](https://github.com/nocodb/nocodb/stargazers)\n\n# Installation\n\n## Docker with SQLite\n\n```bash \ndocker run -d \\\n  --name noco \\\n  -v \"$(pwd)\"/nocodb:/usr/app/data/ \\\n  -p 8080:8080 \\\n  nocodb/nocodb:latest\n  ```\n\n## Docker with PG\n```bash\ndocker run -d \\\n  --name noco \\\n  -v \"$(pwd)\"/nocodb:/usr/app/data/ \\\n  -p 8080:8080 \\\n  -e NC_DB=\"pg://host.docker.internal:5432?u=root&p=password&d=d1\" \\\n"
+          },
+          {
+            "field": "verification",
+            "quote": "> When running locally access nocodb by visiting: [http://localhost:8080/dashboard](http://localhost:8080/dashboard)\n\nFor more installation methods, please refer to [our docs](https://nocodb.com/docs/self-hosting)\n\n# Screenshots\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n# Features\n\n### Rich Spreadsheet Interface\n\n- ⚡ &nbsp;Basic Operations: Create, Read, Update and Delete Tables, Columns, and Rows\n"
+          }
+        ]
+      },
+      "savedAt": "2026-11-07T07:05:20.326Z",
+      "reviewIssues": [
+        "summary: 简介中提到 'Free & Self-hostable Airtable Alternative'，但未明确指出 NocoDB 是开源项目，且未提及其核心定位为数据库构建平台的开源特性。\npurpose: '用于快速构建在线数据库' 与源文本 'NocoDB is the fastest and easiest way to build databases online' 语义基本一致，但未提及其支持自托管和开源的事实，属于描述不完整。\nscenarios: 第一个场景 '希望用免费开源方案替代昂贵的Airtable服务的个人用户' 中的 '免费开源' 在源文本中未明确体现为 '开源'，仅有 'Free & Self-hostable'，存在 slight inaccuracy。\nsteps: 第一个步骤 '使用Docker with SQLite命令启动NocoDB容器' 与源文本中的 Docker with SQLite 命令基本一致，但未提及该命令需要在支持 Docker 的环境中执行，且未说明卷挂载路径的系统特定性。\nverification: '在浏览器中访问 http://localhost:8080/dashboard 并看到NocoDB登录界面或默认数据库界面' 与源文本 'When running locally access nocodb by"
+      ]
+    }
+  }
 }
