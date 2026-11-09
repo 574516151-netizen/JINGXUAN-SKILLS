@@ -12992,41 +12992,41 @@
       "id": "pingdotgg/t3code",
       "sourceHash": "c6f47541a1c0fe273c027771b3cac7198f3f4ce445c9d5919bb2cfcc70e2105f",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 2,
-      "lastSeenAt": "2026-11-08T07:17:38.888Z",
+      "attempts": 3,
+      "lastSeenAt": "2026-11-09T07:55:09.731Z",
       "readmeUrl": "https://github.com/pingdotgg/t3code/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-08T07:17:38.888Z",
-      "nextAttemptAt": "2026-11-08T08:17:38.888Z"
+      "lastAttemptAt": "2026-11-09T07:55:09.731Z",
+      "nextAttemptAt": "2026-11-09T08:55:09.731Z"
     },
     "metabase/metabase": {
       "id": "metabase/metabase",
       "sourceHash": "18ae5d1df190f5a138cf36439f19952bbcabdd6ed37a1b6a8839935f2e632b4e",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 2,
-      "lastSeenAt": "2026-11-08T07:17:38.888Z",
+      "attempts": 3,
+      "lastSeenAt": "2026-11-09T07:55:09.731Z",
       "readmeUrl": "https://github.com/metabase/metabase/blob/master/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-08T07:17:38.888Z",
-      "nextAttemptAt": "2026-11-08T08:17:38.888Z"
+      "lastAttemptAt": "2026-11-09T07:55:09.731Z",
+      "nextAttemptAt": "2026-11-09T08:55:09.731Z"
     },
     "leonardomso/33-js-concepts": {
       "id": "leonardomso/33-js-concepts",
       "sourceHash": "e04b3089461805589a7dc12b110b9b24808a36c4d339db86ff72610b9330c1b2",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 2,
-      "lastSeenAt": "2026-11-08T07:17:38.888Z",
+      "attempts": 3,
+      "lastSeenAt": "2026-11-09T07:55:09.731Z",
       "readmeUrl": "https://github.com/leonardomso/33-js-concepts/blob/master/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-08T07:17:38.888Z",
-      "nextAttemptAt": "2026-11-08T08:17:38.888Z"
+      "reason": "source-review-rejected",
+      "lastAttemptAt": "2026-11-09T07:55:09.731Z",
+      "nextAttemptAt": "2026-11-09T08:55:09.731Z"
     },
     "warpdotdev/warp": {
       "id": "warpdotdev/warp",
       "sourceHash": "e0db2957d000543444d1748619276a921846f2904c94435eeb427562f3ef35d0",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
       "attempts": 2,
-      "lastSeenAt": "2026-11-08T07:17:38.888Z",
+      "lastSeenAt": "2026-11-09T07:55:09.731Z",
       "readmeUrl": "https://github.com/warpdotdev/warp/blob/master/README.md",
       "reason": "source-review-rejected",
       "lastAttemptAt": "2026-11-08T07:17:38.888Z",
@@ -13036,48 +13036,50 @@
       "id": "nocodb/nocodb",
       "sourceHash": "25fc3956df4e8bd1332860c50fe756fceccea060965bf4a4b87b521ee1760fde",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-08T07:17:38.888Z",
+      "attempts": 2,
+      "lastSeenAt": "2026-11-09T07:55:09.731Z",
       "readmeUrl": "https://github.com/nocodb/nocodb/blob/develop/README.md",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-11-07T07:05:20.326Z",
-      "nextAttemptAt": "2026-11-07T08:05:20.326Z"
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-11-09T07:55:09.731Z",
+      "nextAttemptAt": "2026-11-09T08:55:09.731Z"
     },
     "nutlope/hallmark": {
       "id": "nutlope/hallmark",
       "sourceHash": "d02a31c12ffa6c65fa694431cbc5624010d4444772faccfdd6dba08caaa2946e",
       "firstSeenAt": "2026-11-08T07:17:38.888Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-08T07:17:38.888Z",
+      "attempts": 2,
+      "lastSeenAt": "2026-11-09T07:55:09.731Z",
       "readmeUrl": "https://github.com/Nutlope/hallmark/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-08T07:17:38.888Z",
-      "nextAttemptAt": "2026-11-08T08:17:38.888Z"
+      "lastAttemptAt": "2026-11-09T07:55:09.731Z",
+      "nextAttemptAt": "2026-11-09T08:55:09.731Z"
     },
     "openmontageinc/openmontage": {
       "id": "openmontageinc/openmontage",
       "sourceHash": "3d746faf785f264b1f1d5b189a6753bbe7ac0d084979dcdd3aed863dd81d1c99",
       "firstSeenAt": "2026-11-08T07:17:38.888Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-08T07:17:38.888Z",
+      "attempts": 2,
+      "lastSeenAt": "2026-11-09T07:55:09.731Z",
       "readmeUrl": "https://github.com/OpenMontageInc/OpenMontage/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-08T07:17:38.888Z",
-      "nextAttemptAt": "2026-11-08T08:17:38.888Z"
+      "lastAttemptAt": "2026-11-09T07:55:09.731Z",
+      "nextAttemptAt": "2026-11-09T08:55:09.731Z"
     }
   },
   "budget": {
-    "day": "2026-11-08",
+    "day": "2026-11-09",
     "counts": {
       "openrouter": 8
     },
     "lastValidation": {
-      "id": "leonardomso/33-js-concepts",
+      "id": "nocodb/nocodb",
       "model": "nvidia/nemotron-3.5-lightning:free",
       "issues": [
-        "missing-chinese-scenarios"
+        "invalid-chinese-summary",
+        "invalid-chinese-purpose",
+        "missing-chinese-start-steps"
       ],
-      "checkedAt": "2026-11-08T07:17:38.888Z"
+      "checkedAt": "2026-11-09T07:55:09.731Z"
     }
   },
   "drafts": {
@@ -13173,6 +13175,53 @@
       "savedAt": "2026-11-07T07:05:20.326Z",
       "reviewIssues": [
         "summary: 简介中提到 'Free & Self-hostable Airtable Alternative'，但未明确指出 NocoDB 是开源项目，且未提及其核心定位为数据库构建平台的开源特性。\npurpose: '用于快速构建在线数据库' 与源文本 'NocoDB is the fastest and easiest way to build databases online' 语义基本一致，但未提及其支持自托管和开源的事实，属于描述不完整。\nscenarios: 第一个场景 '希望用免费开源方案替代昂贵的Airtable服务的个人用户' 中的 '免费开源' 在源文本中未明确体现为 '开源'，仅有 'Free & Self-hostable'，存在 slight inaccuracy。\nsteps: 第一个步骤 '使用Docker with SQLite命令启动NocoDB容器' 与源文本中的 Docker with SQLite 命令基本一致，但未提及该命令需要在支持 Docker 的环境中执行，且未说明卷挂载路径的系统特定性。\nverification: '在浏览器中访问 http://localhost:8080/dashboard 并看到NocoDB登录界面或默认数据库界面' 与源文本 'When running locally access nocodb by"
+      ]
+    },
+    "leonardomso/33-js-concepts|openrouter/nvidia/nemotron-3.5-lightning:free": {
+      "sourceHash": "e04b3089461805589a7dc12b110b9b24808a36c4d339db86ff72610b9330c1b2",
+      "draft": {
+        "kind": "learn",
+        "summary": "33 JavaScript concepts every developer should know，帮助开发者掌握核心 JavaScript 概念，每个概念包含清晰解释、实战代码示例和精选资源。",
+        "purpose": "掌握 JavaScript 基础语法、作用域、执行上下文、异步编程、DOM 操作、Web API、面向对象编程和函数式编程等核心知识点，通过实例加深理解。",
+        "audience": "前端开发者",
+        "scenarios": [
+          "准备面试时系统复习 JavaScript 核心概念",
+          "作为新手入门学习 JavaScript 基础知识体系",
+          "日常开发中遇到疑难杂症需要查阅原理解释",
+          "准备技术分享或培训课程需要查阅概念细节"
+        ],
+        "steps": [
+          "访问官方网站 33jsconcepts.com 开始学习",
+          "从 Fundamentals 章节的 Primitive Types 概念开始阅读"
+        ],
+        "requirements": "浏览器或编辑器环境，无需安装额外工具",
+        "verification": "阅读完成后能够解释所学概念并在代码中正确应用",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "📜 33 JavaScript concepts every developer should know.\n\n# \n\n  \n  \n    \n  33 Concepts Every JavaScript Developer Should Know\n  \n\n\n\n\n  Read the Full Guide •\n  Concepts •\n  Translations •\n  Contributing\n\n\n\n  Recognized by GitHub as one of the top open source projects of 2018!\n\n\n---\n\n## About\n\n"
+          },
+          {
+            "field": "purpose",
+            "quote": "📜 33 JavaScript concepts every developer should know.\n\n# \n\n  \n  \n    \n  33 Concepts Every JavaScript Developer Should Know\n  \n\n\n\n\n  Read the Full Guide •\n  Concepts •\n  Translations •\n  Contributing\n\n\n\n  Recognized by GitHub as one of the top open source projects of 2018!\n\n\n---\n\n## About\n\n"
+          },
+          {
+            "field": "scenarios",
+            "quote": "📜 33 JavaScript concepts every developer should know.\n\n# \n\n  \n  \n    \n  33 Concepts Every JavaScript Developer Should Know\n  \n\n\n\n\n  Read the Full Guide •\n  Concepts •\n  Translations •\n  Contributing\n\n\n\n  Recognized by GitHub as one of the top open source projects of 2018!\n\n\n---\n\n## About\n\n"
+          },
+          {
+            "field": "steps",
+            "quote": "This repository helps developers master core JavaScript concepts. Each concept includes clear explanations, practical code examples, and curated resources.\n\n**[Start learning at 33jsconcepts.com →](https://33jsconcepts.com)**\n\n---\n\n## Concepts\n\n### Fundamentals\n\n- **[Primitive Types](https://33jsconcepts.com/concepts/primitive-types)**  \n"
+          },
+          {
+            "field": "verification",
+            "quote": "This repository helps developers master core JavaScript concepts. Each concept includes clear explanations, practical code examples, and curated resources.\n\n**[Start learning at 33jsconcepts.com →](https://33jsconcepts.com)**\n\n---\n\n## Concepts\n\n### Fundamentals\n\n- **[Primitive Types](https://33jsconcepts.com/concepts/primitive-types)**  \n"
+          }
+        ]
+      },
+      "savedAt": "2026-11-09T07:55:09.731Z",
+      "reviewIssues": [
+        "source text contains English content mixed with Chinese in draft fields (e.g., summary, purpose, scenarios, steps, verification, evidence fields are filled with English or untranslated source text rather than proper Chinese translations)"
       ]
     }
   }
