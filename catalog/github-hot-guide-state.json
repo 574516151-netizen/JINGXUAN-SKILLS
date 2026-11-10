@@ -12992,30 +12992,30 @@
       "id": "pingdotgg/t3code",
       "sourceHash": "c6f47541a1c0fe273c027771b3cac7198f3f4ce445c9d5919bb2cfcc70e2105f",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 3,
-      "lastSeenAt": "2026-11-09T07:55:09.731Z",
+      "attempts": 4,
+      "lastSeenAt": "2026-11-10T08:23:48.506Z",
       "readmeUrl": "https://github.com/pingdotgg/t3code/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-09T07:55:09.731Z",
-      "nextAttemptAt": "2026-11-09T08:55:09.731Z"
+      "lastAttemptAt": "2026-11-10T08:23:48.506Z",
+      "nextAttemptAt": "2026-11-10T09:23:48.506Z"
     },
     "metabase/metabase": {
       "id": "metabase/metabase",
       "sourceHash": "18ae5d1df190f5a138cf36439f19952bbcabdd6ed37a1b6a8839935f2e632b4e",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 3,
-      "lastSeenAt": "2026-11-09T07:55:09.731Z",
+      "attempts": 4,
+      "lastSeenAt": "2026-11-10T08:23:48.506Z",
       "readmeUrl": "https://github.com/metabase/metabase/blob/master/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-09T07:55:09.731Z",
-      "nextAttemptAt": "2026-11-09T08:55:09.731Z"
+      "lastAttemptAt": "2026-11-10T08:23:48.506Z",
+      "nextAttemptAt": "2026-11-10T09:23:48.506Z"
     },
     "leonardomso/33-js-concepts": {
       "id": "leonardomso/33-js-concepts",
       "sourceHash": "e04b3089461805589a7dc12b110b9b24808a36c4d339db86ff72610b9330c1b2",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
       "attempts": 3,
-      "lastSeenAt": "2026-11-09T07:55:09.731Z",
+      "lastSeenAt": "2026-11-10T08:23:48.506Z",
       "readmeUrl": "https://github.com/leonardomso/33-js-concepts/blob/master/README.md",
       "reason": "source-review-rejected",
       "lastAttemptAt": "2026-11-09T07:55:09.731Z",
@@ -13025,19 +13025,19 @@
       "id": "warpdotdev/warp",
       "sourceHash": "e0db2957d000543444d1748619276a921846f2904c94435eeb427562f3ef35d0",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 2,
-      "lastSeenAt": "2026-11-09T07:55:09.731Z",
+      "attempts": 3,
+      "lastSeenAt": "2026-11-10T08:23:48.506Z",
       "readmeUrl": "https://github.com/warpdotdev/warp/blob/master/README.md",
       "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-11-08T07:17:38.888Z",
-      "nextAttemptAt": "2026-11-08T08:17:38.888Z"
+      "lastAttemptAt": "2026-11-10T08:23:48.506Z",
+      "nextAttemptAt": "2026-11-10T09:23:48.506Z"
     },
     "nocodb/nocodb": {
       "id": "nocodb/nocodb",
       "sourceHash": "25fc3956df4e8bd1332860c50fe756fceccea060965bf4a4b87b521ee1760fde",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
       "attempts": 2,
-      "lastSeenAt": "2026-11-09T07:55:09.731Z",
+      "lastSeenAt": "2026-11-10T08:23:48.506Z",
       "readmeUrl": "https://github.com/nocodb/nocodb/blob/develop/README.md",
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-11-09T07:55:09.731Z",
@@ -13047,39 +13047,49 @@
       "id": "nutlope/hallmark",
       "sourceHash": "d02a31c12ffa6c65fa694431cbc5624010d4444772faccfdd6dba08caaa2946e",
       "firstSeenAt": "2026-11-08T07:17:38.888Z",
-      "attempts": 2,
-      "lastSeenAt": "2026-11-09T07:55:09.731Z",
+      "attempts": 3,
+      "lastSeenAt": "2026-11-10T08:23:48.506Z",
       "readmeUrl": "https://github.com/Nutlope/hallmark/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-09T07:55:09.731Z",
-      "nextAttemptAt": "2026-11-09T08:55:09.731Z"
+      "lastAttemptAt": "2026-11-10T08:23:48.506Z",
+      "nextAttemptAt": "2026-11-10T09:23:48.506Z"
     },
     "openmontageinc/openmontage": {
       "id": "openmontageinc/openmontage",
       "sourceHash": "3d746faf785f264b1f1d5b189a6753bbe7ac0d084979dcdd3aed863dd81d1c99",
       "firstSeenAt": "2026-11-08T07:17:38.888Z",
-      "attempts": 2,
-      "lastSeenAt": "2026-11-09T07:55:09.731Z",
+      "attempts": 3,
+      "lastSeenAt": "2026-11-10T08:23:48.506Z",
       "readmeUrl": "https://github.com/OpenMontageInc/OpenMontage/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-09T07:55:09.731Z",
-      "nextAttemptAt": "2026-11-09T08:55:09.731Z"
+      "lastAttemptAt": "2026-11-10T08:23:48.506Z",
+      "nextAttemptAt": "2026-11-10T09:23:48.506Z"
+    },
+    "storytold/photocraft": {
+      "id": "storytold/photocraft",
+      "sourceHash": "308c63d469cf6574a3cf4a8c51091f2565da65399a7d4fc7a04327d9b156b4e4",
+      "firstSeenAt": "2026-11-10T08:23:48.506Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-11-10T08:23:48.506Z",
+      "readmeUrl": "https://github.com/storytold/photocraft/blob/main/README.md",
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-11-10T08:23:48.506Z",
+      "nextAttemptAt": "2026-11-10T09:23:48.506Z"
     }
   },
   "budget": {
-    "day": "2026-11-09",
+    "day": "2026-11-10",
     "counts": {
       "openrouter": 8
     },
     "lastValidation": {
-      "id": "nocodb/nocodb",
+      "id": "storytold/photocraft",
       "model": "nvidia/nemotron-3.5-lightning:free",
       "issues": [
-        "invalid-chinese-summary",
-        "invalid-chinese-purpose",
+        "missing-chinese-scenarios",
         "missing-chinese-start-steps"
       ],
-      "checkedAt": "2026-11-09T07:55:09.731Z"
+      "checkedAt": "2026-11-10T08:23:48.506Z"
     }
   },
   "drafts": {
@@ -13125,9 +13135,9 @@
           }
         ]
       },
-      "savedAt": "2026-11-08T07:17:38.888Z",
+      "savedAt": "2026-11-10T08:23:48.506Z",
       "reviewIssues": [
-        "Summary、purpose、scenarios、steps、verification字段的引用内容均为源文本的片段，未按要求整理为简体中文导读，而是直接使用了英文原文或未翻译的混合内容。"
+        "源文本中未提及具体的‘入门步骤’，仅包含模糊的‘访问官方网站下载并安装’及‘启动并登录’，缺乏实质性的安装命令、平台特定说明或环境前置条件；验证方法同样仅停留在‘确认界面启动’的描述层面，缺乏可检查的具体输出或行为证据。"
       ]
     },
     "nocodb/nocodb|openrouter/nvidia/nemotron-3.5-lightning:free": {
