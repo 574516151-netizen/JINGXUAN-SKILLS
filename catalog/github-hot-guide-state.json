@@ -12992,30 +12992,30 @@
       "id": "pingdotgg/t3code",
       "sourceHash": "c6f47541a1c0fe273c027771b3cac7198f3f4ce445c9d5919bb2cfcc70e2105f",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 4,
-      "lastSeenAt": "2026-11-10T08:23:48.506Z",
+      "attempts": 5,
+      "lastSeenAt": "2026-11-11T07:43:59.074Z",
       "readmeUrl": "https://github.com/pingdotgg/t3code/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-10T08:23:48.506Z",
-      "nextAttemptAt": "2026-11-10T09:23:48.506Z"
+      "reason": "source-review-rejected",
+      "lastAttemptAt": "2026-11-11T07:43:59.074Z",
+      "nextAttemptAt": "2026-11-11T08:43:59.074Z"
     },
     "metabase/metabase": {
       "id": "metabase/metabase",
       "sourceHash": "18ae5d1df190f5a138cf36439f19952bbcabdd6ed37a1b6a8839935f2e632b4e",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 4,
-      "lastSeenAt": "2026-11-10T08:23:48.506Z",
+      "attempts": 5,
+      "lastSeenAt": "2026-11-11T07:43:59.074Z",
       "readmeUrl": "https://github.com/metabase/metabase/blob/master/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-10T08:23:48.506Z",
-      "nextAttemptAt": "2026-11-10T09:23:48.506Z"
+      "reason": "source-review-rejected",
+      "lastAttemptAt": "2026-11-11T07:43:59.074Z",
+      "nextAttemptAt": "2026-11-11T08:43:59.074Z"
     },
     "leonardomso/33-js-concepts": {
       "id": "leonardomso/33-js-concepts",
       "sourceHash": "e04b3089461805589a7dc12b110b9b24808a36c4d339db86ff72610b9330c1b2",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
       "attempts": 3,
-      "lastSeenAt": "2026-11-10T08:23:48.506Z",
+      "lastSeenAt": "2026-11-11T07:43:59.074Z",
       "readmeUrl": "https://github.com/leonardomso/33-js-concepts/blob/master/README.md",
       "reason": "source-review-rejected",
       "lastAttemptAt": "2026-11-09T07:55:09.731Z",
@@ -13026,7 +13026,7 @@
       "sourceHash": "e0db2957d000543444d1748619276a921846f2904c94435eeb427562f3ef35d0",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
       "attempts": 3,
-      "lastSeenAt": "2026-11-10T08:23:48.506Z",
+      "lastSeenAt": "2026-11-11T07:43:59.074Z",
       "readmeUrl": "https://github.com/warpdotdev/warp/blob/master/README.md",
       "reason": "source-review-rejected",
       "lastAttemptAt": "2026-11-10T08:23:48.506Z",
@@ -13036,60 +13036,61 @@
       "id": "nocodb/nocodb",
       "sourceHash": "25fc3956df4e8bd1332860c50fe756fceccea060965bf4a4b87b521ee1760fde",
       "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 2,
-      "lastSeenAt": "2026-11-10T08:23:48.506Z",
+      "attempts": 3,
+      "lastSeenAt": "2026-11-11T07:43:59.074Z",
       "readmeUrl": "https://github.com/nocodb/nocodb/blob/develop/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-09T07:55:09.731Z",
-      "nextAttemptAt": "2026-11-09T08:55:09.731Z"
+      "lastAttemptAt": "2026-11-11T07:43:59.074Z",
+      "nextAttemptAt": "2026-11-11T08:43:59.074Z"
     },
     "nutlope/hallmark": {
       "id": "nutlope/hallmark",
       "sourceHash": "d02a31c12ffa6c65fa694431cbc5624010d4444772faccfdd6dba08caaa2946e",
       "firstSeenAt": "2026-11-08T07:17:38.888Z",
-      "attempts": 3,
-      "lastSeenAt": "2026-11-10T08:23:48.506Z",
+      "attempts": 4,
+      "lastSeenAt": "2026-11-11T07:43:59.074Z",
       "readmeUrl": "https://github.com/Nutlope/hallmark/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-10T08:23:48.506Z",
-      "nextAttemptAt": "2026-11-10T09:23:48.506Z"
+      "lastAttemptAt": "2026-11-11T07:43:59.074Z",
+      "nextAttemptAt": "2026-11-11T08:43:59.074Z"
     },
     "openmontageinc/openmontage": {
       "id": "openmontageinc/openmontage",
       "sourceHash": "3d746faf785f264b1f1d5b189a6753bbe7ac0d084979dcdd3aed863dd81d1c99",
       "firstSeenAt": "2026-11-08T07:17:38.888Z",
-      "attempts": 3,
-      "lastSeenAt": "2026-11-10T08:23:48.506Z",
+      "attempts": 4,
+      "lastSeenAt": "2026-11-11T07:43:59.074Z",
       "readmeUrl": "https://github.com/OpenMontageInc/OpenMontage/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-10T08:23:48.506Z",
-      "nextAttemptAt": "2026-11-10T09:23:48.506Z"
+      "lastAttemptAt": "2026-11-11T07:43:59.074Z",
+      "nextAttemptAt": "2026-11-11T08:43:59.074Z"
     },
     "storytold/photocraft": {
       "id": "storytold/photocraft",
       "sourceHash": "308c63d469cf6574a3cf4a8c51091f2565da65399a7d4fc7a04327d9b156b4e4",
       "firstSeenAt": "2026-11-10T08:23:48.506Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-10T08:23:48.506Z",
+      "attempts": 2,
+      "lastSeenAt": "2026-11-11T07:43:59.074Z",
       "readmeUrl": "https://github.com/storytold/photocraft/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-10T08:23:48.506Z",
-      "nextAttemptAt": "2026-11-10T09:23:48.506Z"
+      "lastAttemptAt": "2026-11-11T07:43:59.074Z",
+      "nextAttemptAt": "2026-11-11T08:43:59.074Z"
     }
   },
   "budget": {
-    "day": "2026-11-10",
+    "day": "2026-11-11",
     "counts": {
-      "openrouter": 8
+      "openrouter": 9
     },
     "lastValidation": {
-      "id": "storytold/photocraft",
+      "id": "nocodb/nocodb",
       "model": "nvidia/nemotron-3.5-lightning:free",
       "issues": [
-        "missing-chinese-scenarios",
+        "invalid-chinese-summary",
+        "invalid-chinese-purpose",
         "missing-chinese-start-steps"
       ],
-      "checkedAt": "2026-11-10T08:23:48.506Z"
+      "checkedAt": "2026-11-11T07:43:59.074Z"
     }
   },
   "drafts": {
@@ -13232,6 +13233,105 @@
       "savedAt": "2026-11-09T07:55:09.731Z",
       "reviewIssues": [
         "source text contains English content mixed with Chinese in draft fields (e.g., summary, purpose, scenarios, steps, verification, evidence fields are filled with English or untranslated source text rather than proper Chinese translations)"
+      ]
+    },
+    "pingdotgg/t3code|openrouter/nvidia/nemotron-3.5-lightning:free": {
+      "sourceHash": "c6f47541a1c0fe273c027771b3cac7198f3f4ce445c9d5919bb2cfcc70e2105f",
+      "draft": {
+        "kind": "app",
+        "summary": "T3 Code是一个\"智能体控制面板\"，可通过最佳移动端应用、Web应用和Electron桌面应用控制机器上的智能体，支持Claude Code、Codex、Cursor、Grok Build、OpenCode、Antigravity和fx等多种代理服务。",
+        "purpose": "作为智能体的统一控制中心，让用户能够远程管理和控制各类AI代理服务，提供跨平台的移动端、Web端和桌面端访问入口。",
+        "audience": "AI开发者、代理用户",
+        "scenarios": [
+          "通过iOS或Android移动应用远程控制本地运行的AI代理",
+          "使用Web应用或Electron桌面应用管理代理服务",
+          "在Claude Code、Codex、Cursor等多种代理服务间统一切换和控制",
+          "利用T3 Code的跨平台特性在不同设备间无缝切换代理控制"
+        ],
+        "steps": [
+          "安装并认证至少一个代理提供商（Codex、Claude、Cursor、Grok Build、OpenCode、Antigravity或fx）",
+          "通过命令行使用 `curl -fsSL https://t3.codes/install.sh | sh` 安装T3 Code服务器，或使用winget/scoop/Homebrew等包管理器安装桌面应用"
+        ],
+        "requirements": "需要在计算机上安装并认证至少一种代理服务（如Codex CLI、Claude Code、Cursor CLI等），才能使用T3 Code进行代理控制",
+        "verification": "确认T3 Code服务器成功启动并能通过本地Web应用或移动应用访问，检查是否能成功连接并控制已认证的代理服务",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "\n\n# T3 Code\n\nT3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app ([iOS](https://apps.apple.com/us/app/t3-code-remote-claude-more/id6787819824), [Android](https://play.google.com/store/apps/details?id=com.t3tools.t3code)), [web app](https://app.t3.codes) and [Electron-based desktop app](https://t3.codes).\n\n"
+          },
+          {
+            "field": "purpose",
+            "quote": "\n\n# T3 Code\n\nT3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app ([iOS](https://apps.apple.com/us/app/t3-code-remote-claude-more/id6787819824), [Android](https://play.google.com/store/apps/details?id=com.t3tools.t3code)), [web app](https://app.t3.codes) and [Electron-based desktop app](https://t3.codes).\n\n"
+          },
+          {
+            "field": "scenarios",
+            "quote": "\n\n# T3 Code\n\nT3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app ([iOS](https://apps.apple.com/us/app/t3-code-remote-claude-more/id6787819824), [Android](https://play.google.com/store/apps/details?id=com.t3tools.t3code)), [web app](https://app.t3.codes) and [Electron-based desktop app](https://t3.codes).\n\n"
+          },
+          {
+            "field": "steps",
+            "quote": "curl -fsSL https://t3.codes/install.sh | sh\n```\n\nOn Windows, in PowerShell:\n\n```powershell\nirm https://t3.codes/install.ps1 | iex\n```\n\nThen run `t3` to start the server and open the local web app. `t3 service install` keeps it running in the background, `t3 update` moves to a newer release, and `t3 --help` has the full reference.\n\nTo try it once without installing, run `npx t3@latest` instead.\n\n"
+          },
+          {
+            "field": "verification",
+            "quote": "Works with your subscriptions on Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity, and fx. If they're set up on your computer, T3 Code can control them.\n\n## \"Wait, what are you selling me?\"\n\n"
+          }
+        ]
+      },
+      "savedAt": "2026-11-11T07:43:59.074Z",
+      "reviewIssues": [
+        "summary: 原文描述为 'enables control of the agents on your machine'，但草稿中将其概括为 '控制机器上的智能体'，口语化且略有偏差；purpose: 原文强调 'best-in-class mobile app' 与 'remote-ready、truly open'，草稿中 '统一控制中心' 略去了开源与远程可达性的核心定位；scenarios: 原文列举移动端、Web端、桌面端具体使用场景，草稿中仅保留远程控制与代理切换，遗漏了跨平台访问的具体形态；steps: 原文安装步骤涉及多平台包管理器（winget/scoop/Homebrew/AUR/Nix）及 CLI 认证流程，草稿中仅列出单一 curl 安装命令，遗漏关键前置条件与多平台安装方式；requirements: 原文明确 'Install and authenticate at least one provider before use' 并列出具体 CLI 安装命令，草稿中 '需要在计算机上安装并认证至少一种代理服务' 缺少具体认证步骤与平台差异；verification: 原文验证方式为 '确认服务器启动并能连接已认证代理'，草稿中仅写 '确认服务器成功启动并能通过本地Web应用或移动应用访问'，缺少对代理连接状态的检查。"
+      ]
+    },
+    "metabase/metabase|openrouter/nvidia/nemotron-3.5-lightning:free": {
+      "sourceHash": "18ae5d1df190f5a138cf36439f19952bbcabdd6ed37a1b6a8839935f2e632b4e",
+      "draft": {
+        "kind": "app",
+        "summary": "Metabase是一个易于使用的开源商业智能和嵌入式分析工具，让公司内的每个人都可以提问并从数据中学习。",
+        "purpose": "让非技术人员无需编写SQL即可提问分析数据，并通过可视化界面创建仪表盘、文档和报表。",
+        "audience": "业务分析人员、数据团队、希望嵌入分析功能的应用开发者",
+        "scenarios": [
+          "业务团队成员通过自然语言或SQL编辑器查询公司数据库获取洞察",
+          "数据分析师使用拖拽式界面快速搭建交互式仪表盘展示业务指标",
+          "产品经理在应用内嵌入Metabase组件为用户提供自助分析能力",
+          "团队通过权限设置为不同客户或部门提供独立的数据查看视图"
+        ],
+        "steps": [
+          "访问Metabase Cloud注册免费试用或下载安装包进行本地部署",
+          "连接目标数据库（如PostgreSQL、MySQL等）并完成向导配置"
+        ],
+        "requirements": "需要访问目标数据库的连接信息（主机、端口、用户名、密码、数据库名），以及现代浏览器访问Metabase界面",
+        "verification": "登录Metabase后成功连接数据库并能够创建问题（查询）并生成可视化结果",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:\n\n# Metabase\n\n[Metabase](https://www.metabase.com) is the easy, open-source way for everyone in your company to ask questions and learn from data.\n\n\n\n[](https://github.com/metabase/metabase/releases)\n[](https://codecov.io/gh/metabase/metabase)\n\n\n## Get started\n\n"
+          },
+          {
+            "field": "purpose",
+            "quote": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:\n\n# Metabase\n\n[Metabase](https://www.metabase.com) is the easy, open-source way for everyone in your company to ask questions and learn from data.\n\n\n\n[](https://github.com/metabase/metabase/releases)\n[](https://codecov.io/gh/metabase/metabase)\n\n\n## Get started\n\n"
+          },
+          {
+            "field": "scenarios",
+            "quote": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:\n\n# Metabase\n\n[Metabase](https://www.metabase.com) is the easy, open-source way for everyone in your company to ask questions and learn from data.\n\n\n\n[](https://github.com/metabase/metabase/releases)\n[](https://codecov.io/gh/metabase/metabase)\n\n\n## Get started\n\n"
+          },
+          {
+            "field": "steps",
+            "quote": "The easiest way to get started with Metabase is to sign up for a free trial of [Metabase Cloud](https://store.metabase.com/checkout).\n\n"
+          },
+          {
+            "field": "verification",
+            "quote": "The easiest way to get started with Metabase is to sign up for a free trial of [Metabase Cloud](https://store.metabase.com/checkout).\n\n"
+          }
+        ]
+      },
+      "savedAt": "2026-11-11T07:43:59.074Z",
+      "reviewIssues": [
+        "summary: 与源文本不符。源文本为 'The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:'，但草稿中为 'Metabase是一个易于使用的开源商业智能和嵌入式分析工具，让公司内的每个人都可以提问并从数据中学习。'。",
+        "purpose: 与源文本不符。源文本未提及 '无需编写SQL' 等具体功能描述，仅作总体介绍。",
+        "scenarios: 与源文本不符。源文本列出了具体功能（如不需SQL、SQL编辑器、AI助手、仪表盘、文档、数据转换、订阅、权限等），草稿中的三个场景虽对应部分功能但未完整对应且表述口语化，且源文本未直接列出 '场景'。",
+        "steps: 与源文本不符。源文本中 'Get started' 章节仅提及 'The easiest way to get started with Metabase is to sign up for a free trial of Metabase Cloud' 以及 'If you need to, you can always switch to self-hosting Metabase'，未提及 '访问Metabase Cloud注册免费试用或下载安装包进行本地部署' 这一具体步骤描述，亦未提及 '连接目标数据库' 为第一步。",
+        "requirements: 与源文本不符。源文本中未列出具体的前置条件（如数据库连接信息、浏览器要求等），仅提及 'Metabase can be run just about anywhere' 以及安装指南链接。",
+        "verification: 与源文本不符。源文本中未提供验证方法，仅列出了功能和获取途径。"
       ]
     }
   }
