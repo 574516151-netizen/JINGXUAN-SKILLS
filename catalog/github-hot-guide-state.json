@@ -13228,51 +13228,47 @@
       "sourceHash": "3d746faf785f264b1f1d5b189a6753bbe7ac0d084979dcdd3aed863dd81d1c99",
       "firstSeenAt": "2026-11-08T07:17:38.888Z",
       "attempts": 4,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/OpenMontageInc/OpenMontage/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-11T07:43:59.074Z",
-      "nextAttemptAt": "2026-11-11T08:43:59.074Z"
+      "lastAttemptAt": "2026-11-11T07:43:59.074Z"
     },
     "storytold/photocraft": {
       "id": "storytold/photocraft",
       "sourceHash": "308c63d469cf6574a3cf4a8c51091f2565da65399a7d4fc7a04327d9b156b4e4",
       "firstSeenAt": "2026-11-10T08:23:48.506Z",
       "attempts": 2,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/storytold/photocraft/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-11T07:43:59.074Z",
-      "nextAttemptAt": "2026-11-11T08:43:59.074Z"
+      "lastAttemptAt": "2026-11-11T07:43:59.074Z"
     },
     "hkuds/deeptutor": {
       "id": "hkuds/deeptutor",
       "sourceHash": "1487cb7df8ccbca1bbb9f38111c98e342fb669ae7f498ebcfcc348a20900cdf1",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 3,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/HKUDS/DeepTutor/blob/main/README.md",
       "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-11-14T07:35:29.732Z",
-      "nextAttemptAt": "2026-11-14T08:35:29.732Z"
+      "lastAttemptAt": "2026-11-14T07:35:29.732Z"
     },
     "emilkowalski/skills": {
       "id": "emilkowalski/skills",
       "sourceHash": "f90ae38c188d994b6818db0086c4976fadef39eea6547a38d3378a0ca4530473",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 1,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/emilkowalski/skills/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-12T08:17:45.578Z",
-      "nextAttemptAt": "2026-11-12T09:17:45.578Z"
+      "lastAttemptAt": "2026-11-12T08:17:45.578Z"
     },
     "meta/docusaurus": {
       "id": "meta/docusaurus",
       "sourceHash": "f21f6f2db2f6b4e46de365f9f1f83620f71f32707722516e19f922577e6c2307",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/meta/docusaurus/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13281,7 +13277,7 @@
       "sourceHash": "5f1694334813527baa07cc545a71452cf6f1ba5298d233666fde11fb06d31e51",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/boykopovar/AnyPS5/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13290,7 +13286,7 @@
       "sourceHash": "ecfcd12deb69d89b47fbb76484fc66943a61499b4f664c2366c47662bc848811",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/google/guava/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13299,7 +13295,7 @@
       "sourceHash": "8199e20938e488fecd09803fc487da42470ee16b957ba2aa01e370323ac14693",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/KeygraphHQ/shannon/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13307,17 +13303,20 @@
       "id": "obsidianmd/obsidian-skills",
       "sourceHash": "013cba78309f26e5882b359cfd6e0253328859e7abbe0cdf412a36cf4c6c0d88",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/obsidianmd/obsidian-skills/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
+      "reason": "source-review-rejected",
+      "lastAttemptAt": "2026-11-18T14:45:03.018Z",
+      "validationIssues": [],
+      "nextAttemptAt": "2026-11-18T15:45:03.018Z"
     },
     "astral-sh/ruff": {
       "id": "astral-sh/ruff",
       "sourceHash": "c674d0be6fd87c9f7a0d8532748fd4706f2f5fd24b433a400e648ea3e9a8ea6c",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/astral-sh/ruff/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13325,17 +13324,20 @@
       "id": "herdrdev/herdr",
       "sourceHash": "2344411ef174d46b031db3c34d373dcd06a7389a57da6dca3038efc95c4084da",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/herdrdev/herdr/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
+      "reason": "daily-budget-exhausted",
+      "lastAttemptAt": "2026-11-18T14:45:03.018Z",
+      "validationIssues": [],
+      "nextAttemptAt": "2026-11-19T00:00:00.000Z"
     },
     "microsoft/qlib": {
       "id": "microsoft/qlib",
       "sourceHash": "3963ac97b38b6f43aecc266d63aadc7acd88c8bf2256ee06f06b9d170b79b432",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/microsoft/qlib/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13344,7 +13346,7 @@
       "sourceHash": "92b3ddc8c9aad16d221625bc77e985238f3d1cdb9d0653d26a3b52f94f8db767",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/cheaper-inference/OmniRoute/blob/release/v3.8.54/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13353,7 +13355,7 @@
       "sourceHash": "d35a9d30dd5349dd9ead5e5f4a98ad08bc39d183fceca5e8a6c0522253e1d83c",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/eternity4719/HowToLiveBetter/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13362,7 +13364,7 @@
       "sourceHash": "d3a4d05332c04e78d994804a01dac6276c71147b6005f62413088a442c5e253b",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/remotion-dev/remotion/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13371,7 +13373,7 @@
       "sourceHash": "11a794068b4c8b0d2d94f3ec34fa8e718d4eb488239207162d4f7cfdbed15c07",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/mvanhorn/last30days-skill/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13380,7 +13382,7 @@
       "sourceHash": "7647409c6d73758be212785d9b70cb07251440957c52cd219e2124ba432942eb",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/LadybirdBrowser/ladybird/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13389,7 +13391,7 @@
       "sourceHash": "a252827b60813a6a0bf92816a9a1f450169fa83b3a0744fc3bc0ddbb7afc93ad",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/ChrisTitusTech/winutil/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13398,7 +13400,7 @@
       "sourceHash": "b7501f86f8115a2a2fc61ae6ac25f836078ebde69764b9cb5a714c57f89c976b",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/upstash/context7/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13407,7 +13409,7 @@
       "sourceHash": "f8c44b14605461264e681f4ff731128ee426803c40a422590bba378825fc1e75",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/keras-team/keras/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13416,7 +13418,7 @@
       "sourceHash": "5596ee7028f378a81337dd88673eedc0324140951af42ee9440bded0fe879c2a",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/bilawalsidhu/gods-eye-view/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13425,7 +13427,7 @@
       "sourceHash": "f33247a7911d8c45484211a7c91d2231b06372d1a52e9f02ae2db5127d9102e0",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/commaai/openpilot/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13434,7 +13436,7 @@
       "sourceHash": "71db95de2171621b626b388c08b9822b204dd62ac3117b5199205551a52ff132",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/tw93/Pake/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13443,7 +13445,7 @@
       "sourceHash": "ab2071b420c7aca2f63d89dafac159fc928b10b9a98ff068c607ba7d6711d2a2",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/ultralytics/ultralytics/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13452,7 +13454,7 @@
       "sourceHash": "387e33eb7073ea3793afaf64703fb99defd30a201d5bb9f57cb5f4bb0b177aa7",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/Raphire/Win11Debloat/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13461,7 +13463,7 @@
       "sourceHash": "23f3a397239df45b4eb244d633ced3bbe0203114cb0f28bb6f0fc430c663f4f6",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/makeplane/plane/blob/preview/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13470,7 +13472,7 @@
       "sourceHash": "05bf14b999ff22c4970d491e060d07aeb6b17bdd178ba629b0a062f268a33f2f",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/1c7/chinese-independent-developer/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13479,7 +13481,7 @@
       "sourceHash": "49fba492f053cddaa99a36269e062631ff39c20148f5faf2e6b482216d63fc7a",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/rclone/rclone/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13488,7 +13490,7 @@
       "sourceHash": "31a57dc81228e81b7911da2465bba0741b9f6274d801d31a527069f9989798d0",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13497,7 +13499,7 @@
       "sourceHash": "301ae4522a57c9ceeb0cb82d4970865d8c767e673056c4d241e7fdcc75ad6254",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/vectorize-io/hindsight/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13506,7 +13508,7 @@
       "sourceHash": "30016d72562171cb46c9424d2a9b96367cb8cbca864c160b8e92b429618e9bf0",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/agalwood/Motrix/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13515,7 +13517,7 @@
       "sourceHash": "2e6813463659c3ffb19b2bb2b906e4c8d6bd03127b54b4866734e84e15cca6d0",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/h5bp/html5-boilerplate/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13524,7 +13526,7 @@
       "sourceHash": "79bff8cd1d87cf68dde8c833e62a8c76e57deb163b267c996c474d5f13c1e6be",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/Imbad0202/academic-research-skills/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13533,7 +13535,7 @@
       "sourceHash": "d8de83730eeff4dd3bcf18fb57a16be30f64b3e7659dbe76f7c75c752d3c7b59",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/multica-ai/multica/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13542,7 +13544,7 @@
       "sourceHash": "a020183be375c77bfee0471098388b6a4a2356373dfd8208be09aa68c39be6e9",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/ngosang/trackerslist/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13550,19 +13552,20 @@
       "id": "chromedevtools/chrome-devtools-mcp",
       "sourceHash": "0423044ed493026f79a14b8c4aef798751ac1dadd07451fc54ab4f111b67c1a7",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
-      "attempts": 2,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "attempts": 3,
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-18T08:29:56.737Z",
-      "nextAttemptAt": "2026-11-18T09:29:56.737Z"
+      "reason": "source-review-rejected",
+      "lastAttemptAt": "2026-11-18T14:45:03.018Z",
+      "validationIssues": [],
+      "nextAttemptAt": "2026-11-18T15:45:03.018Z"
     },
     "ggml-org/whisper.cpp": {
       "id": "ggml-org/whisper.cpp",
       "sourceHash": "242218ed1b693fb466bc33c8415b2a01e62c3c54ec7c0421a8e2390dc2584303",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/ggml-org/whisper.cpp/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13571,7 +13574,7 @@
       "sourceHash": "3f92671a12faea925476ddf743ce6e722b0a3b2b64fb7fdae373eb7a0e3e9014",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/apple/container/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13580,7 +13583,7 @@
       "sourceHash": "1dd10ed4f4ee464a9cb39a3f329b69c42b53be925f31e46747a5d6a2e64d1213",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/justjavac/wechat-miniapp-radar/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13589,7 +13592,7 @@
       "sourceHash": "46a64f6b096b3ccffcc51a01e8b5c2bb7a0fa277fc689aa80ecff4409a752829",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/huginn/huginn/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13598,7 +13601,7 @@
       "sourceHash": "a5393d1172091e7d58569279bbcdaf18feb58be13fdaf89f6ed9e569f73a8b30",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/ClickHouse/ClickHouse/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13607,7 +13610,7 @@
       "sourceHash": "dcb8633e5eed24849396b58d9980edc9a2799ba58ac865e4a18971b45190c919",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/mastodon/mastodon/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13616,7 +13619,7 @@
       "sourceHash": "1f2c3ebc61c6e3eacb2638f3df7f8877eb556671d1ddee398f1f714475a7a5b2",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/nlohmann/json/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13624,30 +13627,38 @@
       "id": "tashfeenahmed/freellmapi",
       "sourceHash": "bd03caa087374d66c9282ec53233bd6192992650722c33565d2894846d0dbe6b",
       "firstSeenAt": "2026-11-13T07:53:25.885Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "attempts": 2,
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/tashfeenahmed/freellmapi/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-18T08:29:56.737Z",
-      "nextAttemptAt": "2026-11-18T09:29:56.737Z"
+      "lastAttemptAt": "2026-11-18T14:45:03.018Z",
+      "validationIssues": [
+        "invalid-chinese-summary",
+        "invalid-chinese-purpose"
+      ],
+      "nextAttemptAt": "2026-11-18T15:45:03.018Z"
     },
     "alibaba/open-code-review": {
       "id": "alibaba/open-code-review",
       "sourceHash": "bf8008e11c6651740bd5aaa774f6380e69908c06be248d9eda5a7eed2997bd90",
       "firstSeenAt": "2026-11-15T07:49:34.532Z",
-      "attempts": 2,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "attempts": 3,
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/alibaba/open-code-review/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-18T08:29:56.737Z",
-      "nextAttemptAt": "2026-11-18T09:29:56.737Z"
+      "lastAttemptAt": "2026-11-18T14:45:03.018Z",
+      "validationIssues": [
+        "invalid-chinese-audience",
+        "missing-chinese-scenarios"
+      ],
+      "nextAttemptAt": "2026-11-18T15:45:03.018Z"
     },
     "aider-ai/aider": {
       "id": "aider-ai/aider",
       "sourceHash": "ee1cb448eb750c421e0de8c2d6e903ad52f911e4f9fe11cf6c311fefa1b356c1",
       "firstSeenAt": "2026-11-15T07:49:34.532Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/Aider-AI/aider/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13655,33 +13666,46 @@
       "id": "justvugg/colibri",
       "sourceHash": "56bbf6dc31b5ccee1424f1119bc7c1ddf486ffb22a8f57b97abea23223368df3",
       "firstSeenAt": "2026-11-16T07:57:11.232Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/JustVugg/colibri/blob/main/README.md",
-      "reason": "awaiting-chinese-guide"
+      "reason": "daily-budget-exhausted",
+      "lastAttemptAt": "2026-11-18T14:45:03.018Z",
+      "validationIssues": [],
+      "nextAttemptAt": "2026-11-19T00:00:00.000Z"
     },
     "hkuds/nanobot": {
       "id": "hkuds/nanobot",
       "sourceHash": "e4976945095b7b8ef525d194ce71a0cd5f1bc9030a0923a08f9fb58b636531c7",
       "firstSeenAt": "2026-11-18T08:29:56.737Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
       "readmeUrl": "https://github.com/HKUDS/nanobot/blob/main/README.md",
+      "reason": "awaiting-chinese-guide"
+    },
+    "jingyaogong/minimind": {
+      "id": "jingyaogong/minimind",
+      "sourceHash": "ce3a5372af2e568bbc72e24499e3c0a0b88d9fcd5065aab252e8f5b4e1222dec",
+      "firstSeenAt": "2026-11-18T14:45:03.018Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-18T14:45:03.018Z",
+      "readmeUrl": "https://github.com/jingyaogong/minimind/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     }
   },
   "budget": {
     "day": "2026-11-18",
     "counts": {
-      "openrouter": 7
+      "openrouter": 20
     },
     "lastValidation": {
-      "id": "zhulinsen/daily_stock_analysis",
+      "id": "obsidianmd/obsidian-skills",
       "model": "nvidia/nemotron-3.5-lightning:free",
       "issues": [
-        "missing-chinese-scenarios"
+        "missing-chinese-scenarios",
+        "unsupported-inline-code"
       ],
-      "checkedAt": "2026-11-18T08:29:56.737Z"
+      "checkedAt": "2026-11-18T14:45:03.018Z"
     }
   },
   "drafts": {
@@ -13730,6 +13754,200 @@
       "savedAt": "2026-11-14T07:35:29.732Z",
       "reviewIssues": [
         "源文材料中未提及中文简介、用途、场景、入门步骤或验证方法的具体内容。draft 中的内容为空泛描述，未能对应 source 中的实际细节（如安装路径、提供商配置、具体命令等），属于信息不足或虚构情况。"
+      ]
+    },
+    "tashfeenahmed/freellmapi|openrouter/nvidia/nemotron-3.5-lightning:free": {
+      "sourceHash": "bd03caa087374d66c9282ec53233bd6192992650722c33565d2894846d0dbe6b",
+      "draft": {
+        "kind": "self",
+        "summary": "10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+        "purpose": "Aggregate free tiers from dozens of providers, plus custom OpenAI-compatible chat, embedding, image, and audio endpoints, behind a single `/v1` API. Keys are stored encrypted. A router picks the best available model for each request, falls over to the next provider when one is rate-limited, and tracks per-key usage so you stay under every free-tier cap.",
+        "audience": "AI实验者、开发者、研究人员",
+        "scenarios": [
+          "想要免费访问多个LLM提供商模型的用户",
+          "需要统一API接口管理多个AI模型的开发者",
+          "进行个人AI实验和原型开发的研究人员",
+          "希望利用免费额度进行成本控制的项目负责人"
+        ],
+        "steps": [
+          "在本地运行安装脚本或使用Docker部署FreeLLMAPI容器",
+          "访问本地界面http://localhost:3001并添加提供商密钥"
+        ],
+        "requirements": "Docker环境或支持curl的系统，以及各个LLM提供商的API密钥",
+        "verification": "通过Web界面配置并获取统一的API密钥，检查是否能够成功调用后端模型",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.\n\n# FreeLLMAPI\n\n**10.1 billion tokens per month.  87 free LLM providers. 1,313 free model endpoints. One OpenAI-compatible endpoint.**\n\n"
+          },
+          {
+            "field": "purpose",
+            "quote": "Aggregate free tiers from dozens of providers, plus custom OpenAI-compatible chat, embedding, image, and audio endpoints, behind a single `/v1` API. Keys are stored encrypted. A router picks the best available model for each request, falls over to the next provider when one is rate-limited, and tracks per-key usage so you stay under every free-tier cap.\n\n"
+          },
+          {
+            "field": "scenarios",
+            "quote": "10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.\n\n# FreeLLMAPI\n\n**10.1 billion tokens per month.  87 free LLM providers. 1,313 free model endpoints. One OpenAI-compatible endpoint.**\n\n"
+          },
+          {
+            "field": "steps",
+            "quote": "- [Contributing](#contributing)\n- [Dis\n\n## Quick start\n\n**One-liner** (Docker required — sets up `~/freellmapi`, generates an encryption key, pulls the image, and starts the container):\n\n```bash\ncurl -fsSL https://freellmapi.co/install.sh | bash\n```\n\n"
+          },
+          {
+            "field": "verification",
+            "quote": "Open http://localhost:3001, add your provider keys on the **Keys** page, reorder the **Fallback Chain** to taste, and grab your unified API key from the **Keys** page header. That unified key is what you point your OpenAI SDK at.\n\n"
+          }
+        ]
+      },
+      "savedAt": "2026-11-18T14:45:03.018Z",
+      "validationIssues": [
+        "invalid-chinese-summary",
+        "invalid-chinese-purpose"
+      ]
+    },
+    "chromedevtools/chrome-devtools-mcp|openrouter/nvidia/nemotron-3.5-lightning:free": {
+      "sourceHash": "0423044ed493026f79a14b8c4aef798751ac1dadd07451fc54ab4f111b67c1a7",
+      "draft": {
+        "kind": "cli",
+        "summary": "Chrome DevTools for coding agents，让 AI 编码助手通过 Model-Context-Protocol 服务器或 CLI 访问完整 Chrome DevTools 功能，可用于可靠的自动化、深度调试和性能分析。",
+        "purpose": "通过 MCP 协议控制和检查实时 Chrome 浏览器，获取性能洞察、分析网络请求、拍摄截图、检查带源映射的堆栈跟踪的浏览器控制台消息并执行自动化任务。",
+        "audience": "AI 编码助手用户",
+        "scenarios": [
+          "使用 Chrome DevTools 录制性能追踪并提取可操作的性能洞察",
+          "分析网络请求、拍摄截图并检查带源映射的堆栈跟踪的浏览器控制台消息",
+          "使用 Puppeteer 自动执行 Chrome 操作并自动等待操作结果",
+          "在 Claude Code、Copilot、VS Code 或 Gemini CLI 等 AI 编码助手中集成浏览器控制能力"
+        ],
+        "steps": [
+          "在 MCP 客户端配置中添加 chrome-devtools MCP 服务器配置",
+          "使用 npx -y chrome-devtools-mcp@latest 启动服务器并开始控制 Chrome 浏览器"
+        ],
+        "requirements": "Node.js LTS 版本、当前稳定版或更高版本的 Chrome 浏览器、npm",
+        "verification": "检查 MCP 客户端是否成功连接到 chrome-devtools 服务器并能执行基本的浏览器操作，如访问网页和拍摄截图",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "Chrome DevTools for coding agents\n\n# Chrome DevTools for agents\n\n[](https://npmjs.org/package/chrome-devtools-mcp)\n\nChrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot)\ncontrol and inspect a live Chrome browser. It is available as a\nModel-Context-Protocol (MCP) server and as a [CLI][cli]. Both give your AI\n"
+          },
+          {
+            "field": "purpose",
+            "quote": "Chrome DevTools for coding agents\n\n# Chrome DevTools for agents\n\n[](https://npmjs.org/package/chrome-devtools-mcp)\n\nChrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot)\ncontrol and inspect a live Chrome browser. It is available as a\nModel-Context-Protocol (MCP) server and as a [CLI][cli]. Both give your AI\n"
+          },
+          {
+            "field": "scenarios",
+            "quote": "  DevTools](https://github.com/ChromeDevTools/devtools-frontend) to record\n  traces and extract actionable performance insights.\n- **Advanced browser debugging**: Analyze network requests, take screenshots and\n  check browser console messages (with source-mapped stack traces).\n- **Reliable automation**. Uses\n  [puppeteer](https://github.com/puppeteer/puppeteer) to automate actions in\n"
+          },
+          {
+            "field": "steps",
+            "quote": "  \"mcpServers\": {\n    \"chrome-devtools\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"chrome-devtools-mcp@latest\"]\n    }\n  }\n}\n```\n\n> [!NOTE]\n> Using `chrome-devtools-mcp@latest` ensures that your MCP client will always use the latest version of the Chrome DevTools MCP server.\n\n\n\n## Advanced Usage\n\n"
+          },
+          {
+            "field": "verification",
+            "quote": "User Experience Report (CrUX)](https://developer.chrome.com/docs/crux). To disable\nthis, run \n\n## Requirements\n\n- [Node.js](https://nodejs.org/) [LTS](https://github.com/nodejs/Release#release-schedule) version.\n- [Chrome](https://www.google.com/chrome/) current stable version or newer.\n- [npm](https://www.npmjs.com/)\n\n\n\n### Install skills as a plugin\n\n"
+          }
+        ]
+      },
+      "savedAt": "2026-11-18T14:45:03.018Z",
+      "reviewIssues": [
+        "summary: 仅截取了开头片段，未完整对应官方简介；purpose: 与官方描述不符，实际为「控制和检查实时 Chrome 浏览器」而非单纯获取工具访问权限；scenarios: 遗漏「官方仅支持 Chrome 和 Chrome for Testing」的平台限制，且部分场景描述泛化程度不符合原文；steps: 缺少启动服务器的完整命令参数（如 -y 标志）与使用注意事项；requirements: 遗漏 Node.js LTS 版本与 npm 的具体说明，且未提及 Chrome for Testing 的平台限制；verification: 缺乏具体的连接与操作验证方法，仅保留模糊检查。"
+      ]
+    },
+    "alibaba/open-code-review|openrouter/nvidia/nemotron-3.5-lightning:free": {
+      "sourceHash": "bf8008e11c6651740bd5aaa774f6380e69908c06be248d9eda5a7eed2997bd90",
+      "draft": {
+        "kind": "cli",
+        "summary": "Secure、快速、高效、经过了阿里巴巴规模的实战检验的混合架构代码审查工具，结合确定性管道与 LLM 智能体，提供精确的行级注释，内置多语言规则集（NPE、线程安全、XSS、SQL注入），兼容 OpenAI 与 Anthropic。",
+        "purpose": "用于读取 Git Diff，将更改的文件发送至可配置的 LLM 并生成带行级精确注释的结构化代码审查意见，支持全文扫描用于审计 unfamiliar 代码库或无有意义 Diff 的目录。",
+        "audience": "开发者",
+        "scenarios": [
+          "利用 AI 自动化代码审查流程，及时发现代码缺陷",
+          "通过行级精确注释提升代码质量审查效率",
+          "利用内置多语言规则集检测 NPE、线程安全、XSS 与 SQL 注入等常见漏洞",
+          "通过 OCR scan 审计 unfamiliar 代码库或无 Diff 的目录",
+          "在大规模开源项目中实现跨语言代码审查",
+          "利用确定性管道与 LLM 智能体的混合架构平衡精确率与成本",
+          "通过配置 LLM 端点实现灵活的模型接入",
+          "作为 Alibaba Group 内部验证过的代码审查助手投入社区使用"
+        ],
+        "steps": [
+          "安装全局命令行工具：npm install -g @alibaba-group/open-code-review",
+          "配置 LLM 提供商与模型：使用 ocr config provider 与 ocr config model 完成设置"
+        ],
+        "requirements": "Git 版本 >= 2.41，用于 diff 生成、代码搜索与仓库操作；LLM 端点配置（OpenAI 或 Anthropic 兼容的模型接入信息）。",
+        "verification": "检查生成的审查意见是否包含具体的行号与定位的代码片段，确认注释内容是否符合预期的缺陷类型（如 NPE、线程安全等）以及是否符合内置多语言规则集的检测标准。",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.\n\n# OpenCodeReview\n\n\n\n\n  \n    \n  \n\n\n  \n    \n  \n  \n    \n  \n\n\n  \n  \n  \n  \n  \n\n\n  \n  \n  \n  \n  \n  \n  \n\n\n"
+          },
+          {
+            "field": "purpose",
+            "quote": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.\n\n# OpenCodeReview\n\n\n\n\n  \n    \n  \n\n\n  \n    \n  \n  \n    \n  \n\n\n  \n  \n  \n  \n  \n\n\n  \n  \n  \n  \n  \n  \n  \n\n\n"
+          },
+          {
+            "field": "scenarios",
+            "quote": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.\n\n# OpenCodeReview\n\n\n\n\n  \n    \n  \n\n\n  \n    \n  \n  \n    \n  \n\n\n  \n  \n  \n  \n  \n\n\n  \n  \n  \n  \n  \n  \n  \n\n\n"
+          },
+          {
+            "field": "steps",
+            "quote": "- **Git >= 2.41** — Open Code Review relies on Git for diff generation, code search, and repository operations.\n\n\n\n#### Install\n\n```bash\nnpm install -g @alibaba-group/open-code-review\n```\n\nAfter installation, the `ocr` command is available globally.\n\n"
+          },
+          {
+            "field": "verification",
+            "quote": "| **F1** | Harmonic mean of precision and recall | Best single number for overall review quality |\n| **Precision** | Proportion of reported issues that are real defects | Higher = fewer false alarms to triage |\n| **Recall** | Proportion of real defects that are found | Higher = fewer issues slip through review |\n| **Avg T\n\n### Prerequisites\n\n"
+          }
+        ]
+      },
+      "savedAt": "2026-11-18T14:45:03.018Z",
+      "validationIssues": [
+        "invalid-chinese-audience",
+        "missing-chinese-scenarios"
+      ]
+    },
+    "obsidianmd/obsidian-skills|openrouter/nvidia/nemotron-3.5-lightning:free": {
+      "sourceHash": "013cba78309f26e5882b359cfd6e0253328859e7abbe0cdf412a36cf4c6c0d88",
+      "draft": {
+        "kind": "app",
+        "summary": "Obsidian技能仓库，提供一系列AI Agent技能，可通过Obsidian CLI和多种开放格式（Markdown、Bases、JSON Canvas）操作，支持Claude Code、Codex、OpenCode等多平台使用。",
+        "purpose": "通过Agent Skills规范，让AI助手学会使用Obsidian CLI和开放格式，实现Markdown、Bases、JSON Canvas等文件的创建、编辑、同步及网页内容提取等功能。",
+        "audience": "AI助手开发者、Obsidian用户、自动化脚本编写者",
+        "scenarios": [
+          "使用Claude Code或Codex等Agent时，需要操作Obsidian vault中的Markdown文件",
+          "需要创建和编辑Obsidian Flavored Markdown，包含wikilinks、嵌入、调阅框等语法",
+          "需要使用Obsidian Bases功能，创建视图、过滤器、公式和摘要",
+          "需要使用JSON Canvas创建节点、边、组和连接的图谱文件"
+        ],
+        "steps": [
+          "使用Claude Code时，在终端执行 `claude plugin marketplace add obsidianmd/obsidian-skills` 并 `claude plugin install obsidian@obsidian-skills`",
+          "或在Claude Code会话中使用 `/plugin marketplace add obsidianmd/obsidian-skills` 和 `/plugin install obsidian@obsidian-skills` 进行安装"
+        ],
+        "requirements": "拥有Claude Code、Codex或OpenCode等兼容的AI Agent平台，以及目标Obsidian vault的访问权限",
+        "verification": "检查技能是否在Agent平台中可用，尝试执行如创建Markdown文件、编辑Bases视图或同步vault等操作，确认功能正常",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.\n\nAgent Skills for use with Obsidian.\n\nThese skills follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code, Codex, and Open Code.\n\n## Installation\n\n### Claude Code marketplace\n\n"
+          },
+          {
+            "field": "purpose",
+            "quote": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.\n\nAgent Skills for use with Obsidian.\n\nThese skills follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code, Codex, and Open Code.\n\n## Installation\n\n### Claude Code marketplace\n\n"
+          },
+          {
+            "field": "scenarios",
+            "quote": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.\n\nAgent Skills for use with Obsidian.\n\nThese skills follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code, Codex, and Open Code.\n\n## Installation\n\n### Claude Code marketplace\n\n"
+          },
+          {
+            "field": "steps",
+            "quote": "From terminal:\n\n```sh\nclaude plugin marketplace add obsidianmd/obsidian-skills\nclaude plugin install obsidian@obsidian-skills\n```\n\nFrom within a Claude Code session:\n\n```sh\n/plugin marketplace add obsidianmd/obsidian-skills\n/plugin install obsidian@obsidian-skills\n```\n\nTo get new skills later, run `claude plugin update obsidian@obsidian-skills`.\n\n### Codex marketplace\n\n```sh\n"
+          },
+          {
+            "field": "verification",
+            "quote": "From terminal:\n\n```sh\nclaude plugin marketplace add obsidianmd/obsidian-skills\nclaude plugin install obsidian@obsidian-skills\n```\n\nFrom within a Claude Code session:\n\n```sh\n/plugin marketplace add obsidianmd/obsidian-skills\n/plugin install obsidian@obsidian-skills\n```\n\nTo get new skills later, run `claude plugin update obsidian@obsidian-skills`.\n\n### Codex marketplace\n\n```sh\n"
+          }
+        ]
+      },
+      "savedAt": "2026-11-18T14:45:03.018Z",
+      "reviewIssues": [
+        "source简介提到支持Obsidian CLI、Markdown、Bases、JSON Canvas等多种功能，但draft的summary、purpose、scenarios和steps仅涉及基础安装和最基础的Markdown操作，遗漏了Bases、JSON Canvas、Obsidian CLI、Headless、Defuddle、Knap等核心技能的具体用途与操作说明；draft的requirements仅提到需要AI Agent平台和vault访问权限，未列出具体的前置条件（如GitHub账户、SSH密钥、具体平台版本等）；draft的verification描述不完整，仅重复了安装命令，缺乏实际的功能验证方法。"
       ]
     }
   }
