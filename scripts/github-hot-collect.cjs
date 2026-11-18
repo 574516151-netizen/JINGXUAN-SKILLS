@@ -85,6 +85,16 @@ async function collect({directory,editorialFile,token='',publish=false,now=new D
  const feed={schemaVersion:1,guidePolicyVersion:3,weeklyPolicyVersion:policy.WEEKLY_POLICY_VERSION,updateStatus,thresholdExclusive:policy.THRESHOLD,maxItems:policy.MAX,generatedAt:now,editions:[edition,...(old?.editions||[]).map(e=>({...e,thresholdExclusive:e.thresholdExclusive??old.thresholdExclusive}))].slice(0,12)};policy.validateFeed(feed);assertPublished(feed);
  await atomic(path.join(directory,'github-hot.json'),feed);return {published:true,candidates:allItems.length,stars:stars.length,weekly:weekly.length,ready:prepared.items.length,pending:prepared.pendingCount,completed:prepared.completed,readmeFailures};
 }
-async function atomic(file,value){const pending=file+'.tmp';await fs.writeFile(pending,JSON.stringify(value,null,2)+'\n');await fs.rename(pending,file);}
+async function atomic(file,value){
+ const pending=file+'.tmp';
+ await fs.writeFile(pending,JSON.stringify(value,null,2)+'\n');
+ for(let attempt=0;;attempt++){
+  try{await fs.rename(pending,file);return;}
+  catch(error){
+   if(attempt>=6||!['EPERM','EACCES','EBUSY'].includes(error.code))throw error;
+   await new Promise(resolve=>setTimeout(resolve,20*2**attempt));
+  }
+ }
+}
 module.exports={collect,parseTrending,metricFor,normalize,categoryFor,request,plainReadme,guideTargets,guidePriorities};
 if(require.main===module){const args=process.argv.slice(2),value=key=>args[args.indexOf(key)+1];collect({directory:path.resolve(args.includes('--directory')?value('--directory'):'catalog/github-hot-data'),editorialFile:path.resolve(args.includes('--editorial')?value('--editorial'):'catalog/github-hot-editorial.json'),token:process.env.GITHUB_TOKEN||'',publish:args.includes('--publish'),retryPending:args.includes('--retry-guides'),maxGuideCompletions:args.includes('--collect-only')?0:6}).then(result=>console.log(JSON.stringify(result))).catch(error=>{console.error(error.message);process.exitCode=1;});}
