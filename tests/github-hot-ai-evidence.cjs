@@ -14,5 +14,33 @@ const assert=require('node:assert/strict'),{sourceOptions,bindEvidence}=require(
  const r=await run()(item,'2026-10-25T01:00:00Z');assert(isReady(r));assert(reviewSeen);assert.equal(calls,2);
  await assert.rejects(run(true)(item,'2026-10-25T01:00:00Z'),/guide-validation-failed/);
  await assert.rejects(run(false,false)(item,'2026-10-25T01:00:00Z'),/source-review-rejected/);
+ let generations=0,reviews=0;
+ const drafts={},budget={day:new Date().toISOString().slice(0,10),counts:{}};
+ const repair=createCompleter({
+  providers:[{name:'openrouter',model:'fixture/model:free'}],
+  keys:{openrouter:'test-only'},drafts,budget,
+  fetcher:async(url,options)=>{
+   if(url.endsWith('/models'))return {ok:true,text:async()=>JSON.stringify({data:[{id:'fixture/model:free',pricing:{prompt:'0',completion:'0'}}]})};
+   const request=JSON.parse(options.body),input=JSON.parse(request.messages[1].content);
+   let value;
+   if(request.messages[0].content.includes('独立检查')){
+    reviews++;
+    value={approved:true,issues:[]};
+   }else{
+    generations++;
+    if(generations===2){
+     assert(input.previousValidationIssues.includes('missing-chinese-scenarios'));
+     assert.equal(input.previousDraft.scenarios[0],'太短');
+    }
+    value={...base,scenarios:generations===1?['太短']:base.scenarios,evidence:SOURCE_FIELDS.map(field=>({field,sourceId:input.source.evidenceOptions[0].id}))};
+   }
+   return {ok:true,text:async()=>JSON.stringify({choices:[{finish_reason:'stop',message:{content:JSON.stringify(value)}}]})};
+  }
+ });
+ assert(isReady(await repair(item,'2026-11-18T01:00:00Z')));
+ assert.equal(generations,2);
+ assert.equal(reviews,1);
+ assert.equal(Object.keys(drafts).length,0);
+ assert.equal(budget.counts.openrouter,3);
  console.log('Model evidence IDs bind exact official text; invalid IDs and unsupported claims remain rejected.');
 })().catch(e=>{console.error(e);process.exitCode=1;});

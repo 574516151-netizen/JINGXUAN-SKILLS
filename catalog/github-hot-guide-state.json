@@ -120,201 +120,186 @@
       }
     },
     "leonardomso/33-js-concepts": {
-      "sourceHash": "f023917cdf1cb47977128e4b4c71d6a7a671b5377b72a58da452098c77a3df61",
-      "completedAt": "2026-10-21T06:00:52.593Z",
+      "sourceHash": "e04b3089461805589a7dc12b110b9b24808a36c4d339db86ff72610b9330c1b2",
+      "completedAt": "2026-11-18T14:32:30.347Z",
       "content": {
-        "summary": "这是一份帮助开发者系统掌握三十三个JavaScript核心概念的学习教程资源库，内容覆盖基础原理、异步编程、函数式编程与Web平台知识。",
+        "summary": "围绕 JavaScript 核心概念整理的学习资料，覆盖类型、作用域、闭包、事件循环和异步编程等主题，并提供解释、代码示例与延伸资源。",
         "scenarios": [
-          "开发者从基础类型、作用域和调用栈开始，系统补齐JavaScript语言核心知识。",
-          "前端开发者通过事件循环、Promise、async/await等内容理解异步执行机制。",
-          "学习者借助DOM、Fetch API和Web Workers章节理解浏览器Web平台能力。",
-          "开发者参考原型、继承与多态等章节梳理对象导向JavaScript的运行原理。"
+          "学习类型转换和相等比较，结合章节示例解释常见判断结果。",
+          "梳理事件循环、Promise 与异步函数，理解代码执行顺序及错误处理。"
         ],
-        "usage": "用于系统学习JavaScript核心概念，并通过清晰讲解、实用代码示例和精选资源加深理解。",
-        "requirements": "访问指南及各概念页面需要可用的网络连接；具体前置知识、浏览器要求和运行环境以原文为准。",
-        "quickStart": "1. 从README中的“Start learning at 33jsconcepts.com”进入完整指南。\n2. 按Fundamentals、Functions & Execution、Web Platform等目录选择概念主题。\n3. 阅读所选概念的清晰解释、实际代码示例和精选资源，并对照示例理解相关行为。",
+        "usage": "按概念系统学习 JavaScript 语言机制，通过章节解释与实际代码示例巩固基础。",
+        "requirements": "需要基本的 JavaScript 阅读能力，以及能运行样例代码的浏览器或 JavaScript 环境。学习主题和顺序可以按当前基础选择。",
+        "quickStart": "1. 从 README 的 Concepts 目录或完整指南入口选择一个基础主题，例如 Primitive Types 或 Scope and Closures。\n2. 阅读该主题的解释与代码示例，在自己的 JavaScript 环境中复现样例并记录结果。\n3. 按目录继续学习 Event Loop 与 Promises，把运行结果和章节解释对照，再补充相关延伸资料。",
         "guide": {
           "version": 2,
           "language": "zh-CN",
           "kind": "学习教程",
-          "purpose": "用于系统学习JavaScript核心概念，并通过清晰讲解、实用代码示例和精选资源加深理解。",
-          "audience": "希望提升JavaScript基础与进阶能力的开发者",
-          "example": "开发者从基础类型、作用域和调用栈开始，系统补齐JavaScript语言核心知识。",
+          "purpose": "按概念系统学习 JavaScript 语言机制，通过章节解释与实际代码示例巩固基础。",
+          "audience": "希望补齐 JavaScript 基础的学习者",
+          "example": "学习类型转换和相等比较，结合章节示例解释常见判断结果。",
           "steps": [
-            "从README中的“Start learning at 33jsconcepts.com”进入完整指南。",
-            "按Fundamentals、Functions & Execution、Web Platform等目录选择概念主题。",
-            "阅读所选概念的清晰解释、实际代码示例和精选资源，并对照示例理解相关行为。"
+            "从 README 的 Concepts 目录或完整指南入口选择一个基础主题，例如 Primitive Types 或 Scope and Closures。",
+            "阅读该主题的解释与代码示例，在自己的 JavaScript 环境中复现样例并记录结果。",
+            "按目录继续学习 Event Loop 与 Promises，把运行结果和章节解释对照，再补充相关延伸资料。"
           ],
-          "verification": "建议完成某一概念后，对照该章节说明检查自己能否解释并复现其列出的行为，例如类型转换、Promise执行顺序或DOM节点操作；原文未提供验收脚本。",
+          "verification": "能够用自己的话解释所选概念，并预测和复现章节样例的结果，再对照原文查找理解偏差。",
           "evidence": [
             {
               "field": "summary",
-              "quote": "This repository helps developers master core JavaScript concepts. Each concept includes clear explanations, practical code examples, and curated resources."
+              "quote": "open source projects of 2018!\n\n\n---\n\n## About\n\nThis repository helps developers master core JavaScript concepts. Each concept includes clear explanations, practical code examples, and curated resources.\n\n**[Start learning at 33jsconcepts.com →](https://33jsconcepts.com)**\n\n---\n\n## Concepts\n\n### Fundamentals\n\n- **[Primitive Types](https://33jsconcepts.com/concepts/primi"
             },
             {
               "field": "purpose",
-              "quote": "Learn JavaScript Promises for handling async operations. Understand how to create, chain, and combine Promises, handle errors properly, and avoid common pitfalls."
+              "quote": "ository helps developers master core JavaScript concepts. Each concept includes clear explanations, practical code examples, and curated resources.\n\n**[Start learning at 33jsconcepts.com →](https://33jsconcepts.com)**\n\n---\n\n## Concepts\n\n### Fundamentals\n\n- **[Primitive Types](https://33jsconcepts.com/concepts/primitive-types)**  \n  Learn JavaScript's 7 primitive types: string, num"
             },
             {
               "field": "scenarios",
-              "quote": "Learn how the JavaScript event loop handles async code. Understand the call stack, task queue, microtasks, and why Promises always run before setTimeout()."
-            },
-            {
-              "field": "scenarios",
-              "quote": "Learn how the DOM works in JavaScript. Understand how browsers represent HTML as a tree, select and manipulate elements, traverse nodes, and optimize rendering performance."
-            },
-            {
-              "field": "scenarios",
-              "quote": "Learn JavaScript's prototype chain and object creation. Understand how inheritance works, the new operator's 4 steps, Object.create(), Object.assign(), and prototype methods."
+              "quote": "rn how the JavaScript event loop handles async code. Understand the call stack, task queue, microtasks, and why Promises always run before setTimeout().\n\n- **[IIFE, Modules & Namespaces](https://33jsconcepts.com/concepts/iife-modules)**  \n  Learn how to organize JavaScript code with IIFEs, namespaces, and ES6 modules. Understand private scope, exports, dynamic"
             },
             {
               "field": "steps",
-              "quote": "**[Start learning at 33jsconcepts.com →](https://33jsconcepts.com)**"
-            },
-            {
-              "field": "steps",
-              "quote": "Each concept includes clear explanations, practical code examples, and curated resources."
+              "quote": "ncludes clear explanations, practical code examples, and curated resources.\n\n**[Start learning at 33jsconcepts.com →](https://33jsconcepts.com)**\n\n---\n\n## Concepts\n\n### Fundamentals\n\n- **[Primitive Types](https://33jsconcepts.com/concepts/primitive-types)**  \n  Learn JavaScript's 7 primitive types: string, number, bigint, boolean, undefined, null, and sym"
             },
             {
               "field": "verification",
-              "quote": "Learn JavaScript type coercion and implicit conversion. Understand how values convert to strings, numbers, and booleans, the 8 falsy values, and how to avoid common coercion bugs."
+              "quote": "pers master core JavaScript concepts. Each concept includes clear explanations, practical code examples, and curated resources.\n\n**[Start learning at 33jsconcepts.com →](https://33jsconcepts.com)**\n\n---\n\n## Concepts\n\n### Fundamentals\n\n- **[Primitive Types](https://33jsconcepts.com/concepts/primitive-types)**  \n  Learn JavaScript's 7 primitive types: string, num"
             }
           ],
-          "sourceHash": "f023917cdf1cb47977128e4b4c71d6a7a671b5377b72a58da452098c77a3df61",
+          "sourceHash": "e04b3089461805589a7dc12b110b9b24808a36c4d339db86ff72610b9330c1b2",
           "sourceUrl": "https://github.com/leonardomso/33-js-concepts/blob/master/README.md",
-          "basis": "依据官方简介和 README 自动整理，并检查中文完整性及原文依据；场景示例不代表实际运行测试。",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
           "curated": true,
           "review": {
             "approved": true,
-            "sourceHash": "f023917cdf1cb47977128e4b4c71d6a7a671b5377b72a58da452098c77a3df61",
-            "checkedAt": "2026-10-21T06:00:52.593Z"
+            "sourceHash": "e04b3089461805589a7dc12b110b9b24808a36c4d339db86ff72610b9330c1b2",
+            "checkedAt": "2026-11-18T14:32:30.347Z",
+            "method": "source-reading-and-structure-check"
           }
         },
-        "editorialStatus": "中文导读 · 原文依据已检查"
+        "editorialStatus": "中文导读 · 官方原文已核对"
       }
     },
     "warpdotdev/warp": {
-      "sourceHash": "3487485872d002e94d1d743383d83700fa0ba9b21ace5936b41ce151d3889da7",
-      "completedAt": "2026-10-22T06:06:20.228Z",
+      "sourceHash": "e0db2957d000543444d1748619276a921846f2904c94435eeb427562f3ef35d0",
+      "completedAt": "2026-11-18T14:32:30.347Z",
       "content": {
-        "summary": "Warp 是源自终端体验的智能体开发环境，集成编程智能体并支持接入多种命令行智能体。",
+        "summary": "从终端发展而来的智能体开发环境，可使用内置编程助手或接入已有 CLI 智能体，结合终端完成代码理解、修改及开发任务。",
         "scenarios": [
-          "开发者希望使用 Warp 内置编程智能体协助完成日常开发任务。",
-          "团队希望让多个智能体自动分类问题、编写规格、实现变更并审查拉取请求。",
-          "用户希望继续使用 Claude Code、Codex、Gemini CLI 等已有命令行智能体。",
-          "贡献者希望从源码构建 Warp，并运行格式检查、静态检查与测试。"
+          "在终端开发环境中让内置编程助手协助处理一个小型代码修改任务。",
+          "在同一开发环境中继续使用已经配置的 Claude Code、Codex 或其他命令行智能体。"
         ],
-        "usage": "用于在终端中借助内置或外部智能体处理开发工作，并支持团队通过 Warp Factories 自动化软件研发流程。",
-        "requirements": "需要先完成平台特定设置；具体平台要求、依赖条件及工程规范以 AGENTS.md 和项目原文为准。",
-        "quickStart": "1. 先阅读 AGENTS.md，确认编码风格、测试要求和平台相关说明。\n2. 运行 ./script/bootstrap，执行当前平台所需的源码环境准备。\n3. 运行 ./script/run，从源码构建并启动 Warp。\n4. 运行 ./script/presubmit，检查格式、Clippy 静态检查和测试结果。",
+        "usage": "把终端操作和编程智能体结合起来，按任务使用内置助手或已经配置的命令行智能体。",
+        "requirements": "需要官方支持的系统和可用项目目录。所选智能体或模型服务的账号、权限和方案条件按对应官方文档配置。",
+        "quickStart": "1. 从 README 的 Download Warp 入口下载客户端，按对应系统的官方文档完成安装。\n2. 打开一个用于练习的项目，在 Warp 中选择内置编程助手或接入已经配置好的 CLI 智能体。\n3. 提出一个范围清楚的小任务，查看执行过程及代码结果，再按项目自己的检查方式验证修改。",
         "guide": {
           "version": 2,
           "language": "zh-CN",
           "kind": "应用软件",
-          "purpose": "用于在终端中借助内置或外部智能体处理开发工作，并支持团队通过 Warp Factories 自动化软件研发流程。",
-          "audience": "开发者、开源贡献者及软件研发团队",
-          "example": "开发者希望使用 Warp 内置编程智能体协助完成日常开发任务。",
+          "purpose": "把终端操作和编程智能体结合起来，按任务使用内置助手或已经配置的命令行智能体。",
+          "audience": "习惯终端并希望引入智能体的开发者",
+          "example": "在终端开发环境中让内置编程助手协助处理一个小型代码修改任务。",
           "steps": [
-            "先阅读 AGENTS.md，确认编码风格、测试要求和平台相关说明。",
-            "运行 ./script/bootstrap，执行当前平台所需的源码环境准备。",
-            "运行 ./script/run，从源码构建并启动 Warp。",
-            "运行 ./script/presubmit，检查格式、Clippy 静态检查和测试结果。"
+            "从 README 的 Download Warp 入口下载客户端，按对应系统的官方文档完成安装。",
+            "打开一个用于练习的项目，在 Warp 中选择内置编程助手或接入已经配置好的 CLI 智能体。",
+            "提出一个范围清楚的小任务，查看执行过程及代码结果，再按项目自己的检查方式验证修改。"
           ],
-          "verification": "建议在启动后对照 Warp 的终端开发环境与智能体功能描述检查使用结果，并确认 ./script/presubmit 覆盖的格式、Clippy 和测试均已通过；原文未提供单独的验收脚本。",
+          "verification": "检查终端及智能体是否能正常执行小任务，阅读产生的代码修改，并运行项目已有的检查命令验证结果。",
           "evidence": [
             {
               "field": "summary",
-              "quote": "Warp is an agentic development environment, born out of the terminal."
+              "quote": "Warp is an agentic development environment, born out of the terminal.\n\n&nbsp;\n\n  \n\n\n\n  Website\n  ·\n  Code\n  ·\n  Agents\n  ·\n  Terminal\n  ·\n  Drive\n  ·\n  Docs\n  ·\n  How Warp Works\n\n\n> [!NOTE]\n> OpenAI is the founding sponsor of the new, open-source Warp repository, and the new agentic management workflo"
             },
             {
               "field": "purpose",
-              "quote": "Use Warp's built-in coding agent, or bring your own CLI agent (Claude Code, Codex, Gemini CLI, and others)."
+              "quote": "ev) is an agentic development environment, born out of the terminal. Use Warp's built-in coding agent, or bring your own CLI agent (Claude Code, Codex, Gemini CLI, and others).\n\n## Installation\n\nYou can [download Warp](https://www.warp.dev/download) and [read our docs](https://docs.warp.dev/) for platform-specific instructions.\n\n## Warp Contributions Overview"
             },
             {
               "field": "scenarios",
-              "quote": "Watch thousands of [Warp Factory](warp.dev/factories) agents triage issues, write specs, implement changes, and review PRs"
+              "quote": "ent environment, born out of the terminal. Use Warp's built-in coding agent, or bring your own CLI agent (Claude Code, Codex, Gemini CLI, and others).\n\n## Installation\n\nYou can [download Warp](https://www.warp.dev/download) and [read our docs](https://docs.warp.dev/) for platform-specific instructions.\n\n## Warp Contributions Overview Dashboard\n\nExplore [build.wa"
             },
             {
               "field": "steps",
-              "quote": "./script/bootstrap   # platform-specific setup\n./script/run         # build and run Warp\n./script/presubmit   # fmt, clippy, and tests"
+              "quote": "(https://www.warp.dev/download) and [read our docs](https://docs.warp.dev/) for platform-specific instructions.\n\n## Warp Contributions Overview Dashboard\n\nExplore [build.warp.dev](https://build.warp.dev) to:\n- Watch thousands of [Warp Factory](warp.dev/factories) agents triage issues, write specs, implement changes, and review PRs\n- View top contributors and in-flight"
             },
             {
               "field": "verification",
-              "quote": "See [AGENTS.md](AGENTS.md) for the full engineering guide, including coding style, testing, and platform-specific notes."
+              "quote": "bootstrap   # platform-specific setup\n./script/run         # build and run Warp\n./script/presubmit   # fmt, clippy, and tests\n```\n\nSee [AGENTS.md](AGENTS.md) for the full engineering guide, including coding style, testing, and platform-specific notes.\n\n## Joining the Team\n\nInterested in joining the team? See our [open roles](https://www.warp.dev/careers).\n"
             }
           ],
-          "sourceHash": "3487485872d002e94d1d743383d83700fa0ba9b21ace5936b41ce151d3889da7",
+          "sourceHash": "e0db2957d000543444d1748619276a921846f2904c94435eeb427562f3ef35d0",
           "sourceUrl": "https://github.com/warpdotdev/warp/blob/master/README.md",
-          "basis": "依据官方简介和 README 自动整理，并检查中文完整性及原文依据；场景示例不代表实际运行测试。",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
           "curated": true,
           "review": {
             "approved": true,
-            "sourceHash": "3487485872d002e94d1d743383d83700fa0ba9b21ace5936b41ce151d3889da7",
-            "checkedAt": "2026-10-22T06:06:20.228Z"
+            "sourceHash": "e0db2957d000543444d1748619276a921846f2904c94435eeb427562f3ef35d0",
+            "checkedAt": "2026-11-18T14:32:30.347Z",
+            "method": "source-reading-and-structure-check"
           }
         },
-        "editorialStatus": "中文导读 · 原文依据已检查"
+        "editorialStatus": "中文导读 · 官方原文已核对"
       }
     },
     "nocodb/nocodb": {
-      "sourceHash": "4be64a6a65fad140026cd20a2696260a0596414f9db429b52dc867b78f7aad15",
-      "completedAt": "2026-10-22T06:06:20.228Z",
+      "sourceHash": "2322c8a24c85f6fe3b493aaa5d978dfbb7ffac46da74d5138d6c981e338dbd04",
+      "completedAt": "2026-11-18T14:32:30.347Z",
       "content": {
-        "summary": "NocoDB 是一个免费且可自托管的在线数据库平台，适合通过电子表格界面管理结构化数据。",
+        "summary": "提供电子表格式界面的自部署数据管理工具，可创建表格和字段、筛选与分组数据，并通过表单、看板等视图及接口组织团队业务流程。",
         "scenarios": [
-          "团队使用电子表格视图创建、读取、更新和删除表、字段及数据行。",
-          "用户通过看板、日历、表单或图库视图按不同工作方式组织数据。",
-          "管理员为共享的数据库或视图设置公开访问、密码保护及细粒度角色权限。",
-          "团队通过聊天、邮件和存储集成连接工作流自动化服务。"
+          "建立一组业务数据表，按字段筛选、分组并制作适合团队的视图。",
+          "用表单收集记录，再通过访问权限和共享视图安排团队协作。"
         ],
-        "usage": "用于在线创建数据库，并通过表格、看板、日历、表单等视图组织和维护数据。",
-        "requirements": "需要可运行 Docker 的环境，并按示例提供数据挂载目录和 8080 端口；容器镜像使用 nocodb/nocodb:latest，其他系统条件以原文为准。",
-        "quickStart": "1. 在具备 Docker 运行条件的环境中，按 README 的 Docker with SQLite 方法创建 NocoDB 容器，并挂载数据目录、映射 8080 端口。\n2. 容器启动后，在本机通过 http://localhost:8080/dashboard 访问 NocoDB，并按照界面创建数据库、表、字段和数据行。",
+        "usage": "通过可视化界面管理数据库记录、视图和共享权限，让团队以表格方式处理结构化数据。",
+        "requirements": "需要能运行 Docker 的环境、可用端口及持久化数据目录。部署及商业使用前应阅读仓库的 Sustainable Use License 和官方说明。",
+        "quickStart": "1. 选择 README 的 Docker with SQLite 路线，准备 Docker 并按该节映射持久化数据目录和端口启动容器。\n2. 容器启动后打开 README 提供的 localhost:8080/dashboard 入口，按界面引导建立基础数据表。\n3. 添加少量测试记录，创建筛选或表单视图，并核对成员权限和数据目录的持久化设置。",
         "guide": {
           "version": 2,
           "language": "zh-CN",
           "kind": "自部署服务",
-          "purpose": "用于在线创建数据库，并通过表格、看板、日历、表单等视图组织和维护数据。",
-          "audience": "需要自建在线数据库的个人开发者、团队数据管理人员及希望替代 Airtable 的用户",
-          "example": "团队使用电子表格视图创建、读取、更新和删除表、字段及数据行。",
+          "purpose": "通过可视化界面管理数据库记录、视图和共享权限，让团队以表格方式处理结构化数据。",
+          "audience": "需要可视化管理业务数据的团队",
+          "example": "建立一组业务数据表，按字段筛选、分组并制作适合团队的视图。",
           "steps": [
-            "在具备 Docker 运行条件的环境中，按 README 的 Docker with SQLite 方法创建 NocoDB 容器，并挂载数据目录、映射 8080 端口。",
-            "容器启动后，在本机通过 http://localhost:8080/dashboard 访问 NocoDB，并按照界面创建数据库、表、字段和数据行。"
+            "选择 README 的 Docker with SQLite 路线，准备 Docker 并按该节映射持久化数据目录和端口启动容器。",
+            "容器启动后打开 README 提供的 localhost:8080/dashboard 入口，按界面引导建立基础数据表。",
+            "添加少量测试记录，创建筛选或表单视图，并核对成员权限和数据目录的持久化设置。"
           ],
-          "verification": "建议启动后访问 http://localhost:8080/dashboard，并对照界面确认能够创建表、字段和数据行；README 未提供专用验收脚本。",
+          "verification": "检查新增记录能被保存、筛选和查看，重启容器后核对数据仍在，并检查共享视图的访问范围。",
           "evidence": [
             {
               "field": "summary",
-              "quote": "A Free & Self-hostable Airtable Alternative\n\nNocoDB is the fastest and easiest way to build databases online."
+              "quote": "(http://localhost:8080/dashboard)\n\n# Screenshots\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n# Features\n\n### Rich Spreadsheet Interface\n\n- ⚡ &nbsp;Basic Operations: Create, Read, Update and Delete Tables, Columns, and Rows\n- ⚡ &nbsp;Fields Operations: Sort, Filter, Group, Hide / Unhide Columns\n- ⚡ &nbsp;Multiple Views Types: Grid (By default), Gallery, Form, Kanban and Calendar View\n- ⚡ &nbsp"
             },
             {
               "field": "purpose",
-              "quote": "Basic Operations: Create, Read, Update and Delete Tables, Columns, and Rows"
+              "quote": "\n\n\n\n\n\n\n\n# Features\n\n### Rich Spreadsheet Interface\n\n- ⚡ &nbsp;Basic Operations: Create, Read, Update and Delete Tables, Columns, and Rows\n- ⚡ &nbsp;Fields Operations: Sort, Filter, Group, Hide / Unhide Columns\n- ⚡ &nbsp;Multiple Views Types: Grid (By default), Gallery, Form, Kanban and Calendar View\n- ⚡ &nbsp;View Permissions Types: Collaborative Views, & Locked Views\n"
             },
             {
               "field": "scenarios",
-              "quote": "Multiple Views Types: Grid (By default), Gallery, Form, Kanban and Calendar View"
+              "quote": "⚡ &nbsp;Fields Operations: Sort, Filter, Group, Hide / Unhide Columns\n- ⚡ &nbsp;Multiple Views Types: Grid (By default), Gallery, Form, Kanban and Calendar View\n- ⚡ &nbsp;View Permissions Types: Collaborative Views, & Locked Views\n- ⚡ &nbsp;Share Bases / Views: either Public or Private (with Password Protected)\n- ⚡ &nbsp;Variant Cell Types: ID, Links, Lookup"
             },
             {
               "field": "steps",
-              "quote": "docker run -d \\\n  --name noco \\\n  -v \"$(pwd)\"/nocodb:/usr/app/data/ \\\n  -p 8080:8080 \\\n  nocodb/nocodb:latest"
+              "quote": "munity\n\n\n\n\n\n[](https://github.com/nocodb/nocodb/stargazers)\n\n# Installation\n\n## Docker with SQLite\n\n```bash \ndocker run -d \\\n  --name noco \\\n  -v \"$(pwd)\"/nocodb:/usr/app/data/ \\\n  -p 8080:8080 \\\n  nocodb/nocodb:latest\n  ```\n\n## Docker with PG\n```bash\ndocker run -d \\\n  --name noco \\\n  -v \"$(pwd)\"/nocodb:/usr/app/data/ \\\n  -p 8080:8080 \\\n  -e NC_DB=\"pg://ho"
             },
             {
               "field": "verification",
-              "quote": "When running locally access nocodb by visiting: [http://localhost:8080/dashboard](http://localhost:8080/dashboard)"
+              "quote": "s and Helm, please refer to [our docs](https://nocodb.com/docs/self-hosting)\n\n> When running locally access nocodb by visiting: [http://localhost:8080/dashboard](http://localhost:8080/dashboard)\n\n# Screenshots\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n# Features\n\n### Rich Spreadsheet Interface\n\n- ⚡ &nbsp;Basic Operations: Create, Read, Update and Delete Tables, Columns, and Rows\n- ⚡ &nbsp;Fields Op"
             }
           ],
-          "sourceHash": "4be64a6a65fad140026cd20a2696260a0596414f9db429b52dc867b78f7aad15",
+          "sourceHash": "2322c8a24c85f6fe3b493aaa5d978dfbb7ffac46da74d5138d6c981e338dbd04",
           "sourceUrl": "https://github.com/nocodb/nocodb/blob/develop/README.md",
-          "basis": "依据官方简介和 README 自动整理，并检查中文完整性及原文依据；场景示例不代表实际运行测试。",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
           "curated": true,
           "review": {
             "approved": true,
-            "sourceHash": "4be64a6a65fad140026cd20a2696260a0596414f9db429b52dc867b78f7aad15",
-            "checkedAt": "2026-10-22T06:06:20.228Z"
+            "sourceHash": "2322c8a24c85f6fe3b493aaa5d978dfbb7ffac46da74d5138d6c981e338dbd04",
+            "checkedAt": "2026-11-18T14:32:30.347Z",
+            "method": "source-reading-and-structure-check"
           }
         },
-        "editorialStatus": "中文导读 · 原文依据已检查"
+        "editorialStatus": "中文导读 · 官方原文已核对"
       }
     },
     "cloudflare/security-audit-skill": {
@@ -1751,59 +1736,60 @@
       }
     },
     "blader/humanizer": {
-      "sourceHash": "6eb34ba3014ec7d3ef64dc9574450e118f8db6679bc56fc9cede7d975968266d",
-      "completedAt": "2026-11-04T09:45:38.658Z",
+      "sourceHash": "0b5a2a2f6c40ae960c229068ff1d39e9f8574af35b25913bc8b308b7bdbf46d5",
+      "completedAt": "2026-11-18T14:32:30.347Z",
       "content": {
-        "summary": "帮助改写 AI 文本中套路化和空泛的表达，在保留原意的同时更适合人类阅读，可在支持 Skill 的助手中使用。",
+        "summary": "改善 AI 文稿表达方式的写作 Skill，依据常见机器化写作特征调整空泛开场、夸张措辞和生硬转折，并在保留原意的前提下帮助文字更适合真人阅读。",
         "scenarios": [
-          "改写一段产品公告，减少口号和空泛结尾。"
+          "修改产品公告中的夸张开场和重复转折，让读者更快看到具体变化。",
+          "对已有文档进行通读式润色，逐段核对改写是否保留事实及原意。"
         ],
-        "usage": "帮助改写 AI 文本中套路化和空泛的表达，在保留原意的同时更适合人类阅读，可在支持 Skill 的助手中使用。",
-        "requirements": "需要支持 Skill 的助手，并准备可核对事实的原始文本。",
-        "quickStart": "1. 按 Installation 为助手安装 Humanizer，确认可调用 /humanizer。\n2. 调用 /humanizer 并粘贴原文，或提供需要修改的文档路径。\n3. 对照原文检查事实、语气和删改位置，保留符合用途的版本。",
+        "usage": "检查并改写文稿中常见的机械表达，让段落更自然、具体，同时核对原始事实与含义。",
+        "requirements": "需要支持 Skill 的智能体宿主和可供编辑的原文。文件方式应提供正确路径，实际文稿仍需作者核对含义与事实。",
+        "quickStart": "1. 按 README 的 Installation 为所用智能体安装 Humanizer，并确认宿主能识别该 Skill。\n2. 在宿主调用 /humanizer 并贴入需要润色的文字，或按 Usage 给出待修改文档的路径。\n3. 阅读改写结果与检查摘要，逐段对照原文确认含义、事实和术语，再采用修改。",
         "guide": {
           "version": 2,
           "language": "zh-CN",
           "kind": "AI 指令 / Skill 资源",
-          "purpose": "帮助改写 AI 文本中套路化和空泛的表达，在保留原意的同时更适合人类阅读，可在支持 Skill 的助手中使用。",
-          "audience": "需要修改文案和技术文章的写作者",
-          "example": "改写一段产品公告，减少口号和空泛结尾。",
+          "purpose": "检查并改写文稿中常见的机械表达，让段落更自然、具体，同时核对原始事实与含义。",
+          "audience": "使用支持 Skill 的智能体编辑文稿的用户",
+          "example": "修改产品公告中的夸张开场和重复转折，让读者更快看到具体变化。",
           "steps": [
-            "按 Installation 为助手安装 Humanizer，确认可调用 /humanizer。",
-            "调用 /humanizer 并粘贴原文，或提供需要修改的文档路径。",
-            "对照原文检查事实、语气和删改位置，保留符合用途的版本。"
+            "按 README 的 Installation 为所用智能体安装 Humanizer，并确认宿主能识别该 Skill。",
+            "在宿主调用 /humanizer 并贴入需要润色的文字，或按 Usage 给出待修改文档的路径。",
+            "阅读改写结果与检查摘要，逐段对照原文确认含义、事实和术语，再采用修改。"
           ],
-          "verification": "事实与承诺没有被改写扩大，句子更直接；它不承诺绕过 AI 文本检测。",
+          "verification": "检查改写是否减少机械化措辞，事实与原意是否一致，并阅读摘要中已覆盖的章节及检查范围。",
           "evidence": [
             {
               "field": "summary",
-              "quote": "Agent skill that removes signs of AI-generated writing from text\n\n# Humanizer \n\nsponsored by [cfo.ai](https://cfo.ai)\n\n[](https://github.com/blader/humanizer/stargazers) [](https://skills.sh/blader/humanizer) \n\n\nHumanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wiki"
+              "quote": "thub.com/blader/humanizer/stargazers) [](https://skills.sh/blader/humanizer) \n\n\nHumanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), the guide Wikipedia editors use to catch AI-generated text, and it works in Claude Code"
             },
             {
               "field": "purpose",
-              "quote": "Agent skill that removes signs of AI-generated writing from text\n\n# Humanizer \n\nsponsored by [cfo.ai](https://cfo.ai)\n\n[](https://github.com/blader/humanizer/stargazers) [](https://skills.sh/blader/humanizer) \n\n\nHumanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wiki"
+              "quote": "der/humanizer) \n\n\nHumanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), the guide Wikipedia editors use to catch AI-generated text, and it works in Claude Code, Codex, and any other agent that supports skills.\n\n**Before"
             },
             {
               "field": "scenarios",
-              "quote": "Agent skill that removes signs of AI-generated writing from text\n\n# Humanizer \n\nsponsored by [cfo.ai](https://cfo.ai)\n\n[](https://github.com/blader/humanizer/stargazers) [](https://skills.sh/blader/humanizer) \n\n\nHumanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wiki"
+              "quote": " try to get past AI detectors, and detectors still flag most of its output.\n\n## The five strongest tells\n\nThese are the most common signs of AI writing, and Humanizer rewrites any of them on sight:\n\n1. **Not X but Y:** \"It's not just a feature, it's a shift.\"\n2. **One-line closers:** \"Let that sink in.\"\n3. **Sayings that sound deep:** \"At its core, what really m"
             },
             {
               "field": "steps",
-              "quote": " all.\n\n## Installation\n\nOnce installed, the skill answers to `/humanizer`.\n\n##\n\n## Usage\n\nCall the skill directly:\n\n```\n/humanizer\n\n[paste your text here]\n```\n\nOr ask in plain language:\n\n```\nPlease humanize this text: [your text]\n```\n\nTo rewrite a file, give Humanizer its path:\n\n```\nHumanize the prose in docs/launch-post.md\n```"
+              "quote": "ion\n\nOnce installed, run it with `/humanizer`.\n\n### Claude Code\n\n```\n\n## Usage\n\nCall the skill directly:\n\n```\n/humanizer\n\n[paste your text here]\n```\n\nOr ask in plain language:\n\n```\nPlease humanize this text: [your text]\n```\n\nTo rewrite a file, give Humanizer its path:\n\n```\nHumanize the prose in docs/launch-post.md\n```\n\nHumanizer reads the current file in full b"
             },
             {
               "field": "verification",
-              "quote": " all.\n\n## Installation\n\nOnce installed, the skill answers to `/humanizer`.\n\n##\n\n## Usage\n\nCall the skill directly:\n\n```\n/humanizer\n\n[paste your text here]\n```\n\nOr ask in plain language:\n\n```\nPlease humanize this text: [your text]\n```\n\nTo rewrite a file, give Humanizer its path:\n\n```\nHumanize the prose in docs/launch-post.md\n```"
+              "quote": "t file in full before editing, including files it wrote earlier in the session. Its summary states how many sections it reviewed and identifies any it could not cover."
             }
           ],
-          "sourceHash": "6eb34ba3014ec7d3ef64dc9574450e118f8db6679bc56fc9cede7d975968266d",
+          "sourceHash": "0b5a2a2f6c40ae960c229068ff1d39e9f8574af35b25913bc8b308b7bdbf46d5",
           "sourceUrl": "https://github.com/blader/humanizer/blob/main/README.md",
           "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
           "curated": true,
           "review": {
             "approved": true,
-            "sourceHash": "6eb34ba3014ec7d3ef64dc9574450e118f8db6679bc56fc9cede7d975968266d",
-            "checkedAt": "2026-11-04T09:45:38.658Z",
+            "sourceHash": "0b5a2a2f6c40ae960c229068ff1d39e9f8574af35b25913bc8b308b7bdbf46d5",
+            "checkedAt": "2026-11-18T14:32:30.347Z",
             "method": "source-reading-and-structure-check"
           }
         },
@@ -3191,59 +3177,60 @@
       }
     },
     "ebony-vinyl/dsh-our-free-model": {
-      "sourceHash": "e098d4c545cfd60bf3c7d8662c865fb0840c57a9eb25d466fab7b07dc22dbae2",
-      "completedAt": "2026-11-04T09:55:22.581Z",
+      "sourceHash": "0199c94a62448e7c8f1c4cc3f1a35f4a13c1e2cd2b5811e9a1fe106febaeb03d",
+      "completedAt": "2026-11-18T14:32:30.347Z",
       "content": {
-        "summary": "为 dsh 提供模型选择、思考强度和本地兼容接口的插件，模型可用性取决于上游服务及本机网络。",
+        "summary": "为 dsh 宿主接入上游公共模型网关的插件，提供模型选择、思考强度、用量看板及本机兼容接口转发。模型清单和可用性取决于上游服务与本机网络。",
         "scenarios": [
-          "在 dsh 中选择可用模型，并按需给本机工具提供转发。"
+          "在 dsh 的 Our Free Model 分组中选择可用模型，根据任务调整思考强度并检查实际输出。",
+          "需要让本机其他工具共用模型入口时，在插件设置中启用本地转发并配置访问参数。"
         ],
-        "usage": "为 dsh 提供模型选择、思考强度和本地兼容接口的插件，模型可用性取决于上游服务及本机网络。",
-        "requirements": "需要受支持的 dsh 宿主与对应安装方式；上游宣称的免费和限额应以实际服务条件为准。",
-        "quickStart": "1. 按宿主类型选择插件管理器或本地插件安装路线，避免混用 scoped 包与本地挂载。\n2. 重启后在模型选择器选 Our Free Model 分组，发送小请求检查可用性。\n3. 需要本机调用时从设置启用本地转发，复制实际端口与生成的 Key。",
+        "usage": "在 dsh 中选择上游提供的模型并查看用量，也可按需开启本机转发供其他工具调用。",
+        "requirements": "需要兼容的 dsh 宿主和能够访问上游网关的网络。安装渠道、模型限制、数据去向及实际可用性应按仓库和上游说明核对。",
+        "quickStart": "1. 先确认使用的 dsh 宿主及 profile，按 README 安装一节选择官方带 scope 的 @ebony-vinyl/dsh-our-free-model 包。\n2. 使用 README 中的 profile 安装命令挂载插件，安装后重启应用一次，再检查模型选择器中的 Our Free Model 分组。\n3. 选择一个当前可用模型完成短文本任务，查看设置中的模型卡和用量记录；需要转发时再在设置中开启本地转发。",
         "guide": {
           "version": 2,
           "language": "zh-CN",
-          "kind": "命令行工具",
-          "purpose": "为 dsh 提供模型选择、思考强度和本地兼容接口的插件，模型可用性取决于上游服务及本机网络。",
-          "audience": "已使用 dsh 的用户",
-          "example": "在 dsh 中选择可用模型，并按需给本机工具提供转发。",
+          "kind": "AI 助手 / 智能体",
+          "purpose": "在 dsh 中选择上游提供的模型并查看用量，也可按需开启本机转发供其他工具调用。",
+          "audience": "已经使用 dsh 并希望配置模型渠道的用户",
+          "example": "在 dsh 的 Our Free Model 分组中选择可用模型，根据任务调整思考强度并检查实际输出。",
           "steps": [
-            "按宿主类型选择插件管理器或本地插件安装路线，避免混用 scoped 包与本地挂载。",
-            "重启后在模型选择器选 Our Free Model 分组，发送小请求检查可用性。",
-            "需要本机调用时从设置启用本地转发，复制实际端口与生成的 Key。"
+            "先确认使用的 dsh 宿主及 profile，按 README 安装一节选择官方带 scope 的 @ebony-vinyl/dsh-our-free-model 包。",
+            "使用 README 中的 profile 安装命令挂载插件，安装后重启应用一次，再检查模型选择器中的 Our Free Model 分组。",
+            "选择一个当前可用模型完成短文本任务，查看设置中的模型卡和用量记录；需要转发时再在设置中开启本地转发。"
           ],
-          "verification": "选定模型能回答且本地接口地址与设置一致；不保证宣传中的模型与无限额度持续可用。",
+          "verification": "确认插件成功加载、模型能返回一次完整回答，并检查用量记录；启用转发后再从目标工具核对访问结果。",
           "evidence": [
             {
               "field": "summary",
-              "quote": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.\n\n# dsh-our-free-model\n\n**简体中文** | [English](README_EN.md)\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  Trendshift JavaScript 周榜第 1 · 2026-10-05 至 2026-10-"
+              "quote": "随上游刷新，可用性由**你自己这台机器的网络出口**实测得出，\n> 思考强度下发的是真实预算而不是提示词，另附一个 OpenAI 兼容的本地转发端口。\n>\n> 纯插件挂载：不改内核、无构建步骤、零依赖。\n\n\n\n---\n\n## 交流群\n\n\n  \n  \n  QQ 群：1132072680（AI技术交流群16）\n  \n  扫码加入群聊，一起交流插件使用心得、反馈问题与分享玩法。\n\n\n---\n\n## 亮点\n\n- **开箱即用，无配置环节**——不需要账号、不需要 Key、不需要在后台申请配额。\n- **上游来源公开透明**——免费车道来源为 [OpenCode 的 Zen 网关](https://opencode.ai)，Kilo 渠道来源为 [Kilo AI 的公共网关](https:/"
             },
             {
               "field": "purpose",
-              "quote": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.\n\n# dsh-our-free-model\n\n**简体中文** | [English](README_EN.md)\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  Trendshift JavaScript 周榜第 1 · 2026-10-05 至 2026-10-"
+              "quote": "设置页。\n- **用量看板，数据全部留在本机**——Token 热力图、总量曲线（支持总计与单模型视图）、输出速度与首字延迟逐次采样。不上传任何数据。\n- **OpenAI 兼容转发端口**——本机其它工具通过 base URL 与 Key 即可调用这些模型。Chat 历史中 assistant 的字符串 `\n\n## 安装\n\n> **⚠️ 不要安装 npm 上那个裸名的 `dsh-our-free-model`。**\n>\n> npm 上的 `dsh-our-free-model` 包**不是本仓库发布的**。它由第三方打包，内容与本仓库\n> 不一致：`index.js`、`client.js` 被改动，并额外包含本仓库从未有过的\n> `src/channel-visibility.js`。装到它得"
             },
             {
               "field": "scenarios",
-              "quote": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.\n\n# dsh-our-free-model\n\n**简体中文** | [English](README_EN.md)\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  Trendshift JavaScript 周榜第 1 · 2026-10-05 至 2026-10-"
+              "quote": "64.dmg\n```\n\n**安装后提示「已损坏」或打不开？**\n\n社区构建没有 Apple Developer 账号签名与公证，Gat\n\n## 使用说明\n\n**选择模型**：打开输入框的模型选择器，选择 Our Free Model 分组下的任意模型。选择结果按会话持久化。\n\n**调整思考强度**：同一菜单中的 Effort。声明了思考档位的模型给出它自己的档位（如 Off / Low /\nHigh / Max），选中值按原值下发；其余模型给 Light / Balanced / Deep 三档，档位越高思考占用的\n输出预算越多，上限为强制下发，因此档位之间存在可测量的差异。思考与可见回答共享同一输出额度，\n因此思考不可关闭的模型会将三档整体上移（设置 → Our Free Mo"
             },
             {
               "field": "steps",
-              "quote": "odel__aarch64.dmg\n```\n\n**安装后提示「已损坏」或打不开？**\n\n社区构建没有 Apple Developer 账号签名与公证，Gat\n\n## 使用说明\n\n**选择模型**：打开输入框的模型选择器，选择 Our Free Model 分组下的任意模型。选择结果按会话持久化。\n\n**调整思考强度**：同一菜单中的 Effort。声明了思考档位的模型给出它自己的档位（如 Off / Low /\nHigh / Max），选中值按原值下发；其余模型给 Light / Balanced / Deep 三档，档位越高思考占用的\n输出预算越多，上限为强制下发，因此档位之间存在可测量的差异。思考与可见回答共享同一输出额度，\n因此思考不可关闭的模型会将三档整体上移（设置 → Our"
+              "quote": "r-free-model-.tgz` 同源、同版本。只想走 npm 时可以装它：\n>\n> ```\n> dsh plugin --profile web add @ebony-vinyl/dsh-our-free-model@2.8.3\n> ```\n>\n> 注意它的包名带 scope，因此挂载条目是 `@ebony-vinyl/dsh-our-free-model`，与下文\n> 裸包名的本地安装方式不能混用（同一个 profile 里只选一种）。\n>\n> 其它渠道出现的同名包一律以本仓库为准。\n\n\n**命令行（纯 dsh web）**\n\n```\ndsh plugin --profile web add /绝对路径/dsh-our-free-model\n```\n\n安装完成后重启应用一次。`--profile` 填写实际使用的 profile 名称。"
             },
             {
               "field": "verification",
-              "quote": "odel__aarch64.dmg\n```\n\n**安装后提示「已损坏」或打不开？**\n\n社区构建没有 Apple Developer 账号签名与公证，Gat\n\n## 使用说明\n\n**选择模型**：打开输入框的模型选择器，选择 Our Free Model 分组下的任意模型。选择结果按会话持久化。\n\n**调整思考强度**：同一菜单中的 Effort。声明了思考档位的模型给出它自己的档位（如 Off / Low /\nHigh / Max），选中值按原值下发；其余模型给 Light / Balanced / Deep 三档，档位越高思考占用的\n输出预算越多，上限为强制下发，因此档位之间存在可测量的差异。思考与可见回答共享同一输出额度，\n因此思考不可关闭的模型会将三档整体上移（设置 → Our"
+              "quote": "块挂载在独立的 fiber 上，待 webServer 就绪后再注册路由，因此既不会阻塞模型车道，也不会因插件先于 web 服务加载而永久丢失设置页。\n- **用量看板，数据全部留在本机**——Token 热力图、总量曲线（支持总计与单模型视图）、输出速度与首字延迟逐次采样。不上传任何数据。\n- **OpenAI 兼容转发端口**——本机其它工具通过 base URL 与 Key 即可调用这些模型。Chat 历史中 assistant 的字符串 `\n\n## 安装\n\n> **⚠️ 不要安装 npm 上那个裸名的 `dsh-our-free-model`。**\n>\n> npm 上的 `dsh-our-free-model` 包**不是本仓库发布的**。它由第三方打包，内容与本仓库\n>"
             }
           ],
-          "sourceHash": "e098d4c545cfd60bf3c7d8662c865fb0840c57a9eb25d466fab7b07dc22dbae2",
+          "sourceHash": "0199c94a62448e7c8f1c4cc3f1a35f4a13c1e2cd2b5811e9a1fe106febaeb03d",
           "sourceUrl": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md",
           "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
           "curated": true,
           "review": {
             "approved": true,
-            "sourceHash": "e098d4c545cfd60bf3c7d8662c865fb0840c57a9eb25d466fab7b07dc22dbae2",
-            "checkedAt": "2026-11-04T09:55:22.581Z",
+            "sourceHash": "0199c94a62448e7c8f1c4cc3f1a35f4a13c1e2cd2b5811e9a1fe106febaeb03d",
+            "checkedAt": "2026-11-18T14:32:30.347Z",
             "method": "source-reading-and-structure-check"
           }
         },
@@ -12338,58 +12325,60 @@
       }
     },
     "zhulinsen/daily_stock_analysis": {
-      "sourceHash": "fcd1156211b20381b00400a03d630e471a679960d0ee92498e8eeda9ef2cfdae",
-      "completedAt": "2026-11-04T10:27:58.917Z",
+      "sourceHash": "8abc7b7118028d80a1bbcfd31ab8a74353a81bd217d255fc58954a9a8c3203c0",
+      "completedAt": "2026-11-18T14:32:30.347Z",
       "content": {
-        "summary": "用模型结合多源行情与新闻生成股票分析报告和通知的系统，提供网页、桌面与定时运行路线，适合研究资料整理。",
+        "summary": "结合行情数据、新闻搜索和大模型生成股票分析报告的自部署系统，提供自选股工作台、历史报告和定时推送，可按官方指南选择本地、Docker 或自动任务部署方式。",
         "scenarios": [
-          "对少量标的生成一份可追溯的信息报告。"
+          "对一组自选股生成结构化分析报告，在工作台核对行情、新闻和报告内容。",
+          "为已配置的股票列表安排定时分析，把报告发送到官方支持的通知渠道。"
         ],
-        "usage": "用模型结合多源行情与新闻生成股票分析报告和通知的系统，提供网页、桌面与定时运行路线，适合研究资料整理。",
-        "requirements": "需要所选部署环境、数据源和模型配置；不同市场支持与服务额度各有边界。",
-        "quickStart": "1. 先读 docs/full-guide.md 与市场支持边界，选择本地或 Docker 路线。\n2. 用少量标的测试，核对行情时间与新闻来源，再决定是否配置通知。",
+        "usage": "将自选股相关行情与新闻整理成分析报告，并按配置在工作台查看或推送到指定渠道。",
+        "requirements": "需要按部署指南准备运行环境、模型服务与所选行情及新闻来源。相关服务的权限、限额和费用分别以提供方说明为准。",
+        "quickStart": "1. 阅读 README 链接的完整配置与部署指南，选择本地运行路线并准备其要求的 Python 环境。\n2. 根据安装依赖一节安装 requirements.txt 中的依赖，再按指南配置自选股、模型服务和所需数据来源。\n3. 先手动运行一次分析，在工作台检查报告、任务进度及数据时间，再按指南配置需要的定时任务和推送渠道。",
         "guide": {
           "version": 2,
           "language": "zh-CN",
-          "kind": "研究 / 实验项目",
-          "purpose": "用模型结合多源行情与新闻生成股票分析报告和通知的系统，提供网页、桌面与定时运行路线，适合研究资料整理。",
-          "audience": "研究市场信息处理的软件用户",
-          "example": "对少量标的生成一份可追溯的信息报告。",
+          "kind": "自部署服务",
+          "purpose": "将自选股相关行情与新闻整理成分析报告，并按配置在工作台查看或推送到指定渠道。",
+          "audience": "愿意配置行情数据和模型服务的研究用户",
+          "example": "对一组自选股生成结构化分析报告，在工作台核对行情、新闻和报告内容。",
           "steps": [
-            "先读 docs/full-guide.md 与市场支持边界，选择本地或 Docker 路线。",
-            "用少量标的测试，核对行情时间与新闻来源，再决定是否配置通知。"
+            "阅读 README 链接的完整配置与部署指南，选择本地运行路线并准备其要求的 Python 环境。",
+            "根据安装依赖一节安装 requirements.txt 中的依赖，再按指南配置自选股、模型服务和所需数据来源。",
+            "先手动运行一次分析，在工作台检查报告、任务进度及数据时间，再按指南配置需要的定时任务和推送渠道。"
           ],
-          "verification": "报告数据与时间可核对，缺失与模型推断明确；分析不是投资建议或收益保证。",
+          "verification": "将报告中的股票代码、行情时间及新闻引用与数据来源核对，并检查工作台记录或通知内容是否完整。",
           "evidence": [
             {
               "field": "summary",
-              "quote": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.\n\n# 📈 股票智能分析系统\n\n[](https://github.com/ZhuLinsen/daily_stock_analysis/stargazers)\n[](https://arxiv.org/abs/2608.26990)\n[](https://github.com/ZhuLinsen/daily_stock_analysis/actions/workflows/ci.yml)\n[]("
+              "quote": ")\n[](https://hub.docker.com/r/zhulinsen/daily_stock_analysis)\n\n\n  &nbsp;\n\n\n> 🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱\n\n[**产品预览**](#-产品预览) · [**功能特性**](#-功能特性) · [**快速开始**](#-快速开始) · [**推送效果**](#-推送效果) · [**文档中心**](docs/INDEX.md) · [**完整指南**](docs/full-guide.md)\n\n简体中文 | [English](docs/README_EN.md)"
             },
             {
               "field": "purpose",
-              "quote": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.\n\n# 📈 股票智能分析系统\n\n[](https://github.com/ZhuLinsen/daily_stock_analysis/stargazers)\n[](https://arxiv.org/abs/2608.26990)\n[](https://github.com/ZhuLinsen/daily_stock_analysis/actions/workflows/ci.yml)\n[]("
+              "quote": "n/daily_stock_analysis)\n\n\n  &nbsp;\n\n\n> 🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱\n\n[**产品预览**](#-产品预览) · [**功能特性**](#-功能特性) · [**快速开始**](#-快速开始) · [**推送效果**](#-推送效果) · [**文档中心**](docs/INDEX.md) · [**完整指南**](docs/full-guide.md)\n\n简体中文 | [English](docs/README_EN.md) | [繁體中文](docs/README_CHT.md)\n\n\n\n\n💖 赞"
             },
             {
               "field": "scenarios",
-              "quote": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.\n\n# 📈 股票智能分析系统\n\n[](https://github.com/ZhuLinsen/daily_stock_analysis/stargazers)\n[](https://arxiv.org/abs/2608.26990)\n[](https://github.com/ZhuLinsen/daily_stock_analysis/actions/workflows/ci.yml)\n[]("
+              "quote": "公告、基本面与报告辅助数据；不同市场的数据源和能力边界见 [市场支持边界](docs/market-support.md) |\n| Web / 桌面工作台 | 手动分析、任务进度、历史报告、完整 Markdown、回测、持仓、配置管理、浅色 / 深色主题 |\n| Agent 策略问股 | 多轮追问，支持均线、缠论、波浪、趋势、热点、事件、成长、预期等 15 种内置策略，覆盖 Web/Bot/API |\n| 智能导入与补全 | 图片、CSV/Excel、剪贴板导入；股票代码/名称/拼音/别名补全 |\n| 自动化与推送 | GitHub Actions、Docker、本地定时任务、FastAPI 服务和企业微信/飞书/Telegram/Discord/Slack/邮件推送 |\n\n> 功能细节、字段契约、"
             },
             {
               "field": "steps",
-              "quote": "elegram/Discord/Slack/邮件推送 |\n\n> 功能细节、字段契约、基本面 P0 超时语义、交易纪律、数据源优先级、Web/API 行为请看 [完整配置与部署指南](docs/full-guide.md)。\n\n### 技术栈与数据来源\n\n| 类型 | 支持 |\n|------|------|\n| AI 模型 | [Modelflare](https://modelflare.dev/sign-up?utm_source=github&utm_campaign=daily_stock_analysis)、[AIHubMix](https://inferera.com/?aff=CfMq)、Gemini、OpenAI 兼容、DeepSeek、通义千问、Claude、Ollama"
+              "quote": "https://api.adanos.org/docs)（Reddit / X / Polymarket，仅美股，可选） |\n\n> 项目默认内\n\n# 安装依赖\npip install -r requirements.txt\n\n\n\n### 方式二：[客户端配置教程](https://www.bilibili.com/video/BV11FEb66Eyr/) / 本地运行 / Docker 部署\n\n```bash"
             },
             {
               "field": "verification",
               "quote": "elegram/Discord/Slack/邮件推送 |\n\n> 功能细节、字段契约、基本面 P0 超时语义、交易纪律、数据源优先级、Web/API 行为请看 [完整配置与部署指南](docs/full-guide.md)。\n\n### 技术栈与数据来源\n\n| 类型 | 支持 |\n|------|------|\n| AI 模型 | [Modelflare](https://modelflare.dev/sign-up?utm_source=github&utm_campaign=daily_stock_analysis)、[AIHubMix](https://inferera.com/?aff=CfMq)、Gemini、OpenAI 兼容、DeepSeek、通义千问、Claude、Ollama"
             }
           ],
-          "sourceHash": "fcd1156211b20381b00400a03d630e471a679960d0ee92498e8eeda9ef2cfdae",
+          "sourceHash": "8abc7b7118028d80a1bbcfd31ab8a74353a81bd217d255fc58954a9a8c3203c0",
           "sourceUrl": "https://github.com/ZhuLinsen/daily_stock_analysis/blob/main/README.md",
           "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
           "curated": true,
           "review": {
             "approved": true,
-            "sourceHash": "fcd1156211b20381b00400a03d630e471a679960d0ee92498e8eeda9ef2cfdae",
-            "checkedAt": "2026-11-04T10:27:58.917Z",
+            "sourceHash": "8abc7b7118028d80a1bbcfd31ab8a74353a81bd217d255fc58954a9a8c3203c0",
+            "checkedAt": "2026-11-18T14:32:30.347Z",
             "method": "source-reading-and-structure-check"
           }
         },
@@ -12692,58 +12681,60 @@
       }
     },
     "gathin23/cleanyourtv": {
-      "sourceHash": "d242ade2dbbd7d9f4dfc60181ed21a026cff2437380eea003ae7f2401855ceed",
-      "completedAt": "2026-11-04T10:36:58.622Z",
+      "sourceHash": "e9c5fce8f5ed7e90e5fdfe02d863380d82800b82d6fa18f37bcb625e2f4e7521",
+      "completedAt": "2026-11-18T14:32:30.347Z",
       "content": {
-        "summary": "通过同一 Wi-Fi 上的电脑调整 Android/Google TV 预装应用与主屏的工具流程，提供助手和手工路线，并包含恢复方法。",
+        "summary": "为 Android TV 和 Google TV 整理清理与桌面改造流程的项目，通过无线调试备份设置、禁用部分预装组件并安装简洁启动器，提供恢复原配置的路线。",
         "scenarios": [
-          "先检查电视可调整项目，再试用简洁主屏。"
+          "为兼容的 Android TV 减少预装推广组件，并更换简洁的默认主页。",
+          "清理前保存软件包和设置清单，按项目恢复流程检查是否能够恢复原配置。"
         ],
-        "usage": "通过同一 Wi-Fi 上的电脑调整 Android/Google TV 预装应用与主屏的工具流程，提供助手和手工路线，并包含恢复方法。",
-        "requirements": "需匹配 Android/Google TV 和网络；电脑路线按文档准备 Python、JDK 与 Android SDK，其他电视系统不适用。",
-        "quickStart": "1. 从 Start here 核对电视系统，按 Quick start 准备环境与连接。\n2. 先审阅将禁用的应用与恢复脚本，再按小范围变更验证主屏和常用功能。",
+        "usage": "借助官方说明和编码助手整理电视上的预装组件与默认桌面，保存备份以便后续恢复。",
+        "requirements": "适用于项目说明支持的 Android TV 或 Google TV。编码助手路线需要电脑终端、Python 3、JDK 17 至 22、Android SDK platform 34 和 build-tools 34。",
+        "quickStart": "1. 先在 Supported TVs 和 Start here 核对电视系统是否适用，再阅读 Quick start 与恢复说明。\n2. 按官方路线准备同一 Wi-Fi 下的电脑和电视、可用的编码助手及构建依赖，在电视开发者选项中开启调试并授权电脑。\n3. 让助手依照 Quick start 完成备份，再按电视品牌逐项处理禁用组件与启动器安装，并保留恢复记录。",
         "guide": {
           "version": 2,
           "language": "zh-CN",
-          "kind": "命令行工具",
-          "purpose": "通过同一 Wi-Fi 上的电脑调整 Android/Google TV 预装应用与主屏的工具流程，提供助手和手工路线，并包含恢复方法。",
-          "audience": "管理自有 Android 电视的用户",
-          "example": "先检查电视可调整项目，再试用简洁主屏。",
+          "kind": "源码 / 系统实现",
+          "purpose": "借助官方说明和编码助手整理电视上的预装组件与默认桌面，保存备份以便后续恢复。",
+          "audience": "愿意使用开发者调试功能管理电视的用户",
+          "example": "为兼容的 Android TV 减少预装推广组件，并更换简洁的默认主页。",
           "steps": [
-            "从 Start here 核对电视系统，按 Quick start 准备环境与连接。",
-            "先审阅将禁用的应用与恢复脚本，再按小范围变更验证主屏和常用功能。"
+            "先在 Supported TVs 和 Start here 核对电视系统是否适用，再阅读 Quick start 与恢复说明。",
+            "按官方路线准备同一 Wi-Fi 下的电脑和电视、可用的编码助手及构建依赖，在电视开发者选项中开启调试并授权电脑。",
+            "让助手依照 Quick start 完成备份，再按电视品牌逐项处理禁用组件与启动器安装，并保留恢复记录。"
           ],
-          "verification": "电视可正常使用且变更可恢复；不要把它套用于三星等非 Android 系统。",
+          "verification": "确认备份记录可找到，电视主页及日常功能正常，并按恢复说明核对还原入口和相关记录。",
           "evidence": [
             {
               "field": "summary",
-              "quote": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.\n\nRead in: 简体中文 · 正體中文 · Tiếng Việt · 日本語 · Italiano · Português · Nederlands · Deutsch · Українська · Türkçe\n\n\n\n  \n  \n  \n  \n  \n  \n\n\n\n  \n\n\n\n  \n\n\n## Start here\n\n| You have | Go to |\n|---|---|\n| **An Android TV or Google TV** | [Quick start](#quick-start): a cod"
+              "quote": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.\n\nRead in: עברית · 简体中文 · 正體中文 · Tiếng Việt · 日本語 · Italiano · Português · Nederlands · Deutsch · Українська · Türkçe · Oʻzbekcha · Français · Español\n\n\n\n  \n  \n  \n  \n  \n  \n\n\n\n  \n\n\n\n  \n\n\n## Start here\n\n| You have | Go "
             },
             {
               "field": "purpose",
-              "quote": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.\n\nRead in: 简体中文 · 正體中文 · Tiếng Việt · 日本語 · Italiano · Português · Nederlands · Deutsch · Українська · Türkçe\n\n\n\n  \n  \n  \n  \n  \n  \n\n\n\n  \n\n\n\n  \n\n\n## Start here\n\n| You have | Go to |\n|---|---|\n| **An Android TV or Google TV** | [Quick start](#quick-start): a cod"
+              "quote": "Back&nbsp;up** | The list of installed packages and settings. |\n| **Disable** | The manufacturer's telemetry, ad services, content rows and preloaded junk, with `pm disable-user`. Nothing is uninstalled, so a restore script can undo every step. |\n| **Install** | A small native launcher, made the default home screen. |\n\n**No root, no cable, nothing uninstalled, and a"
             },
             {
               "field": "scenarios",
-              "quote": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.\n\nRead in: 简体中文 · 正體中文 · Tiếng Việt · 日本語 · Italiano · Português · Nederlands · Deutsch · Українська · Türkçe\n\n\n\n  \n  \n  \n  \n  \n  \n\n\n\n  \n\n\n\n  \n\n\n## Start here\n\n| You have | Go to |\n|---|---|\n| **An Android TV or Google TV** | [Quick start](#quick-start): a cod"
+              "quote": "ent rows and preloaded junk, with `pm disable-user`. Nothing is uninstalled, so a restore script can undo every step. |\n| **Install** | A small native launcher, made the default home screen. |\n\n**No root, no cable, nothing uninstalled, and a one-line restore if you change your mind.**\n\nThe bloat differs by brand, so the prompt has your coding as\n\n## Quick start\n\n| You have "
             },
             {
               "field": "steps",
-              "quote": "and, so the prompt has your coding assistant discover it on your TV and ask\nbe\n\n## Quick start\n\n| You have | Do this |\n|---|---|\n| **A computer** | Use the prompt with a coding assistant: the three steps below. |\n| **A computer, no coding assistant** | Run the three steps yourself: the commands are in [Doing it by hand](#doing-it-by-hand). |\n| **A phon"
+              "quote": " the computer needs to be on the same Wi-Fi as\nthe TV, with a shell on it, plus Python 3, a JDK from 17 through 22, and Android SDK platform 34\nwith build-tools 34 (the assistant builds the launcher there).\nWithout an assistant, [Doing it by hand](#doing-it-by-hand)\nis the same job, run by you, and it has the install commands.\n\nAny of these work: Claude Code (on [0G Priva"
             },
             {
               "field": "verification",
-              "quote": "and, so the prompt has your coding assistant discover it on your TV and ask\nbe\n\n## Quick start\n\n| You have | Do this |\n|---|---|\n| **A computer** | Use the prompt with a coding assistant: the three steps below. |\n| **A computer, no coding assistant** | Run the three steps yourself: the commands are in [Doing it by hand](#doing-it-by-hand). |\n| **A phon"
+              "quote": "andard Android tooling:\n\n| Step | What happens |\n|---|---|\n| **Back&nbsp;up** | The list of installed packages and settings. |\n| **Disable** | The manufacturer's telemetry, ad services, content rows and preloaded junk, with `pm disable-user`. Nothing is uninstalled, so a restore script can undo every step. |\n| **Install** | A small native launcher, made the default home screen. |\n"
             }
           ],
-          "sourceHash": "d242ade2dbbd7d9f4dfc60181ed21a026cff2437380eea003ae7f2401855ceed",
+          "sourceHash": "e9c5fce8f5ed7e90e5fdfe02d863380d82800b82d6fa18f37bcb625e2f4e7521",
           "sourceUrl": "https://github.com/Gathin23/cleanyourtv/blob/main/README.md",
           "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
           "curated": true,
           "review": {
             "approved": true,
-            "sourceHash": "d242ade2dbbd7d9f4dfc60181ed21a026cff2437380eea003ae7f2401855ceed",
-            "checkedAt": "2026-11-04T10:36:58.622Z",
+            "sourceHash": "e9c5fce8f5ed7e90e5fdfe02d863380d82800b82d6fa18f37bcb625e2f4e7521",
+            "checkedAt": "2026-11-18T14:32:30.347Z",
             "method": "source-reading-and-structure-check"
           }
         },
@@ -12985,71 +12976,253 @@
         },
         "editorialStatus": "中文导读 · 官方原文已核对"
       }
+    },
+    "pingdotgg/t3code": {
+      "sourceHash": "a8d969e1338fc98b874f05e86606a9f1f6634a256a2a521b25c3963689d4ebdb",
+      "completedAt": "2026-11-18T14:32:30.347Z",
+      "content": {
+        "summary": "统一管理本机编程智能体的开源工作台，可把已经登录的 Claude Code、Codex 等工具接入同一个界面，并通过桌面、网页或手机继续处理同一组任务。",
+        "scenarios": [
+          "在桌面启动编程任务后，通过已连接的手机查看同一线程并确认下一步操作。",
+          "在同一工作台切换已经配置好的编程智能体，管理各自的任务线程。"
+        ],
+        "usage": "将本机已安装并登录的编程智能体集中到同一工作台，查看任务线程并在不同设备间继续操作。",
+        "requirements": "本机至少安装并登录一个受支持的编程智能体。模型服务使用已有账号和订阅，远程访问需按官方说明配置连接。",
+        "quickStart": "1. 从 README 的桌面应用下载入口选择对应系统的 T3 Code 安装包并完成安装。\n2. 先在本机安装并登录一个受支持的智能体，例如完成 Codex 或 Claude Code 自身的登录，再按 Provider setup 接入工作台。\n3. 创建一个小型编程任务，查看工作台中的线程记录；需要手机访问时，再按远程访问文档连接电脑。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "将本机已安装并登录的编程智能体集中到同一工作台，查看任务线程并在不同设备间继续操作。",
+          "audience": "同时使用多个编程智能体的开发者",
+          "example": "在桌面启动编程任务后，通过已连接的手机查看同一线程并确认下一步操作。",
+          "steps": [
+            "从 README 的桌面应用下载入口选择对应系统的 T3 Code 安装包并完成安装。",
+            "先在本机安装并登录一个受支持的智能体，例如完成 Codex 或 Claude Code 自身的登录，再按 Provider setup 接入工作台。",
+            "创建一个小型编程任务，查看工作台中的线程记录；需要手机访问时，再按远程访问文档连接电脑。"
+          ],
+          "verification": "检查工作台是否识别已登录的智能体，并能显示小任务的输入、执行记录及结果；手机连接后核对是否为同一线程。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": ".\n\n\n  Download ·\n  iOS ·\n  Android ·\n  Web ·\n  Docs ·\n  Discord\n\n\n\n  \n    \n  \n\n\nT3 Code runs the coding agents on your machine and gives them one fast interface. Start a thread at your desk, then approve the next step from your phone.\n\nIt works with Claude Code, Codex, Cursor, OpenCode, Grok Build, Antigravity, Kiro, Pi, Muse Code, fx, and any [ACP](./docs/user/providers-acp.md) agen"
+            },
+            {
+              "field": "purpose",
+              "quote": " does not resell tokens. It drives the agents you are already signed in to.\n- **Every agent in one place.** Change models in the middle of a thread. Let Claude hand a task to Codex.\n- **Desktop, web, and phone.** One server, and every client shows the same threads. There are apps for iOS and Android.\n- **Remote ready.** Run agents on any machine. Connect over yo"
+            },
+            {
+              "field": "scenarios",
+              "quote": " Code runs the coding agents on your machine and gives them one fast interface. Start a thread at your desk, then approve the next step from your phone.\n\nIt works with Claude Code, Codex, Cursor, OpenCode, Grok Build, Antigravity, Kiro, Pi, Muse Code, fx, and any [ACP](./docs/user/providers-acp.md) agent. If an agent is set up on your computer, T3 Code can control "
+            },
+            {
+              "field": "steps",
+              "quote": "ser/remote-access.md) to connect it to your computer.\n\n### Sign in to an agent\n\nT3 Code needs one agent that is installed and signed in. For example, install [Claude Code](https://claude.com/product/claude-code) and run `claude auth login`, or install [Codex CLI](https://developers.openai.com/codex/cli) and run `codex login`.\n\n[Provider setup](./docs/user/install.md#providers) has the steps f"
+            },
+            {
+              "field": "verification",
+              "quote": "Let Claude hand a task to Codex.\n- **Desktop, web, and phone.** One server, and every client shows the same threads. There are apps for iOS and Android.\n- **Remote ready.** Run agents on any machine. Connect over your local network, Tailscale, or [T3 Connect](./docs/user/remote-access.md).\n- **Git built in.** Each thread can work in its own worktree. Review the diff, then "
+            }
+          ],
+          "sourceHash": "a8d969e1338fc98b874f05e86606a9f1f6634a256a2a521b25c3963689d4ebdb",
+          "sourceUrl": "https://github.com/pingdotgg/t3code/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "a8d969e1338fc98b874f05e86606a9f1f6634a256a2a521b25c3963689d4ebdb",
+            "checkedAt": "2026-11-18T14:32:30.347Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "nutlope/hallmark": {
+      "sourceHash": "d02a31c12ffa6c65fa694431cbc5624010d4444772faccfdd6dba08caaa2946e",
+      "completedAt": "2026-11-18T14:32:30.347Z",
+      "content": {
+        "summary": "面向 Claude Code、Codex、Cursor 等工具的网页设计 Skill，提供主题、页面重设计与审查流程，并结合浏览器检查改善界面风格、可访问性和手机布局。",
+        "scenarios": [
+          "制作一个有明确预约、购买或订阅目标的网页，让页面布局围绕主要操作展开。",
+          "为已有网页进行重设计或审查，核对主题、内容结构和可访问性问题。"
+        ],
+        "usage": "让编程智能体围绕页面的实际任务选择视觉主题、设计页面，并检查常见布局与交互问题。",
+        "requirements": "需要受支持的智能体宿主和 Node 18 或更新版本。浏览器渲染检查还需要 Chrome 与 puppeteer-core，具体检查能力以官方说明为准。",
+        "quickStart": "1. 准备 Node 18 或更新版本，在终端执行 README 提供的 npx skills add nutlope/hallmark -g 安装方式。\n2. 在支持的宿主中调用 Hallmark，填写页面用途、产品内容和视觉要求；已有页面可以选择 redesign 或 audit 入口。\n3. 需要真实浏览器检查时，按 README 准备 Chrome 和 puppeteer-core，再查看页面截图与检查反馈。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "AI 指令 / Skill 资源",
+          "purpose": "让编程智能体围绕页面的实际任务选择视觉主题、设计页面，并检查常见布局与交互问题。",
+          "audience": "使用编程智能体制作网页的设计师与开发者",
+          "example": "制作一个有明确预约、购买或订阅目标的网页，让页面布局围绕主要操作展开。",
+          "steps": [
+            "准备 Node 18 或更新版本，在终端执行 README 提供的 npx skills add nutlope/hallmark -g 安装方式。",
+            "在支持的宿主中调用 Hallmark，填写页面用途、产品内容和视觉要求；已有页面可以选择 redesign 或 audit 入口。",
+            "需要真实浏览器检查时，按 README 准备 Chrome 和 puppeteer-core，再查看页面截图与检查反馈。"
+          ],
+          "verification": "对照页面主要操作检查布局和实际功能，查看浏览器截图及审查结果，并逐项确认对比度、键盘焦点、动效和手机布局。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.\n\n# Hallmark\n\n**A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.**\n\n[usehallmark.com](https://www.usehallmark.com) &nbsp;·&nbsp; fifty themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name\n\nMade by Together AI.\n\n\n  \n\n\nHallmark holds a "
+            },
+            {
+              "field": "purpose",
+              "quote": "n gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an"
+            },
+            {
+              "field": "scenarios",
+              "quote": "** 755 openly licensed photos, picked per subject and credited on the page.\n- **Redesign and audit.** `/hallmark redesign ` rebuilds a page and keeps its content and wiring; `/hallmark audit ` only reports.\n\n## Themes\n\n\n  \n    \n    \n    \n    \n    \n  \n  \n    DuskClosewise, bank reconciliation\n    CobaltRelay, a webhook API\n    StudioField Office, an identit"
+            },
+            {
+              "field": "steps",
+              "quote": "e atelier\n    RibbonLull, a sleep sounds app\n  \n  \n    \n    \n \n\n## Install\n\n```\nnpx skills add nutlope/hallmark -g\n```\n\n`-g` installs for every project; leave it off to install into the current one. Needs Node 18 or later. The browser checks (`sloplint --render`, screenshots) also need `npm i -g puppeteer-core` and Chrome; without them the static checks still run.\n\n| Harn"
+            },
+            {
+              "field": "verification",
+              "quote": "viewer gets the last word.\n\nThe gates come in tiers. The **Floor** never ships (contrast, focus, reduced motion, invented facts, a broken phone layout). **Reflex** gates are the defaults a model falls into; a build with a reason may overrule one on the record. **Finish** checks are craft detail that never blocks a ship.\n\n## New in v2\n\n- **Fifty themes.** Each is a mate"
+            }
+          ],
+          "sourceHash": "d02a31c12ffa6c65fa694431cbc5624010d4444772faccfdd6dba08caaa2946e",
+          "sourceUrl": "https://github.com/Nutlope/hallmark/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "d02a31c12ffa6c65fa694431cbc5624010d4444772faccfdd6dba08caaa2946e",
+            "checkedAt": "2026-11-18T14:32:30.347Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "vercel-labs/agent-browser": {
+      "sourceHash": "d2a6c3e2e7573802164f59d3e17201d49cbf8134a5ce650b10446089b679e57c",
+      "completedAt": "2026-11-18T14:32:30.347Z",
+      "content": {
+        "summary": "供 AI 智能体逐步操作浏览器的命令行工具，将页面转成带元素引用的文本快照，再通过点击、填写和读取结果等命令完成浏览器任务。",
+        "scenarios": [
+          "打开一个页面并读取交互元素快照，根据当前引用点击目标，再读取页面确认结果。",
+          "把网页填写、等待和结果检查拆成短命令，逐步完成可核对的浏览器任务。"
+        ],
+        "usage": "为智能体提供可逐步执行和核对结果的浏览器操作入口，覆盖页面读取、交互、截图及会话管理。",
+        "requirements": "需要可用的 npm 环境和官方说明要求的浏览器依赖。Linux 可按说明补齐系统库，目标网页的登录及操作权限由使用者准备。",
+        "quickStart": "1. 按 README 的 npm 路线执行 npm install -g agent-browser，再执行 agent-browser install 下载所需浏览器。\n2. 按 Quick start 打开示例页面并运行 snapshot -i，查看当前页面交互元素的引用。\n3. 用当前快照中的引用执行一次点击，读取 URL 或新快照确认结果；页面变化后重新取快照，结束时关闭浏览器。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "命令行工具",
+          "purpose": "为智能体提供可逐步执行和核对结果的浏览器操作入口，覆盖页面读取、交互、截图及会话管理。",
+          "audience": "需要为智能体编排浏览器操作的开发者",
+          "example": "打开一个页面并读取交互元素快照，根据当前引用点击目标，再读取页面确认结果。",
+          "steps": [
+            "按 README 的 npm 路线执行 npm install -g agent-browser，再执行 agent-browser install 下载所需浏览器。",
+            "按 Quick start 打开示例页面并运行 snapshot -i，查看当前页面交互元素的引用。",
+            "用当前快照中的引用执行一次点击，读取 URL 或新快照确认结果；页面变化后重新取快照，结束时关闭浏览器。"
+          ],
+          "verification": "对照操作前后的页面快照和 URL 检查目标是否正确，确认点击或填写确实在页面中生效。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "Browser automation CLI for AI agents\n\n# agent-browser\n\nBrowser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell.\n\n\n  \n  \n  \n  \n  \n\n\nagent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a "
+            },
+            {
+              "field": "purpose",
+              "quote": "gent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call.\n\n## Install\n"
+            },
+            {
+              "field": "scenarios",
+              "quote": "ot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call.\n\n## Install\n\n```bash\nnpm install -g agent-browser\nagent-browser install           # download Chrome for Testing (first time "
+            },
+            {
+              "field": "steps",
+              "quote": "en between commands, so each step is one short shell call.\n\n## Install\n\n```bash\nnpm install -g agent-browser\nagent-browser install           # download Chrome for Testing (first time only)\n```\n\n- **Homebrew:** `brew install agent-browser`, then `agent-browser install`.\n- **Linux:** `agent-browser install --with-deps` also installs the browser's system libraries.\n- *"
+            },
+            {
+              "field": "verification",
+              "quote": "uch as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call.\n\n## Install\n\n```bash\nnpm install -g agent-browser\nagent-browser install           # download Chrome for Testing (first time only)\n```\n\n- **Homebrew:** `brew install a"
+            }
+          ],
+          "sourceHash": "d2a6c3e2e7573802164f59d3e17201d49cbf8134a5ce650b10446089b679e57c",
+          "sourceUrl": "https://github.com/vercel-labs/agent-browser/blob/main/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "d2a6c3e2e7573802164f59d3e17201d49cbf8134a5ce650b10446089b679e57c",
+            "checkedAt": "2026-11-18T14:32:30.347Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
+    },
+    "metabase/metabase": {
+      "sourceHash": "677da20c20cc535533edb3d13e0e16b0a189f023be97947988f4d1ae489a1f8e",
+      "completedAt": "2026-11-18T14:32:30.347Z",
+      "content": {
+        "summary": "面向团队的数据查询与商业智能工具，支持可视化提问、SQL 查询、交互仪表盘和数据提醒，并提供云端服务及自部署方式。",
+        "scenarios": [
+          "为团队建立带筛选条件的业务仪表盘，集中查看关键数据。",
+          "让非 SQL 用户通过可视化提问查数据，复杂问题由分析人员使用 SQL 编辑器处理。"
+        ],
+        "usage": "把团队的数据查询、图表展示和仪表盘集中到同一入口，方便分析和分享业务数据。",
+        "requirements": "需要可访问的数据源及相应连接权限。云端试用、商业功能与开源自部署的许可和收费范围应按官方方案核对。",
+        "quickStart": "1. 按 Get started 进入 Metabase Cloud 的官方试用入口，核对云端方案条件并创建实例。\n2. 依照官方设置指南连接一个有权限访问的数据源，先从可视化提问界面完成简单查询。\n3. 将查询结果组成仪表盘，添加需要的筛选项并检查访问权限，再分享给对应成员。",
+        "guide": {
+          "version": 2,
+          "language": "zh-CN",
+          "kind": "应用软件",
+          "purpose": "把团队的数据查询、图表展示和仪表盘集中到同一入口，方便分析和分享业务数据。",
+          "audience": "需要查询业务数据和制作报表的团队",
+          "example": "为团队建立带筛选条件的业务仪表盘，集中查看关键数据。",
+          "steps": [
+            "按 Get started 进入 Metabase Cloud 的官方试用入口，核对云端方案条件并创建实例。",
+            "依照官方设置指南连接一个有权限访问的数据源，先从可视化提问界面完成简单查询。",
+            "将查询结果组成仪表盘，添加需要的筛选项并检查访问权限，再分享给对应成员。"
+          ],
+          "verification": "把查询及图表结果与原始数据对照，测试仪表盘筛选及不同成员的访问范围是否符合预期。",
+          "evidence": [
+            {
+              "field": "summary",
+              "quote": "/www.metabase.com) is the easy, open-source way for everyone in your company to ask questions and learn from data.\n\n\n\n[](https://github.com/metabase/metabase/releases)\n[](https://codecov.io/gh/metabase/metabase)\n\n\n## Get started\n\nThe easiest way to get started with Metabase is to sign up for a free trial of [Metabase Cloud](https://store.metabase.com/checkout).\n\nYou get "
+            },
+            {
+              "field": "purpose",
+              "quote": "ww.metabase.com/docs/latest/ai/agent-api) to query your data.\n- Build handsome, interactive [dashboards](https://www.metabase.com/docs/latest/dashboards/introduction) with filters, auto-refresh, fullscreen, custom click behavior, and more.\n- Use [documents](https://www.metabase.com/docs/latest/documents/introduction) for long-form data analysis, and"
+            },
+            {
+              "field": "scenarios",
+              "quote": "am [ask questions](https://www.metabase.com/docs/latest/questions/introduction) without knowing SQL.\n- Use the [SQL editor](https://www.metabase.com/docs/latest/questions/native-editor/writing-sql) for more complex queries.\n- Ask AI: [Metabot](https://www.metabase.com/docs/latest/ai/metabot) gives you answers you can trust, helps you write queries, and more"
+            },
+            {
+              "field": "steps",
+              "quote": "/metabase)\n\n\n## Get started\n\nThe easiest way to get started with Metabase is to sign up for a free trial of [Metabase Cloud](https://store.metabase.com/checkout).\n\nYou get expert support, backups, upgrades, an SMTP server, SSL certificate, SoC2 Type 2 security auditing, and more (plus your money goes toward improving a major open-source project). Check out our q"
+            },
+            {
+              "field": "verification",
+              "quote": "base.com/docs/latest/embedding/full-app-embedding) in your app.\n- Set granular [permissions](https://www.metabase.com/docs/latest/permissions/introduction) that work for both internal teams and embedded analytics, whether you co-locate your customer data, or give each customer their own database.\n- Dark mode, content translations, and way more stuff"
+            }
+          ],
+          "sourceHash": "677da20c20cc535533edb3d13e0e16b0a189f023be97947988f4d1ae489a1f8e",
+          "sourceUrl": "https://github.com/metabase/metabase/blob/master/README.md",
+          "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
+          "curated": true,
+          "review": {
+            "approved": true,
+            "sourceHash": "677da20c20cc535533edb3d13e0e16b0a189f023be97947988f4d1ae489a1f8e",
+            "checkedAt": "2026-11-18T14:32:30.347Z",
+            "method": "source-reading-and-structure-check"
+          }
+        },
+        "editorialStatus": "中文导读 · 官方原文已核对"
+      }
     }
   },
   "pending": {
-    "pingdotgg/t3code": {
-      "id": "pingdotgg/t3code",
-      "sourceHash": "a8d969e1338fc98b874f05e86606a9f1f6634a256a2a521b25c3963689d4ebdb",
-      "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 5,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
-      "readmeUrl": "https://github.com/pingdotgg/t3code/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-18T08:29:56.737Z",
-      "nextAttemptAt": "2026-11-18T09:29:56.737Z"
-    },
-    "metabase/metabase": {
-      "id": "metabase/metabase",
-      "sourceHash": "677da20c20cc535533edb3d13e0e16b0a189f023be97947988f4d1ae489a1f8e",
-      "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
-      "readmeUrl": "https://github.com/metabase/metabase/blob/master/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "leonardomso/33-js-concepts": {
-      "id": "leonardomso/33-js-concepts",
-      "sourceHash": "e04b3089461805589a7dc12b110b9b24808a36c4d339db86ff72610b9330c1b2",
-      "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 3,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
-      "readmeUrl": "https://github.com/leonardomso/33-js-concepts/blob/master/README.md",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-11-09T07:55:09.731Z",
-      "nextAttemptAt": "2026-11-09T08:55:09.731Z"
-    },
-    "warpdotdev/warp": {
-      "id": "warpdotdev/warp",
-      "sourceHash": "e0db2957d000543444d1748619276a921846f2904c94435eeb427562f3ef35d0",
-      "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 3,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
-      "readmeUrl": "https://github.com/warpdotdev/warp/blob/master/README.md",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-11-10T08:23:48.506Z",
-      "nextAttemptAt": "2026-11-10T09:23:48.506Z"
-    },
-    "nocodb/nocodb": {
-      "id": "nocodb/nocodb",
-      "sourceHash": "2322c8a24c85f6fe3b493aaa5d978dfbb7ffac46da74d5138d6c981e338dbd04",
-      "firstSeenAt": "2026-11-07T07:05:20.326Z",
-      "attempts": 0,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
-      "readmeUrl": "https://github.com/nocodb/nocodb/blob/develop/README.md",
-      "reason": "awaiting-chinese-guide"
-    },
-    "nutlope/hallmark": {
-      "id": "nutlope/hallmark",
-      "sourceHash": "d02a31c12ffa6c65fa694431cbc5624010d4444772faccfdd6dba08caaa2946e",
-      "firstSeenAt": "2026-11-08T07:17:38.888Z",
-      "attempts": 5,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
-      "readmeUrl": "https://github.com/Nutlope/hallmark/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-17T09:10:54.761Z",
-      "nextAttemptAt": "2026-11-17T10:10:54.761Z"
-    },
     "openmontageinc/openmontage": {
       "id": "openmontageinc/openmontage",
       "sourceHash": "3d746faf785f264b1f1d5b189a6753bbe7ac0d084979dcdd3aed863dd81d1c99",
@@ -13072,39 +13245,6 @@
       "lastAttemptAt": "2026-11-11T07:43:59.074Z",
       "nextAttemptAt": "2026-11-11T08:43:59.074Z"
     },
-    "zhulinsen/daily_stock_analysis": {
-      "id": "zhulinsen/daily_stock_analysis",
-      "sourceHash": "8abc7b7118028d80a1bbcfd31ab8a74353a81bd217d255fc58954a9a8c3203c0",
-      "firstSeenAt": "2026-11-12T08:17:45.578Z",
-      "attempts": 6,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
-      "readmeUrl": "https://github.com/ZhuLinsen/daily_stock_analysis/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-18T08:29:56.737Z",
-      "nextAttemptAt": "2026-11-18T09:29:56.737Z"
-    },
-    "ebony-vinyl/dsh-our-free-model": {
-      "id": "ebony-vinyl/dsh-our-free-model",
-      "sourceHash": "0199c94a62448e7c8f1c4cc3f1a35f4a13c1e2cd2b5811e9a1fe106febaeb03d",
-      "firstSeenAt": "2026-11-12T08:17:45.578Z",
-      "attempts": 6,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
-      "readmeUrl": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-18T08:29:56.737Z",
-      "nextAttemptAt": "2026-11-18T09:29:56.737Z"
-    },
-    "blader/humanizer": {
-      "id": "blader/humanizer",
-      "sourceHash": "0b5a2a2f6c40ae960c229068ff1d39e9f8574af35b25913bc8b308b7bdbf46d5",
-      "firstSeenAt": "2026-11-12T08:17:45.578Z",
-      "attempts": 5,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
-      "readmeUrl": "https://github.com/blader/humanizer/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-16T07:57:11.232Z",
-      "nextAttemptAt": "2026-11-16T08:57:11.232Z"
-    },
     "hkuds/deeptutor": {
       "id": "hkuds/deeptutor",
       "sourceHash": "1487cb7df8ccbca1bbb9f38111c98e342fb669ae7f498ebcfcc348a20900cdf1",
@@ -13116,17 +13256,6 @@
       "lastAttemptAt": "2026-11-14T07:35:29.732Z",
       "nextAttemptAt": "2026-11-14T08:35:29.732Z"
     },
-    "gathin23/cleanyourtv": {
-      "id": "gathin23/cleanyourtv",
-      "sourceHash": "e9c5fce8f5ed7e90e5fdfe02d863380d82800b82d6fa18f37bcb625e2f4e7521",
-      "firstSeenAt": "2026-11-12T08:17:45.578Z",
-      "attempts": 5,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
-      "readmeUrl": "https://github.com/Gathin23/cleanyourtv/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-17T09:10:54.761Z",
-      "nextAttemptAt": "2026-11-17T10:10:54.761Z"
-    },
     "emilkowalski/skills": {
       "id": "emilkowalski/skills",
       "sourceHash": "f90ae38c188d994b6818db0086c4976fadef39eea6547a38d3378a0ca4530473",
@@ -13137,17 +13266,6 @@
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-11-12T08:17:45.578Z",
       "nextAttemptAt": "2026-11-12T09:17:45.578Z"
-    },
-    "vercel-labs/agent-browser": {
-      "id": "vercel-labs/agent-browser",
-      "sourceHash": "d2a6c3e2e7573802164f59d3e17201d49cbf8134a5ce650b10446089b679e57c",
-      "firstSeenAt": "2026-11-12T08:17:45.578Z",
-      "attempts": 5,
-      "lastSeenAt": "2026-11-18T08:29:56.737Z",
-      "readmeUrl": "https://github.com/vercel-labs/agent-browser/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-17T09:10:54.761Z",
-      "nextAttemptAt": "2026-11-17T10:10:54.761Z"
     },
     "meta/docusaurus": {
       "id": "meta/docusaurus",
@@ -13567,57 +13685,6 @@
     }
   },
   "drafts": {
-    "zhulinsen/daily_stock_analysis|openrouter/nvidia/nemotron-3.5-lightning:free": {
-      "sourceHash": "8abc7b7118028d80a1bbcfd31ab8a74353a81bd217d255fc58954a9a8c3203c0",
-      "draft": {
-        "kind": "app",
-        "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-        "purpose": "每日自动分析自选股（A股/港股/美股/日股/韩股/台股及 ETF），生成包含核心结论、评分、趋势、买卖点位、风险警报的决策报告，并通过企业微信/飞书/Telegram/Discord/Slack/邮箱推送，支持零成本定时运行。",
-        "audience": "股票投资者、量化分析师、AI爱好者",
-        "scenarios": [
-          "每日自动分析自选股并生成决策报告",
-          "通过企业微信/飞书/Telegram/Discord/Slack/邮箱接收股票分析推送",
-          "使用 LLM 模型进行多市场行情、K线、技术指标及新闻抓取",
-          "零成本定时运行股票分析任务"
-        ],
-        "steps": [
-          "pip install -r requirements.txt 安装项目依赖",
-          "配置 AI 模型密钥（如 Modelflare、OpenAI 等）及行情数据源（如 AkShare、Tushare 等）"
-        ],
-        "requirements": "Python 环境、API 密钥（Modelflare/AIHubMix 等 LLM 服务）及行情数据源访问权限（如 AkShare、Tushare、YFinance 等）",
-        "verification": "检查是否成功收到包含决策报告的推送消息（企业微信/飞书/Telegram/Discord/Slack/邮箱 等），或查看本地生成的分析报告文件",
-        "evidence": [
-          {
-            "field": "summary",
-            "quote": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.\n\n# 📈 股票智能分析系统\n\n[](https://github.com/ZhuLinsen/daily_stock_analysis/stargazers)\n[](https://arxiv.org/abs/2608.26990)\n"
-          },
-          {
-            "field": "purpose",
-            "quote": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.\n\n# 📈 股票智能分析系统\n\n[](https://github.com/ZhuLinsen/daily_stock_analysis/stargazers)\n[](https://arxiv.org/abs/2608.26990)\n"
-          },
-          {
-            "field": "scenarios",
-            "quote": "| 多市场数据聚合 | 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同市场的数据源和能力边界见 [市场支持边界](docs/market-support.md) |\n| Web / 桌面工作台 | 手动分析、任务进度、历史报告、完整 Markdown、回测、持仓、配置管理、浅色 / 深色主题 |\n| Agent 策略问股 | 多轮追问，支持均线、缠论、波浪、趋势、热点、事件、成长、预期等 15 种内置策略，覆盖 Web/Bot/API |\n| 智能导入与补全 | 图片、CSV/Excel、剪贴板导入；股票代码/名称/拼音/别名补全 |\n| 自动化与推送 | GitHub Actions、Docker、本地定时任务、FastAPI 服务和企业微信/飞书/Telegram/Discord/Slack/邮件推送 |\n\n"
-          },
-          {
-            "field": "steps",
-            "quote": "pip install -r requirements.txt\n\n\n\n### 方式二：[客户端配置教程](https://www.bilibili.com/video/BV11FEb66Eyr/) / 本地运行 / Docker 部署\n\n```bash"
-          },
-          {
-            "field": "verification",
-            "quote": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.\n\n# 📈 股票智能分析系统\n\n[](https://github.com/ZhuLinsen/daily_stock_analysis/stargazers)\n[](https://arxiv.org/abs/2608.26990)\n"
-          }
-        ]
-      },
-      "savedAt": "2026-11-16T07:57:11.232Z",
-      "reviewIssues": [
-        "summary 与 source 实际内容不符：draft 声称支持「零成本定时运行」且为「LLM 驱动的多市场股票智能分析系统」，但 source README 中的 summary 仅为「LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.」——此处省略了 source 中大量关键信息（如功能特性矩阵、市场支持、技术栈），导致 summary 与 source 实际可验证内容存在严重偏差。",
-        "purpose 遗漏关键前置条件：draft 声称支持「零成本定时运行」，但 source 中未明确说明零成本运行的具体实现方式或前置条件（如 Modelflare 费用说明、GitHub Actions 免费额度等），且 purpose 中提到的「每日自动分析自选股」未在 source 中对应完整的功能链路说明，属于信息缺失。",
-        "scenarios 与 source 功能矩阵不匹配：draft 的 scenarios 仅列出 5 条常规场景，未涵盖 source 中的「Web/桌面工作台」、「Agent 策略问股」、「智能导入与补全」等关键功能；且 scenarios 中提到的「零成本定时运行」在 source 中仅作为 summary 一部分出现，未作为独立场景展开，导致场景描述不完整。",
-        "steps 缺失关键前置配置：draft 的 steps 仅列出「pip install -r requirements.txt」和「配置 AI 模型密钥及行情数据源」，但 source 中的完整入门流程还包括环境要求（Python 版本）、Docker 部署、GitHub Actions 工作流配置等关键步骤，且未提及 Modelflare/AIHubMix 等服务的注册与配置细节，属于步骤不完整。",
-        "verification 缺失具体验证依据：draft 的 verification 仅检查「是否成功收到推送消息」，但 source 中的推送方式众多（企业微信/飞书/Telegram/Discord/Slack/邮箱），且未说明具体的消息内容格式或报告生成位置，验证方法过于简化，无法对应 source 中的实际使用情况。"
-      ]
-    },
     "hkuds/deeptutor|openrouter/nvidia/nemotron-3.5-lightning:free": {
       "sourceHash": "1487cb7df8ccbca1bbb9f38111c98e342fb669ae7f498ebcfcc348a20900cdf1",
       "draft": {

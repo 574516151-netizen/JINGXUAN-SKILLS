@@ -29,22 +29,88 @@ function createCompleter({providers=[],keys={},fetcher=fetch,budget={day:'',coun
   if((p.name==='openrouter'&&data.choices?.[0]?.finish_reason==='length')||(p.name==='gemini'&&data.candidates?.[0]?.finishReason!=='STOP'))throw Error('invalid-response');return decode(text);
  }
  const choices=providers.slice(0,2).flatMap(p=>p.name==='openrouter'?[...new Set([p.model,...(Array.isArray(p.models)?p.models:[])])].slice(0,4).map(model=>({...p,model})):[p]);
- return async function complete(item,now){let reason=Error('missing-api-key');const failures=[];
-  for(const p of choices){if(!keys[p.name])continue;const channel=p.name+'/'+p.model;if(blocked.has(channel)){reason=Error(blocked.get(channel));failures.push(reason.message);continue;}try{
-   const hash=sourceHash(item),cacheKey=item.id+'|'+channel,prior=drafts[cacheKey];
-   const source={id:item.id,url:item.readmeUrl,text:sourceText(item),evidenceOptions:sourceOptions(sourceText(item))};let draft=prior?.sourceHash===hash&&!prior.reviewIssues?prior.draft:await call(p,DRAFT,{source,types:Object.fromEntries(Object.entries(types).filter(([k])=>k!=='unknown').map(([k,t])=>[k,t[0]])),requiredEvidence:SOURCE_FIELDS,...(prior?.sourceHash===hash&&prior.reviewIssues?{previousDraft:prior.draft,reviewCorrections:prior.reviewIssues,instruction:'按复核意见修正草稿，仍需全部字段与逐字原文依据，返回完整JSON。'}:{}),...(budget.lastValidation?.id===item.id?{previousValidationIssues:budget.lastValidation.issues}:{} )});
-   if(draft?.insufficient)throw Error('insufficient-source');
-   draft=bindEvidence(draft,source.evidenceOptions);
-   const kind=types[draft?.kind]?.[0];if(!kind||draft.kind==='unknown'||!Array.isArray(draft.scenarios))throw Error('invalid-response');
-   const guide={version:2,language:'zh-CN',kind,purpose:draft.purpose,audience:draft.audience,example:draft.scenarios[0],steps:draft.steps,verification:draft.verification,evidence:draft.evidence,sourceHash:hash,sourceUrl:item.readmeUrl,basis:'依据官方简介和 README 自动整理，并检查中文完整性及原文依据；场景示例不代表实际运行测试。',curated:true,review:{approved:true,sourceHash:hash,checkedAt:now}};
-   const result={...item,summary:draft.summary,scenarios:draft.scenarios,usage:draft.purpose,requirements:draft.requirements,quickStart:Array.isArray(draft.steps)?draft.steps.map((s,i)=>(i+1)+'. '+s).join('\n'):'',guide,editorialStatus:'中文导读 · 原文依据已检查'};
-   const issues=problems(result);if(issues.length){budget.lastValidation={id:item.id,model:p.model,issues,checkedAt:now};throw Error('guide-validation-failed');}
-   drafts[cacheKey]={sourceHash:hash,draft,savedAt:now};
-   const check=await call(p,REVIEW,{source,draft});if(check?.approved!==true||!Array.isArray(check.issues)||check.issues.length){drafts[cacheKey].reviewIssues=(check.issues||[]).slice(0,10).map(s=>String(s).slice(0,600));throw Error('source-review-rejected');}
-   delete drafts[cacheKey];
-   return result;
-  }catch(e){reason=Error(safeReason(e));failures.push(reason.message);if(/^http-(401|402|403|404|429)$|free-model/.test(reason.message))blocked.set(channel,reason.message);}}
-  if(failures.includes('http-429')&&failures.every(r=>r==='http-429'||r==='free-model-unavailable'))reason=Error('http-429');
+ return async function complete(item, now) {
+  let reason = Error('missing-api-key');
+  const failures = [];
+  for (const p of choices) {
+   if (!keys[p.name]) continue;
+   const channel = p.name + '/' + p.model;
+   if (blocked.has(channel)) {
+    reason = Error(blocked.get(channel));
+    failures.push(reason.message);
+    continue;
+   }
+   try {
+    const hash = sourceHash(item), cacheKey = item.id + '|' + channel;
+    const source = {
+     id: item.id, url: item.readmeUrl, text: sourceText(item),
+     evidenceOptions: sourceOptions(sourceText(item))
+    };
+    for (let revision = 0; revision < 2; revision++) {
+     const prior = drafts[cacheKey], matched = prior?.sourceHash === hash;
+     const input = {
+      source,
+      types: Object.fromEntries(Object.entries(types).filter(([key]) => key !== 'unknown').map(([key, type]) => [key, type[0]])),
+      requiredEvidence: SOURCE_FIELDS
+     };
+     if (matched && (prior.reviewIssues || prior.validationIssues)) {
+      input.previousDraft = prior.draft;
+      input.reviewCorrections = prior.reviewIssues || [];
+      input.previousValidationIssues = prior.validationIssues || [];
+      input.instruction = '逐项修正上次草稿的问题，补足中文内容及字段，保留官方原文依据，返回完整JSON。';
+     } else if (budget.lastValidation?.id === item.id) {
+      input.previousValidationIssues = budget.lastValidation.issues;
+     }
+     let draft = matched && !prior.reviewIssues && !prior.validationIssues
+      ? prior.draft : await call(p, DRAFT, input);
+     if (draft?.insufficient) throw Error('insufficient-source');
+     draft = bindEvidence(draft, source.evidenceOptions);
+     const kind = types[draft?.kind]?.[0];
+     if (!kind || draft.kind === 'unknown' || !Array.isArray(draft.scenarios)) throw Error('invalid-response');
+     const guide = {
+      version: 2, language: 'zh-CN', kind, purpose: draft.purpose, audience: draft.audience,
+      example: draft.scenarios[0], steps: draft.steps, verification: draft.verification,
+      evidence: draft.evidence, sourceHash: hash, sourceUrl: item.readmeUrl,
+      basis: '依据官方简介和 README 自动整理，并检查中文完整性及原文依据；场景示例不代表实际运行测试。',
+      curated: true, review: { approved: true, sourceHash: hash, checkedAt: now }
+     };
+     const result = {
+      ...item, summary: draft.summary, scenarios: draft.scenarios, usage: draft.purpose,
+      requirements: draft.requirements,
+      quickStart: Array.isArray(draft.steps) ? draft.steps.map((step, index) => (index + 1) + '. ' + step).join('\n') : '',
+      guide, editorialStatus: '中文导读 · 原文依据已检查'
+     };
+     const issues = problems(result);
+     if (issues.length) {
+      budget.lastValidation = { id: item.id, model: p.model, issues, checkedAt: now };
+      drafts[cacheKey] = { sourceHash: hash, draft, savedAt: now, validationIssues: issues };
+      if (revision === 0) continue;
+      const error = Error('guide-validation-failed');
+      error.validationIssues = issues;
+      throw error;
+     }
+     drafts[cacheKey] = { sourceHash: hash, draft, savedAt: now };
+     const check = await call(p, REVIEW, { source, draft });
+     if (check?.approved !== true || !Array.isArray(check.issues) || check.issues.length) {
+      drafts[cacheKey].reviewIssues = (Array.isArray(check?.issues)
+       ? check.issues : ['原文复核未通过，请重新逐项检查。'])
+       .slice(0, 10).map(issue => String(issue).slice(0, 600));
+      if (revision === 0) continue;
+      throw Error('source-review-rejected');
+     }
+     delete drafts[cacheKey];
+     return result;
+    }
+   } catch (error) {
+    reason = Error(safeReason(error));
+    if (error.validationIssues) reason.validationIssues = error.validationIssues;
+    failures.push(reason.message);
+    if (/^http-(401|402|403|404|429)$|free-model/.test(reason.message)) blocked.set(channel, reason.message);
+   }
+  }
+  if (failures.includes('http-429') && failures.every(value => value === 'http-429' || value === 'free-model-unavailable')) {
+   reason = Error('http-429');
+  }
   throw reason;
  };
 }

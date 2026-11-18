@@ -20,7 +20,15 @@ async function prepare({items,targets,priorities={},state=newState(),complete,no
    // Content-only caching cannot override identity, ranking metrics or source material.
    const content=Object.fromEntries(CONTENT.map(k=>[k,result[k]]));const merged={...item,...content};if(!isReady(merged))throw Error('guide-validation-failed');
    state.guides[id]={sourceHash:hash,completedAt:now,content};map.set(id,merged);delete state.pending[id];completed++;
-  }catch(e){pending.reason=safeReason(e);const wait=/http-(401|402|403|404|429)|free-model/.test(pending.reason)?24*3600000:3600000;pending.nextAttemptAt=pending.reason==='daily-budget-exhausted'?new Date(Date.parse(now.slice(0,10)+'T00:00:00Z')+86400000).toISOString():new Date(Date.parse(now)+wait).toISOString();}
+  }catch(e){
+   pending.reason=safeReason(e);
+   pending.validationIssues=(e.validationIssues||[])
+    .filter(value=>typeof value==='string'&&/^[a-z0-9-]{1,80}$/.test(value)).slice(0,20);
+   const wait=/http-(401|402|403|404|429)|free-model/.test(pending.reason)?24*3600000:3600000;
+   pending.nextAttemptAt=pending.reason==='daily-budget-exhausted'
+    ?new Date(Date.parse(now.slice(0,10)+'T00:00:00Z')+86400000).toISOString()
+    :new Date(Date.parse(now)+wait).toISOString();
+  }
   await checkpoint(state);
  }
  // Return only approved Chinese guides; the collector publishes separate official-text pending items.

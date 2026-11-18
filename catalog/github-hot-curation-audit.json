@@ -1170,6 +1170,68 @@
           "checkedAt": "2026-11-04T10:33:55.798Z"
         }
       ]
+    },
+    {
+      "batch": "2026-11-18-priority-recovery",
+      "reviewedAt": "2026-11-18T14:32:30.347Z",
+      "method": "source-reading-and-structure-check",
+      "projects": [
+        {
+          "id": "pingdotgg/t3code",
+          "sourceHash": "a8d969e1338fc98b874f05e86606a9f1f6634a256a2a521b25c3963689d4ebdb",
+          "editionCopies": 2
+        },
+        {
+          "id": "nutlope/hallmark",
+          "sourceHash": "d02a31c12ffa6c65fa694431cbc5624010d4444772faccfdd6dba08caaa2946e",
+          "editionCopies": 2
+        },
+        {
+          "id": "ebony-vinyl/dsh-our-free-model",
+          "sourceHash": "0199c94a62448e7c8f1c4cc3f1a35f4a13c1e2cd2b5811e9a1fe106febaeb03d",
+          "editionCopies": 4
+        },
+        {
+          "id": "zhulinsen/daily_stock_analysis",
+          "sourceHash": "8abc7b7118028d80a1bbcfd31ab8a74353a81bd217d255fc58954a9a8c3203c0",
+          "editionCopies": 6
+        },
+        {
+          "id": "vercel-labs/agent-browser",
+          "sourceHash": "d2a6c3e2e7573802164f59d3e17201d49cbf8134a5ce650b10446089b679e57c",
+          "editionCopies": 1
+        },
+        {
+          "id": "gathin23/cleanyourtv",
+          "sourceHash": "e9c5fce8f5ed7e90e5fdfe02d863380d82800b82d6fa18f37bcb625e2f4e7521",
+          "editionCopies": 2
+        },
+        {
+          "id": "blader/humanizer",
+          "sourceHash": "0b5a2a2f6c40ae960c229068ff1d39e9f8574af35b25913bc8b308b7bdbf46d5",
+          "editionCopies": 6
+        },
+        {
+          "id": "metabase/metabase",
+          "sourceHash": "677da20c20cc535533edb3d13e0e16b0a189f023be97947988f4d1ae489a1f8e",
+          "editionCopies": 2
+        },
+        {
+          "id": "warpdotdev/warp",
+          "sourceHash": "e0db2957d000543444d1748619276a921846f2904c94435eeb427562f3ef35d0",
+          "editionCopies": 6
+        },
+        {
+          "id": "nocodb/nocodb",
+          "sourceHash": "2322c8a24c85f6fe3b493aaa5d978dfbb7ffac46da74d5138d6c981e338dbd04",
+          "editionCopies": 6
+        },
+        {
+          "id": "leonardomso/33-js-concepts",
+          "sourceHash": "e04b3089461805589a7dc12b110b9b24808a36c4d339db86ff72610b9330c1b2",
+          "editionCopies": 6
+        }
+      ]
     }
   ]
 }
