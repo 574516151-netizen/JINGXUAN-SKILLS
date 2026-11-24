@@ -3,15 +3,15 @@
   "guidePolicyVersion": 3,
   "weeklyPolicyVersion": 2,
   "updateStatus": {
-    "lastCollectedAt": "2026-11-23T08:58:55.988Z",
-    "pendingCount": 72,
+    "lastCollectedAt": "2026-11-24T10:53:35.648Z",
+    "pendingCount": 74,
     "readyCount": 223,
     "reasons": [
       {
         "code": "awaiting-chinese-guide",
         "label": "排队中，尚未开始整理",
         "action": "项目已可浏览和收藏，后台按批次补齐中文介绍",
-        "count": 60,
+        "count": 62,
         "nextAttemptAt": null
       },
       {
@@ -39,7 +39,7 @@
   },
   "thresholdExclusive": 50000,
   "maxItems": 500,
-  "generatedAt": "2026-11-23T08:58:55.988Z",
+  "generatedAt": "2026-11-24T10:53:35.648Z",
   "editions": [
     {
       "id": "2026-11-23",
