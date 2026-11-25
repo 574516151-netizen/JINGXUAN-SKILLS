@@ -1232,6 +1232,18 @@
           "editionCopies": 6
         }
       ]
+    },
+    {
+      "batch": "20261125-last30days",
+      "reviewedAt": "2026-11-25T14:01:49.584Z",
+      "method": "source-reading-and-structure-check",
+      "projects": [
+        {
+          "id": "mvanhorn/last30days-skill",
+          "sourceHash": "ce5dbdf8e2473a891131b52412f6705f8120b5c0ca50727582956cde16de7721",
+          "editionCopies": 7
+        }
+      ]
     }
   ]
 }

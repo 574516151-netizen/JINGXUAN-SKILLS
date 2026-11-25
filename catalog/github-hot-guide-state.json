@@ -7428,58 +7428,59 @@
       }
     },
     "mvanhorn/last30days-skill": {
-      "sourceHash": "8e7c067a7218495f7f404200d3c960859d5576c0d8d63b7f4b7c99d0d3fbc667",
-      "completedAt": "2026-11-04T10:15:40.191Z",
+      "sourceHash": "ce5dbdf8e2473a891131b52412f6705f8120b5c0ca50727582956cde16de7721",
+      "completedAt": "2026-11-25T14:01:49.584Z",
       "content": {
-        "summary": "针对近期话题跨多个社区和网页检索并整理带依据摘要的技能，用于观察讨论趋势；各数据来源有独立接入条件。",
+        "summary": "面向 AI 助手的近期话题调研技能。它从 Reddit、Hacker News、Polymarket 和 GitHub 等来源并行收集线索，参考互动热度整理简报，方便追溯信息来源。",
         "scenarios": [
-          "了解某项技术近一个月的讨论与常见问题。"
+          "会前输入一个产品或公司名称，了解近期讨论和仓库动态，再打开相关原文确认重点。"
         ],
-        "usage": "针对近期话题跨多个社区和网页检索并整理带依据摘要的技能，用于观察讨论趋势；各数据来源有独立接入条件。",
-        "requirements": "需要受支持的助手及所选来源配置，部分搜索凭据按 setup 指南填写。",
-        "quickStart": "1. 按 Install 选择对应客户端的插件或 npx skills 安装方式。\n2. 提供具体主题和时间范围，运行调研后检查摘要中的来源、日期与代表性。",
+        "usage": "把分散在社区讨论、代码仓库和预测市场里的近期信息整理成一份便于核对的调研简报。",
+        "requirements": "按此路线需要能安装插件的 Claude Code。README 将 Reddit、Hacker News、Polymarket 与 GitHub 列为可直接使用的数据源，其余来源按设置说明配置。",
+        "quickStart": "1. 在 Claude Code 中按项目说明添加该项目的插件市场，再安装 last30days 插件。\n2. 安装完成后，在会话中调用 /last30days，附上要调研的主题或公司名称。\n3. 用生成的简报定位重点线索，打开对应的讨论、仓库或市场页面核对。",
         "guide": {
           "version": 2,
           "language": "zh-CN",
           "kind": "AI 指令 / Skill 资源",
-          "purpose": "针对近期话题跨多个社区和网页检索并整理带依据摘要的技能，用于观察讨论趋势；各数据来源有独立接入条件。",
-          "audience": "需要近期话题调研的用户",
-          "example": "了解某项技术近一个月的讨论与常见问题。",
+          "purpose": "把分散在社区讨论、代码仓库和预测市场里的近期信息整理成一份便于核对的调研简报。",
+          "audience": "需要快速了解近期动态的产品、研究和内容团队，以及使用 AI 助手做调研的个人。",
+          "example": "会前输入一个产品或公司名称，了解近期讨论和仓库动态，再打开相关原文确认重点。",
           "steps": [
-            "按 Install 选择对应客户端的插件或 npx skills 安装方式。",
-            "提供具体主题和时间范围，运行调研后检查摘要中的来源、日期与代表性。"
+            "在 Claude Code 中按项目说明添加该项目的插件市场，再安装 last30days 插件。",
+            "安装完成后，在会话中调用 /last30days，附上要调研的主题或公司名称。",
+            "用生成的简报定位重点线索，打开对应的讨论、仓库或市场页面核对。"
           ],
-          "verification": "结论可点回真实来源，缺失渠道明确；热度不等于事实可靠或全面覆盖。",
+          "verification": "用熟悉的主题试跑，抽查摘要中的两三条线索能否对应原始讨论、仓库或市场页面，并确认内容与调查主题相符。",
           "evidence": [
             {
               "field": "summary",
-              "quote": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary\n\n# /last30days\n\nEnglish | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)\n\n\n  \n\n\n\n  \n    \n  \n  \n  \n    \n  \n  \n  \n    \n  \n\n\n**An AI agent-led s"
+              "quote": "md) | [Türkçe](README.tr.md)\n\n\n  \n\n\n\n  \n    \n  \n  \n  \n    \n  \n  \n  \n    \n  \n\n\n**An AI agent-led search engine scored by upvotes, likes, and real money - not editors.**\n\nThis README tracks the current v4 pipeline. The runtime skill spec lives in [skills/last30days/SKILL.md](skills/last30days/SKILL.md), which is the source of truth for the latest command and setup behavior.\n\n**Claude Code (recommended — auto-"
             },
             {
               "field": "purpose",
-              "quote": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary\n\n# /last30days\n\nEnglish | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)\n\n\n  \n\n\n\n  \n    \n  \n  \n  \n    \n  \n  \n  \n    \n  \n\n\n**An AI agent-led s"
+              "quote": " all of it in parallel, scores it by what real people actually engage with, and an AI agent judge synthesizes it into one brief.\n\nGoogle aggregates editors. /last30days searches people.\n\nYou can't get this search anywhere else because no single AI has access to all of it. Google search doesn't touch Reddit comments or X posts. ChatGPT has a deal with Reddit but can't search X or TikTo"
             },
             {
               "field": "scenarios",
-              "quote": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary\n\n# /last30days\n\nEnglish | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)\n\n\n  \n\n\n\n  \n    \n  \n  \n  \n    \n  \n  \n  \n    \n  \n\n\n**An AI agent-led s"
+              "quote": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary\n\n# /last30days\n\nEnglish | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) |"
             },
             {
               "field": "steps",
-              "quote": " and tell you what actually matters.\n\nThat's the unlock. Not one better search\n\n## Install\n\n| Surface | Install | Updates |\n|---------|---------|---------|\n| **Claude Code** (recommended) | `/plugin marketplace add mvanhorn/last30days-skill` | Auto via marketplace, or `claude plugin update last30days@last30days-skill` |\n| **Grok** (xAI Build CLI) |"
+              "quote": "up behavior.\n\n**Claude Code (recommended — auto-updates via marketplace):**\n```\n/plugin marketplace add mvanhorn/last30days-skill\n/plugin install last30days\n```\n\n**Codex, Cursor, Copilot, Gemini CLI, or any of 50+ [Agent Skills](https://agentskills.io) hosts:**\n```\nnpx skills add mvanhorn/last30days-skill -g\n```\n(`-g` installs globally for your user, available across all projects. Drop "
             },
             {
               "field": "verification",
-              "quote": " and tell you what actually matters.\n\nThat's the unlock. Not one better search\n\n## Install\n\n| Surface | Install | Updates |\n|---------|---------|---------|\n| **Claude Code** (recommended) | `/plugin marketplace add mvanhorn/last30days-skill` | Auto via marketplace, or `claude plugin update last30days@last30days-skill` |\n| **Grok** (xAI Build CLI) |"
+              "quote": "zard unlocks X, YouTube, TikTok, arXiv, Techmeme, and more in 30 seconds.\n\n---\n\nReddit upvotes. X likes. YouTube transcripts. TikTok engagement. Polymarket odds backed by real money and insider information. That's millions of people voting with their attention and their wallets every day. /last30days searches all of it in parallel, scores it by what real people actually engage with,"
             }
           ],
-          "sourceHash": "8e7c067a7218495f7f404200d3c960859d5576c0d8d63b7f4b7c99d0d3fbc667",
+          "sourceHash": "ce5dbdf8e2473a891131b52412f6705f8120b5c0ca50727582956cde16de7721",
           "sourceUrl": "https://github.com/mvanhorn/last30days-skill/blob/main/README.md",
           "basis": "依据官方简介及 README 逐项整理并核对原文对应关系，附可检查的入门步骤；未实际运行项目，不代表效果已测试。",
           "curated": true,
           "review": {
             "approved": true,
-            "sourceHash": "8e7c067a7218495f7f404200d3c960859d5576c0d8d63b7f4b7c99d0d3fbc667",
-            "checkedAt": "2026-11-04T10:15:40.191Z",
+            "sourceHash": "ce5dbdf8e2473a891131b52412f6705f8120b5c0ca50727582956cde16de7721",
+            "checkedAt": "2026-11-25T14:01:49.584Z",
             "method": "source-reading-and-structure-check"
           }
         },
@@ -13370,20 +13371,6 @@
       "readmeUrl": "https://github.com/remotion-dev/remotion/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
-    "mvanhorn/last30days-skill": {
-      "id": "mvanhorn/last30days-skill",
-      "sourceHash": "ce5dbdf8e2473a891131b52412f6705f8120b5c0ca50727582956cde16de7721",
-      "firstSeenAt": "2026-11-12T08:17:45.578Z",
-      "attempts": 7,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
-      "readmeUrl": "https://github.com/mvanhorn/last30days-skill/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-25T09:49:43.089Z",
-      "validationIssues": [
-        "invalid-chinese-summary"
-      ],
-      "nextAttemptAt": "2026-11-25T10:49:43.089Z"
-    },
     "ladybirdbrowser/ladybird": {
       "id": "ladybirdbrowser/ladybird",
       "sourceHash": "7647409c6d73758be212785d9b70cb07251440957c52cd219e2124ba432942eb",
@@ -14247,53 +14234,6 @@
       "validationIssues": [
         "missing-chinese-scenarios",
         "missing-chinese-start-steps"
-      ]
-    },
-    "mvanhorn/last30days-skill|openrouter/nvidia/nemotron-3.5-lightning:free": {
-      "sourceHash": "ce5dbdf8e2473a891131b52412f6705f8120b5c0ca50727582956cde16de7721",
-      "draft": {
-        "kind": "skill",
-        "summary": "AI agent skill 研究任意主题跨 Reddit X YouTube HN Polymarket 网络 然后综合 grounded summary",
-        "purpose": "搜索并综合实时社交媒体和网络内容 通过 AI judge 生成简brief",
-        "audience": "AI 助手用户",
-        "scenarios": [
-          "研究任意主题的最新公众观点和讨论",
-          "获取 Reddit Hacker News 等平台的热门内容",
-          "通过 Polymarket 等平台了解实时预测和赔率",
-          "综合 YouTube 视频和 TikTok 等多媒体内容的观点"
-        ],
-        "steps": [
-          "使用 npx skills add mvanhorn/last30days-skill -g 安装技能",
-          "运行 /last30days 命令启动交互式设置向导"
-        ],
-        "requirements": "需要访问各平台的 API 密钥或浏览器会话",
-        "verification": "检查生成的 summary 是否包含所查询主题的关键点和来源引用",
-        "evidence": [
-          {
-            "field": "summary",
-            "quote": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary\n\n# /last30days\n\nEnglish | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md) | [العربية](README.ar.md) | [فارسی](README.fa.md) | [Türkçe](README.tr.md)\n\n"
-          },
-          {
-            "field": "purpose",
-            "quote": "Reddit upvotes. X likes. YouTube transcripts. TikTok engagement. Polymarket odds backed by real money and insider information. That's millions of people voting with their attention and their wallets every day. /last30days searches all of it in parallel, scores it by what real people actually engage with, and an AI agent judge synthesizes it into one brief.\n\n"
-          },
-          {
-            "field": "scenarios",
-            "quote": "\nMore install options (claude.ai web, OpenClaw, manual) in the [Install](#install) section below.\n\nZero config. Reddit, HN, Polymarket, and GitHub work immediately, and so do patent filings and careers pages when your topic is a company. Run it once and the setup wizard unlocks X, YouTube, TikTok, arXiv, Techmeme, and more in 30 seconds.\n\n---\n\n"
-          },
-          {
-            "field": "steps",
-            "quote": "**Claude Code (recommended — auto-updates via marketplace):**\n```\n/plugin marketplace add mvanhorn/last30days-skill\n/plugin install last30days\n```\n\n**Codex, Cursor, Copilot, Gemini CLI, or any of 50+ [Agent Skills](https://agentskills.io) hosts:**\n```\nnpx skills add mvanhorn/last30days-skill -g\n```\n(`-g` installs globally for your user, available across all projects. Drop it to scope per-project.)\n"
-          },
-          {
-            "field": "verification",
-            "quote": "Google aggregates editors. /last30days searches people.\n\nYou can't get this search anywhere else because no single AI has access to all of it. Google search doesn't touch Reddit comments or X posts. ChatGPT has a deal with Reddit but can't search X or TikTok. Gemini has YouTube but not Reddit. Claude has none of them natively. Each platform is a walled garden with its own API, its own tokens, its "
-          }
-        ]
-      },
-      "savedAt": "2026-11-25T09:49:43.089Z",
-      "validationIssues": [
-        "invalid-chinese-summary"
       ]
     },
     "gathin23/cleanyourtv|openrouter/nvidia/nemotron-3.5-lightning:free": {

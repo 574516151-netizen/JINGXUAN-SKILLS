@@ -18,5 +18,17 @@ const {isReady,sourceHash,isLimited,isPending}=require('../electron/engine/githu
   const directory=path.join(root,reason);const result=await collect({directory,editorialFile,fetch,now,publish:true,complete:async()=>{throw Error(reason);}});assert(result.published);assert.equal(result.stars,2);const raw=policy.validateFeed(JSON.parse(await fs.readFile(path.join(directory,'github-hot.json'))));assert(raw.editions[0].items.every(isPending));assert(raw.editions[0].items.every(i=>!i.guide&&i.scenarios.length===0&&i.usage===''&&i.quickStart===''));assert(raw.editions[0].items.every(i=>i.publication.reason===reason));
  }
  const zero=await collect({directory:path.join(root,'not-started'),editorialFile,fetch,now,publish:true,maxGuideCompletions:0,complete:async()=>{throw Error('must not call');}});assert.equal(zero.stars,2);assert.equal(zero.completed,0);
+ const {prepare,newState}=require('../scripts/github-hot-guide-queue.cjs');
+ const stalled={...rows[0],id:'fixture/stalled',readmeUrl:'https://github.com/fixture/stalled#readme',readmeExcerpt:'Install the drawing library and load the vector image example. Compare each editable shape and label with the example output.'};
+ const queued={...stalled,id:'fixture/queued',readmeUrl:'https://github.com/fixture/queued#readme'};
+ const queue=newState(), attempted=[];
+ const params={items:[stalled,queued],targets:[stalled.id,queued.id],priorities:{[stalled.id]:0},state:queue,maxPerRun:1};
+ const failing=async (item,time)=>{attempted.push(item.id);if(item.id===stalled.id)throw Error('guide-validation-failed');return complete(item,time);};
+ for(const day of [21,22,23]) await prepare({...params,now:`2026-10-${day}T02:00:00Z`,complete:failing});
+ assert.equal(queue.pending[stalled.id].nextAttemptAt,'2026-10-25T02:00:00.000Z');
+ await prepare({...params,now:'2026-10-24T02:00:00Z',complete:failing});
+ assert.deepEqual(attempted,[stalled.id,stalled.id,stalled.id,queued.id]);
+ const resumed=await prepare({...params,now:'2026-10-25T02:00:00Z',complete:async (item,time)=>complete(item,time)});
+ assert.equal(resumed.completed,1);assert(!queue.pending[stalled.id]);
  console.log('Pending-first publication: source-only projects visible for queued/all failure reasons, retry completed, source cache reused, old ranks retained.');
  }finally{assert.equal(path.dirname(root),os.tmpdir());await fs.rm(root,{recursive:true,force:true});}})().catch(e=>{console.error(e);process.exitCode=1;});

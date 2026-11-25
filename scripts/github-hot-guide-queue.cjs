@@ -1,6 +1,8 @@
 const {enrich}=require('../electron/engine/github-hot-guides'),{isReady,sourceHash,sourceText,problems}=require('../electron/engine/github-hot-admission');
 const {safeReason}=require('./github-hot-guide-ai.cjs');
 const CONTENT=['summary','scenarios','usage','requirements','quickStart','guide','editorialStatus'];
+const HOUR = 3600000;
+const QUALITY_FAILURES = new Set(['guide-validation-failed', 'source-review-rejected']);
 function newState(){return {schemaVersion:1,guides:{},pending:{},drafts:{},budget:{day:'',counts:{}}};}
 function cached(item,state){const value=state.guides[item.id];if(value?.sourceHash!==sourceHash(item)||!value.content)return item;const content=Object.fromEntries(CONTENT.map(k=>[k,value.content[k]]));const result={...item,...content};return isReady(result)?result:item;}
 async function prepare({items,targets,priorities={},state=newState(),complete,now,maxPerRun=6,checkpoint=async()=>{}}){
@@ -24,7 +26,9 @@ async function prepare({items,targets,priorities={},state=newState(),complete,no
    pending.reason=safeReason(e);
    pending.validationIssues=(e.validationIssues||[])
     .filter(value=>typeof value==='string'&&/^[a-z0-9-]{1,80}$/.test(value)).slice(0,20);
-   const wait=/http-(401|402|403|404|429)|free-model/.test(pending.reason)?24*3600000:3600000;
+   if (QUALITY_FAILURES.has(pending.reason)) pending.qualityFailures = (pending.qualityFailures || 0) + 1;
+   const wait = QUALITY_FAILURES.has(pending.reason) && pending.qualityFailures >= 3 ? 48 * HOUR
+    : /http-(401|402|403|404|429)|free-model/.test(pending.reason) ? 24 * HOUR : HOUR;
    pending.nextAttemptAt=pending.reason==='daily-budget-exhausted'
     ?new Date(Date.parse(now.slice(0,10)+'T00:00:00Z')+86400000).toISOString()
     :new Date(Date.parse(now)+wait).toISOString();

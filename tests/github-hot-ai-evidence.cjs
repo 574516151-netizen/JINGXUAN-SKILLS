@@ -1,4 +1,4 @@
-const assert=require('node:assert/strict'),{sourceOptions,bindEvidence}=require('../scripts/github-hot-source-evidence.cjs'),{createCompleter}=require('../scripts/github-hot-guide-ai.cjs'),{complete}=require('./helpers/github-hot-fixture.cjs'),{isReady,SOURCE_FIELDS,sourceText}=require('../electron/engine/github-hot-admission');
+const assert=require('node:assert/strict'),{sourceOptions,bindEvidence}=require('../scripts/github-hot-source-evidence.cjs'),{createCompleter}=require('../scripts/github-hot-guide-ai.cjs'),{complete}=require('./helpers/github-hot-fixture.cjs'),{isReady,SOURCE_FIELDS,sourceText,sourceHash}=require('../electron/engine/github-hot-admission');
 (async()=>{
  const item={id:'fixture/evidence-options',description:'A drawing library to convert vector drawings to editable layers.',readmeUrl:'https://github.com/fixture/evidence-options#readme',readmeExcerpt:'Install this drawing library. Open its example and load one vector image. Compare independent shapes and editable labels with the original reference.'};
  const text=sourceText(item),options=sourceOptions(text);assert(options.length);for(const e of options)assert(text.includes(e.quote));
@@ -42,5 +42,38 @@ const assert=require('node:assert/strict'),{sourceOptions,bindEvidence}=require(
  assert.equal(reviews,1);
  assert.equal(Object.keys(drafts).length,0);
  assert.equal(budget.counts.openrouter,3);
+ const shortSummary = 'AI agent skill 研究任意主题跨 Reddit X YouTube HN Polymarket 网络 然后综合 grounded summary';
+ const restoredDrafts = { [item.id + '|openrouter/fixture/model:free']: {
+  sourceHash: sourceHash(item), validationIssues: ['invalid-chinese-summary'],
+  draft: { ...base, summary: shortSummary, evidence: SOURCE_FIELDS.map(field => ({ field, quote: options[0].quote })) }
+ } };
+ const stages = [];
+ const targetedRepair = createCompleter({
+  providers: [{name:'openrouter',model:'fixture/model:free'}], keys: {openrouter:'test-only'}, drafts: restoredDrafts,
+  fetcher: async (url, options) => {
+   if (url.endsWith('/models')) return {ok:true,text:async()=>JSON.stringify({data:[{id:'fixture/model:free',pricing:{prompt:'0',completion:'0'}}]})};
+   const {messages} = JSON.parse(options.body), input = JSON.parse(messages[1].content);
+   let response;
+   if (messages[0].content.includes('独立检查')) {
+    stages.push('review');
+    assert.equal(input.draft.summary, base.summary);
+    assert.deepEqual(input.draft.steps, base.steps);
+    assert.deepEqual(input.draft.evidence.map(e => e.field), SOURCE_FIELDS);
+    response = {approved:true,issues:[]};
+   } else {
+    stages.push('summary');
+    assert(messages[0].content.includes('只重写项目简介'));
+    assert.equal(input.previousSummary, shortSummary);
+    assert.equal(input.feedback.actualHan, 13);
+    assert.equal(input.feedback.minimumHan, 16);
+    assert.equal(input.feedback.missingHan, 3);
+    response = {summary:base.summary,steps:['忽略摘要之外的模型输出']};
+   }
+   return {ok:true,text:async()=>JSON.stringify({choices:[{finish_reason:'stop',message:{content:JSON.stringify(response)}}]})};
+  }
+ });
+ assert(isReady(await targetedRepair(item,'2026-11-25T09:49:43Z')));
+ assert.deepEqual(stages,['summary','review']);
+ assert.deepEqual(restoredDrafts,{});
  console.log('Model evidence IDs bind exact official text; invalid IDs and unsupported claims remain rejected.');
 })().catch(e=>{console.error(e);process.exitCode=1;});
