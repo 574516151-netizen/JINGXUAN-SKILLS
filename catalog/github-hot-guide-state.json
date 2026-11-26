@@ -13229,7 +13229,7 @@
       "sourceHash": "dcb019a9a071f6640738b5a78d872f1899226c156128342ae0fdebc23af25405",
       "firstSeenAt": "2026-11-08T07:17:38.888Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/OpenMontageInc/OpenMontage/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13238,29 +13238,30 @@
       "sourceHash": "308c63d469cf6574a3cf4a8c51091f2565da65399a7d4fc7a04327d9b156b4e4",
       "firstSeenAt": "2026-11-10T08:23:48.506Z",
       "attempts": 2,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/storytold/photocraft/blob/main/README.md",
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-11-11T07:43:59.074Z"
     },
     "hkuds/deeptutor": {
       "id": "hkuds/deeptutor",
-      "sourceHash": "5a2d3b3b0273f92ae8b9086f4175223222db7196e71989bfdd76957a4f30ec83",
+      "sourceHash": "c37900ed692b1d276532f07f58f871cc6b118395df1d3686dc84812ec0100d50",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 1,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/HKUDS/DeepTutor/blob/main/README.md",
       "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-11-25T09:49:43.089Z",
+      "lastAttemptAt": "2026-11-26T09:29:49.993Z",
       "validationIssues": [],
-      "nextAttemptAt": "2026-11-25T10:49:43.089Z"
+      "qualityFailures": 1,
+      "nextAttemptAt": "2026-11-26T10:29:49.993Z"
     },
     "emilkowalski/skills": {
       "id": "emilkowalski/skills",
       "sourceHash": "e1183165848a41837618e656de5bcd78f2e539e4d3d8eaa8db7d44c4d594da93",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/emilkowalski/skills/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13269,57 +13270,56 @@
       "sourceHash": "f21f6f2db2f6b4e46de365f9f1f83620f71f32707722516e19f922577e6c2307",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/meta/docusaurus/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "boykopovar/anyps5": {
       "id": "boykopovar/anyps5",
-      "sourceHash": "5eaea5e06253f1fc166142b50d1c58203c3b219986f099853e83cf6f5357db66",
+      "sourceHash": "53bd49e044336f18cda3712e88a768610273f81513310f085d74f47da82e8e8b",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
-      "attempts": 7,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/boykopovar/AnyPS5/blob/main/README.md",
-      "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-25T09:49:43.089Z",
-      "validationIssues": [
-        "missing-chinese-scenarios"
-      ],
-      "nextAttemptAt": "2026-11-25T10:49:43.089Z"
+      "reason": "source-review-rejected",
+      "lastAttemptAt": "2026-11-26T09:29:49.993Z",
+      "validationIssues": [],
+      "qualityFailures": 1,
+      "nextAttemptAt": "2026-11-26T10:29:49.993Z"
     },
     "google/guava": {
       "id": "google/guava",
       "sourceHash": "caa10c8812247caec14e09abea3286bf39981cbb9f6fd290af59eb41215213f5",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/google/guava/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "keygraphhq/shannon": {
       "id": "keygraphhq/shannon",
-      "sourceHash": "8199e20938e488fecd09803fc487da42470ee16b957ba2aa01e370323ac14693",
+      "sourceHash": "acd0c278e6c7e2d5334c437cda81fa6fd1fed38cccd7d1da3229bfa354902e86",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/KeygraphHQ/shannon/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "obsidianmd/obsidian-skills": {
       "id": "obsidianmd/obsidian-skills",
-      "sourceHash": "01c57d85ccedcbabcce60db91c348375481cc5ecf000ede6bd4623a3f5425f7e",
+      "sourceHash": "1c7040f4ce6b8d08ed47e4c5a3f08aaaffa5fe1692661252135f83666d49dda9",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/obsidianmd/obsidian-skills/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "astral-sh/ruff": {
       "id": "astral-sh/ruff",
-      "sourceHash": "c17adb5dcefaaf168e2962084d144a2aad60ebec34ee404701d333d952e72b90",
+      "sourceHash": "a22c25c17535e0b0a5c22d1092f716ebbc99c55780c23c665243c7dab33bac6a",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/astral-sh/ruff/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13328,7 +13328,7 @@
       "sourceHash": "2344411ef174d46b031db3c34d373dcd06a7389a57da6dca3038efc95c4084da",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 1,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/herdrdev/herdr/blob/master/README.md",
       "reason": "daily-budget-exhausted",
       "lastAttemptAt": "2026-11-18T14:45:03.018Z",
@@ -13340,34 +13340,34 @@
       "sourceHash": "3963ac97b38b6f43aecc266d63aadc7acd88c8bf2256ee06f06b9d170b79b432",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/microsoft/qlib/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "cheaper-inference/omniroute": {
       "id": "cheaper-inference/omniroute",
-      "sourceHash": "13c8076514ff99f9040b0936e5a644232880162a3ae6337e841ac6f25d13f22e",
+      "sourceHash": "04d64a26d762caad03518f2c379908b18e5201c98308b7faf4e7ac4583feabd0",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/cheaper-inference/OmniRoute/blob/release/v3.8.55/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "eternity4719/howtolivebetter": {
       "id": "eternity4719/howtolivebetter",
-      "sourceHash": "d35a9d30dd5349dd9ead5e5f4a98ad08bc39d183fceca5e8a6c0522253e1d83c",
+      "sourceHash": "6aba91ed355f024080daf64cd7d66457a06404a5dc9ffa2755a86d194e91ac97",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/eternity4719/HowToLiveBetter/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "remotion-dev/remotion": {
       "id": "remotion-dev/remotion",
-      "sourceHash": "d3a4d05332c04e78d994804a01dac6276c71147b6005f62413088a442c5e253b",
+      "sourceHash": "633040e298da468b2bf907458a6e7c745f4e7ea6d852c67d53aeecaf569a76e3",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/remotion-dev/remotion/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13376,7 +13376,7 @@
       "sourceHash": "7647409c6d73758be212785d9b70cb07251440957c52cd219e2124ba432942eb",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/LadybirdBrowser/ladybird/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13385,7 +13385,7 @@
       "sourceHash": "a252827b60813a6a0bf92816a9a1f450169fa83b3a0744fc3bc0ddbb7afc93ad",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/ChrisTitusTech/winutil/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13394,7 +13394,7 @@
       "sourceHash": "b7501f86f8115a2a2fc61ae6ac25f836078ebde69764b9cb5a714c57f89c976b",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/upstash/context7/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13403,16 +13403,16 @@
       "sourceHash": "f8c44b14605461264e681f4ff731128ee426803c40a422590bba378825fc1e75",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/keras-team/keras/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "bilawalsidhu/gods-eye-view": {
       "id": "bilawalsidhu/gods-eye-view",
-      "sourceHash": "f9f54d185e7873fe2549018ab9f68b8b531f9044f27726a3549a71aa7ec2e2a6",
+      "sourceHash": "7e5a433f4aaa171e209cfaadf4ffbc51cf2cc87115738f10f8af3fb5f0fee114",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/bilawalsidhu/gods-eye-view/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13421,7 +13421,7 @@
       "sourceHash": "f33247a7911d8c45484211a7c91d2231b06372d1a52e9f02ae2db5127d9102e0",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/commaai/openpilot/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13430,7 +13430,7 @@
       "sourceHash": "71db95de2171621b626b388c08b9822b204dd62ac3117b5199205551a52ff132",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/tw93/Pake/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13439,7 +13439,7 @@
       "sourceHash": "ab2071b420c7aca2f63d89dafac159fc928b10b9a98ff068c607ba7d6711d2a2",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/ultralytics/ultralytics/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13448,7 +13448,7 @@
       "sourceHash": "387e33eb7073ea3793afaf64703fb99defd30a201d5bb9f57cb5f4bb0b177aa7",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/Raphire/Win11Debloat/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13457,16 +13457,16 @@
       "sourceHash": "23f3a397239df45b4eb244d633ced3bbe0203114cb0f28bb6f0fc430c663f4f6",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/makeplane/plane/blob/preview/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "1c7/chinese-independent-developer": {
       "id": "1c7/chinese-independent-developer",
-      "sourceHash": "119e4a4d80a845e52f7bfc2a70e5fe0f83d7cd7574f3e90c16f86cda06665c98",
+      "sourceHash": "a47bc184f89921ce078fa3933ed7f66ec43853d485cea9e88f450ec3aafe2196",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/1c7/chinese-independent-developer/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13475,7 +13475,7 @@
       "sourceHash": "49fba492f053cddaa99a36269e062631ff39c20148f5faf2e6b482216d63fc7a",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/rclone/rclone/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13484,7 +13484,7 @@
       "sourceHash": "31a57dc81228e81b7911da2465bba0741b9f6274d801d31a527069f9989798d0",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13493,16 +13493,16 @@
       "sourceHash": "301ae4522a57c9ceeb0cb82d4970865d8c767e673056c4d241e7fdcc75ad6254",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/vectorize-io/hindsight/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "agalwood/motrix": {
       "id": "agalwood/motrix",
-      "sourceHash": "8aa8de1b541b50148e4e906a58dddcea88068bf23b1270031e75231439be16d2",
+      "sourceHash": "07871d61d06a7445d9c877288864d63c295bb0f5b258ad3ae2442312807405b8",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/agalwood/Motrix/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13511,55 +13511,52 @@
       "sourceHash": "2e6813463659c3ffb19b2bb2b906e4c8d6bd03127b54b4866734e84e15cca6d0",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/h5bp/html5-boilerplate/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "imbad0202/academic-research-skills": {
       "id": "imbad0202/academic-research-skills",
-      "sourceHash": "928eb0346f69d6a68dd1a09e5e379b6fb6044e54fdb1884d86141aff3b4acb21",
+      "sourceHash": "09e50b431be66fba2d8fd033d846587d507610fd2efdb56c262b38a144c82379",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/Imbad0202/academic-research-skills/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "multica-ai/multica": {
       "id": "multica-ai/multica",
-      "sourceHash": "d8de83730eeff4dd3bcf18fb57a16be30f64b3e7659dbe76f7c75c752d3c7b59",
+      "sourceHash": "fc8d7e4f726e078feb9d3ef9e140e05d1bcaa290c73b2b035cc8bd22e7d5be58",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/multica-ai/multica/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "ngosang/trackerslist": {
       "id": "ngosang/trackerslist",
-      "sourceHash": "e2ff3e7155b3749c994c41e70049622961b92c6c0e44865fd4892a25ef47f95e",
+      "sourceHash": "9005018b15feda556ae301e45d8368e6306e362e1ef8917fbaa356146c91090a",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/ngosang/trackerslist/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "chromedevtools/chrome-devtools-mcp": {
       "id": "chromedevtools/chrome-devtools-mcp",
-      "sourceHash": "0423044ed493026f79a14b8c4aef798751ac1dadd07451fc54ab4f111b67c1a7",
+      "sourceHash": "720f96e432d7adb53ba630de080a6811e4f518b12bbf843e514d8bb5e80970d0",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
-      "attempts": 4,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/README.md",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-11-20T08:30:18.519Z",
-      "validationIssues": [],
-      "nextAttemptAt": "2026-11-20T09:30:18.519Z"
+      "reason": "awaiting-chinese-guide"
     },
     "ggml-org/whisper.cpp": {
       "id": "ggml-org/whisper.cpp",
       "sourceHash": "242218ed1b693fb466bc33c8415b2a01e62c3c54ec7c0421a8e2390dc2584303",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/ggml-org/whisper.cpp/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13568,7 +13565,7 @@
       "sourceHash": "692196dce118c1f52bb56e5a9803def3b752151d75cd00729dad7c58941839d7",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/apple/container/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13577,7 +13574,7 @@
       "sourceHash": "1dd10ed4f4ee464a9cb39a3f329b69c42b53be925f31e46747a5d6a2e64d1213",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/justjavac/wechat-miniapp-radar/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13586,7 +13583,7 @@
       "sourceHash": "c06fb45b8102d439554d99f6182f60154f8820b71c990000f345ec8b60aabf4a",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/huginn/huginn/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13595,7 +13592,7 @@
       "sourceHash": "a5393d1172091e7d58569279bbcdaf18feb58be13fdaf89f6ed9e569f73a8b30",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/ClickHouse/ClickHouse/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13604,7 +13601,7 @@
       "sourceHash": "dcb8633e5eed24849396b58d9980edc9a2799ba58ac865e4a18971b45190c919",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/mastodon/mastodon/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13613,7 +13610,7 @@
       "sourceHash": "1f2c3ebc61c6e3eacb2638f3df7f8877eb556671d1ddee398f1f714475a7a5b2",
       "firstSeenAt": "2026-11-12T08:17:45.578Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/nlohmann/json/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13621,20 +13618,23 @@
       "id": "tashfeenahmed/freellmapi",
       "sourceHash": "51b89c7a20f653d143a6e23f820e039e0950ab1dc45d48e1089c106765f137ca",
       "firstSeenAt": "2026-11-13T07:53:25.885Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "attempts": 2,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/tashfeenahmed/freellmapi/blob/main/README.md",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-11-25T09:49:43.089Z",
-      "validationIssues": [],
-      "nextAttemptAt": "2026-11-25T10:49:43.089Z"
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-11-26T09:29:49.993Z",
+      "validationIssues": [
+        "missing-chinese-scenarios"
+      ],
+      "nextAttemptAt": "2026-11-26T10:29:49.993Z",
+      "qualityFailures": 1
     },
     "alibaba/open-code-review": {
       "id": "alibaba/open-code-review",
       "sourceHash": "cda1504b63b0dba4d00a08382735294eb212e6c0e8944a9fb7204d3021d900fd",
       "firstSeenAt": "2026-11-15T07:49:34.532Z",
       "attempts": 4,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/alibaba/open-code-review/blob/main/README.md",
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-11-24T10:53:35.648Z",
@@ -13648,78 +13648,75 @@
       "sourceHash": "ee1cb448eb750c421e0de8c2d6e903ad52f911e4f9fe11cf6c311fefa1b356c1",
       "firstSeenAt": "2026-11-15T07:49:34.532Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/Aider-AI/aider/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "justvugg/colibri": {
       "id": "justvugg/colibri",
-      "sourceHash": "56bbf6dc31b5ccee1424f1119bc7c1ddf486ffb22a8f57b97abea23223368df3",
+      "sourceHash": "8897f88cd8d1874f9da8d7df5f2bbe4ce3ad18b45abd74bf66de97941b91bbe7",
       "firstSeenAt": "2026-11-16T07:57:11.232Z",
-      "attempts": 1,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/JustVugg/colibri/blob/main/README.md",
-      "reason": "daily-budget-exhausted",
-      "lastAttemptAt": "2026-11-18T14:45:03.018Z",
-      "validationIssues": [],
-      "nextAttemptAt": "2026-11-19T00:00:00.000Z"
+      "reason": "awaiting-chinese-guide"
     },
     "hkuds/nanobot": {
       "id": "hkuds/nanobot",
       "sourceHash": "7e950a49b21324319066192d50885a65fc05613afbfd712711214c6e1fdc5504",
       "firstSeenAt": "2026-11-18T08:29:56.737Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/HKUDS/nanobot/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "jingyaogong/minimind": {
       "id": "jingyaogong/minimind",
-      "sourceHash": "ce3a5372af2e568bbc72e24499e3c0a0b88d9fcd5065aab252e8f5b4e1222dec",
+      "sourceHash": "89b224f71c1375136f2ecd1575e79b75d4ca3f45865758642ff4a7f754dce558",
       "firstSeenAt": "2026-11-18T14:45:03.018Z",
-      "attempts": 5,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/jingyaogong/minimind/blob/master/README.md",
-      "reason": "source-review-rejected",
-      "lastAttemptAt": "2026-11-25T09:49:43.089Z",
-      "validationIssues": [],
-      "nextAttemptAt": "2026-11-25T10:49:43.089Z"
-    },
-    "ebony-vinyl/dsh-our-free-model": {
-      "id": "ebony-vinyl/dsh-our-free-model",
-      "sourceHash": "0735210d62fccbe371c8740eb76338bc71b24c81dcae761ff11f87d18c2678a0",
-      "firstSeenAt": "2026-11-19T08:45:20.131Z",
-      "attempts": 7,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
-      "readmeUrl": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-25T09:49:43.089Z",
+      "lastAttemptAt": "2026-11-26T09:29:49.993Z",
       "validationIssues": [
         "missing-chinese-scenarios"
       ],
-      "nextAttemptAt": "2026-11-25T10:49:43.089Z"
+      "qualityFailures": 1,
+      "nextAttemptAt": "2026-11-26T10:29:49.993Z"
     },
-    "alishahryar1/free-claude-code": {
-      "id": "alishahryar1/free-claude-code",
-      "sourceHash": "96d98e15c779f8f8b53017dc392a2560860ded86736888e6ebf0a261ebd2b5b1",
+    "ebony-vinyl/dsh-our-free-model": {
+      "id": "ebony-vinyl/dsh-our-free-model",
+      "sourceHash": "c2a61347d88c0150717f12f511853b072ef7fca5d79b87eec0a18ed40a16d057",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
-      "attempts": 2,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
-      "readmeUrl": "https://github.com/Alishahryar1/free-claude-code/blob/main/README.md",
+      "attempts": 1,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md",
       "reason": "guide-validation-failed",
-      "lastAttemptAt": "2026-11-20T08:30:18.519Z",
+      "lastAttemptAt": "2026-11-26T09:29:49.993Z",
       "validationIssues": [
+        "invalid-chinese-audience",
         "missing-chinese-scenarios",
         "missing-chinese-start-steps"
       ],
-      "nextAttemptAt": "2026-11-20T09:30:18.519Z"
+      "qualityFailures": 1,
+      "nextAttemptAt": "2026-11-26T10:29:49.993Z"
+    },
+    "alishahryar1/free-claude-code": {
+      "id": "alishahryar1/free-claude-code",
+      "sourceHash": "636c4c1ee22d04f38a7c891dd4bb69df40008b9dce1e175a345ad1cfdaf59854",
+      "firstSeenAt": "2026-11-19T08:45:20.131Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/Alishahryar1/free-claude-code/blob/main/README.md",
+      "reason": "awaiting-chinese-guide"
     },
     "gathin23/cleanyourtv": {
       "id": "gathin23/cleanyourtv",
       "sourceHash": "7f5b65f64111b95ba577840f4ac3d45775753ce4fed9dbf89647ebc98d3bd5cc",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 2,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/Gathin23/cleanyourtv/blob/main/README.md",
       "reason": "guide-validation-failed",
       "lastAttemptAt": "2026-11-20T08:30:18.519Z",
@@ -13734,7 +13731,7 @@
       "sourceHash": "16ffd02509fc425005e8e3c023e06e45dbc1e43408c9cacf33120e625e3272dc",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/GokuMohandas/Made-With-ML/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13743,16 +13740,16 @@
       "sourceHash": "8fef40cb47a5dcad34e78c02c5969164421d1d5bec4c9d5f60f6e23eb2742b90",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/hugohe3/ppt-master/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "zhulinsen/daily_stock_analysis": {
       "id": "zhulinsen/daily_stock_analysis",
-      "sourceHash": "b1b4d11948680a229b1d16419cfa2c7201afe4e9af396ddc9ca9a54e29b8f030",
+      "sourceHash": "329c8b55dffb71eddec749ffc34cd046a2559a36bf021a2bb35b170a66162de4",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/ZhuLinsen/daily_stock_analysis/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13761,7 +13758,7 @@
       "sourceHash": "ca2ec7ac6304b30fc8403b4f2bf3e8dff329e545e20ca275e3410143404ad102",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/ai-job-search-dev/ai-job-search/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13770,7 +13767,7 @@
       "sourceHash": "667ce0b3e0685d69df2ac897faf5a5bbe5f32c6daada78f27aa289adf8148475",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/coollabsio/coolify/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13779,16 +13776,16 @@
       "sourceHash": "daf287df1ef475f67bdc3300258f75736940c72276c40f1b7afe6046c129aefa",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/marktext/marktext/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "chen08209/flclash": {
       "id": "chen08209/flclash",
-      "sourceHash": "b16669f334e81a0006ad42b76db10304642800487c022379efee305f46de9ce4",
+      "sourceHash": "c3b96feab7a5ff75e553f1bfa88ae47440a2e57d1ae3ba1e21f20c3c5e9b9b38",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/chen08209/FlClash/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13797,7 +13794,7 @@
       "sourceHash": "2011f8422e3a9817e2d4cae691f1ad45cc527da6349507a94f45dee79452d22e",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/penpot/penpot/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13806,7 +13803,7 @@
       "sourceHash": "23e9735e4100d9988bd19d4b712bd5988155ef266dc4c5dc7fe042b7264c43e8",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/meilisearch/meilisearch/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13815,16 +13812,16 @@
       "sourceHash": "507f4d3cddeb7464810afc3432833146e693f7d3a9e27e8b10ba8f853862c01a",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/zylon-ai/private-gpt/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "azl397985856/leetcode": {
       "id": "azl397985856/leetcode",
-      "sourceHash": "c539dd539d09892f6ac568b6c345f6c5eb71691f3deba2bd6218b5be79cb06e7",
+      "sourceHash": "39a2ddac6d96cc5be17f90589ef3bde24c24bf4f93ea2dc3d33badfdc02b5e36",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/azl397985856/leetcode/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13833,7 +13830,7 @@
       "sourceHash": "857e752bc73b46a8223ae4f139f4176b65f7b3de383ce57ed288365f6e10edb5",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/bmad-code-org/BMAD-METHOD/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13842,7 +13839,7 @@
       "sourceHash": "9168748d0f9b448defbd1a2f2bda6f345314b59faa0a12ca036837131772e0e4",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/VoltAgent/awesome-openclaw-skills/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13851,7 +13848,7 @@
       "sourceHash": "1d429cae6f392cbc267e9881128f477053decd3a994012c2117a0401e8b7d59e",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/jesseduffield/lazydocker/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13860,7 +13857,7 @@
       "sourceHash": "bc640697e9f7773d1f2065cf423c1880b5542234d44709c84f0e457db656d7e0",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/prettier/prettier/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13869,16 +13866,16 @@
       "sourceHash": "acd8d8f1a7975c490bc9f61a763246dd050fd7ccbb3a3da3e354b1e4520470e0",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/roboflow/supervision/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "mudler/localai": {
       "id": "mudler/localai",
-      "sourceHash": "c4aa634c0aac421db87c169e33f16f3f30a78767b661bfb62effa0ff04fe1a67",
+      "sourceHash": "158ab4ded1b7da94d20b0d75e25c515d53936330316f275bfdecda096b358fb8",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/mudler/LocalAI/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13887,7 +13884,7 @@
       "sourceHash": "0eae1054a6915bbcc2c0d91d54c6d0280018f0132643cae04564c81277beefef",
       "firstSeenAt": "2026-11-19T08:45:20.131Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/chenglou/pretext/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13896,16 +13893,16 @@
       "sourceHash": "ddcf6e9021f1db22432704dd28a67b852fb79ad662feee372791b9712c00be7c",
       "firstSeenAt": "2026-11-21T08:15:37.975Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/calcom/cal.diy/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
     "sansan0/trendradar": {
       "id": "sansan0/trendradar",
-      "sourceHash": "1d0fd9fa77db67ee5869b3843d07bdc780255df1f88fdd1142d6c86b99ab4606",
+      "sourceHash": "b1a62f82184ae0abd0efd21dce924f3bf4f55a544a22b798d9fd2efc00fb695c",
       "firstSeenAt": "2026-11-22T07:57:57.081Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/sansan0/TrendRadar/blob/master/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13914,7 +13911,7 @@
       "sourceHash": "c4a50276a16ad4c7d2b90bf58b05251ec9fcd410d3840461af856563a09e702f",
       "firstSeenAt": "2026-11-24T10:53:35.648Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/bilibili/GPT-SoVITS/blob/main/README.md",
       "reason": "awaiting-chinese-guide"
     },
@@ -13923,45 +13920,171 @@
       "sourceHash": "109001e8b9d487412d2ed2a6e7af89fca74db184dda51b0b80d331dd07a2fc0a",
       "firstSeenAt": "2026-11-24T10:53:35.648Z",
       "attempts": 0,
-      "lastSeenAt": "2026-11-25T09:49:43.089Z",
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
       "readmeUrl": "https://github.com/MHSanaei/3x-ui/blob/main/README.md",
+      "reason": "awaiting-chinese-guide"
+    },
+    "blader/humanizer": {
+      "id": "blader/humanizer",
+      "sourceHash": "53c9c1d943c20cd6fd0bc73208bedabcf1b15412a0a0c12e409dde5aee4e9041",
+      "firstSeenAt": "2026-11-26T09:29:49.993Z",
+      "attempts": 1,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/blader/humanizer/blob/main/README.md",
+      "reason": "guide-validation-failed",
+      "lastAttemptAt": "2026-11-26T09:29:49.993Z",
+      "validationIssues": [
+        "missing-chinese-scenarios"
+      ],
+      "qualityFailures": 1,
+      "nextAttemptAt": "2026-11-26T10:29:49.993Z"
+    },
+    "serhii-londar/open-source-mac-os-apps": {
+      "id": "serhii-londar/open-source-mac-os-apps",
+      "sourceHash": "ed74c355b4fde3aa642271ba5d48225893aebe27c12f7ea2df6885025faeebd9",
+      "firstSeenAt": "2026-11-26T09:29:49.993Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/serhii-londar/open-source-mac-os-apps/blob/master/README.md",
+      "reason": "awaiting-chinese-guide"
+    },
+    "homebrew/brew": {
+      "id": "homebrew/brew",
+      "sourceHash": "8b20f04ec0ad679943363db4f2d0fabe873892284e974f66f5c7873fef201bcc",
+      "firstSeenAt": "2026-11-26T09:29:49.993Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/Homebrew/brew/blob/main/README.md",
+      "reason": "awaiting-chinese-guide"
+    },
+    "nanmicoder/mediacrawler": {
+      "id": "nanmicoder/mediacrawler",
+      "sourceHash": "31040f644266f79cd276d78adc5364f2f8ad2907c820c4901cf90e2510d7c7eb",
+      "firstSeenAt": "2026-11-26T09:29:49.993Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/NanmiCoder/MediaCrawler/blob/main/README.md",
+      "reason": "awaiting-chinese-guide"
+    },
+    "webpack/webpack": {
+      "id": "webpack/webpack",
+      "sourceHash": "64b2d9d8821965c5347fb093ceb0873aa0d12d134bbe9e3f2094378edca3e3b7",
+      "firstSeenAt": "2026-11-26T09:29:49.993Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/webpack/webpack/blob/main/README.md",
+      "reason": "awaiting-chinese-guide"
+    },
+    "bojieli/ai-agent-book": {
+      "id": "bojieli/ai-agent-book",
+      "sourceHash": "1e1297c72d6c658148fae4961158ad79c9363f4207e119cbbd18ac6c7b725c46",
+      "firstSeenAt": "2026-11-26T09:29:49.993Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/bojieli/ai-agent-book/blob/main/README.md",
+      "reason": "awaiting-chinese-guide"
+    },
+    "aaif-goose/goose": {
+      "id": "aaif-goose/goose",
+      "sourceHash": "210c52d094063611fcbac5df08ca43d4e418e693c086f7d54641a16159e0d4a1",
+      "firstSeenAt": "2026-11-26T09:29:49.993Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/aaif-goose/goose/blob/main/README.md",
+      "reason": "awaiting-chinese-guide"
+    },
+    "yuan1z0825/nature-skills": {
+      "id": "yuan1z0825/nature-skills",
+      "sourceHash": "dd122589e5aaecd07da7dda7b6d242279587256c27fecbc36706e19a24a45920",
+      "firstSeenAt": "2026-11-26T09:29:49.993Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/Yuan1z0825/nature-skills/blob/main/README.md",
+      "reason": "awaiting-chinese-guide"
+    },
+    "vercel-labs/agent-browser": {
+      "id": "vercel-labs/agent-browser",
+      "sourceHash": "2f958cc10d0bd0ebac2dd48d53addba6313ddff1ef5ed633b91fd46b95db9316",
+      "firstSeenAt": "2026-11-26T09:29:49.993Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/vercel-labs/agent-browser/blob/main/README.md",
+      "reason": "awaiting-chinese-guide"
+    },
+    "dbeaver/dbeaver": {
+      "id": "dbeaver/dbeaver",
+      "sourceHash": "1198a200cf464a8a3744959cf17922449244545efb771e8ec02d7ff7defaf5c0",
+      "firstSeenAt": "2026-11-26T09:29:49.993Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/dbeaver/dbeaver/blob/devel/README.md",
+      "reason": "awaiting-chinese-guide"
+    },
+    "team-spotube/spotube": {
+      "id": "team-spotube/spotube",
+      "sourceHash": "9319f4fa5ce28dd5463e5d87f379a2f653b141da6f4f8e2e5e4adc5cd75d497d",
+      "firstSeenAt": "2026-11-26T09:29:49.993Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/team-spotube/spotube/blob/master/README.md",
+      "reason": "awaiting-chinese-guide"
+    },
+    "tanstack/query": {
+      "id": "tanstack/query",
+      "sourceHash": "e075ba8be5be27e483fd2e3453dbadc8229378b18982ca7751789096769f50a8",
+      "firstSeenAt": "2026-11-26T09:29:49.993Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/TanStack/query/blob/main/README.md",
+      "reason": "awaiting-chinese-guide"
+    },
+    "cypress-io/cypress": {
+      "id": "cypress-io/cypress",
+      "sourceHash": "742eaea218c364224d845c6df4547c9780cb121730e084298bb5b41fd06d415b",
+      "firstSeenAt": "2026-11-26T09:29:49.993Z",
+      "attempts": 0,
+      "lastSeenAt": "2026-11-26T09:29:49.993Z",
+      "readmeUrl": "https://github.com/cypress-io/cypress/blob/develop/README.md",
       "reason": "awaiting-chinese-guide"
     }
   },
   "budget": {
-    "day": "2026-11-25",
+    "day": "2026-11-26",
     "counts": {
-      "openrouter": 19
+      "openrouter": 16
     },
     "lastValidation": {
-      "id": "boykopovar/anyps5",
+      "id": "ebony-vinyl/dsh-our-free-model",
       "model": "nvidia/nemotron-3.5-lightning:free",
       "issues": [
-        "missing-chinese-scenarios"
+        "invalid-chinese-audience",
+        "missing-chinese-scenarios",
+        "missing-chinese-start-steps"
       ],
-      "checkedAt": "2026-11-25T09:49:43.089Z"
+      "checkedAt": "2026-11-26T09:29:49.993Z"
     }
   },
   "drafts": {
     "tashfeenahmed/freellmapi|openrouter/nvidia/nemotron-3.5-lightning:free": {
       "sourceHash": "51b89c7a20f653d143a6e23f820e039e0950ab1dc45d48e1089c106765f137ca",
       "draft": {
-        "kind": "self",
-        "summary": "FreeLLMAPI聚合87个免费LLM提供商1313个模型端点，通过单一/v1端点提供统一的OpenAI兼容API，具备智能路由、自动故障转移和加密密钥管理功能，专为个人实验设计。",
-        "purpose": "聚合各大LLM提供商的免费额度，提供统一的API接口，实现模型的智能路由和自动故障转移，帮助用户在免费额度内使用多种LLM模型。",
+        "kind": "app",
+        "summary": "FreeLLMAPI聚合87个免费LLM提供商的1313个模型端点，通过单一/v1端点提供统一的OpenAI兼容API接口，具备智能路由和自动故障转移功能，密钥存储加密，专为个人实验和成本控制设计。",
+        "purpose": "聚合各大LLM提供商的免费额度，提供统一的API接口，实现模型的智能路由和自动故障转移，帮助用户在免费额度内使用多种LLM模型，降低AI使用成本。",
         "audience": "AI开发者、研究人员",
         "scenarios": [
           "想要免费使用多个LLM模型进行个人实验的用户",
           "需要统一API接口访问多个LLM提供商的开发者",
           "希望自动故障转移和智能路由的AI项目开发者",
-          "关注成本控制的AI应用项目负责人"
+          "关注成本控制的AI应用项目负责人",
+          "需要快速集成多种LLM模型的创业者"
         ],
         "steps": [
           "在Docker环境下执行一键安装命令curl -fsSL https://freellmapi.co/install.sh | bash以设置~/freellmapi目录并启动容器",
           "访问本地界面http://localhost:3001并添加提供商密钥以配置可用的LLM服务"
         ],
         "requirements": "Docker环境，用于访问各LLM提供商的API密钥",
-        "verification": "检查统一API密钥是否可以成功调用目标LLM模型，确认路由和故障转移机制正常工作",
+        "verification": "检查统一API密钥是否可以成功调用目标LLM模型，确认路由和故障转移机制正常工作，验证密钥是否被正确加密存储",
         "evidence": [
           {
             "field": "summary",
@@ -13985,9 +14108,9 @@
           }
         ]
       },
-      "savedAt": "2026-11-25T09:49:43.089Z",
-      "reviewIssues": [
-        "源文本中未提及'个人实验'或'个人实验仅'，该描述为虚构内容；源文本中未提及'736个模型家族'，该描述为虚构内容；源文本中未提及'智能路由'或'自动故障转移'，该描述为虚构内容；源文本中未提及'加密密钥管理'，该描述为虚构内容；源文本中未提及'统一的OpenAI兼容API'，该描述为虚构内容；源文本中未提及'87个免费LLM提供商'，该描述为虚构内容；源文本中未提及'1313个模型端点'，该描述为虚构内容；源文本中未提及'10.1亿tokens/月'，该描述为虚构内容；源文本中未提及'简体中文'界面，该描述为虚构内容"
+      "savedAt": "2026-11-26T09:29:49.993Z",
+      "validationIssues": [
+        "missing-chinese-scenarios"
       ]
     },
     "chromedevtools/chrome-devtools-mcp|openrouter/nvidia/nemotron-3.5-lightning:free": {
@@ -14084,78 +14207,33 @@
         "invalid-chinese-audience"
       ]
     },
-    "obsidianmd/obsidian-skills|openrouter/nvidia/nemotron-3.5-lightning:free": {
-      "sourceHash": "013cba78309f26e5882b359cfd6e0253328859e7abbe0cdf412a36cf4c6c0d88",
-      "draft": {
-        "kind": "app",
-        "summary": "Obsidian技能仓库，提供一系列AI Agent技能，可通过Obsidian CLI和多种开放格式（Markdown、Bases、JSON Canvas）操作，支持Claude Code、Codex、OpenCode等多平台使用。",
-        "purpose": "通过Agent Skills规范，让AI助手学会使用Obsidian CLI和开放格式，实现Markdown、Bases、JSON Canvas等文件的创建、编辑、同步及网页内容提取等功能。",
-        "audience": "AI助手开发者、Obsidian用户、自动化脚本编写者",
-        "scenarios": [
-          "使用Claude Code或Codex等Agent时，需要操作Obsidian vault中的Markdown文件",
-          "需要创建和编辑Obsidian Flavored Markdown，包含wikilinks、嵌入、调阅框等语法",
-          "需要使用Obsidian Bases功能，创建视图、过滤器、公式和摘要",
-          "需要使用JSON Canvas创建节点、边、组和连接的图谱文件"
-        ],
-        "steps": [
-          "使用Claude Code时，在终端执行 `claude plugin marketplace add obsidianmd/obsidian-skills` 并 `claude plugin install obsidian@obsidian-skills`",
-          "或在Claude Code会话中使用 `/plugin marketplace add obsidianmd/obsidian-skills` 和 `/plugin install obsidian@obsidian-skills` 进行安装"
-        ],
-        "requirements": "拥有Claude Code、Codex或OpenCode等兼容的AI Agent平台，以及目标Obsidian vault的访问权限",
-        "verification": "检查技能是否在Agent平台中可用，尝试执行如创建Markdown文件、编辑Bases视图或同步vault等操作，确认功能正常",
-        "evidence": [
-          {
-            "field": "summary",
-            "quote": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.\n\nAgent Skills for use with Obsidian.\n\nThese skills follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code, Codex, and Open Code.\n\n## Installation\n\n### Claude Code marketplace\n\n"
-          },
-          {
-            "field": "purpose",
-            "quote": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.\n\nAgent Skills for use with Obsidian.\n\nThese skills follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code, Codex, and Open Code.\n\n## Installation\n\n### Claude Code marketplace\n\n"
-          },
-          {
-            "field": "scenarios",
-            "quote": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.\n\nAgent Skills for use with Obsidian.\n\nThese skills follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code, Codex, and Open Code.\n\n## Installation\n\n### Claude Code marketplace\n\n"
-          },
-          {
-            "field": "steps",
-            "quote": "From terminal:\n\n```sh\nclaude plugin marketplace add obsidianmd/obsidian-skills\nclaude plugin install obsidian@obsidian-skills\n```\n\nFrom within a Claude Code session:\n\n```sh\n/plugin marketplace add obsidianmd/obsidian-skills\n/plugin install obsidian@obsidian-skills\n```\n\nTo get new skills later, run `claude plugin update obsidian@obsidian-skills`.\n\n### Codex marketplace\n\n```sh\n"
-          },
-          {
-            "field": "verification",
-            "quote": "From terminal:\n\n```sh\nclaude plugin marketplace add obsidianmd/obsidian-skills\nclaude plugin install obsidian@obsidian-skills\n```\n\nFrom within a Claude Code session:\n\n```sh\n/plugin marketplace add obsidianmd/obsidian-skills\n/plugin install obsidian@obsidian-skills\n```\n\nTo get new skills later, run `claude plugin update obsidian@obsidian-skills`.\n\n### Codex marketplace\n\n```sh\n"
-          }
-        ]
-      },
-      "savedAt": "2026-11-18T14:45:03.018Z",
-      "reviewIssues": [
-        "source简介提到支持Obsidian CLI、Markdown、Bases、JSON Canvas等多种功能，但draft的summary、purpose、scenarios和steps仅涉及基础安装和最基础的Markdown操作，遗漏了Bases、JSON Canvas、Obsidian CLI、Headless、Defuddle、Knap等核心技能的具体用途与操作说明；draft的requirements仅提到需要AI Agent平台和vault访问权限，未列出具体的前置条件（如GitHub账户、SSH密钥、具体平台版本等）；draft的verification描述不完整，仅重复了安装命令，缺乏实际的功能验证方法。"
-      ]
-    },
     "ebony-vinyl/dsh-our-free-model|openrouter/nvidia/nemotron-3.5-lightning:free": {
-      "sourceHash": "0735210d62fccbe371c8740eb76338bc71b24c81dcae761ff11f87d18c2678a0",
+      "sourceHash": "c2a61347d88c0150717f12f511853b072ef7fca5d79b87eec0a18ed40a16d057",
       "draft": {
         "kind": "app",
-        "summary": "在 dsh 中安装 Our Free Model 插件后，无需登录、注册或填写 API Key，即可直接使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型，完全免费且不限量，插件无需构建、零依赖，开箱即用。",
-        "purpose": "使用前沿大模型进行自然语言对话、代码生成、内容创作等任务，无需搭建环境或支付费用，支持通过设置页启用 OpenAI 兼容的本地转发端口，让本机其他工具（如 OpenAI API 客户端）也能调用这些免费模型，并内置用量看板实现本地数据统计不上传。",
-        "audience": "dsh 用户、AI 爱好者、开发者",
+        "summary": "在 dsh 中安装本插件后，无需登录、注册或填写 API Key 即可使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型，完全免费且不限量，插件纯粹挂载不改内核、无构建步骤、零依赖。",
+        "purpose": "使用前沿大模型（如 DeepSeek V4.1 Flash、Kimi K3）进行对话交互，无需账号和密钥，支持思考强度调节、流式输出，并提供 OpenAI 兼容的本地转发端口供本机其他工具调用。",
+        "audience": "dsh 用户",
         "scenarios": [
-          "在 dsh 编辑器中直接选择 Our Free Model 分组下的任意模型进行自然语言对话交互",
-          "使用 DeepSeek V4.1 Flash 等具备思考档位菜单的模型，通过 Off/Low/High/Max 等档位控制推理强度",
-          "使用 Kimi K3 等无档位菜单的模型，通过 Light/Balanced/Deep 三档预算阶梯调整思考占用的输出 token 上限",
-          "在设置页启用本地转发端口，使用其他工具（如 curl、OpenAI 客户端）通过 GET /v1/models、POST /v1/chat/completions 等接口调用这些免费模型",
-          "查看用量看板监控 Token 热力图、总量曲线、输出速度与首字延迟，所有数据均本地保留不上传网络",
-          "通过模型选择器快速切换不同上游源的模型（OpenCode Zen 网关、Kilo AI 网关），实测可用性由本机网络出口决定"
+          "在 dsh 里装上插件即可使用免费车道，无需登录、注册或填写 API Key",
+          "选择 Our Free Model 分组下的任意模型进行对话交互",
+          "通过设置页启用本地转发端口，使用 base URL 和 Key 调用模型",
+          "在设置页调整思考强度（Off/Low/High/Max 或 Light/Balanced/Deep）",
+          "查看用量看板监控 Token 使用情况，数据全部留在本机",
+          "遇到模型不可用时，选择器会自动过滤，仅保留可达模型",
+          "通过应用内升级功能保持插件版本更新",
+          "在 dsh-tui 等无 web server 环境中同样启动并使用模型"
         ],
         "steps": [
-          "在 dsh 中使用命令 dsh plugin --profile web add @ebony-vinyl/dsh-our-free-model@2.8.6 安装插件（注意包名带 scope，勿与 npm 上裸名包混用）",
-          "安装完成后重启 dsh 应用使插件生效并出现 Our Free Model 分组",
-          "打开输入框的模型选择器，在 Our Free Model 分组中选择任意可用模型开始对话",
-          "根据需要在设置页配置思考强度（Effort）：声明档位模型直接选 Off/Low/High/Max，无档位模型选 Light/Balanced/Deep 以调整思考预算",
-          "如需本机其他工具调用，进入设置 → Our Free Model → 本地转发，启用后复制 base URL 并生成 Key，即可通过 OpenAI 兼容接口调用",
-          "通过 GET /v1/models 等 OpenAI 兼容接口验证模型是否成功加载，或在 dsh 对话中检查是否能收到模型回复"
+          "dsh plugin --profile web add @ebony-vinyl/dsh-our-free-model@2.9.1",
+          "安装完成后重启应用一次",
+          "打开输入框的模型选择器，选择 Our Free Model 分组下的任意模型",
+          "在设置 → Our Free Model → 本地转发 中启用转发并复制 base URL 并生成 Key",
+          "其他工具通过 base URL 与 Key 即可调用这些模型",
+          "若端口被占用，插件会重试后顺延至下一个可用端口并在设置页标注实际端口"
         ],
-        "requirements": "已安装 dsh 应用，拥有可用的网络出口以访问上游网关（OpenCode Zen 或 Kilo AI），安装插件前确认未安装第三方裸名 npm 包 dsh-our-free-model 以免冲突，部分旧版桌面整合包可能需要通过应用内插件管理器而非命令行链接安装",
-        "verification": "在 dsh 对话框中选择模型后成功获取模型回复，使用设置页的本地转发功能可通过其他工具（如 curl 或 OpenAI 客户端）成功调用模型并返回结果，模型列表会随上游刷新实时更新，未被地区策略拦截的模型将保持可达状态",
+        "requirements": "已安装 dsh 并拥有对应 profile（如 web），具备网络访问上游网关的能力",
+        "verification": "在对话输入框选择模型后成功获取响应，或通过本地转发端口使用 base URL 和 Key 调用 GET /v1/models 返回模型列表",
         "evidence": [
           {
             "field": "summary",
@@ -14167,21 +14245,23 @@
           },
           {
             "field": "scenarios",
-            "quote": "> 模型清单跟随上游刷新，可用性由**你自己这台机器的网络出口**实测得出，\n> 思考强度下发的是真实预算而不是提示词，另附一个 OpenAI 兼容的本地转发端口。\n>\n> 纯插件挂载：不改内核、无构建步骤、零依赖。\n\n\n\n---\n\n## 交流群\n\n\n  \n  \n  QQ 群：891170115（OFM技术交流[17群]）\n  \n  扫码加入群聊，一起交流插件使用心得、反馈问题与分享玩法。\n\n\n---\n\n## 亮点\n\n- **开箱即用，无配置环节**——不需要账号、不需要 Key、不需要在后台申请配额。\n"
+            "quote": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.\n\n# dsh-our-free-model\n\n**简体中文** | [English](README_EN.md)\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n"
           },
           {
             "field": "steps",
-            "quote": "> npm 上的 `dsh-our-free-model` 包**不是本仓库发布的**。它由第三方打包，内容与本仓库\n> 不一致：`index.js`、`client.js` 被改动，并额外包含本仓库从未有过的\n> `src/channel-visibility.js`。装到它得不到本项目审核过的构建，也拿不到本仓库的签名\n> 清单校验与应用内升级。\n>\n> 本仓库自己发布的是带 scope 的 **`@ebony-vinyl/dsh-our-free-model`**，与 Release 的\n> `dsh-our-free-model-.tgz` 同源、同版本。只想走 npm 时可以装它：\n>\n> ```\n> dsh plugin --profile web add @ebony-vinyl/dsh-our-free-model@2.8.6\n> ```\n>\n"
+            "quote": "dsh plugin --profile web add /绝对路径/dsh-our-free-model\n```\n\n安装完成后重启应用一次。`--profile` 填写实际使用的 profile 名称。\n\n**DSHEAC AIO / 桌面端：请先阅读本节**\n\n部分 DSHEAC AIO / 旧版桌面整合包在启动 web 服务之前会执行 profile 闸门，\n限制 profile 中的符号链接或目录 junction。若当前宿主包含该检查，可能报错：\n\n```\nPROFILE_UPGRADE_REQUIRED: offline dependency migration is not yet available\n```\n\n遇到该闸门时，不要使用 `link:` 依赖或 junction；使用应用内插件管理器，\n或下方的本地 tarball 安装。不同宿主的限制以自身日志和安装机制为准。\n"
           },
           {
             "field": "verification",
-            "quote": "PROFILE_UPGRADE_REQUIRED: offline dependency migration is not yet available\n```\n\n遇到该闸门时，不要使用 `link:` 依赖或 junction；使用应用内插件管理器，\n或下方的本地 tarball 安装。不同宿主的限制以自身日志和安装机制为准。\n\n以真实目录手工安\n\n## 桌面安装包（macOS，社区构建）\n\n"
+            "quote": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.\n\n# dsh-our-free-model\n\n**简体中文** | [English](README_EN.md)\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n"
           }
         ]
       },
-      "savedAt": "2026-11-25T09:49:43.089Z",
+      "savedAt": "2026-11-26T09:29:49.993Z",
       "validationIssues": [
-        "missing-chinese-scenarios"
+        "invalid-chinese-audience",
+        "missing-chinese-scenarios",
+        "missing-chinese-start-steps"
       ]
     },
     "alishahryar1/free-claude-code|openrouter/nvidia/nemotron-3.5-lightning:free": {
@@ -14285,32 +14365,28 @@
       ]
     },
     "boykopovar/anyps5|openrouter/nvidia/nemotron-3.5-lightning:free": {
-      "sourceHash": "5eaea5e06253f1fc166142b50d1c58203c3b219986f099853e83cf6f5357db66",
+      "sourceHash": "53bd49e044336f18cda3712e88a768610273f81513310f085d74f47da82e8e8b",
       "draft": {
         "kind": "app",
-        "summary": "Tool for automatic PS5 executables porting to Linux and Windows，支持在macOS包括Apple silicon上运行relinker-only build，并提供保留文件在本地设备的Web转换器。",
-        "purpose": "通过重链接将PS5可执行文件转换为目标系统的原生格式，并提供系统PRX库实现以支持动态链接，无需模拟或单独运行时进程。",
-        "audience": "开发者研究者",
+        "summary": "AnyPS5是一个工具，用于将PS5可执行文件自动移植到Linux和Windows系统，无需模拟或单独的运行进程，通过重链接转换为目标系统原生格式并提供系统PRX库实现。",
+        "purpose": "将PS5平台的可执行文件移植到Linux或Windows平台运行，通过重链接技术转换可执行文件格式，支持SDL映射的游戏手柄输入，适用于研究、保存和兼容性测试等目的。",
+        "audience": "开发者，研究人员，兼容性测试人员",
         "scenarios": [
-          "将PS5游戏或应用程序移植到Linux平台进行运行",
-          "将PS5游戏或应用程序移植到Windows平台进行运行",
-          "在macOS系统上进行PS5可执行文件的重链接构建",
-          "利用Web转换器在本地设备上转换文件而不上传",
-          "研究PS5系统库函数的实现和动态链接机制",
-          "进行PS5游戏兼容性测试和带-up工作",
-          "配置键鼠或手柄输入以进行PS5游戏运行",
-          "进行PS5系统函数知识覆盖率的研究和统计"
+          "将PS5平台的可执行文件移植到PC Linux系统进行运行测试和兼容性验证",
+          "将PS5平台的可执行文件移植到Windows操作系统以实现跨平台使用",
+          "研究PS5系统库函数的移植和动态链接实现，无需完整PS5模拟器环境",
+          "在无需完整PS5模拟器的情况下测试游戏二进制文件的跨平台兼容性"
         ],
         "steps": [
-          "访问GitHub仓库获取源码或使用在线Web转换器",
-          "按照BUILD.md文档在macOS系统上编译relinker-only build",
-          "使用USAGE.md文档了解使用方法和输入配置",
-          "配置anyps5-input.ini文件以支持键盘鼠标或手柄输入",
-          "将PS5可执行文件作为输入提供给工具进行处理",
-          "检查输出结果确认是否成功转换为目标系统格式"
+          "从GitHub仓库获取AnyPS5项目源码或访问Web转换器进行在线处理",
+          "根据BUILD.md文档在macOS（包括Apple芯片）或Linux系统上编译项目，确保安装必要的依赖工具和C++编译环境",
+          "使用命令行工具或Web转换器将PS5可执行文件转换为目标系统的原生格式",
+          "配置anyps5-input.ini文件以支持SDL映射的游戏手柄、模拟杆和扳机输入",
+          "在目标系统上运行转换后的可执行文件并观察程序行为",
+          "检查控制台输出以验证程序是否成功启动或遇到运行时错误"
         ],
-        "requirements": "macOS系统（包括Apple silicon）用于relinker-only build构建；或具备编译环境的Linux/Windows系统；PS5可执行文件作为输入；了解项目许可证为GPLv2。",
-        "verification": "检查转换后的文件是否成功转换为目标系统（Linux或Windows）的原生可执行格式；验证SPIR-V着色器是否通过Spirv-Tools验证；查看系统库函数覆盖率进度。",
+        "requirements": "拥有macOS（包括Apple芯片）或Linux系统，具备基本的C++编译环境和必要的依赖库，以及要移植的PS5可执行文件",
+        "verification": "检查转换后的可执行文件是否能在目标系统上成功启动运行，观察控制台输出是否显示预期的程序行为或错误信息",
         "evidence": [
           {
             "field": "summary",
@@ -14318,7 +14394,7 @@
           },
           {
             "field": "purpose",
-            "quote": "Includes a [relinker](core/relinker) that converts executable to the target system's native format and implementations of [system prx libraries](core/libs/prx) suitable for dynamic linking. No emulation or separate runtime process.\n\n"
+            "quote": "Tool for automatic PS5 executables porting to Linux and Windows\n\n**English** | [Português (Brasil)](docs/user/README.pt-BR.md) | [Español](docs/user/README.es.md) | [Català](docs/user/README.ca.md) | [Italiano](docs/user/README.it.md) | [简体中文](docs/user/README.zh-CN.md) | [Русский](docs/user/README.ru.md) | [Bahasa Indonesia](docs/user/README.id.md) | [Polski](docs/user/README.pl.md) | [日本語](docs/"
           },
           {
             "field": "scenarios",
@@ -14334,81 +14410,87 @@
           }
         ]
       },
-      "savedAt": "2026-11-25T09:49:43.089Z",
+      "savedAt": "2026-11-26T09:29:49.993Z",
+      "reviewIssues": [
+        "原文复核未通过，请重新逐项检查。"
+      ]
+    },
+    "jingyaogong/minimind|openrouter/nvidia/nemotron-3.5-lightning:free": {
+      "sourceHash": "89b224f71c1375136f2ecd1575e79b75d4ca3f45865758642ff4a7f754dce558",
+      "draft": {
+        "kind": "model",
+        "summary": "两小时从零训出64M超小语言模型MiniMind，提供从数据准备、训练到评估的完整LLM全阶段开源复现项目，涵盖预训练、SFT、LoRA、RLHF等全过程代码，旨在让普通个人GPU快速完成训练与复现，作为LLM入门与实践教程。",
+        "purpose": "学习大语言模型内部运作机制，理解从零训练模型的完整流程，实现个人GPU上的低成本模型训练与复现，探索MoE、数据清洗、预训练、监督微调、LoRA、RLHF（DPO/PPO/GRPO/CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全阶段代码。",
+        "audience": "AI学习者、个人研究者、GPU资源有限的开发者",
+        "scenarios": [
+          "从零开始训练约64M参数的MiniMind语言模型",
+          "使用个人GPU（如单张RTX 3090）在2小时内完成SFT阶段训练",
+          "复现MiniMind Zero对话模型并进行自然语言交互测试",
+          "探索LLM全阶段开源代码，包括预训练、SFT、LoRA微调、RLHF等",
+          "作为入门教程理解大模型内部运作机制而非仅使用高层抽象接口",
+          "下载并使用提供的预训练数据集（pretrain_t2t_mini.jsonl, sft_t2t_mini.jsonl）快速上手",
+          "将LoRA权重合并为完整模型权重并导出",
+          "使用评估工具评估模型性能并进行对话交互演示"
+        ],
+        "steps": [
+          "克隆仓库并安装依赖：git clone --depth 1 https://github.com/jingyaogong/minimind 并运行 pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple",
+          "下载数据集并放入dataset目录：从Modelscope下载pretrain_t2t_mini.jsonl和sft_t2t_mini.jsonl放入./dataset目录",
+          "安装lm-evaluation-harness：git clone https://github.com/EleutherAI/lm-evaluation-harness 并运行 pip install -e .",
+          "使用Transformers格式模型进行评估：python eval_llm.py --load_from ./minimind-3",
+          "运行对话演示：python eval_llm.py --weight full_sft --lora_weight lora_medical 并输入问题查看模型回复",
+          "合并LoRA权重：cd scripts && python convert_model.py 将LoRA权重合并回基础模型并导出为新的完整模型权重"
+        ],
+        "requirements": "Python >= 3.10, NVIDIA GPU (如RTX 3090单张用于SFT阶段), 约2小时训练时间, 约3美元GPU租用成本, Minimind仓库访问权限, Modelscope账号用于数据集下载",
+        "verification": "检查模型评估输出结果，验证模型是否能够就给定主题（如头晕原因、与OpenAI关系等）进行自然语言交互并给出合理回复，确认LoRA权重合并后模型可正常加载和推理",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.\n\n[](https://github.com/jingyaogong/minimind/stargazers)\n[](LICENSE)\n[](https://github.com/jingyaogong/minimind/commits/master)\n[](https://github.com/jingyaogong/minimind/pulls)\n[](https://huggingface.co/collections/jingyaogong/minimind-66caf8d999f5c7fa64f399e5)\n\n\n\n\n\n\n\n\n\n\n  \n### \"大道至简\"\n\n\n\n\n\n中文 | [English](./README_en.md)\n\n\n\n"
+          },
+          {
+            "field": "purpose",
+            "quote": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.\n\n[](https://github.com/jingyaogong/minimind/stargazers)\n[](LICENSE)\n[](https://github.com/jingyaogong/minimind/commits/master)\n[](https://github.com/jingyaogong/minimind/pulls)\n[](https://huggingface.co/collections/jingyaogong/minimind-66caf8d999f5c7fa64f399e5)\n\n\n\n\n\n\n\n\n\n\n  \n### \"大道至简\"\n\n\n\n\n\n中文 | [English](./README_en.md)\n\n\n\n"
+          },
+          {
+            "field": "scenarios",
+            "quote": "# 📌 项目介绍\n\n大语言模型（Large Language Model, LLM）的出现，引发了全球范围内对 AI 的空前关注。无论是 ChatGPT、DeepSeek 还是 Qwen，都以惊艳的效果让人真切感受到这场技术浪潮的冲击力。然而，动辄数百亿参数的模型规模，使得它们对个人设备而言不仅难以训练，甚至连部署都显得遥不可及。打开大模型的“黑盒子”，真正去理解其内部运作机制，本应是一件令人心潮澎湃的事。遗憾的是，绝大多数探索最终都止步于使用 LoRA 等技术对现有大模型做少量微调，学习一些新指令或特定任务。这更像是在教牛顿如何使用 21 世纪的智能手机——虽然有趣，却偏离了理解物理本质的初衷。\n\n"
+          },
+          {
+            "field": "steps",
+            "quote": "与此同时，第三方的大模型框架与工具库，如 `transformers` / `trl` / `peft` 等，往往只暴露出高度抽象的接口。只需短短十几行代码，就可以完成“加载模型 + 加载数据集 + 推理 + 强化学习”的全流程训练。这种高效\n\n# 克隆仓库、安装依赖\ngit clone --depth 1 https://github.com/jingyaogong/minimind\ncd minimind && pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple\n```\n\n\n\n# 可能需要`python>=3.10`，安装 `pip install streamlit`\n\n\n### 1' 下载数据\n\n"
+          },
+          {
+            "field": "verification",
+            "quote": "* CPU: Intel(R) Core(TM) i9-10980XE CPU @ 3.00GHz\n* RAM: 128 GB\n* GPU: NVIDIA GeForce RTX 3090 (24GB) * 8\n* Ubuntu==20.04\n* CUDA==12.2\n* Python==3.10.16\n* [requirements.txt](./requirements.txt)\n\n\n\n\n\n# 方式1：使用 Transformers 格式模型\npython eval_llm.py --load_from ./minimind-3\n\n\n# 注意：weight参数指定基础模型类型，需与train_lora训练时使用的基础模型保持一致\npython eval_llm.py  --weight full_sft --lora_weight lora_medical\n\n"
+          }
+        ]
+      },
+      "savedAt": "2026-11-26T09:29:49.993Z",
       "validationIssues": [
         "missing-chinese-scenarios"
       ]
     },
-    "jingyaogong/minimind|openrouter/nvidia/nemotron-3.5-lightning:free": {
-      "sourceHash": "ce3a5372af2e568bbc72e24499e3c0a0b88d9fcd5065aab252e8f5b4e1222dec",
-      "draft": {
-        "kind": "source",
-        "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours。此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 1/2700，力求让普通个人 GPU 也能快速完成训练与复现。项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。MiniMind 同时拓展了视觉模态模型 MiniMind-V、多模态 Omni 模型 MiniMind-O、扩散语言模型（MiniMind-dLM）、线性模型（MiniMind-Linear），详见 Discussion。项目所有核心算法代码均从 0 使用 PyTorch 原生实现，不依赖第三方库提供的高层抽象接口。这不仅是一个大语言模型全阶段开源复现项目，也是一套面向 LLM 入门与实践的教程。希望此项目能为更多人提供一个可复现、可理解、可扩展的起点，一起感受创造的乐趣，并推动更广泛 AI 社区的进步。",
-        "purpose": "与此同时，第三方的大模型框架与工具库，如 transformers / trl / peft 等，往往只暴露出高度抽象的接口。只需短短十几行代码，就可以完成“加载模型 + 加载数据集 + 推理 + 强化学习”的全流程训练。这种高效封装固然便利，却也在一定程度上把开发者与底层实现隔离开来，削弱了深入理解 LLM 核心代码的机会。我认为 “用乐高自己拼出一架飞机，远比坐在头等舱里飞行更让人兴奋”，然而更现实的问题是，互联网上充斥着大量付费课程和营销内容，用漏洞百出、一知半解的讲解包装所谓的 AI 教程。正因如此，本项目的初衷就是尽可能降低 LLM 的学习门槛，让每个人都能从理解每一行代码开始，从 0 开始亲手训练一个极小的语言模型。是的，从零开始训练，而不是仅仅停留在推理层面。最低只需不到 3 块钱的服务器成本，就能亲身体验从 0 到 1 构建一个语言模型的全过程。",
-        "audience": "AI 爱好者 学生 研究人员",
-        "scenarios": [
-          "从零训练 64M 参数语言模型并体验全训练流程",
-          "使用少量成本（约 3 元）在单张 RTX 3090 上完成 SFT 阶段训练",
-          "通过查看源码理解 LLM 核心机制，而非仅使用高层封装",
-          "快速搭建对话模型，体验 MiniMind Zero 交互能力"
-        ],
-        "steps": [
-          "克隆仓库并安装依赖：git clone --depth 1 https://github.com/jingyaogong/minimind 并运行 pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple",
-          "下载数据集并放入 ./dataset 目录：从 Modelscope 链接下载 pretrain_t2t_mini.jsonl 与 sft_t2t_mini.jsonl 并放入 dataset 目录以复现 MiniMind Zero 对话模型"
-        ],
-        "requirements": "单张 NVIDIA 3090（24GB显存）或同等显存 GPU，Python >= 3.10，约 3 元 GPU 租用成本，Internet 访问下载数据集和依赖包，建议 Ubuntu 20.04 系统",
-        "verification": "运行 eval_llm.py --load_from ./minimind-3 并输入问题，检查模型是否能生成合理的中文回答；检查 LoRA 权重是否成功合并并导出为完整模型权重",
-        "evidence": [
-          {
-            "field": "summary",
-            "quote": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.\n\n[](https://github.com/jingyaogong/minimind/stargazers)\n[](LICENSE)\n[](https://github.com/jingyaogong/minimind/commits/master)\n[](https://github.com/jingyaogong/minimind/pulls)\n[](https://huggingface.co/collections/jingyaogong/minimind-66caf8d999f5c7fa64f399e5)\n\n\n\n\n\n\n\n\n\n\n  \n### \"大道至简\"\n\n\n\n\n\n中文 | [English](./README_en.md)\n\n\n\n"
-          },
-          {
-            "field": "purpose",
-            "quote": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.\n\n[](https://github.com/jingyaogong/minimind/stargazers)\n[](LICENSE)\n[](https://github.com/jingyaogong/minimind/commits/master)\n[](https://github.com/jingyaogong/minimind/pulls)\n[](https://huggingface.co/collections/jingyaogong/minimind-66caf8d999f5c7fa64f399e5)\n\n\n\n\n\n\n\n\n\n\n  \n### \"大道至简\"\n\n\n\n\n\n中文 | [English](./README_en.md)\n\n\n\n"
-          },
-          {
-            "field": "scenarios",
-            "quote": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.\n\n[](https://github.com/jingyaogong/minimind/stargazers)\n[](LICENSE)\n[](https://github.com/jingyaogong/minimind/commits/master)\n[](https://github.com/jingyaogong/minimind/pulls)\n[](https://huggingface.co/collections/jingyaogong/minimind-66caf8d999f5c7fa64f399e5)\n\n\n\n\n\n\n\n\n\n\n  \n### \"大道至简\"\n\n\n\n\n\n中文 | [English](./README_en.md)\n\n\n\n"
-          },
-          {
-            "field": "steps",
-            "quote": "* 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。\n* MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 $\\frac{1}{2700}$，力求让普通个人 GPU 也能快速完成训练与复现。\n* 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。\n"
-          },
-          {
-            "field": "verification",
-            "quote": "* 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。\n* MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 $\\frac{1}{2700}$，力求让普通个人 GPU 也能快速完成训练与复现。\n* 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。\n"
-          }
-        ]
-      },
-      "savedAt": "2026-11-25T09:49:43.089Z",
-      "reviewIssues": [
-        "Summary 与 Purpose 与 Audience 等字段直接引用 source 片段，未提炼为独立中文导读，存在大段英文/混合文本未翻译或格式化；Steps 与 Verification 字段内容与 source 实际步骤不符，存在严重遗漏与错误；Requirements 中声称 '约 3 元 GPU 租用成本' 与 source 中 '3 块钱' 仅为定语修饰，未说明具体硬件/环境前置条件；Verification 方法仅描述运行 eval_llm.py 但未提供实际可验证的结果样例或指标，缺失关键前置条件（如数据下载、训练完成的模型权重路径）。"
-      ]
-    },
     "hkuds/deeptutor|openrouter/nvidia/nemotron-3.5-lightning:free": {
-      "sourceHash": "5a2d3b3b0273f92ae8b9086f4175223222db7196e71989bfdd76957a4f30ec83",
+      "sourceHash": "c37900ed692b1d276532f07f58f871cc6b118395df1d3686dc84812ec0100d50",
       "draft": {
         "kind": "app",
-        "summary": "DeepTutor是一个终身个性化辅导系统，提供桌面应用和CLI工具，支持模型配置、知识库管理和交互式学习。",
-        "purpose": "作为AI驱动的个人辅导助手，帮助用户通过模型、知识库和交互式学习实现终身技能提升。",
-        "audience": "学生、研究人员、开发者",
+        "summary": "DeepTutor是一个终身个人化辅导系统，提供桌面端和CLI工具，支持模块化安装、多用户部署以及丰富的学习功能，旨在通过AI技术实现持续的个性化学习体验。",
+        "purpose": "用于个人学习、技能提升和知识获取，支持通过AI助手进行终身辅导、技能树构建、学习记录管理以及跨平台的教育资源访问。",
+        "audience": "学生、教育工作者、AI爱好者、研究人员",
         "scenarios": [
-          "使用桌面应用进行离线或在线的个性化学习辅导",
-          "通过CLI工具进行模块安装和依赖管理",
-          "配置模型提供商和语言模型以启动交互式对话",
-          "管理多用户共享部署下的知识库和技能资源"
+          "使用桌面客户端进行离线或在线的个性化学习辅导",
+          "通过CLI工具进行命令行交互式的学习和技能探索",
+          "管理和共享知识库、技能树和学习记录",
+          "配置AI模型提供商并进行个性化的对话式学习"
         ],
         "steps": [
-          "从GitHub Release下载对应操作系统的桌面安装包并运行启动",
-          "在Settings中配置模型提供商和具体的语言模型",
-          "启动CLI或Web应用开始进行交互式辅导对话",
-          "使用deeptutor module install命令安装匹配的模块和依赖",
-          "使用deeptutor chat命令重启CLI或使用start命令启动Web应用",
-          "检查data/user/settings目录下的私有设置是否生效"
+          "从GitHub Release页面下载对应操作系统的DeepTutor桌面安装包",
+          "运行安装程序完成桌面客户端的部署",
+          "启动应用后在Settings中配置AI模型提供商和具体模型",
+          "开始使用界面进行对话式学习或探索知识库资源"
         ],
-        "requirements": "需要安装桌面客户端或使用CLI，并完成模型提供商和语言模型的配置",
-        "verification": "检查是否成功启动应用并能够配置模型提供商后开始对话交互",
+        "requirements": "安装前确保系统满足macOS或Windows操作系统要求，具备足够的磁盘空间和内存资源以运行桌面应用",
+        "verification": "检查应用是否成功启动并能访问Settings页面，确认模型提供商和模型配置已保存并可在聊天中使用",
         "evidence": [
           {
             "field": "summary",
@@ -14424,7 +14506,7 @@
           },
           {
             "field": "steps",
-            "quote": "# Package installations only; source checkouts use enable / disable:\ndeeptutor module install solve              # install the matching module and dependencies\ndeeptutor module uninstall solve --dry-run  # inspect the plan and dependency blockers\ndeeptutor module uninstall solve            # remove only this module's distribution\n"
+            "quote": "Desktop — macOS and Windows (Preview)\n\n**Open DeepTutor** bundles Python, Node.js, and the full learning workspace, so no terminal or separate runtime installation is needed. Download published desktop builds from the [latest GitHub Release](https://github.com/HKUDS/DeepTutor/releases/latest), choosing the installer for your computer below.\n\n"
           },
           {
             "field": "verification",
@@ -14432,9 +14514,64 @@
           }
         ]
       },
-      "savedAt": "2026-11-25T09:49:43.089Z",
+      "savedAt": "2026-11-26T09:29:49.993Z",
       "reviewIssues": [
-        "源文本为英文，但草稿要求返回简体中文导读；草稿摘要、目的、场景、步骤、需求、验证等字段内容多为空泛或与源文本无对应关系，存在严重信息缺失或虚构风险。"
+        "源文本中未提及 '终身个人化辅导系统' 等中文描述，实际为英文项目 README；draft 中的 summary、purpose、scenarios、steps、requirements 字段内容均为虚构或未经核实的翻译，与 source 实际文字无对应关系；draft 中的 verification 方法与 source 无法对比验证。"
+      ]
+    },
+    "blader/humanizer|openrouter/nvidia/nemotron-3.5-lightning:free": {
+      "sourceHash": "53c9c1d943c20cd6fd0bc73208bedabcf1b15412a0a0c12e409dde5aee4e9041",
+      "draft": {
+        "kind": "agent",
+        "summary": "Humanizer是一个Agent技能，能去除AI生成文本的痕迹，使其听起来像人类写作，同时保持原意不变。它基于维基百科关于AI写作迹象的指南，支持Claude Code、Codex及其他支持技能的代理工具。",
+        "purpose": "将AI生成的文本改写得更自然、更符合人类写作风格，消除典型的AI写作特征，提升文本的可读性和人类接受度。",
+        "audience": "使用AI代理工具的开发者、内容创作者、需要润色AI文本的用户。",
+        "scenarios": [
+          "在Claude Code或Codex等代理工具中使用/humanizer指令润色AI生成的段落",
+          "通过自然语言指令如'Please humanize this text'重写特定文本内容",
+          "对特定文件进行Humanizer处理，如'Humanize the prose in docs/launch-post.md'",
+          "批量处理多个文件或段落以消除AI写作痕迹",
+          "在盲测中验证Humanizer改写后的文本被人类判断更优",
+          "保持文本原意不变的同时去除AI写作的明显特征",
+          "配合26种模式检测和重写常见的AI写作套路",
+          "作为免费工具在每个计划中使用，无需额外费用"
+        ],
+        "steps": [
+          "安装Humanizer技能后在代理中输入/humanizer指令",
+          "粘贴需要润色的AI生成文本内容",
+          "或使用自然语言指令'Please humanize this text: [your text]'",
+          "或直接传入文件路径如'Humanize the prose in docs/launch-post.md'",
+          "Humanizer会读取当前文件并分析其中的AI写作特征",
+          "系统输出重写后的文本，保留原意但消除AI痕迹"
+        ],
+        "requirements": "需要安装Humanizer技能的代理环境，支持Claude Code、Codex或其他支持技能的AI代理工具。",
+        "verification": "检查Humanizer输出的文本是否保留了原意，同时消除了典型的AI写作特征（如'Not X but Y'、'One-line closers'等模式），可通过盲测对比原文验证效果。",
+        "evidence": [
+          {
+            "field": "summary",
+            "quote": "Agent skill that removes signs of AI-generated writing from text\n\n# Humanizer\n\nsponsored by [cfo.ai](https://cfo.ai/?utm_source=github&utm_medium=sponsorship&utm_campaign=humanizer)\n\n[](https://github.com/blader/humanizer/stargazers) [](https://skills.sh/blader/humanizer)\n\n"
+          },
+          {
+            "field": "purpose",
+            "quote": "Agent skill that removes signs of AI-generated writing from text\n\n# Humanizer\n\nsponsored by [cfo.ai](https://cfo.ai/?utm_source=github&utm_medium=sponsorship&utm_campaign=humanizer)\n\n[](https://github.com/blader/humanizer/stargazers) [](https://skills.sh/blader/humanizer)\n\n"
+          },
+          {
+            "field": "scenarios",
+            "quote": "Agent skill that removes signs of AI-generated writing from text\n\n# Humanizer\n\nsponsored by [cfo.ai](https://cfo.ai/?utm_source=github&utm_medium=sponsorship&utm_campaign=humanizer)\n\n[](https://github.com/blader/humanizer/stargazers) [](https://skills.sh/blader/humanizer)\n\n"
+          },
+          {
+            "field": "steps",
+            "quote": "Humanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), the guide Wikipedia editors use to catch AI-generated text, and it works in Claude Code, Codex, and any other agent that supports skills.\n\n**Before:**\n"
+          },
+          {
+            "field": "verification",
+            "quote": "Humanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), the guide Wikipedia editors use to catch AI-generated text, and it works in Claude Code, Codex, and any other agent that supports skills.\n\n**Before:**\n"
+          }
+        ]
+      },
+      "savedAt": "2026-11-26T09:29:49.993Z",
+      "validationIssues": [
+        "missing-chinese-scenarios"
       ]
     }
   }
